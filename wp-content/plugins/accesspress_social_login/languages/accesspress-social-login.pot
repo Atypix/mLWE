@@ -1,0 +1,481 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Accesspress social login\n"
+"POT-Creation-Date: 2015-11-15 11:38+0545\n"
+"PO-Revision-Date: 2015-11-15 11:39+0545\n"
+"Last-Translator: \n"
+"Language-Team: AccessPress Themes <devteam2070@gmail.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../accesspress-social-login.php:79
+#, php-format
+msgid "New user registration on your site %s:"
+msgstr ""
+
+#: ../accesspress-social-login.php:80 ../accesspress-social-login.php:94
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: ../accesspress-social-login.php:81
+#, php-format
+msgid "E-mail: %s"
+msgstr ""
+
+#: ../accesspress-social-login.php:86
+#, php-format
+msgid "[%s] New User Registration"
+msgstr ""
+
+#: ../accesspress-social-login.php:90
+msgid "Hi there,"
+msgstr ""
+
+#: ../accesspress-social-login.php:92
+#, php-format
+msgid "Welcome to %s! Here's your log details:"
+msgstr ""
+
+#: ../accesspress-social-login.php:95
+#, php-format
+msgid "Password: %s"
+msgstr ""
+
+#: ../accesspress-social-login.php:97
+msgid "Thanks!"
+msgstr ""
+
+#: ../accesspress-social-login.php:102
+#, php-format
+msgid "[%s] Your username and password"
+msgstr ""
+
+#: ../accesspress-social-login.php:217 ../accesspress-social-login.php:251
+msgid "Invalid Username or Password"
+msgstr ""
+
+#: ../accesspress-social-login.php:392
+msgid "Click here to login"
+msgstr ""
+
+#: ../accesspress-social-login.php:456
+msgid "Settings restored Successfully."
+msgstr ""
+
+#: ../accesspress-social-login.php:565 ../accesspress-social-login.php:594
+#: ../inc/frontend/login_integration.php:18 ../inc/frontend/shortcode.php:62
+msgid "Login"
+msgstr ""
+
+#: ../accesspress-social-login.php:573
+msgid "Username"
+msgstr ""
+
+#: ../accesspress-social-login.php:579
+msgid "Password"
+msgstr ""
+
+#: ../accesspress-social-login.php:589
+msgid "Remember Me"
+msgstr ""
+
+#: ../inc/functions.php:127 ../inc/frontend/apsl-login_check_class.php:1056
+msgid ""
+"<strong>ERROR</strong>: Cookies are blocked or not supported by your "
+"browser. You must <a href='http://www.google.com/cookies.html'>enable "
+"cookies</a> to use WordPress."
+msgstr ""
+
+#: ../inc/backend/main-page.php:8
+msgid "version "
+msgstr ""
+
+#: ../inc/backend/main-page.php:62
+msgid "Network settings"
+msgstr ""
+
+#: ../inc/backend/main-page.php:63
+msgid "Other settings"
+msgstr ""
+
+#: ../inc/backend/main-page.php:64
+msgid "How to use"
+msgstr ""
+
+#: ../inc/backend/main-page.php:65
+msgid "About"
+msgstr ""
+
+#: ../inc/backend/main-page.php:78
+msgid "Facebook"
+msgstr ""
+
+#: ../inc/backend/main-page.php:81 ../inc/backend/main-page.php:114
+#: ../inc/backend/main-page.php:150 ../inc/backend/main-page.php:192
+#: ../inc/backend/main-page.php:228 ../inc/backend/main-page.php:266
+#: ../inc/backend/main-page.php:299 ../inc/backend/main-page.php:335
+#: ../inc/backend/main-page.php:369
+msgid "Enable?"
+msgstr ""
+
+#: ../inc/backend/main-page.php:86 ../inc/backend/main-page.php:339
+msgid "App ID:"
+msgstr ""
+
+#: ../inc/backend/main-page.php:89
+msgid "App Secret:"
+msgstr ""
+
+#: ../inc/backend/main-page.php:92 ../inc/backend/main-page.php:128
+#: ../inc/backend/main-page.php:161 ../inc/backend/main-page.php:203
+#: ../inc/backend/main-page.php:239 ../inc/backend/main-page.php:277
+#: ../inc/backend/main-page.php:310 ../inc/backend/main-page.php:346
+#: ../inc/backend/main-page.php:380 ../inc/backend/main-page.php:523
+#: ../inc/backend/main-page.php:539 ../inc/backend/main-page.php:550
+#: ../inc/backend/main-page.php:565 ../inc/backend/main-page.php:584
+#: ../inc/backend/main-page.php:591 ../inc/backend/main-page.php:605
+msgid "Note:"
+msgstr ""
+
+#: ../inc/backend/main-page.php:111
+msgid "Twitter"
+msgstr ""
+
+#: ../inc/backend/main-page.php:119
+msgid "Consumer Key (API Key):"
+msgstr ""
+
+#: ../inc/backend/main-page.php:123
+msgid "Consumer Secret (API Secret):"
+msgstr ""
+
+#: ../inc/backend/main-page.php:147
+msgid "Google"
+msgstr ""
+
+#: ../inc/backend/main-page.php:154 ../inc/backend/main-page.php:196
+#: ../inc/backend/main-page.php:232 ../inc/backend/main-page.php:270
+#: ../inc/backend/main-page.php:303 ../inc/backend/main-page.php:373
+msgid "Client ID:"
+msgstr ""
+
+#: ../inc/backend/main-page.php:157 ../inc/backend/main-page.php:199
+#: ../inc/backend/main-page.php:235 ../inc/backend/main-page.php:273
+#: ../inc/backend/main-page.php:306 ../inc/backend/main-page.php:376
+msgid "Client Secret:"
+msgstr ""
+
+#: ../inc/backend/main-page.php:189
+msgid "LinkedIn"
+msgstr ""
+
+#: ../inc/backend/main-page.php:225
+msgid "Instagram"
+msgstr ""
+
+#: ../inc/backend/main-page.php:263
+msgid "Foursquare"
+msgstr ""
+
+#: ../inc/backend/main-page.php:296
+msgid "wordpress"
+msgstr ""
+
+#: ../inc/backend/main-page.php:332
+msgid "Vkonate"
+msgstr ""
+
+#: ../inc/backend/main-page.php:342
+msgid "Secure Key:"
+msgstr ""
+
+#: ../inc/backend/main-page.php:366
+msgid "Buffer"
+msgstr ""
+
+#: ../inc/backend/main-page.php:409
+msgid "Social Login"
+msgstr ""
+
+#: ../inc/backend/main-page.php:412
+msgid "Enable social login?"
+msgstr ""
+
+#: ../inc/backend/main-page.php:417
+msgid "Enable social login in Buddypress?"
+msgstr ""
+
+#: ../inc/backend/main-page.php:422
+msgid "Enable social login in Woocommerce?"
+msgstr ""
+
+#: ../inc/backend/main-page.php:432
+msgid "Display options"
+msgstr ""
+
+#: ../inc/backend/main-page.php:434
+msgid ""
+"Please choose the options where you want to display the social login form."
+msgstr ""
+
+#: ../inc/backend/main-page.php:435
+msgid "Login Form"
+msgstr ""
+
+#: ../inc/backend/main-page.php:436
+msgid "Register Form"
+msgstr ""
+
+#: ../inc/backend/main-page.php:437
+msgid "Comments"
+msgstr ""
+
+#: ../inc/backend/main-page.php:444
+msgid "Set user role"
+msgstr ""
+
+#: ../inc/backend/main-page.php:446
+msgid "User role"
+msgstr ""
+
+#: ../inc/backend/main-page.php:464
+msgid "Available icon themes"
+msgstr ""
+
+#: ../inc/backend/main-page.php:469
+msgid "Theme "
+msgstr ""
+
+#: ../inc/backend/main-page.php:481
+msgid "Text Settings"
+msgstr ""
+
+#: ../inc/backend/main-page.php:484
+msgid "Login text:"
+msgstr ""
+
+#: ../inc/backend/main-page.php:488
+msgid "Login short text:"
+msgstr ""
+
+#: ../inc/backend/main-page.php:493
+msgid "Login with long text:"
+msgstr ""
+
+#: ../inc/backend/main-page.php:498
+msgid "Link title attribute:"
+msgstr ""
+
+#: ../inc/backend/main-page.php:503
+msgid "Login error message:"
+msgstr ""
+
+#: ../inc/backend/main-page.php:512
+msgid "Logout redirect link"
+msgstr ""
+
+#: ../inc/backend/main-page.php:514 ../inc/backend/main-page.php:535
+msgid "Home page"
+msgstr ""
+
+#: ../inc/backend/main-page.php:515 ../inc/backend/main-page.php:536
+msgid "Current page"
+msgstr ""
+
+#: ../inc/backend/main-page.php:516 ../inc/backend/main-page.php:543
+msgid "Custom page"
+msgstr ""
+
+#: ../inc/backend/main-page.php:520
+msgid "Logout redirect page:"
+msgstr ""
+
+#: ../inc/backend/main-page.php:533
+msgid "Login redirect link"
+msgstr ""
+
+#: ../inc/backend/main-page.php:547
+msgid "Login redirect page:"
+msgstr ""
+
+#: ../inc/backend/main-page.php:560
+msgid "User avatar"
+msgstr ""
+
+#: ../inc/backend/main-page.php:562
+msgid "Use wordpress provided default avatar."
+msgstr ""
+
+#: ../inc/backend/main-page.php:563
+msgid "Use the profile picture from social media where available."
+msgstr ""
+
+#: ../inc/backend/main-page.php:574
+msgid "Email notification settings"
+msgstr ""
+
+#: ../inc/backend/main-page.php:576
+msgid "Send email notification to both user and site admin."
+msgstr ""
+
+#: ../inc/backend/main-page.php:581
+msgid "Sender Email Address:"
+msgstr ""
+
+#: ../inc/backend/main-page.php:582
+msgid "Email Body:"
+msgstr ""
+
+#: ../inc/backend/main-page.php:589
+msgid "Do not send email notification to both user and site admin."
+msgstr ""
+
+#: ../inc/backend/main-page.php:600
+msgid "Username and email settings"
+msgstr ""
+
+#: ../inc/backend/main-page.php:602
+msgid "Allow user to change their username."
+msgstr ""
+
+#: ../inc/backend/main-page.php:603
+msgid "Allow user to change email address."
+msgstr ""
+
+#: ../inc/backend/main-page.php:628
+msgid "Save settings"
+msgstr ""
+
+#: ../inc/backend/main-page.php:633
+msgid "Are you sure you want to restore default settings?"
+msgstr ""
+
+#: ../inc/backend/save-settings.php:170
+msgid "Settings Saved Successfully."
+msgstr ""
+
+#: ../inc/backend/widget.php:15
+msgid "AccessPress Social Login"
+msgstr ""
+
+#: ../inc/backend/widget.php:16
+msgid "AccessPress Social Login Widget"
+msgstr ""
+
+#: ../inc/backend/widget.php:51 ../inc/backend/widget.php:173
+msgid "Title: "
+msgstr ""
+
+#: ../inc/backend/widget.php:56 ../inc/backend/widget.php:178
+msgid "Login Text: "
+msgstr ""
+
+#: ../inc/backend/widget.php:63 ../inc/backend/widget.php:192
+msgid "Theme: "
+msgstr ""
+
+#: ../inc/backend/widget.php:133
+msgid "AccessPress Social Login with login form"
+msgstr ""
+
+#: ../inc/backend/widget.php:134
+msgid "AccessPress Social Login with login form Widget"
+msgstr ""
+
+#: ../inc/backend/widget.php:183
+msgid "Template: "
+msgstr ""
+
+#: ../inc/frontend/login_check.php:21
+msgid ""
+"The Facebook SDK requires PHP version 5.4 or higher. Please notify about "
+"this error to site admin."
+msgstr ""
+
+#: ../inc/frontend/login_integration.php:6 ../inc/frontend/shortcode.php:51
+msgid "You have Access Denied. Please authorize the app to login."
+msgstr ""
+
+#: ../inc/frontend/login_integration.php:15
+#: ../inc/frontend/login_integration.php:19 ../inc/frontend/shortcode.php:59
+#: ../inc/frontend/shortcode.php:63
+msgid "Login with"
+msgstr ""
+
+#: ../inc/frontend/register_page.php:10
+msgid ""
+"Hey! Your email already exist in our system. Please change email address to "
+"continue or you can link your account by going back."
+msgstr ""
+
+#: ../inc/frontend/register_page.php:17
+msgid "Username already exist."
+msgstr ""
+
+#: ../inc/frontend/register_page.php:69
+msgid "Invalid Username or Password."
+msgstr ""
+
+#: ../inc/frontend/register_page.php:84
+msgid ""
+"You've now successfully authorized your social profile account but you are "
+"still one step away for logging into website."
+msgstr ""
+
+#: ../inc/frontend/register_page.php:89
+msgid "Have an account?"
+msgstr ""
+
+#: ../inc/frontend/register_page.php:90
+msgid ""
+"Simply click the below button to link you social profile with existing "
+"account."
+msgstr ""
+
+#: ../inc/frontend/register_page.php:91
+msgid "Link my account"
+msgstr ""
+
+#: ../inc/frontend/register_page.php:94
+msgid "New to website?"
+msgstr ""
+
+#: ../inc/frontend/register_page.php:95
+msgid "Simply click the below button to do simple registration to our site."
+msgstr ""
+
+#: ../inc/frontend/register_page.php:96
+msgid "Create my account"
+msgstr ""
+
+#: ../inc/frontend/register_page.php:104 ../inc/frontend/register_page.php:122
+msgid "Username:"
+msgstr ""
+
+#: ../inc/frontend/register_page.php:108
+msgid "Email:"
+msgstr ""
+
+#: ../inc/frontend/register_page.php:112 ../inc/frontend/register_page.php:135
+msgid "Continue"
+msgstr ""
+
+#: ../inc/frontend/register_page.php:114
+msgid "Back"
+msgstr ""
+
+#: ../inc/frontend/register_page.php:128
+msgid "Password:"
+msgstr ""
+
+#: ../inc/frontend/shortcode_with_login_form.php:52
+msgid "OR"
+msgstr ""

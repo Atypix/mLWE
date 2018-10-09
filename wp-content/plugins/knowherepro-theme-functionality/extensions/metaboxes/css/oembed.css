@@ -1,0 +1,11 @@
+.mad-oembed-wrapper .spinner {
+	float: none;
+	vertical-align: top;
+	display: inline-block;
+}
+.mad-embed-media {
+	margin-top: 1em;
+}
+.mad-embed-media iframe {
+	max-width: 100%;
+}

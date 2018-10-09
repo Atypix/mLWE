@@ -1,0 +1,14 @@
+.mad-autocomplete-result {
+	border-bottom: 1px solid #ccc;
+	padding: 1em 0;
+	overflow: hidden;
+}
+.mad-autocomplete-result .label {
+	float: left;
+	width: 90%;
+}
+.mad-autocomplete-result .actions {
+	width: 10%;
+	float: right;
+	cursor: pointer;
+}

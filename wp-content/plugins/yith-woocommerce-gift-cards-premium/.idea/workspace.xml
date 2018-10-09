@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="256734f4-5f98-435e-a9c9-c1dde8b4a48e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin-fw" afterPath="$PROJECT_DIR$/plugin-fw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/ywgc-frontend.css" afterPath="$PROJECT_DIR$/assets/css/ywgc-frontend.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/ywgc-frontend.js" afterPath="$PROJECT_DIR$/assets/js/ywgc-frontend.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/init.php" afterPath="$PROJECT_DIR$/init.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/yith-woocommerce-gift-cards.pot" afterPath="$PROJECT_DIR$/languages/yith-woocommerce-gift-cards.pot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/class-yith-ywgc-cart-checkout.php" afterPath="$PROJECT_DIR$/lib/class-yith-ywgc-cart-checkout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/class-yith-ywgc-frontend-premium.php" afterPath="$PROJECT_DIR$/lib/class-yith-ywgc-frontend-premium.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/yith-gift-cards/gift-card-details.php" afterPath="$PROJECT_DIR$/templates/yith-gift-cards/gift-card-details.php" />
+    </list>
+    <ignored path="yith-woocommerce-gift-cards-premium.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="yith-woocommerce-gift-cards-premium" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ywgc-frontend.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/ywgc-frontend.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="110" column="62" selection-start-line="110" selection-start-column="59" selection-end-line="110" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gift-card-details.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/yith-gift-cards/gift-card-details.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="40" column="35" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class-yith-ywgc-frontend-premium.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/class-yith-ywgc-frontend-premium.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="330" column="46" selection-start-line="330" selection-start-column="21" selection-end-line="330" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lib/class-yith-ywgc-gift-card-premium.php" />
+        <option value="$PROJECT_DIR$/templates/myaccount/my-giftcards.php" />
+        <option value="$PROJECT_DIR$/../woocommerce-aelia-currencyswitcher/src/lib/classes/multiprice/WC27/wc-aelia-currencyprices-manager.php" />
+        <option value="$PROJECT_DIR$/../woocommerce/includes/admin/meta-boxes/views/html-order-items.php" />
+        <option value="$PROJECT_DIR$/../woocommerce/includes/class-wc-order.php" />
+        <option value="$PROJECT_DIR$/lib/class-yith-ywgc-backend-premium.php" />
+        <option value="$PROJECT_DIR$/../woocommerce/templates/cart/cart-totals.php" />
+        <option value="$PROJECT_DIR$/../../themes/twentysixteen/woocommerce/checkout/form-gift-cards_.php" />
+        <option value="$PROJECT_DIR$/lib/class-yith-woocommerce-gift-cards.php" />
+        <option value="$PROJECT_DIR$/../../themes/twentysixteen/woocommerce/checkout/form-gift-cards.php" />
+        <option value="$PROJECT_DIR$/lib/class-yith-ywgc-emails.php" />
+        <option value="$PROJECT_DIR$/../../themes/flatsome-child/functions.php" />
+        <option value="$PROJECT_DIR$/../../themes/atelier/woocommerce/loop/add-to-cart.php" />
+        <option value="$PROJECT_DIR$/../../themes/atelier/woocommerce/single-product/add-to-cart/simple.php" />
+        <option value="$PROJECT_DIR$/../../themes/atelier/functions.php" />
+        <option value="$PROJECT_DIR$/assets/js/ywgc-frontend.min.js" />
+        <option value="$PROJECT_DIR$/init.php" />
+        <option value="$PROJECT_DIR$/readme.txt" />
+        <option value="$PROJECT_DIR$/../../themes/atelier-child/functions.php" />
+        <option value="$PROJECT_DIR$/../../themes/atelier/js/respond.js" />
+        <option value="$PROJECT_DIR$/../../themes/atelier/js/functions.js" />
+        <option value="$PROJECT_DIR$/../../themes/atelier-child/woocommerce/single-product/add-to-cart/gift-card-add-to-cart.php" />
+        <option value="$PROJECT_DIR$/../../themes/flatsome/yith-ywgc-customization.js" />
+        <option value="$PROJECT_DIR$/../../themes/flatsome/functions.php" />
+        <option value="$PROJECT_DIR$/../yith-gift-card-flatsome-compatibility/init.php" />
+        <option value="$PROJECT_DIR$/lib/class-yith-ywgc-backend.php" />
+        <option value="$PROJECT_DIR$/templates/yith-gift-cards/gift-card-design.php" />
+        <option value="$PROJECT_DIR$/../woocommerce/includes/gateways/paypal/includes/class-wc-gateway-paypal-request.php" />
+        <option value="$PROJECT_DIR$/../woocommerce/includes/class-wc-cart.php" />
+        <option value="$PROJECT_DIR$/../../themes/twentysixteen/woocommerce/yith-gift-cards/gift-card.php" />
+        <option value="$PROJECT_DIR$/../../themes/twentysixteen/woocommerce/yith-gift-cards/gift-card-details.php" />
+        <option value="$PROJECT_DIR$/lib/class-yith-ywgc-frontend.php" />
+        <option value="$PROJECT_DIR$/../../themes/storefront/functions.php" />
+        <option value="$PROJECT_DIR$/../../debug.log" />
+        <option value="$PROJECT_DIR$/lib/class-yith-ywgc-cart-checkout.php" />
+        <option value="$PROJECT_DIR$/templates/single-product/add-to-cart/gift-card.php" />
+        <option value="$PROJECT_DIR$/../../themes/twentysixteen/woocommerce/single-product/add-to-cart/gift-card.php" />
+        <option value="$PROJECT_DIR$/../../themes/twentysixteen/woocommerce/single-product/add-to-cart/gift-card-ad-to-cart.php" />
+        <option value="$PROJECT_DIR$/../../themes/twentysixteen/woocommerce/single-product/add-to-cart/gift-card-add-to-cart.php" />
+        <option value="$PROJECT_DIR$/../woocommerce/templates/global/quantity-input.php" />
+        <option value="$PROJECT_DIR$/templates/single-product/add-to-cart/gift-card-add-to-cart.php" />
+        <option value="$PROJECT_DIR$/../yith-deny-coupon-for-gift-card/custom.js" />
+        <option value="$PROJECT_DIR$/../yith-show-total-amount-in-product-page/custom.js" />
+        <option value="$PROJECT_DIR$/../yith-show-total-amount-in-product-page/init.php" />
+        <option value="$PROJECT_DIR$/lib/class-yith-ywgc-frontend-premium.php" />
+        <option value="$PROJECT_DIR$/templates/yith-gift-cards/gift-card-template.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/lib/class-yith-woocommerce-gift-cards-premium.php" />
+        <option value="$PROJECT_DIR$/../../themes/twentysixteen/functions.php" />
+        <option value="$PROJECT_DIR$/assets/js/ywgc-frontend.js" />
+        <option value="$PROJECT_DIR$/templates/yith-gift-cards/gift-card-details.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="24" />
+    <option name="width" value="1920" />
+    <option name="height" value="1009" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-subscription-premium" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-subscription-premium" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-gift-cards" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yith-woocommerce-gift-cards-premium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twentysixteen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="TEXT" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../themes/twentysixteen/woocommerce/single-product/add-to-cart" />
+      <recent name="$PROJECT_DIR$/../../themes/twentysixteen/woocommerce" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="256734f4-5f98-435e-a9c9-c1dde8b4a48e" name="Default" comment="" />
+      <created>1500362640208</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1500362640208</updated>
+      <workItem from="1500362642494" duration="1286000" />
+      <workItem from="1500386006584" duration="2751000" />
+      <workItem from="1500476191693" duration="1668000" />
+      <workItem from="1500535771442" duration="38000" />
+      <workItem from="1500644968388" duration="4657000" />
+      <workItem from="1500793959742" duration="225000" />
+      <workItem from="1500794559172" duration="24000" />
+      <workItem from="1500796189840" duration="3572000" />
+      <workItem from="1500822833093" duration="1972000" />
+      <workItem from="1500977729398" duration="103000" />
+      <workItem from="1500983954479" duration="1143000" />
+      <workItem from="1501054201022" duration="23000" />
+      <workItem from="1501226515191" duration="1258000" />
+      <workItem from="1501235464477" duration="1721000" />
+      <workItem from="1501486200061" duration="4878000" />
+      <workItem from="1501491406910" duration="21000" />
+      <workItem from="1501512372086" duration="1238000" />
+      <workItem from="1501572132975" duration="46000" />
+      <workItem from="1501832275096" duration="2454000" />
+      <workItem from="1501840716701" duration="3801000" />
+      <workItem from="1503317175335" duration="2082000" />
+      <workItem from="1503324861448" duration="945000" />
+      <workItem from="1503389573439" duration="4732000" />
+      <workItem from="1503397264833" duration="4189000" />
+      <workItem from="1503472748155" duration="6458000" />
+      <workItem from="1503493853603" duration="3840000" />
+      <workItem from="1503564105052" duration="6795000" />
+      <workItem from="1503582647999" duration="3069000" />
+      <workItem from="1503645803352" duration="33000" />
+      <workItem from="1503647871513" duration="1920000" />
+      <workItem from="1504013341783" duration="5340000" />
+      <workItem from="1504078420977" duration="3179000" />
+      <workItem from="1504165813226" duration="1365000" />
+      <workItem from="1504251453059" duration="615000" />
+      <workItem from="1504259564824" duration="2838000" />
+      <workItem from="1504511774211" duration="1306000" />
+      <workItem from="1504772369119" duration="8337000" />
+      <workItem from="1504857460005" duration="1318000" />
+      <workItem from="1505201949414" duration="5065000" />
+      <workItem from="1505208249417" duration="339000" />
+      <workItem from="1505209018763" duration="10965000" />
+      <workItem from="1505307396898" duration="1546000" />
+      <workItem from="1505377683290" duration="1335000" />
+      <workItem from="1505381756968" duration="422000" />
+      <workItem from="1505382412190" duration="10141000" />
+      <workItem from="1505399371650" duration="1744000" />
+      <workItem from="1505466049899" duration="731000" />
+      <workItem from="1505721135819" duration="1469000" />
+      <workItem from="1505810764787" duration="3432000" />
+      <workItem from="1505832668207" duration="972000" />
+      <workItem from="1505893307934" duration="2679000" />
+      <workItem from="1505982362320" duration="2516000" />
+      <workItem from="1505995194758" duration="3592000" />
+      <workItem from="1506064577402" duration="2952000" />
+      <workItem from="1506076279913" duration="1037000" />
+      <workItem from="1506089138868" duration="1183000" />
+      <workItem from="1506092615122" duration="599000" />
+      <workItem from="1506497311053" duration="1241000" />
+      <workItem from="1506515448479" duration="2074000" />
+      <workItem from="1506672774406" duration="1189000" />
+      <workItem from="1506689349554" duration="465000" />
+      <workItem from="1506693415464" duration="3888000" />
+      <workItem from="1506932275387" duration="3172000" />
+      <workItem from="1507018463491" duration="1381000" />
+      <workItem from="1507024050899" duration="3464000" />
+      <workItem from="1507035150710" duration="1664000" />
+      <workItem from="1507190463551" duration="1202000" />
+      <workItem from="1507199069879" duration="2829000" />
+      <workItem from="1507213617057" duration="2628000" />
+      <workItem from="1507282611996" duration="3499000" />
+      <workItem from="1507290937714" duration="705000" />
+      <workItem from="1507293062227" duration="1084000" />
+      <workItem from="1507300463905" duration="606000" />
+      <workItem from="1507535423764" duration="900000" />
+      <workItem from="1507546579292" duration="4143000" />
+      <workItem from="1507622933717" duration="21000" />
+      <workItem from="1507627104425" duration="892000" />
+      <workItem from="1507888198777" duration="2292000" />
+      <workItem from="1507897352427" duration="1263000" />
+      <workItem from="1507906748340" duration="766000" />
+      <workItem from="1508142619729" duration="3273000" />
+      <workItem from="1508226274024" duration="1211000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="189811000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="24" width="1920" height="1009" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29775882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35455543" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../../wp-includes/option.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-652">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/class-yith-ywgc-backend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="746" column="47" selection-start-line="746" selection-start-column="47" selection-end-line="746" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../woocommerce/includes/gateways/paypal/class-wc-gateway-paypal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4830">
+          <caret line="332" column="24" selection-start-line="332" selection-start-column="19" selection-end-line="332" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../woocommerce/includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../yith-dynamic-pricing-per-payment-method-for-woocommerce-premium/includes/class.yith-wcdppm-dynamic-payment-methods-frontend-premium.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../yith-dynamic-pricing-per-payment-method-for-woocommerce-premium/includes/class.yith-wcdppm-dynamic-payment-methods-frontend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="134" column="23" selection-start-line="134" selection-start-column="23" selection-end-line="134" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/yith-gift-cards/gift-card-design.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/class-yith-ywgc-backend-premium.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="141" column="12" selection-start-line="141" selection-start-column="12" selection-end-line="141" selection-end-column="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../woocommerce/includes/legacy/abstract-wc-legacy-order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="741" column="71" selection-start-line="741" selection-start-column="71" selection-end-line="741" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/class-yith-wc-product-gift-card.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="321" column="12" selection-start-line="321" selection-start-column="12" selection-end-line="321" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../woocommerce/includes/gateways/paypal/includes/class-wc-gateway-paypal-request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="204" column="73" selection-start-line="204" selection-start-column="60" selection-end-line="204" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../woocommerce/includes/abstracts/abstract-wc-order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4725">
+          <caret line="315" column="20" selection-start-line="315" selection-start-column="20" selection-end-line="315" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../woocommerce/includes/class-wc-cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30435">
+          <caret line="2029" column="20" selection-start-line="2029" selection-start-column="20" selection-end-line="2029" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/status.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../themes/twentysixteen/woocommerce/yith-gift-cards/gift-card-details_.php" />
+    <entry file="file://$PROJECT_DIR$/../../themes/storefront/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="75" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../debug.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/class-yith-ywgc-cart-checkout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="340" column="61" selection-start-line="340" selection-start-column="61" selection-end-line="340" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../woocommerce/includes/wc-template-functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="1107" column="26" selection-start-line="1107" selection-start-column="26" selection-end-line="1107" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../themes/twentysixteen/woocommerce/single-product/add-to-cart/gift-card.php" />
+    <entry file="file://$PROJECT_DIR$/../../themes/twentysixteen/woocommerce/single-product/add-to-cart/gift-card-add-to-cart.php" />
+    <entry file="file://$PROJECT_DIR$/templates/single-product/add-to-cart/gift-card.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="33" column="78" selection-start-line="33" selection-start-column="78" selection-end-line="33" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/single-product/add-to-cart/gift-card-add-to-cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../woocommerce/templates/global/quantity-input.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../woocommerce/templates/order/order-details-customer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../woocommerce/includes/abstracts/abstract-wc-data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="616" column="23" selection-start-line="616" selection-start-column="23" selection-end-line="616" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../woocommerce/includes/class-wc-order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="718" column="29" selection-start-line="718" selection-start-column="29" selection-end-line="718" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../yith-deny-coupon-for-gift-card/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="31" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../woocommerce/assets/js/frontend/woocommerce.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../yith-deny-coupon-for-gift-card/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="7" selection-start-line="1" selection-start-column="4" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../yith-show-total-amount-in-product-page/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="61" column="112" selection-start-line="61" selection-start-column="112" selection-end-line="61" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../yith-show-total-amount-in-product-page/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../woocommerce/assets/js/frontend/single-product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2622">
+          <caret line="64" column="94" selection-start-line="64" selection-start-column="92" selection-end-line="64" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/class-yith-ywgc-frontend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../yith-woocommerce-quick-view-premium/templates/yith-quick-view-content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="28" column="61" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/emails/send-gift-card.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/class-yith-woocommerce-gift-cards.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="259" column="47" selection-start-line="259" selection-start-column="24" selection-end-line="259" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="150" column="1" selection-start-line="150" selection-start-column="1" selection-end-line="150" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/yith-gift-cards/gift-card-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/ywgc-categories.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="63" column="27" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../wp-includes/cron.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="794" column="9" selection-start-line="794" selection-start-column="9" selection-end-line="794" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../woocommerce/templates/content-single-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/class-yith-woocommerce-gift-cards-premium.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="890" column="8" selection-start-line="890" selection-start-column="8" selection-end-line="890" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../themes/twentysixteen/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="942" column="0" selection-start-line="942" selection-start-column="2" selection-end-line="966" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../yith-woocommerce-subscription-premium/includes/class.ywsbs-susbscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/yith-gift-cards/gift-card-generator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/ywgc-frontend.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="110" column="62" selection-start-line="110" selection-start-column="59" selection-end-line="110" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/yith-gift-cards/gift-card-details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="40" column="35" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/class-yith-ywgc-frontend-premium.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="330" column="46" selection-start-line="330" selection-start-column="21" selection-end-line="330" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

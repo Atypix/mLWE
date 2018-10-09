@@ -1,0 +1,20 @@
+.mad-input-list li{
+	line-height: 22px;
+}
+
+.mad-input-list.inline li{
+	display:inline-block;
+	margin-right: 0;
+  line-height:1;
+}
+.mad-input-list.inline li label {
+	margin-right: 10px;
+}
+
+.mad-input-list.inline {
+    margin:0;
+}
+
+li .mad-input-list {
+	margin-left: 15px;
+}

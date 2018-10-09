@@ -1,0 +1,490 @@
+::-moz-selection {
+	background-color: #70af1a;
+}
+::selection {
+	background-color: #70af1a;
+}
+body {
+	font-family: Heebo;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #777777;
+}
+h1 {
+	font-family: Heebo;
+	font-weight: 400;
+	font-size: 36px;
+	color: #222222;
+}
+h2 {
+	font-family: Heebo;
+	font-weight: 400;
+	font-size: 30px;
+	color: #222222;
+}
+h3 {
+	font-family: Heebo;
+	font-weight: 500;
+	font-size: 18px;
+	color: #222222;
+}
+h4 {
+	font-family: Heebo;
+	font-weight: 400;
+	font-size: 18px;
+	color: #222222;
+}
+h5 {
+	font-family: Heebo;
+	font-weight: 400;
+	font-size: 16px;
+	color: #222222;
+}
+h6 {
+	font-family: Heebo;
+	font-weight: 400;
+	font-size: 15px;
+	color: #222222;
+}
+a {
+	color: #70af1a;
+}
+a:hover {
+	color: #70af1a;
+}
+a:focus {
+	color: #70af1a;
+}
+.kw-sidebar .widget .kw-more-link,
+li.ui-timepicker-selected,
+.ui-timepicker-list li:hover,
+.ui-timepicker-list .ui-timepicker-selected:hover,
+.ui-timepicker-list:hover .ui-timepicker-selected,
+.widget_shopping_cart_content .total {
+	color: #70af1a;
+}
+.kw-sidebar .widget a:hover,
+.kw-sidebar .widget a:focus,
+.kw-column-sidebar .widget a:hover,
+.kw-column-sidebar .widget a:focus,
+.kw-header.kw-dark .kw-social-links > li > a:hover,
+.kw-header.kw-dark .kw-social-links > li > a:focus,
+.kw-header.kw-light .kw-social-links > li > a:hover,
+.kw-header.kw-light .kw-social-links > li > a:focus,
+.kw-dropdown-list a:hover,
+.kw-employer a:hover,
+.kw-page-header.kw-dark .kw-employer a:hover,
+.kw-header.kw-light .kw-dropdown-list a:hover,
+.kw-header.kw-light .kw-dropdown-list a:focus,
+.kw-header.kw-dark .kw-dropdown-list a:hover,
+a.kw-author-name:hover,
+a.kw-author-name:focus,
+.kw-listing-item .kw-listing-action:hover,
+.kw-listing-item .kw-listing-action:focus,
+.kw-listing-item .kw-listing-price a:hover,
+.kw-listing-item .kw-listing-price a:focus,
+.kw-listing-item .kw-listing-extra-container a:hover,
+.kw-listing-item .kw-listing-extra-container a:focus,
+.kw-listing-item .kw-listing-action .knowhere-is-bookmarked,
+.kw-category-item a:hover,
+.kw-category-item a:focus,
+.rwp-u-review__sharing-icon:hover,
+.kw-listing-item-title a:hover,
+.kw-listing-item-title a:focus,
+.kw-categories-item-list a:hover .kw-amount,
+.kw-categories-item-list a:focus .kw-amount,
+.kw-listings.kw-type-3 .kw-listing-item-title a:hover,
+.kw-listings.kw-type-3 .kw-listing-item-title a:focus,
+.kw-listings.kw-type-4 .kw-listing-item-name:hover,
+.kw-listings.kw-type-4 .kw-listing-item-name:focus {
+	color: #70af1a;
+}
+.woocommerce-MyAccount-content a:hover,
+.kw-table-container a:hover,
+.kw-table-container a:focus,
+.kw-category-item-title a:hover .kw-category-item-icon,
+.kw-category-item-title a:focus .kw-category-item-icon,
+.kw-categories-item-list a:hover .kw-amount,
+.kw-categories-item-list a:focus .kw-amount,
+.kw-listings.kw-type-1 .kw-listing-item-info a:hover,
+.kw-listings.kw-type-1 .kw-listing-item-info a:focus,
+.kw-entry-title a:hover,
+.kw-entry-title a:focus,
+.kw-entry-meta a:hover,
+.kw-entry-meta a:focus,
+.kw-entry .kw-link:hover,
+.kw-entry .kw-link:focus,
+.comments-list .comment-edit-link:hover,
+.comments-list .comment-reply-link:hover,
+.comments-list .comment-meta .comment-edit-link:hover,
+.comments-list .comment-meta .comment-reply-link:hover,
+.comments-list .comment-edit-link:focus,
+.comments-list .comment-reply-link:focus,
+.comments-list .comment-meta .comment-edit-link:focus,
+.comments-list .comment-meta .comment-reply-link:focus {
+	color: #70af1a;
+}
+.kw-categories .kw-category-item-icon,
+.kw-categories .kw-category-item-icon svg,
+.kw-counters-holder .kw-counter .kw-counter-value,
+.kw-iconbox.kw-type-2 .kw-icon-wrap,
+.kw-listing-item-icon,
+.kw-pp-price,
+.kw-pin-icon,
+.kw-entry .kw-link::after,
+.price ins,
+.kw-box .kw-entry-cats a,
+.posted_in,
+.kw-dropcap,
+.kw-custom-select .kw-options-list a:hover,
+.kw-custom-select .kw-options-list .kw-active,
+.kw-page-header .kw-entry-cats a,
+.kw-page-header .kw-entry-cats a:hover,
+.kw-page-header .kw-entry-cats a:focus,
+.kw-page-header .posted_in a,
+.kw-page-header .posted_in a:hover,
+.kw-page-header .posted_in a:focus,
+.job-manager-form fieldset .kw-info-icon,
+[class*="kw-element-list"] li .fa,
+[class*="kw-element-list"] li [class*="icon-"],
+.rwp-u-review__positive-count,
+.rwp-u-review__positive-icon:before,
+.kw-icons-list > li .fa,
+.kw-icons-list > li [class*="icon-"],
+.chosen-container .chosen-results li.highlighted,
+.kw-tabs.kw-type-2 .kw-tabs-nav a:hover,
+.kw-tabs.kw-type-2 .kw-tabs-nav a:focus,
+.kw-tabs.kw-type-2 .kw-tabs-nav .kw-active,
+.kw-filter-item.kw-active,
+.kw-filter-item:hover,
+.kw-filter-item:focus,
+.job_description li::before,
+.kw-datalist-dd,
+.kw-datalist-item .fa,
+.kw-front-categories a:hover .kw-cat-text,
+.kw-datalist-item [class*="icon-"],
+.job_description li:before,
+.kw-resume-item-data > li [class*="icon-"],
+.apply-with-facebook-profile li:before {
+	color: #70af1a;
+}
+.kw-categories .kw-category-item-icon,
+.kw-listings.kw-type-1 .job_listing,
+.kw-listing-item,
+.kw-entry,
+.kw-entry .kw-link::after,
+.kw-tabs.kw-type-2 .kw-tabs-nav a:hover,
+.kw-tabs.kw-type-2 .kw-tabs-nav a:focus,
+.kw-tabs.kw-type-2 .kw-tabs-nav .kw-active,
+.kw-header.kw-theme-color .kw-bottom-bar .kw-mobile-nav-btn,
+.kw-filter-item.kw-active,
+.kw-filter-item:hover,
+.kw-filter-item:focus {
+	border-color: #70af1a;
+}
+.kw-categories .kw-category-item-icon svg,
+.kw-categories .kw-category-item-icon svg *,
+.kw-listing-item-icon svg,
+.kw-listing-item-icon svg *,
+.kw-front-categories .kw-category-item-icon svg,
+.kw-pin.kw-pin-selected #selected {
+	fill: #70af1a;
+}
+blockquote,
+input[type="submit"],
+.tagcloud a:hover,
+.kw-tags-links a:hover,
+.widget .tagcloud a:hover,
+.tagcloud a:focus,
+.widget .tagcloud a:focus,
+.widget_calendar table #today,
+.added_to_cart,
+.ui-slider .ui-slider-handle,
+.woocommerce.widget .ui-slider .ui-slider-range,
+.woocommerce #respond input#submit,
+.woocommerce button.button,
+.woocommerce input.button,
+.wishlist_table .add_to_cart.button,
+.kw-entry-tags a:hover,
+[class*="kw-btn"].kw-theme-color,
+.claim-listing,
+.kw-pricing-plan.kw-active,
+.kw-listing-item-like,
+.kw-newsletter-section,
+.kw-counters-holder.kw-type-2,
+.kw-stats .kw-stats-item,
+.kw-header.kw-theme-color .kw-bottom-bar .kw-mobile-nav-btn,
+.kw-type-1.kw-light [class*="kw-btn"].kw-white-type-2,
+.woocommerce-account .woocommerce-MyAccount-navigation li:hover > a,
+.woocommerce-account .woocommerce-MyAccount-navigation li.is-active > a,
+#job-manager-job-dashboard .account-sign-in .button,
+.delete_job_application,
+.job-manager-form fieldset div.field.account-sign-in .button,
+.kw-pbar-wrap .kw-pbar .kw-pbar-inner,
+.kw-additional-nav .kw-current > a,
+.kw-front-categories a:hover .kw-category-item-icon,
+.chosen-container-multi .chosen-choices li.search-choice:hover,
+.kw-no-touchevents .kw-additional-nav li:hover > a,
+.rwp-review-wrap .rwp-review .rwp-users-reviews-wrap .rwp-people-label em a {
+	background-color: #70af1a;
+}
+.price-range-advanced.ui-slider-horizontal .ui-slider-range {
+	background: rgba(112, 175, 26, 0.8);
+}
+.kw-loader {
+	stroke: #70af1a;
+}
+.kw-header.kw-type-3.kw-light [class*="kw-btn"].kw-theme-color-type-2 {
+	color: #70af1a;
+	border-color: #70af1a;
+	background-color: rgba(112, 175, 26, 0.1);
+}
+.kw-single.kw-type-4 .kw-tabs .kw-tabs-container,
+.job_listing.kw-single,
+.kw-agent-single,
+.kw-agency-single {
+	border-bottom-color: #70af1a;
+}
+.kw-header.kw-type-3.kw-light [class*="kw-btn"].kw-theme-color-type-2:hover,
+.kw-header.kw-type-3.kw-light [class*="kw-btn"].kw-theme-color-type-2:focus {
+	background-color: #70af1a;
+}
+[class*="kw-btn"].kw-border-button {
+	color: #e5eb0b;
+	border-color: #e5eb0b;
+}
+[class*="kw-btn"].kw-border-button:hover,
+[class*="kw-btn"].kw-border-button:focus {
+	background-color: #e5eb0b;
+}
+[class*="kw-btn"].kw-yellow,
+.kw-header.kw-type-4 .kw-bottom-bar .kw-bottom-bar-action,
+.kw-newsletter .kw-inline-form .wysija-submit {
+	background-color: #eeee22;
+}
+[class*="kw-btn"].kw-yellow,
+.kw-show-more-fields,
+.kw-show-more-fields:hover,
+.kw-show-more-fields:focus,
+.kw-show-more-features,
+.kw-show-more-features:hover,
+.kw-show-more-features:focus {
+	color: #222222;
+}
+.kw-listing-single-header .kw-listing-item-price > strong {
+	color: #70af1a;
+}
+.kw-label-featured {
+	background-color: #e5eb0b;
+	color: #222222;
+}
+.kw-update-form,
+.kw-hidden-search-box .kw-lineform-btn {
+	background-color: #e5eb0b;
+	color: #222222;
+}
+.woocommerce a.button {
+	color: #222222;
+	background-color: #e5eb0b;
+}
+.kw-label.kw-new-badge {
+	color: #ffffff;
+	background-color: #0073db;
+}
+.kw-label.kw-sale {
+	color: #222222;
+	background-color: #e5eb0b;
+}
+.kw-header.kw-translucent::before,
+.kw-page-header.kw-type-6 .kw-page-header-media::before,
+.kw-page-header.kw-type-6.kw-transparent.kw-dark .kw-page-header-media::before {
+	background-color: #70af1a;
+}
+.kw-category-item-title a:hover .kw-category-item-icon,
+.kw-category-item-title a:focus .kw-category-item-icon,
+.kw-header.kw-theme-color,
+.kw-header.kw-theme-color .kw-sticked,
+div.job_listings .load_more_jobs strong,
+.post-type-archive-job_listing div.job_listings .load_more_jobs strong {
+	background-color: #70af1a;
+}
+.kw-page-header.kw-dark {
+	border-color: #222222;
+	background-color: #222222;
+}
+.kw-page-header.kw-dark.kw-transparent .kw-page-header-media::before {
+	background-color: #000000;
+}
+.kw-header.kw-type-4 {
+	background-color: #00294d;
+}
+.kw-entry-author .kw-social-links a:hover,
+.kw-entry-author .kw-social-links a:focus,
+.kw-reviews .kw-social-links a:hover,
+.kw-reviews .kw-social-links a:focus {
+	color: #70af1a;
+}
+header.kw-header.kw-type-2.kw-translucent {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+header.kw-header.kw-type-2.kw-translucent:not(.kw-has-image) {
+}
+.kw-header.kw-light,
+.kw-header.kw-light .kw-sticked,
+.kw-header.kw-type-3 .kw-hsection {
+	background-color: #ffffff;
+}
+.kw-navigation > li > a {
+	font-family: Heebo;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: initial;
+}
+.kw-header.kw-dark .kw-navigation > li > a {
+	color: #ffffff;
+}
+.kw-header.kw-dark .kw-navigation > li:hover > a {
+	color: #ffffff;
+}
+.kw-navigation ul.sub-menu li > a,
+.kw-navigation ul.children li > a {
+	font-family: Heebo;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #222222;
+}
+.kw-header.kw-dark .kw-navigation .kw-sub-menu a,
+.kw-header.kw-light .kw-navigation > li > a,
+.kw-header.kw-light .kw-navigation .kw-sub-menu a {
+	font-family: Heebo;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #222222;
+}
+.kw-header.kw-dark .kw-navigation .kw-sub-menu li:hover > a,
+.kw-header.kw-light .kw-navigation > li:hover > a,
+.kw-header.kw-light .kw-navigation .kw-sub-menu li:hover > a {
+	color: #70af1a;
+}
+.kw-header.kw-dark .kw-navigation li .current-menu-item > a,
+.kw-header.kw-dark .kw-navigation li .current-menu-parent > a,
+.kw-header.kw-dark .kw-navigation li .current-menu-ancestor > a,
+.kw-header.kw-dark .kw-navigation li .current_page_item > a,
+.kw-header.kw-dark .kw-navigation li .current_page_parent > a,
+.kw-header.kw-dark .kw-navigation li .current_page_ancestor > a,
+.kw-header.kw-light .kw-navigation li .current-menu-item > a,
+.kw-header.kw-light .kw-navigation li .current-menu-parent > a,
+.kw-header.kw-light .kw-navigation li .current-menu-ancestor > a,
+.kw-header.kw-light .kw-navigation li .current_page_item > a,
+.kw-header.kw-light .kw-navigation li .current_page_parent-ancestor > a,
+.kw-header.kw-light .kw-navigation li .current_page_ancestor > a {
+	color: #70af1a;
+}
+.kw-vr-navigation > li > a {
+	font-family: Heebo;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.kw-vr-navigation > li > a {
+	color: #ffffff;
+}
+.kw-vr-navigation > li:hover > a {
+	color: #ffffff;
+}
+.kw-vr-navigation a:hover,
+.kw-vr-navigation a:focus,
+.widget .kw-vr-navigation a:hover,
+.widget .kw-vr-navigation a:focus,
+.kw-hidden-aside .kw-vr-navigation > li > a:hover,
+.kw-hidden-aside .kw-vr-navigation > li > a:focus {
+	color: #ffffff;
+}
+.kw-vr-navigation > .current-menu-item > a,
+.kw-vr-navigation > .current-menu-parent > a,
+.kw-vr-navigation > .current-menu-ancestor > a,
+.kw-vr-navigation > .current_page_item > a,
+.kw-vr-navigation > .current_page_parent > a,
+.kw-vr-navigation > .current_page_ancestor > a {
+}
+.kw-vr-navigation .kw-sub-menu a {
+	font-family: Heebo;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #ffffff;
+}
+.kw-vr-navigation .kw-sub-menu li:hover > a {
+	color: #70af1a;
+}
+.kw-vr-navigation .kw-sub-menu .current-menu-item > a,
+.kw-vr-navigation .kw-sub-menu .current-menu-parent > a,
+.kw-vr-navigation .kw-sub-menu .current-menu-ancestor > a,
+.kw-vr-navigation .kw-sub-menu .current_page_item > a,
+.kw-vr-navigation .kw-sub-menu .current_page_parent > a,
+.kw-vr-navigation .kw-sub-menu .current_page_ancestor > a {
+}
+.kw-header.kw-type-4 .kw-bottom-bar .kw-navigation > li:hover > a {
+	background-color: #0054a0;
+}
+.kw-header.kw-type-4 .kw-bottom-bar .kw-navigation > .current-menu-item > a,
+.kw-header.kw-type-4 .kw-bottom-bar .kw-navigation > .current-menu-parent > a,
+.kw-header.kw-type-4 .kw-bottom-bar .kw-navigation > .current-menu-ancestor > a,
+.kw-header.kw-type-4 .kw-bottom-bar .kw-navigation > .current_page_item > a,
+.kw-header.kw-type-4 .kw-bottom-bar .kw-navigation > .current_page_parent > a,
+.kw-header.kw-type-4 .kw-bottom-bar .kw-navigation > .current_page_ancestor > a {
+	background-color: #0054a0;
+}
+.kw-footer {
+	background-color: #272727;
+	color: #a5a5a5;
+}
+.kw-footer .kw-widget-title {
+	color: #ffffff;
+}
+.kw-footer .widget ul:not(.kw-social-links) li a {
+	color: #70af1a;
+}
+.kw-footer .widget ul:not(.kw-social-links) li a:hover {
+	color: #70af1a;
+}
+.kw-footer .widget a {
+	color: #70af1a;
+}
+.kw-footer .widget a:hover {
+	color: #70af1a;
+}
+.kw-footer .kw-copyright {
+	background-color: #222222;
+}
+.kw-copyright a,
+.kw-footer .widget .kw-entry-meta a {
+	color: #70af1a;
+}
+.kw-footer .widget .kw-entry-title a:hover,
+.kw-footer .widget .kw-entry-meta a:hover {
+	color: #70af1a;
+}
+.kw-footer input[type="submit"] {
+	color: #ffffff;
+	background-color: #70af1a;
+}
+.kw-listing-single-header.kw-type-3 .kw-listing-item-data a,
+.kw-listing-single-header.kw-type-3 .kw-listing-item-actions a {
+	color: #70af1a;
+}
+.kw-page-listings .kw-header.kw-dark:not(.kw-type-4),
+.kw-page-listings .kw-header.kw-dark:not(.kw-type-4) .kw-sticked {
+	background-color: #222222;
+}
+.kw-page-listings .kw-header.kw-light,
+.kw-page-listings .kw-header.kw-light .kw-sticked {
+	background-color: #ffffff;
+}

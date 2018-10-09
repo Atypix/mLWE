@@ -1,0 +1,40 @@
+# Translation of Plugins - WP Job Manager - Company Profiles - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - WP Job Manager - Company Profiles - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-06 14:36:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - WP Job Manager - Company Profiles - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://astoundify.com"
+msgstr "http://astoundify.com"
+
+#. Author of the plugin/theme
+msgid "Astoundify"
+msgstr "Astoundify"
+
+#. Description of the plugin/theme
+msgid "Output a list of all companies that have posted a job, with a link to a company profile."
+msgstr "Affiche une liste de toutes les entreprises ayant publié un emploi, avec un lien vers le profil de l’entreprise."
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/astoundify/wp-job-manager-companies"
+msgstr "https://github.com/astoundify/wp-job-manager-companies"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - Company Profiles"
+msgstr "WP Job Manager - Company Profiles"
+
+#: wp-job-manager-companies.php:323
+msgid "Jobs at %s"
+msgstr "Emplois chez %s"
+
+#: wp-job-manager-companies.php:70
+msgid "company"
+msgstr "entreprise"

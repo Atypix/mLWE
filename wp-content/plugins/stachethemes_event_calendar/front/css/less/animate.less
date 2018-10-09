@@ -1,0 +1,131 @@
+.trans(@prop: all; @time: .25s; @easing: linear) {
+    -webkit-transition: @prop @time @easing;
+    transition: @prop @time @easing;
+}
+
+.transf(@prop) {
+    -webkit-transform: @prop;
+    transform: @prop;
+}
+
+.transition(@props) {
+    -webkit-transition: @props;
+    transition: @props;
+}
+
+.stec-layout-agenda-eventholder-form,
+.stec-event-holder {
+    
+    position: relative;
+    z-index: 1;
+    
+    .stec-layout-event-perspective {
+        perspective: 2000px;
+    }
+    
+    .stec-layout-event-preview {
+        background: #999;
+        transform-origin: top;
+        .transf(rotateX(-90deg));
+        height: 0;
+        .trans(all,.2s,ease-in-out);
+        
+        &.stec-layout-event-preview-animate {
+            background: #fff;
+            .transf(rotateX(0));
+            height: 85px;
+        }
+
+        &.stec-layout-event-preview-animate-complete {
+            .trans(none);
+            background: #fff;
+            .transf(none);
+            height: 85px;
+        }
+    }
+    
+}
+
+@active-cell-dur: .3s;
+@active-cell-ease: ease;
+
+.stec-layout-month-daycell {
+    &.active {
+        .stec-layout-month-daycell-wrap {
+            .trans(background, @active-cell-dur, @active-cell-ease);
+        }
+        
+        p {
+            .trans(color, @active-cell-dur, @active-cell-ease);
+        }
+    }
+}
+
+.stec-layout-week-daycell {
+    &.active {
+        .stec-layout-week-daycell-wrap {
+            .trans(background, @active-cell-dur, @active-cell-ease);
+        }
+        
+        p {
+            .trans(color, @active-cell-dur, @active-cell-ease);
+        }
+    }
+}
+
+.stec-layout-agenda-daycell {
+    &.active {
+        
+        .trans(background, @active-cell-dur, @active-cell-ease);
+        
+        .stec-layout-agenda-daycell-event {
+            .trans(background, @active-cell-dur, @active-cell-ease);
+        }
+        
+        p {
+            .trans(color, @active-cell-dur, @active-cell-ease);
+        }
+    }
+}
+
+.stec-layout-agenda-events-all-list {
+    
+    position: relative;
+    z-index: 1;
+    
+    .stec-layout-event-perspective {
+        perspective: 2000px;
+    }
+    
+    .stec-layout-event-preview {
+        background: #999;
+        transform-origin: top;
+        .transf(rotateX(-90deg));
+        height: 0;
+        .trans(all,.2s,ease-in-out);
+        
+        &.stec-layout-event-preview-animate {
+            background: #fff;
+            .transf(rotateX(0));
+            height: 85px;
+        }
+
+        &.stec-layout-event-preview-animate-complete {
+            .trans(none);
+            background: #fff;
+            .transf(none);
+            height: 85px;
+        }
+    }
+}
+
+.stec-tooltip {
+    .transition(opacity .35s ease, margin .35s ease;); /* this is correct ! */
+}
+
+.stec-layout-week-daycell-event:hover,
+.stec-layout-month-daycell-event:hover {
+    .transition(filter .35s ease, -webkit-filter .35s ease;); /* this is correct ! */
+    -webkit-filter: saturate(200%);
+    filter: saturate(200%);
+}

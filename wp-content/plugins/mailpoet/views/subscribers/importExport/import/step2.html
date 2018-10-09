@@ -1,0 +1,160 @@
+<div id="step2" class="mailpoet_hidden">
+  <div id="subscribers_data_parse_results">
+    <!-- Template data -->
+  </div>
+
+  <script id="subscribers_data_parse_results_template" type="text/x-handlebars-template">
+    <div class="error">
+      <p>{{{notice}}} <a class="mailpoet_subscribers_data_parse_results_details_show" href="javascript:;"><%= __('Show more details') %></a><p>
+      <div class="mailpoet_subscribers_data_parse_results_details mailpoet_hidden">
+        <hr>
+        {{#if duplicate}}
+        <p>{{{duplicate}}}</p>
+        {{/if}}
+        {{#if invalid}}
+        <p>{{{invalid}}}</p>
+        {{/if}}
+      </div>
+    </div>
+  </script>
+
+  <div class="inside">
+    <br>
+    <!-- Subscribers Data -->
+    <div id="subscribers_data">
+      <table class="mailpoet_subscribers widefat fixed">
+        <!-- Template data -->
+      </table>
+    </div>
+
+    <table class="mailpoet_subscribers form-table">
+      <tbody>
+      <!-- MP3 Segments -->
+      <tr class="mailpoet_segments mailpoet_hidden">
+        <th scope="row">
+          <label>
+            <%= __('Pick one or more list(s)') %>
+            <p class="description"><%= __('Pick the list that you want to import these subscribers to.') %>
+          </label>
+        </th>
+        <td>
+          <select id="mailpoet_segments_select" data-placeholder="<%= _x('Select', 'Verb') %>" multiple="multiple"></select>
+          <a href="javascript:;" class="mailpoet_create_segment"><%= __('Create a new list') %></a>
+        </td>
+      </tr>
+      <tr class="mailpoet_no_segments mailpoet_hidden">
+        <th scope="row">
+          <%=
+          __('To add subscribers to a mailing segment, [link]create a list[/link].')
+          |replaceLinkTags('javascript:;', {'target' : '_blank', 'class' : 'mailpoet_create_segment'})
+          |raw
+          %>
+        </th>
+      </tr>
+      <tr>
+        <th scope="row">
+          <label>
+            <%= __("Update existing subscribers' information") %>
+          </label>
+        </th>
+        <td>
+          <label>
+            <input type="radio" name="subscriber_update_option" value="yes"
+             checked><span><%= __('Yes') %></span>
+          </label>
+          <label>
+            <input type="radio" name="subscriber_update_option"
+             value="no"><span><%= __('No') %></span>
+          </label>
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <a href="javascript:;" id="return_to_step1"
+             class="button-primary wysija button"><%= __('Previous step') %> </a>
+          &nbsp;&nbsp;
+          <a href="javascript:;" id="step2_process"
+           class="button-primary wysija button-disabled"><%= __('Next step') %> </a>
+        </th>
+      </tr>
+      </tbody>
+    </table>
+
+    <!-- subscribers data template -->
+    <script id="subscribers_data_template" type="text/x-handlebars-template">
+      <thead>
+      <th>
+        <%= __('Match data') %>
+      </th>
+      {{#show_and_match_columns .}}
+      {{#.}}
+      <th>
+        <select class="mailpoet_subscribers_column_data_match" data-column-id="{{column_id}}" data-validation-rule="false" id="column_{{@index}}">
+      </th>
+      {{/.}}
+      {{/show_and_match_columns}}
+      </thead>
+      <tbody>
+      {{> subscribers_data_template_partial}}
+      </tbody>
+    </script>
+
+    <script id="subscribers_data_template_partial" type="text/x-handlebars-template">
+      {{#if header}}
+      <tr class="mailpoet_header">
+        <td></td>
+        {{#header}}
+        <td>
+          {{this}}
+        </td>
+        {{/header}}
+      </tr>
+      {{/if}}
+      {{#subscribers}}
+      <tr>
+        <td>
+          {{calculate_index @index}}
+        </td>
+        {{#.}}
+        <td>
+          {{sanitize_data this}}
+        </td>
+        {{/.}}
+      </tr>
+      {{/subscribers}}
+    </script>
+
+    <!-- New segment template -->
+    <script id="new_segment_template" type="text/x-handlebars-template">
+      <p>
+        <label><%= __('Name') %>:</label>
+        <input id="new_segment_name" type="text" name="name"/>
+      </p>
+      <p class="mailpoet_validation_error" data-error="segment_name_required">
+        <%= __('Please specify a name.') %>
+      </p>
+      <p class="mailpoet_validation_error" data-error="segment_name_not_unique">
+        <%= __('Another record already exists. Please specify a different "%1$s".')|format('name') %>
+      </p>
+      <p>
+        <label><%= __('Description') %>:</label>
+        <br/>
+        <textarea id="new_segment_description" cols="40" rows="3" name="description"/>
+      </p>
+
+      <hr/>
+
+      <p class="mailpoet_align_right">
+        <input type="submit" value="<%= __('Done') %>" id="new_segment_process"
+         class="button-primary "/>
+        <input type="submit" value="<%= __('Cancel') %>" id="new_segment_cancel"
+         class="button-primary"/>
+      </p>
+
+      </form>
+    </script>
+
+    <!-- New custom field logic -->
+    <% include 'form/custom_fields.html' %>
+  </div>
+</div>

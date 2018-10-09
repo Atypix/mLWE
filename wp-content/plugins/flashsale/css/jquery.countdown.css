@@ -1,0 +1,186 @@
+.fl-countdown-cnt{ margin:10px auto 10px auto; display:block;  text-align:center; padding:10px;  }
+ul.fl-countdown {
+  list-style: none;
+  margin: 10px 0!important;
+  padding: 0!important;
+  display: inline-block;
+  text-align: center;
+}
+
+
+ul.fl-countdown.fl-mini li span {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 15px;
+}
+ul.fl-countdown.fl-medium li span {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+}
+ul.fl-countdown.fl-large li span {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+
+
+
+
+/*STYLES*/
+/*1*/
+ul.fl-countdown.fl-style1 li { display: inline-block; margin:0; width:auto!important; }
+ul.fl-countdown.fl-style1 li.seperator {
+  font-size: 20px;
+  line-height: 20px;
+  vertical-align: top;
+}
+
+ul.fl-countdown.fl-style1 li p {
+  color: #a7abb1;
+  font-size: 10px;
+  margin:10px 0 0;
+}
+
+/*2*/
+ul.fl-countdown.fl-style2 li { display: inline-block; min-width:50px; background:#333; -moz-border-radius:0px;-webkit-border-radius:0px;border-radius: 0px; color:#fff; padding:5px 5px;margin:0;}
+ul.fl-countdown.fl-style2 li.seperator {
+  display:none;
+}
+
+ul.fl-countdown.fl-style2 li p {
+  color: #fff;
+  font-size: 10px;
+  margin:10px 0 0 ;
+}
+
+/*3*/
+ul.fl-countdown.fl-style3 li { display: inline-block; margin:0; width:auto!important;}
+	ul.fl-countdown.fl-style3 li span { padding:5px 5px; background:#333; color:#fff;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px; }
+
+ul.fl-countdown.fl-style3 li.seperator {
+  font-size: 20px;
+  vertical-align: top;
+  width:5px; background:none;
+  line-height:15px; color:#000;
+}
+ul.fl-countdown.fl-style3.fl-big li.seperator{line-height:20px;}
+
+ul.fl-countdown.fl-style3 li p {
+  color: #333;
+  font-size: 10px;
+  margin:12px 0 0 0;
+}
+
+
+/*4*/
+ul.fl-countdown.fl-style4 li { float:left;  margin:0; margin-right:5px; width:auto!important; min-width:50px}
+	ul.fl-countdown.fl-style4 li:last-child{
+		margin-right:0;
+	}
+	ul.fl-countdown.fl-style4 li span { 
+		display:inline-block;
+		padding:5px 5px; 
+		background:#333; 
+		color:#fff;
+		-moz-border-radius:0px;
+		-webkit-border-radius:0px;
+		border-radius:0px; 
+		width:100%;
+		
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+
+ul.fl-countdown.fl-style4 li.seperator {
+  display:none;
+}
+
+ul.fl-countdown.fl-style4 li p {
+  color: #fff;
+  background-color:#444;
+  padding:5px 5px;
+
+  font-size: 10px;
+  margin:0;
+  
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+/*5*/
+ul.fl-countdown.fl-style5 li { float:left;background-color:#fff;  margin:0; margin-right:5px; width:auto!important; border:1px solid #ddd;min-width:50px}
+	ul.fl-countdown.fl-style5 li:last-child{
+		margin-right:0;
+	}	
+	ul.fl-countdown.fl-style5 li span { 
+		display:inline-block;
+		padding:5px 5px; 
+		background:none; 
+		color:#333;
+		-moz-border-radius:0px;
+		-webkit-border-radius:0px;
+		border-radius:0px; 
+		width:100%;
+		
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+
+ul.fl-countdown.fl-style5 li.seperator {
+  display:none;
+}
+
+ul.fl-countdown.fl-style5 li p {
+  color: #999;
+  background-color:transparent;
+  padding:5px 5px;
+  border-top:1px solid #ddd;
+  font-size: 10px;
+  margin:0;
+  
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+/*6*/
+ul.fl-countdown.fl-style6 li { float:left; background-color:#fff;  margin:0;width:auto!important; padding:5px; border:1px solid #ddd; border-right:none;min-width:50px}
+	ul.fl-countdown.fl-style6 li:last-child{
+		margin-right:0;
+	}
+	ul.fl-countdown.fl-style6 li:last-child{ border-right:1px solid #ddd;}
+	ul.fl-countdown.fl-style6 li span { 
+		display:inline-block;
+		padding:5px 5px; 
+		background:none; 
+		color:#333;
+		-moz-border-radius:0px;
+		-webkit-border-radius:0px;
+		border-radius:0px; 
+		width:100%;
+		
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+
+ul.fl-countdown.fl-style6 li.seperator {
+  display:none;
+}
+
+ul.fl-countdown.fl-style6 li p {
+  color: #999;
+  background-color:transparent;
+  padding:5px 5px;
+  font-size: 10px;
+  margin:0;
+  
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}

@@ -1,0 +1,3083 @@
+div.social-networks a {
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+
+/* start commented backslash hack \*/
+
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
+
+/* close commented backslash hack */
+
+.theme-2 .apsl-login-text, .theme-2 .apsl-long-login-text {
+    display: none;
+}
+
+.theme-4 .apsl-long-login-text, .theme-4 .apsl-login-text {
+    display: none;
+}
+
+.theme-3 .apsl-long-login-text, .theme-3 .apsl-login-text {
+    display: none;
+}
+
+.theme-1 .apsl-long-login-text, .theme-1 .apsl-login-text {
+    display: none;
+}
+
+.theme-5 .apsl-long-login-text, .theme-5 .apsl-login-text {
+    display: none;
+}
+
+.theme-6 .apsl-long-login-text, .theme-6 .apsl-login-text {
+    display: none;
+}
+
+.theme-7 .apsl-long-login-text, .theme-7 .apsl-login-text {
+    display: none;
+}
+
+.theme-8 .apsl-long-login-text, .theme-8 .apsl-login-text {
+    display: none;
+}
+
+.theme-9 .apsl-long-login-text, .theme-9 .apsl-login-text {
+    display: none;
+}
+
+.theme-10 .apsl-long-login-text, .theme-10 .apsl-login-text {
+    display: none;
+}
+
+.theme-11 .apsl-login-text {
+    display: none;
+}
+
+.theme-12 .apsl-login-text {
+    display: none;
+}
+
+.theme-13 .apsl-login-text {
+    display: none;
+}
+
+.theme-14 .apsl-login-text {
+    display: none;
+}
+
+.theme-15 .apsl-login-text {
+    display: none;
+}
+
+.apsl-icon-block {
+    margin-bottom: 10px;
+}
+
+
+/****************************
+Theme 1
+*****************************/
+
+.theme-1 .fa.fa-facebook {
+    background: #3b5998 none repeat scroll 0 0;
+    border-radius: 24px;
+    color: #fff;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+	min-width: 320px;
+}
+
+.theme-1 .fa-buffer {
+    background: rgba(0, 0, 0, 0) url("../images/buffer.png") no-repeat scroll center center;
+    border-radius: 24px;
+    color: #ffffff;
+    display: table-cell;
+    font-size: 20px;
+    height: 39px;
+    text-align: center;
+    vertical-align: middle;
+    width: 40px;
+    background-color: #333333
+}
+
+.theme-1 .fa.fa-twitter {
+    background: #1FCCFF none repeat scroll 0 0;
+    border-radius: 24px;
+    color: #fff;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+	min-width: 320px;
+}
+
+.theme-1 .fa.fa-google {
+    background: #DE4B3B none repeat scroll 0 0;
+    border-radius: 24px;
+    color: #ffffff;
+    margin-left: 1px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+	min-width: 320px;
+}
+
+.theme-1 .fa.fa-linkedin {
+    background: #3F739A none repeat scroll 0 0;
+    border-radius: 24px;
+    color: #ffffff;
+    margin-left: 2px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+	min-width: 320px;
+}
+
+.theme-1 .fa.fa-instagram {
+    background: #3f729b none repeat scroll 0 0;
+    border-radius: 24px;
+    color: #ffffff;
+    margin-left: 4px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+	min-width: 320px;
+}
+
+.theme-1 .fa.fa-vk {
+    background: #4c75a3 none repeat scroll 0 0;
+    border-radius: 24px;
+    color: #ffffff;
+    margin-left: 5px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-1 .fa.fa-foursquare {
+    background: #f94877 none repeat scroll 0 0;
+    border-radius: 24px;
+    color: #ffffff;
+    margin-left: 5px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+	min-width: 320px;
+}
+
+.theme-1 .fa.fa-wordpress {
+    background: #5F5959 none repeat scroll 0 0;
+    border-radius: 24px;
+    color: #ffffff;
+    margin-left: 5px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+	min-width: 320px;
+}
+
+.theme-1 .fa.fa-facebook:hover, .theme-1 .fa.fa-twitter:hover, .theme-1 .fa.fa-google:hover, .theme-1 .fa.fa-linkedin:hover, .theme-1 .fa.fa-instagram:hover, .theme-1 .fa.fa-vk:hover, .theme-1 .fa.fa-foursquare:hover, .theme-1 .fa.fa-wordpress:hover, .theme-1 .fa-buffer:hover {
+    opacity: 0.5;
+    -webkit-transition: all 1s ease;
+    /* Safari 3.2+, Chrome */
+    -moz-transition: all 1s ease;
+    /* Firefox 4-15 */
+    -o-transition: all 1s ease;
+    /* Opera 10.5-12.00 */
+    transition: all 1s ease;
+    /* Firefox 16+, Opera 12.50+ */
+}
+
+
+/****************************
+Theme 2
+*****************************/
+
+.theme-2 .fa.fa-facebook {
+    background: #3b5998 none repeat scroll 0 0;
+    color: #ffffff;
+    text-align: center;
+    height: 38px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 38px;
+    border: 1px solid #3b5998;
+}
+
+.theme-2 .fa-buffer {
+    background: url("../images/buffer.png") no-repeat scroll center center;
+    color: #fff;
+    text-align: center;
+    height: 38px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 38px;
+    border: 1px solid #333333;
+    background-color: #333333
+}
+
+.theme-2 .fa.fa-twitter {
+    background: #1fccff none repeat scroll 0 0;
+    color: #ffffff;
+    text-align: center;
+    height: 38px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 38px;
+    border: 1px solid #24B4F3;
+}
+
+.theme-2 .fa.fa-google {
+    background: #DE4B3B none repeat scroll 0 0;
+    color: #ffffff;
+    text-align: center;
+    height: 38px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 38px;
+    border: 1px solid #de4b3b;
+}
+
+.theme-2 .fa.fa-linkedin {
+    background: #0E76A8 none repeat scroll 0 0;
+    color: #ffffff;
+    text-align: center;
+    height: 38px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 38px;
+    border: 1px solid #0E76A8;
+}
+
+.theme-2 .fa.fa-instagram {
+    background: #3f729b none repeat scroll 0 0;
+    color: #ffffff;
+    text-align: center;
+    height: 38px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 38px;
+    border: 1px solid #3f729b;
+}
+
+.theme-2 .fa.fa-vk {
+    background: #4c75a3 none repeat scroll 0 0;
+    color: #ffffff;
+    text-align: center;
+    height: 38px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 38px;
+    border: 1px solid #B7BABB;
+}
+
+.theme-2 .fa.fa-foursquare {
+    background: #f94877 none repeat scroll 0 0;
+    color: #ffffff;
+    text-align: center;
+    height: 38px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 38px;
+    border: 1px solid #f94877;
+}
+
+.theme-2 .fa.fa-wordpress {
+    background: #B6B6B6 none repeat scroll 0 0;
+    color: #ffffff;
+    text-align: center;
+    height: 38px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 38px;
+    border: 1px solid #B6B6B6;
+}
+
+.theme-2 .fa.fa-google:hover {
+    border: 1px solid #de4b3b;
+    color: #de4b3b;
+}
+
+.theme-2 .fa.fa-facebook:hover {
+    border: 1px solid #3b5998;
+    color: #3b5998;
+}
+
+.theme-2 .fa.fa-twitter:hover {
+    border: 1px solid #24B4F3;
+    color: #24B4F3;
+}
+
+.theme-2 .fa.fa-instagram:hover {
+    border: 1px solid #3f729b;
+    color: #3f729b;
+}
+
+.theme-2 .fa.fa-foursquare:hover {
+    border: 1px solid #f94877;
+    color: #f94877;
+}
+
+.theme-2 .fa.fa-wordpress:hover {
+    border: 1px solid #4E624F;
+    color: #4E624F;
+}
+
+.theme-2 .fa.fa-linkedin:hover {
+    border: 1px solid #0E76A8;
+    color: #0E76A8;
+}
+
+.theme-2 .fa.fa-vk:hover {
+    border: 1px solid #4c75a3;
+    color: #4c75a3;
+}
+
+.theme-2 .fa-buffer:hover {
+    background: url("../images/buffer-black.png") no-repeat scroll center center;
+    border: 1px solid #333333;
+    background-color: #fff;
+}
+
+.theme-2 .fa.fa-facebook:hover, .theme-2 .fa.fa-twitter:hover, .theme-2 .fa.fa-google:hover, .theme-2 .fa.fa-linkedin:hover, .theme-2 .fa.fa-instagram:hover, .theme-2 .fa.fa-vk:hover, .theme-2 .fa.fa-foursquare:hover, .theme-2 .fa.fa-wordpress:hover, .theme-2 .fa-buffer:hover {
+    background-color: transparent;
+    /*opacity:0.5;
+    
+    color:black;*/
+    -webkit-transition: all 1s ease;
+    /* Safari 3.2+, Chrome */
+    -moz-transition: all 1s ease;
+    /* Firefox 4-15 */
+    -o-transition: all 1s ease;
+    /* Opera 10.5-12.00 */
+    transition: all 1s ease;
+    /* Firefox 16+, Opera 12.50+ */
+}
+
+
+/****************************
+Theme 3
+*****************************/
+
+.theme-3 .fa.fa-facebook {
+    background: #3b5999 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-3 .fa-buffer {
+    background: url("../images/buffer.png") no-repeat scroll center center;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 38px;
+    background-color: #000
+}
+
+.theme-3 .fa.fa-twitter {
+    background: #42d3ff none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-3 .fa.fa-google {
+    background: #dd4b39 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-left: 0;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-3 .fa.fa-linkedin {
+    background: #507EA3 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-left: 1px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-3 .fa.fa-instagram {
+    background: #3f729b none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-left: 3px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-3 .fa.fa-vk {
+    background: #4c75a3 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-left: 3px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-3 .fa.fa-foursquare {
+    background: #f94877 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-left: 3px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-3 .fa.fa-wordpress {
+    background: #8f8f8f none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-left: 3px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-3 .fa {
+    border: 1px solid transparent;
+}
+
+.theme-3 .fa.fa-facebook:hover {
+    opacity: 0.8;
+    background-color: white;
+    border: 1px solid #1C74BC;
+    color: #1C74BC;
+    -webkit-transition: all 1s ease;
+    /* Safari 3.2+, Chrome */
+    -moz-transition: all 1s ease;
+    /* Firefox 4-15 */
+    -o-transition: all 1s ease;
+    /* Opera 10.5-12.00 */
+    transition: all 1s ease;
+    /* Firefox 16+, Opera 12.50+ */
+}
+
+.theme-3 .fa.fa-twitter:hover {
+    opacity: 0.8;
+    background-color: white;
+    border: 1px solid #24B4F3;
+    color: #24B4F3;
+    -webkit-transition: all 1s ease;
+    /* Safari 3.2+, Chrome */
+    -moz-transition: all 1s ease;
+    /* Firefox 4-15 */
+    -o-transition: all 1s ease;
+    /* Opera 10.5-12.00 */
+    transition: all 1s ease;
+    /* Firefox 16+, Opera 12.50+ */
+}
+
+.theme-3 .fa.fa-google:hover {
+    opacity: 0.8;
+    background-color: white;
+    border: 1px solid #DE4B3B;
+    color: #DE4B3B;
+    -webkit-transition: all 1s ease;
+    /* Safari 3.2+, Chrome */
+    -moz-transition: all 1s ease;
+    /* Firefox 4-15 */
+    -o-transition: all 1s ease;
+    /* Opera 10.5-12.00 */
+    transition: all 1s ease;
+    /* Firefox 16+, Opera 12.50+ */
+}
+
+.theme-3 .fa.fa-linkedin:hover {
+    opacity: 0.8;
+    background-color: white;
+    border: 1px solid #3F739A;
+    color: #3F739A;
+    -webkit-transition: all 1s ease;
+    /* Safari 3.2+, Chrome */
+    -moz-transition: all 1s ease;
+    /* Firefox 4-15 */
+    -o-transition: all 1s ease;
+    /* Opera 10.5-12.00 */
+    transition: all 1s ease;
+    /* Firefox 16+, Opera 12.50+ */
+}
+
+.theme-3 .fa.fa-instagram:hover {
+    opacity: 0.8;
+    background-color: white;
+    border: 1px solid #3F729B;
+    color: #3F729B;
+    -webkit-transition: all 1s ease;
+    /* Safari 3.2+, Chrome */
+    -moz-transition: all 1s ease;
+    /* Firefox 4-15 */
+    -o-transition: all 1s ease;
+    /* Opera 10.5-12.00 */
+    transition: all 1s ease;
+    /* Firefox 16+, Opera 12.50+ */
+}
+
+.theme-3 .fa.fa-vk:hover {
+    opacity: 0.8;
+    background-color: white;
+    border: 1px solid #4C75A3;
+    color: #4C75A3;
+    -webkit-transition: all 1s ease;
+    /* Safari 3.2+, Chrome */
+    -moz-transition: all 1s ease;
+    /* Firefox 4-15 */
+    -o-transition: all 1s ease;
+    /* Opera 10.5-12.00 */
+    transition: all 1s ease;
+    /* Firefox 16+, Opera 12.50+ */
+}
+
+.theme-3 .fa.fa-foursquare:hover {
+    opacity: 0.8;
+    background-color: white;
+    border: 1px solid #F94877;
+    color: #F94877;
+    -webkit-transition: all 1s ease;
+    /* Safari 3.2+, Chrome */
+    -moz-transition: all 1s ease;
+    /* Firefox 4-15 */
+    -o-transition: all 1s ease;
+    /* Opera 10.5-12.00 */
+    transition: all 1s ease;
+    /* Firefox 16+, Opera 12.50+ */
+}
+
+.theme-3 .fa.fa-wordpress:hover {
+    opacity: 0.8;
+    background-color: white;
+    border: 1px solid #288CBA;
+    color: #288CBA;
+    -webkit-transition: all 1s ease;
+    /* Safari 3.2+, Chrome */
+    -moz-transition: all 1s ease;
+    /* Firefox 4-15 */
+    -o-transition: all 1s ease;
+    /* Opera 10.5-12.00 */
+    transition: all 1s ease;
+    /* Firefox 16+, Opera 12.50+ */
+}
+
+.theme-3 .fa.fa-buffer:hover {
+    opacity: 0.8;
+    background: #fff url("../images/buffer-black.png") no-repeat scroll center center;
+    border: 1px solid #333333;
+    color: #333333;
+    -webkit-transition: all 1s ease;
+    /* Safari 3.2+, Chrome */
+    -moz-transition: all 1s ease;
+    /* Firefox 4-15 */
+    -o-transition: all 1s ease;
+    /* Opera 10.5-12.00 */
+    transition: all 1s ease;
+    /* Firefox 16+, Opera 12.50+ */
+}
+
+
+/****************************
+Theme 4
+*****************************/
+
+.theme-4 .fa.fa-facebook, .theme-4 .apsl-icon-block.buffer, .theme-4 .fa.fa-twitter, .theme-4 .fa.fa-google, .theme-4 .fa.fa-linkedin, .theme-4 .fa.fa-instagram, .theme-4 .fa.fa-vk, .theme-4 .fa.fa-foursquare, .theme-4 .fa.fa-wordpress {
+    color: #000;
+    font-size: 20px;
+}
+
+.theme-4 .fa.fa-buffer {
+    background: rgba(0, 0, 0, 0) url("../images/buffer-black.png") no-repeat scroll center center;
+    width: 18px;
+    height: 18px;
+    background-size: cover;
+    margin-top: 1px
+}
+
+.theme-4 .fa.fa-facebook:hover {
+    color: #3b5998
+}
+
+.theme-4 .fa.fa-twitter:hover {
+    color: #42d3ff
+}
+
+.theme-4 .fa.fa-google:hover {
+    color: #dd4b39
+}
+
+.theme-4 .fa.fa-linkedin:hover {
+    color: #3f739a
+}
+
+.theme-4 .fa.fa-instagram:hover {
+    color: #3f729b
+}
+
+.theme-4 .fa.fa-vk:hover {
+    color: #5e5959
+}
+
+.theme-4 .fa.fa-foursquare:hover {
+    color: #fd4676
+}
+
+.theme-4 .fa.fa-wordpress:hover {
+    color: #565656
+}
+
+.theme-4 .fa.fa-buffer:hover {
+    background: rgba(0, 0, 0, 0) url("../images/buffer-black-hover.jpg") no-repeat scroll center center;
+    background-size: cover;
+    opacity: .8;
+}
+
+
+/****************************
+Theme 5
+*****************************/
+
+.theme-5 .fa.fa-facebook {
+    background: #4E4E4E none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #3FA1DA;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+    font-size: 18px;
+}
+
+.theme-5 .fa.fa-buffer {
+    background: #4E4E4E url("../images/buffer.png") no-repeat scroll center center;
+    border-radius: 5px;
+    color: #3FA1DA;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-5 .fa.fa-buffer:hover {
+    background: #4E4E4E url("../images/buffer.png") no-repeat scroll center center;
+}
+
+.theme-5 .fa.fa-twitter {
+    background: #4E4E4E none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #01A8E8;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-5 .fa.fa-google {
+    background: #4E4E4E none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #e1584b;
+    margin-left: 0;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-5 .fa.fa-linkedin {
+    background: #4E4E4E none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #0083be;
+    margin-left: 1px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-5 .fa.fa-instagram {
+    background: #4E4E4E none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #4997e3;
+    margin-left: 3px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-5 .fa.fa-vk {
+    background: #4E4E4E none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #4c75a3;
+    margin-left: 3px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-5 .fa.fa-foursquare {
+    background: #4E4E4E none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #f94877;
+    margin-left: 3px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-5 .fa.fa-wordpress {
+    background: #4E4E4E none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #8f8f8f;
+    margin-left: 3px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-5 .fa.fa-facebook:hover {
+    background: #496399 none repeat scroll 0 0;
+}
+
+.theme-5 .fa.fa-twitter:hover {
+    background: #2fb1e4 none repeat scroll 0 0;
+}
+
+.theme-5 .fa.fa-google:hover {
+    background: #da4c3e none repeat scroll 0 0;
+}
+
+.theme-5 .fa.fa-instagram:hover {
+    background: #3f739a none repeat scroll 0 0;
+}
+
+.theme-5 .fa.fa-linkedin:hover {
+    background: #0e77a7 none repeat scroll 0 0;
+}
+
+.theme-5 .fa.fa-vk:hover {
+    background: #5e5959 none repeat scroll 0 0;
+}
+
+.theme-5 .fa.fa-wordpress:hover {
+    background: #8f8f8f none repeat scroll 0 0;
+}
+
+.theme-5 .fa.fa-foursquare:hover {
+    background: #f94777 none repeat scroll 0 0;
+}
+
+.theme-5 .fa.fa-buffer:hover {
+    background: #8f8f8f url("../images/buffer.png") no-repeat scroll center center;
+}
+
+.theme-5 .fa.fa-facebook:hover, .theme-5 .fa.fa-twitter:hover, .theme-5 .fa.fa-google:hover, .theme-5 .fa.fa-linkedin:hover, .theme-5 .fa.fa-instagram:hover, .theme-5 .fa.fa-vk:hover, .theme-5 .fa.fa-foursquare:hover, .theme-5 .fa.fa-wordpress:hover, .theme-5 .fa.fa-buffer:hover {
+    color: #fff;
+    -webkit-transition: all 1s ease;
+    /* Safari 3.2+, Chrome */
+    -moz-transition: all 1s ease;
+    /* Firefox 4-15 */
+    -o-transition: all 1s ease;
+    /* Opera 10.5-12.00 */
+    transition: all 1s ease;
+    /* Firefox 16+, Opera 12.50+ */
+}
+
+
+/****************************
+Theme 6
+*****************************/
+
+.theme-6 .fa.fa-facebook:hover, .theme-6 .fa.fa-twitter:hover, .theme-6 .fa.fa-google:hover, .theme-6 .fa.fa-linkedin:hover, .theme-6 .fa.fa-instagram:hover, .theme-6 .fa.fa-vk:hover, .theme-6 .fa.fa-foursquare:hover, .theme-6 .fa.fa-wordpress:hover, .theme-5 .fa.fa-buffer:hover {
+    color: #fff;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.theme-6 .fa.fa-facebook {
+    background: #3b5998 none repeat scroll 0 0;
+    border-radius: 24px;
+    color: #151f33;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-6 .fa.fa-buffer {
+    background: #8f8f8f url("../images/buffer-black.png") no-repeat scroll center center;
+    border-radius: 24px;
+    color: #BBBCBE;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-6 .fa.fa-buffer:hover {
+    background: #8f8f8f url("../images/buffer.png") no-repeat scroll center center;
+}
+
+.theme-6 .fa.fa-twitter {
+    background: #35c5f5 none repeat scroll 0 0;
+    border-radius: 24px;
+    color: #1c6983;
+    width: 36px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-6 .fa.fa-google {
+    background: #ce3e35 none repeat scroll 0 0;
+    border-radius: 24px;
+    color: #882923;
+    margin-left: 1px;
+    width: 36px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-6 .fa.fa-linkedin {
+    background: #106fbe none repeat scroll 0 0;
+    border-radius: 24px;
+    color: #0c528c;
+    margin-left: 2px;
+    width: 37px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-6 .fa.fa-instagram {
+    background: #5380a3 none repeat scroll 0 0;
+    border-radius: 24px;
+    color: #2b4355;
+    margin-left: 4px;
+    width: 36px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-6 .fa.fa-vk {
+    background: #2c73a1 none repeat scroll 0 0;
+    border-radius: 24px;
+    color: #1b4764;
+    margin-left: 5px;
+    width: 35px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-6 .fa.fa-foursquare {
+    background: #f74b79 none repeat scroll 0 0;
+    border-radius: 24px;
+    color: #712237;
+    margin-left: 5px;
+    width: 35px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-6 .fa.fa-wordpress {
+    background: #676361 none repeat scroll 0 0;
+    border-radius: 24px;
+    color: #282626;
+    margin-left: 5px;
+    width: 35px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-6 .apsl-icon-block i {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+
+/****************************
+Theme 7
+*****************************/
+
+.theme-7 .fa.fa-facebook {
+    background: #3b5998 none repeat scroll 0 0;
+    border-radius: 0 15px;
+    color: #fff;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-7 .fa.fa-buffer {
+    background: #000000 url("../images/buffer.png") no-repeat scroll center center;
+    border-radius: 0 15px;
+    color: #fff;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-7 .fa.fa-twitter {
+    background: #1fccff none repeat scroll 0 0;
+    border-radius: 0 15px;
+    color: #fff;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-7 .fa.fa-google {
+    background: #e1584b none repeat scroll 0 0;
+    border-radius: 0 15px;
+    color: #fff;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-7 .fa.fa-linkedin {
+    background: #0083be none repeat scroll 0 0;
+    border-radius: 0 15px;
+    color: #fff;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-7 .fa.fa-instagram {
+    background: #316699 none repeat scroll 0 0;
+    border-radius: 0 15px;
+    color: #fff;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-7 .fa.fa-vk {
+    background: #4c75a3 none repeat scroll 0 0;
+    border-radius: 0 15px;
+    color: #fff;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-7 .fa.fa-foursquare {
+    background: #f94877 none repeat scroll 0 0;
+    border-radius: 0 15px;
+    color: #fff;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-7 .fa.fa-wordpress {
+    background: #2B2B2B none repeat scroll 0 0;
+    border-radius: 0 15px;
+    color: #fff;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-7 .fa.fa-facebook:hover, .theme-7 .fa.fa-twitter:hover, .theme-7 .fa.fa-google:hover, .theme-7 .fa.fa-linkedin:hover, .theme-7 .fa.fa-instagram:hover, .theme-7 .fa.fa-vk:hover, .theme-7 .fa.fa-foursquare:hover, .theme-7 .fa.fa-wordpress:hover, .theme-7 .fa.fa-buffer:hover {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-property: border-radius;
+    transition-property: border-radius;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    border-radius: 0;
+}
+
+
+/****************************
+Theme 8
+*****************************/
+
+.apsl-icon-block {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+span.apsl-login-new-text {
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 15px
+}
+
+#loginform a {
+    display: inline-block;
+}
+
+.theme-8 .fa.fa-facebook {
+    background: #3b5998 none repeat scroll 0 0;
+    border-radius: 25px 14px;
+    color: #fff;
+    width: 40px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.theme-8 .fa.fa-buffer {
+    background: #333333 url("../images/buffer.png") no-repeat scroll center center;
+    border-radius: 25px 14px;
+    color: #fff;
+    width: 37px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.theme-8 .fa.fa-twitter {
+    background: #24B4F3 none repeat scroll 0 0;
+    border-radius: 25px 14px;
+    color: #fff;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-8 .fa.fa-google {
+    background: #DE4B3B none repeat scroll 0 0;
+    border-radius: 25px 14px;
+    color: #fff;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-8 .fa.fa-linkedin {
+    background: #3F739A none repeat scroll 0 0;
+    border-radius: 25px 14px;
+    color: #fff;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-8 .fa.fa-instagram {
+    background: #316699 none repeat scroll 0 0;
+    border-radius: 25px 14px;
+    color: #fff;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-8 .fa.fa-vk {
+    background: #4c75a3 none repeat scroll 0 0;
+    border-radius: 25px 14px;
+    color: #fff;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-8 .fa.fa-foursquare {
+    background: #F94877 none repeat scroll 0 0;
+    border-radius: 25px 14px;
+    color: #fff;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-8 .fa.fa-wordpress {
+    background: #565656 none repeat scroll 0 0;
+    border-radius: 25px 14px;
+    color: #fff;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-8 .apsl-icon-block i:before {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.theme-8 .apsl-icon-block i:hover:before, .theme-8 .apsl-icon-block i:focus:before, .theme-8 .apsl-icon-block i:active:before {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+}
+
+
+/****************************
+Theme 9
+*****************************/
+
+.theme-9 .fa.fa-facebook {
+    color: #3b5998;
+    font-size: 28px;
+    text-align: center;
+    font-size: 24px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.theme-9 .fa.fa-twitter {
+    color: #00abf1;
+    font-size: 28px;
+    text-align: center;
+    font-size: 24px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.theme-9 .fa.fa-google {
+    color: #e1584b;
+    font-size: 28px;
+    text-align: center;
+    font-size: 24px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.theme-9 .fa.fa-linkedin {
+    color: #0083be;
+    font-size: 28px;
+    text-align: center;
+    font-size: 24px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.theme-9 .fa.fa-instagram {
+    color: #316699;
+    font-size: 28px;
+    text-align: center;
+    font-size: 24px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.theme-9 .fa.fa-vk {
+    color: #4c75a3;
+    font-size: 28px;
+    text-align: center;
+    font-size: 24px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.theme-9 .fa.fa-foursquare {
+    color: #f94877;
+    font-size: 28px;
+    text-align: center;
+    font-size: 24px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.theme-9 .fa.fa-wordpress {
+    color: #7D7D7D;
+    font-size: 28px;
+    text-align: center;
+    font-size: 24px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.theme-9 .fa.fa-buffer {
+    background: rgba(0, 0, 0, 0) url("../images/buffer-black.png") no-repeat scroll center center;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.theme-9 .fa.fa-facebook:hover, .theme-9 .fa.fa-twitter:hover, .theme-9 .fa.fa-google:hover, .theme-9 .fa.fa-linkedin:hover, .theme-9 .fa.fa-instagram:hover, .theme-9 .fa.fa-vk:hover, .theme-9 .fa.fa-foursquare:hover, .theme-9 .fa.fa-wordpress:hover {
+    opacity: 0.6;
+    -webkit-transition: all 1s ease;
+    /* Safari 3.2+, Chrome */
+    -moz-transition: all 1s ease;
+    /* Firefox 4-15 */
+    -o-transition: all 1s ease;
+    /* Opera 10.5-12.00 */
+    transition: all 1s ease;
+    /* Firefox 16+, Opera 12.50+ */
+}
+
+
+/****************************
+Theme 10
+*****************************/
+
+.theme-10 .fa.fa-facebook {
+    border: 1px solid #3b5998;
+    border-radius: 8px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 40px;
+    color: #000;
+	min-width: 320px;
+}
+
+.theme-10 .fa.fa-twitter {
+    border: 1px solid #00abf1;
+    border-radius: 8px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    color: #000;
+    width: 40px;
+	min-width: 320px;
+}
+
+.theme-10 .fa.fa-google {
+    border: 1px solid #e1584b;
+    border-radius: 8px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    color: #000;
+    display: table-cell;
+    width: 40px;
+	min-width: 320px;
+}
+
+.theme-10 .fa.fa-linkedin {
+    border: 1px solid #0083be;
+    border-radius: 8px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    color: #000;
+    width: 40px;
+}
+
+.theme-10 .fa.fa-instagram {
+    border: 1px solid #316699;
+    border-radius: 8px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    color: #000;
+    width: 40px;
+	min-width: 320px;
+}
+
+.theme-10 .fa.fa-vk {
+    border: 1px solid #4c75a3;
+    border-radius: 8px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    color: #000;
+    width: 40px;
+	min-width: 320px;
+}
+
+.theme-10 .fa.fa-foursquare {
+    border: 1px solid #f94877;
+    border-radius: 8px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    color: #000;
+    display: table-cell;
+    width: 40px;
+}
+
+.theme-10 .fa.fa-wordpress {
+    border: 1px solid #346da6;
+    border-radius: 8px;
+    text-align: center;
+    height: 39px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    color: #000;
+    width: 40px;
+	min-width: 320px;
+}
+
+.theme-10 .fa.fa-buffer {
+    background: rgba(0, 0, 0, 0) url("../images/buffer-black.png") no-repeat scroll center center;
+    border: 1px solid grey;
+    border-radius: 5px;
+    display: block;
+    height: 39px;
+    text-align: center;
+    width: 39px;
+}
+
+.theme-10 .fa.fa-buffer:hover {
+    background: url("../images/buffer.png") no-repeat scroll center center;
+    background-color: #000
+}
+
+.theme-10 .fa.fa-facebook:hover, .theme-10 .fa.fa-twitter:hover, .theme-10 .fa.fa-google:hover, .theme-10 .fa.fa-linkedin:hover, .theme-10 .fa.fa-instagram:hover, .theme-10 .fa.fa-vk:hover, .theme-10 .fa.fa-foursquare:hover, .theme-10 .fa.fa-wordpress:hover, .theme-10 .fa.fa-buffer:hover {
+    background-color: #000;
+    -moz-border-radius: 0;
+    /*Firefox*/
+    -webkit-border-radius: 0;
+    /*Safari, Chrome*/
+    border-radius: 0;
+    border: 1px solid #000;
+    color: #fff;
+    -webkit-transition: all 1s ease;
+    /* Safari 3.2+, Chrome */
+    -moz-transition: all 1s ease;
+    /* Firefox 4-15 */
+    -o-transition: all 1s ease;
+    /* Opera 10.5-12.00 */
+    transition: all 1s ease;
+    /* Firefox 16+, Opera 12.50+ */
+}
+
+
+/****************************
+Theme 11
+*****************************/
+
+.apsl-long-login-text {
+    text-transform: uppercase;
+}
+
+.theme-4 .apsl-icon-block.buffer.clearfix {
+    background-color: #fff;
+}
+
+.theme-11 .apsl-icon-block.apsl-icon-facebook {
+    background: #48629b none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 22px;
+    padding: 7px 15px;
+    vertical-align: middle;
+	min-width:320px;
+	display: inline-block
+}
+
+.theme-11 .apsl-icon-block.apsl-icon-twitter {
+    background: #23b0e6 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 22px;
+    padding: 7px 15px;
+    vertical-align: middle;
+	min-width:320px;
+    display: inline-block
+}
+
+.theme-11 .fa.fa-facebook {
+    font-size: 19px;
+    padding-right: 16px;
+    padding-top: 2px;
+    vertical-align: top;
+    display: inline-block
+}
+
+.theme-11 .fa.fa-twitter {
+    font-size: 19px;
+    padding-right: 16px;
+    padding-top: 2px;
+    vertical-align: top;
+    display: inline-block
+}
+
+.theme-11 .apsl-icon-block.apsl-icon-google {
+    background: #dc4b38 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 22px;
+    padding: 7px 15px;
+    vertical-align: top;
+	min-width:320px;
+    display: inline-block
+}
+
+.theme-11 .fa.fa-google {
+    font-size: 19px;
+    padding-right: 16px;
+    padding-top: 2px;
+    vertical-align: middle;
+    display: inline-block
+}
+
+.theme-11 .apsl-icon-block.apsl-icon-linkedin {
+    background: #0e76a8 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 22px;
+    padding: 7px 15px;
+    vertical-align: top;
+	min-width:320px;
+    display: inline-block
+}
+
+.theme-11 .fa.fa-linkedin {
+    font-size: 19px;
+    padding-right: 16px;
+    padding-top: 2px;
+    vertical-align: top;
+    display: inline-block
+}
+
+.theme-11 .apsl-icon-block.apsl-icon-instagram {
+    background: #4A3C31 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 22px;
+    padding: 7px 15px;
+    vertical-align: middle;
+	min-width:320px;
+    display: inline-block
+}
+
+.theme-11 .fa.fa-instagram {
+    font-size: 19px;
+    padding-right: 16px;
+    padding-top: 2px;
+    vertical-align: top;
+    display: inline-block
+}
+
+.theme-11 .apsl-icon-block.apsl-icon-vk {
+    background: #496D8F none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 22px;
+    padding: 7px 15px;
+    vertical-align: top;
+	min-width:320px;
+    display: inline-block
+}
+
+.theme-11 .fa.fa-vk {
+    font-size: 19px;
+    padding-right: 16px;
+    padding-top: 2px;
+    vertical-align: top;
+	min-width:320px;
+    display: inline-block
+}
+
+.theme-11 .apsl-icon-block.apsl-icon-foursquare {
+    background: #F94877 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 22px;
+    padding: 7px 15px;
+    vertical-align: top;
+	min-width:320px;
+    display: inline-block
+}
+
+.theme-11 .fa.fa-foursquare {
+    font-size: 19px;
+    padding-right: 16px;
+    padding-top: 2px;
+    vertical-align: top;
+    display: inline-block
+}
+
+.theme-11 .apsl-icon-block.apsl-icon-wordpress {
+    background: #565656 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 22px;
+    padding: 7px 15px;
+    vertical-align: top;
+	min-width:320px;
+    display: inline-block
+}
+
+.theme-11 .fa.fa-wordpress {
+    font-size: 19px;
+    padding-right: 16px;
+    padding-top: 2px;
+    vertical-align: top;
+    display: inline-block
+}
+
+.theme-11 .fa.fa-buffer {
+    font-size: 19px;
+    margin-right: 16px;
+    padding-top: 2px;
+    vertical-align: top;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0) url("../images/buffer.png") no-repeat scroll center center;
+    width: 22px;
+    height: 22px
+}
+
+.theme-11 .apsl-icon-block.apsl-icon-buffer {
+    background: #333 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 22px;
+    padding: 7px 15px;
+    vertical-align: top;
+	min-width:320px;
+    display: inline-block
+}
+
+.theme-11 .apsl-icon-block {
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 22px;
+    padding: 7px 15px;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    vertical-align: middle;
+    border: 1px solid;
+}
+
+.theme-11 .apsl-icon-block:hover {
+    background-color: #ffffff;
+    color: #009ac9;
+    border-color: #009ac9;
+}
+
+
+/****************************
+Theme 12
+*****************************/
+
+@keyframes down-bump {
+    0% {
+        top: 1px;
+    }
+    50% {
+        top: 2px;
+    }
+    100% {
+        top: 1px;
+    }
+}
+
+.theme-12 .apsl-icon-block {
+    border-radius: 30px;
+    padding: 10px 18px;
+    font-size: 14px;
+    color: #ffffff;
+    position: relative;
+    margin: -1px 0 10px -1px;
+}
+
+.theme-12 .apsl-icon-block i {
+    position: relative;
+    transition: all 0.2s ease;
+    animation: down-bump 0.2s ease;
+}
+
+.theme-12 .apsl-icon-block i:hover {
+    animation: up-bump 0.2s ease;
+}
+
+.theme-12 .apsl-icon-block .fa {
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.theme-12 .apsl-icon-block.apsl-icon-facebook {
+    background: #48629b;
+    /* Old browsers */
+}
+
+.apsl-long-login-text {
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 300;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.theme-12 .apsl-icon-block.apsl-icon-twitter {
+    background: #23b0e6;
+    /* Old browsers */
+}
+
+.theme-12 .apsl-icon-block.apsl-icon-google {
+    background: #dc4b38;
+    /* Old browsers */
+}
+
+.theme-12 .apsl-icon-block.apsl-icon-linkedin {
+    background: #0e76a8;
+    /* Old browsers */
+}
+
+.theme-12 .apsl-icon-block.apsl-icon-instagram {
+    background: #517fa4;
+    /* Old browsers */
+}
+
+.theme-12 .apsl-icon-block.apsl-icon-vk {
+    background: #517fa4;
+    /* Old browsers */
+}
+
+.theme-12 .apsl-icon-block.apsl-icon-foursquare {
+    background: #0072b1;
+    /* Old browsers */
+}
+
+.theme-12 .fa.fa-buffer {
+    font-size: 19px;
+    margin-right: 16px;
+    padding-top: 2px;
+    vertical-align: top;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0) url("../images/buffer.png") no-repeat scroll center center;
+    width: 22px;
+    height: 22px
+}
+
+.theme-12 .apsl-icon-block.apsl-icon-wordpress {
+    background: #2a95c5;
+    /* Old browsers */
+}
+
+.theme-12 .apsl-icon-block.apsl-icon-buffer.buffer {
+    background-color: #333
+}
+
+
+/****************************
+Theme 13
+*****************************/
+
+.theme-13 .apsl-icon-block.apsl-icon-facebook {
+    background-color: #3b5998;
+    padding: 8px 12px;
+}
+
+.theme-13 .apsl-icon-block.apsl-icon-facebook.clearfix:hover {
+    background-color: #4d82fa;
+    transition: 0.8s ease-in-out;
+    -webkit-transition: 0.8s ease-in-out;
+}
+
+.theme-13 .fa.fa-facebook, .theme-13 .fa.fa-twitter, .theme-13 .fa.fa-google, .theme-13 .fa.fa-linkedin, .theme-13 .fa.fa-instagram, .theme-13 .fa.fa-vk, .theme-13 .fa.fa-foursquare, .theme-13 .fa.fa-wordpress, .theme-13 .fa.fa-buffer {
+    font-size: 20px;
+    color: #fff;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.theme-13 .apsl-long-login-text {
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 300;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.theme-13 .apsl-icon-block.apsl-icon-twitter {
+    background-color: #23b0e6;
+    padding: 8px 12px;
+}
+
+.theme-13 .apsl-icon-block.apsl-icon-twitter.clearfix:hover {
+    background-color: #146786;
+    transition: 0.8s ease-in-out;
+    -webkit-transition: 0.8s ease-in-out;
+}
+
+.theme-13 .apsl-icon-block.apsl-icon-google {
+    background-color: #cf4332;
+    padding: 8px 12px;
+}
+
+.theme-13 .apsl-icon-block.apsl-icon-google.clearfix:hover {
+    background-color: #76261d;
+    transition: 0.8s ease-in-out;
+    -webkit-transition: 0.8s ease-in-out;
+}
+
+.theme-13 .apsl-icon-block.apsl-icon-linkedin {
+    background-color: #0e76a8;
+    padding: 8px 12px;
+}
+
+.theme-13 .apsl-icon-block.apsl-icon-linkedin.clearfix:hover {
+    background-color: #0c648e;
+    transition: 0.8s ease-in-out;
+    -webkit-transition: 0.8s ease-in-out;
+}
+
+.theme-13 .apsl-icon-block.apsl-icon-instagram {
+    background-color: #517fa4;
+    padding: 8px 12px;
+}
+
+.theme-13 .apsl-icon-block.apsl-icon-instagram.clearfix:hover {
+    background-color: #3d5f7b;
+    transition: 0.8s ease-in-out;
+    -webkit-transition: 0.8s ease-in-out;
+}
+
+.theme-13 .apsl-icon-block.apsl-icon-vk {
+    background-color: #517fa4;
+    padding: 8px 12px;
+}
+
+.theme-13 .apsl-icon-block.apsl-icon-vk.clearfix:hover {
+    background-color: #3d5f7b;
+    transition: 0.8s ease-in-out;
+    -webkit-transition: 0.8s ease-in-out;
+}
+
+.theme-13 .apsl-icon-block.apsl-icon-foursquare {
+    background-color: #0072b1;
+    padding: 8px 12px;
+}
+
+.theme-13 .apsl-icon-block.apsl-icon-foursquare.clearfix:hover {
+    background-color: #005787;
+    transition: 0.8s ease-in-out;
+    -webkit-transition: 0.8s ease-in-out;
+}
+
+.theme-13 .apsl-icon-block.apsl-icon-wordpress {
+    background-color: #2a95c5;
+    padding: 8px 12px;
+}
+
+.theme-13 .apsl-icon-block.apsl-icon-wordpress.clearfix:hover {
+    background-color: #1074a8;
+    transition: 0.8s ease-in-out;
+    -webkit-transition: 0.8s ease-in-out;
+}
+
+.theme-13 .apsl-icon-block.apsl-icon-buffer {
+    background-color: #696969;
+    padding: 8px 12px;
+}
+
+.theme-13 .fa.fa-buffer {
+    background: rgba(0, 0, 0, 0) url("../images/buffer.png") no-repeat scroll center center;
+    height: 22px;
+    width: 22px;
+}
+
+.theme-13 .apsl-icon-block.apsl-icon-buffer.clearfix:hover {
+    background-color: #333333;
+    transition: 0.8s ease-in-out;
+    -webkit-transition: 0.8s ease-in-out;
+}
+
+
+/****************************
+Theme 14
+*****************************/
+
+.theme-14 .fa {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.theme-14 .apsl-icon-block {
+    line-height: 1
+}
+
+.theme-14 .apsl-icon-block {
+    line-height: 1
+}
+
+.theme-14 .apsl-icon-block {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+    color: #ffffff;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    transition: 0.8s ease-in-out;
+    -webkit-transition: 0.8s ease-in-out;
+    padding: 10px 15px;
+    font-size: 20px;
+    vertical-align: middle;
+    margin-right: 20px !important;
+}
+
+.theme-14 .apsl-long-login-text {
+    font-size: 12px;
+    font-weight: 300;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.theme-14 .apsl-icon-block.apsl-icon-facebook {
+    background: #3b5998;
+    /* Old browsers */
+    border-bottom: 2px solid #283c66
+}
+
+.theme-14 .apsl-icon-block.apsl-icon-facebook:hover {
+    background: #283c66;
+}
+
+.theme-14 .apsl-icon-block.apsl-icon-twitter {
+    background: #38cfff;
+    /* Old browsers */
+    border-bottom: 2px solid #268bab
+}
+
+.theme-14 .apsl-icon-block.apsl-icon-twitter:hover {
+    background-color: #268bab;
+}
+
+.theme-14 .apsl-icon-block.apsl-icon-google {
+    background: #ce3e35;
+    /* Old browsers */
+    border-bottom: 2px solid #8a2a24
+}
+
+.theme-14 .apsl-icon-block.apsl-icon-google:hover {
+    background-color: #8a2a24;
+}
+
+.theme-14 .apsl-icon-block.apsl-icon-linkedin {
+    background: #106fbe;
+    /* Old browsers */
+    border-bottom: 2px solid #0b4a7f
+}
+
+.theme-14 .apsl-icon-block.apsl-icon-linkedin:hover {
+    background-color: #0b4a7f;
+}
+
+.theme-14 .apsl-icon-block.apsl-icon-instagram {
+    background: #5380a3;
+    /* Old browsers */
+    border-bottom: 2px solid #0b4a7f
+}
+
+.theme-14 .apsl-icon-block.apsl-icon-instagram:hover {
+    background: #0b4a7f;
+    /* Old browsers */
+}
+
+.theme-14 .apsl-icon-block.apsl-icon-vk {
+    background: #517fa4;
+    /* Old browsers */
+    border-bottom: 2px solid #304268
+}
+
+.theme-14 .apsl-icon-block.apsl-icon-vk:hover {
+    background: #36556e;
+    /* Old browsers */
+}
+
+.theme-14 .apsl-icon-block.apsl-icon-foursquare {
+    background: #c03b5e;
+    /* Old browsers */
+    border-bottom: 2px solid #81283f
+}
+
+.theme-14 .apsl-icon-block.apsl-icon-foursquare:hover {
+    background: #81283f;
+    /* Old browsers */
+}
+
+.theme-14 .apsl-icon-block.apsl-icon-wordpress {
+    background: #2a95c5;
+    /* Old browsers */
+    border-bottom: 2px solid #2481ab
+}
+
+.theme-14 .apsl-icon-block.apsl-icon-wordpress:hover {
+    background: #2481ab;
+    /* Old browsers */
+}
+
+.theme-14 .apsl-icon-block.apsl-icon-buffer.buffer {
+    background: #3d3d3d;
+    /* Old browsers */
+    border-bottom: 2px solid #292929
+}
+
+.theme-14 .apsl-icon-block.apsl-icon-buffer:hover {
+    background: #292929;
+    /* Old browsers */
+}
+
+.theme-14 .fa.fa-buffer {
+    background: url(../images/buffer.png) no-repeat center left;
+    height: 22px;
+    width: 22px;
+}
+
+
+/****************************
+Theme 15
+*****************************/
+
+.theme-15 a {
+    border: none !important;
+}
+
+.theme-15 .apsl-login-text {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.theme-15 i {
+    font-size: 20px;
+    vertical-align: middle;
+    margin-right: 5px
+}
+
+.theme-15 .apsl-icon-block {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.theme-15 .apsl-long-login-text {
+    display: none;
+}
+
+.theme-15 .apsl-icon-block.apsl-icon-facebook {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    cursor: pointer;
+    padding: 0 30px;
+    border: 1px solid #3b5998;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: -webkit-linear-gradient(-90deg, #3b5998 0, #2b4270 100%), #304a7c;
+    background: -moz-linear-gradient(180deg, #3b5998 0, #2b4270 100%), #304a7c;
+    background: linear-gradient(180deg, #3b5998 0, #2b4270 100%), #304a7c;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    -webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.3);
+    line-height: 40px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.theme-15 .apsl-icon-block.apsl-icon-facebook:hover {
+    background: #3b5998;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    -webkit-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.theme-15 .apsl-icon-block.apsl-icon-twitter {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    cursor: pointer;
+    padding: 0 30px;
+    color: rgb(255, 255, 255);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.3);
+    line-height: 40px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: -webkit-linear-gradient(-90deg, #29aae2 0, #1f7ba3 100%), #1f7ba3;
+    background: -moz-linear-gradient(180deg, #29aae2 0, #1f7ba3 100%), #1f7ba3;
+    background: linear-gradient(180deg, #29aae2 0, #1f7ba3 100%), #1f7ba3;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    border: 1px solid #1b6889;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.theme-15 .apsl-icon-block.apsl-icon-twitter:hover {
+    background: #29aae2;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    -webkit-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.theme-15 .apsl-icon-block.apsl-icon-google {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    cursor: pointer;
+    padding: 0 30px;
+    color: rgb(255, 255, 255);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.3);
+    line-height: 40px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: -webkit-linear-gradient(-90deg, #dd4b38 0, #9b3328 100%), #dd4b38;
+    background: -moz-linear-gradient(180deg, #dd4b38 0, #9b3328 100%), #dd4b38;
+    background: linear-gradient(180deg, #dd4b38 0, #9b3328 100%), #dd4b38;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    border: 1px solid #933126;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.theme-15 .apsl-icon-block.apsl-icon-google:hover {
+    background: #dd4b38;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    -webkit-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.theme-15 .apsl-icon-block.apsl-icon-linkedin {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    cursor: pointer;
+    padding: 0 30px;
+    color: rgb(255, 255, 255);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.3);
+    line-height: 40px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: -webkit-linear-gradient(-90deg, #046599 0, #034f75 100%), #046599;
+    background: -moz-linear-gradient(180deg, #046599 0, #034f75 100%), #046599;
+    background: linear-gradient(180deg, #046599 0, #034f75 100%), #046599;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    border: 1px solid #034668;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.theme-15 .apsl-icon-block.apsl-icon-linkedin:hover {
+    background: #046599;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    -webkit-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.theme-15 .apsl-icon-block.apsl-icon-vk {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    cursor: pointer;
+    padding: 0 30px;
+    color: rgb(255, 255, 255);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.3);
+    line-height: 40px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: -webkit-linear-gradient(-90deg, #54769c 0, #344960 100%), #54769c;
+    background: -moz-linear-gradient(180deg, #54769c 0, #344960 100%), #54769c;
+    background: linear-gradient(180deg, #54769c 0, #344960 100%), #54769c;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    border: 1px solid #3b536d;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.theme-15 .apsl-icon-block.apsl-icon-vk:hover {
+    background: #54769c;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    -webkit-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.theme-15 .apsl-icon-block.apsl-icon-foursquare {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    cursor: pointer;
+    padding: 0 30px;
+    color: rgb(255, 255, 255);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.3);
+    line-height: 40px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: -webkit-linear-gradient(-90deg, #fa4778 0, #ad3253 100%), #fa4778;
+    background: -moz-linear-gradient(180deg, #fa4778 0, #ad3253 100%), #fa4778;
+    background: linear-gradient(180deg, #fa4778 0, #ad3253 100%), #fa4778;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    border: 1px solid #962b48;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.theme-15 .apsl-icon-block.apsl-icon-foursquare:hover {
+    background: #fa4778;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    -webkit-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.theme-15 .apsl-icon-block.apsl-icon-wordpress {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    cursor: pointer;
+    padding: 0 30px;
+    color: rgb(255, 255, 255);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.3);
+    line-height: 40px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: -webkit-linear-gradient(-90deg, #464442 0, #262524 100%), #464442;
+    background: -moz-linear-gradient(180deg, #464442 0, #262524 100%), #464442;
+    background: linear-gradient(180deg, #464442 0, #262524 100%), #464442;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    border: 1px solid #1c1b1a;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.theme-15 .apsl-icon-block.apsl-icon-wordpress:hover {
+    background: #464442;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    -webkit-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.theme-15 .apsl-icon-block.apsl-icon-instagram {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    cursor: pointer;
+    padding: 0 30px;
+    color: rgb(255, 255, 255);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.3);
+    line-height: 40px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: -webkit-linear-gradient(-90deg, #2a5b83 0, #1a384f 100%), #2a5b83;
+    background: -moz-linear-gradient(180deg, #2a5b83 0, #1a384f 100%), #2a5b83;
+    background: linear-gradient(180deg, #2a5b83 0, #1a384f 100%), #2a5b83;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    border: 1px solid #173247;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.theme-15 .apsl-icon-block.apsl-icon-instagram:hover {
+    background: #2a5b83;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    -webkit-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.theme-15 .apsl-icon-block.apsl-icon-buffer {
+    display: inline-block;
+    padding: 0 10px;
+    color: rgb(255, 255, 255);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.3);
+    line-height: 40px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: -webkit-linear-gradient(-90deg, #545454 0, #111111 100%), #545454;
+    background: -moz-linear-gradient(180deg, #545454 0, #111111 100%), #545454;
+    background: linear-gradient(180deg, #545454 0, #111111 100%), #545454;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    border: 1px solid #282828;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.theme-15 .apsl-icon-block.apsl-icon-buffer:hover {
+    background: #545454;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    -webkit-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 150ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.theme-15 .fa.fa-buffer {
+    background: rgba(0, 0, 0, 0) url("../images/buffer.png") no-repeat scroll center center;
+    height: 22px;
+    width: 22px;
+}
+
+
+/****************************
+Theme 16
+*****************************/
+
+.theme-16 .apsl-icon-block .apsl-login-text {
+    display: none
+}
+
+.theme-16 .fa.fa-buffer {
+    background: rgba(0, 0, 0, 0) url("../images/buffer-black.png") no-repeat scroll center center;
+    background-color: #eee;
+    background-size: 50%
+}
+
+.theme-16 .apsl-icon-block {
+    background-color: #D4D4D4;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 10px;
+    color: #000
+}
+
+.theme-16 .apsl-icon-block i {
+    padding: 11px 10px 10px;
+    background-color: #eee;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    vertical-align: top;
+    font-size: 18px
+}
+
+.theme-16 .apsl-icon-block:hover i {
+    background: none
+}
+
+.theme-16 .apsl-icon-block:hover .fa.fa-buffer {
+    background: rgba(0, 0, 0, 0) url("../images/buffer-black.png") no-repeat scroll center center;
+    background-size: 50%
+}
+
+.theme-16 .buffer .apsl-long-login-text {
+    vertical-align: top;
+}
+
+.theme-16 div.social-networks a {
+    float: left;
+}
+
+
+/****************************
+Theme 17
+*****************************/
+
+.theme-17 .apsl-icon-block .apsl-login-text {
+    display: none
+}
+
+.theme-17 .apsl-icon-block {
+    background-color: #fff;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    position: relative;
+    border: 1px solid #eee;
+    overflow: hidden;
+    color: #000
+}
+
+.theme-17 .apsl-icon-block:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #000;
+    width: 100%;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+}
+
+.theme-17 .apsl-icon-block:hover:before {
+    width: 0;
+    left: -3px;
+}
+
+.theme-17 .fa.fa-buffer {
+    margin-right: 2px;
+    padding-top: 2px;
+    vertical-align: top;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0) url("../images/buffer-black.png") no-repeat scroll center center;
+    width: 17px;
+    height: 22px;
+    background-size: contain;
+    margin-top: 9px;
+}
+
+.apsl-error {
+    font-size: 13px;
+    color: red;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+/****************************
+Templates
+*****************************/
+
+.template-1 {
+    position: relative;
+    border: 1px solid #eee;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.template-1 .apsl-login-form, .template-2 .apsl-login-form {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    position: relative;
+    margin-right: 4%;
+    z-index: 2
+}
+
+.template-1 .apsl-login-networks, .template-2 .apsl-login-networks {
+    width: 51%;
+    display: inline-block;
+    margin-left: 11%;
+    vertical-align: top;
+    position: relative;
+    z-index: 2;
+}
+
+
+/*.site-content .entry-header, .site-content .entry-content, .site-content .entry-summary, .site-content .entry-meta, .page-content {
+  max-width: 800px !important
+}*/
+
+.template-1 .apsl-seperator span, .template-2 .apsl-seperator span {
+    position: absolute;
+    top: 150px;
+    color: #3D3D3D;
+    border-radius: 25px;
+    border: 1px solid #D2D2D2;
+    text-align: center;
+    padding: 5px;
+    background-color: #eee;
+    z-index: 2;
+    width: 30px;
+    line-height: 30px;
+    margin-top: -20px;
+    font-size: 13px;
+    left: 40%;
+    margin-left: -20px;
+}
+
+.template-1 .apsl-seperator, .template-2 .apsl-seperator {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    z-index: 1;
+}
+
+.template-1 .apsl-seperator hr, .template-2 .apsl-seperator hr {
+    -ms-transform: rotate(90deg);
+    /* IE 9 */
+    -webkit-transform: rotate(90deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    margin: 0;
+    margin-left: -20%;
+}
+
+.template-1 .apsl-login-field, .template-2 .apsl-login-field {
+    display: block;
+}
+
+.template-1 .apsl-login-field-wrapper, .template-2 .apsl-login-field-wrapper {
+    margin-bottom: 10px
+}
+
+.template-1 input, .template-1 textarea, .template-2 input, .template-2 textarea, .template-3 input, .template-3 textarea, .template-4 input, .template-4 textarea {
+    width: 100%
+}
+
+.template-1 .apsl-submit-login, .template-1 .apsl-remember-me label, .template-1 .apsl-remember-me, .template-2 .apsl-submit-login, .template-2 .apsl-remember-me label, .template-2 .apsl-remember-me, .template-3 .apsl-submit-login, .template-3 .apsl-remember-me label, .template-3 .apsl-remember-me, .template-4 .apsl-submit-login, .template-4 .apsl-remember-me label, .template-4 .apsl-remember-me {
+    display: inline-block;
+}
+
+.template-1 .apsl-remember-me input, .template-2 .apsl-remember-me input, .template-3 .apsl-remember-me input, .template-4 .apsl-remember-me input {
+    width: auto;
+}
+
+.template-2 {
+    background-color: #7C8088;
+    margin-top: 40px;
+    padding: 2em;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.template-2 .apsl-login-form {
+    float: right;
+}
+
+.template-2 .apsl-login-networks {
+    float: left;
+    margin-left: 0
+}
+
+.template-2 .apsl-seperator span {
+    background-color: #484F61;
+    border: 5px solid rgb(101, 113, 142);
+    color: #F0F3F9;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.template-2 .apsl-seperator hr {
+    margin-left: 10%;
+}
+
+.template-2 .apsl-seperator span {
+    left: 54%
+}
+
+.template-2 label {
+    font-weight: bold;
+    font-size: 13px
+}
+
+.template-2 input, .template-2 textarea, .template-2 button, .template-2 .button, .template-2 input[type="button"], .template-2 input[type="reset"], .template-2 input[type="submit"] {
+    border-radius: 0
+}
+
+.template-3 .apsl-login-form, .template-3 span.apsl-login-new-text, .template-3 .social-networks {
+    width: 70%;
+    margin: 20px auto;
+    position: relative;
+    z-index: 2
+}
+
+.template-3 {
+    border: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+.template-3 .apsl-login-networks {
+    vertical-align: top;
+    position: relative;
+    z-index: 1;
+    background-color: #F3F3F3;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.template-3 .apsl-login-field-wrapper {
+    margin: 10px 0
+}
+
+.template-3 form {
+    padding-bottom: 20px
+}
+
+.template-3 .apsl-seperator span {
+    color: #3D3D3D;
+    border-radius: 25px;
+    border: 1px solid #D2D2D2;
+    text-align: center;
+    padding: 5px;
+    background-color: #eee;
+    z-index: 2;
+    width: 43px;
+    line-height: 30px;
+    font-size: 13px;
+    display: inline-block;
+    position: relative;
+    top: -44px;
+}
+
+.template-3 .apsl-seperator {
+    text-align: center;
+    height: 1px
+}
+
+.template-4 {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.template-4 .apsl-login-field-wrapper {
+    margin: 10px 0
+}
+
+.template-4 .apsl-login-field-wrapper:nth-child(4) {
+    float: right;
+}
+
+.template-4 .apsl-login-field-wrapper:nth-child(3) {
+    float: left;
+}
+
+.template-4 .apsl-seperator {
+    display: none
+}
+
+
+/***********************  Twitter Login  ***********************/
+
+.apsl-registration-wrapper {
+    max-width: 600px;
+    margin: auto;
+    padding-top: 100px;
+    width: 100%;
+}
+
+.apsl-registration-wrapper .apsl-login-wrap p {
+    margin-bottom: 15px
+}
+
+.apsl-registration-wrapper .apsl-user_name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.apsl-registration-wrapper .apsl-social-profile-image img {
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #F3F3F3;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+}
+
+.apsl-registration-wrapper .apsl-login-wrap {
+    background-color: #fff;
+    padding: 150px 0px 0;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.09);
+}
+
+.apsl-registration-wrapper .apsl-social-profile-image {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100px;
+}
+
+.apsl-registration-wrapper .apsl-registration-info {
+    text-align: center;
+}
+
+.apsl-registration-wrapper .apsl-registration-info, .apsl-registration-wrapper .apsl-buttons-wrapper {
+    padding: 0 20px 20px;
+    font-size: 15px;
+}
+
+.apsl-registration-wrapper .apsl-buttons-wrapper {
+    display: block;
+    background-color: #FDFDFD;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.09);
+    border-top: 1px solid #EAEAEA;
+    border-bottom: 1px solid #DADADA;
+    padding: 25px;
+    color: #505050;
+    font-size: 15px;
+}
+
+.apsl-registration-wrapper .apsl-login-message {
+    margin: 15px 0;
+    color: #424242;
+}
+
+.apsl-registration-wrapper .apsl-login-form-wrapper {
+    float: left;
+    width: 43%;
+    border-right: 1px solid #eee;
+    padding-right: 5.8%;
+}
+
+.apsl-registration-wrapper .apsl-login-form-wrapper p, .apsl-registration-wrapper .apsl-register-form-wrapper p {
+    font-size: 13px
+}
+
+.apsl-registration-wrapper .apsl-register-form-wrapper {
+    float: right;
+    width: 44%;
+    border-left: 1px solid #FFF;
+    padding-left: 5.8%;
+}
+
+.apsl-registration-wrapper .apsl-have-account {
+    margin: 10px 0;
+    display: block;
+    font-weight: bold;
+}
+
+.apsl-registration-wrapper .apsl-login-form, .apsl-registration-wrapper .apsl-registration-form {
+    display: block;
+    background-color: #FDFDFD;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.09);
+    border-top: 1px solid #EAEAEA;
+    border-bottom: 1px solid #DADADA;
+    padding: 25px;
+    color: #505050;
+    font-size: 15px;
+}
+
+.apsl-registration-wrapper .apsl-create-account-button, .apsl-registration-wrapper .apsl-link-account-button, .apsl-registration-wrapper .apsl-login-user-field.apsl-submit-login input, .apsl-registration-user-field.apsl-submit-registration input {
+    box-shadow: 0 1px 0 rgba(179, 214, 171, 0.55) inset;
+    border: 1px solid #537B4A;
+}
+
+.apsl-login-registration-form {
+    max-width: 400px;
+    width: 100%;
+}
+
+.apsl-registration-wrapper input {
+    width: 100%
+}
+
+.apsl-registration-wrapper .apsl-login-registration-form form {
+    margin-top: -8px;
+}
+
+.apsl-registration-wrapper form label {
+    font-weight: bold;
+    margin: 0 0 6px;
+    display: block;
+}
+
+.apsl-registration-wrapper .apsl-login-user-field-wrapper, .apsl-registration-wrapper .apsl-registration-form-wrapper {
+    margin: 0 0 10px;
+}
+
+.apsl-registration-wrapper .apsl-login-user-field.apsl-submit-login, .apsl-registration-wrapper .apsl-registration-user-field.apsl-submit-registration {
+    width: 120px;
+    float: right;
+}
+
+.apsl-registration-wrapper .apsl-back-button {
+    color: #AFAFAF;
+    margin: 24px 0 0;
+}
+
+.apsl-registration-wrapper .message-wrapper {
+    color: red;
+    margin: -8px 0 10px;
+}
+
+@media(max-width: 640px) {
+    .apsl-login-form-wrapper {
+        float: none !important;
+        width: 100% !important;
+        display: block;
+        border-right: 0 !important;
+        text-align: center;
+    }
+    .apsl-registration-wrapper .apsl-register-form-wrapper {
+        float: none !important;
+        width: 100% !important;
+        display: block;
+        margin-top: 50px;
+        text-align: center;
+        padding-left: 0 !important;
+    }
+}
+/*==========
+==========*/
+.apsl-login-with-login-form-networks .apsl-login-form a.lost {
+    float: left;
+    margin-top: -30px;
+}
+.apsl-login-with-login-form-networks .apsl-login-networks {
+    margin-top: 30px;
+}
+.apsl-login-with-login-form-networks.template-1 .apsl-login-form a.lost,
+.apsl-login-with-login-form-networks.template-2 .apsl-login-form a.lost {
+    float: none;
+}
+.template-1 .apsl-seperator span,
+.template-2 .apsl-seperator span {
+    width: 45px;
+    height: 45px;
+    line-height: 25px;
+}
+.template-1 .apsl-seperator span {
+    line-height: 33px;
+}
+.apsl-login-with-login-form-networks.template-3 .apsl-login-field-wrapper.apsl-fl-r {
+    float: right;
+}
+.apsl-login-with-login-form-networks.template-3 .apsl-login-field-wrapper.apsl-fl-l {
+    float: left;
+}
+.apsl-login-with-login-form-networks.template-3 .apsl-login-form a.lost {
+    margin-top: -49px;
+}

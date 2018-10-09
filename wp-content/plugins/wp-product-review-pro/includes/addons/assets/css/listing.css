@@ -1,0 +1,89 @@
+.wppr_listing {
+	float: left;
+	clear: both;
+	width: 100%;
+	border: 1px solid #ebebeb;
+	border-right: none;
+	border-bottom: none;
+	text-align: center;
+}
+
+.wppr_listing .wppr_product {
+	float: left;
+	width: 100%;
+	padding: 15px 0;
+	border: 1px solid #ebebeb;
+	border-top: none;
+	border-left: none;
+}
+
+.wppr_listing .wppr_title {
+	margin: 0 10px 10px;
+}
+
+.wppr_listing h3.wppr_product_title {
+	overflow: hidden;
+	height: 32px;
+	margin: 0 10px;
+	padding: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 16px;
+}
+
+.wppr_listing .wppr_product_image_wrap {
+	margin: 0 10px;
+	text-align: center;
+}
+
+.wppr_product_image {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background: red;
+	background: #f1f1f1;
+}
+
+.wppr_listing .wppr_product_image img {
+	display: inline-block;
+	width: 100%;
+	max-width: 100%;
+	margin: 0 0 5px 0;
+}
+
+.wppr_listing .wppr_price {
+	margin: 0 10px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 36px;
+}
+
+.wppr_listing .wppr_button {
+	display: inline-block;
+	margin: 0 2px 5px;
+}
+
+.wppr_listing .wppr_button_wrap {
+	margin: 0 10px;
+}
+
+.wppr_listing button.wppr_btn {
+	max-width: 100%;
+	margin: 0;
+	padding: 6px 17px;
+	font-size: 12px;
+}
+
+@media screen and (min-width: 600px) {
+	.wppr_listing .wppr_product {
+		width: 50%;
+		margin-right: -1px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.wppr_listing .wppr_product {
+		width: 33.33%;
+		margin-right: -1px;
+	}
+}

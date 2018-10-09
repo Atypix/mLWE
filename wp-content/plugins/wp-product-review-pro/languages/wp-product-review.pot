@@ -1,0 +1,346 @@
+# Copyright (C) 2017 ThemeIsle
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Product Review 2.0.0\n"
+"Report-Msgid-Bugs-To: "
+"https://github.com/Codeinwp/wp-product-review-pro/issues\n"
+"POT-Creation-Date: 2017-08-24 22:26:44+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Themeisle Translate Team <friends@themeisle.com>\n"
+"Language-Team: Themeisle Translate <friends@themeisle.com>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: includes/addons/class-wppr-pro-amazon.php:28
+#: includes/addons/class-wppr-pro-amazon.php:271
+msgid "Pro Amazon"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-amazon.php:233
+msgid "Buy On Amazon"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-amazon.php:284
+#: includes/addons/class-wppr-pro-amazon.php:285
+msgid "Click %1$shere%2$s to see how to get this value"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-amazon.php:290
+msgid "Access Key ID"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-amazon.php:297
+msgid "Secret Access Key"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-amazon.php:304
+msgid "Associate Tag"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-amazon.php:311
+msgid "Country"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-amazon.php:312
+msgid "Select the country to localize results."
+msgstr ""
+
+#: includes/addons/class-wppr-pro-amazon.php:332
+msgid "Cron"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-amazon.php:333
+msgid "Enable daily update of price."
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:28
+#: includes/addons/class-wppr-pro-comparison-table.php:202
+msgid "Pro Comparison Table"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:221
+msgid "Name column title"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:222
+msgid "The text to be displayed on the NAME column."
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:224
+msgid "NAME"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:228
+msgid "Rating column title"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:229
+msgid "The text to be displayed on the RATING column."
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:231
+msgid "RATING"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:235
+msgid "Description column title"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:236
+msgid "The text to be displayed on the DESCRIPTION column."
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:238
+msgid "DESCRIPTION"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:242
+msgid "Statistics column title"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:243
+msgid "The text to be displayed on the Statistics column."
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:245
+msgid "Statistics"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:249
+msgid "Link column title"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:250
+msgid "The text to be displayed on the LINK column."
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:252
+msgid "LINK"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:256
+msgid "The text for the review link"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:257
+msgid "Change text for \"Read review\""
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:259
+msgid "Read review"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:263
+msgid "The default button text"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:264
+msgid "Set default text for button"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:270
+msgid "Price column title"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:271
+msgid "The text to be displayed on the PRICE column."
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:273
+msgid "PRICE"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:277
+msgid "Read Review Color"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:278
+msgid "Change color for \"Read Review\"."
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:284
+msgid "Show options in table"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:285
+msgid "Show the product options inside the table."
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:288
+#: includes/addons/class-wppr-pro-comparison-table.php:299
+#: includes/addons/class-wppr-pro-comparison-table.php:310
+#: includes/addons/class-wppr-pro-listings.php:195
+msgid "Yes"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:289
+#: includes/addons/class-wppr-pro-comparison-table.php:300
+#: includes/addons/class-wppr-pro-comparison-table.php:311
+#: includes/addons/class-wppr-pro-listings.php:194
+msgid "No"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:295
+msgid "Show descriptions in table"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:296
+msgid "Show the product descriptions inside the table."
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:306
+msgid "Show price in table"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-comparison-table.php:307
+msgid "Show the product price inside the table."
+msgstr ""
+
+#: includes/addons/class-wppr-pro-custom-icon.php:28
+msgid "Pro Custom Icon"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-custom-icon.php:84
+msgid "Change Default Rating Icon"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-custom-icon.php:85
+msgid "Choose which icon would you like to use for the rating bar."
+msgstr ""
+
+#: includes/addons/class-wppr-pro-listings.php:28
+#: includes/addons/class-wppr-pro-listings.php:174
+msgid "Pro Listings"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-listings.php:190
+msgid "Show review on related posts."
+msgstr ""
+
+#: includes/addons/class-wppr-pro-listings.php:191
+msgid "Automatically display related reviews at the end of the post."
+msgstr ""
+
+#: includes/addons/class-wppr-pro-listings.php:201
+msgid "Review link text"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-listings.php:202
+msgid "What will be displayed on the review link."
+msgstr ""
+
+#: includes/addons/class-wppr-pro-listings.php:204
+msgid "Read Review"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-listings.php:208
+msgid "Button text"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-listings.php:209
+msgid "What will be displayed on the call to action button."
+msgstr ""
+
+#: includes/addons/class-wppr-pro-listings.php:211
+msgid "Buy Now"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-related-reviews.php:28
+msgid "Pro Related reviews"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-review-preload.php:28
+msgid "Pro Review Preload"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-review-preload.php:101
+msgid "Options"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-review-preload.php:114
+msgid "Pros"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-review-preload.php:127
+msgid "Cons"
+msgstr ""
+
+#: includes/addons/class-wppr-pro-single-review-shortcode.php:37
+msgid "Single Review Shortcode"
+msgstr ""
+
+#: includes/addons/layouts/amazon/editor-fields.php:14
+msgid "Amazon Product ID"
+msgstr ""
+
+#: includes/addons/layouts/amazon/editor-fields.php:23
+msgid "Import"
+msgstr ""
+
+#: includes/addons/layouts/amazon/editor-fields.php:24
+msgid "You can find the ID from the URL. Sample"
+msgstr ""
+
+#: includes/addons/layouts/wppr_comparison_table/table.php:117
+#: includes/addons/layouts/wppr_comparison_table/table.php:134
+msgid "Buy Now!"
+msgstr ""
+
+#: includes/addons/layouts/wppr_comparison_table/table.php:124
+msgid "Affiliate URL"
+msgstr ""
+
+#: includes/addons/widgets/class-wppr-pro-related-reviews-widget.php:124
+msgid "Widget Title"
+msgstr ""
+
+#: includes/addons/widgets/class-wppr-pro-related-reviews-widget.php:128
+msgid "Number of posts to show:"
+msgstr ""
+
+#: includes/addons/widgets/class-wppr-pro-related-reviews-widget.php:133
+msgid "Display thumbnail?"
+msgstr ""
+
+#: includes/addons/widgets/class-wppr-pro-related-reviews-widget.php:286
+#. translators: %s is replaced a url
+msgid ""
+"Great, now go under <a href=\"%s\">Appearance &#8250 Widgets</a> and place "
+"your widget in your sidebar."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Product Review"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://themeisle.com/plugins/wp-product-review/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This bundle contains all the premium add-on like: custom icons, preloader, "
+"product in post shortcode, comparision chart."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeIsle"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeisle.com"
+msgstr ""

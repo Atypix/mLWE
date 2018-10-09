@@ -1,0 +1,128 @@
+/* Put your CSS here */
+
+h2,
+.center-email,
+.ywgc-footer {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.ywgc-product-image {
+    float: left;
+    display: inline-block;
+    max-width: 30%;
+    margin-right: 20px;
+}
+
+.ywgc-suggested-text {
+    padding: 0 20px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 13px;
+    color: #484848;
+    text-align: center;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+.ywgc-product-description {
+    float: left;
+    width: 60%;
+}
+
+.ywgc-product-title {
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #484848;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.ywgc-product-excerpt {
+    margin-bottom: 15px;
+}
+
+.ywgc-product-link {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #afafaf;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+div.ywgc-gift-card-content input,
+div.ywgc-gift-card-content textarea,
+div.ywgc-gift-card-content button {
+    display: none;
+}
+
+div.ywgc-gift-card-content fieldset {
+    border: none;
+}
+
+img.ywgc-logo-shop-image {
+    max-width: 50px;
+}
+
+.ywgc-logo-style2 {
+    text-align: center;
+}
+
+.ywgc-add-cart-discount {
+    text-align: justify;
+    clear: both;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.ywgc-add-cart-discount a {
+    text-decoration: none;
+}
+
+.ywgc-discount-link {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #557da1;
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.ywgc-discount-message {
+    display: block;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.ywgc-product-suggested {
+    background-color: #f0f0f0;
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+
+.ywgc-discount-link-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ywgc-generated-code {
+    font-weight: bold;
+    display: block;
+    font-size: 18px;
+}
+
+.ywgc-expiration-message{
+    padding-bottom: 20px;
+    color: #fe4b20;
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+/* Admin Columns
+------------------------------------------ */
+/* Hide Add New */
+.page-title-action{
+	display: none;
+}
+
+/* Status Column */
+.post-type-claim .wp-list-table .column-status{
+	width: 150px;
+}
+/* Status */
+.post-type-claim .column-status .status {
+	padding: 3px 15px;
+	color: #FFF;
+	border-radius: 4px;
+	background-color: #34495e;
+}
+.post-type-claim .column-status .status-pending{
+	background-color: #9b59b6;
+}
+.post-type-claim .column-status .status-approved{
+	background-color: #2ecc71;
+}
+.post-type-claim .column-status .status-verifying{
+	background-color: #f39c12;
+}
+.post-type-claim .column-status .status-declined{
+	background-color: #e74c3c;
+}
+
+/* Responsive Admin Columns */
+@media screen and ( max-width: 782px ) {
+	.post-type-claim .wp-list-table .column-status:before{
+		display: none !important;
+	}
+	.post-type-claim .wp-list-table .column-status{
+		display: none !important;
+	}
+	.post-type-claim .wp-list-table td.column-status{
+		display: block !important;
+	}
+}

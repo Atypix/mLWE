@@ -1,0 +1,15 @@
+/* Email Notification */
+#email-notification-options ul{
+	margin: 0;
+}
+
+/* Job Listing Field */
+#job-listing-field .fx-mb-content p{
+	font-size: 14px;
+}
+
+/* Claimer Field */
+#claimer-field .fx-mb-description{
+	font-size: 14px;
+	font-style: normal;
+}

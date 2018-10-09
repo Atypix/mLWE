@@ -1,0 +1,424 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: woo_sale_revolution\n"
+"POT-Creation-Date: 2014-12-19 03:35+0330\n"
+"PO-Revision-Date: 2014-12-19 03:35+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.8\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .\n"
+
+#: core/admin/list_product.php:10 core/admin/list_rule.php:74
+#: core/shortcode.php:78 core/shortcode.php:408
+msgid "Days"
+msgstr ""
+
+#: core/admin/list_product.php:12 core/admin/list_rule.php:76
+#: core/shortcode.php:80 core/shortcode.php:289 core/shortcode.php:410
+#: core/shortcode.php:505 core/shortcode.php:647
+#: template/front/product.php:162
+msgid "Hours"
+msgstr ""
+
+#: core/admin/list_product.php:14 core/admin/list_rule.php:78
+#: core/shortcode.php:82 core/shortcode.php:291 core/shortcode.php:412
+#: core/shortcode.php:507 core/shortcode.php:649
+#: template/front/product.php:164
+msgid "Minutes"
+msgstr ""
+
+#: core/admin/list_product.php:16 core/admin/list_rule.php:80
+#: core/shortcode.php:84 core/shortcode.php:293 core/shortcode.php:414
+#: core/shortcode.php:509 core/shortcode.php:651
+#: template/front/product.php:166
+msgid "Seconds"
+msgstr ""
+
+#: core/admin/list_product.php:35 core/admin/list_rule.php:33
+msgid "S.No"
+msgstr ""
+
+#: core/admin/list_product.php:37
+msgid "Name"
+msgstr ""
+
+#: core/admin/list_product.php:38
+msgid "SKU"
+msgstr ""
+
+#: core/admin/list_product.php:39
+msgid "Price"
+msgstr ""
+
+#: core/admin/list_product.php:40
+msgid "Categories"
+msgstr ""
+
+#: core/admin/list_product.php:41
+msgid "Tags"
+msgstr ""
+
+#: core/admin/list_product.php:42
+msgid "Featured"
+msgstr ""
+
+#: core/admin/list_product.php:43
+msgid "Date"
+msgstr ""
+
+#: core/admin/list_rule.php:14 core/admin/list_rule.php:17
+msgid "Edit"
+msgstr ""
+
+#: core/admin/list_rule.php:14 core/admin/list_rule.php:17
+msgid "Delete"
+msgstr ""
+
+#: core/admin/list_rule.php:14
+msgid "Deactive"
+msgstr ""
+
+#: core/admin/list_rule.php:17
+msgid "Active"
+msgstr ""
+
+#: core/admin/list_rule.php:35
+msgid "Id Rule"
+msgstr ""
+
+#: core/admin/list_rule.php:36 template/admin/add_edit_rule.php:23
+msgid "Rule Name"
+msgstr ""
+
+#: core/admin/list_rule.php:37 core/admin/list_rule.php:122
+msgid "List Product"
+msgstr ""
+
+#: core/admin/list_rule.php:38
+msgid "Rule Type"
+msgstr ""
+
+#: core/admin/list_rule.php:39
+msgid "From Date"
+msgstr ""
+
+#: core/admin/list_rule.php:40
+msgid "To Date"
+msgstr ""
+
+#: core/admin/list_rule.php:41 template/admin/add_edit_rule.php:412
+#: template/admin/add_edit_rule.php:474
+msgid "Discount"
+msgstr ""
+
+#: core/admin/list_rule.php:42
+msgid "Remaining Time"
+msgstr ""
+
+#: core/admin/list_rule.php:43
+msgid "Status"
+msgstr ""
+
+#: core/admin/list_rule.php:44
+msgid "Date Modified"
+msgstr ""
+
+#: core/admin/setting-tab.php:27
+msgid "Flash Sale"
+msgstr ""
+
+#: core/admin/setting-tab.php:34
+msgid "Product Brand base"
+msgstr ""
+
+#: core/admin/setting-tab.php:85
+msgid "a Page"
+msgstr ""
+
+#: core/admin/setting-tab.php:86
+msgid "Page contents: [pw_woocommerce_brands]"
+msgstr ""
+
+#: core/admin/setting-tab.php:120
+msgid "General Settings"
+msgstr ""
+
+#: core/admin/setting-tab.php:122
+msgid "Style Count Down"
+msgstr ""
+
+#: core/admin/setting-tab.php:123
+msgid "Choose Count Down"
+msgstr ""
+
+#: core/admin/setting-tab.php:129
+msgid "Style 1"
+msgstr ""
+
+#: core/admin/setting-tab.php:130
+msgid "Style 2"
+msgstr ""
+
+#: core/admin/setting-tab.php:131
+msgid "Style 3"
+msgstr ""
+
+#: core/admin/setting-tab.php:136
+msgid "Show Count Down Single"
+msgstr ""
+
+#: core/admin/setting-tab.php:137
+msgid "Show Count Down Single."
+msgstr ""
+
+#: core/admin/setting-tab.php:144 core/admin/setting-tab.php:145
+msgid "Show Count Down Archive"
+msgstr ""
+
+#: core/admin/setting-tab.php:152
+msgid "Colour"
+msgstr ""
+
+#: core/admin/setting-tab.php:153
+msgid "The base colour for Dark Skin Colour. Default<code>#414141</code>."
+msgstr ""
+
+#: core/admin/setting-tab.php:161
+msgid "Font Size"
+msgstr ""
+
+#: core/admin/setting-tab.php:162
+msgid "Font Size For CountDown"
+msgstr ""
+
+#: core/admin/setting-tab.php:168
+msgid "Small"
+msgstr ""
+
+#: core/admin/setting-tab.php:169
+msgid "Medium"
+msgstr ""
+
+#: core/admin/setting-tab.php:170
+msgid "Large"
+msgstr ""
+
+#: core/widget.php:7
+msgid "WooCommerce Flash Sale"
+msgstr ""
+
+#: core/widget.php:8
+msgid "Display a list of your Flash Sale."
+msgstr ""
+
+#: core/widget.php:176
+msgid "Title:"
+msgstr ""
+
+#: core/widget.php:180
+msgid "Carousel Type:"
+msgstr ""
+
+#: core/widget.php:195
+msgid "Item count View"
+msgstr ""
+
+#: core/widget.php:199
+msgid "Item Per View"
+msgstr ""
+
+#: core/widget.php:203
+msgid "Rule Name:"
+msgstr ""
+
+#: core/widget.php:229
+msgid "Show countdown"
+msgstr ""
+
+#: main.php:64 main.php:65
+msgid "flash_sale"
+msgstr ""
+
+#: main.php:217 main.php:218
+msgid "Flash Sale Rule"
+msgstr ""
+
+#: main.php:233
+msgid "Points Log"
+msgstr ""
+
+#: main.php:239
+msgid "Manage Points"
+msgstr ""
+
+#: main.php:266
+msgid "Rule"
+msgstr ""
+
+#: main.php:272
+msgid "Rule List"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:11
+msgid "Edit Rule"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:14
+msgid "Add New Rule"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:28
+msgid "Enter Rule name"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:39
+msgid "Upload/Add image"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:40
+msgid "Remove image"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:56
+msgid "Choose an image"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:58
+msgid "Use image"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:89
+msgid "Apply to"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:94
+msgid "All Product"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:95
+msgid "Product in List"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:96
+msgid "Product not in List"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:100
+msgid "Category in List"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:101
+msgid "Category not in List"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:105
+msgid "Tag in List"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:106
+msgid "Tag not in List"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:113
+msgid "category"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:118 template/admin/add_edit_rule.php:165
+msgid "Choose Category"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:160
+msgid "Except category"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:207
+msgid "Tag"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:212 template/admin/add_edit_rule.php:259
+msgid "Choose Tag"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:254
+msgid "Except Tag"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:302
+msgid "Product"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:306 template/admin/add_edit_rule.php:335
+msgid "Choose Product"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:331
+msgid "Except Product"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:360
+msgid "schedule"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:367
+msgid "From"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:387
+msgid "To"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:400
+msgid "Type Of Discount"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:404
+msgid "FlashSale"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:405
+msgid "Quantity"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:406
+msgid "Special Offer"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:420
+msgid "Amount to purchase"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:428
+msgid "Amount to adjust"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:436
+msgid "Adjustment value"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:444
+msgid "Quantity Discount"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:472
+msgid "Min Quantity"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:473
+msgid "Max Quantity"
+msgstr ""
+
+#: template/admin/add_edit_rule.php:490
+msgid "Submit"
+msgstr ""
+
+#: template/front/product.php:134
+msgid "Free!"
+msgstr ""

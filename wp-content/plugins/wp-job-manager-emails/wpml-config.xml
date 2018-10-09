@@ -1,0 +1,21 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="translate" style="line">post_title</custom-field>
+		<custom-field action="translate" style="line">subject</custom-field>
+		<custom-field action="copy">from_email</custom-field>
+		<custom-field action="copy">from_name</custom-field>
+		<custom-field action="copy">to</custom-field>
+		<custom-field action="copy">bcc</custom-field>
+		<custom-field action="copy">hook</custom-field>
+		<custom-field action="copy">attachments</custom-field>
+		<custom-field action="copy">email_format</custom-field>
+		<custom-field action="copy">days_before_expire</custom-field>
+		<custom-field action="copy">exclude</custom-field>
+		<custom-field action="copy">disable_wpautop</custom-field>
+	</custom-fields>
+	<custom-types>
+		<custom-type translate="1">jm_job_emails</custom-type>
+		<custom-type translate="1">jm_resume_emails</custom-type>
+		<custom-type translate="1">jm_app_emails</custom-type>
+	</custom-types>
+</wpml-config>

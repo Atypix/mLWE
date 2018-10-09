@@ -1,0 +1,106 @@
+.mad-file-wrapper .mad-uploaded li {
+	width: 250px;
+	margin: 0 10px 10px 0;
+	transition: width .25s, opacity .25s;
+}
+.mad-file-wrapper .mad-uploaded .mad-icon {
+	width: 60px;
+	text-align: center;
+	vertical-align: middle;
+	overflow: hidden;
+}
+.mad-file-wrapper .mad-uploaded .mad-icon img {
+	max-height: 60px;
+	max-width: 60px;
+}
+.mad-file-wrapper .mad-uploaded .mad-info {
+	width: 180px;
+	vertical-align: top;
+	overflow: hidden;
+}
+.mad-file-wrapper .mad-uploaded .mad-info p {
+	margin: .1em 0;
+}
+.mad-file-wrapper .mad-uploaded .mad-info a {
+	font-weight: bold;
+	text-decoration: none;
+}
+.mad-file-wrapper .mad-uploaded li,
+.mad-file-wrapper .mad-uploaded .mad-icon,
+.mad-file-wrapper .mad-uploaded .mad-info {
+	display: inline-block;
+}
+.mad-file-wrapper .mad-uploaded .mad-icon,
+.mad-file-wrapper .mad-uploaded .mad-info {
+	margin: 0 0 2px 2px;
+}
+.mad-file-wrapper .mad-uploaded li.removed {
+	width: 0;
+	margin: 0;
+	opacity: 0;
+}
+.mad-file-wrapper .mad-uploaded li.removed:after {
+	content: ' ';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	opacity: .4;
+	background-color: #f00;
+}
+
+
+.mad-thickbox_image-wrapper .mad-uploaded li {
+	width: 250px;
+	margin: 0 10px 10px 0;
+	transition: width .25s, opacity .25s;
+}
+.mad-thickbox_image-wrapper .mad-uploaded .mad-icon {
+	width: 60px;
+	text-align: center;
+	vertical-align: middle;
+	overflow: hidden;
+}
+.mad-thickbox_image-wrapper .mad-uploaded .mad-icon img {
+	max-height: 60px;
+	max-width: 60px;
+}
+.mad-thickbox_image-wrapper .mad-uploaded .mad-info {
+	width: 180px;
+	vertical-align: top;
+	overflow: hidden;
+}
+.mad-thickbox_image-wrapper .mad-uploaded .mad-info p {
+	margin: .1em 0;
+}
+.mad-thickbox_image-wrapper .mad-uploaded .mad-info a {
+	font-weight: bold;
+	text-decoration: none;
+}
+.mad-thickbox_image-wrapper .mad-uploaded li,
+.mad-thickbox_image-wrapper .mad-uploaded .mad-icon,
+.mad-thickbox_image-wrapper .mad-uploaded .mad-info {
+	display: inline-block;
+}
+.mad-thickbox_image-wrapper .mad-uploaded .mad-icon,
+.mad-thickbox_image-wrapper .mad-uploaded .mad-info {
+	margin: 0 0 2px 2px;
+}
+.mad-thickbox_image-wrapper .mad-uploaded li.removed {
+	width: 0;
+	margin: 0;
+	opacity: 0;
+}
+.mad-thickbox_image-wrapper .mad-uploaded li.removed:after {
+	content: ' ';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	opacity: .4;
+	background-color: #f00;
+}

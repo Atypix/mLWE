@@ -1,0 +1,4077 @@
+# Copyright (C) 2018 Myles McNamara
+# This file is distributed under the same license as the WP Job Manager - Emails package.
+# Translators:
+# Myles McNamara <myles@smyl.es>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager Emails\n"
+"Report-Msgid-Bugs-To: http://plugins.smyl.es\n"
+"POT-Creation-Date: 2018-02-27 22:31:54+00:00\n"
+"PO-Revision-Date: 2018-02-27 22:32+0000\n"
+"Last-Translator: Myles McNamara <myles@smyl.es>\n"
+"Language-Team: German (http://www.transifex.com/smyles/wp-job-manager-emails/language/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: includes/admin/class-ajax.php:57
+msgid "ID: "
+msgstr ""
+
+#: includes/admin/class-application.php:44 includes/admin/class-job.php:44
+#: includes/admin/class-resume.php:44
+msgid "Additional Templates"
+msgstr ""
+
+#: includes/admin/class-application.php:45 includes/admin/class-job.php:45
+#: includes/admin/class-resume.php:45
+msgid ""
+"Click here to view the Default Templates (recommended for sending emails).  "
+"If themes or other plugins add templates, you will see additional tabs next "
+"to this one."
+msgstr ""
+
+#: includes/admin/class-application.php:55 includes/admin/class-job.php:55
+#: includes/admin/class-resume.php:55
+msgid "Shortcodes List"
+msgstr ""
+
+#: includes/admin/class-application.php:56 includes/admin/class-job.php:56
+#: includes/admin/class-resume.php:56
+msgid ""
+"Click on this tab to show a list of available shortcodes to use in your "
+"email.  Click on one to add it to the template, click outside of it to close"
+" the sidebar."
+msgstr ""
+
+#: includes/admin/class-application.php:66
+#: includes/admin/class-application.php:88 includes/admin/class-job.php:66
+#: includes/admin/class-job.php:88 includes/admin/class-metaboxes.php:52
+#: includes/admin/class-resume.php:66 includes/admin/class-resume.php:88
+#: includes/admin/views/modals.php:10
+msgid "Email Templates"
+msgstr "E-Mail-Vorlagen"
+
+#: includes/admin/class-application.php:67 includes/admin/class-job.php:67
+#: includes/admin/class-resume.php:67
+msgid ""
+"Click this button to open the Email Templates modal, which provides numerous"
+" amount of email templates which you can preview, and then use if you decide"
+" to."
+msgstr ""
+
+#: includes/admin/class-application.php:77 includes/admin/class-job.php:77
+#: includes/admin/class-resume.php:77
+msgid "Shortcodes, Documentation, and Help ..."
+msgstr "Kurzwahlnummern, Dokumentation und Hilfe..."
+
+#: includes/admin/class-application.php:78 includes/admin/class-job.php:78
+#: includes/admin/class-resume.php:78
+msgid ""
+"You can find documentation on how to use shortcodes, the supported "
+"arguments, and example code, as well as additional help information, by "
+"clicking on this help dropdown link."
+msgstr "Dokumentation zur Verwendung Kurzwahlnummern, die unterstützten Argumente und Beispielcode, sowie zusätzliche Hilfe-Informationen, indem Sie auf diese Dropdown-Link \"Hilfe\" finden."
+
+#: includes/admin/class-application.php:89
+msgid ""
+"You can find Application email templates here, under the Applications main "
+"menu item."
+msgstr ""
+
+#: includes/admin/class-assets.php:106
+msgid ""
+"If you continue receive this error, please submit a <a target=\"_blank\" "
+"href=\"%s\">support ticket</a>."
+msgstr "Wenn Sie weiterhin diese Fehlermeldung senden Sie bitte ein <a target=\"_blank\" href=\"%s\"> support-Ticket</a>."
+
+#: includes/admin/class-assets.php:107
+msgid "This field is required!"
+msgstr "Dieses Feld ist erforderlich!"
+
+#: includes/admin/class-assets.php:108
+#: includes/updater/smyles-updater-licenses.php:409
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/admin/class-assets.php:109
+msgid "Loading"
+msgstr "Laden"
+
+#: includes/admin/class-assets.php:110
+#: includes/updater/smyles-updater-licenses.php:405
+msgid "No"
+msgstr "Nein"
+
+#: includes/admin/class-assets.php:111 includes/admin/views/modals.php:84
+#: includes/admin/views/modals.php:145
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: includes/admin/class-assets.php:112
+msgid "Close"
+msgstr "Schließen"
+
+#: includes/admin/class-assets.php:113 includes/admin/class-listtable.php:280
+#: includes/admin/settings/class-resume.php:21
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: includes/admin/class-assets.php:114 includes/admin/class-listtable.php:274
+msgid "Disable"
+msgstr "Deaktivieren"
+
+#: includes/admin/class-assets.php:115
+#: includes/updater/smyles-updater-licenses.php:143
+#: includes/updater/smyles-updater-licenses.php:237
+msgid "Error"
+msgstr "Fehler"
+
+#: includes/admin/class-assets.php:116
+msgid "Uknown Error! Refresh the page and try again."
+msgstr "Unbekannter Fehler! Aktualisieren Sie die Seite und versuchen Sie es erneut."
+
+#: includes/admin/class-assets.php:117
+msgid "Success"
+msgstr "Erfolg"
+
+#: includes/admin/class-assets.php:118
+msgid "Are you sure you want to remove this configuration?"
+msgstr "Sind Sie sicher, dass Sie diese Konfiguration entfernen möchten?"
+
+#: includes/admin/class-assets.php:119
+msgid "Updating supported attachment fields..."
+msgstr ""
+
+#: includes/admin/class-assets.php:120
+msgid "Loading hook configuration..."
+msgstr ""
+
+#: includes/admin/class-assets.php:121 includes/admin/class-help.php:261
+#: includes/admin/class-metaboxes.php:127
+#: includes/admin/help/class-application.php:15
+#: includes/admin/help/class-job.php:15
+#: includes/admin/help/class-resume.php:15
+msgid "Shortcodes"
+msgstr "Kurzwahlnummern"
+
+#: includes/admin/class-assets.php:149
+msgid "Add"
+msgstr ""
+
+#: includes/admin/class-assets.php:150
+msgid "Click to add"
+msgstr ""
+
+#: includes/admin/class-assets.php:151
+msgid "Invalid"
+msgstr ""
+
+#: includes/admin/class-assets.php:152
+msgid "Valid"
+msgstr ""
+
+#: includes/admin/class-assets.php:153
+msgid "Please enter a valid email to add a custom email address."
+msgstr ""
+
+#: includes/admin/class-assets.php:154
+msgid "No users found for"
+msgstr ""
+
+#: includes/admin/class-assets.php:155
+msgid "Search results for"
+msgstr ""
+
+#: includes/admin/class-help.php:239
+#: includes/admin/help/class-application.php:29
+#: includes/admin/help/class-job.php:29
+#: includes/admin/help/class-resume.php:29
+msgid "Overview"
+msgstr "Übersicht"
+
+#: includes/admin/class-help.php:262
+msgid "Populate dynamic values into your email template."
+msgstr "Dynamische Werte in Ihre e-Mail-Vorlage aufgefüllt."
+
+#: includes/admin/class-help.php:263
+msgid ""
+"As most WordPress users are already familiar with shortcodes, and how they "
+"work, that is why I decided to use shortcodes as the <em>template "
+"variables</em> to insert dynamic values from listings and other sources, as "
+"well as to allow you to form conditional statements, and another features "
+"that will soon be included with this plugin."
+msgstr "Wie die meisten WordPress, die Benutzer bereits mit Kurzwahlnummern und wie sie funktionieren warum ich beschlossen, Kurzwahlnummern wie die <em>Template-Variablen</em> verwenden, um dynamische Werte von Inserate und anderen Quellen, als auch hinsichtlich der Form bedingte Anweisungen, erlaubt einzufügen, d. h. vertraut sind und eine andere Features, die bald mit diesem Plugin aufgenommen werden."
+
+#: includes/admin/class-help.php:266
+msgid "Tips"
+msgstr "Tipps"
+
+#: includes/admin/class-help.php:269
+msgid "Double click on a shortcode to insert in the content area"
+msgstr "Klicken Sie doppelt auf ein Shortcode einfügen im Content-Bereich"
+
+#: includes/admin/class-help.php:270
+msgid "Hover over a shortcode to view the description"
+msgstr "Mauszeiger über eine Kurzwahlnummer um die Beschreibung anzuzeigen"
+
+#: includes/admin/class-help.php:274
+msgid "Metabox Colors"
+msgstr "Metabox Farben"
+
+#: includes/admin/class-help.php:280
+msgid "Optional Meta Key"
+msgstr "Optionale Meta-Taste"
+
+#: includes/admin/class-help.php:281
+msgid "Required Meta Key"
+msgstr "Erforderlichen Meta-Taste"
+
+#: includes/admin/class-help.php:282
+msgid "Non-Meta Key Shortcode"
+msgstr "Wichtige nicht-Meta-Shortcode"
+
+#: includes/admin/class-help.php:302
+msgid "Attributes/Arguments & Usage Examples"
+msgstr "Attribute/Argumente & Nutzungsbeispiele"
+
+#: includes/admin/class-help.php:308
+msgid "Standard Shortcode Attributes/Arguments"
+msgstr "Norm Shortcode Attribute/Argumente"
+
+#: includes/admin/class-help.php:312
+msgid ""
+"The arguments below can be added in the opening shortcode tag, based on your"
+" preference."
+msgstr "Die folgenden Argumente hinzugefügt werden können, bei der Eröffnung Shortcode-Tag, basierend auf Ihren Wünschen."
+
+#: includes/admin/class-help.php:313
+msgid "Multiple arguments can be specified in a shortcode."
+msgstr "Mehrere Argumente können in einer Kurzwahlnummer angegeben werden."
+
+#: includes/admin/class-help.php:318
+msgid ""
+"All standard shortcode arguments <strong>must</strong> use the standard "
+"argument format"
+msgstr "Alle standard-Shortcode Argumente <strong>muss</strong> verwenden Sie das standard-Argument-format"
+
+#: includes/admin/class-help.php:320
+msgid ""
+"You must use the format of <code>argument=\"value\"</code> for any standard "
+"shortcode arguments. The argument equal to the value, enclosed in single or "
+"double quotes."
+msgstr "Sie müssen verwenden das Format des <code>Argument = \"Value\"</code> für jede Norm Shortcode-Argumente. Die Argument gleich dem Wert in einfache oder doppelte Anführungszeichen eingeschlossen."
+
+#: includes/admin/class-help.php:326 includes/admin/class-help.php:558
+#: includes/admin/class-help.php:672 includes/admin/class-help.php:808
+msgid "Argument"
+msgstr "Argument"
+
+#: includes/admin/class-help.php:327 includes/admin/class-help.php:559
+#: includes/admin/class-help.php:673 includes/admin/class-help.php:809
+msgid "Example"
+msgstr "Beispiel"
+
+#: includes/admin/class-help.php:328 includes/admin/class-help.php:428
+#: includes/admin/class-help.php:465 includes/admin/class-help.php:560
+#: includes/admin/class-help.php:674 includes/admin/class-help.php:705
+#: includes/admin/class-help.php:810 includes/admin/class-help.php:843
+#: includes/admin/class-help.php:900
+msgid "Description"
+msgstr "Beschreibung"
+
+#: includes/admin/class-help.php:334 includes/admin/class-help.php:347
+#: includes/admin/class-help.php:360 includes/admin/class-help.php:393
+msgid "string"
+msgstr "Zeichenfolge"
+
+#: includes/admin/class-help.php:342
+msgid "String to output after field value (and label)."
+msgstr "Die Zeichenfolge, die Ausgabe nach dem Wert des Feldes (und beschriften)."
+
+#: includes/admin/class-help.php:355
+msgid "String to output after field value."
+msgstr "String in Ausgabe nach Feldwert."
+
+#: includes/admin/class-help.php:366
+msgid ""
+"Customize the string used for building the divider (see advanced arguments),"
+" default is <code>-</code>"
+msgstr "Die Zeichenfolge für den Aufbau des Teiler anpassen (siehe Erweiterte Argumente), Standard ist <code>–</code>"
+
+#: includes/admin/class-help.php:371
+msgid "integer"
+msgstr "ganze Zahl"
+
+#: includes/admin/class-help.php:377
+msgid ""
+"Customize how many times to repeat the divider string, default is "
+"<code>12</code>"
+msgstr "Anpassen, wie viele Male die Teiler-Zeichenfolge zu wiederholen, Standardwert ist <code>12</code>"
+
+#: includes/admin/class-help.php:382 includes/admin/class-help.php:404
+msgid "csv string"
+msgstr "CSV-string"
+
+#: includes/admin/class-help.php:388
+msgid ""
+"Customize order of shortcode output. In this example we move "
+"<code>before</code> in front of <code>top_divider</code>.  <strong>Order "
+"must be in a comma separated!</strong>Default order "
+"is:<br/><em>top_divider,before,content,label,value,after,bottom_divider</em>"
+msgstr "Passen Sie die Reihenfolge der Shortcode-Ausgabe. In diesem Beispiel verschieben wir <code>vor</code> vor <code>Top_divider</code>.  <strong>Reihenfolge muß in eine durch Kommas getrennte!</strong> Standardreihenfolge ist: <br/> <em>Top_divider vor, Inhalte, Label, Wert nach Bottom_divider</em>"
+
+#: includes/admin/class-help.php:399
+msgid ""
+"Customize the separator used for any multiple field types (saved as array), "
+"such as file (multiple), and taxonomy field types.  This example we use a "
+"line break instead of comma.  Default separator is <code>, </code>"
+msgstr "Passen Sie das Trennzeichen für jede mehrere Feldtypen (gespeichert als Array), z. B. Datei (Multiple Choice) und Feldtypen Taxonomie verwendet.  In diesem Beispiel, dass wir einen Zeilenumbruch statt Komma verwenden.  Standardtrennlinie ist <code>,</code>"
+
+#: includes/admin/class-help.php:410
+msgid ""
+"Customize meta keys to skip when outputting groups of fields (like "
+"job_fields and resume_fields).  In this example we skip outputting the "
+"job_title and job_file."
+msgstr "Passen Sie die Meta-Tasten überspringen, wenn Sie Gruppen von Feldern (wie Job_fields und Resume_fields) eingeschlossen.  In diesem Beispiel überspringen wir die Job_title und Job_file ausgeben."
+
+#: includes/admin/class-help.php:418
+msgid "Standard Shortcode Usage"
+msgstr "Standardverwendung Shortcode"
+
+#: includes/admin/class-help.php:421
+msgid ""
+"The default and standard usage of a shortcode is very simple, and all you "
+"need to do is enter the shortcode exactly as you see it in the shortcode "
+"metaboxes on this page."
+msgstr "Die Standard- und die Standardverwendung von einer Kurzwahlnummer ist sehr einfach, und alles, was Sie tun müssen, ist die Kurzwahlnummer eingeben, genau so, wie Sie es in die Kurzwahlnummer Metaboxes auf dieser Seite zu sehen."
+
+#: includes/admin/class-help.php:422
+msgid ""
+"If using a shortcode that is a meta key, and the listing has no value, the "
+"shortcode will "
+msgstr "Wenn eine Kurzwahlnummer verwenden das ist eine Meta-Taste, und die Liste hat keinen Wert, den Shortcode Willen "
+
+#: includes/admin/class-help.php:427 includes/admin/class-help.php:464
+#: includes/admin/class-help.php:704 includes/admin/class-help.php:842
+#: includes/admin/class-help.php:899
+msgid "Content"
+msgstr "Inhalt"
+
+#: includes/admin/class-help.php:433 includes/admin/class-help.php:471
+#: includes/admin/class-help.php:711 includes/admin/class-help.php:849
+#: includes/admin/class-help.php:906
+msgid "Usage"
+msgstr "Verwendung"
+
+#: includes/admin/class-help.php:435 includes/admin/class-help.php:444
+msgid "Candidate Name:"
+msgstr "Kandidaten-Namen:"
+
+#: includes/admin/class-help.php:438
+msgid "Standard usage with field meta key used as shortcode."
+msgstr "Standardverwendung mit Feld-Meta-Taste als Shortcode verwendet."
+
+#: includes/admin/class-help.php:442 includes/admin/class-help.php:489
+#: includes/admin/class-help.php:511 includes/admin/class-help.php:731
+#: includes/admin/class-help.php:751 includes/admin/class-help.php:867
+#: includes/admin/class-help.php:924
+msgid "Result"
+msgstr "Ergebnis"
+
+#: includes/admin/class-help.php:447
+msgid "Shortcode is replaced with value from field."
+msgstr "Kurzwahlnummer wird durch den Wert aus Feld ersetzt."
+
+#: includes/admin/class-help.php:455
+msgid "Standard Shortcode Usage (Open & Closing Tags)"
+msgstr "Standardverwendung Shortcode (Open & schließende Tags)"
+
+#: includes/admin/class-help.php:458
+msgid ""
+"This method is useful whenever you only want to output text if the listing "
+"has a value for that field/shortcode."
+msgstr "Diese Methode ist nützlich, wann immer Sie nur wollen um Text auszugeben, wenn der Eintrag einen Wert für dieses Feld/Kurzwahlnummer hat."
+
+#: includes/admin/class-help.php:459
+msgid ""
+"For instance, if you were to use the standard shortcode method on a field "
+"that is not required, that means there may be some listings that do not have"
+" a value. Using the advanced method you can set the text to display before "
+"the value of the field, and only have it output if that field has a value."
+msgstr "Zum Beispiel würden Sie auf ein Feld die Norm Shortcode-Methode veranschaulicht, die nicht erforderlich ist, bedeutet, dass möglicherweise einige Inserate, die nicht über einen Wert verfügen. Mit der erweiterten Methode können legen Sie den Text vor dem Wert des Felds angezeigt und haben es nur ausgeben, wenn das Feld einen Wert hat."
+
+#: includes/admin/class-help.php:476 includes/admin/class-help.php:498
+#: includes/admin/class-help.php:520
+msgid "Here are the job details from the listing:"
+msgstr "Hier sind die Job-Details aus dem Angebot:"
+
+#: includes/admin/class-help.php:477
+msgid "Job Salary:"
+msgstr "Job-Gehalt:"
+
+#: includes/admin/class-help.php:478 includes/admin/class-help.php:500
+#: includes/admin/class-help.php:521
+msgid "Job Title: "
+msgstr "Job-Titel: "
+
+#: includes/admin/class-help.php:483
+msgid ""
+"Use an open and closing shortcode to output the content inside, if the field"
+" has a value."
+msgstr "Verwenden Sie ein öffnen und schließen-Shortcode ausgeben des Inhalts im Inneren, wenn das Feld einen Wert hat."
+
+#: includes/admin/class-help.php:491 includes/admin/class-help.php:733
+#: includes/admin/class-help.php:869
+msgid "with value"
+msgstr "mit Wert"
+
+#: includes/admin/class-help.php:499
+msgid "Job Salary: "
+msgstr "Job-Gehalt: "
+
+#: includes/admin/class-help.php:505
+msgid ""
+"Because the field had a value, the content inside of open/close shortcode is"
+" output."
+msgstr "Weil das Feld einen Wert hatte, wird der Inhalt innerhalb von öffnen/schließen Shortcode ausgegeben."
+
+#: includes/admin/class-help.php:513 includes/admin/class-help.php:753
+msgid "without value"
+msgstr "ohne Wert"
+
+#: includes/admin/class-help.php:526
+msgid ""
+"If the field does not have a value, no content inside the open/close "
+"shortcode is output."
+msgstr "Wenn das Feld einen Wert nicht hat, wird kein Inhalt in der öffnen/schließen-Shortcode ausgegeben."
+
+#: includes/admin/class-help.php:534
+msgid "Advanced Shortcode Attributes/Arguments"
+msgstr "Erweiterte Shortcode Attribute/Argumente"
+
+#: includes/admin/class-help.php:538
+msgid ""
+"Advanced shortcode arguments <strong>can</strong> be mixed with standard "
+"shortcode arguments."
+msgstr "Erweiterte Shortcode Argumente <strong>können</strong> werden mit standard-Shortcode Argumente gemischt."
+
+#: includes/admin/class-help.php:539
+msgid ""
+"Placement of advanced shortcode arguments does not matter (ie "
+"<code>top</code> before <code>divider</code> )"
+msgstr "Platzierung der erweiterte Shortcode Argumente spielt keine Rolle (ie <code>oben</code> vor <code>Teiler</code>)"
+
+#: includes/admin/class-help.php:544
+msgid ""
+"Do <strong>not</strong> use an advanced shortcode argument in a standard "
+"argument format!"
+msgstr "Tun <strong>nicht</strong> Verwendung erweiterte Shortcode Argument in einem standard-Argument-Format!"
+
+#: includes/admin/class-help.php:546
+msgid ""
+"You can mix both advanced and standard arguments, but do not use an advanced"
+" argument in the standard argument format."
+msgstr "Sie können mischen sowohl erweiterte und standard-Argumente, sondern verwenden erweiterte Argument nicht in das standard-Argument-Format."
+
+#: includes/admin/class-help.php:550
+msgid "Advanced Arguments will only output if there is a value"
+msgstr "Erweiterte Argumente werden nur ausgegeben, wenn ein Wert vorhanden ist"
+
+#: includes/admin/class-help.php:552
+msgid ""
+"If you use one of the advanced arguments like <code>label</code> or "
+"<code>divider</code>, it will only output if the field has a value."
+msgstr "Wenn Sie eine erweiterte Argumente wie <code>Etikett</code> oder <code>Raumteiler</code> verwenden, wird es nur ausgeben, wenn das Feld einen Wert hat."
+
+#: includes/admin/class-help.php:574
+msgid ""
+"Adding the <code>label</code> argument will output the label for the field "
+"before the value."
+msgstr "Das Argument <code>Marke</code> hinzufügen, wird die Bezeichnung für das Feld vor dem Wert ausgeben."
+
+#: includes/admin/class-help.php:587
+msgid ""
+"This will output a divider BOTH above AND below the value (see standard args"
+" for customizing divider).  This is the same as using <code>[job_salary "
+"divider top bottom]</code>."
+msgstr "Einen Teiler sowohl über als auch unter den Wert Ausgabe (siehe Norm Args zum Teiler anpassen).  Dies ist dasselbe wie <code>[Job_salary Teiler oben unten]</code>."
+
+#: includes/admin/class-help.php:592 includes/admin/class-help.php:603
+msgid "divider"
+msgstr "Teiler"
+
+#: includes/admin/class-help.php:598
+msgid ""
+"This will output a divider, but only the top divider.  This argument should "
+"only be used along with the divider argument."
+msgstr "Einen Teiler, sondern nur den besten Teiler Ausgabe.  Dieses Argument sollte nur zusammen mit dem Teiler-Argument verwendet werden."
+
+#: includes/admin/class-help.php:609
+msgid ""
+"This will output a divider, but only the bottom divider, as well as the "
+"label.  This argument should only be used along with the divider argument."
+msgstr "Dies wird ein Teiler, sondern nur den Unterteiler sowie das Label ausgeben.  Dieses Argument sollte nur zusammen mit dem Teiler-Argument verwendet werden."
+
+#: includes/admin/class-help.php:631
+#: includes/admin/help/class-application.php:12
+#: includes/admin/help/class-job.php:12
+#: includes/admin/help/class-resume.php:12
+msgid "Send Email Actions"
+msgstr "Senden Sie E-Mail-Aktionen"
+
+#: includes/admin/class-help.php:632
+msgid "Defines when to send the email"
+msgstr "Definiert, wann die e-Mail gesendet"
+
+#: includes/admin/class-help.php:633
+msgid ""
+"The actions listed in the dropdown box define when you want this email to be"
+" sent.  Only one email template can be active for each action.  As an "
+"example, if you enable this template and there is already another template "
+"enabled with the same action ... the other template will be disabled and "
+"this one will be used."
+msgstr "In der Dropdown-Box aufgelisteten Aktionen definieren, wenn Sie diese e-Mail gesendet werden soll.  Nur eine e-Mail-Vorlage kann für jede Aktion aktiv sein.  Als Beispiel wenn Sie diese Vorlage aktivieren und gibt es bereits eine andere Vorlage aktiviert mit der gleichen Aktion... die andere Vorlage wird deaktiviert und diesein verwendet werden."
+
+#: includes/admin/class-help.php:634
+msgid ""
+"You can create multiple templates for a single action, but again, only one "
+"can be active at a time."
+msgstr "Sie können mehrere Vorlagen für eine einzelne Aktion erstellen, aber wieder nur eine aktiv sein kann zu einem Zeitpunkt."
+
+#: includes/admin/class-help.php:635
+msgid "Dropdown Labels"
+msgstr "Dropdown-Etiketten"
+
+#: includes/admin/class-help.php:636
+msgid ""
+"You may notice that some actions/hooks have different wording next to them."
+"  This is used to show if there is already another template tied to that "
+"hook/action, etc."
+msgstr "Sie können feststellen, dass einige Aktionen/Haken neben ihnen anders formuliert.  Dies wird verwendet, zu zeigen, wenn Sie bereits eine andere Vorlage an diesem Haken/Action, etc. gebunden."
+
+#: includes/admin/class-help.php:637
+msgid "Currently Active Email ID"
+msgstr "Momentan aktive E-Mail-ID"
+
+#: includes/admin/class-help.php:637
+msgid ""
+"is an action that already has an email template.  If you choose that action,"
+" this email template will be saved as disabled."
+msgstr "ist eine Aktion, die bereits eine e-Mail-Vorlage.  Wenn Sie diese Aktion auswählen, wird diese e-Mail-Vorlage gespeichert werden, als deaktiviert."
+
+#: includes/admin/class-help.php:638
+msgid "This Email Template"
+msgstr "Diese E-Mail-Vorlage"
+
+#: includes/admin/class-help.php:638
+msgid "means this email template is active for that action."
+msgstr "bedeutet, dass diese e-Mail-Vorlage für diese Aktion aktiv ist."
+
+#: includes/admin/class-help.php:639
+msgid ""
+"If neither are showing, that means there is no custom email attached to that"
+" action."
+msgstr "Wenn weder angezeigt werden, bedeutet, dass es keine benutzerdefinierte e-Mail mit dieser Aktion verbunden ist."
+
+#: includes/admin/class-help.php:655
+#: includes/admin/help/class-application.php:18
+#: includes/admin/help/class-job.php:18
+#: includes/admin/help/class-resume.php:18
+msgid "If Shortcode"
+msgstr "Wenn Shortcode"
+
+#: includes/admin/class-help.php:656
+msgid "Shortcode to create conditional statements in your email template."
+msgstr "Kurzwahlnummer bedingte Anweisungen in der e-Mail-Vorlage zu erstellen."
+
+#: includes/admin/class-help.php:659
+msgid "The %s shortcode is optional"
+msgstr "Die Kurzwahlnummer %s ist optional"
+
+#: includes/admin/class-help.php:665
+msgid "If/Else Attributes/Arguments"
+msgstr "If/Else Attribute/Argumente"
+
+#: includes/admin/class-help.php:668
+msgid ""
+"Currently the only supported argument for if statements is a field meta key."
+"  In an upcoming release you will be able to call supported functions, as "
+"well as use AND/OR in the if statement."
+msgstr "Derzeit unterstützt das einzige Argument für Aussagen ist eine Feld-Meta-Taste.  In einer Testversion, die man aufrufen kann unterstützt Funktionen, sowie Nutzung und/oder in der If Anweisung."
+
+#: includes/admin/class-help.php:680 includes/admin/class-help.php:816
+msgid "meta key"
+msgstr "Meta-Taste"
+
+#: includes/admin/class-help.php:688
+msgid ""
+"Replace %1$s with the meta key of the field you want to check for a value.  "
+"In the example on the left, the meta key checked for a value is %2$s"
+msgstr "%1$ s mit dem Meta-Schlüssel im Feld, die Sie überprüfen, für einen Wert möchten zu ersetzen.  Im Beispiel auf der linken Seite ist die Meta-Taste auf einen Wert überprüft %2$ s"
+
+#: includes/admin/class-help.php:696
+msgid "Standard If/Else Usage"
+msgstr "Norm If/Else Usage"
+
+#: includes/admin/class-help.php:699
+msgid ""
+"Currently, the only supported argument for the if statement is a meta key "
+"(more to be added soon).  In the example below, replace %s with the meta key"
+" you want to use."
+msgstr "Derzeit unterstützt das einzige Argument für die If-Anweisung ist eine Meta-Taste (mehr bald hinzugefügt werden).  Ersetzen Sie im folgenden Beispiel %s durch die Meta-Taste, die Sie verwenden möchten."
+
+#: includes/admin/class-help.php:717 includes/admin/class-help.php:740
+msgid "Candidate Phone Number: "
+msgstr "Kandidaten-Telefonnummer: "
+
+#: includes/admin/class-help.php:719 includes/admin/class-help.php:758
+msgid "Candidate phone not provided"
+msgstr "Kandidaten-Telefon nicht bereitgestellt"
+
+#: includes/admin/class-help.php:725
+msgid ""
+"If/Else statement to output specific content based on whether a field has a "
+"value or not."
+msgstr "If/Else Anweisung zur Ausgabe von bestimmten Inhalten auf Grundlage, ob ein Feld einen Wert oder nicht hat."
+
+#: includes/admin/class-help.php:745
+msgid ""
+"Because the if statement validated as true, content inside the if statement "
+"is output."
+msgstr "Weil die Aussage als wahr überprüft, Inhalt innerhalb der If-Anweisung wird ausgegeben."
+
+#: includes/admin/class-help.php:761
+msgid ""
+"Because the if statement validated as false, and there was an [else] "
+"shortcode, so all content after [else] is output."
+msgstr "Da die wenn Anweisung als falsch validiert, und es ein [sonst] Shortcode gab, also alle Inhalte nach [sonst] wird ausgegeben."
+
+#: includes/admin/class-help.php:783
+#: includes/admin/help/class-application.php:21
+#: includes/admin/help/class-job.php:21
+#: includes/admin/help/class-resume.php:21
+msgid "Each Shortcode"
+msgstr "Jede Shortcode"
+
+#: includes/admin/class-help.php:784
+msgid "Shortcode to customize output of array fields in a foreach loop."
+msgstr "Kurzwahlnummer Ausgabe des Array-Felder in einer Foreach-Schleife anpassen."
+
+#: includes/admin/class-help.php:787
+msgid ""
+"The <code>[each xxx_xxx]</code> shortcode can only be used with multiple "
+"field types!"
+msgstr "Der Shortcode <code>[jedes Xxx_xxx]</code> kann nur mit mehreren Feldtypen verwendet werden!"
+
+#: includes/admin/class-help.php:789
+msgid ""
+"You can only use this shortcode with field types that are saved as an array "
+"of values. This includes file (must be multiple), and taxonomy field types."
+msgstr "Sie können nur diese Kurzwahlnummer mit Feldtypen, die als ein Array von Werten gespeichert sind. Dazu gehören Datei (mehrere sein müssen) und Taxonomie Feldtypen."
+
+#: includes/admin/class-help.php:795
+msgid ""
+"All content inside the <code>[each xxx_xxx][value][/each]</code> shortcode "
+"will be output for each value."
+msgstr "Alle Inhalte innerhalb der <code>[jedes Xxx_xxx] [Wert] [/ Stk]</code> Shortcode werden ausgegeben für jeden Wert."
+
+#: includes/admin/class-help.php:801
+msgid "Each Attributes/Arguments"
+msgstr "Jedes Attribute/Argumente"
+
+#: includes/admin/class-help.php:804
+msgid ""
+"Currently the only supported argument for each statements is a field meta "
+"key."
+msgstr "Derzeit ist das einzige unterstützte Argument für jede Anweisungen eine Feld-Meta-Taste."
+
+#: includes/admin/class-help.php:824
+msgid ""
+"Replace %1$s with the meta key of the field you want to run through the "
+"foreach loop.  In the example on the left, the meta key to loop through is "
+"%2$s"
+msgstr "%1$ s zu ersetzen, mit der Meta-Taste des Feldes, das Sie durch die Foreach-Schleife ausführen möchten.  Im Beispiel auf der linken Seite ist die Meta-Taste durchlaufen Sie %2$ s"
+
+#: includes/admin/class-help.php:832
+msgid "Standard Each Usage"
+msgstr "Norm jede Nutzung"
+
+#: includes/admin/class-help.php:835
+msgid ""
+"Currently, the only supported argument for the each shortcode is a meta key "
+"(more to be added soon).  In the example below, replace %s with the meta key"
+" you want to use."
+msgstr "Derzeit ist das einzige unterstützte Argument für die einzelnen Kurzwahlnummer ein Meta-Taste (mehr bald hinzugefügt werden).  Ersetzen Sie im folgenden Beispiel %s durch die Meta-Taste, die Sie verwenden möchten."
+
+#: includes/admin/class-help.php:836
+msgid ""
+"The meta key you use <strong>MUST</strong> be a field that is saved as an "
+"array.  Example would be a file field type that is configured to support "
+"multiple files.  You can also use any kind of taxonomy field as well."
+msgstr "Die Meta-Taste, <strong>die verwenden Sie ein Feld sein, das als Array gespeichert ist</strong>.  Beispiel wäre ein Feld Dateityp, der konfiguriert ist, um mehrere Dateien zu unterstützen.  Sie können auch jede Art von Taxonomie Feld auch."
+
+#: includes/admin/class-help.php:855 includes/admin/class-help.php:876
+#: includes/admin/class-help.php:877 includes/admin/class-help.php:878
+msgid "Download: "
+msgstr "Herunterladen: "
+
+#: includes/admin/class-help.php:861
+msgid ""
+"Loop through each file in the job_downloads meta, and output Download: "
+"before a link to each download."
+msgstr "Durchlaufen Sie jede Datei in der Job_downloads-Meta und Ausgabe Download: bevor Sie einen Link zu jedem Download."
+
+#: includes/admin/class-help.php:883
+msgid ""
+"Assuming there were three total files, this would be the output after the "
+"loop finishes."
+msgstr "Vorausgesetzt, dass drei Dateien insgesamt lebten, wäre dies die Ausgabe, nachdem die Schleife beendet ist."
+
+#: includes/admin/class-help.php:891
+msgid "Advanced Each Usage"
+msgstr "Fortgeschrittene jeder Verwendung"
+
+#: includes/admin/class-help.php:894
+msgid ""
+"The majority of standard shortcode arguments are supported in the each "
+"shortcode.  This include before, after, order, divider, etc."
+msgstr "Die Mehrheit der Norm Shortcode Argumente werden in den einzelnen Shortcode unterstützt.  Dies auch vor, nach, Bestellung, Teiler, etc.."
+
+#: includes/admin/class-help.php:918
+msgid ""
+"Loop through each file in the job_region meta, and output each value inside "
+"%s HTML element, surrounded by a %2$s HTML element."
+msgstr "Durchlaufen Sie jede Datei in der Job_region-Meta und jeder Ausgabewert %s-HTML-Element, umgeben von einem %2$ s-HTML-Element."
+
+#: includes/admin/class-help.php:937
+msgid ""
+"Values are output in an unordered list format, with each item surrounded by "
+"a list item element."
+msgstr "Werte werden in eine ungeordnete Listenformat, mit jedem Punkt, umgeben von einem List-Item-Element ausgegeben."
+
+#: includes/admin/class-help.php:958
+msgid ""
+"This page you are viewing contains a list of all the email templates for "
+"this specific group."
+msgstr "Diese Seite gerade betrachteten enthält eine Liste aller e-Mail-Vorlagen für diese spezifische Gruppe."
+
+#: includes/admin/class-help.php:960 includes/admin/help/class-job.php:60
+#: includes/admin/help/class-resume.php:56
+msgid ""
+"There is now a fully integrated templating system included with this plugin,"
+" available on the edit/add template page. To get there, just click the Add "
+"New button, and on that page click Email Templates (defaults below will be "
+"removed in upcoming release)."
+msgstr ""
+
+#: includes/admin/class-job.php:89
+msgid ""
+"You can find the <strong>Email</strong> sub-menu item under each parent menu"
+" item that supports Email Templates for WP Job Manager."
+msgstr "Finden Sie das <strong>Email</strong> Untermenü Element unter jedem übergeordneten Menüelements, die E-Mail-Vorlagen für WP-Job-Manager unterstützt."
+
+#: includes/admin/class-listtable.php:24
+msgid "Title"
+msgstr "Titel"
+
+#: includes/admin/class-listtable.php:25
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin/class-listtable.php:26
+msgid "To"
+msgstr ""
+
+#: includes/admin/class-listtable.php:27
+msgid "Subject"
+msgstr "Betreff"
+
+#: includes/admin/class-listtable.php:28
+msgid "Hook"
+msgstr "Hook"
+
+#: includes/admin/class-listtable.php:29
+msgid "Delay"
+msgstr ""
+
+#: includes/admin/class-listtable.php:30
+msgid "Manage"
+msgstr ""
+
+#: includes/admin/class-listtable.php:31
+msgid "Last Updated"
+msgstr "Datenstand"
+
+#: includes/admin/class-listtable.php:160
+#: includes/admin/class-listtable.php:243 includes/class-cpt.php:544
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: includes/admin/class-listtable.php:248 includes/class-cpt.php:545
+msgid "Disabled"
+msgstr "Behinderte"
+
+#: includes/admin/class-listtable.php:267
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: includes/admin/class-listtable.php:286
+msgid "Delete"
+msgstr "Löschen"
+
+#: includes/admin/class-listtable.php:315
+#: includes/admin/class-listtable.php:317
+msgid "%s email has been disabled"
+msgstr "%s e-Mail wurde deaktiviert"
+
+#: includes/admin/class-listtable.php:322
+msgid ""
+"as you activated another email template with the same email/hook action."
+msgstr "wie Sie eine andere e-Mail-Vorlage die gleiche e-Mail/Haken-Funktion aktiviert."
+
+#: includes/admin/class-listtable.php:342
+msgid "%s email has been enabled, and will now be used for emails."
+msgstr "%s e-Mail aktiviert wurde und jetzt für e-Mails verwendet wird."
+
+#: includes/admin/class-metaboxes.php:122
+msgid "Hook Shortcodes"
+msgstr ""
+
+#: includes/admin/class-metaboxes.php:125
+msgid "App Shortcodes"
+msgstr ""
+
+#: includes/admin/class-metaboxes.php:164
+msgid "Hook Configuration"
+msgstr ""
+
+#: includes/admin/class-metaboxes.php:200
+msgid "Email Format"
+msgstr "E-Mail-Format"
+
+#: includes/admin/class-metaboxes.php:209
+#: includes/admin/metaboxes/class-application.php:55
+#: includes/admin/metaboxes/class-job.php:14
+#: includes/admin/metaboxes/class-resume.php:55
+#: includes/admin/views/attachments.php:16
+msgid "Attachments"
+msgstr "Anlagen"
+
+#: includes/admin/class-metaboxes.php:218
+msgid "Send Email Action ..."
+msgstr "Senden Sie E-Mail-Aktion..."
+
+#: includes/admin/class-metaboxes.php:227
+msgid "Conditionals"
+msgstr "Bedingungen"
+
+#: includes/admin/class-metaboxes.php:236
+msgid "Send Logic"
+msgstr ""
+
+#: includes/admin/class-metaboxes.php:245
+msgid "Manage Email Template"
+msgstr ""
+
+#: includes/admin/class-resume.php:89
+msgid ""
+"You can find Resume email templates here, under the Resumes main menu item."
+msgstr ""
+
+#: includes/admin/class-settings.php:56
+msgid "Default From Name"
+msgstr "Standard-Name"
+
+#: includes/admin/class-settings.php:57
+msgid "Default name to use in %s emails (can also be set per template)."
+msgstr "Legt fest, in %s e-Mails (kann auch pro Vorlage festgelegt werden)."
+
+#: includes/admin/class-settings.php:63
+msgid "Default From Email"
+msgstr "Standard E-Mail"
+
+#: includes/admin/class-settings.php:64
+msgid "Default email to use in %s emails (can also be set per template)."
+msgstr "Standard-e-Mail in %s e-Mails verwenden (kann auch pro Vorlage festgelegt werden)."
+
+#: includes/admin/class-settings.php:70
+msgid "Enable %s Email Debugging"
+msgstr ""
+
+#: includes/admin/class-settings.php:71
+msgid "Debug"
+msgstr ""
+
+#: includes/admin/class-settings.php:72
+msgid "Enable debug logging for %s emails."
+msgstr ""
+
+#: includes/admin/class-settings.php:80 includes/class-cpt.php:470
+msgid "Emails"
+msgstr "-E-Mails"
+
+#: includes/admin/help/class-application.php:45
+msgid "Job Application Email Template Overview"
+msgstr ""
+
+#: includes/admin/help/class-job.php:32
+#: includes/admin/help/class-resume.php:32
+msgid "Defaults"
+msgstr "Standardwerte"
+
+#: includes/admin/help/class-job.php:49
+msgid "Job Email Template Overview"
+msgstr "Job-Email-Vorlage-Übersicht"
+
+#: includes/admin/help/class-job.php:63
+#: includes/admin/help/class-resume.php:53
+msgid ""
+"These emails are automatically created and set to disabled whenever you "
+"install this plugin ... if for some reason you removed or changed them, and "
+"need to regenerate them, click the appropriate button below."
+msgstr "Diese e-Mails werden automatisch erstellt und auf deaktiviert, wenn Sie dieses Plugin... installieren, wenn aus irgendeinem Grund Sie entfernt oder sie gewechselt und müssen sich regenerieren sie, klicken Sie auf den entsprechenden Button unten."
+
+#: includes/admin/help/class-job.php:68
+msgid "New %s Submitted Email"
+msgstr "Neue %s gesendet E-Mail"
+
+#: includes/admin/help/class-resume.php:50
+msgid ""
+"There are two different default emails for WP Job Manager Resumes, one for "
+"when new resume's are submitted, and one for when visitors apply to a job "
+"with a resume."
+msgstr "Es gibt zwei unterschiedliche Standard-e-Mails für WP Job Manager Lebensläufe, für wann die neuen Lebenslauf eingereicht werden und für wenn Besucher auf einen Job mit einem Lebenslauf anwenden."
+
+#: includes/admin/help/class-resume.php:61
+msgid "New Resume Submitted Template"
+msgstr "Neuen Lebenslauf verfasst Vorlage"
+
+#: includes/admin/help/class-resume.php:65
+msgid "Applied with Email Template"
+msgstr "Mit E-Mail-Vorlage angewendet"
+
+#: includes/admin/help/class-resume.php:75
+msgid "Resume Email Template Overview"
+msgstr "Lebenslauf-E-Mail-Vorlage-Übersicht"
+
+#: includes/admin/metaboxes/class-application.php:64
+#: includes/admin/metaboxes/class-application.php:73
+#: includes/admin/metaboxes/class-application.php:87
+#: includes/admin/metaboxes/class-job.php:23
+#: includes/admin/metaboxes/class-resume.php:64
+#: includes/admin/metaboxes/class-resume.php:73
+msgid "%s Shortcodes"
+msgstr "%s Kurzwahlnummern"
+
+#: includes/admin/settings/class-resume.php:20
+msgid "New %s Notification"
+msgstr "Benachrichtigung bei neuen %s"
+
+#: includes/admin/settings/class-resume.php:22
+msgid "Email %s details to the admin/notification recipient after submission."
+msgstr "Mailen Sie %s Informationen an den Empfänger Admin/Benachrichtigung nach Vorlage."
+
+#: includes/admin/views/attachments.php:18
+msgid ""
+"Select any meta keys below that you would like to add as an attachment to "
+"the email that is sent."
+msgstr "Wählen Sie, die keine Meta-Schlüssel unter dem Sie möchten, fügen Sie als Anhang an die Email, die gesendet wird."
+
+#: includes/admin/views/attachments.php:26
+msgid "Select a meta key ..."
+msgstr "Wählen Sie eine Meta-Taste..."
+
+#: includes/admin/views/conditionals.php:35
+msgid "Usage:"
+msgstr "Syntax:"
+
+#: includes/admin/views/conditionals.php:45
+#: includes/admin/views/conditionals.php:49
+msgid "Required"
+msgstr ""
+
+#: includes/admin/views/conditionals.php:45
+msgid "Optional"
+msgstr ""
+
+#: includes/admin/views/conditionals.php:47
+msgid "value:"
+msgstr ""
+
+#: includes/admin/views/conditionals.php:58
+msgid "Arguments:"
+msgstr "Argumente:"
+
+#: includes/admin/views/format.php:11
+msgid "HTML"
+msgstr ""
+
+#: includes/admin/views/format.php:18
+msgid "Plain Text"
+msgstr ""
+
+#: includes/admin/views/format.php:32
+msgid "Disable wpautop"
+msgstr ""
+
+#: includes/admin/views/headers.php:14
+msgid "Template Title"
+msgstr "Vorlagentitel"
+
+#: includes/admin/views/headers.php:14
+msgid ""
+"Choose a title to use for this specific template (only admins see this)"
+msgstr ""
+
+#: includes/admin/views/headers.php:20
+msgid "To (optional)"
+msgstr "An (optional)"
+
+#: includes/admin/views/headers.php:20
+msgid ""
+"Who this email should be sent to (leave blank for default).  Shortcodes are "
+"accepted. If a default value does not exist or can not be found, this email "
+"will not be sent."
+msgstr ""
+
+#: includes/admin/views/headers.php:24
+msgid "BCC (optional)"
+msgstr "BCC (optional)"
+
+#: includes/admin/views/headers.php:24
+msgid "Comma separated email addresses to send a Blind Carbon Copy to."
+msgstr "Durch Kommata getrennte e-Mail-Adressen eine Blindkopie zu senden."
+
+#: includes/admin/views/headers.php:30
+msgid "Email Subject"
+msgstr "E-Mail-Betreff"
+
+#: includes/admin/views/headers.php:30
+msgid ""
+"The subject to use for this email template.  You can use shortcodes in the "
+"email subject."
+msgstr ""
+
+#: includes/admin/views/headers.php:35
+msgid "Advanced"
+msgstr ""
+
+#: includes/admin/views/headers.php:39
+msgid ""
+"This only needs to be set if you want to use a custom From Name for this "
+"template, otherwise the default will be used.  The default value is the "
+"value seen (placeholder) when no value has been entered."
+msgstr ""
+
+#: includes/admin/views/headers.php:39
+msgid "From Name (optional)"
+msgstr "Name (optional)"
+
+#: includes/admin/views/headers.php:43
+msgid ""
+"This only needs to be set if you want to use a custom From Email for this "
+"template, otherwise the default will be used. The default value is the value"
+" seen (placeholder) when no value has been entered."
+msgstr ""
+
+#: includes/admin/views/headers.php:43
+msgid "From Email (optional)"
+msgstr "E-Mail (optional)"
+
+#: includes/admin/views/headers.php:47
+msgid "Set a custom Reply-To address in the email (shortcodes supported)"
+msgstr ""
+
+#: includes/admin/views/headers.php:47
+msgid "Reply-To (optional)"
+msgstr ""
+
+#: includes/admin/views/headers.php:56
+msgid ""
+"Search and add any user, or custom email address to exclude from being sent "
+"this email when it is triggered. Type in at least 3 characters to start "
+"search, or a valid email address to add."
+msgstr ""
+
+#: includes/admin/views/headers.php:56
+msgid "Exclude from Email (optional)"
+msgstr ""
+
+#: includes/admin/views/headers.php:59
+msgid ""
+"Start typing to search for user, or enter a valid email address to exclude "
+"from being sent this email"
+msgstr ""
+
+#: includes/admin/views/headers.php:89
+msgid "my_custom_template_name_here"
+msgstr ""
+
+#: includes/admin/views/headers.php:89
+msgid ""
+"Set a custom template name for this email template.  This is only needed if "
+"you plan on using filters or custom PHP code, and need some way to identify "
+"this specific email template.  You SHOULD only use alphanumeric characters, "
+"without spaces, to identify templates easily."
+msgstr ""
+
+#: includes/admin/views/headers.php:89
+msgid "Template Name"
+msgstr ""
+
+#: includes/admin/views/hook.php:23
+msgid "What should cause this email to be sent?"
+msgstr ""
+
+#: includes/admin/views/hook.php:25
+msgid ""
+"Select the action/filter you want to cause this email to be sent.  "
+"Additional details will be shown when selected, if available."
+msgstr ""
+
+#: includes/admin/views/hook.php:45
+msgid "Select an action/hook ...."
+msgstr ""
+
+#: includes/admin/views/hook.php:50
+msgid "Search actions/hooks ..."
+msgstr ""
+
+#: includes/admin/views/hook.php:53
+msgid "Core Action Hooks"
+msgstr ""
+
+#: includes/admin/views/hook.php:59
+msgid "Default (Post Status) Action Hooks"
+msgstr ""
+
+#: includes/admin/views/hook.php:68
+msgid "Custom Post Status Action Hooks"
+msgstr ""
+
+#: includes/admin/views/hook.php:75
+msgid "This email will be sent ..."
+msgstr ""
+
+#: includes/admin/views/hook.php:79
+msgid "(Current)"
+msgstr ""
+
+#: includes/admin/views/logic.php:9
+msgid "Delay Sending Email By:"
+msgstr ""
+
+#: includes/admin/views/logic.php:14
+msgid "Hour(s)"
+msgstr ""
+
+#: includes/admin/views/logic.php:21
+msgid ""
+"This is a beta feature, and only recommended for testing on development "
+"sites.  Please make sure to test thoroughly."
+msgstr ""
+
+#: includes/admin/views/modals.php:58 includes/hooks/class-job.php:56
+#: includes/hooks/class-resume.php:70
+msgid "Preview"
+msgstr ""
+
+#: includes/admin/views/modals.php:93
+msgid "Email Template"
+msgstr ""
+
+#: includes/admin/views/modals.php:103
+msgid "Value"
+msgstr ""
+
+#: includes/admin/views/modals.php:108
+msgid "Action/Hook:"
+msgstr ""
+
+#: includes/admin/views/modals.php:112
+msgid "Title:"
+msgstr ""
+
+#: includes/admin/views/modals.php:116
+msgid "To:"
+msgstr ""
+
+#: includes/admin/views/modals.php:120
+msgid "Subject:"
+msgstr ""
+
+#: includes/admin/views/modals.php:124
+msgid "Attachments:"
+msgstr ""
+
+#: includes/admin/views/modals.php:128
+msgid "Email Template:"
+msgstr ""
+
+#: includes/admin/views/modals.php:137
+msgid ""
+"Clicking Use Template below will replace any values you have set on this "
+"template!"
+msgstr ""
+
+#: includes/admin/views/modals.php:143
+msgid "Back"
+msgstr ""
+
+#: includes/admin/views/modals.php:147
+msgid "Use Template"
+msgstr ""
+
+#: includes/admin/views/submitdiv.php:9 includes/admin/views/submitdiv.php:17
+msgid "Email is Disabled"
+msgstr ""
+
+#: includes/admin/views/submitdiv.php:9 includes/admin/views/submitdiv.php:17
+msgid "Email is Enabled"
+msgstr ""
+
+#: includes/admin/views/submitdiv.php:10 includes/admin/views/submitdiv.php:17
+msgid "Enable this Email"
+msgstr ""
+
+#: includes/admin/views/submitdiv.php:10 includes/admin/views/submitdiv.php:17
+msgid "Disable this Email"
+msgstr ""
+
+#: includes/admin/views/submitdiv.php:29
+msgid "Save"
+msgstr ""
+
+#: includes/admin/views/submitdiv.php:37
+msgid "M j, Y @ H:i"
+msgstr ""
+
+#: includes/admin/views/submitdiv.php:40
+msgid "Last Updated: <b>%1$s</b>"
+msgstr ""
+
+#: includes/admin/views/submitdiv.php:44
+msgid "Publish <b>immediately</b>"
+msgstr ""
+
+#: includes/admin/views/submitdiv.php:54 includes/admin/views/submitdiv.php:59
+msgid "Send Test Email"
+msgstr ""
+
+#: includes/admin/views/submitdiv.php:66
+msgid ""
+"To send a test email, please follow the steps exactly as a normal user would"
+" on the frontend of your site."
+msgstr ""
+
+#: includes/admin/views/submitdiv.php:67
+msgid ""
+"This will help you confirm that all actions/hooks are working correctly, and"
+" that you have your site setup correctly to send the emails you wish to "
+"send."
+msgstr ""
+
+#: includes/admin/views/submitdiv.php:68
+msgid ""
+"You can install a plugin call \"WP Mail Logging\" to log outgoing email "
+"messages in the WordPress interface."
+msgstr ""
+
+#: includes/admin/views/submitdiv.php:69
+msgid ""
+"In an upcoming release I will add the feature to send a preview email, but "
+"you should still always follow the steps on frontend of your site, to make "
+"100% sure your emails send correctly."
+msgstr ""
+
+#: includes/admin/views/submitdiv.php:75
+msgid "OK"
+msgstr ""
+
+#: includes/admin/views/submitdiv.php:86
+msgid "Revisions: %s"
+msgstr ""
+
+#: includes/admin/views/submitdiv.php:87
+msgid "Browse revisions"
+msgstr ""
+
+#: includes/admin/views/submitdiv.php:105
+msgid "Delete Permanently"
+msgstr ""
+
+#: includes/admin/views/submitdiv.php:107
+msgid "Move to Trash"
+msgstr ""
+
+#: includes/admin/views/submitdiv.php:116
+msgid "Publish"
+msgstr ""
+
+#: includes/admin/views/submitdiv.php:117
+msgid "Add New Email"
+msgstr ""
+
+#: includes/admin/views/submitdiv.php:119
+msgid "Update"
+msgstr ""
+
+#: includes/admin/views/submitdiv.php:120
+msgid "Update Email"
+msgstr ""
+
+#: includes/class-application.php:65
+msgid "Application"
+msgstr ""
+
+#: includes/class-application.php:82
+msgid "Applications"
+msgstr ""
+
+#: includes/class-cpt.php:158
+msgid " - Email notifications were temporarily disabled."
+msgstr ""
+
+#: includes/class-cpt.php:174
+msgid "Email Notifications"
+msgstr ""
+
+#: includes/class-cpt.php:191
+msgid "Temporarily Disable on Save"
+msgstr ""
+
+#: includes/class-cpt.php:194
+msgid ""
+"If you do not want email notifications to be sent when you click save, "
+"enable this option."
+msgstr ""
+
+#: includes/class-cpt.php:468
+msgid "%s Email Templates"
+msgstr "%s-e-Mail-Vorlagen"
+
+#: includes/class-cpt.php:469
+msgid "%s Email Template"
+msgstr "%s-e-Mail-Vorlage"
+
+#: includes/class-cpt.php:471
+msgid "Add New %s Email Template"
+msgstr "Fügen Sie neuer E-Mail-Vorlage für %s hinzu"
+
+#: includes/class-cpt.php:472
+msgid "Edit %s Email Template"
+msgstr "%S-Email-Vorlage bearbeiten"
+
+#: includes/class-cpt.php:473
+msgid "New %s Email Template"
+msgstr "Neue E-Mail-Vorlage für %s"
+
+#: includes/class-cpt.php:474
+msgid "View %s Email Template"
+msgstr "E-Mail-Vorlage anzeigen %s"
+
+#: includes/class-cpt.php:475
+msgid "Search %s Email Templates"
+msgstr "Suche %s E-Mail-Vorlagen"
+
+#: includes/class-cpt.php:476
+msgid "No %s Email Templates Found"
+msgstr "Keine E-Mail-Vorlagen für %s gefunden"
+
+#: includes/class-cpt.php:477
+msgid "No %s Email Templates Found in Trash"
+msgstr "Kein %s E-Mail-Vorlagen, die im Müll gefunden"
+
+#: includes/class-cpt.php:525
+msgid "Disabled <span class=\"count\">(%s)</span>"
+msgid_plural "Disabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Behinderte <span class=\"count\"> (% s)</span>"
+msgstr[1] "Behinderte <span class=\"count\"> (% s)</span>"
+
+#: includes/class-cpt.php:546 includes/hooks/class-job.php:54
+#: includes/hooks/class-resume.php:67
+msgid "Draft"
+msgstr "Entwurf einer"
+
+#: includes/class-cpt.php:589 includes/class-cpt.php:592
+msgid "%s email template successfully updated."
+msgstr "%s-e-Mail-Vorlage erfolgreich aktualisiert."
+
+#: includes/class-cpt.php:593
+msgid "%1$s email template restored from %2$s revision."
+msgstr "%1$ s e-Mail-Vorlage von %2$ s Version wiederhergestellt."
+
+#: includes/class-cpt.php:594
+msgid "%s email template successfully created."
+msgstr "%s-e-Mail-Vorlage erfolgreich erstellt."
+
+#: includes/class-cpt.php:595
+msgid "%s email template successfully saved."
+msgstr "%s-e-Mail-Vorlage erfolgreich gespeichert."
+
+#: includes/class-cpt.php:596
+msgid "%s email template successfully submitted."
+msgstr "%s-e-Mail-Vorlage erfolgreich übermittelt."
+
+#: includes/class-cpt.php:598
+msgid "%s email template draft updated."
+msgstr "%s e-Mail Vorlage Entwurf aktualisiert."
+
+#: includes/class-hooks.php:242
+msgid ""
+"The requested default email template has been generated, and set to "
+"disabled. Click <a href=\"%s\">here</a> to edit it."
+msgstr "Die angeforderte e-Mail-Standardvorlage hat generiert und auf deaktiviert festgelegt worden. Klicken Sie <a href=\"%s\"> hier</a> um ihn zu bearbeiten."
+
+#: includes/class-hooks.php:245
+msgid "There was an error creating the default email template:<br /> %s"
+msgstr "Es gab einen Fehler beim Erstellen der Standardvorlage e-Mail: < Br / > %s"
+
+#: includes/class-hooks.php:502
+msgid "Core Plugin Templates"
+msgstr ""
+
+#: includes/class-hooks.php:503
+msgid "Core"
+msgstr ""
+
+#: includes/class-hooks.php:504
+msgid ""
+"These templates use actions/hooks called by WP Job Manager (and addons), "
+"which most override default emails sent by plugins."
+msgstr ""
+
+#: includes/class-hooks.php:508
+msgid "Post Status Templates"
+msgstr ""
+
+#: includes/class-hooks.php:509
+msgid "Default"
+msgstr ""
+
+#: includes/class-hooks.php:510
+msgid ""
+"These templates use actions/hooks called when a listing's Post Status is "
+"updated, instead of relying on a plugin to call the action/hook. These are "
+"the most reliable and recommended when sending multiple emails."
+msgstr ""
+
+#: includes/class-job.php:77
+msgid "Job"
+msgstr "Job"
+
+#: includes/class-job.php:94
+msgid "Jobs"
+msgstr ""
+
+#: includes/class-resume.php:59
+msgid "Resume"
+msgstr "Lebenslauf"
+
+#: includes/class-resume.php:76
+msgid "Resumes"
+msgstr ""
+
+#: includes/class-shortcodes.php:595
+msgid "If/Else Statement"
+msgstr "If/Else Anweisung"
+
+#: includes/class-shortcodes.php:596
+msgid ""
+"The IF conditional shortcode can be used to form your own if/else shortcode "
+"blocks.  See help tab in top right corner for more details."
+msgstr ""
+
+#: includes/class-shortcodes.php:602
+msgid "The meta key to use when the if/else statement is processed."
+msgstr "Die Meta-Taste zu verwenden, wenn die If/else-Anweisung verarbeitet wird."
+
+#: includes/class-shortcodes.php:603 includes/class-shortcodes.php:618
+msgid "Any meta key"
+msgstr "Alle Meta-Taste"
+
+#: includes/class-shortcodes.php:610
+msgid "For Each Loop"
+msgstr "For Each-Schleife"
+
+#: includes/class-shortcodes.php:611
+msgid ""
+"The EACH conditional shortcode can be used to form your own each loop to "
+"customize array fields output.  See help tab in top right corner for more "
+"details."
+msgstr ""
+
+#: includes/class-shortcodes.php:617
+msgid "The meta key to use when the each loop is processed."
+msgstr "Die Meta-Taste verwenden, wenn die each-Schleife verarbeitet wird."
+
+#: includes/class-shortcodes.php:651
+msgid "Divider"
+msgstr "Teiler"
+
+#: includes/class-shortcodes.php:652
+msgid "Will output a divider to separate content sections"
+msgstr "Einen Teiler Inhaltsabschnitten separate Ausgabe"
+
+#: includes/class-shortcodes.php:657
+msgid "Admin Email"
+msgstr "Admin-Email"
+
+#: includes/class-shortcodes.php:658
+msgid "Administrator email (admin_email option value)"
+msgstr "Administrator e-Mail (Wert der Admin_email-Option)"
+
+#: includes/class-shortcodes.php:681
+msgid "Date"
+msgstr ""
+
+#: includes/class-shortcodes.php:682
+msgid "Will output the date the email is sent"
+msgstr ""
+
+#: includes/class-shortcodes.php:687
+msgid "PHP date format characters"
+msgstr ""
+
+#: includes/class-shortcodes.php:689
+msgid "WordPress Date Format (in Settings)"
+msgstr ""
+
+#: includes/class-shortcodes.php:695
+msgid "Time"
+msgstr ""
+
+#: includes/class-shortcodes.php:696
+msgid "Will output the time the email is sent"
+msgstr ""
+
+#: includes/class-shortcodes.php:701
+msgid "PHP time format characters"
+msgstr ""
+
+#: includes/class-shortcodes.php:703
+msgid "WordPress Time Format (in Settings)"
+msgstr ""
+
+#: includes/compatibility.php:88
+msgid ""
+"Just a heads up! Your web hosting server is using an <strong><em>old, "
+"unsupported, and no longer maintained</em></strong> version of PHP, version "
+"%1$s or older! <a href=\"%2$s\" target=\"_blank\">EOL (End of Life)</a> for "
+"PHP %1$s was <strong>%3$s ago</strong>!</p><p>You are strongly urged to "
+"upgrade to a current version, as using older versions may expose you to "
+"security vulnerabilities and bugs that have been fixed in more recent "
+"versions of PHP.  <a href=\"http://www.wpupdatephp.com/update/\" "
+"target=\"_blank\">Click here</a> for more information about <a "
+"href=\"http://www.wpupdatephp.com/update/\" target=\"_blank\">how you can "
+"update</a> ... or <strong><a href=\"%4$s\">Hide this Notice "
+"Forever!</a></strong><br/><br />"
+msgstr "Nur ein Heads-up! Ihre Web-hosting-Server ist eine <strong><em>alte, nicht unterstützt, und nicht mehr gepflegt</em></strong> Version von PHP, Version %1$ s verwenden oder älter! <a href=\"%2$s\" target=\"_blank\"> EOL (End of Life)</a> für PHP %1$ s wurde <strong>%3$ s vor</strong>!</p> <p>Sie unbedingt zum Upgrade auf eine aktuelle Version, als mit älteren Versionen kann setzen Sie Sicherheitslücken und Bugs, die in neueren Versionen von PHP behoben wurden.  <a href=\"http://www.wpupdatephp.com/update/\" target=\"_blank\"> Klicken Sie hier</a> für weitere Informationen, <a href=\"http://www.wpupdatephp.com/update/\" target=\"_blank\"> wie Sie können aktualisieren</a>... oder <strong><a href=\"%4$s\"> Ankündigung für immer verstecken!</a></strong> <br/> < Br / >"
+
+#: includes/hooks/class-application.php:205
+msgid "New"
+msgstr ""
+
+#: includes/hooks/class-application.php:206
+msgid "Interviewed"
+msgstr ""
+
+#: includes/hooks/class-application.php:207
+msgid "Offer extended"
+msgstr ""
+
+#: includes/hooks/class-application.php:208
+msgid "Hired"
+msgstr ""
+
+#: includes/hooks/class-application.php:209
+msgid "Rejected"
+msgstr ""
+
+#: includes/hooks/class-application.php:210
+msgid "Archived"
+msgstr ""
+
+#: includes/hooks/class-application.php:237
+msgid "New %s Interviewed"
+msgstr ""
+
+#: includes/hooks/class-application.php:238
+msgid "When a %s is updated from New (initial status) to Interviewed"
+msgstr ""
+
+#: includes/hooks/class-application.php:242
+#: includes/hooks/class-application.php:253
+msgid "New %1$s Interviewed"
+msgstr ""
+
+#: includes/hooks/class-application.php:243
+#: includes/hooks/class-application.php:254
+msgid "New %s Interviewed (user email)"
+msgstr ""
+
+#: includes/hooks/class-application.php:250
+msgid "New %s Interviewed (user)"
+msgstr ""
+
+#: includes/hooks/class-application.php:259
+msgid "New %s to Offer Extended"
+msgstr ""
+
+#: includes/hooks/class-application.php:260
+msgid "When a %s is updated from New (initial status) to Offer Extended"
+msgstr ""
+
+#: includes/hooks/class-application.php:264
+msgid "New %1$s Offer Extended"
+msgstr ""
+
+#: includes/hooks/class-application.php:265
+msgid "New %s Offer Extended (user email)"
+msgstr ""
+
+#: includes/hooks/class-application.php:272
+msgid "New %s to Archived"
+msgstr ""
+
+#: includes/hooks/class-application.php:273
+msgid "When a %s is updated from New (initial status) to Archived"
+msgstr ""
+
+#: includes/hooks/class-application.php:277
+msgid "New %1$s Archived"
+msgstr ""
+
+#: includes/hooks/class-application.php:278
+msgid "New %s Archived (user email)"
+msgstr ""
+
+#: includes/hooks/class-application.php:285
+msgid "New %s to Rejected"
+msgstr ""
+
+#: includes/hooks/class-application.php:286
+msgid "When a %s is updated from New (initial status) to Rejected"
+msgstr ""
+
+#: includes/hooks/class-application.php:290
+msgid "New %1$s Rejected"
+msgstr ""
+
+#: includes/hooks/class-application.php:291
+msgid "New %s Rejected (user email)"
+msgstr ""
+
+#: includes/hooks/class-application.php:298
+msgid "New %s to Hired"
+msgstr ""
+
+#: includes/hooks/class-application.php:299
+msgid "When a %s is updated from New (initial status) to Hired."
+msgstr ""
+
+#: includes/hooks/class-application.php:303
+msgid "New %1$s Hired"
+msgstr ""
+
+#: includes/hooks/class-application.php:304
+msgid "New %1$s Hired (user email)"
+msgstr ""
+
+#: includes/hooks/class-application.php:311
+msgid "Interviewed %s to Offer Extended"
+msgstr ""
+
+#: includes/hooks/class-application.php:312
+msgid "When a %s is updated from Interviewed to Offer Extended"
+msgstr ""
+
+#: includes/hooks/class-application.php:316
+msgid "Interviewed %1$s Offer Extended"
+msgstr ""
+
+#: includes/hooks/class-application.php:317
+msgid "Interviewed %1$s Offer Extended (user email)"
+msgstr ""
+
+#: includes/hooks/class-application.php:324
+msgid "Interviewed %s to Hired"
+msgstr ""
+
+#: includes/hooks/class-application.php:325
+msgid "When a %s is updated from Interviewed to Hired."
+msgstr ""
+
+#: includes/hooks/class-application.php:329
+msgid "Interviewed %1$s Hired"
+msgstr ""
+
+#: includes/hooks/class-application.php:330
+msgid "Interviewed %1$s Hired (user email)"
+msgstr ""
+
+#: includes/hooks/class-application.php:337
+msgid "Interviewed %s to Archived"
+msgstr ""
+
+#: includes/hooks/class-application.php:338
+msgid "When a %s is updated from Interviewed to Archived."
+msgstr ""
+
+#: includes/hooks/class-application.php:342
+msgid "Interviewed %1$s Archived"
+msgstr ""
+
+#: includes/hooks/class-application.php:343
+msgid "Interviewed %1$s Archived (user email)"
+msgstr ""
+
+#: includes/hooks/class-application.php:350
+msgid "Interviewed %s Rejected"
+msgstr ""
+
+#: includes/hooks/class-application.php:351
+msgid "When a %s is updated from Interviewed to Rejected."
+msgstr ""
+
+#: includes/hooks/class-application.php:355
+msgid "Interviewed %1$s Rejected"
+msgstr ""
+
+#: includes/hooks/class-application.php:356
+msgid "Interviewed %1$s Rejected (user email)"
+msgstr ""
+
+#: includes/hooks/class-application.php:363
+msgid "Offer Extended to Hired"
+msgstr ""
+
+#: includes/hooks/class-application.php:364
+msgid "When a %s is updated from Offer Extended to Hired."
+msgstr ""
+
+#: includes/hooks/class-application.php:368
+msgid "Offer Extended %1$s Hired"
+msgstr ""
+
+#: includes/hooks/class-application.php:369
+msgid "Offer Extended %1$s Hired (user email)"
+msgstr ""
+
+#: includes/hooks/class-application.php:376
+msgid "Offer Extended to Archived"
+msgstr ""
+
+#: includes/hooks/class-application.php:377
+msgid "When a %s is updated from Offer Extended to Archived."
+msgstr ""
+
+#: includes/hooks/class-application.php:381
+msgid "Offer Extended %1$s Archived"
+msgstr ""
+
+#: includes/hooks/class-application.php:382
+msgid "Offer Extended %1$s Archived (user email)"
+msgstr ""
+
+#: includes/hooks/class-application.php:389
+msgid "Offer Extended to Rejected"
+msgstr ""
+
+#: includes/hooks/class-application.php:390
+msgid "When a %s is updated from Offer Extended to Rejected."
+msgstr ""
+
+#: includes/hooks/class-application.php:394
+msgid "%1$s Offer Rejected"
+msgstr ""
+
+#: includes/hooks/class-application.php:395
+msgid "%1$s Offer Rejected (user email)"
+msgstr ""
+
+#: includes/hooks/class-application.php:402
+msgid "Rejected to Offer Extended"
+msgstr ""
+
+#: includes/hooks/class-application.php:403
+msgid "When a %s is updated from Rejected to Offer Extended."
+msgstr ""
+
+#: includes/hooks/class-application.php:407
+msgid "Rejected %1$s to Offer Extended"
+msgstr ""
+
+#: includes/hooks/class-application.php:408
+msgid "Rejected %1$s to Offer Extended (user email)"
+msgstr ""
+
+#: includes/hooks/class-application.php:415
+msgid "Rejected to Interviewed"
+msgstr ""
+
+#: includes/hooks/class-application.php:416
+msgid "When a %s is updated from Rejected to Interviewed."
+msgstr ""
+
+#: includes/hooks/class-application.php:420
+msgid "Rejected %1$s to Interviewed"
+msgstr ""
+
+#: includes/hooks/class-application.php:421
+msgid "Rejected %1$s to Interviewed (user email)"
+msgstr ""
+
+#: includes/hooks/class-application.php:428
+msgid "Rejected to Hired"
+msgstr ""
+
+#: includes/hooks/class-application.php:429
+msgid "When a %s is updated from Rejected to Hired."
+msgstr ""
+
+#: includes/hooks/class-application.php:433
+msgid "Rejected %1$s Hired"
+msgstr ""
+
+#: includes/hooks/class-application.php:434
+msgid "Rejected %1$s Hired (user email)"
+msgstr ""
+
+#: includes/hooks/class-application.php:441
+msgid "Rejected to Archived"
+msgstr ""
+
+#: includes/hooks/class-application.php:442
+msgid "When a %s is updated from Rejected to Archived."
+msgstr ""
+
+#: includes/hooks/class-application.php:446
+msgid "Rejected %1$s Archived"
+msgstr ""
+
+#: includes/hooks/class-application.php:447
+msgid "Rejected %1$s Archived (user email)"
+msgstr ""
+
+#: includes/hooks/class-application.php:454
+msgid "Archived to Offer Extended"
+msgstr ""
+
+#: includes/hooks/class-application.php:455
+msgid "When a %s is updated from Archived to Offer Extended."
+msgstr ""
+
+#: includes/hooks/class-application.php:459
+msgid "Archived %1$s to Offer Extended"
+msgstr ""
+
+#: includes/hooks/class-application.php:460
+msgid "Archived %1$s to Offer Extended (user email)"
+msgstr ""
+
+#: includes/hooks/class-application.php:467
+msgid "Archived to Interviewed"
+msgstr ""
+
+#: includes/hooks/class-application.php:468
+msgid "When a %s is updated from Archived to Interviewed."
+msgstr ""
+
+#: includes/hooks/class-application.php:472
+msgid "Archived %1$s to Interviewed"
+msgstr ""
+
+#: includes/hooks/class-application.php:473
+msgid "Archived %1$s to Interviewed (user email)"
+msgstr ""
+
+#: includes/hooks/class-application.php:480
+msgid "Archived to Hired"
+msgstr ""
+
+#: includes/hooks/class-application.php:481
+msgid "When a %s is updated from Archived to Hired."
+msgstr ""
+
+#: includes/hooks/class-application.php:485
+msgid "Archived %1$s Hired"
+msgstr ""
+
+#: includes/hooks/class-application.php:486
+msgid "Archived %1$s Hired (user email)"
+msgstr ""
+
+#: includes/hooks/class-application.php:493
+msgid "Archived to New (initial status)"
+msgstr ""
+
+#: includes/hooks/class-application.php:494
+msgid "When a %s is updated from Archived to New (initial status)."
+msgstr ""
+
+#: includes/hooks/class-application.php:498
+msgid "Archived %1$s to New (initial status)"
+msgstr ""
+
+#: includes/hooks/class-application.php:499
+msgid "Archived %1$s to New (user email)"
+msgstr ""
+
+#: includes/hooks/class-application.php:506
+msgid "Archived to Rejected"
+msgstr ""
+
+#: includes/hooks/class-application.php:507
+msgid "When a %s is updated from Archived to Rejected."
+msgstr ""
+
+#: includes/hooks/class-application.php:511
+msgid "Archived %1$s to Rejected"
+msgstr ""
+
+#: includes/hooks/class-application.php:512
+msgid "Archived %1$s to Rejected (user email)"
+msgstr ""
+
+#: includes/hooks/class-application.php:541
+msgid "New %s Created"
+msgstr ""
+
+#: includes/hooks/class-application.php:543
+msgid "When a new Application is created/submitted"
+msgstr ""
+
+#: includes/hooks/class-application.php:550
+#: includes/hooks/class-application.php:551
+msgid "New %s for [job_title]"
+msgstr ""
+
+#: includes/hooks/class-application.php:554
+msgid "New Application Employer Email"
+msgstr ""
+
+#: includes/hooks/class-application.php:555
+msgid ""
+"This email template matches the core WP Job Manager email sent to the "
+"employer when a new application is submitted."
+msgstr ""
+
+#: includes/hooks/class-application.php:562
+msgid "New %s Note Added"
+msgstr ""
+
+#: includes/hooks/class-application.php:564
+msgid "When a new note is added to a %s."
+msgstr ""
+
+#: includes/hooks/class-application.php:569
+msgid "New %1$s Note Added on %2$s"
+msgstr ""
+
+#: includes/hooks/class-application.php:570
+msgid "New %s Note Added (Listing Author)"
+msgstr ""
+
+#: includes/hooks/class-application.php:576
+msgid "Application Note"
+msgstr ""
+
+#: includes/hooks/class-application.php:577
+msgid "Will output the content of the note added on an application"
+msgstr ""
+
+#: includes/hooks/class-application.php:611
+#: includes/hooks/class-application.php:618
+msgid "New Application Applicant Email"
+msgstr ""
+
+#: includes/hooks/class-application.php:612
+msgid "Email sent to applicant, when a new application is submitted"
+msgstr ""
+
+#: includes/hooks/class-application.php:617
+msgid "Application for %s submitted!"
+msgstr ""
+
+#: includes/hooks/class-application.php:647
+#: includes/hooks/class-application.php:666
+#: includes/hooks/class-application.php:687 includes/hooks/class-job.php:382
+#: includes/hooks/class-poststatus.php:477
+#: includes/hooks/class-poststatus.php:501
+#: includes/hooks/class-poststatus.php:524
+#: includes/hooks/class-poststatus.php:548
+#: includes/hooks/class-poststatus.php:572
+#: includes/hooks/class-poststatus.php:596
+#: includes/hooks/class-poststatus.php:620
+#: includes/hooks/class-poststatus.php:644
+#: includes/hooks/class-poststatus.php:668
+#: includes/hooks/class-poststatus.php:692
+#: includes/hooks/class-poststatus.php:713
+#: includes/hooks/class-poststatus.php:735
+#: includes/hooks/class-poststatus.php:782 includes/hooks/class-resume.php:614
+#: includes/hooks/class-resume.php:646
+msgid "Hello"
+msgstr "Hallo"
+
+#: includes/hooks/class-application.php:648
+msgid "An application has been updated from %1$s to %2$s."
+msgstr ""
+
+#: includes/hooks/class-application.php:667
+msgid ""
+"A candidate (%1$s) has submitted their application for the position "
+"\"%2$s\"."
+msgstr ""
+
+#: includes/hooks/class-application.php:669
+#: includes/hooks/class-application.php:690
+msgid "You can view this and any other applications here: "
+msgstr ""
+
+#: includes/hooks/class-application.php:670
+msgid "You can contact them directly at: %s"
+msgstr ""
+
+#: includes/hooks/class-application.php:671
+msgid "You can view/edit this application in the backend by clicking here: %s"
+msgstr ""
+
+#: includes/hooks/class-application.php:688
+msgid "A new note has been added to %1$s application on the %2$s listing."
+msgstr ""
+
+#: includes/hooks/class-application.php:706
+msgid "Hello [from_name],"
+msgstr ""
+
+#: includes/hooks/class-application.php:707
+msgid ""
+"Your application for (%1$s), has been submitted. The details are as follows:"
+msgstr ""
+
+#: includes/hooks/class-application.php:709
+msgid "You can view the listing here: %s"
+msgstr ""
+
+#: includes/hooks/class-application.php:736
+msgid ""
+"Based on your current Resume Manager settings, with force apply with resumes"
+" enabled, this email will only be sent for URL based applications. Create an"
+" email template in Resume emails to handle email based applications, or "
+"disable Force Apply with Resumes."
+msgstr ""
+
+#: includes/hooks/class-job.php:55 includes/hooks/class-resume.php:68
+msgid "Expired"
+msgstr ""
+
+#: includes/hooks/class-job.php:57 includes/hooks/class-resume.php:71
+msgid "Pending approval"
+msgstr ""
+
+#: includes/hooks/class-job.php:58 includes/hooks/class-resume.php:72
+msgid "Pending payment"
+msgstr ""
+
+#: includes/hooks/class-job.php:59
+msgid "Active"
+msgstr ""
+
+#: includes/hooks/class-job.php:113 includes/hooks/class-resume.php:161
+#: includes/hooks/class-resume.php:173
+msgid "New %s Created/Submitted"
+msgstr "Neue %s erstellt/eingereicht"
+
+#: includes/hooks/class-job.php:116
+msgid "When a %s is Created/Submitted (DEPRECIATED)"
+msgstr ""
+
+#: includes/hooks/class-job.php:117
+msgid ""
+"This email will ONLY be sent when the listing does NOT require payment OR "
+"approval!!! DEPRECIATED !!"
+msgstr ""
+
+#: includes/hooks/class-job.php:118
+msgid ""
+"This hook will be removed in an upcoming release, you should use one of the "
+"new actions (based on your config) for sending this email!"
+msgstr ""
+
+#: includes/hooks/class-job.php:123
+msgid "New %s Submission, [job_title]"
+msgstr "Neue %s Submission, [Job_title]"
+
+#: includes/hooks/class-job.php:124
+msgid "New %s Submitted"
+msgstr "Neue %s eingereicht"
+
+#: includes/hooks/class-job.php:130 includes/hooks/class-job.php:140
+msgid "%s Edited by User"
+msgstr ""
+
+#: includes/hooks/class-job.php:133
+msgid "When a %s is edited (by user on frontend)"
+msgstr ""
+
+#: includes/hooks/class-job.php:134
+msgid ""
+"This hook REQUIRES WP Job Manager 1.30.0 or newer, otherwise it will NOT "
+"work."
+msgstr ""
+
+#: includes/hooks/class-job.php:139
+msgid "%s Edited by User, [job_title]"
+msgstr ""
+
+#: includes/hooks/class-job.php:145 includes/hooks/class-resume.php:216
+#: includes/shortcodes/class-job.php:119
+#: includes/shortcodes/class-resume.php:107
+msgid "%s Featured"
+msgstr ""
+
+#: includes/hooks/class-job.php:148 includes/hooks/class-resume.php:219
+msgid "When a %s is changed from un-featured, to featured."
+msgstr ""
+
+#: includes/hooks/class-job.php:149 includes/hooks/class-resume.php:220
+msgid "This email will be sent when a listing is set as a featured listing."
+msgstr ""
+
+#: includes/hooks/class-job.php:154
+msgid "The listing \"[job_title]\" is now a featured listing"
+msgstr ""
+
+#: includes/hooks/class-job.php:155 includes/hooks/class-resume.php:226
+msgid "%s set as Featured"
+msgstr ""
+
+#: includes/hooks/class-job.php:159 includes/hooks/class-resume.php:230
+msgid "Send email on newly created listings"
+msgstr ""
+
+#: includes/hooks/class-job.php:162 includes/hooks/class-resume.php:233
+msgid ""
+"When disabled, this email will only send when an active (published) listing "
+"is updated to featured listing."
+msgstr ""
+
+#: includes/hooks/class-job.php:168 includes/hooks/class-resume.php:239
+msgid "%s Un-Featured"
+msgstr ""
+
+#: includes/hooks/class-job.php:171 includes/hooks/class-resume.php:242
+msgid "When a %s is changed from featured, to un-featured."
+msgstr ""
+
+#: includes/hooks/class-job.php:172 includes/hooks/class-resume.php:243
+msgid ""
+"This email will be sent when a listing is CHANGED from Featured to Un-"
+"Featured."
+msgstr ""
+
+#: includes/hooks/class-job.php:177
+msgid "The %s \"[job_title]\" is no longer a featured listing."
+msgstr ""
+
+#: includes/hooks/class-job.php:178 includes/hooks/class-resume.php:249
+msgid "%s set as Un-Featured"
+msgstr ""
+
+#: includes/hooks/class-job.php:183
+msgid "%s Filled"
+msgstr ""
+
+#: includes/hooks/class-job.php:186
+msgid "When a %s is changed to filled."
+msgstr ""
+
+#: includes/hooks/class-job.php:187
+msgid "This email will be sent when a listing is set as filled."
+msgstr ""
+
+#: includes/hooks/class-job.php:191
+msgid ""
+"Unfortunately, [job_title] has been filled, and is no longer available."
+msgstr ""
+
+#: includes/hooks/class-job.php:192
+msgid "The listing \"[job_title]\" has been filled"
+msgstr ""
+
+#: includes/hooks/class-job.php:193
+msgid "%s set as Filled"
+msgstr ""
+
+#: includes/hooks/class-job.php:197 includes/hooks/class-job.php:222
+msgid "%s Applicants"
+msgstr ""
+
+#: includes/hooks/class-job.php:198 includes/hooks/class-job.php:223
+msgid ""
+"Emails of users who have applied to a listing (requires applications addon)"
+msgstr ""
+
+#: includes/hooks/class-job.php:208
+msgid "%s Un-Filled"
+msgstr ""
+
+#: includes/hooks/class-job.php:211
+msgid "When a %s is changed from filled, to un-filled."
+msgstr ""
+
+#: includes/hooks/class-job.php:212
+msgid ""
+"This email will be sent when a listing is CHANGED from Filled to Un-Filled."
+msgstr ""
+
+#: includes/hooks/class-job.php:216
+msgid ""
+"Good news! [job_title] has been set back to un-filled, and may be available "
+"again!"
+msgstr ""
+
+#: includes/hooks/class-job.php:217
+msgid "The listing \"[job_title]\" is available again!"
+msgstr ""
+
+#: includes/hooks/class-job.php:218
+msgid "%s set as Un-Filled"
+msgstr ""
+
+#: includes/hooks/class-job.php:383
+msgid "A %1$s has just been %2$s by *%3$s*.  The details are as follows:"
+msgstr ""
+
+#: includes/hooks/class-job.php:385
+msgid "The %s description is as follows:"
+msgstr "Die %s Beschreibung lautet wie folgt:"
+
+#: includes/hooks/class-job.php:386 includes/hooks/class-poststatus.php:481
+#: includes/hooks/class-poststatus.php:505
+#: includes/hooks/class-poststatus.php:576
+#: includes/hooks/class-poststatus.php:600
+#: includes/hooks/class-poststatus.php:624
+#: includes/hooks/class-poststatus.php:648
+#: includes/hooks/class-poststatus.php:672
+#: includes/hooks/class-poststatus.php:739
+msgid "You can view this %1$s here: %2$s"
+msgstr "Sie können diese %1$ s hier anzeigen: %2$ s"
+
+#: includes/hooks/class-job.php:387
+msgid "You can view/edit this %1$s in the backend by clicking here: %2$s"
+msgstr "Sie können Anzeigen/Bearbeiten dieser %1$ s im Backend indem Sie hier klicken: %2$ s"
+
+#: includes/hooks/class-poststatus.php:119
+msgid "%s Expiring Soon"
+msgstr "%s bald ablaufend"
+
+#: includes/hooks/class-poststatus.php:120
+msgid "When a %s is about to expire"
+msgstr "Wenn ein %s läuft bald ab"
+
+#: includes/hooks/class-poststatus.php:124
+msgid "Your %1$s, %2$s, is about to expire!"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:125
+msgid "%s About to Expire"
+msgstr "%s in Kürze ablaufen"
+
+#: includes/hooks/class-poststatus.php:129
+msgid "Days until %s expires"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:130
+msgid "Will output number of days until listing will expire"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:140
+msgid "Days before expiration"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:147
+msgid "Number of days before listing expires to send email (default 7)"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:152
+#: includes/hooks/class-poststatus.php:159
+msgid "New %s Published (admin)"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:153
+msgid "When a New %s is Published (and does not required approval or payment)"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:154
+msgid ""
+"This action will only fire when new listing DO NOT require approval, or "
+"payment (after submitting listing).  This will still fire even if preview "
+"step is removed."
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:158
+msgid "New %1$s Published, %2$s"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:164
+#: includes/hooks/class-poststatus.php:168
+msgid "New %s Published (user)"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:167
+msgid "Your %1$s \"%2$s\" is Published!"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:173
+#: includes/hooks/class-poststatus.php:179
+msgid "New %s Pending Approval"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:174
+msgid "When a New %s is Pending Approval"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:178
+msgid "New %1$s Pending Approval, %2$s"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:184
+#: includes/hooks/class-poststatus.php:190
+msgid "New %s Pending Payment"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:185
+msgid "When a New %s is Pending Payment"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:189
+msgid "New %1$s Pending Payment, %2$s"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:195
+msgid "%s Approved"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:196
+msgid "When a pending %s is Approved"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:200
+msgid "Your %1$s, %2$s, was Approved!"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:201
+msgid "Your %s was Approved"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:206
+msgid "%s Pending Payment Completed"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:207
+msgid "When a %s pending payment is completed."
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:208
+msgid ""
+"Make sure to test this email yourself, as the system used for payments may "
+"also be sending out an email when this happens."
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:212
+msgid "%1$s Payment Completed, %2$s"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:213
+msgid "%s Pending Payment Completed/Approved"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:218
+#: includes/hooks/class-poststatus.php:225
+msgid "%s Pending Approval, Payment Completed"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:219
+msgid "When a %s pending payment is completed and is pending approval."
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:220
+msgid ""
+"This email will be sent once a %s that was pending payment, has been "
+"completed, and is now pending/awaiting approval."
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:224
+msgid "%1$s (Paid) Pending Approval, %2$s"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:230
+#: includes/hooks/class-poststatus.php:236
+msgid "%s Expired"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:231
+msgid "When a %s expires."
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:235
+msgid "%1$s Expired, %2$s"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:241
+msgid "%s Relisted"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:242
+msgid "When an expired %s is relisted."
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:246
+msgid "%1$s Relisted, %2$s"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:247
+msgid "Expired %s Relisted"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:252
+#: includes/hooks/class-poststatus.php:259
+msgid "Expired %s Removed"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:253
+msgid "When an expired %s is sent to the trash (to be removed)."
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:254
+msgid ""
+"WP Job Manager will automatically send expired to trash if you have it "
+"configured to do so, which will trigger this email."
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:258
+msgid "Expired %1$s Removed, %2$s"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:264
+#: includes/hooks/class-poststatus.php:270
+msgid "%s Removed"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:265
+msgid "When a %s is sent to the trash (to be removed)."
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:269
+msgid "%1$s Removed, %2$s"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:275
+#: includes/hooks/class-poststatus.php:283
+msgid "%s Published (Status)"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:276
+msgid "When a %s status is changed to published"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:277
+msgid ""
+"This action will fire whenever a listing status is updated to published."
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:278
+msgid ""
+"This action will ALWAYS be executed when a listing status is set to "
+"published (visible on frontend)! <strong>This should ONLY be used by those "
+"who KNOW what they are doing!</strong>"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:282
+msgid "%1$s Status set to Published, %2$s"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:330
+#: includes/hooks/class-poststatus.php:343
+msgid "%1$s %2$s to %3$s"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:331
+#: includes/hooks/class-poststatus.php:344
+msgid "When a %1$s is updated from %2$s to %3$s."
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:478
+msgid ""
+"A new %1$s has just been submitted by *%2$s*, and is now published.  The "
+"details are as follows:"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:480
+#: includes/hooks/class-poststatus.php:504
+#: includes/hooks/class-poststatus.php:527
+#: includes/hooks/class-poststatus.php:551
+#: includes/hooks/class-poststatus.php:575
+#: includes/hooks/class-poststatus.php:599
+#: includes/hooks/class-poststatus.php:623
+#: includes/hooks/class-poststatus.php:647
+#: includes/hooks/class-poststatus.php:671
+msgid "The %s content is as follows:"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:482
+#: includes/hooks/class-poststatus.php:529
+#: includes/hooks/class-poststatus.php:553
+#: includes/hooks/class-poststatus.php:577
+#: includes/hooks/class-poststatus.php:625
+#: includes/hooks/class-poststatus.php:649
+msgid "You can view this %1$s in the backend, by clicking here: %2$s"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:502
+msgid "Your listing is now published.  The details are as follows:"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:525
+msgid ""
+"An expired %1$s has just been moved to the trash to be deleted.  The details"
+" are as follows:"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:528
+#: includes/hooks/class-poststatus.php:552
+msgid ""
+"This listing will be permanently removed after 30 days (WordPress default), "
+"unless Trash is disabled (enabled by default)."
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:549
+msgid ""
+"A previously active %1$s (non-expired) has just been moved to the trash to "
+"be deleted.  The details are as follows:"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:573
+msgid ""
+"A previously expired %1$s, has just been relisted.  The details are as "
+"follows:"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:597
+msgid ""
+"A new %1$s has just been submitted by *%2$s*, and is pending approval.  The "
+"details are as follows:"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:601
+#: includes/hooks/class-poststatus.php:673
+msgid ""
+"You can view this %1$s in the backend, and approve it, by clicking here: "
+"%2$s"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:621
+msgid ""
+"A new %1$s has just been submitted by *%2$s*, and is now pending payment.  "
+"The details are as follows:"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:645
+msgid ""
+"A %1$s pending payment, has just been completed by *%2$s*, and is now "
+"published.  The details are as follows:"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:669
+msgid ""
+"A %1$s pending payment, has just been completed by *%2$s*, and is pending "
+"approval.  The details are as follows:"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:693
+msgid "Your %1$s, %2$s, has been approved!"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:694
+msgid "You can view the %1$s here: %2$s"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:714
+msgid "Your %1$s, *%2$s*, has just expired."
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:715
+#: includes/hooks/class-poststatus.php:737
+msgid "Login to your %1$s Dashboard via the URL below to manage this listing:"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:736
+msgid "Your %1$s, *%2$s*, is about to expire in [days_before_expire] days!"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:760
+msgid "Congratulations!"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:761
+msgid "Your %1$s, \"%2$s\", is now a featured %1$s!"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:762
+msgid "You can view your %1$s here: %2$s"
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:783
+msgid "Unfortunately, your %1$s, \"%2$s\", is no longer a featured %1$s."
+msgstr ""
+
+#: includes/hooks/class-poststatus.php:784
+msgid "Warm Regards"
+msgstr ""
+
+#: includes/hooks/class-resume.php:69
+msgid "Hidden"
+msgstr ""
+
+#: includes/hooks/class-resume.php:73
+msgid "Published"
+msgstr ""
+
+#: includes/hooks/class-resume.php:127
+msgid ""
+"Based on your current Resume Manager Settings, Email Based Applications "
+"<strong>disabled</strong>, this email will never be sent."
+msgstr ""
+
+#: includes/hooks/class-resume.php:130
+msgid ""
+"Based on your current Resume Manager Settings, Email Based Applications "
+"<strong>enabled</strong>, and force apply through Resume Manager "
+"<strong>disabled</strong>, this email will ONLY be sent if the visitor uses "
+"the Resume Application form."
+msgstr ""
+
+#: includes/hooks/class-resume.php:133
+msgid ""
+"Based on your current Job Manager Settings, URL only application method, "
+"this email will never be sent."
+msgstr ""
+
+#: includes/hooks/class-resume.php:134
+msgid ""
+"Even though the Resume Form is shown, the Applications addon handles URL "
+"based application email.  Create an email template in Applications emails."
+msgstr ""
+
+#: includes/hooks/class-resume.php:136
+msgid ""
+"Based on your current Job Manager Settings, URL or Email application method,"
+" with force apply with resumes enabled, this email will only be sent for "
+"email based applications."
+msgstr ""
+
+#: includes/hooks/class-resume.php:137
+msgid ""
+"Even though the Resume Form is shown, the Applications addon handles URL "
+"based application email.  Create an email template in Applications emails to"
+" handle URL based applications."
+msgstr ""
+
+#: includes/hooks/class-resume.php:140
+msgid ""
+"Based on your current Resume Manager Settings, this email will ONLY be sent "
+"for email based applications."
+msgstr ""
+
+#: includes/hooks/class-resume.php:164
+msgid "When a New %s is Created/Submitted !! (DEPRECIATED) !!"
+msgstr ""
+
+#: includes/hooks/class-resume.php:165
+msgid ""
+"This email will ONLY be sent when the listing does NOT require payment OR "
+"approval!!! DEPRECIATED !! This hook will be removed in the next release of "
+"this plugin!"
+msgstr ""
+
+#: includes/hooks/class-resume.php:166
+msgid ""
+"This hook will be removed in an upcoming release, you should use one of the "
+"new Post Status action/hook types for sending this email!"
+msgstr ""
+
+#: includes/hooks/class-resume.php:172 includes/hooks/class-resume.php:194
+msgid "New Resume Submission From %s"
+msgstr "Neue Lebenslauf-Vorlage von %s"
+
+#: includes/hooks/class-resume.php:176
+msgid "New %s Created/Submitted (DEPRECIATED!)"
+msgstr ""
+
+#: includes/hooks/class-resume.php:177
+msgid ""
+"You can use the email template but choose another hook after importing the "
+"template!"
+msgstr ""
+
+#: includes/hooks/class-resume.php:183
+msgid "%s Email Based Application"
+msgstr "%s e-Mail-basierte Anwendung"
+
+#: includes/hooks/class-resume.php:186
+msgid ""
+"When a Listing is applied to through Resume Manager with Email Method Type"
+msgstr ""
+
+#: includes/hooks/class-resume.php:187
+msgid ""
+"This is specifically for when emails are sent through Resume Manager "
+"Application Form (form with only two fields, Resume, and Message), using the"
+" email application method, which requires the <code>application</code> meta "
+"key to have a value of a valid email address."
+msgstr ""
+
+#: includes/hooks/class-resume.php:195
+msgid "New %s Email Application"
+msgstr "Neue E-Mail-Programm von %s"
+
+#: includes/hooks/class-resume.php:202
+msgid "After %s Saved/Updated"
+msgstr "Nach %s gespeichert/aktualisiert"
+
+#: includes/hooks/class-resume.php:204
+msgid "When a %s is Saved/Updated on Frontend"
+msgstr "Wann ist ein %s Saved/aktualisiert am Frontend"
+
+#: includes/hooks/class-resume.php:209
+msgid "After %s Location Changed/Updated"
+msgstr "Nach Lage der %s geändert/aktualisiert"
+
+#: includes/hooks/class-resume.php:211
+msgid "When a %s Location is Changed or Updated"
+msgstr "Wann ist ein %s Lage geändert oder aktualisiert"
+
+#: includes/hooks/class-resume.php:225
+msgid "The listing \"[candidate_name]\" is now a featured listing"
+msgstr ""
+
+#: includes/hooks/class-resume.php:248
+msgid "The %s \"[candidate_name]\" is no longer a featured listing."
+msgstr ""
+
+#: includes/hooks/class-resume.php:615
+msgid "A candidate has applied online for the position \"%s\"."
+msgstr "Ein Kandidat hat die Position \"%s\" online beantragt."
+
+#: includes/hooks/class-resume.php:617
+msgid "You can view their online resume here: %s."
+msgstr "Sie können hier ihren online-Lebenslauf anzeigen: %s'."
+
+#: includes/hooks/class-resume.php:618
+msgid "Or you can contact them directly at: %s."
+msgstr "Oder Sie können sie direkt bei kontaktieren: %s."
+
+#: includes/hooks/class-resume.php:647
+msgid ""
+"A new resume has just been submitted by *%s*. The details of their resume "
+"are as follows:"
+msgstr "Nur durch ein neuer Lebenslauf gestellt wurde * %s *. Die Details ihres Lebenslaufs sind wie folgt:"
+
+#: includes/hooks/class-resume.php:649
+msgid "The content of their resume is as follows:"
+msgstr "Der Inhalt ihres Lebenslaufs ist wie folgt:"
+
+#: includes/hooks/class-resume.php:653
+msgid "You can view this resume here: %s"
+msgstr "Sie können diese Zusammenfassung hier anzeigen: %s"
+
+#: includes/hooks/class-resume.php:654
+msgid "You can view/edit this resume in the backend by clicking here: %s"
+msgstr "Sie können Anzeigen/Bearbeiten dieser Lebenslauf im Backend indem Sie hier klicken: %s"
+
+#: includes/hooks/job/class-alerts.php:90
+msgid "%s Alerts Email"
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:93
+msgid "When %s Alerts are scheduled to be sent"
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:94
+msgid ""
+"If you have one of these emails enabled, this will override (and disable) "
+"the default core WP Job Manager alerts email."
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:99
+msgid "Job Alert Results Matching \"%s\""
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:100
+msgid "Job Alerts Member Email"
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:104
+msgid "%s alert user email"
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:105
+msgid "Email address of user who created the job alert"
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:111
+msgid "Alert user's display name in WP"
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:112
+msgid "Will output the user's set display name configured in WordPress."
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:118
+msgid "%s alert name"
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:119
+msgid "The name of the alert being sent"
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:125
+msgid "%s alert results"
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:126
+msgid ""
+"Will output results for jobs for alerts (uses core content_email-"
+"job_listing.php template)"
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:133
+msgid "%s alert next send date"
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:134
+msgid "The date this alert will next be sent"
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:140
+msgid "%s alerts page URL"
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:141
+msgid "The url to your alerts page"
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:147
+msgid "%s alert auto stop"
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:148
+msgid "A sentence explaining if an alert will be stopped automatically"
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:159
+msgid ""
+"WP Job Manager Alerts was NOT detected as being activated on your site! This"
+" hook/action requires the plugin to be installed, and activated, otherwise "
+"this email will never be sent!"
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:339
+msgid ""
+"No jobs were found matching your search. Login to your account to change "
+"your alert criteria"
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:391
+msgid "This job alert will automatically stop sending after %s."
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:411
+msgid "Hello %s,"
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:412
+msgid "The following %1$s were found matching your \"%2$s\" %3$s alert"
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:414
+msgid ""
+"Your next alert for this search will be sent %1$s. To manage your alerts "
+"please login and visit your alerts page here:"
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:463
+msgid "Daily"
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:468
+msgid "Weekly"
+msgstr ""
+
+#: includes/hooks/job/class-alerts.php:473
+msgid "Fortnightly"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:104
+msgid "%s claim user ID"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:105
+msgid "WordPress User ID of the user submitting the claim"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:111
+msgid "%s claim user display name"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:112
+msgid "Display name of the user submitting the claim"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:118
+msgid "%s claim user login"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:119
+msgid "Login username of user submitting claim"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:125
+msgid "%s claim user email"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:126
+msgid "Email address of user who created the claim"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:132
+msgid "Claim Data"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:133
+msgid "Additional information provided by user submitting the claim."
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:139
+msgid "Claim ID"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:140
+msgid "Internal WordPress ID for the claim"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:146
+#: includes/hooks/job/class-claim.php:147
+msgid "Claim Title"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:153
+msgid "Date of the claim"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:154
+msgid "This will output the date of the claim"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:160
+msgid "%s claim status"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:161
+msgid "The status of the claim"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:167
+msgid "Claim URL"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:168
+msgid "This will output the full URL to view the claim online"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:174
+msgid "Listing Title"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:175
+msgid "This will output the listing title for the claim (same as job_title)"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:181
+msgid "Listing ID"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:182
+msgid "Internal WordPress ID of the Listing being claimed (same as job_id)"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:188
+msgid "Listing URL"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:189
+msgid "Full URL to view listing on frontend of site (same as view_job_url)"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:216
+msgid "Claim Edit URL"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:217
+msgid "This will output the full URL to edit the claim in admin area"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:239
+msgid "Old Claim Status"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:240
+msgid "This will output the old claim status"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:270
+msgid "New %s Frontend Claim (user)"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:273
+msgid "When a new %s claim is created via frontend (user email)"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:274
+msgid ""
+"If this email is enabled, it will override (and disable) the default core WP"
+" Job Manager Claim Listing email sent to the user, when a claim is submitted"
+" from the frontend."
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:279
+msgid "Your Claim Information"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:280
+msgid "New Claim User Email"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:286
+msgid "New %s Frontend Claim (admin)"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:289
+msgid "When a new %s claim is created via frontend (admin email)"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:290
+msgid ""
+"If this email is enabled, it will override (and disable) the default core WP"
+" Job Manager Claim Listing email sent to the administrator, when the claim "
+"is submitted from the frontend."
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:295
+msgid "[WP Job Man] New Claim Submitted"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:296
+msgid "New Claim Admin Email"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:302
+msgid "New %s Admin Area Claim Created"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:305
+msgid "When a new %s claim is created via Admin area"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:306
+msgid ""
+"If this email is enabled, it will only be sent when a new claim is created "
+"via the administrator (wp-admin) area."
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:311
+msgid "[WP Job Man] New Admin Area Claim Created"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:312
+msgid "New Claim Admin Area Email"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:318
+msgid "%s Claim Updated (user)"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:321
+msgid "When a %s claim is updated (user email)"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:322
+msgid ""
+"If this email is enabled, it will override (and disable) the default core WP"
+" Job Manager Claim Listing email sent to the user."
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:327
+msgid "Your Claim For \"%1$s\" is %2$s"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:328
+msgid "Claim Updated User Email"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:334
+msgid "%s Claim Updated (admin)"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:337
+msgid "When a %s claim is updated (admin email)"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:338
+msgid ""
+"If this email is enabled, it will override (and disable) the default core WP"
+" Job Manager Claim Listing email sent to the administrator when claim is "
+"updated via the ADMIN area."
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:343
+msgid "[WP Job Man] Claim for \"%1$s\" is updated to %2$s"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:344
+msgid "Claim Updated Admin Email"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:352
+msgid ""
+"WP Job Manager Claim Listings was NOT detected as being activated on your "
+"site! This hook/action requires the plugin to be installed, and activated, "
+"otherwise this email will never be sent!"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:544
+#: includes/hooks/job/class-claim.php:567
+msgid "Hi %s,"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:545
+msgid "On %s you submitted a claim for a listing. Here's the details."
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:547
+#: includes/hooks/job/class-claim.php:570
+#: includes/hooks/job/class-claim.php:593
+#: includes/hooks/job/class-claim.php:616
+msgid "Listing URL: %s,"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:548
+#: includes/hooks/job/class-claim.php:571
+#: includes/hooks/job/class-claim.php:594
+#: includes/hooks/job/class-claim.php:617
+msgid "Claimed by: %s,"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:549
+#: includes/hooks/job/class-claim.php:595
+msgid "Claim Status: %s,"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:550
+msgid "You can also view your claim online: : %s,"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:551
+#: includes/hooks/job/class-claim.php:574
+#: includes/hooks/job/class-claim.php:597
+#: includes/hooks/job/class-claim.php:621
+#: includes/hooks/job/class-reviews.php:972
+msgid "Thank you."
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:568
+msgid ""
+"On %s you submitted a claim for a listing. Your claim status is updated. "
+"Here's the details."
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:572
+#: includes/hooks/job/class-claim.php:618
+msgid "Previous Claim Status: %s,"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:573
+#: includes/hooks/job/class-claim.php:619
+msgid "New Claim Status: %s,"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:590
+#: includes/hooks/job/class-claim.php:613
+#: includes/hooks/job/class-reviews.php:965
+msgid "Hi Admin,"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:591
+msgid "New claim submitted, here's the details."
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:596
+msgid "Edit Claim: %s,"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:614
+msgid "Claim status for listing %s is updated, here's the details."
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:620
+msgid "You can edit this claim: %s,"
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:781
+msgid ""
+"WP Job Manager Emails <strong>requires WP Job Manager Claim Listings 3.0 or "
+"newer</strong> for email support. An older version of the Claim Listings "
+"plugin was detected on your site."
+msgstr ""
+
+#: includes/hooks/job/class-claim.php:782
+msgid ""
+"<em>Please upgrade to the latest version (at least 3.0) for email "
+"customization support. Once you update this notice will go away ... or you "
+"can <a href=\"%s\">click here to hide this notice</a>.</em>"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:115
+msgid "Reviewer Name"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:116
+msgid "Name of person who submitted the review"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:122
+msgid "Reviewer Email"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:123
+msgid "Email address of user who submitted the review"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:129
+msgid "Reviewer URL"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:130
+msgid "URL entered when submitting review"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:136
+msgid "Reviewer IP"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:137
+msgid "IP address of person who submitted review"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:143
+msgid "Reviewer Review"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:144
+msgid "Content of the review that was submitted"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:150
+msgid "Reviewer Rating"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:151
+msgid ""
+"This will output a SINGLE category rating item (must be passed via category "
+"arg)"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:157
+msgid "Category to output rating for"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:164
+msgid "Reviewer Ratings"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:165
+msgid "This will output ratings for ALL categories"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:171
+msgid "Reviewer Ratings Average"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:172
+msgid "This will output the average rating for ALL categories"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:178
+msgid "Reviewer Images"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:179
+msgid "This will output URL"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:185
+msgid "Review ID"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:186
+msgid "Internal WordPress ID for the review/comment"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:192
+msgid "Date Review was Submitted"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:193
+msgid "This will output the date the review was submitted"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:199
+msgid "%s Review status"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:200
+msgid "The status of the review"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:206
+msgid "Review URL"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:207
+msgid "This will output the full URL to view the review online"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:229
+msgid "Review Edit URL"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:230
+msgid "This will output the full URL to edit the review in admin area"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:517
+msgid "New %s Review Submitted"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:520
+msgid "When a %s Review is submitted/created"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:521
+msgid ""
+"If this email is enabled, it will be sent anytime a review is submitted, "
+"regardless of whether it is auto-approved or not."
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:526
+msgid "New Review for %s Submitted"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:527
+msgid "New Review Submitted"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:533
+msgid "New %s Review Pending Approval (reviewer)"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:536
+msgid "When a %s Review is created and pending approval"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:537
+msgid ""
+"This email will be sent when a new review is created, and pending approval "
+"(admin or listing owner)."
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:542
+msgid "Your Review for %s is Pending Approval"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:543
+msgid "New Review Pending Approval (reviewer)"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:548
+msgid "New %s Review Pending Approval (admin)"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:551
+msgid "New Review for %s Pending Admin Approval"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:552
+msgid "New Review Pending Admin Approval"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:555
+msgid "New %s Review Pending Approval (owner)"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:558
+msgid "New Review for %s Pending Owner Approval"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:559
+msgid "New Review Pending Owner Approval"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:565
+msgid "%s Review Approved"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:568
+msgid "When a %s Review is Approved"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:573
+msgid "Your Review for %s has been Approved!"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:574
+msgid "Reviewer Review Approved "
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:579
+msgid "%s Review Reported (admin email)"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:580
+msgid "When a %s Review is reported to admin (admin email)"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:581
+msgid ""
+"If this email is enabled, it will override (and disable) the default core WP"
+" Job Manager Reviews email sent to the administrator, when a review is "
+"reported."
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:581
+msgid ""
+"If you enable this custom email (for admin), you MUST create and enable a "
+"custom email for the user/owner as well, otherwise the listing owner (person"
+" who reported review) will NEVER receive an email!  This is due to the way "
+"the Reviews addon plugin works internally."
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:586
+#: includes/hooks/job/class-reviews.php:599
+msgid "Review Reported Notification"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:587
+msgid "Review Reported Notification (admin email)"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:592
+msgid "%s Review Reported (listing owner email)"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:593
+msgid "When a %s Review is reported to admin (listing owner email)"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:594
+msgid ""
+"If this email is enabled, it will override (and disable) the default core WP"
+" Job Manager Reviews email sent to the Listing Owner, when they report a "
+"review."
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:600
+msgid "Review Reported Notification (listing owner email)"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:610
+msgid ""
+"This hook should NOT be used for sending a notice to the Listing Owner, as "
+"you currently have the \"Listing owners can moderate reviews\" setting "
+"DISABLED!"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:615
+msgid ""
+"\"Listing owners can moderate reviews\" MUST be enabled for this email to "
+"send!  You currently have this setting DISABLED! This email will NEVER send!"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:621
+msgid ""
+"WP Job Manager Review Listings was NOT detected as being activated on your "
+"site! This hook/action requires the plugin to be installed, and activated, "
+"otherwise this email will never be sent!"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:811
+msgid "Review #%1$d for %2$s reported to site admin."
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:868
+msgid "Your review for \"%s\" was sent successfully, and is pending approval."
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:870
+#: includes/hooks/job/class-reviews.php:888
+#: includes/hooks/job/class-reviews.php:915
+#: includes/hooks/job/class-reviews.php:942
+#: includes/hooks/job/class-reviews.php:968
+#: includes/hooks/job/class-reviews.php:990
+#: includes/hooks/job/class-reviews.php:1010
+msgid "Listing URL: %s"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:886
+#: includes/hooks/job/class-reviews.php:913
+msgid "A new review has been submitted for \"%s\", and is pending approval."
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:889
+#: includes/hooks/job/class-reviews.php:916
+#: includes/hooks/job/class-reviews.php:943
+msgid "Reviewed by: %s"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:890
+#: includes/hooks/job/class-reviews.php:917
+#: includes/hooks/job/class-reviews.php:944
+msgid "Review Status: %s"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:891
+msgid "Manage/Approve Review: %s"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:893
+#: includes/hooks/job/class-reviews.php:919
+#: includes/hooks/job/class-reviews.php:945
+msgid "Ratings:"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:895
+#: includes/hooks/job/class-reviews.php:921
+#: includes/hooks/job/class-reviews.php:947
+msgid "Review:"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:925
+msgid "Please visit your review dashboard to approve this review."
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:940
+msgid "A new review has been submitted for \"%s\""
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:966
+msgid "A review moderation has been requested for \"%s\""
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:969
+#: includes/hooks/job/class-reviews.php:991
+msgid "Requested by: %s"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:970
+#: includes/hooks/job/class-reviews.php:992
+msgid "Review ID: %s"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:971
+msgid "Manage Review: %s"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:988
+msgid "Your review moderation request for \"%s\" was sent successfully."
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:1008
+msgid "Your review for \"%s\" has been approved!"
+msgstr ""
+
+#: includes/hooks/job/class-reviews.php:1011
+msgid "Review URL: %s"
+msgstr ""
+
+#: includes/shortcodes/class-application.php:42
+msgid "Full name (field with from_name rule)"
+msgstr ""
+
+#: includes/shortcodes/class-application.php:48
+msgid "User Application Message (field with from_email rule)"
+msgstr ""
+
+#: includes/shortcodes/class-application.php:52
+msgid "Application ID"
+msgstr ""
+
+#: includes/shortcodes/class-application.php:56
+msgid "Rating (out of 5)"
+msgstr ""
+
+#: includes/shortcodes/class-application.php:61
+msgid "User Application Message (field with message rule)"
+msgstr ""
+
+#: includes/shortcodes/class-application.php:67
+msgid "All attachment fields (fields with attachment rule)"
+msgstr ""
+
+#: includes/shortcodes/class-application.php:72
+#: includes/shortcodes/class-job.php:87
+#: includes/shortcodes/class-resume.php:84
+msgid "All %s Fields"
+msgstr "Alle %s-Felder"
+
+#: includes/shortcodes/class-application.php:73
+#: includes/shortcodes/class-application.php:79
+msgid "Will output all %s fields in list format"
+msgstr ""
+
+#: includes/shortcodes/class-application.php:78
+msgid "All %s Fields (same as application_fields)"
+msgstr ""
+
+#: includes/shortcodes/class-application.php:84
+#: includes/shortcodes/class-job.php:58
+#: includes/shortcodes/class-resume.php:64
+msgid "%s Dashboard URL"
+msgstr "%s-Dashboard-URL"
+
+#: includes/shortcodes/class-application.php:85
+#: includes/shortcodes/class-job.php:59
+#: includes/shortcodes/class-resume.php:65
+msgid "URL to the %s Dashboard"
+msgstr "URL zum Dashboard %s"
+
+#: includes/shortcodes/class-application.php:89
+#: includes/shortcodes/class-job.php:82
+#: includes/shortcodes/class-resume.php:79
+msgid "%s Admin URL"
+msgstr "%s-Admin-URL"
+
+#: includes/shortcodes/class-application.php:90
+msgid "URL to view the %s in admin section"
+msgstr ""
+
+#: includes/shortcodes/class-application.php:94
+msgid "View %s Frontend URL"
+msgstr ""
+
+#: includes/shortcodes/class-application.php:95
+msgid "URL to view the %s in Job Dashboard on frontend."
+msgstr ""
+
+#: includes/shortcodes/class-application.php:104
+#: includes/shortcodes/class-job.php:123
+#: includes/shortcodes/class-resume.php:111
+msgid "%s Custom Meta"
+msgstr ""
+
+#: includes/shortcodes/class-application.php:105
+msgid ""
+"Can be used to output any custom meta, passing exact meta key in the key "
+"argument"
+msgstr ""
+
+#: includes/shortcodes/class-application.php:110
+#: includes/shortcodes/class-job.php:129
+#: includes/shortcodes/class-resume.php:117
+msgid "The exact meta key to use and obtain the value from"
+msgstr ""
+
+#: includes/shortcodes/class-application.php:111
+#: includes/shortcodes/class-job.php:130
+#: includes/shortcodes/class-resume.php:118
+msgid "Exact meta key"
+msgstr ""
+
+#: includes/shortcodes/class-job.php:46 includes/shortcodes/class-job.php:47
+msgid "%s ID"
+msgstr ""
+
+#: includes/shortcodes/class-job.php:52
+msgid "%s Application Email"
+msgstr "%s Anwendung E-Mail"
+
+#: includes/shortcodes/class-job.php:53
+msgid "%s Application Email (if set), same as [application]"
+msgstr "%s Anwendung E-Mail (falls festgelegt), identisch [Anwendung]"
+
+#: includes/shortcodes/class-job.php:63 includes/shortcodes/class-job.php:64
+msgid "%s Title"
+msgstr "%s-Titel"
+
+#: includes/shortcodes/class-job.php:69 includes/shortcodes/class-job.php:70
+msgid "%s Description"
+msgstr "%s-Beschreibung"
+
+#: includes/shortcodes/class-job.php:77
+#: includes/shortcodes/class-resume.php:69
+msgid "%s URL"
+msgstr "%s-URL"
+
+#: includes/shortcodes/class-job.php:78
+msgid "%s Frontend Listing URL"
+msgstr "%s Frontend Liste URL"
+
+#: includes/shortcodes/class-job.php:83
+#: includes/shortcodes/class-resume.php:80
+msgid "%s Admin Area Edit/View URL"
+msgstr "%s-Admin-Bereich bearbeiten/anzeigen URL"
+
+#: includes/shortcodes/class-job.php:88
+#: includes/shortcodes/class-resume.php:85
+msgid "Will output all %s in list format"
+msgstr "Alle %s im Listenformat Ausgabe"
+
+#: includes/shortcodes/class-job.php:93
+msgid "The meta keys to skip when outputting all fields"
+msgstr "Die Meta-Schlüssel zu überspringen, wenn alle Felder ausgeben"
+
+#: includes/shortcodes/class-job.php:94
+msgid "Any meta key(s) (comma separated)"
+msgstr "Alle Meta-Schlüssel (durch Komma getrennt)"
+
+#: includes/shortcodes/class-job.php:101
+msgid "%s Author Email"
+msgstr ""
+
+#: includes/shortcodes/class-job.php:102
+msgid "Email address of the author who submitted the listing"
+msgstr ""
+
+#: includes/shortcodes/class-job.php:107
+msgid "%s Author Name"
+msgstr ""
+
+#: includes/shortcodes/class-job.php:108
+msgid "First and last name of the author who submitted the listing"
+msgstr ""
+
+#: includes/shortcodes/class-job.php:113
+#: includes/shortcodes/class-resume.php:101
+msgid "%s Expires Date"
+msgstr ""
+
+#: includes/shortcodes/class-job.php:114
+#: includes/shortcodes/class-resume.php:102
+msgid "Will output the expiration date"
+msgstr ""
+
+#: includes/shortcodes/class-job.php:120
+#: includes/shortcodes/class-resume.php:108
+msgid "Whether or not a listing is a featured listing"
+msgstr ""
+
+#: includes/shortcodes/class-job.php:124
+#: includes/shortcodes/class-resume.php:112
+msgid ""
+"Can be used to output any custom meta from a listing, passing exact meta key"
+" in the key argument"
+msgstr ""
+
+#: includes/shortcodes/class-resume.php:42
+msgid "Resume ID"
+msgstr ""
+
+#: includes/shortcodes/class-resume.php:46
+msgid "User Application Message"
+msgstr "Benutzermeldung Anwendung"
+
+#: includes/shortcodes/class-resume.php:50
+#: includes/shortcodes/class-resume.php:51
+msgid "%s Candidate Name"
+msgstr "%s-Kandidaten-Namen"
+
+#: includes/shortcodes/class-resume.php:57
+msgid "%s Content"
+msgstr "%s-Inhalt"
+
+#: includes/shortcodes/class-resume.php:58
+msgid "Main %s Content"
+msgstr "%S-Hauptseite"
+
+#: includes/shortcodes/class-resume.php:70
+msgid "%s frontend URL (to view only when resume is published)"
+msgstr ""
+
+#: includes/shortcodes/class-resume.php:74
+msgid "View %s URL"
+msgstr ""
+
+#: includes/shortcodes/class-resume.php:75
+msgid "%s share link URL (to view resume regardless of status)"
+msgstr ""
+
+#: includes/shortcodes/class-resume.php:90
+msgid "New %s Recipient"
+msgstr "Neue %s Empfänger"
+
+#: includes/shortcodes/class-resume.php:91
+msgid ""
+"Value of the \"Notify Email Address(es)\" Resume Manager setting, if set, "
+"otherwise the admin email."
+msgstr "Wert des \"Benachrichtigen Email Adresse(n)\" Lebenslauf Manager festlegen, wenn gesetzt, andernfalls die Admin-Email."
+
+#: includes/shortcodes/class-resume.php:95
+msgid "Resume Author Email"
+msgstr ""
+
+#: includes/shortcodes/class-resume.php:96
+msgid "Email address of the author who submitted the resume listing"
+msgstr ""
+
+#: includes/shortcodes/class-resume.php:388
+msgid "Education:"
+msgstr "Ausbildung:"
+
+#: includes/shortcodes/class-resume.php:390
+msgid "Location: %s"
+msgstr "Lage: %s"
+
+#: includes/shortcodes/class-resume.php:391
+#: includes/shortcodes/class-resume.php:419
+msgid "Date: %s"
+msgstr "Datum: %s"
+
+#: includes/shortcodes/class-resume.php:392
+msgid "Qualification: %s"
+msgstr "Qualifikation: %s"
+
+#: includes/shortcodes/class-resume.php:416
+msgid "Experience:"
+msgstr "Erfahrung:"
+
+#: includes/shortcodes/class-resume.php:418
+msgid "Employer: %s"
+msgstr "Arbeitgeber: %s"
+
+#: includes/shortcodes/class-resume.php:420
+msgid "Job Title: %s"
+msgstr "Job-Titel: %s"
+
+#: includes/shortcodes/class-resume.php:444
+msgid "Links:"
+msgstr "Links:"
+
+#: includes/updater/smyles-updater-licenses.php:143
+msgid "Unable to determine slug to deactivate license."
+msgstr "Nicht Schnecke Lizenz deaktivieren zu ermitteln."
+
+#: includes/updater/smyles-updater-licenses.php:157
+msgid "Error determining the plugin Product ID."
+msgstr "Fehler beim Ermitteln des Plugins-Produkt-ID."
+
+#: includes/updater/smyles-updater-licenses.php:161
+msgid "Error pulling the license key from option data."
+msgstr "Ziehen den Lizenzschlüssel aus Möglichkeit Daten Fehler."
+
+#: includes/updater/smyles-updater-licenses.php:165
+msgid ""
+"Error pulling the email associated with the license key from option data."
+msgstr "Fehler beim Ziehen der e-Mails den Lizenzschlüssel aus Möglichkeit Daten zugeordnet."
+
+#: includes/updater/smyles-updater-licenses.php:169
+msgid ""
+"Error pulling the instance ID associated with the license key from option "
+"data."
+msgstr "Fehler, die die Instanz-ID zugeordnet die Lizenz-Key von Möglichkeit Daten ziehen."
+
+#: includes/updater/smyles-updater-licenses.php:182
+msgid ""
+"Connection failed to the License Key API server - possible server issue."
+msgstr "Verbindungsfehler an den Lizenz-Schlüssel-API Server - Serverproblem möglich."
+
+#: includes/updater/smyles-updater-licenses.php:189
+msgid " Successfully Deactivated!"
+msgstr " Erfolgreich deaktiviert!"
+
+#: includes/updater/smyles-updater-licenses.php:190
+msgid "You have successfully deactivated the %s license."
+msgstr "Sie haben erfolgreich die Lizenz %s deaktiviert."
+
+#: includes/updater/smyles-updater-licenses.php:202
+#: includes/updater/smyles-updater-licenses.php:312
+msgid "Error!"
+msgstr "Fehler!"
+
+#: includes/updater/smyles-updater-licenses.php:202
+msgid ""
+"The license has been successfully deactivated locally, but please visit your"
+" sMyles Plugins <a href=\"%s\" target=\"_blank\">My Account</a> page to "
+"verify this activation has been removed from our server.  There was an error"
+" automatically removing it, and chances are that is because it was already "
+"removed via your <a href=\"%s\" target=\"_blank\">My Account</a> page "
+"already.."
+msgstr ""
+
+#: includes/updater/smyles-updater-licenses.php:238
+msgid ""
+"Unable to determine slug, license key, and/or email to activate license, "
+"contact support."
+msgstr "Nicht ermitteln, Schnecke, Lizenzschlüssel und/oder e-Mail an die Lizenz aktivieren, kontaktieren den Support."
+
+#: includes/updater/smyles-updater-licenses.php:297
+msgid " Successfully Activated!"
+msgstr " Erfolgreich aktiviert!"
+
+#: includes/updater/smyles-updater-licenses.php:297
+msgid ""
+"You have successfully activated the %s license, and will now be able to "
+"automatically upgrade this plugin through WordPress when an update is "
+"available."
+msgstr "Sie haben erfolgreich die %s-Lizenz aktiviert und werden jetzt in der Lage, dieses Plugin durch WordPress automatisch aktualisieren, wenn ein Update verfügbar ist."
+
+#: includes/updater/smyles-updater-licenses.php:400
+msgid "Deactivate the %s License?"
+msgstr "Deaktivieren Sie die %s-Lizenz?"
+
+#: includes/updater/smyles-updater-licenses.php:415
+msgid "sMyles Plugins Licensing"
+msgstr "sMyles Plugins Lizenzierung"
+
+#: includes/updater/smyles-updater-licenses.php:418
+msgid "Plugins"
+msgstr "Plugins"
+
+#: includes/updater/views/html-key-input.php:5
+msgid "License"
+msgstr "Lizenz"
+
+#: includes/updater/views/html-key-input.php:8
+msgid ""
+"Enter your license key and email and hit return. A valid key is required for"
+" updates."
+msgstr "Geben Sie Ihren Lizenzschlüssel und e-Mail und drücken. Ein gültiger Key ist für Updates erforderlich."
+
+#: includes/updater/views/html-key-notice.php:6
+msgid "Hide notice"
+msgstr "Hinweis verbergen"
+
+#: includes/updater/views/html-key-notice.php:7
+msgid ""
+"<a href=\"%1$s\">Please activate your license key</a> in order to receive "
+"updates and support for \"%2$s\"."
+msgstr "<a href=\"%1$s\"> Bitte aktivieren Sie Ihren Lizenzschlüssel</a>, damit Sie erhalten Updates und support für \"%2$ s\"."
+
+#: includes/updater/views/html-license-activate.php:3
+msgid "Activating ..."
+msgstr "Aktivierung von..."
+
+#: includes/updater/views/html-license-activate.php:6
+#: includes/updater/views/html-license-deactivate.php:6
+msgid "Plugin Not Found"
+msgstr "Plugin nicht gefunden"
+
+#: includes/updater/views/html-license-activate.php:18
+#: includes/updater/views/html-license-deactivate.php:20
+msgid "Details"
+msgstr ""
+
+#: includes/updater/views/html-license-activate.php:33
+#: includes/updater/views/html-license-deactivate.php:35
+msgid "Installed Version:"
+msgstr "Installierte Version:"
+
+#: includes/updater/views/html-license-activate.php:54
+msgid "Activate License"
+msgstr "Lizenz aktivieren"
+
+#: includes/updater/views/html-license-deactivate.php:3
+msgid "Deactivating ..."
+msgstr "Deaktivieren..."
+
+#: includes/updater/views/html-license-deactivate.php:43
+msgid "Activated:"
+msgstr "Aktiviert:"
+
+#: includes/updater/views/html-license-deactivate.php:64
+msgid "Deactivate License"
+msgstr "Lizenz deaktivieren"
+
+#: includes/updater/views/html-ms-update.php:6
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr "Es steht eine neue Version von %1$ s. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\"> Details anzeigen Version %3$ s</a> oder <a href=\"%4$s\"> Jetzt aktualisieren</a>."
+
+#. translators: %1$s minimum PHP version, %2$s current PHP version.
+#: wp-job-manager-emails.php:24
+msgid ""
+"WP Job Manager Emails requires at least PHP %1$s. You are running PHP %2$s. "
+"Please upgrade and try again, or see %3$s for more details."
+msgstr ""
+
+#: wp-job-manager-emails.php:324
+msgid ""
+"WP Job Manager - Emails is missing requirements and has been <a "
+"href=\"%s\">deactivated</a>. Please make sure all requirements are "
+"available."
+msgstr "WP-Job-Manager - Emails fehlt Anforderungen und wurde <a href=\"%s\"> deaktiviert</a>. Bitte stellen Sie sicher, dass alle Anforderungen zur Verfügung stehen."
+
+#: wp-job-manager-emails.php:343
+msgid "My Account"
+msgstr "Mein Konto"
+
+#: wp-job-manager-emails.php:344
+msgid "Support"
+msgstr "Unterstützung"
+
+#: wp-job-manager-emails.php:345
+msgid "Translations"
+msgstr "Übersetzungen"
+
+#: wp-job-manager-emails.php:391
+msgid "Once Weekly"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - Emails"
+msgstr "WP-Job-Manager - e-Mails"
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.smyl.es"
+msgstr "https://Plugins.Smyl.es"
+
+#. Description of the plugin/theme
+msgid ""
+"Complete email customization for WP Job Manager, and addon plugins.  Create "
+"emails for every aspect of WP Job Manager using built-in templates, or "
+"customize your own."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Myles McNamara"
+msgstr "Myles McNamara"
+
+#. Author URI of the plugin/theme
+msgid "https://smyl.es"
+msgstr "https://Smyl.es"
+
+#: includes/admin/views/submitdiv.php:87
+msgctxt "revisions"
+msgid "Browse"
+msgstr ""
+
+#: includes/class-cpt.php:518
+msgctxt "post status"
+msgid "Disabled"
+msgstr "Behinderte"

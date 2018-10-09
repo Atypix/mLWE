@@ -1,0 +1,70 @@
+<% extends 'layout.html' %>
+
+<% block content %>
+  <div id="segments_container"></div>
+
+  <script type="text/javascript">
+    var mailpoet_listing_per_page = <%= items_per_page %>;
+  </script>
+<% endblock %>
+
+<% block translations %>
+  <%= localize({
+    'pageTitle': __('Lists'),
+    'searchLabel': __('Search'),
+    'loadingItems': __('Loading lists...'),
+    'noItemsFound': __('No lists found'),
+    'selectAllLabel': __('All lists on this page are selected.'),
+    'selectedAllLabel': __('All %d lists are selected.'),
+    'selectAllLink': __('Select all lists on all pages'),
+    'clearSelection': __('Clear selection'),
+    'permanentlyDeleted': __('%d lists were permanently deleted.'),
+    'selectBulkAction': __('Select bulk action'),
+    'bulkActions': __('Bulk Actions'),
+    'apply': __('Apply'),
+    'name': __('Name'),
+    'description': __('Description'),
+    'segmentUpdated': __('List successfully updated!'),
+    'segmentAdded': __('List successfully added!'),
+    'segment': __('List'),
+    'subscribed': __('Subscribed'),
+    'unconfirmed': __('Unconfirmed'),
+    'unsubscribed': __('Unsubscribed'),
+    'bounced': __('Bounced'),
+    'createdOn': __('Created on'),
+    'oneSegmentTrashed': __('1 list was moved to the trash.'),
+    'multipleSegmentsTrashed': __('%$1d lists were moved to the trash.'),
+    'oneSegmentDeleted': __('1 list was permanently deleted.'),
+    'multipleSegmentsDeleted': __('%$1d lists were permanently deleted.'),
+    'oneSegmentRestored': __('1 list has been restored from the Trash.'),
+    'multipleSegmentsRestored': __('%$1d lists have been restored from the Trash.'),
+    'duplicate': __('Duplicate'),
+    'listDuplicated': __('List "%$1s" has been duplicated.'),
+    'update': __('Update'),
+    'forceSync': __('Force Sync'),
+    'readMore': __('Read More'),
+    'listSynchronized': __('List "%$1s" has been synchronized.'),
+    'viewSubscribers': __('View Subscribers'),
+    'new': __('Add New'),
+    'edit': __('Edit'),
+    'trash': __('Trash'),
+    'moveToTrash': __('Move to trash'),
+    'emptyTrash': __('Empty Trash'),
+    'selectAll': __('Select All'),
+    'restore': __('Restore'),
+    'deletePermanently': __('Delete permanently'),
+    'save': __('Save'),
+
+    'previousPage': __('Previous page'),
+    'firstPage': __('First page'),
+    'nextPage': __('Next page'),
+    'lastPage': __('Last page'),
+    'currentPage': __('Current page'),
+    'pageOutOf': __('of'),
+    'numberOfItemsSingular': __('1 item'),
+    'numberOfItemsMultiple': __('%$1d items'),
+
+    'segmentDescriptionTip': __('This text box is for your own use and is never shown to your subscribers.'),
+    'backToList': __('Back')
+  }) %>
+<% endblock %>

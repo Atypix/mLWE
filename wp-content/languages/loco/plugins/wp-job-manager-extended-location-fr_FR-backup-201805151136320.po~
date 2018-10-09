@@ -1,0 +1,186 @@
+# Copyright (C) 2017 Astoundify
+# This file is distributed under the same license as the Extended Location for WP Job Manager package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Extended Location for WP Job Manager 3.4.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-job-manager-"
+"extended-location\n"
+"POT-Creation-Date: 2017-06-06 14:04:56+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-03-14 10:23+0000\n"
+"Last-Translator: Goach <sebodion@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;"
+
+#: includes/class-wpjmel-map-setup.php:130
+msgid "Job Location"
+msgstr ""
+
+#: includes/class-wpjmel-map-setup.php:138
+msgid "Candidate Location"
+msgstr ""
+
+#: includes/class-wpjmel-map-setup.php:153
+msgid "Leave this blank if the location is not important."
+msgstr ""
+
+#: includes/class-wpjmel-map-setup.php:155
+msgid "e.g. \"London\""
+msgstr ""
+
+#: includes/class-wpjmel-map-setup.php:169
+msgid "e.g. \"London, UK\", \"New York\", \"Houston, TX\""
+msgstr ""
+
+#: includes/class-wpjmel-settings.php:61
+msgid "Location"
+msgstr ""
+
+#: includes/class-wpjmel-settings.php:66
+msgid "Auto Location"
+msgstr ""
+
+#: includes/class-wpjmel-settings.php:67
+msgid "User Location Suggestion"
+msgstr ""
+
+#: includes/class-wpjmel-settings.php:68
+msgid ""
+"Attempt to automatically locate the current user&#39;s location to display "
+"location-specific results."
+msgstr ""
+
+#: includes/class-wpjmel-settings.php:74
+msgid "Submission Form"
+msgstr ""
+
+#: includes/class-wpjmel-settings.php:75
+msgid "Display Map"
+msgstr ""
+
+#: includes/class-wpjmel-settings.php:76
+msgid ""
+"When checked there will be a small Google Map positioned beneath the "
+"location field."
+msgstr ""
+
+#: includes/class-wpjmel-settings.php:82
+msgid "Default Location"
+msgstr ""
+
+#: includes/class-wpjmel-settings.php:83
+msgid "The start location if the map is enabled"
+msgstr ""
+
+#: includes/class-wpjmel-settings.php:91
+msgid "IP-API.com Localization"
+msgstr ""
+
+#: includes/class-wpjmel-settings.php:92
+msgid "Localization for user location based on IP address using IP-API.com."
+msgstr ""
+
+#: includes/class-wpjmel-settings.php:99
+msgid "License Key"
+msgstr ""
+
+#: includes/class-wpjmel-settings.php:100
+msgid ""
+"Enter the license key you received with your purchase receipt to continue "
+"receiving plugin updates."
+msgstr ""
+
+#: includes/class-wpjmel-settings.php:120
+msgid ""
+"Please input your Google Maps API Key in <a href=\"%s\">Job Listings "
+"Settings</a> to use Extended Location for WP Job Manager."
+msgstr ""
+
+#: vendor/astoundify/plugin-updater/app/Integrations/WPJobManager.php:76
+msgid "Deactivate"
+msgstr ""
+
+#: vendor/astoundify/plugin-updater/app/lib/EDD_SL_Plugin_Updater.php:196
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: vendor/astoundify/plugin-updater/app/lib/EDD_SL_Plugin_Updater.php:204
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: vendor/astoundify/plugin-updater/app/lib/EDD_SL_Plugin_Updater.php:358
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: vendor/astoundify/plugin-updater/app/lib/EDD_SL_Plugin_Updater.php:358
+msgid "Error"
+msgstr ""
+
+#: wp-job-manager-extended-location.php:170
+msgid "Lock Pin Location"
+msgstr ""
+
+#: wp-job-manager-extended-location.php:171
+msgid "Unlock Pin Location"
+msgstr ""
+
+#: wp-job-manager-extended-location.php:247
+msgid "English (default)"
+msgstr ""
+
+#: wp-job-manager-extended-location.php:248
+msgid "Deutsch (German)"
+msgstr ""
+
+#: wp-job-manager-extended-location.php:249
+msgid "Español (Spanish)"
+msgstr ""
+
+#: wp-job-manager-extended-location.php:250
+msgid "Español - Argentina (Spanish)"
+msgstr ""
+
+#: wp-job-manager-extended-location.php:251
+msgid "Français (French)"
+msgstr ""
+
+#: wp-job-manager-extended-location.php:252
+msgid "日本語 (Japanese)"
+msgstr ""
+
+#: wp-job-manager-extended-location.php:253
+msgid "中国 (Chinese)"
+msgstr ""
+
+#: wp-job-manager-extended-location.php:254
+msgid "Русский (Russian)"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Extended Location for WP Job Manager"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://astoundify.com/downloads/wp-job-manager-extended-location/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Use Google Places to auto suggest locations when submitting a listing or "
+"searching."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Astoundify"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://astoundify.com"
+msgstr ""

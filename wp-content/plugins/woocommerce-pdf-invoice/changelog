@@ -1,0 +1,261 @@
+Version 3.1.5, 15 April 2017
+------------------------------------------------------------------------------------
+* Fix - Decimal part display issues when decimal separator is empty in WC settings
+* Fix - Bug related to changes to order date since WooCommerce 3.0
+
+Version 3.1.4, 6 April 2017
+------------------------------------------------------------------------------------
+* Fix - Security fix to prevent unauthorized access to proforma invoices
+* Fix - Users with role shop_manager can't save settings
+* Fix - Main product image is not displayed on the invoice
+* Tweak - Improved compatibility with WooCommerce 3.0
+* Tweak - Due to many requests text in grey was darkened
+* Tweak - Other minor bug fixes and improvements
+* Dev - New filter woo_pdf_admin_roles to override admin roles
+* Dev - New filter woo_pdf_admin_capability to override admin capability
+* Dev - New filter woo_pdf_totals to override order totals
+
+Version 3.1.3, 30 June 2016
+------------------------------------------------------------------------------------
+* Fix - Updated automatic updates class to fix fatal error on some setups
+
+Version 3.1.2, 29 June 2016
+------------------------------------------------------------------------------------
+* Tweak - Updated automatic updates class
+* Fix - Invoice not attached to Order Completed email under some conditions
+
+Version 3.1.1, 23 June 2016
+------------------------------------------------------------------------------------
+* Tweak - New setting to choose when regular invoices are generated
+* Tweak - Other minor fixes and improvements
+* Fix - Can’t use function return value in write context
+
+Version 3.1, 21 June 2016
+------------------------------------------------------------------------------------
+* Tweak - Changed when regular invoice is generated - checks method $order->is_paid()
+* Tweak - Proforma invoices are now send with order on-hold emails as well
+* Tweak - Custom content block title is no longer displayed if content is empty
+* Tweak - Updated automatic updates class
+* Fix - No such file or directory warning when attaching invoice to email
+* Fix - Issues with cart discount tax display
+* Fix - Issues with mount in words functionality (hundreds, thousands etc)
+* Fix - Division by zero
+
+Version 3.0.2, 11 April 2016
+------------------------------------------------------------------------------------
+* Fix - Wordpress 4.5 compatibility issues
+* Fix - Price rounding issue
+
+Version 3.0.1, 1 March 2016
+------------------------------------------------------------------------------------
+* Feature - Implemented automatic updates
+* Tweak - Supported WordPress and WooCommerce version now checked
+* Tweak - Improved admin user interface
+* Tweak - Other minor fixes and improvements
+* Fix - Price rounding issue
+* Fix - Missing icon issue
+
+Version 3.0, 5 November 2015
+------------------------------------------------------------------------------------
+* Feature - Main Invoice data block is now customizable just like custom blocks
+* Feature - New option to force user login before downloading invoices
+* Tweak - Leading zeros will be kept now if added to invoice number in settings
+* Tweak - Decimals in prices will now have up to 2 extra digits if needed
+* Tweak - Better language file loading: WP_LANG_DIR . "/woocommerce/" now supported
+* Tweak - Invoices now also generated on 'payment received' event
+* Tweak - Invoices aren't created as media files anymore
+* Tweak - Improvements to amount in words functionality
+* Tweak - Improved multi-currency plugin support
+* Tweak - Improved seller logo loading for more servers compatibility
+* Tweak - Improved Batch Download functionality
+* Tweak - Other small fixes and improvements
+* Fix - Proforma Invoice file name issue related to changed order number
+* Fix - Issue with WooCommerce Subscriptions renewal orders
+* Fix - Billing state displayed as 2 letters
+* Fix - Invoice content display issues
+* Fix - Cart discount tax bug
+* Fix - Custom email attachments attached by other plugins are discarded
+* Fix - Text display issues when exotic currencies are used
+* Dev - New filter woo_pdf_styles to override font style
+* Dev - New filter woo_pdf_date_format to override invoice date format
+
+Version 2.1.6, 24 March 2015
+------------------------------------------------------------------------------------
+* Fix - Duplicate discount issue (related to order discounts no longer supported)
+
+Version 2.1.5, 17 February 2015
+------------------------------------------------------------------------------------
+* Tweak - New option to trigger Customer Invoice emails for all new orders
+* Tweak - Constants MAX_FIRST_PAGE_HEIGHT and MAX_PAGE_HEIGHT replaced by properties
+* Tweak - Improved internal invoice numbering sequence algorithm to avoid duplicates
+* Fix - Issue with tax in additional order fees
+* Fix - WooCommerce 2.3 compatibility issues
+
+Version 2.1.4, 24 September 2014
+------------------------------------------------------------------------------------
+* Tweak - Added protection from directory listing for the invoice storage directory
+* Fix - Problem with leading zeros in amount in words function
+* Fix - Issue when system tries to load a product which has been deleted
+
+Version 2.1.3, 6 August 2014
+------------------------------------------------------------------------------------
+* Fix - Macro display issue when macro value contains dollar symbol
+
+Version 2.1.2, 25 March 2014
+------------------------------------------------------------------------------------
+* Tweak - Changed default settings for several fields
+* Tweak - Improved plugin security
+* Fix - Problem with {{month}} macro
+* Dev - Added parameter $order to woo_pdf_macros filter hook
+
+Version 2.1.1, 16 March 2014
+------------------------------------------------------------------------------------
+* Tweak - Improved tax handling
+
+Version 2.1, 15 March 2014
+------------------------------------------------------------------------------------
+* Tweak - Added option to use order numbers for regular invoice numbering
+* Tweak - Added optional invoice number suffix
+* Tweak - Added year, month and day macros to invoice number prefix and suffix
+* Tweak - Added option to reset internal invoice numbering sequence each year
+* Tweak - Added new filters to allow developers to alter functionality
+* Tweak - Possible to attach proforma invoice to New Order email sent to admin
+* Tweak - Added more control when tax rows are displayed in the totals block
+* Tweak - Added class to frontend invoice download link to allow styling
+* Tweak - Option to display shipping fee in the totals block when shipping is free
+* Tweak - Possible to display product category below product name
+* Tweak - Possible to display product images below product name
+* Tweak - Tax rows are now displayed below order total if subtotal includes tax
+* Tweak - JS/CSS file version numbers now automatically follow plugin version number
+* Tweak - Possible to use proforma invoicing without activating regular invoicing
+* Tweak - Script now attempts to convert HTML to text when displaying short description
+* Tweak - Options validation now prevents accidental next invoice number overwrite
+* Tweak - Improved plugin settings page styling
+* Tweak - Improved plugin performance
+* Fix - "Argument is not an array" warning after installation
+* Fix - WooCommerce 2.1 compatibility issues
+* Fix - Notices in the admin page related to settings form validation
+* Fix - Invoice delete functionality is not available when activated in settings
+
+Version 2.0.3, 7 February 2014
+------------------------------------------------------------------------------------
+* Tweak - Added optional row "Total Excluding Tax" to the totals block
+* Tweak - Added version numbers to JS and CSS files
+* Tweak - Improved admin settings page
+* Fix -  Duplicate invoice numbers when generating invoices in batch
+
+Version 2.0.2, 4 February 2014
+------------------------------------------------------------------------------------
+* Tweak - Now possible to display short product description for each item on the invoice
+* Tweak - Option for custom blocks to remove lines that contain empty macros only
+* Tweak - Added invoice number macro {{woo_pdf_invoice_id}}
+* Tweak - Plugin now uses site address instead of Wordpress installation address
+* Tweak - Improved support for servers with safe_mode/open_basedir restrictions
+* Tweak - Cents are now displayed in words in when displaying amount in words
+* Tweak - Order date macro now honors user defined date format
+* Tweak - Macros that are not found are removed completely
+* Tweak - Improved HTML entity decoding
+* Fix - Invoice attached to "Customer Invoice" regardless of "Send by email" setting
+* Fix - Other minor bug fixes
+
+Version 2.0.1, 14 January 2014
+------------------------------------------------------------------------------------
+* Tweak - New date format (dd-mm-yyy)
+* Tweak - Proforma invoices will now use orders date instead of downloads date
+* Tweak - Improved support for servers with safe_mode/open_basedir restrictions
+* Fix - Issues with latest version of WooCommerce
+* Fix - Warning when deleting regular invoices
+* Fix - Other minor bug fixes
+
+Version 2.0, 7 January 2014
+------------------------------------------------------------------------------------
+* Feature - New more flexible way to display seller details
+* Feature - New sidebar widget with useful action buttons on the admin order details page
+* Feature - Option to manually generate invoices prior to marking orders as completed
+* Feature - Option to manually delete invoices so they can be re-generated
+* Feature - Introduced option to change layout of buyer details block
+* Feature - Support for custom order field macros in buyer details and custom content blocks
+* Tweak - Option to hide lines from buyer details that contain empty fields
+* Tweak - Option to always display tax inline as required in some countries
+* Tweak - Removed seller details fields in favor of new way to manage seller details
+* Tweak - Removed buyer meta fields in favor of new way to manage buyer details
+* Tweak - Country code is now converted to full country name on custom content blocks
+* Tweak - Improved support for servers with safe_mode/open_basedir restrictions
+* Tweak - Improved PDF layout to allow dynamic positioning of elements
+* Tweak - Improved admin UI layout/style
+* Tweak - Improved HTML entity decoding
+* Tweak - Improved plugin load time
+* Dev - Filter hook to allow custom macros
+
+Version 1.3.8, 4 December 2013
+------------------------------------------------------------------------------------
+* Tweak - Improved tax rate calculation when multiple rates of the same tax are used
+
+Version 1.3.7, 3 December 2013
+------------------------------------------------------------------------------------
+* Tweak - Support for buyer custom fields in post meta in addition to user meta
+* Tweak - Support for German date format (dd.mm.yyyy)
+* Fix - Issues with older versions fo WooCommerce
+* Fix - Other minor bug fixes
+
+Version 1.3.6, 26 November 2013
+------------------------------------------------------------------------------------
+* Tweak - Improved special HTML symbol handling
+* Tweak - Improved compatibility with other plugins
+* Fix - Plugin ignores disabled "Send by email" setting for proformas
+
+Version 1.3.4, 22 November 2013
+------------------------------------------------------------------------------------
+* Tweak - Support for different rates of the same tax (e.g. variable VAT rate)
+* Tweak - Support for up to four buyer custom fields (retrieved from user meta)
+* Tweak - More space for item meta
+
+Version 1.3.3, 13 November 2013
+------------------------------------------------------------------------------------
+* Tweak - Added file name prefix ("invoice_") to translation page
+* Tweak - Optional download buttons in the orders table
+* Tweak - Support for sequential order ID plugins
+* Tweak - Added settings link on the Plugins page
+* Tweak - Improved document access control
+* Fix - Fonts not rendered properly
+* Fix - Other minor bug fixes
+
+Version 1.3.2, 6 November 2013
+------------------------------------------------------------------------------------
+* Tweak - Added a fix for servers with allow_url_fopen option disabled
+* Fix - Proformas were not attached to emails under certain conditions
+* Fix - Other minor bug fixes
+
+Version 1.3.1, 5 November 2013
+------------------------------------------------------------------------------------
+* Fix - Issues with embeded PDF fonts not being rendered correctly on some devices
+* Fix - HTML entities were displayed instead of regular characters
+
+Version 1.3, 1 November 2013
+------------------------------------------------------------------------------------
+* Tweak - Invoices are now attached to the "Customer Invoice" email
+* Tweak - New macros are now supported in content blocks (customer shipping address)
+* Tweak - Improved style of admin pages
+* Tweak - Updated translation file
+* Fix - Javascript bug that prevented images to be inserted into posts
+* Fix - Footer text extends to the next page
+
+Version 1.2, 30 October 2013
+------------------------------------------------------------------------------------
+* Tweak - Option to show product ID/SKU next to product name
+* Tweak - Added optional currency symbols next to all amounts displayed on the invoice
+* Tweak - Added support for multiple custom content blocks
+* Tweak - Added support for macros in footer and custom content blocks
+* Tweak - Tax rates are now always displayed when tax rows are displayed
+* Tweak - Removed option to hide tax rates
+* Tweak - Removed fixed notes block
+
+Version 1.1, 28 October 2013
+------------------------------------------------------------------------------------
+* Tweak - Added option to display row items inclusive of tax
+* Tweak - Added option to display tax percentage next to tax name in tax rows
+* Tweak - Added option to hide tax rows above Total row
+
+Version 1.0, 23 October 2013
+------------------------------------------------------------------------------------
+* Initial release

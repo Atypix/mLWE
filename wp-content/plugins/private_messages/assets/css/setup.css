@@ -1,0 +1,20 @@
+.help-page-link{cursor:help}
+.pm-setup-steps{margin:1em 0 2em;overflow:hidden}
+.pm-setup-steps li{width:33.3%;padding:7px 1em;font-weight:700;margin:0;color:#eee;background:#222;float:left;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+.pm-setup-steps li:first-child{margin-left:0}
+.pm-setup-steps li.pm-setup-active-step{background:#0074a2;color:#eee}
+.pm-shortcodes td, .pm-shortcodes th{vertical-align:middle}
+.pm-shortcodes td p, .pm-shortcodes th p{margin:9px 0}
+.pm-shortcodes tr:nth-child(even) td,
+.pm-shortcodes tr:nth-child(even) th{background:#f9f9f9}
+.pm-next-steps{font-size:1.1em;list-style:disc inside;margin:1.5em 2em}
+.pm-support-the-plugin{background:#fff;padding:2em;margin:2em 0}
+.pm-support-the-plugin h3{margin-top:0}
+.pm-support-the-plugin ul{margin-bottom:0}
+.pm-support-the-plugin li{line-height:2em;font-size:1.1em}
+.pm-support-the-plugin li a{text-decoration:none}
+.pm-support-the-plugin li a:before{font-family:dashicons;font-size:2em;vertical-align:middle;padding-right:.25em}
+.pm-support-the-plugin li.icon-review a:before{content:"\f155"}
+.pm-support-the-plugin li.icon-localization a:before{content:"\f319"}
+.pm-support-the-plugin li.icon-code a:before{content:"\f111"}
+.pm-support-the-plugin li.icon-forum a:before{content:"\f328"}

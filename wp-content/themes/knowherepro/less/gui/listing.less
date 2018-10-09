@@ -1,0 +1,63 @@
+
+.kw-listing-single-header.kw-type-3 .kw-listing-item-data a,
+.kw-listing-single-header.kw-type-3 .kw-listing-item-actions a {
+  color: @primary_color;
+}
+
+.kw-page-listings .kw-header.kw-dark:not(.kw-type-4),
+.kw-page-listings .kw-header.kw-dark:not(.kw-type-4) .kw-sticked
+{
+  background-color: @job_category_dark_color;
+}
+
+.kw-page-listings .kw-header.kw-light,
+.kw-page-listings .kw-header.kw-light .kw-sticked
+{
+  background-color: @job_category_light_color;
+}
+
+.kw-make-listing-category-classes(@kw-listing-icon-colors);
+.kw-make-listing-category-classes(@list) {
+  .iter(length(@list));
+  .iter(@i) when (@i > 0) {
+  .iter(@i - 1);
+
+  @pair:  extract(@list, @i);
+  @key:   extract(@pair, 1);
+  @value: extract(@pair, 2);
+
+    .kw-categories .@{key} .kw-category-item-icon {
+      border-color: @value;
+      color: @value;
+    }
+
+    .kw-categories .@{key} .kw-category-item-icon svg,
+    .kw-categories .@{key} .kw-category-item-icon svg *,
+    .kw-front-categories .@{key} .kw-category-item-icon svg,
+    .@{key} .kw-listing-item-icon svg,
+    .@{key} .kw-listing-item-icon svg *,
+    .@{key} .kw-pin.kw-pin-selected #selected {
+      fill: @value;
+    }
+
+    .@{key}.kw-category-item-title a:hover .kw-category-item-icon {
+      background-color: @value;
+    }
+
+    .kw-categories.kw-type-4 .kw-category-item .@{key} .kw-category-item-icon {
+      border-color: @value;
+      background-color: @value;
+    }
+
+    .kw-categories.kw-type-4 .@{key}.kw-category-item-title a:hover .kw-category-item-icon svg,
+    .kw-categories.kw-type-4 .@{key}.kw-category-item-title a:focus .kw-category-item-icon svg {
+      color: @value;
+    }
+
+    .kw-categories.kw-type-4 .@{key}.kw-category-item-title a:hover .kw-category-item-icon svg *,
+    .kw-categories.kw-type-4 .@{key}.kw-category-item-title a:focus .kw-category-item-icon svg * {
+      fill: @value;
+    }
+
+  }
+}

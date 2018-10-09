@@ -1,0 +1,130 @@
+
+/* Page Title */
+
+#knowhere_page_title_meta_box {
+	color: #777;
+	min-width: 765px;
+}
+
+	#knowhere_page_title_meta_box .inside {
+		padding: 0;
+		margin: 0;
+	}
+
+	#knowhere_page_title_meta_box h4,
+	#knowhere_page_title_meta_box h5,
+	#knowhere_page_title_meta_box h6 {
+		margin: 0 0 5px;
+		font-size: 16px;
+		color: #333;
+		font-weight: normal;
+	}
+
+	#knowhere_page_title_meta_box h5 { font-size: 15px; }
+	#knowhere_page_title_meta_box h6 { font-size: 14px; }
+
+	#knowhere_page_title_meta_box h5 {
+		color: #333333;
+		font-size: 14px;
+		margin: 0 0 5px;
+		font-weight: 300;
+	}
+
+/* Settings Box */
+
+	#knowhere_page_title_meta_box .settings-box-content h2 {
+		margin: 0 0 5px;
+		padding: 0;
+	}
+
+	.settings-box { padding: 20px; }
+
+		.settings-box .knowhere-hidden { display: none; }
+
+		.settings-box .group-radio {
+			margin-bottom: 25px;
+			padding: 10px;
+			background-color: #f5f5f5;
+		}
+
+		.settings-box .group-radio > label {
+			margin-right: 15px;
+			font-size: 14px;
+		}
+
+		.settings-box-content .option-type:not(:last-child) { margin-bottom: 20px; }
+
+			.settings-box-content .option-element {
+				display: inline-block;
+				width: 18%;
+			}
+
+				.jq-selectbox.strip_custom_select {
+					min-width: 200px;
+				}
+
+				.settings-box-content .option-description {
+					margin-left: 50px;
+					display: inline-block;
+				}
+
+
+/* Elements */
+
+	/* Text */
+
+	/*.option-type-text input[type="text"] {*/
+		/*height: 32px;*/
+		/*padding: 0 45px 0 10px;*/
+		/*border: 1px solid #CCC;*/
+	/*}*/
+
+	/*.option-type-text input[type='text']:focus {*/
+		/*box-shadow: none;*/
+	/*}*/
+
+	/* Upload */
+
+	.option-type-upload .uploader-upload-input {
+		display: none;
+	}
+
+	.option-type-upload .img-container {
+		position: relative;
+		height: 111px;
+		width: 121px;
+		float: left;
+	}
+
+		.option-type-upload img {
+			display: block;
+			padding: 5px;
+			border: 1px solid #ccc;
+			max-width: 100px;
+
+			-webkit-transition: all .25s ease;
+					transition: all .25s ease;
+		}
+
+		.option-type-upload .img-preview { margin-right: 10px; }
+
+		.option-type-upload .img-preview.add_animation:after {
+			position: absolute;
+			left: 6px;
+			top: 1px;
+			width: calc(100% - 12px);
+			height: calc(100% - 2px);
+			background-image: url('../img/ajax-loader.gif');
+			background-color: #fff;
+			background-repeat: no-repeat;
+			background-position: center center;
+			content: "";
+		}
+
+		.option-type-upload .group-buttons {
+			overflow: hidden;
+		}
+
+			.option-type-upload .group-buttons .button {
+				margin: 5px 0;
+			}

@@ -1,0 +1,295 @@
+/* CSS Document */
+
+/*  SECTIONS  ============================================================================= */
+
+.fr_section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  GROUPING  ============================================================================= */
+
+
+.fr_group:before,
+.fr_group:after {
+    content:"";
+    display:table;
+}
+.fr_group:after {
+    clear:both;
+}
+.fr_group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+/*  GRID COLUMN SETUP   ==================================================================== */
+.fr_col {
+	display: inline-block;
+	padding:1% 0 1% 1.6%;
+	vertical-align:top;
+}
+.fr_col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+/*  GRID OF TWO   ============================================================================= */
+.fr_col_2_of_2 {
+	width: 100%;
+}
+.fr_col_1_of_2 {
+	width: 49.2%;
+}
+
+
+
+/*  GRID OF THREE   ============================================================================= */
+.fr_col_3_of_3 {
+	width: 100%; 
+}
+.fr_col_2_of_3 {
+	width: 66.13%; 
+}
+.fr_col_1_of_3 {
+	width: 32.26%; 
+}
+
+
+/*  GRID OF FOUR   ============================================================================= */
+.fr_col_4_of_4 {
+	width: 100%; 
+}
+.fr_col_3_of_4 {
+	width: 74.6%; 
+}
+.fr_col_2_of_4 {
+	width: 49.2%; 
+}
+.fr_col_1_of_4 {
+	width: 23.8%; 
+}
+
+
+/*  GRID OF FIVE   ============================================================================= */
+.fr_col_5_of_5 {
+	width: 100%;
+}
+.fr_col_4_of_5 {
+  	width: 79.68%; 
+}
+.fr_col_3_of_5 {
+  	width: 59.36%; 
+}
+.fr_col_2_of_5 {
+  	width: 39.04%;
+}
+.fr_col_1_of_5 {
+  	width: 18.72%;
+}
+
+
+/*  GRID OF SIX   ============================================================================= */
+.fr_col_6_of_6 {
+	width: 100%;
+}
+.fr_col_5_of_6 {
+  	width: 83.06%;
+}
+.fr_col_4_of_6 {
+  	width: 66.13%;
+}
+.fr_col_3_of_6 {
+  	width: 49.2%;
+}
+.fr_col_2_of_6 {
+  	width: 32.26%;
+}
+.fr_col_1_of_6 {
+  	width: 15.33%;
+}
+
+
+/*  GRID OF SEVEN   ============================================================================= */
+.fr_col_7_of_7 {
+	width: 100%;
+}
+.fr_col_6_of_7 {
+	width: 85.48%;
+}
+.fr_col_5_of_7 {
+  	width: 70.97%;
+}
+.fr_col_4_of_7 {
+  	width: 56.45%;
+}
+.fr_col_3_of_7 {
+  	width: 41.94%;
+}
+.fr_col_2_of_7 {
+  	width: 27.42%;
+}
+.fr_col_1_of_7 {
+  	width: 12.91%;
+}
+
+
+
+/*  GRID OF EIGHT   ============================================================================= */
+.fr_col_8_of_8 {
+	width: 100%;
+}
+.fr_col_7_of_8 {
+	width: 87.3%; 
+}
+.fr_col_6_of_8 {
+	width: 74.6%; 
+}
+.fr_col_5_of_8 {
+	width: 61.9%; 
+}
+.fr_col_4_of_8 {
+	width: 49.2%; 
+}
+.fr_col_3_of_8 {
+	width: 36.5%;
+}
+.fr_col_2_of_8 {
+	width: 23.8%; 
+}
+.fr_col_1_of_8 {
+	width: 11.1%; 
+}
+
+
+.fr_col  img { width:100%; height:auto; }
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.fr_col { 
+		padding:5px;
+	}
+	
+	
+	.fr_col_2_of_2 {
+		width: 100%; 
+	}
+	.fr_col_1_of_2 {
+		width: 100%; 
+	}
+	
+	
+	/*3*/
+	.fr_col_3_of_3 {
+		width: 100%; 
+	}
+	.fr_col_2_of_3 {
+		width: 100%; 
+	}
+	.fr_col_1_of_3 {
+		width: 100%;
+	}
+	
+	/*4*/
+	.fr_col_4_of_4 {
+		width: 100%; 
+	}
+	.fr_col_3_of_4 {
+		width: 100%; 
+	}
+	.fr_col_2_of_4 {
+		width: 100%; 
+	}
+	.fr_col_1_of_4 {
+		width: 100%; 
+	}
+	
+	/*5*/
+	.fr_col_5_of_5 {
+		width: 100%; 
+	}
+	.fr_col_4_of_5 {
+		width: 100%; 
+	}
+	.fr_col_3_of_5 {
+		width: 100%; 
+	}
+	.fr_col_2_of_5 {
+		width: 100%; 
+	}
+	.fr_col_1_of_5 {
+		width: 100%; 
+	}
+	
+	
+	/*6*/
+	.fr_col_6_of_6 {
+		width: 100%; 
+	}
+	.fr_col_5_of_6 {
+		width: 100%; 
+	}
+	.fr_col_4_of_6 {
+		width: 100%; 
+	}
+	.fr_col_3_of_6 {
+		width: 100%; 
+	}
+	.fr_col_2_of_6 {
+		width: 100%; 
+	}
+	.fr_col_1_of_6 {
+		width: 100%; 
+	}
+	
+	/*7*/
+	.fr_col_7_of_7 {
+		width: 100%; 
+	}
+	.fr_col_6_of_7 {
+		width: 100%; 
+	}
+	.fr_col_5_of_7 {
+		width: 100%; 
+	}
+	.fr_col_4_of_7 {
+		width: 100%; 
+	}
+	.fr_col_3_of_7 {
+		width: 100%; 
+	}
+	.fr_col_2_of_7 {
+		width: 100%; 
+	}
+	.fr_col_1_of_7 {
+		width: 100%; 
+	}
+	
+	/*8*/
+	.fr_col_8_of_8 {
+		width: 100%; 
+	}
+	.fr_col_7_of_8 {
+		width: 100%; 
+	}
+	.fr_col_6_of_8 {
+		width: 100%; 
+	}
+	.fr_col_5_of_8 {
+		width: 100%; 
+	}
+	.fr_col_4_of_8 {
+		width: 100%; 
+	}
+	.fr_col_3_of_8 {
+		width: 100%; 
+	}
+	.fr_col_2_of_8 {
+		width: 100%; 
+	}
+	.fr_col_1_of_8 {
+		width: 100%; 
+	}
+	
+	
+	
+	
+}
+

@@ -1,0 +1,10 @@
+<wpml-config>
+	<admin-texts>
+		<key name="widget_knowhere_related_listings">
+			<key name="2">
+				<key name="title" />
+				<key name="limit"/>
+			</key>
+		</key>
+	</admin-texts>
+</wpml-config>

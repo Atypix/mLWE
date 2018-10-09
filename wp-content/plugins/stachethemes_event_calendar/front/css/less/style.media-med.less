@@ -1,0 +1,158 @@
+.stec-media-med {
+
+    /* TOP */
+
+    .stec-top-menu {
+        li {
+            &[data-action="today"] {
+
+                p:not(.stec-top-menu-count) {
+                    display: none;
+                }
+
+                i {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .stec-top-menu-layouts {
+        display: none;
+    }
+
+    .stec-top-dropmenu-layouts {
+        display: block;
+    }
+
+    /* MONTH LAYOUT */
+
+    .stec-layout-month-daylabel p {
+        display: block;
+    }
+
+    .stec-layout-month-daylabel p:first-child,
+        .stec-layout-month-daylabel p:last-child {
+        display: none;
+    }
+
+    /* WEEK LAYOUT */
+
+    .stec-layout-week-daylabel p {
+        display: block;
+    }
+
+    .stec-layout-week-daylabel p:first-child,
+        .stec-layout-week-daylabel p:last-child {
+        display: none;
+    }
+
+    /* EVENTS */
+
+    .stec-layout-event-inner-top-tabs li p {
+        display: none;
+    }
+
+    .stec-layout-event-inner-top-tabs li i {
+        display: block;
+    }
+
+
+
+    /* LOCATION TAB */
+    .stec-layout-event-inner-location {
+        .stec-layout-event-inner-location-left {
+            width: 100%;
+            clear:both;
+            padding: 20px;
+        }
+
+        .stec-layout-event-inner-location-right {
+            position: relative;
+            width: 100%;
+            clear:both;
+            height: 275px;
+        }
+
+        .stec-layout-event-inner-location-address  {
+            margin-bottom: 30px;
+        }
+
+        .stec-layout-event-inner-location-left:last-child  {
+            margin-top: 10px;
+        }
+    }
+
+    /* ATTENDANCE TAB */
+    .stec-layout-event-inner-attendance {
+
+        .stec-layout-event-inner-attendance-attendee {
+            width: ~"calc(100% / 3)";
+        }
+
+    }
+
+    /* FORECAST TAB */
+    .stec-layout-event-inner-forecast {
+
+        .stec-layout-event-inner-forecast-details {
+            display: block;
+
+            .stec-layout-event-inner-forecast-details-left {
+                width: 100%;
+                float: left;
+            }
+
+            .stec-layout-event-inner-forecast-details-right {
+                margin-top: 25px;
+                width: 100%;
+                max-width: 100%;
+                float: left;
+            }
+        }
+    }
+
+    /* WOOCOMMERCE TAB */
+
+    .stec-layout-event-inner-woocommerce {
+        .stec-layout-event-inner-woocommerce-top {
+            > p {
+                &:not(:first-child) {
+                    margin-left: 20px;
+                }
+            }
+        }
+
+        .stec-layout-event-inner-woocommerce-product {
+
+            .stec-layout-event-inner-woocommerce-product-buy-addtocart {
+                p { display: none; }
+                i { display: block; }
+                padding: 15px 16px;
+            }
+
+            > * {
+                &:not(:first-child) {
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+
+
+
+    .stec-layout-event {
+
+        &.stec-event-featured {
+            .stec-layout-event-preview-left-text-featured {
+                span {
+                    display: none;
+                }
+
+                i {
+                    display: block;
+                }
+            }
+        }
+    }
+}

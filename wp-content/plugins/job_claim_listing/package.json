@@ -1,0 +1,28 @@
+{
+  "name": "wp-job-manager-claim-listing",
+  "version": "3.9.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-checktextdomain": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-glotpress": "^0.2.2",
+    "grunt-wp-i18n": "^1.0.0",
+    "grunt-zip": "^0.17.1"
+  },
+  "scripts": {
+    "dist": "grunt build_zip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astoundify/wp-job-manager-claim-listing.git"
+  },
+  "author": "Astoundify",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/astoundify/wp-job-manager-claim-listing/issues"
+  },
+  "homepage": "https://github.com/astoundify/wp-job-manager-claim-listing#readme"
+}

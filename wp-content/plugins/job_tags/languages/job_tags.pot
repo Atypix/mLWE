@@ -1,0 +1,37 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager - Job Tags\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-15 14:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. Description of the plugin
+msgid ""
+"Adds tags to Job Manager for tagging jobs with requried Skills and "
+"Technologies. Also adds some extra shortcodes. Requires Job Manager 1.14.0+"
+msgstr ""
+
+#. Author of the plugin
+msgid "Automattic"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://wpjobmanager.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wpjobmanager.com/add-ons/job-tags/"
+msgstr ""
+
+#. Name of the plugin
+msgid "WP Job Manager - Job Tags"
+msgstr ""

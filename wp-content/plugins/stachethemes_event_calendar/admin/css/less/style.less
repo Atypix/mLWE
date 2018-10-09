@@ -1,0 +1,1332 @@
+@green        : #7ac143;
+@blue         : #0096dd;
+
+.cursor-grab() {
+    cursor: move; /* fallback if grab cursor is unsupported */
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+.transition() {
+    -webkit-transition: .2 ease all;
+    transition: .2s ease all;
+}
+
+.clear() {
+    clear:both;
+    float: left;
+}
+
+.font(@size: 16px, @weight: inherit, @family: "Roboto") {
+    font-family: @family;
+    font-weight: @weight;
+    font-size: @size;
+}
+
+
+#wpwrap {
+    background: #ececec;
+}
+
+.stachethemes-admin-wrapper {
+    .font(16px, 400);
+    width: 100%;
+    float: left;
+    clear:both;
+
+    #wp-description-wrap {
+        float: left;
+        width: 100%;
+    }
+
+    div,
+    span,
+    p {
+        color:#202020;
+    }
+
+    * {
+        box-sizing: border-box;
+        text-transform: none;
+        text-decoration: none;
+    }
+
+
+    .stachethemes-admin-section-box {
+        width: 50%;
+        float: left;
+    }
+
+    .stachethemes-admin-button-no-clear {
+        clear: none !important;
+        margin-left: 10px;
+    }
+
+    .stachethemes-admin-button {
+        .font(12px, 700);
+        line-height: 1.2;
+        color:#fff;
+        background: @green;
+        padding: 18px 20px;
+        border:none;
+        border-radius: 4px;
+        text-transform: uppercase;
+        .transition;
+        cursor: pointer;
+        .clear;
+
+        &:hover {
+            background: @green + #111;
+        }
+    }
+
+    .stachethemes-admin-button-a {
+        .stachethemes-admin-button;
+        text-decoration: none;
+    }
+
+    .blue-button {
+        background: @blue;
+
+        &:hover {
+            background: @blue + #111;
+        }
+    }
+
+
+    h1,h2,h3,h4,h5,h6 {
+        .clear;
+        font-weight: 400;
+        line-height: 1.2;
+        width: 100%;
+        margin:0;
+    }
+
+    h1 {
+        background: #202020;
+        color:#fff;
+        padding: 20px;
+        border-radius: 4px;
+        margin: 20px 0;
+        .clear;
+        margin-bottom: 0;
+        width: ~"calc(100% - 20px)";
+    }
+
+    h1 {font-size: 19px;}
+    h2 {.font(19px, 700); border-bottom: 1px solid #e3e3e3; padding-bottom: 20px; }
+    h3 {font-size: 18px;}
+    h4 {font-size: 16px;}
+    h5 {font-size: 16px;}
+    h6 {font-size: 16px;}
+
+    .stachethemes-admin-textarea {
+        height: 200px;
+        line-height: 1.6;
+        padding: 10px;
+        border-radius: 4px;
+        width: 600px;
+        max-width: 100%;
+        margin-bottom: 20px;
+        border: 1px solid #e3e3e3 !important;
+        background: #f8f8f8;
+        resize: both;
+        .font(16px, 300);
+        .clear;
+        box-shadow: none;
+    }
+
+    input[type="file"] {
+        clear:both;
+        float: left;
+    }
+
+    .stachethemes-admin-input {
+
+        margin-left: 0;
+
+        &:not([type="file"]):not([type="checkbox"]) {
+            height: 50px !important;
+            line-height: 50px;
+            padding: 0 10px;
+            border-radius: 4px;
+            width: 400px;
+            max-width: 100%;
+            margin-bottom: 20px;
+            background: #f8f8f8 !important;
+            border: 1px solid #e3e3e3 !important;
+            box-shadow: none;
+            background: #ececec;
+            .font(15px, 400);
+            .clear;
+            margin-right: 0;
+        }
+
+    }
+
+    .stachethemes-admin-checkbox {
+        .clear;
+        margin: 16px 0;
+    }
+
+    .stachethemes-admin-checkbox-label {
+        .font(15px, 600);
+        float: left;
+        line-height: 50px;
+        margin-left: 10px;
+        color:#666;
+    }
+
+    .stachethemes-admin-select {
+        .stachethemes-admin-input;
+        padding: 0 5px;
+    }
+
+    .stachethemes-admin-select option {
+        padding: 10px;
+    }
+
+    .stachethemes-admin-colorpicker {
+        width: 50px;
+        min-width: 50px;
+        height: 50px;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        font-size: 0;
+        cursor: pointer;    
+        border: 1px solid #e3e3e3 !important;
+        /*.clear;*/
+        margin-right: 10px;
+        float: left;
+    }
+
+    .stachethemes-admin-info {
+        width: 100%;
+        .font(14px, 700);
+        color:#666;
+        .clear;
+    }
+
+    .stachethemes-admin-section {
+        margin-top: 20px;
+        background: #fff;
+        float: left;
+        width: ~"calc(100% - 20px)";
+        padding: 50px;
+        border-radius: 4px;
+    }
+
+    .stachethemes-admin-msg-notice {
+        background: @green;
+        .font(16px, 400);
+        width: ~"calc(100% - 20px)";
+        color:#fff;
+        padding: 20px;
+        border-radius: 4px;
+        margin-bottom: 0;
+        .clear;
+        cursor: pointer;
+    }
+
+    .stachethemes-admin-msg-error {
+        .stachethemes-admin-msg-notice;
+        background: #d64e07;
+    }
+
+    .stachethemes-admin-section-flex {
+        display: flex;
+        max-width: 100%;
+        width: 400px;
+        .clear;
+
+        select {
+            margin-left: 10px;
+            min-width: 75px;
+        }
+
+    }
+
+    .stachethemes-admin-clear {
+        .clear;
+    }
+
+    .stachethemes-admin-section-step {
+        float: left;
+        width: 100%;
+        display: none;
+    }
+
+    .stachethemes-admin-add-image {
+        .stachethemes-admin-button;
+        width: 100px;
+        height: 100px;
+        clear:none;
+        background: none;
+        border:1px solid #ececec;
+        color:#202020;
+    }
+
+    .stachethemes-admin-add-image:hover {
+        color: @green;
+        border-color: @green;
+        background: none;
+    }
+
+    .stachethemes-admin-image-container {
+        width: 100px;
+        height: 100px;
+        border-radius: 4px;
+        overflow: hidden;
+        float: left;
+        margin-right: 10px;
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    ul[data-single="1"] li {
+        margin:0;
+    }
+
+    .stachethemes-admin-image-container img {
+        width: 100px;
+        height: 100px;
+        float: left;
+        .cursor-grab();
+    }
+
+    .stachethemes-admin-image-container i {
+        display: none;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top:0;
+        right: 0;
+        font-size: 35px;
+        color: #d64e07;
+        cursor: pointer;
+    }
+
+    .stachethemes-admin-image-container:hover i {
+        display: block;
+    }
+
+    .stachethemes-admin-step-separate {
+        width: 100%;
+        float: left;
+        border-top: 1px solid #e3e3e3;
+        margin-bottom: 20px;
+    }
+
+    .stachethemes-admin-section-step-checkpoints {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        .clear;
+    }
+
+    .stachethemes-admin-section-step-checkpoints li {
+        float: left;
+        width: 100%;
+        height: 30px;
+        position: relative;
+    }
+
+    .stachethemes-admin-section-step-checkpoints li::after {
+        background: #ececec;
+        content: "";
+        height: 4px;
+        left: 15px;
+        position: absolute;
+        top: ~"calc(50% - 2px)";
+        width: 100%;
+        z-index: 0;
+    }
+
+    .stachethemes-admin-section-step-checkpoints li:last-child::after {
+        display: none;
+    }
+
+    .stachethemes-admin-section-step-checkpoints li p {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        background: #ececec;
+        color:#999;
+        text-align: center;
+        line-height: 30px;
+        margin:0;
+        position: relative;
+        z-index: 1;
+        .transition;
+    }
+
+    .stachethemes-admin-section-step-checkpoints li:last-child {
+        width: 30px;
+    }
+
+    .stachethemes-admin-section-step-checkpoints li:first-child p,
+        .stachethemes-admin-section-step-checkpoints li.complete p,
+        .stachethemes-admin-section-step-checkpoints li.complete::after,
+        .stachethemes-admin-section-step-checkpoints li.complete + li p 
+        {
+        background: @blue;
+        color:#fff;
+    }
+
+    .stachethemes-admin-section-step-checkpoints li.complete {
+        cursor: pointer
+    }
+
+    .stachethemes-admin-section-step-checkpoints li.complete p:hover  {
+        background: @green;
+    }
+
+    .stachethemes-admin-section-nobg {
+        background: none;
+        padding: 0;
+    }
+
+    .stachethemes-admin-tabs-list {
+        width: 100%;
+        .clear;
+        margin-bottom: 0;
+        position: relative;
+        top: 15px;
+        margin-top: 10px;
+    }
+
+    .stachethemes-admin-tabs-list li {
+        margin-top: 5px;
+        float: left;
+        background: #f6f6f6;
+        margin-right: 5px;
+        padding: 15px 20px;
+        border-radius: 4px;
+        margin-bottom: 0;
+        position: relative;
+        .font(12px, 700);
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .stachethemes-admin-tabs-list li::after {
+        content: "";
+        background: #fff;
+        position: absolute;
+        width: 100%;
+        height: 20px;
+        top: 100%    ;
+        left:0;
+        display: none;
+    }
+
+    .stachethemes-admin-tabs-list li.active {
+        border-radius: 6px 6px 0 0;
+        background: #fff;
+    }
+
+    .stachethemes-admin-tabs-list li.active::after {
+        display: block;
+    }
+
+    .stachethemes-admin-section-tab {
+        display: none;
+    }
+
+
+    .stec-list-bulk {
+
+        + .stec-list { margin:0; }
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 6px;
+        margin:0;
+        margin-top: 20px;
+        height: 60px;
+
+        div {
+            margin:0;
+            margin-left: 20px;
+
+            form {
+                float: left;
+
+                .export-all-items:hover i,
+                    .export-all-items:hover p {
+                    color: #0096dd;
+                }
+
+                button {
+                    float: left;
+                    background: none;
+                    border:none;
+                    cursor: pointer;
+
+                    p,i {
+                        .transition;
+                    }
+
+                    &:hover i,
+                        &:hover p {
+                        color:#d64e07;
+                    }
+
+                }
+            }
+
+            input {
+                float: left;
+                margin:0;
+                line-height: 1;
+            }
+
+            p {
+                color:#666;
+                float: left;
+                margin:0;
+                line-height: 1.2;
+                .font(12px, 600);
+                margin-left: 10px;
+                i {
+                    color:#666;
+                    margin-right: 10px;
+                    font-size: 16px;
+                    float: left;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+
+    .stec-list {
+
+        margin:0;
+        margin-top: 20px;
+
+        width: 100%;
+        .clear;
+
+
+        li {
+            list-style: none !important;
+            height: 60px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            padding: 0 6px;
+            border-radius: 4px;
+            justify-content: space-between;
+
+            .clear;
+
+            .calinfo {
+                input[type="checkbox"] {
+                    float: left;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                }
+            }   
+
+            .calinfo {
+                display: flex;
+                align-items: center;
+            }
+
+            .title {
+                text-indent: 10px;
+                float: left;
+                .font(14px);
+                color:#202020;
+                a {
+                    float: left;
+                    color: inherit;
+                    transition: none;
+                    &:hover {
+                        color:#0096dd;
+                    }
+                }
+            }
+
+            .color {
+                border-radius: 4px;
+                float: left;
+                height: 46px;
+                width: 46px;
+
+                i {
+                    width: 100%;
+                    text-align: center;
+                    color:#fff;
+                    font-size: 20px;
+                    line-height: 46px;
+                }
+            }
+
+            .ctrl {
+
+                display: none;
+
+                a {
+                    float: left;
+                    .font(12px, 700);
+                    text-transform: uppercase;
+                    margin-left: 6px;
+                    background: #fff;
+                    border-radius: 4px;
+                    padding: 0 20px;
+                    height: 46px;
+                    line-height: 46px;
+                }
+            }
+        }
+
+        li:hover {
+            background: #6d6e70;
+
+            .title {
+                color:#fff;
+            }
+
+            .ctrl {
+
+                display: block;
+
+                a {
+                    color:#202020;
+                    .transition;
+                }
+
+                a:hover {
+                    background:@green;
+                    color:#fff;
+                }
+            }
+
+        }
+
+    }
+
+    .stachethemes-admin-flex-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 6px 6px 6px 20px;
+    }
+
+    .stachethemes-admin-section-custom-head h2 {
+        color:#fff;
+        width: auto;
+    }
+
+    /* Schedule */
+
+    .add-schedule-timespan {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background: @blue;
+        padding-left: 45px;
+        position: relative;
+    }
+
+    .add-schedule-timespan:hover {
+        background: @blue + #111;
+    }
+
+    .add-schedule-timespan::before {
+        color: #fff;
+        content: "\f067";
+        float: left;
+        font-family: FontAwesome;
+        font-size: 25px;
+        left: 15px;
+        position: absolute;
+        top: ~"calc(50% - 14px)";
+    }
+
+    .stachethemes-admin-schedule-timespan {
+        width: 100%;
+        margin-top: 20px;
+        .clear;
+        border-radius: 4px;
+        border: 1px solid #ececec;
+    }
+
+    .stachethemes-admin-schedule-timespan:hover {
+        border: 1px solid @blue;
+    }
+
+    .stachethemes-admin-schedule-toggle-wrap {
+        padding: 20px;
+    }
+
+    .stachethemes-admin-schedule-timespan-head {
+        padding: 6px;
+        padding-left: 20px;
+        border-bottom: 1px solid #ececec;
+        .clear;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .stachethemes-admin-schedule-timespan-title span {
+        .font(12px, 700);
+        text-transform: uppercase;
+    }
+
+    .stachethemes-admin-schedule-timespan-remove {
+    }
+
+    .stachethemes-admin-schedule-toggle-btn {
+    }
+
+    /* Guests */
+
+    .add-guests-guest {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background: @blue;
+        padding-left: 45px;
+        position: relative;
+    }
+
+    .add-guests-guest:hover {
+        background: @blue + #111;
+    }
+
+
+    .add-guests-guest::before {
+        color: #fff;
+        content: "\f067";
+        float: left;
+        font-family: FontAwesome;
+        font-size: 25px;
+        left: 15px;
+        position: absolute;
+        top: ~"calc(50% - 14px)";
+    }
+
+
+    .stachethemes-admin-guests-guest {
+        width: 100%;
+        margin-top: 20px;
+        .clear;
+        border-radius: 4px;
+        border: 1px solid #ececec;
+    }
+
+    .stachethemes-admin-guests-guest:hover {
+        border: 1px solid @blue;
+    }
+
+    .stachethemes-admin-guests-toggle-wrap {
+        padding: 20px;
+    }
+
+    .stachethemes-admin-guests-guest-head {
+        padding: 6px;
+        padding-left: 20px;
+        border-bottom: 1px solid #ececec;
+        .clear;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .stachethemes-admin-guests-guest-title span {
+        .font(12px, 700);
+        text-transform: uppercase;
+    }
+
+    .stachethemes-admin-section-flex-guest-social {
+        display: flex;
+        max-width: 400px;
+        width: 100%;
+        .clear;
+    }
+
+    .stachethemes-admin-section-flex-guest-social select {
+        width: 150px;
+    }
+
+    .stachethemes-admin-section-flex-guest-social input {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .stachethemes-admin-guests-social-remove {
+        color:#c5c5c5;
+        font-size: 30px;
+        float: right;
+        width: 30px;
+        height: 30px;
+        line-height: 50px;
+        margin-left: 10px;
+        cursor: pointer;
+        .transition;
+
+        &:hover {
+            color: #d64e07;
+        }
+    }
+
+    .add-guests-soclink {
+        margin-bottom: 20px;
+        position: relative;
+        padding-left: 55px;
+
+        &:before {
+            color: #202020;
+            content: "\f234";
+            float: left;
+            font-family: FontAwesome;
+            font-size: 25px;
+            left: 15px;
+            position: absolute;
+            top: ~"calc(50% - 14px)";
+            .transition;
+        }
+
+        &:hover:before {
+            color:@green;
+        }
+    }
+
+    .light-btn {
+        background: none;
+        border: 1px solid #ececec;
+        color:#202020;
+        min-width: 120px;
+
+        &:hover {
+            background: none;
+            border-color: @green;
+            color: @green;
+        }
+    }
+
+    .uninvite-user {
+        &:hover {
+            color:#d64e07;
+            border-color:#d64e07;
+        }
+    }
+
+    .light-btn.expand {
+        display: none;
+    }
+
+    .light-btn.expand:hover,
+        .light-btn.collapse:hover {
+        border-color: @green;
+        color: @green;
+        background: none;
+    }
+
+    .light-btn.delete:hover {
+        border-color: #d64e07;
+        color: #d64e07;
+        background: none;
+    }
+
+    .stachethemes-admin-schedule-collapse {
+
+        .light-btn {
+            display: block;
+        }
+
+        .light-btn.collapse {
+            display: none;
+        }
+
+        .stachethemes-admin-schedule-toggle-wrap {
+            display: none;
+        }
+
+        .stachethemes-admin-schedule-timespan-head {
+            border:none;
+        }
+    }
+
+    .stachethemes-admin-guests-collapse {
+
+        .light-btn {
+            display: block;
+        }
+
+        .light-btn.collapse {
+            display: none;
+        }
+
+        .stachethemes-admin-guests-toggle-wrap {
+            display: none;
+        }
+
+        .stachethemes-admin-guests-guest-head {
+            border:none;
+        }
+    }
+
+    .stachethemes-admin-separator {
+        clear: both;
+        float: left;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .attendance-all {
+        .clear;
+        width: 100%;
+
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+
+        border-bottom:1px solid #ececec;
+        padding: 6px 6px 6px 20px;
+
+        p {
+            float: left;
+            .font(12px, 600);
+            text-transform: uppercase;
+        }
+
+        .invite-all {
+            min-width: 150px;
+            position: relative;
+            padding-left:45px;
+
+            &:before {
+                color: #202020;
+                content: "\f067";
+                float: left;
+                font-family: FontAwesome;
+                font-size: 25px;
+                left: 15px;
+                position: absolute;
+                top: ~"calc(50% - 14px)";
+                .transition;
+            }
+
+            &:hover:before {
+                color:@green + #111;
+            }
+
+        }
+
+        .uninvite-all {
+            .invite-all;
+            display: none;
+
+            &:before {
+                content: '\f068';
+            }
+
+            &:hover {
+                color:#d64e07;
+                border-color:#d64e07;
+            }
+
+            &:hover:before {
+                color:#d64e07;
+            }
+        }
+    }
+
+    .attendance-all.active {
+        .invite-all {
+            display: none;
+        }
+        .uninvite-all {
+            display: block;
+        }
+    }
+
+    .stachethemes-admin-section-tab-attendance-wrap {
+        border-radius: 4px;
+        border: 1px solid #ececec;
+        .clear;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .attendee-list {
+        .clear;
+        width: 100%;
+        padding: 6px;
+        margin:0;
+
+        li {
+            align-items: center;
+            display: flex;
+            float: left;
+            justify-content: space-between;
+            margin: 0;
+            padding: 6px 6px 6px 20px;
+            width: 100%;
+
+            margin-bottom: 10px;
+
+            &:last-child {
+                margin: 0;
+            }
+
+            border-radius: 4px;
+            border:1px solid #ececec;
+
+            p {
+                float: left;
+                .font(12px, 600);
+                text-transform: uppercase;
+            }
+
+            &:hover {
+                border-color: @blue;
+            }
+
+            .uninvite-user {
+                display: none;
+            }
+        }
+
+        .active {
+
+            .invite-user {
+                display: none;
+            }
+
+            .uninvite-user {
+                display: block;
+            }
+        }
+
+    }
+
+    .attendee-email-list {
+        .clear;
+        width: 100%;
+        list-style: decimal;
+        list-style-position: inside;
+        margin:0;
+        margin-top: 20px;   
+
+        li {
+            border-bottom: 1px solid #ececec;
+            color: #999;
+            height: 50px;
+            width: 100%;
+            .clear;
+            line-height: 50px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            .attendee-email-remove {
+                float: right;
+                color: #999;
+                cursor: pointer;
+                &:hover {
+                    color:#d64e07;
+                }
+            }
+
+            &:first-child {
+                display: none;
+            }
+        }
+    }
+
+    .stachethemes-admin-section-tab {
+        width: 100%;
+        .clear;
+    }
+
+    /* attachments */
+
+    .add-attachments-attachment {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background: @blue;
+        padding-left: 45px;
+        position: relative;
+    }
+
+    .add-attachments-attachment:hover {
+        background: @blue + #111;
+    }
+
+    .add-attachments-attachment::before {
+        color: #fff;
+        content: "\f067";
+        float: left;
+        font-family: FontAwesome;
+        font-size: 25px;
+        left: 15px;
+        position: absolute;
+        top: ~"calc(50% - 14px)";
+    }
+
+    .stachethemes-admin-attachments-attachment {
+        width: 100%;
+        margin-top: 20px;
+        .clear;
+        border-radius: 4px;
+        border: 1px solid #ececec;
+    }
+
+    .stachethemes-admin-attachments-attachment:hover {
+        border: 1px solid @blue;
+    }
+
+    .stachethemes-admin-attachments-toggle-wrap {
+        padding: 20px;
+    }
+
+    .stachethemes-admin-attachments-attachment-head {
+        padding: 6px;
+        padding-left: 20px;
+        .clear;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .stachethemes-admin-attachments-attachment-title span {
+        .font(12px, 700);
+        text-transform: uppercase;
+    }
+
+    /* woocommerce item */
+
+    .stachethemes-admin-woocommerce-product {
+        width: 100%;
+        margin-top: 20px;
+        .clear;
+        border-radius: 4px;
+        border: 1px solid #ececec;
+
+        &:hover {
+            border-color: @blue;
+        }
+    }
+
+    .stachethemes-admin-woocommerce-product-head {
+        padding: 6px;
+        padding-left: 20px;
+        .clear;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .stachethemes-admin-woocommerce-product-title span {
+        .font(12px, 700);
+        text-transform: uppercase;
+    }
+
+    .desc {
+        clear:both;
+        .font(14px);
+    }
+
+    .stec-text-red {
+        color:#f15e6e;
+    }
+
+    .stec-activator-success,
+    .stec-activator-beforesend {
+        display: none;
+    }
+
+    .stec-event-timespan {
+        clear:both;
+        float: left;
+        font-size: 12px;
+        color:#999;
+    }
+
+    .stec-list li:hover {
+        .stec-event-timespan {
+            color:#fff;
+        }
+    }
+
+    .stachethemes-admin-link-text {
+        .font(14px, 700);
+        .clear;
+        margin: 10px 0;
+    }
+    
+}
+
+.notice-info {
+    margin: 20px 0 0;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+}
+
+.stec-repeater-popup-bg {
+    background: #000;
+    position: fixed;
+    z-index: 9990;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    display: none;
+}
+
+.stec-repeater-popup {
+    position: fixed;
+    left:  ~"calc(50% - 275px)";
+    top:  ~"calc(50% - 250px)";
+    display: none;
+    background: #fff;
+    box-shadow: 0 0 4px rgba(0,0,0,0.3);
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 9999;
+    border-radius: 3px;
+
+    th {
+        vertical-align: text-top;
+    }
+
+    .stec-repeater-popup-repeat-advanced {
+        display: none;
+    }
+
+    .stec-repeater-popup-exdate-datelist-template {
+        display: none !important;
+    }
+
+    .stec-repeater-popup-exdate-datelist-submit-value {
+        display: none;
+    }
+
+    .stec-repeater-popup-exdate-options {
+        a {
+            font-size: 14px;
+
+            &.stec-remove-exdate {
+                color:#f15e6e;
+                opacity: 0;
+            }
+        }
+
+        .stec-repeater-popup-exdate-datelist {
+
+            margin:0;
+
+            li {
+
+                margin-left: 3px;
+                margin-bottom: 0;
+
+                span {
+                    font-size: 14px;
+                }
+
+                &:nth-child(2) {
+                    margin-top: 5px;
+                }
+
+                &:hover {
+                    a {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+p.stec-repeater-summary {
+    width: 100%;
+    .font(14px, 700);
+    color:#666;
+    .clear;
+
+    span {
+        color: #0096dd;
+    }
+}
+
+.stec-repeater-popup {
+
+    width: 550px;
+
+    select {
+        min-width: 100px;
+    }
+
+    tr {
+        margin-bottom: 10px;
+        float: left;
+        clear: both;
+    }  
+
+
+    select,
+    input {
+        border:1px solid #ccc;
+        box-shadow: none;
+        background:#fff;
+    } 
+
+    .stec-repeater-popup-endson-options {
+        span {
+            align-items: center;
+            clear: both;
+            display: flex;
+            float: left;
+            line-height: 1.5;
+        }
+    }
+
+    .stec-repeater-popup-repeat-on {
+        span {
+            line-height: 1;
+            input {
+                margin:0;
+            }
+        }
+    }
+
+    th {
+        width: 150px;
+        text-align: left;
+    }
+
+    .stec-repeater-popup-weekdays {
+        display: none;
+    }
+
+    .stec-repeater-popup-buttons {
+        margin-top: 20px;
+    }
+
+    input:disabled {
+        background: #ececec;
+    }
+
+    .wp-editor-wrap {
+        float: left;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .stachethemes-admin-add-image-list {
+        float: left;
+    }
+    .stachethemes-admin-add-image {
+        margin-bottom: 20px;
+    }
+}

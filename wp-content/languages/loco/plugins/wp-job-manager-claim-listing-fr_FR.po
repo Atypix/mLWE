@@ -1,0 +1,688 @@
+# Copyright (C) 2017 Astoundify
+# This file is distributed under the GPLv3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Claim Listing for WP Job Manager 3.9.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-job-manager-"
+"claim-listing\n"
+"POT-Creation-Date: 2017-11-08 15:47:23+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-03-12 15:07+0000\n"
+"Last-Translator: Goach <sebodion@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;"
+
+#: includes/claim/admin-setup.php:159 includes/claim/meta-boxes.php:96
+msgid "Status"
+msgstr ""
+
+#: includes/claim/admin-setup.php:160
+msgid "Claimed Listing"
+msgstr ""
+
+#: includes/claim/admin-setup.php:161 includes/claim/meta-boxes.php:170
+msgid "Claimer"
+msgstr ""
+
+#: includes/claim/admin-setup.php:183 includes/claim/functions.php:74
+msgid "Unknown"
+msgstr ""
+
+#: includes/claim/admin-setup.php:239
+msgid "All claim statuses"
+msgstr ""
+
+#: includes/claim/admin-setup.php:288 includes/claim/admin-setup.php:291
+msgid "Claim updated."
+msgstr ""
+
+#: includes/claim/admin-setup.php:289
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/claim/admin-setup.php:290
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/claim/admin-setup.php:292
+msgid "Claim restored to revision from %s"
+msgstr ""
+
+#: includes/claim/admin-setup.php:293
+msgid "Claim published."
+msgstr ""
+
+#: includes/claim/admin-setup.php:294
+msgid "Claim saved."
+msgstr ""
+
+#: includes/claim/admin-setup.php:295
+msgid "Claim submitted."
+msgstr ""
+
+#: includes/claim/admin-setup.php:297
+msgid "Claim scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: includes/claim/admin-setup.php:298
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: includes/claim/admin-setup.php:300
+msgid "Claim draft updated."
+msgstr ""
+
+#: includes/claim/admin-setup.php:303
+msgid "Return to claims"
+msgstr ""
+
+#: includes/claim/custom-content.php:34 includes/claim/custom-content.php:36
+#: includes/claim/custom-content.php:37
+msgid "Claims"
+msgstr ""
+
+#: includes/claim/custom-content.php:35
+msgid "Claim"
+msgstr ""
+
+#: includes/claim/custom-content.php:38
+msgid "Add New"
+msgstr ""
+
+#: includes/claim/custom-content.php:39
+msgid "Add New Claim"
+msgstr ""
+
+#: includes/claim/custom-content.php:40
+msgid "New Claim"
+msgstr ""
+
+#: includes/claim/custom-content.php:41
+msgid "Edit Claim"
+msgstr ""
+
+#: includes/claim/custom-content.php:42
+msgid "View Claim"
+msgstr ""
+
+#: includes/claim/custom-content.php:43
+msgid "All Claims"
+msgstr ""
+
+#: includes/claim/custom-content.php:44
+msgid "Search Claims"
+msgstr ""
+
+#: includes/claim/custom-content.php:45
+msgid "Parent Claims:"
+msgstr ""
+
+#: includes/claim/custom-content.php:46
+msgid "No Claims found."
+msgstr ""
+
+#: includes/claim/custom-content.php:47
+msgid "No Claims found in Trash."
+msgstr ""
+
+#: includes/claim/functions.php:24
+msgid "Approved"
+msgstr ""
+
+#: includes/claim/functions.php:25
+msgid "Pending"
+msgstr ""
+
+#: includes/claim/functions.php:26
+msgid "Declined"
+msgstr ""
+
+#: includes/claim/meta-boxes.php:78 includes/claim/meta-boxes.php:188
+msgid "Claim Information"
+msgstr ""
+
+#: includes/claim/meta-boxes.php:121
+msgid "Send email notification to claimer about this status change."
+msgstr ""
+
+#: includes/claim/meta-boxes.php:122
+msgid "Send email notification to admin (%s) about this status change."
+msgstr ""
+
+#: includes/claim/meta-boxes.php:142
+msgid "No Listing Found"
+msgstr ""
+
+#: includes/claim/meta-boxes.php:147
+msgid "Listing"
+msgstr ""
+
+#: includes/claim/meta-boxes.php:167
+#: includes/wpjm-listing-payments/checkout-setup.php:90
+#: includes/wpjm-wc-paid-listing/checkout-setup.php:90
+msgid "Guest"
+msgstr ""
+
+#: includes/claim/meta-boxes.php:189
+msgid "Data submitted by claimer to validate their claim."
+msgstr ""
+
+#: includes/job-listing/admin-setup.php:51
+msgid "Claimed?"
+msgstr ""
+
+#: includes/job-listing/admin-setup.php:65
+msgid "Verified listing"
+msgstr ""
+
+#: includes/job-listing/functions.php:103
+msgid "Claim this listing"
+msgstr ""
+
+#: includes/job-listing/meta-boxes.php:62 includes/settings/settings.php:69
+#: includes/settings/setup.php:90 includes/settings/setup.php:113
+#: includes/submit-claim/forms/submit-claim-form.php:96
+msgid "Claim Listing"
+msgstr ""
+
+#: includes/job-listing/meta-boxes.php:81 includes/job-listing/setup.php:127
+msgid "Verified Listing"
+msgstr ""
+
+#: includes/job-listing/meta-boxes.php:88
+msgid "The owner has been verified."
+msgstr ""
+
+#: includes/job-listing/meta-boxes.php:98
+msgid "Claim History:"
+msgstr ""
+
+#: includes/job-listing/meta-boxes.php:118
+msgid "by %s"
+msgstr ""
+
+#: includes/job-listing/meta-boxes.php:120
+msgid "by Guest"
+msgstr ""
+
+#: includes/job-listing/meta-boxes.php:125
+msgid "No Claim Found"
+msgstr ""
+
+#: includes/job-listing/setup.php:105
+msgid "View %s Claim"
+msgstr ""
+
+#: includes/notification/settings.php:60
+msgid "Notification"
+msgstr ""
+
+#: includes/notification/settings.php:68
+msgid "New Claim Email Content For Claimer"
+msgstr ""
+
+#: includes/notification/settings.php:69
+msgid ""
+"Available tag: <br/> %claimer_name%, %claim_date%, %listing_url%, "
+"%claim_status%, %claim_url%"
+msgstr ""
+
+#: includes/notification/settings.php:77
+msgid "New Claim Email Content For Admin"
+msgstr ""
+
+#: includes/notification/settings.php:78
+msgid ""
+"Available tag: <br/> %claimer_name%, %claim_date%, %listing_url%, "
+"%claim_status%, %claim_url%, %claim_edit_url%"
+msgstr ""
+
+#: includes/notification/settings.php:86
+msgid "Status Update Email Content For Claimer"
+msgstr ""
+
+#: includes/notification/settings.php:87
+msgid ""
+"Available tag: <br/> %claimer_name%, %claim_date%, %listing_url%, "
+"%claim_status%, %claim_status_old%, %claim_url%"
+msgstr ""
+
+#: includes/notification/settings.php:95
+msgid "Status Update Email Content For Admin"
+msgstr ""
+
+#: includes/notification/settings.php:96
+msgid ""
+"Available tag: <br/> %claimer_name%, %claim_date%, %listing_url%, "
+"%claim_status%, %claim_status_old%, %claim_url%, %claim_edit_url%"
+msgstr ""
+
+#: includes/notification/setup.php:61
+msgid "Your Claim Information"
+msgstr ""
+
+#: includes/notification/setup.php:98
+msgid "[WP Job Man] New Claim Submitted"
+msgstr ""
+
+#: includes/notification/setup.php:146
+msgid "Your Claim For \"%listing_title%\" is %claim_status%"
+msgstr ""
+
+#: includes/notification/setup.php:197
+msgid "[WP Job Man] Claim for %listing_title% is updated to %claim_status%"
+msgstr ""
+
+#: includes/settings/settings.php:62
+msgid "Claim Listing Page"
+msgstr ""
+
+#: includes/settings/settings.php:63
+msgid ""
+"Select the page where you have placed the [claim_listing] shortcode "
+"(required)."
+msgstr ""
+
+#: includes/settings/settings.php:77
+msgid "Collect Additional Information"
+msgstr ""
+
+#: includes/settings/settings.php:78
+msgid ""
+"Allow the person claiming the listing add additional verification "
+"information."
+msgstr ""
+
+#: includes/settings/settings.php:79
+msgid ""
+"If enabled an input will be displayed so user can add claim verification "
+"data."
+msgstr ""
+
+#: includes/settings/settings.php:88
+msgid "Claim Own Listing"
+msgstr ""
+
+#: includes/settings/settings.php:89
+msgid "Allow non-claimed listings to be claimed by the same owner."
+msgstr ""
+
+#: includes/settings/settings.php:90
+msgid "If enabled user can claim their own listing."
+msgstr ""
+
+#: includes/settings/settings.php:100
+msgid "License Key"
+msgstr ""
+
+#: includes/settings/settings.php:101
+msgid ""
+"Enter the license key you received with your purchase receipt to continue "
+"receiving plugin updates."
+msgstr ""
+
+#: includes/settings/setup.php:40 includes/settings/setup.php:41
+msgid "Claim Listing Setup"
+msgstr ""
+
+#: includes/settings/setup.php:53
+msgid "Submit"
+msgstr ""
+
+#: includes/settings/setup.php:54
+msgid "Skip"
+msgstr ""
+
+#: includes/settings/setup.php:70
+msgid "Thanks for installing <em>Claim Listing for WP Job Manager</em>!"
+msgstr ""
+
+#: includes/settings/setup.php:70
+msgid ""
+"This setup wizard will help you get started by creating claim listing page."
+msgstr ""
+
+#: includes/settings/setup.php:72
+msgid ""
+"If you want to skip the wizard and setup the page and shortcode yourself "
+"manually, the process is still reletively simple. Refer to the "
+"%1$sdocumentation%2$s for help."
+msgstr ""
+
+#: includes/settings/setup.php:74
+msgid "Claim Page Setup"
+msgstr ""
+
+#: includes/settings/setup.php:76
+msgid ""
+"<em>Claim Listing for WP Job Manager</em> includes a %1$sshortcode%2$s which "
+"can be used within your %3$spage%2$s to output the claim form. This can be "
+"created for you below."
+msgstr ""
+
+#: includes/settings/setup.php:82
+msgid "Page Title"
+msgstr ""
+
+#: includes/settings/setup.php:83
+msgid "Page Description"
+msgstr ""
+
+#: includes/settings/setup.php:84
+msgid "Content Shortcode"
+msgstr ""
+
+#: includes/settings/setup.php:92
+msgid "Page to claim a listing."
+msgstr ""
+
+#: includes/settings/setup.php:139
+msgid "All Done!"
+msgstr ""
+
+#: includes/settings/setup.php:141
+msgid ""
+"Looks like you're all set to start using the plugin. In case you're "
+"wondering where to go next:"
+msgstr ""
+
+#: includes/settings/setup.php:144
+msgid "Adjust the plugin settings."
+msgstr ""
+
+#: includes/settings/setup.php:146
+msgid "Create a claim package."
+msgstr ""
+
+#: includes/submit-claim/forms/submit-claim-form.php:89
+msgid "Login / Register"
+msgstr ""
+
+#: includes/submit-claim/forms/submit-claim-form.php:93
+msgid "Register Account &rarr;"
+msgstr ""
+
+#: includes/submit-claim/forms/submit-claim-form.php:100
+msgid "Submit Claim &rarr;"
+msgstr ""
+
+#: includes/submit-claim/forms/submit-claim-form.php:103
+msgid "Claim Detail"
+msgstr ""
+
+#: includes/submit-claim/forms/submit-claim-form.php:217
+msgid "Security nonce not valid."
+msgstr ""
+
+#: includes/submit-claim/forms/submit-claim-form.php:223
+msgid "Email field is required."
+msgstr ""
+
+#: includes/submit-claim/forms/submit-claim-form.php:244
+msgid "Invalid Password: %s"
+msgstr ""
+
+#: includes/submit-claim/forms/submit-claim-form.php:250
+msgid "Passwords must match."
+msgstr ""
+
+#: includes/submit-claim/forms/submit-claim-form.php:270
+msgid "You must <a href=\"%s\">sign in</a> to claim a listing."
+msgstr ""
+
+#: includes/submit-claim/forms/submit-claim-form.php:375
+msgid "Your claim status for %1$s is %2$s."
+msgstr ""
+
+#: includes/submit-claim/forms/submit-claim-form.php:386
+msgid "Claimed by"
+msgstr ""
+
+#: includes/submit-claim/forms/submit-claim-form.php:393
+msgid "Submitted on"
+msgstr ""
+
+#: includes/submit-claim/forms/submit-claim-form.php:401
+msgid "Claim data"
+msgstr ""
+
+#: includes/submit-claim/forms/submit-claim-form.php:444
+msgid "Listing to claim"
+msgstr ""
+
+#: includes/submit-claim/forms/submit-claim-form.php:489
+msgid "Additional Information"
+msgstr ""
+
+#: includes/submit-claim/forms/submit-claim-form.php:514
+msgid "Please explain in detail, so we can verify your claim."
+msgstr ""
+
+#: includes/wpjm-listing-payments/checkout-setup.php:66
+#: includes/wpjm-listing-payments/checkout-setup.php:89
+#: includes/wpjm-wc-paid-listing/checkout-setup.php:66
+#: includes/wpjm-wc-paid-listing/checkout-setup.php:89
+msgid "Claim By"
+msgstr ""
+
+#: includes/wpjm-listing-payments/form-setup.php:75
+#: includes/wpjm-wc-paid-listing/form-setup.php:75
+msgid "Choose a package &rarr;"
+msgstr ""
+
+#: includes/wpjm-listing-payments/form-setup.php:79
+#: includes/wpjm-listing-payments/form-setup.php:109
+#: includes/wpjm-wc-paid-listing/form-setup.php:79
+#: includes/wpjm-wc-paid-listing/form-setup.php:109
+msgid "Choose a package"
+msgstr ""
+
+#: includes/wpjm-listing-payments/form-setup.php:83
+#: includes/wpjm-wc-paid-listing/form-setup.php:83
+msgid "Checkout &rarr;"
+msgstr ""
+
+#: includes/wpjm-listing-payments/form-setup.php:120
+#: includes/wpjm-wc-paid-listing/form-setup.php:120
+msgid "Purchase Package:"
+msgstr ""
+
+#: includes/wpjm-listing-payments/form-setup.php:140
+#: includes/wpjm-wc-paid-listing/form-setup.php:140
+msgid "(Listed for %s day)"
+msgid_plural "(Listed for %s days)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/wpjm-listing-payments/form-setup.php:151
+#: includes/wpjm-wc-paid-listing/form-setup.php:151
+msgid "No packages found"
+msgstr ""
+
+#: includes/wpjm-listing-payments/form-setup.php:260
+#: includes/wpjm-wc-paid-listing/form-setup.php:259
+msgid "Order ID"
+msgstr ""
+
+#: includes/wpjm-listing-payments/form-setup.php:275
+#: includes/wpjm-wc-paid-listing/form-setup.php:274
+msgid "Package"
+msgstr ""
+
+#: includes/wpjm-listing-payments/form-setup.php:299
+#: includes/wpjm-listing-payments/form-setup.php:316
+#: includes/wpjm-wc-paid-listing/form-setup.php:298
+#: includes/wpjm-wc-paid-listing/form-setup.php:315
+msgid "Invalid Package"
+msgstr ""
+
+#: includes/wpjm-listing-payments/form-setup.php:307
+#: includes/wpjm-wc-paid-listing/form-setup.php:306
+msgid "No package available to purchase."
+msgstr ""
+
+#: includes/wpjm-listing-payments/meta-boxes.php:57
+#: includes/wpjm-wc-paid-listing/meta-boxes.php:57
+msgid "Paid Claim Information"
+msgstr ""
+
+#: includes/wpjm-listing-payments/meta-boxes.php:73
+#: includes/wpjm-wc-paid-listing/meta-boxes.php:73
+msgid "No Order Found"
+msgstr ""
+
+#: includes/wpjm-listing-payments/meta-boxes.php:94
+#: includes/wpjm-listing-payments/setup.php:306
+#: includes/wpjm-wc-paid-listing/meta-boxes.php:94
+#: includes/wpjm-wc-paid-listing/setup.php:272
+msgid "Cannot retrive order."
+msgstr ""
+
+#: includes/wpjm-listing-payments/meta-boxes.php:100
+#: includes/wpjm-listing-payments/setup.php:269
+#: includes/wpjm-wc-paid-listing/meta-boxes.php:100
+#: includes/wpjm-wc-paid-listing/setup.php:235
+msgid "Order"
+msgstr ""
+
+#: includes/wpjm-listing-payments/order-setup.php:183
+#: includes/wpjm-listing-payments/order-setup.php:228
+#: includes/wpjm-wc-paid-listing/order-setup.php:180
+#: includes/wpjm-wc-paid-listing/order-setup.php:225
+msgid "Automatically verified with initial purchase."
+msgstr ""
+
+#: includes/wpjm-listing-payments/settings.php:57
+msgid "Listing Payments for WP Job Manager"
+msgstr ""
+
+#: includes/wpjm-listing-payments/settings.php:65
+#: includes/wpjm-wc-paid-listing/settings.php:65
+msgid "Paid Claims"
+msgstr ""
+
+#: includes/wpjm-listing-payments/settings.php:66
+#: includes/wpjm-wc-paid-listing/settings.php:66
+msgid "Require a purchase"
+msgstr ""
+
+#: includes/wpjm-listing-payments/settings.php:67
+#: includes/wpjm-wc-paid-listing/settings.php:67
+msgid "A listing is claimed by purchasing a listing package."
+msgstr ""
+
+#: includes/wpjm-listing-payments/settings.php:75
+#: includes/wpjm-listing-payments/settings.php:76
+msgid "Register on Checkout"
+msgstr ""
+
+#: includes/wpjm-listing-payments/settings.php:77
+msgid "No login/register form and use WooCommerce checkout registration."
+msgstr ""
+
+#: includes/wpjm-listing-payments/setup.php:101
+#: includes/wpjm-wc-paid-listing/setup.php:99
+msgid "Pending Purchase"
+msgstr ""
+
+#: includes/wpjm-listing-payments/setup.php:102
+#: includes/wpjm-wc-paid-listing/setup.php:100
+msgid "Pending Order"
+msgstr ""
+
+#: includes/wpjm-listing-payments/setup.php:103
+#: includes/wpjm-wc-paid-listing/setup.php:101
+msgid "Order Completed"
+msgstr ""
+
+#: includes/wpjm-listing-payments/setup.php:200
+#: includes/wpjm-wc-paid-listing/setup.php:166
+msgid "Use for Claiming a Listing"
+msgstr ""
+
+#: includes/wpjm-listing-payments/setup.php:201
+#: includes/wpjm-wc-paid-listing/setup.php:167
+msgid ""
+"Allow this package to be a option for claiming a listing. These packages "
+"will not appear on the standard listing submission form."
+msgstr ""
+
+#: includes/wpjm-listing-payments/setup.php:226
+#: includes/wpjm-wc-paid-listing/setup.php:192
+msgid "Claimed Listing?"
+msgstr ""
+
+#: includes/wpjm-listing-payments/setup.php:227
+#: includes/wpjm-wc-paid-listing/setup.php:193
+msgid ""
+"Automatically be mark listing as claimed/verified if user completed the "
+"purchase."
+msgstr ""
+
+#: includes/wpjm-products/settings.php:57
+msgid "WP Job Manager - Products"
+msgstr ""
+
+#: includes/wpjm-products/settings.php:65
+msgid "Product Owner"
+msgstr ""
+
+#: includes/wpjm-products/settings.php:66
+msgid "Transfer product owner when a listing is claimed"
+msgstr ""
+
+#: includes/wpjm-products/settings.php:67
+msgid ""
+"When a listing is claimed, the product owner for any attached products will "
+"not change unless this option is enabled. This gives ownership to the person "
+"claiming the listing."
+msgstr ""
+
+#: includes/wpjm-wc-paid-listing/settings.php:57
+msgid "WP Job Manager - WC Paid Listing"
+msgstr ""
+
+#: wp-job-manager-claim-listing.php:108
+msgid "%1$s requires %2$s plugin."
+msgstr ""
+
+#: wp-job-manager-claim-listing.php:108
+msgid "WP Job Manager - Claim Listing"
+msgstr ""
+
+#: wp-job-manager-claim-listing.php:108
+msgid "WP Job Manager"
+msgstr ""
+
+#. translators: %1$s minimum PHP version, %2$s current PHP version.
+#: wp-job-manager-claim-listing.php:145
+msgid ""
+"Claim Listing for WP Job Manager requires at least PHP %1$s. You are running "
+"PHP %2$s. Please upgrade and try again."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Claim Listing for WP Job Manager"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://astoundify.com/products/wp-job-manager-claim-listing/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Allow listings to be \"claimed\" to indicate verified ownership. A fee can "
+"be charged using WooCommerce."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Astoundify"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://astoundify.com"
+msgstr ""

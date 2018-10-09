@@ -1,0 +1,59 @@
+
+.kw-section .wpb_content_element { margin-bottom: 65px; }
+
+.kw-section [class*="vc_col"] .wpb_content_element { margin-bottom: 50px; }
+
+.kw-section .wpb_content_element.vc_separator { margin-bottom: 30px; }
+
+.kw-entry.kw-single .kw-section .wpb_content_element:last-of-type { margin-bottom: 0; }
+
+.kw-section .wpb_content_element:last-of-type { margin-bottom: 0; }
+
+.kw-section.vc_row-has-fill+.vc_row-full-width+.vc_row>.vc_column_container>.vc_column-inner,
+.kw-section.vc_row-has-fill>.vc_column_container>.vc_column-inner,
+.kw-section.vc_row-has-fill+.vc_row>.vc_column_container>.vc_column-inner { padding-top: 0; }
+
+.kw-section .wpb_row:not(:last-child) { margin-bottom: 65px; }
+
+.wpb_single_image { margin-bottom: 35px; }
+
+.wpb_single_image .vc_figure-caption {
+	font-size: 50px;
+	line-height: 58px;
+	margin-bottom: 0;
+	margin-top: .5em;
+	text-align: left;
+}
+
+.kw-section.vc_parallax .vc_parallax-inner {
+	pointer-events: none;
+	position: absolute;
+	overflow: hidden;
+	left: 0;
+	right: 0;
+	top: 0;
+	background-attachment: fixed;
+	background-color: transparent;
+	background-image: inherit;
+	background-size: cover;
+	z-index: 0;
+	background-position: 50% 0;
+}
+
+.vc_parallax > * {
+	position: relative;
+	z-index: 2;
+}
+
+.vc_parallax .vc_row-overlay {
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0.7;
+}

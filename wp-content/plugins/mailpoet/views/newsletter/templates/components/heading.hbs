@@ -1,0 +1,18 @@
+<div class="mailpoet_form_field mailpoet_heading_form_field">
+  <input
+    type="text"
+    class="mailpoet_input mailpoet_input_title"
+    data-automation-id="newsletter_title"
+    value="{{ model.subject }}"
+    placeholder="<%= __('Click here to change the subject!') %>"
+  />
+  <span id="tooltip-designer-subject-line" class="tooltip-help-designer-subject-line"></span>
+</div>
+<div class="mailpoet_form_field mailpoet_heading_form_field">
+  <input type="text"
+    class="mailpoet_input mailpoet_input_preheader"
+    value="{{ model.preheader }}"
+    placeholder="<%= __('Preview text (usually displayed underneath the subject line in the inbox)') %>"
+  />
+  <span id="tooltip-designer-preheader" class="tooltip-help-designer-preheader"></span>
+</div>

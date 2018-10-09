@@ -1,0 +1,207 @@
+/**
+ * BxSlider v4.1.2 - Fully loaded, responsive content slider
+ * http://bxslider.com
+ *
+ * Written by: Steven Wanderski, 2014
+ * http://stevenwanderski.com
+ * (while drinking Belgian ales and listening to jazz)
+ *
+ * CEO and founder of bxCreative, LTD
+ * http://bxcreative.com
+ */
+
+
+/** RESET AND LAYOUT
+===================================*/
+.fs-bxslider{ margin:0!important; padding:0!important; }
+	.fs-bxslider li{ margin:0; list-style:none; }
+.fs-bx-wrapper {
+	position: relative;
+	margin: 0 auto 30px;
+	padding: 0;
+	width:100%;
+	*zoom: 1;
+}
+.fs-bx-wrapper img {
+	width:100%;
+	max-width: 100%;
+	display: block;
+}
+
+/** THEME
+===================================*/
+
+.fs-bx-wrapper .fs-bx-viewport {
+	/*fix other elements on the page moving (on Chrome)*/
+	-webkit-transform: translatez(0);
+	-moz-transform: translatez(0);
+    	-ms-transform: translatez(0);
+    	-o-transform: translatez(0);
+    	transform: translatez(0);
+}
+
+.fs-bx-wrapper .fs-bx-pager,
+.fs-bx-wrapper .fs-bx-controls-auto {
+	position: absolute;
+	width: 100%;
+}
+
+/* LOADER */
+
+.fs-bx-wrapper .fs-bx-loading {
+	min-height: 50px;
+	background: url(images/bx_loader.gif) center center no-repeat #fff;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}
+
+/* PAGER */
+
+.fs-bx-wrapper .fs-bx-pager {
+	text-align: center;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	margin-top:10px;
+}
+
+.fs-bx-wrapper .fs-bx-pager .fs-bx-pager-item,
+.fs-bx-wrapper .fs-bx-controls-auto .fs-bx-controls-auto-item {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+
+.fs-bx-wrapper .fs-bx-pager.fs-bx-default-pager a {
+	background: #fff;
+	text-indent: -9999px;
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 0 5px;
+	outline: 0;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	border:2px solid #444;
+	-webkit-transition: all 0.2s ease-out;-moz-transition: all 0.2s ease-out;-o-transition: all 0.2s ease-out;-ms-transition: all 0.2s ease-out;
+	box-shadow:none;
+}
+
+.fs-bx-wrapper .fs-bx-pager.fs-bx-default-pager a:hover,
+.fs-bx-wrapper .fs-bx-pager.fs-bx-default-pager a.active {
+	background: #444;
+}
+
+
+/* DIRECTION CONTROLS (NEXT / PREV) */
+
+.fs-bx-wrapper .fs-bx-prev {
+	left: 10px;
+	/*background: url(images/controls.png) no-repeat 0 -32px;*/
+}
+
+.fs-bx-wrapper .fs-bx-next {
+	right: 10px;
+	/*background: url(images/controls.png) no-repeat -43px -32px;*/
+}
+
+.fs-bx-wrapper .fs-bx-prev:hover {
+	background-position: 0 0;
+}
+
+.fs-bx-wrapper .fs-bx-next:hover {
+	background-position: -43px 0;
+}
+
+.fs-bx-wrapper .fs-bx-controls-direction a {
+	position: absolute;
+	top: 50%;
+	outline: 0;
+	width: 32px;
+	height: 32px;
+	text-indent: -9999px;
+	z-index: 99;
+	border-bottom:none;
+}
+
+.fs-bx-wrapper .fs-bx-controls-direction a.disabled {
+	display: none;
+}
+
+/* AUTO CONTROLS (START / STOP) */
+
+.fs-bx-wrapper .fs-bx-controls-auto {
+	text-align: center;
+}
+
+.fs-bx-wrapper .fs-bx-controls-auto .fs-bx-start {
+	display: block;
+	text-indent: -9999px;
+	width: 10px;
+	height: 11px;
+	outline: 0;
+	background: url(images/controls.png) -86px -11px no-repeat;
+	margin: 0 3px;
+}
+
+.fs-bx-wrapper .fs-bx-controls-auto .fs-bx-start:hover,
+.fs-bx-wrapper .fs-bx-controls-auto .fs-bx-start.active {
+	background-position: -86px 0;
+}
+
+.fs-bx-wrapper .fs-bx-controls-auto .fs-bx-stop {
+	display: block;
+	text-indent: -9999px;
+	width: 9px;
+	height: 11px;
+	outline: 0;
+	background: url(images/controls.png) -86px -44px no-repeat;
+	margin: 0 3px;
+}
+
+.fs-bx-wrapper .fs-bx-controls-auto .fs-bx-stop:hover,
+.fs-bx-wrapper .fs-bx-controls-auto .fs-bx-stop.active {
+	background-position: -86px -33px;
+}
+
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+
+.fs-bx-wrapper .fs-bx-controls.fs-bx-has-controls-auto.fs-bx-has-pager .fs-bx-pager {
+	text-align: left;
+	width: 80%;
+}
+
+.fs-bx-wrapper .fs-bx-controls.fs-bx-has-controls-auto.fs-bx-has-pager .fs-bx-controls-auto {
+	right: 0;
+	width: 35px;
+}
+
+/*VERTICAL CAROUSEL*/
+.fs-car-car  .fs-bx-controls-direction a { height: 20px; width: 20px; line-height: 0;  font-size: 0; cursor: pointer; opacity:1; text-align:center; text-indent:0; color: transparent;  background:#666; border: none; outline: none; transition-duration: 0.5s;-webkit-transition-duration: 0.5s; }
+
+.fs-car-car .fs-bx-prev { left:0;top:50%!important; margin-top:-10px } 
+	.fs-car-car  .fs-bx-prev:before {  font-family: "FontAwesome";  font-size: 15px; line-height:20px; display: inline-block; content: '\f104'; color:#fff }
+
+.fs-car-car  .fs-bx-next { right:0;top:50%!important;margin-top:-10px }
+	.fs-car-car .fs-bx-next:before { font-family: "FontAwesome";  font-size: 15px; line-height:20px; display: inline-block;content: '\f105'; color:#fff; }
+
+
+
+	
+	
+
+/*SINGLE SLIDESHOW*/
+.fs-sidebar-car  .fs-bx-controls-direction a { height: 25px; width: 25px;  line-height: 0;  font-size: 0; cursor: pointer; opacity:1; text-align:center; text-indent:0; color: transparent;  background:rgba(255,255,255,0.9);  outline: none; transition-duration: 0.5s;-webkit-transition-duration: 0.5s; }
+
+.fs-sidebar-car .fs-bx-prev { right:29px;left:auto; top:1px!important;  } 
+	.fs-sidebar-car  .fs-bx-prev:before {  font-family: "FontAwesome";  font-size: 17px; line-height:25px; display: inline-block; content: '\f104'; color:#000 }
+
+.fs-sidebar-car  .fs-bx-next { right:1px;top:1px!important; }
+	.fs-sidebar-car .fs-bx-next:before { font-family: "FontAwesome";  font-size: 17px; line-height:25px; display: inline-block;content: '\f105'; color:#000; }
+	

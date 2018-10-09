@@ -1,0 +1,113 @@
+.stec-share-template {
+    display: none !important;
+}
+
+.stec-share {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    z-index: 9999;
+    left:0;
+    top:0;
+    font-family: Roboto;
+
+    * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    color:#4d576c;
+    font-size: 15px;
+}
+.stec-share-block {
+    position: fixed;
+    left: ~'calc(50% - 250px)';
+    top:  ~'calc(50% - 150px)';
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    border-radius: @borders-radius;
+    width: 500px;
+    
+    .stec-share-block-title {
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 0 !important;
+    }
+
+    .stec-share-close {
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        cursor: pointer;
+        font-size: 20px;
+
+        &:hover {
+            color:#f15e6e;
+        }
+    }
+
+    .stec-share-fw {
+        width: 100%;
+        float: left;
+        margin-top: 15px;
+        margin-bottom: 7px;
+    }
+
+    .stec-share-flex {
+        .flexbox(space-between, flex-start);
+        width: 100%;
+        float: left;
+        button {
+            padding:0;
+        }
+    }
+
+    input, textarea {
+        width: 100%;
+        border: 1px solid @border-color;
+        border-radius: @borders-radius;
+        padding: 5px;
+        background: #ecececb3;
+    }
+
+    input {
+        height: 35px;
+    }
+    textarea {
+        height: 80px;
+    }
+
+    button {
+        background: #ecececb3;
+        color:#4d576c;
+        height: 35px;
+        width: 35px;
+        min-width: 35px;
+        border: 1px solid @border-color;
+        border-radius: @borders-radius;
+        margin-left: 10px;
+        cursor: pointer;
+
+        i {
+            font-size: 16px;
+            text-align: center;
+            line-height: 30px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .stec-share-block {
+        width: 100%;
+        height: 100%;
+        top:0;
+        left:0;
+    }
+    
+    .stec-share {
+        z-index: 99999;
+    }
+}

@@ -1,0 +1,21 @@
+.mad-field .select2-container {
+	height: auto;
+	min-width: 200px;
+}
+#wpbody .mad-select-all {
+	display: block;
+	margin-top: 5px;
+}
+#wpbody .select2-selection--single,
+#wpbody .select2-selection--multiple,
+.select2-dropdown {
+	border-color: #ddd;
+	outline: none;
+}
+
+.select2-dropdown {
+	margin: 0 !important;
+	padding: 0 !important;
+	max-height: 300px;
+	background: rgb(244, 242, 242);
+}

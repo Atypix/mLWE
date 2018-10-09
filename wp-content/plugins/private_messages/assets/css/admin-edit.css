@@ -1,0 +1,30 @@
+/* Select */
+select[name=pm_recipient] { width: 100%; }
+.select2-container{
+	max-width: 100%;
+}
+.select2-result-pm-recipient { 
+	padding: 5px;
+	overflow: hidden;
+	word-wrap: break-word; 
+}
+.select2-result-pm-recipient__clear { 
+	clear: both; 
+}
+.select2-result-pm-recipient__avatar { 
+	float: left; 
+	width: 30px; 
+}
+.select2-result-pm-recipient__avatar img { 
+	width: 100%; 
+	height: auto; 
+	display: block; 
+	border-radius: 50%;
+}
+.select2-result-pm-recipient__meta { 
+	margin-left: 45px; 
+	margin-top: 7px;
+}
+.pm-no-avatar .select2-result-pm-recipient__meta { 
+	margin: 0;
+}

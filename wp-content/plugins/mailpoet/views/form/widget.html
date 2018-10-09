@@ -1,0 +1,43 @@
+<% block content %>
+  <%= before_widget | raw %>
+
+  <% if(title) %>
+    <%= before_title | raw %><%= title | raw %><%= after_title | raw %>
+  <% endif %>
+  
+  <div id="<%= form_id %>" class="mailpoet_form mailpoet_form_<%= form_type %>">
+    <%= styles | raw %>
+    <form
+      target="_self"
+      method="post"
+      action="<%= admin_url('admin-post.php?action=mailpoet_subscription_form') | raw %>"
+      class="mailpoet_form mailpoet_form_<%= form_type %>"
+      novalidate
+    >
+      <input type="hidden" name="data[form_id]" value="<%= form.id %>" />
+      <input type="hidden" name="token" value="<%= token %>" />
+      <input type="hidden" name="api_version" value="<%= api_version %>" />
+      <input type="hidden" name="endpoint" value="subscribers" />
+      <input type="hidden" name="mailpoet_method" value="subscribe" />
+
+      <%= html | raw %>
+      <div class="mailpoet_message">
+        <p
+          class="mailpoet_validate_success"
+          <% if not(success) %>
+          style="display:none;"
+          <% endif %>
+        ><%= form.settings.success_message %></p>
+        <p class="mailpoet_validate_error"
+          <% if not(error) %>
+          style="display:none;"
+          <% endif %>
+        ><% if (error) %>
+           <%= __("An error occurred, make sure you have filled all the required fields.") %>
+          <% endif %>
+        </p>
+      </div>
+    </form>
+  </div>
+  <%= after_widget | raw %>
+<% endblock %>

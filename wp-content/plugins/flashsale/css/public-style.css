@@ -1,0 +1,47 @@
+/* CSS Document */
+.fl-countdown-cnt{  border-bottom:none; margin:10px auto 0 auto; display:block;  text-align:center;  }
+.fs-itemdesc{ text-align:center; padding:20px 5px; background:#f5f5f5; }
+.fs-itemdesc h3{ font-size:15px!important;}
+.fs-itemdesc h3 a{ border-bottom:none!important;}
+
+.fs-itemdesc del{font-size:15px; margin-right:10px;}
+
+.fs-itemdesc ins{ 
+	font-size:15px;
+	background:none;
+	background-color:none;}
+.fl-flashsale-discount{ height:40px; text-align:center; color:#333; background:none; border-bottom:1px solid #ddd; font-size:15px!important; line-height:40px;  }
+
+/*RULE SHORTCODE*/
+.fl-rule-wrapper{ display:inline-block; clear:both; width:100%; }
+
+.fl-rulecnt{ display:block; position:relative; }
+	.fl-rulecnt .fl-imglink{ display:block; border-bottom:none!important; }
+	.fl-rulecnt .fl-imglink:focus{ border:none; outline:none; }
+		.fl-rulecnt .fl-imglink img{ width:100%; }
+
+.fl-rulecnt.two-col{ float:left; width:48%; margin:5px; }
+
+	
+	.fl-rulecnt .fl-rulcnt-overlay{ position:absolute; bottom:0; left:0; width:100%; background:#fff; color:#333; opacity:0.9; }
+		.fl-rulecnt .fl-rulcnt-overlay .fl-rulcnt-discount{  height:46px; background:#333; text-align:center; color:#fff;  line-height:46px; margin-top:5px; font-size:18px; padding:0 5px; position:absolute; bottom:100%; right:0;  }
+		.fl-rulecnt .fl-rulcnt-overlay h3{ display: inline-block;padding: 0 10px;color: #fff;}
+		.fl-rulecnt .fl-rulcnt-overlay .fl-rule-coundown{ display: inline-block;float: right;border: none;margin: 0;padding: 0 10px; }
+
+.fl-rulcnt-discount {
+    font-size:13px;
+    display: inline-block;
+    background-color: #F44336;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+	text-align: center;
+    margin-bottom: 5px;
+    float: right;
+    color: #FFF;
+}
+		
+/*RULE SLIDESHOW*/
+.fs-sidebar-car .fl-rulecnt{ margin-bottom:0; }
+
+

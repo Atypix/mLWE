@@ -1,0 +1,8 @@
+#settings-wpjmel_settings .geo-tag,
+#settings-wpjmel_settings .geo-tag input{
+	width: 100%;
+	max-width: 600px;
+}
+#settings-wpjmel_settings .map-canvas{
+	max-width: 600px;
+}

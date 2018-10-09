@@ -1,0 +1,2624 @@
+body{
+	unicode-bidi: embed;
+	direction: rtl;
+}
+
+/* ------------------------------------------------------
+    
+    1. Global
+    
+------------------------------------------------------ */
+
+    .kw-section-title.kw-type-2:not([class*="align-"]) {
+        text-align: right;
+    }
+    
+    /* ------------------------------------------------------
+
+        1.1. Layout
+        
+    ------------------------------------------------------ */
+
+        .kw-section-header .kw-left-col{
+            padding-right: 0px;
+            padding-left: 20px;
+        }
+
+        .kw-section-header .kw-right-col{
+            text-align: left;
+            padding-left: 0px;
+            padding-right: 20px;
+        }
+
+/* ------------------------------------------------------
+    
+    2. General Classes
+    
+------------------------------------------------------ */
+
+	.align-right,
+	.kw-right-edge{
+        text-align: left;
+    }
+
+    .align-left,
+	.kw-left-edge{
+        text-align: right;
+    }
+
+    .alignleft{
+        float: right;
+        margin: 0 0 10px 30px;
+    }
+
+    .alignright{
+        float: left;
+        margin: 0 30px 10px 0;
+    }
+
+/* ------------------------------------------------------
+    
+    4. Header
+    
+------------------------------------------------------ */
+
+	.kw-header .kw-hcontent{
+		text-align: left;
+	}
+
+	.kw-current-location .fa,
+    .kw-current-location .lnr,
+    .kw-top-bar .kw-login .fa,
+    .kw-top-bar .kw-login .lnr{
+    	margin-right: 0px;
+    	margin-left: 4px;
+    }
+
+    .kw-header:not([class*="kw-type-"]) .kw-top-bar > .kw-hr-list:first-child{
+        margin-left: 0px;
+        margin-right: -1px;
+    }
+
+    .kw-header:not([class*="kw-type-"]) .kw-top-bar > .kw-hr-list:last-child{
+        margin-right: 0px;
+        margin-left: -1px;
+    }
+
+    /* ------------------------------------------------------
+    
+        4.1. Top Bar
+        
+    ------------------------------------------------------ */
+
+    	.kw-header:not([class*="kw-type-"]) .kw-top-bar .kw-hr-list{
+    		float: right;
+    	}
+
+    	.kw-header:not([class*="kw-type-"]) .kw-top-bar .kw-hr-list:last-child{
+            float: left;
+        }
+
+    /* ------------------------------------------------------
+    
+	    4.2. Navigation
+	    
+	------------------------------------------------------ */
+
+		.kw-navigation{
+			text-align: right;
+		}
+
+		.kw-navigation .sub-menu,
+		.kw-navigation .kw-sub-menu{
+			left: auto;
+			right: -20px;
+		}
+
+		.kw-navigation .sub-menu.kw-reverse,
+		.kw-navigation .kw-sub-menu.kw-reverse{
+			left: -20px;
+			right: auto;
+		}
+
+		.kw-navigation .sub-menu .sub-menu,
+		.kw-navigation .kw-sub-menu .kw-sub-menu{
+			left: auto;
+			right: 100%;
+		}
+
+		.kw-navigation .sub-menu .sub-menu.kw-reverse,
+		.kw-navigation .kw-sub-menu .kw-sub-menu.kw-reverse{
+			right: auto;
+			left: 100%;
+		}
+
+		.kw-navigation > li > a::before{
+			left: auto;
+			right: 0;
+		}
+
+		.kw-navigation .sub-menu .sub-menu,
+		.kw-navigation .kw-sub-menu .kw-sub-menu{
+			margin-left: 0px;
+			margin-right: 2px;
+		}
+
+		.kw-navigation .sub-menu .sub-menu.kw-reverse,
+		.kw-navigation .kw-sub-menu .kw-sub-menu.kw-reverse{
+			margin-left: 2px;
+			margin-right: 0px;
+		}
+
+		.kw-navigation .sub-menu .sub-menu::before,
+		.kw-navigation .kw-sub-menu .kw-sub-menu::before{
+			left: 100%;
+			right: auto;
+		}
+
+		.kw-navigation .sub-menu .sub-menu.kw-reverse::before,
+		.kw-navigation .kw-sub-menu .kw-sub-menu.kw-reverse::before{
+			left: auto;
+			right: 100%;
+		}
+
+		.kw-navigation .sub-menu .menu-item-has-children > a,
+		.kw-navigation .kw-sub-menu .kw-has-children > a{
+			padding-right: 20px;
+			padding-left: 40px;
+		}
+
+		.kw-navigation .kw-has-children > a,
+		.kw-navigation .menu-item-has-children > a{
+			padding-right: 0px;
+			padding-left: 17px;
+		}
+
+		.kw-navigation .kw-has-children > a::after,
+		.kw-navigation .menu-item-has-children > a::after{
+			right: auto;
+			left: 0;
+		}
+
+		.kw-navigation .kw-has-children .kw-has-children > a::after,
+		.kw-navigation .menu-item-has-children .menu-item-has-children > a::after{
+			content: '\f104';
+			right: auto;
+			left: 20px;
+		}
+
+        /* ------------------------------------------------------
+    
+            4.2.1. Vertical Navigation
+            
+        ------------------------------------------------------ */
+
+        .kw-vr-navigation .kw-has-children > a,
+        .kw-vr-navigation .menu-item-has-children > a {
+            padding-right: 0;
+            padding-left: 15px;
+        }
+
+        .kw-vr-navigation .kw-has-children > a::after,
+        .kw-vr-navigation .menu-item-has-children > a::after {
+          right: auto;
+          left: 0;
+        }
+
+        .kw-vr-navigation .kw-sub-menu, 
+        .kw-vr-navigation .sub-menu {
+            padding-left: 0;
+            padding-right: 10px;
+        }
+
+	/* ------------------------------------------------------
+    
+	    4.3. Bottom Bar
+	    
+	------------------------------------------------------ */
+
+		.kw-header .kw-bottom-bar .kw-navigation > .kw-has-children > a::after,
+		.kw-header .kw-bottom-bar .kw-navigation > .menu-item-has-children > a::after{
+			right: auto;
+			left: 20px;
+		}
+
+		.kw-header .kw-bottom-bar .kw-navigation > .kw-has-children > a,
+		.kw-header .kw-bottom-bar .kw-navigation > .menu-item-has-children > a{
+			padding-right: 20px;
+			padding-left: 38px;
+		}
+
+		.kw-header .kw-bottom-bar .kw-navigation .sub-menu, 
+        .kw-header .kw-bottom-bar .kw-navigation .kw-sub-menu{
+            right: 0;
+        }
+
+        .kw-header .kw-bottom-bar .kw-navigation .sub-menu .sub-menu,
+        .kw-header .kw-bottom-bar .kw-navigation .kw-sub-menu .kw-sub-menu{
+            right: 100%;
+        }
+
+        .kw-header .kw-bottom-bar .kw-navigation .sub-menu.kw-reverse, 
+        .kw-header .kw-bottom-bar .kw-navigation .kw-sub-menu.kw-reverse,
+        .kw-header .kw-bottom-bar .kw-navigation .sub-menu .sub-menu.kw-reverse,
+        .kw-header .kw-bottom-bar .kw-navigation .kw-sub-menu .kw-sub-menu.kw-reverse{
+        	left: 100%;
+            right: auto;
+        }
+
+/* ------------------------------------------------------
+    
+    5. General Components / Shortcodes
+    
+------------------------------------------------------ */
+
+	/* ------------------------------------------------------
+    
+        5.2. Back to Top Button
+        
+    ------------------------------------------------------ */
+
+    	.kw-back-to-top{
+    		right: auto;
+    		left: 7.81%;
+    	}
+
+	/* ------------------------------------------------------
+    
+        5.3. Breadcrumb
+        
+    ------------------------------------------------------ */
+
+		.kw-breadcrumb > li:not(:last-child)::after{
+			content: '\\'
+		}
+
+	/* ------------------------------------------------------
+    
+        5.7. Newsletter
+        
+    ------------------------------------------------------ */
+
+    	.kw-newsletter > *:not(:last-child){
+            padding-right: 0px;
+            padding-left: 30px;
+        }
+
+	/* ------------------------------------------------------
+    
+        5.8. Dropdown
+        
+    ------------------------------------------------------ */
+
+    	.kw-dropdown-list{
+    		right: auto;
+            left: 0;
+    		text-align: right;
+    	}
+
+        .kw-dropdown-list.kw-reverse {
+            left: auto;
+            right: 0;
+        }
+
+    	.kw-dropdown-invoker::after{
+    		margin-left: 0px;
+    		margin-right: 10px;
+    	}
+
+    	.kw-language-options img{
+    		margin-right: 0px;
+    		margin-left: 10px;
+    	}
+
+        .kw-profile-nav .kw-dropdown-invoker img {
+          margin-right: 0;
+          margin-left: 6px;
+        }
+
+        .kw-profile-nav .kw-dropdown-list .fa,
+        .kw-profile-nav .kw-dropdown-list [class*="icon-"] {
+          margin-right: 0;
+          margin-left: 10px;
+        }
+
+    /* ------------------------------------------------------
+    
+        5.9. Modal windows
+        
+    ------------------------------------------------------ */
+
+    	.kw-modal-close{
+    		right: auto;
+    		left: 16px;
+    	}
+
+    /* ------------------------------------------------------
+
+        5.10. Hidden Element
+        
+    ------------------------------------------------------ */
+
+
+        .kw-hidden-element-close {
+            right: auto;
+            left: 30px;
+        }
+
+
+    /* ------------------------------------------------------
+    
+        5.12. Owl Carousel
+        
+    ------------------------------------------------------ */
+
+    	.owl-carousel .owl-prev{
+    		right: auto;
+    		left: 100%;
+    		padding-left: 20px;
+    		padding-right: 0px;
+
+    		-webkit-transform: translateX(100%);
+                -ms-transform: translateX(100%);
+                    transform: translateX(100%);
+    	}
+
+    	.owl-carousel .owl-next{
+    		right: 100%;
+    		left: auto;
+    		padding-left: 0px;
+    		padding-right: 20px;
+
+    		-webkit-transform: translateX(-100%);
+                -ms-transform: translateX(-100%);
+                    transform: translateX(-100%);
+    	}
+
+        .kw-csstransforms3d .owl-carousel .owl-next{
+            -webkit-transform: translate3d(-100%, 0, 0);
+                -ms-transform: translate3d(-100%, 0, 0);
+                    transform: translate3d(-100%, 0, 0);
+        }
+
+        .kw-csstransforms3d .owl-carousel .owl-prev{
+            -webkit-transform: translate3d(100%, 0, 0);
+                -ms-transform: translate3d(100%, 0, 0);
+                    transform: translate3d(100%, 0, 0);
+        }
+
+        .owl-carousel .owl-prev::before{
+            content: '\e93c';
+        }
+
+        .owl-carousel .owl-next::before{
+            content: '\e93b';
+        }
+
+        .kw-entry .owl-carousel .owl-prev {
+            left: auto;
+            right: 20px;
+          }
+
+          .kw-entry .owl-carousel .owl-next {
+            right: auto;
+            left: 20px;
+          }
+
+        .owl-carousel.owl-right-aligned-dots {
+            padding-right: 0;
+            padding-left: 120px;
+        }
+
+        .owl-carousel.owl-right-aligned-dots .owl-dots {
+            right: auto;
+            left: 0;
+            margin-right: 0;
+            margin-left: 55px;
+        }
+
+        .owl-carousel.kw-ribbon-slider .owl-next {
+            right: auto;
+            left: 0;
+            padding-right: 0;
+        }
+
+        .owl-carousel.kw-ribbon-slider .owl-prev {
+            left: auto;
+            right: 0;
+            padding-left: 0;
+        }
+
+    /* ------------------------------------------------------
+    
+        5.20. Rating
+        
+    ------------------------------------------------------ */
+
+        .kw-rating .kw-fill-state {
+            right: 0;
+        }
+
+    /* ------------------------------------------------------
+
+        5.22. Categories
+        
+    ------------------------------------------------------ */
+
+        .kw-categories-item-list a {
+            padding-right: 0;
+            padding-left: 60px;
+        }
+
+        .kw-categories-item-list .kw-amount {
+            right: auto;
+            left: 0;
+        }
+
+        .kw-categories.kw-type-1 .kw-category-item::before {
+            border-width: 0 1px 0 0;
+            left: auto;
+            right: -1px;
+        }
+
+        .kw-categories.kw-type-2 .kw-category-item-icon {
+            margin-right: 0;
+            margin-left: 5px;
+        }
+
+        .kw-categories.kw-type-4 .kw-category-item-title a {
+            padding-left: 0;
+            padding-right: 46px;
+        }
+
+        .kw-categories.kw-type-4 .kw-category-item-title a::after {
+            left: 50%;
+            right: 46px;
+        }
+
+        .kw-categories.kw-type-4 .kw-category-item-title a:hover::after {
+            left: 0;
+            right: 46px;
+        }
+
+        .kw-categories.kw-type-4 .kw-category-item .kw-category-item-icon {
+            left: auto;
+            right: 0;
+        }
+
+    /* ------------------------------------------------------
+
+        5.25. Questions
+
+    ------------------------------------------------------ */
+
+        .kw-question {
+            padding-left: 0;
+            padding-right: 60px;
+        }
+
+        .kw-question-info {
+            left: auto;
+            right: 0;
+        }
+
+    /* ------------------------------------------------------
+
+        5.26. Accordions & Toggles
+        
+    ------------------------------------------------------ */
+
+        .kw-toggle-title,
+        .kw-accordion-title{
+          padding-right: 20px;
+          padding-left: 50px;
+        }
+
+        .kw-toggle-title::after,
+        .kw-accordion-title::after{
+          content: '\e93b';
+        }
+
+        .kw-csstransforms3d .kw-toggle-title.kw-active::after,
+        .kw-csstransforms3d .kw-accordion-title.kw-active::after{
+          -webkit-transform: rotate3d(0, 0, 1, -90deg);
+              -ms-transform: rotate3d(0, 0, 1, -90deg);
+                  transform: rotate3d(0, 0, 1, -90deg);
+        }
+
+        .kw-toggle-title::after,
+        .kw-accordion-title::after{
+          right: auto;
+          left: 15px;
+        }
+
+    /* ------------------------------------------------------
+
+        5.27. Tabs & Tour Sections
+        
+    ------------------------------------------------------ */
+
+        .kw-tour-sections-nav{
+            float: right;
+        }
+
+        .kw-tour-sections-nav > li > a{
+            border-radius: 0 4px 4px 0;
+        }
+
+        .kw-tour-sections .kw-tabs-container{
+            border-radius: 4px 0 4px 4px;
+        }
+
+    /* ------------------------------------------------------
+    
+        5.28. Alert Boxes
+        
+    ------------------------------------------------------ */
+
+        [class*="kw-alert"] .kw-close {
+            right: auto;
+            left: 18px;
+        }
+
+        [class*="kw-alert-"] .kw-alert-inner {
+            padding-right: 20px;
+            padding-left: 50px;
+        }
+
+    /* ------------------------------------------------------
+    
+        5.30. Icon Boxes
+        
+    ------------------------------------------------------ */
+
+        .kw-icon-boxes.kw-list-type{
+            padding-right: 0px;
+            padding-left: 44px;
+        }
+
+        .kw-icon-boxes.kw-type-2 .kw-icon-wrap{
+            float: right;
+            margin-right: 0;
+            margin-left: 20px;
+        }
+
+        .kw-icon-boxes.kw-type-2 .kw-icon-text-wrap{
+            padding-left: 0px;
+            padding-right: 48px;
+        }
+
+    /* ------------------------------------------------------
+    
+        5.31. Progress Bars
+        
+    ------------------------------------------------------ */
+
+        .kw-pbar-title{
+            padding-right: 0px;
+            padding-left: 40px;
+        }
+
+        .kw-pbar-inner {
+            position: absolute;
+            left: inherit;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            background-color: #70af1a;
+            border-radius: 4px;
+        }
+
+        .kw-pbar::after{
+            content: '%'attr(data-value);
+            right: inherit;
+            left: 0;
+        }
+
+    /* ------------------------------------------------------
+    
+        5.32. Testimonials
+        
+    ------------------------------------------------------ */
+
+        .kw-testimonial .kw-author-box,
+        .kw-testimonials.kw-type-3 .kw-author-box .kw-avatar {
+            float: right;
+            margin-right: 0;
+            margin-left: 30px;
+        }
+
+        .kw-testimonials.kw-type-3 .kw-author-box .kw-avatar {
+            margin-left: 20px;
+        }
+
+        .kw-testimonials.kw-type-4 .kw-testimonial {
+            padding-left: 0;
+            padding-right: 294px;
+        }
+
+        .kw-testimonials.kw-type-4 .kw-author-box {
+            float: none;
+            margin-left: 0;
+        }
+
+        .kw-testimonials.kw-type-4 .kw-avatar {
+            left: auto;
+            right: 98px;
+        }
+
+        .kw-testimonials.kw-type-4 .kw-author-info {
+            text-align: inherit;
+        }
+
+        .kw-testimonials-carousel-v4 .owl-dots{
+            text-align: right !important;
+        }
+
+        .kw-testimonials-carousel-v4 .owl-dots .kw-author-box .kw-avatar{
+            float: right;
+            margin-right: 0px;
+            margin-left: 17px;
+        }
+
+/* ------------------------------------------------------
+    
+    6. UI Elements
+    
+------------------------------------------------------ */
+
+    /* ------------------------------------------------------
+
+        6.1. Buttons
+        
+    ------------------------------------------------------ */
+
+        [class*="kw-btn"].kw-icon{
+            padding-left: 18px;
+            padding-right: 45px;
+        }
+
+        [class*="kw-btn"].kw-icon .fa,
+        [class*="kw-btn"].kw-icon .lnr{
+            left: auto;
+            right: 18px;
+        }
+
+        .kw-facebook-btn::before,
+        .kw-google-btn::before{
+            margin-right: 0px;
+            margin-left: 10px;
+        }
+
+    /* ------------------------------------------------------
+
+        6.2. Lists
+        
+    ------------------------------------------------------ */
+
+        [class*="kw-element-list"] li{
+            padding-left: 0;
+            padding-right: 18px;
+        }
+
+        [class*="kw-element-list"] li .fa,
+        [class*="kw-element-list"] li [class*="icon-"] {
+            left: auto;
+            right: 0;
+        }
+
+        [class*="kw-element-list"] ul,
+        [class*="kw-element-list"] ol {
+            padding-left: 0;
+            padding-right: 2px;
+        }
+
+        .kw-element-list-ordered li {
+            padding-right: 20px;
+        }
+
+        .kw-element-list-ordered  > li > ol > li, 
+        .kw-element-list-ordered  > li > ul > li {
+            padding-right: 25px;
+        }
+
+        .kw-element-list-ordered li::before {
+            left: auto;
+            right: 0;
+        }
+
+        .kw-element-list-ordered  > li > ol > li:first-child::before,
+        .kw-element-list-ordered  > li > ul > li:first-child::before{ content: "a"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(2)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(2)::before{ content: "b"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(3)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(3)::before{ content: "c"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(4)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(4)::before{ content: "d"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(5)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(5)::before{ content: "e"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(6)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(6)::before{ content: "f"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(7)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(7)::before{ content: "g"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(8)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(8)::before{ content: "h"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(9)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(9)::before{ content: "i"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(10)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(10)::before{ content: "j"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(11)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(11)::before{ content: "k"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(12)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(12)::before{ content: "l"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(13)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(13)::before{ content: "m"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(14)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(14)::before{ content: "n"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(15)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(15)::before{ content: "o"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(16)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(16)::before{ content: "p"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(17)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(17)::before{ content: "q"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(18)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(18)::before{ content: "r"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(19)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(19)::before{ content: "s"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(20)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(20)::before{ content: "t"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(21)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(21)::before{ content: "u"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(22)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(22)::before{ content: "v"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(23)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(23)::before{ content: "w"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(24)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(24)::before{ content: "x"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(25)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(25)::before{ content: "y"counter(ordered-list)"."; }
+        .kw-element-list-ordered  > li > ol > li:nth-child(26)::before,
+        .kw-element-list-ordered  > li > ul > li:nth-child(26)::before{ content: "z"counter(ordered-list)"."; }
+
+
+        .kw-def-list dt{
+            float: right;
+            clear: right;
+        }
+
+        .kw-def-list dd{
+            padding-left: 0px;
+            padding-right: 135px;
+        }
+
+        .kw-def-list dd::after{
+            margin-left: 0;
+            margin-right: -135px;
+        }
+
+        .kw-box .kw-def-list dd {
+            padding-left: 0;
+            padding-right: 176px;
+        }
+
+        .kw-box .kw-def-list dd::after {
+            margin-left: 0;
+            margin-right: -176px;
+        }
+
+        .kw-widget .kw-def-list dd{
+            padding-left: 0px;
+            padding-right: 80px;
+        }
+
+        .kw-widget .kw-def-list dd::after{
+            margin-right: -80px;
+        }
+
+        .kw-datalist-item {
+            padding-left: 0;
+            padding-right: 30px;
+        }
+
+        .kw-datalist-item .fa,
+        .kw-datalist-item [class*="icon-"] {
+            left: auto;
+            right: 1px;
+        }
+
+        .kw-datalist-dt,
+        .kw-datalist-dd {
+            float: right;
+        }
+
+        .kw-datalist-dt:last-child {
+            float: none;
+            padding-right: 0;
+            padding-left: 10px;
+        }
+
+        .kw-datalist-dt {
+            padding-right: 0;
+            padding-left: 20px;
+        }
+        
+        .kw-icons-list > li .fa,
+        .kw-icons-list > li [class*="icon-"]{
+            right: 0;
+            left: auto;
+        }
+
+        .kw-icons-list > li{
+            padding-left: 0;
+            padding-right: 27px;
+        }
+
+        .kw-titled-list .kw-title {
+          float: right;
+          padding-right: 0;
+          padding-left: 20px;
+        }
+
+    /* ------------------------------------------------------
+
+        6.3. Tables
+
+    ------------------------------------------------------ */
+
+        th {
+            text-align: right;
+        }
+
+        .kw-table-container.kw-horizontal td[data-title]::before,
+        .kw-table-container.kw-horizontal th[data-title]::before,
+        .kw-table-container.kw-vertical th:first-child {
+          border-right-width: 0px;
+          border-left-width: 1px;
+        }
+
+    /* ------------------------------------------------------
+
+        6.4. Forms
+
+    ------------------------------------------------------ */
+
+        /* ------------------------------------------------------
+          
+            6.4.1. Input & Textarea
+          
+        ------------------------------------------------------ */
+
+            input[type="text"],
+            input[type="password"],
+            input[type="email"],
+            input[type="number"],
+            input[type="search"],
+            input[type="url"],
+            textarea,
+            .kw-custom-select .kw-selected-option{
+                text-align: right;
+            }
+
+        /* ------------------------------------------------------
+          
+            6.4.3. Labels & Legends
+          
+        ------------------------------------------------------ */
+
+            .kw-left-aligned-labels label{
+                float: right;
+                padding-right: 0px;
+                padding-left: 30px;
+            }
+
+            .kw-required::after{
+                margin-left: 0px;
+                margin-right: 5px;
+            }
+
+        /* ------------------------------------------------------
+          
+            6.4.2. Radion & Checkbox buttons
+          
+        ------------------------------------------------------ */
+
+            input[type="checkbox"] + label,
+            input[type="radio"] + label{
+                padding-right: 33px;
+                padding-left: 0px;
+                margin-right: 0px;
+                margin-left: 15px;
+            }
+
+            input[type="checkbox"] + label::before, input[type="radio"] + label::before{
+                left: auto;
+                right: 0;
+            }
+
+        /* ------------------------------------------------------
+              
+            6.4.4. Select
+          
+        ------------------------------------------------------ */
+
+            .kw-custom-select .kw-selected-option {
+                padding-right: 20px;
+                padding-left: 40px;
+            }
+
+            .kw-custom-select .kw-selected-option::after {
+                right: auto;
+                left: 20px;
+            }
+
+            .kw-custom-select .kw-options-list {
+                text-align: right;
+                left: auto;
+                right: 0;
+            }
+
+            .kw-titled-select .kw-select-title {
+                margin-right: 0;
+                margin-left: 7px;
+            }
+
+        /* ------------------------------------------------------
+          
+            6.4.5. Form Messages
+          
+        ------------------------------------------------------ */
+
+            .kw-left-aligned-labels .kw-informed-input:not(:only-child){
+                margin-right: 0;
+                margin-left: 8px;
+            }
+
+        /* ------------------------------------------------------
+          
+            6.4.6. Inline Form
+          
+        ------------------------------------------------------ */
+
+            .kw-inline-form [class*="kw-btn-"],
+            .kw-inline-form input[type="submit"],
+            .kw-inline-form button[type="submit"]{
+                float: right;
+            }
+
+            .kw-inline-form .kw-input-wrapper{
+                float: right;
+                padding-right: 0px;
+                padding-left: 10px;
+            }
+
+        /* ------------------------------------------------------
+          
+            6.4.8. Rating Field
+          
+        ------------------------------------------------------ */
+
+            .kw-rating-field .kw-rating-field-item{
+                padding-right: 0px;
+                margin-right: 0px;
+                padding-left: 12px;
+                margin-left: 7px;
+            }
+
+            .kw-rating-field .kw-rating-field-item:not(:last-child)::after{
+                right: auto;
+                left: 0;
+            }
+
+        /* ------------------------------------------------------
+    
+            6.4.9. Oneline Form
+            
+        ------------------------------------------------------ */
+
+            .kw-oneline-row-action {
+                padding-right: 0;
+                padding-left: 143px;
+            }
+
+            .kw-oneline-form.kw-type-2 .kw-oneline-row-action {
+                padding-right: 0;
+                padding-left: 45px;
+            }
+
+            [class*="kw-oneline-row"].kw-title,
+            .kw-oneline-form.kw-type-2 [class*="kw-oneline-row"].kw-title {
+                padding-right: 125px;
+            }
+
+            .kw-oneline-action {
+                right: auto;
+                left: 0;
+            }
+
+            .kw-oneline-row-title {
+                left: auto;
+                right: 0;
+            }
+
+            .kw-show-more-fields::after {
+                margin-left: 0;
+                margin-right: 10px;
+            }
+
+        /* ------------------------------------------------------
+      
+            6.4.11. File input
+          
+        ------------------------------------------------------ */
+
+            .kw-uploaded-image .kw-close {
+                right: auto;
+                left: 10px;
+            }
+
+            .kw-file-input-field .fa,
+            .kw-file-input-field [class*="icon-"] {
+                margin-right: 0;
+                margin-left: 5px;
+            }
+
+    /* ------------------------------------------------------
+
+        6.5. Dropcaps
+        
+    ------------------------------------------------------ */
+
+        .kw-dropcap::first-letter{
+            float: right;
+            margin-right: 0px;
+            margin-left: 13px;
+        }
+
+    /* ------------------------------------------------------
+
+        6.6. Blockquotes
+        
+    ------------------------------------------------------ */
+
+        
+        blockquote.kw-type-2 {
+            border-width: 0 2px 0 0;
+        }
+
+    /* ------------------------------------------------------
+    
+        6.10. Pagination
+        
+    ------------------------------------------------------ */
+
+        .kw-pagination .page-numbers{
+            float: right;
+        }
+
+        .kw-pagination .page-numbers:not(:last-child){
+            margin-right: 0px;
+            margin-left: 5px;
+        }
+
+        
+/* ------------------------------------------------------
+    
+    7. Sidebar
+    
+------------------------------------------------------ */
+
+	/* ------------------------------------------------------
+    
+        7.1. Widgets
+        
+    ------------------------------------------------------ */
+
+    	/* ------------------------------------------------------
+    
+            7.1.2. Search
+            
+        ------------------------------------------------------ */
+
+        	.widget_search .screen-reader-text{
+        		right: auto;
+        		left: 0;
+        	}
+
+        	.widget_search input[type="text"]{
+        		padding-right: 20px;
+        		padding-left: 65px;
+        	}
+
+        	.widget_search input[type="submit"]{
+        		right: auto;
+        		left: 0;
+        	}
+
+        /* ------------------------------------------------------
+    
+            7.1.6. Calendar
+            
+        ------------------------------------------------------ */
+
+        	.widget_calendar table{
+                left: auto;
+                right: -1px;
+            }
+
+            .widget_calendar #prev{
+                text-align: right;
+            }
+
+            .widget_calendar #next{
+                text-align: left;
+            }
+
+        /* ------------------------------------------------------
+    
+            7.1.7. Recommended Deals
+            
+        ------------------------------------------------------ */
+
+        	.kw-widget .kw-entry .kw-entry-thumb{
+        		float: right;
+        		margin: 0 0 0 20px;
+        	}
+
+        /* ------------------------------------------------------
+    
+            7.1.9. About Author
+            
+        ------------------------------------------------------ */
+
+            .widget_about_author .kw-author-box .kw-avatar {
+                float: right;
+                margin-right: 0;
+                margin-left: 20px;
+            }
+
+        /* ------------------------------------------------------
+
+            7.1.10. Listings
+
+        ------------------------------------------------------ */
+
+
+            .kw-widget .kw-listings.kw-type-1 .kw-listing-item-media,
+            .kw-widget .kw-listings.kw-type-4 .kw-listing-item-media,
+            .kw-widget .kw-listings.kw-type-5 .kw-listing-item-media {
+              float: right;
+              margin-right: 0;
+              margin-left: 20px;
+            }
+
+            .kw-widget .kw-listings.kw-type-4 .kw-icons-list > li,
+            .kw-widget .kw-listings.kw-type-1 .kw-icons-list > li {
+                padding-right: 0;
+            }
+
+            .kw-widget .kw-listings.kw-type-2 .kw-listing-item-icon {
+              right: auto;
+              left: 55px;
+            }
+
+    /* ------------------------------------------------------
+    
+        7.2. Hidden Sidebar
+        
+    ------------------------------------------------------ */
+
+        .kw-csstransforms3d .kw-wide-layout-type.kw-moved{
+            -webkit-transform: translate3d(220px, 0, 0);
+                -ms-transform: translate3d(220px, 0, 0);
+                    transform: translate3d(220px, 0, 0);
+        }
+
+        .kw-no-csstransforms3d .kw-wide-layout-type.kw-moved{
+            left: auto;
+            right: -220px;
+        }
+
+        .kw-no-csstransforms3d .kw-hidden-aside.kw-moved{
+            right: auto;
+            left: 0;
+        }
+
+        .kw-hidden-aside{
+            right: auto;
+            left: -220px;
+        }
+
+        .kw-hidden-aside .kw-hidden-aside-close{
+            right: auto;
+            left: 100%;
+            margin-right: auto;
+            margin-left: 20px;
+        }
+
+        .kw-csstransforms3d .kw-hidden-aside-close,
+        .kw-csstransforms3d .kw-wide-layout-type.kw-moved .kw-hidden-aside-invoker{
+            -webkit-transform: translate3d(0, 100%, 0);
+                -ms-transform: translate3d(0, 100%, 0);
+                    transform: translate3d(0, 100%, 0);
+        }
+
+        .kw-csstransforms3d .kw-hidden-aside-invoker,
+        .kw-csstransforms3d .kw-wide-layout-type.kw-moved .kw-hidden-aside-close{
+            -webkit-transform: translate3d(0, 0, 0);
+                -ms-transform: translate3d(0, 0, 0);
+                    transform: translate3d(0, 0, 0);
+        }
+
+/* ------------------------------------------------------
+    
+    8. Pages
+    
+------------------------------------------------------ */
+
+	/* ------------------------------------------------------
+
+	    8.2. Blog
+	    
+	------------------------------------------------------ */
+
+		/* ------------------------------------------------------
+		    
+		    8.2.1. Entries
+		        
+		------------------------------------------------------ */
+
+			.kw-entry-tags .kw-caption{
+				float: right;
+				padding-right: 0px;
+				padding-left: 10px;
+			}
+
+			.kw-entry .location .fa,
+			.kw-entry .location .lnr,
+			.kw-entry .kw-map-link .fa,
+			.kw-entry .kw-map-link .lnr{
+				margin-right: 0px;
+				margin-left: 8px;
+			}
+
+			.kw-entry .kw-link{
+				padding-left: 0px;
+				padding-right: 65px;
+			}
+
+			.kw-entry .kw-link::after{
+				left: auto;
+				right: 0;
+			}
+
+			.kw-entry .kw-label{
+				left: auto;
+				right: 20px;
+			}
+
+			.kw-entry .price {
+				padding-right: 0;
+				padding-left: 20px;
+			}
+
+			.kw-entry .kw-entry-shop-controls .kw-actions:not(:first-child){
+				text-align: left;
+			}
+
+		/* ------------------------------------------------------
+    
+		    8.2.2. Entries Navigation
+		        
+		------------------------------------------------------ */
+
+			.kw-entries-nav .kw-previous-entry{
+				float: right;
+				padding-right: 0;
+				padding-left: 15px;
+			}
+
+			.kw-entries-nav .kw-next-entry{
+				float: left;
+				padding-left: 0;
+				padding-right: 15px;
+				text-align: left;
+			}
+
+			.kw-entries-nav .kw-next-entry .kw-entry{
+				direction: ltr;
+			}
+
+			.kw-entries-nav .kw-next-entry .kw-entry .kw-entry-thumb,
+			.kw-entries-nav .kw-next-entry .kw-entry .kw-entry-info{
+				direction: rtl;
+			}
+
+			.kw-entries-nav .kw-entry-thumb{
+				padding-right: 0px;
+				padding-left: 20px;
+			}
+
+			.kw-entries-nav .kw-next-entry .kw-entry-thumb{
+				padding-left: 0px;
+				padding-right: 20px;
+			}
+
+		/* ------------------------------------------------------
+    
+		    8.2.3. Single
+		        
+		------------------------------------------------------ */
+
+			/* ------------------------------------------------------
+    
+			    8.2.3.4. Comments
+			        
+			------------------------------------------------------ */
+
+				.comments-list .avatar{
+					float: right;
+					margin-right: 0px;
+					margin-left: 20px;
+				}
+
+				.comments-list p,
+				.comments-list .comment-meta,
+				.comments-list .comment .reply,
+				.comments-list .comment-author cite,
+				.comments-list .comment-author .fn{
+					padding-left: 0px;
+					padding-right: 120px;
+				}
+
+				.comments-list .comment .comment{
+					padding-left: 0px;
+					padding-right: 40px;
+				}
+
+				.comments-list .comment-meta .reply{
+					padding-right: 0px;
+					margin-left: 0px;
+					margin-right: 5px;
+				}
+
+			/* ------------------------------------------------------
+    
+			    8.2.3.2. Author Box
+			        
+			------------------------------------------------------ */
+
+				.kw-entry-author .kw-avatar{
+					float: right;
+					margin-right: 0px;
+					margin-left: 20px;
+				}
+
+    /* ------------------------------------------------------
+    
+        8.3. My Account
+        
+    ------------------------------------------------------ */
+
+        .kw-my-account .kw-author-box .kw-avatar {
+            float: right;
+            margin-right: auto;
+            margin-left: 20px;
+        }
+
+    /* ------------------------------------------------------
+    
+        8.4. My Listings & Bookmarks
+        
+    ------------------------------------------------------ */   
+
+        .kw-table-listings .kw-image-col .kw-cell-content,
+        .kw-table-bookmarks .kw-image-col .kw-cell-content {
+            padding-right: 20px;
+            padding-left: 0;
+        }
+        .kw-actions-listing .fa,
+        .kw-actions-listing [class*="icon-"] {
+          margin-right: 0;
+          margin-left: 9px;
+        }
+
+    /* ------------------------------------------------------
+
+        8.5. Messages
+
+    ------------------------------------------------------ */
+
+        .kw-message .kw-author-box {
+            padding-left: 0;
+            padding-right: 45px;
+        }
+
+        .kw-message .kw-author-box .kw-avatar,
+        .kw-announcement .kw-author-box .kw-avatar {
+            float: right;
+            margin-right: auto;
+            margin-left: 20px;
+        }
+
+        .kw-directory .kw-author-box .kw-avatar {
+            margin-right: auto;
+            margin-left: 18px;
+        }
+
+        .kw-table-directories .kw-actions-col {
+            text-align: left;
+        }
+
+        input[type="checkbox"].kw-message-checkbox + label {
+            left: auto;
+            right: 0;
+        }
+
+        .kw-message .kw-label {
+            margin-right: 0;
+            margin-left: 10px;
+        }
+        
+    /* ------------------------------------------------------
+
+        8.6. Edit Profile
+
+    ------------------------------------------------------ */
+
+        .kw-table-logins .kw-provider-col .kw-cell-content {
+            padding-right: 20px;
+            padding-left: 0;
+        }
+
+        .kw-provider-label .fa,
+        .kw-provider-label [class*="icon-"] {
+          margin-right: 0;
+          margin-left: 10px;
+        }
+
+    /* ------------------------------------------------------
+      
+        8.7. Add New Listing
+          
+    ------------------------------------------------------ */
+
+        .kw-info-icon {
+          right: auto;
+          left: 15px;
+        }
+
+        .kw-binded-tag .fa,
+        .kw-binded-tag [class*="icon-"] {
+          margin-left: 0;
+          margin-right: 4px;
+        }    
+
+        .kw-select-group-container .kw-select-group-icon-default,
+        .kw-select-group-container .kw-select-group-icon-active {
+          right: auto;
+          left: 20px;
+        }
+
+	/* ------------------------------------------------------
+    
+        8.10. Category
+        
+    ------------------------------------------------------ */
+
+        .kw-listings-load-more.kw-loading::after {
+            left: auto;
+            margin-left: 0;
+            right: 100%;
+            margin-right: 10px;
+        }
+
+        .kw-explore-layout .kw-map-wrapper{
+            right: auto;
+            left: 0;
+        }
+
+        .kw-explore-layout .kw-page-content,
+        .kw-explore-layout .kw-footer{
+            padding-right: 0;
+            padding-left: 50%;
+        }
+
+        /* ------------------------------------------------------
+
+            8.10.1. Items
+              
+        ------------------------------------------------------ */
+
+            /* ------------------------------------------------------
+
+                8.10.1.1. Type 1
+                
+            ------------------------------------------------------ */
+
+                .kw-listings.kw-type-1 .kw-listing-item-icon,
+                .kw-listings.kw-type-1 .kw-listing-item-like {
+                    right: auto;
+                    left: 20px;
+                }
+
+                .kw-listings.kw-type-1 .kw-listing-item-icon {
+                    right: auto;
+                    left: 60px;
+                }
+
+                .kw-listings.kw-type-1 .kw-listing-item-pintpoint .fa,
+                .kw-listings.kw-type-1 .kw-listing-item-pintpoint [class*="icon-"] {
+                    margin-right: 0;
+                    margin-left: 5px;
+                }
+
+                .kw-listings.kw-type-1:not(.kw-list-view) .kw-icons-list > li {
+                    padding-right: 0;
+                }
+
+                /* ------------------------------------------------------
+
+                        8.11.1.1.1. List View
+                      
+                ------------------------------------------------------ */
+
+                    .kw-listings.kw-type-1.kw-list-view .job_listing {
+                        padding-right: 10px;
+                        padding-left: 30px;
+                    }
+
+                    .kw-listings.kw-type-1.kw-list-view .kw-listing-item-media {
+                        float: right;
+                        margin-right: 0;
+                        margin-left: 20px;
+                    }
+
+            /* ------------------------------------------------------
+
+                    8.10.1.2. Type 2
+                    
+            ------------------------------------------------------ */
+
+                .kw-listings.kw-type-2 .kw-listing-item-info{
+                    padding-right: 20px;
+                    padding-left: 130px;
+                }
+
+                .kw-listings.kw-type-2 .kw-listing-item-header{
+                    padding-right: 0;
+                    padding-left: 130px;
+                }
+
+                .kw-listings.kw-type-2 .kw-listing-item-icon,
+                .kw-listings.kw-type-2 .kw-listing-item-like {
+                    right: auto;
+                    left: 20px;
+                }
+
+                .kw-listings.kw-type-2 .kw-listing-item-icon {
+                    right: auto;
+                    left: 60px;
+                }
+
+                .kw-listings.kw-type-2 .job_listing .kw-icons-list > li {
+                    padding-right: 0;
+                }
+
+            /* ------------------------------------------------------
+
+                    8.10.3.1. Type 3
+                    
+            ------------------------------------------------------ */
+
+                /* ------------------------------------------------------
+
+                        8.10.1.3.1. List View
+
+                ------------------------------------------------------ */
+
+                    .kw-listings.kw-type-3.kw-list-view .kw-listing-item-media {
+                      float: right;
+                      margin-right: 0;
+                      margin-left: 20px;
+                    }
+
+                    .kw-listings.kw-type-3.kw-list-view .kw-listing-item-info {
+                        padding-right: 0;
+                        padding-left: 100px;
+                    }
+
+                    .kw-listings.kw-type-3.kw-list-view .kw-listing-item-header {
+                      right: auto;
+                      left: 0;
+                    }
+
+                    .kw-listings.kw-type-3.kw-list-view .kw-listing-item-header [class*="table-row"],
+                    .kw-listings.kw-type-3.kw-list-view .kw-listing-item-header [class*="table-row"] > [class*="col-"] {
+                      width: auto;
+                      padding-left: 0;
+                      padding-right: 0;
+                      text-align: left;
+                    }
+
+            /* ------------------------------------------------------
+
+                    8.10.4.1. Type 4
+                    
+            ------------------------------------------------------ */
+
+                /* ------------------------------------------------------
+
+                        8.10.1.4.1. List View
+
+                ------------------------------------------------------ */
+
+                    .kw-listings.kw-type-4.kw-list-view .kw-listing-item-media {
+                      float: right;
+                      margin-right: 0;
+                      margin-left: 10px;
+                    }
+
+                    .kw-listings.kw-type-4.kw-list-view .kw-listing-item-info {
+                      padding-right: 0;
+                      padding-left: 100px;
+                    }
+
+                    .kw-listings.kw-type-4.kw-list-view .kw-listing-item-author-info,
+                    .kw-listings.kw-type-4.kw-list-view .kw-listing-item-data {
+                        float: right;
+                    }
+
+                    .kw-listings.kw-type-4.kw-list-view .kw-listing-item-header {
+                        right: auto;
+                        left: 0;
+                    }
+
+
+            /* ------------------------------------------------------
+
+                8.10.1.5. Type 5
+                
+            ------------------------------------------------------ */
+
+              .kw-listings.kw-type-5 .kw-listing-item-icon,
+              .kw-listings.kw-type-5 .kw-listing-item-like {
+                right: auto;
+                left: 20px;
+              }
+
+              .kw-listings.kw-type-5 .kw-listing-item-icon {
+                left: 60px;
+              }
+
+              .kw-listings.kw-type-5 .kw-listing-item-photo-amount,
+              .kw-listing-item.kw-single.kw-type-5 .kw-listing-item-photo-amount {
+                left: auto;
+                right: 20px;
+              }
+
+                /* ------------------------------------------------------
+
+                    8.10.1.5.1. List View
+
+                ------------------------------------------------------ */
+
+                    .kw-listings.kw-type-5.kw-list-view .job_listing {
+                        padding-right: 10px;
+                        padding-left: 20px;
+                    }
+
+                    .kw-listings.kw-type-5.kw-list-view .kw-listing-item-media {
+                      float: right;
+                      margin-right: 0;
+                      margin-left: 20px;
+                    }
+
+                    .kw-listings.kw-type-5.kw-list-view .kw-listing-item-header {
+                      padding-right: 0;
+                      padding-left: 120px;
+                    }
+
+                    .kw-listings.kw-type-5.kw-list-view .kw-listing-item-footer {
+                        right: auto;
+                        left: 0;
+                    }
+
+                    .kw-listings.kw-type-5.kw-list-view .kw-listing-item-footer [class*="table-row"],
+                    .kw-listings.kw-type-5.kw-list-view .kw-listing-item-footer [class*="table-row"] > [class*="col-"] {
+                        text-align: left;
+                    }
+
+        /* ------------------------------------------------------
+
+            8.10.2. Controls
+              
+        ------------------------------------------------------ */
+
+            .kw-results-controls .fa,
+            .kw-results-controls [class*="icon-"] {
+                margin-right: 0;
+                margin-left: 7px;
+            }
+
+    /* ------------------------------------------------------
+
+        8.11. Listings
+        
+    ------------------------------------------------------ */
+
+      /* ------------------------------------------------------
+
+          8.11.1. Single Item
+          
+      ------------------------------------------------------ */
+
+        .kw-listing-item.kw-single .kw-listing-item-media .owl-prev {
+          left: auto;
+          padding-left: 0;
+          right: 15px;
+        }
+
+        .kw-listing-item.kw-single .kw-listing-item-media .owl-next {
+          right: auto;
+          padding-right: 0;
+          left: 15px;
+        }
+
+        .kw-price-range-label .fa,
+        .kw-price-range-label [class*="icon-"] {
+          margin-right: 0;
+          margin-left: 10px;
+        }
+
+        /* ------------------------------------------------------
+
+            8.11.1.5. Type 5
+              
+        ------------------------------------------------------ */
+
+            .kw-get-directions .fa,
+            .kw-get-directions [class*="icon-"] {
+                margin-right: 0;
+                margin-left: 3px;
+            }
+
+        /* ------------------------------------------------------
+
+            8.11.1.6. Header & Navigation
+            
+        ------------------------------------------------------ */
+
+            .kw-page-nav-item {
+                padding-left: 0;
+                padding-right: 23px;
+            }
+
+            .kw-page-nav-item.kw-right-icon {
+                padding-right: 0;
+                padding-left: 23px;
+            }
+
+            .kw-page-nav-item .fa,
+            .kw-page-nav-item [class*="icon-"] {
+                left: auto;
+                right: 0;
+            }
+
+            .kw-page-nav-item.kw-right-icon .fa,
+            .kw-page-nav-item.kw-right-icon [class*="icon-"] {
+                right: auto;
+                left: 0;
+            }
+
+            .kw-listing-single-header .kw-listing-item-meta .kw-rating {
+                margin-right: 0;
+                margin-left: 5px;
+            }
+
+        /* ------------------------------------------------------
+
+            8.11.1.7. Reviews
+            
+        ------------------------------------------------------ */
+
+            .kw-reviews .kw-review-images,
+            .kw-reviews .kw-review-title,
+            .kw-reviews .kw-evaluations,
+            .kw-reviews .kw-review-share {
+                padding-left: 0;
+                padding-right: 120px;
+            }
+
+            .kw-reviews .kw-review-title {
+                padding-left: 120px;
+            }
+
+            .kw-reviews .kw-likes {
+                right: auto;
+                left: 0;
+            }
+
+             .kw-likes > *:first-child {
+                border-radius: 0 4px 4px 0;
+                border-left-width: 1px;
+                border-right-width: 2px;
+              }
+
+              .kw-likes > *:last-child {
+                border-radius: 4px 0 0 4px;
+                border-right-width: 1px;
+                border-left-width: 2px;
+              }
+
+            .kw-reviews.kw-type-2 .comments-list .comment-author {
+                float: right;
+                padding-left: 0;
+                text-align: center;
+            }
+
+            .kw-review-share .kw-review-share-title {
+                float: right;
+                padding-right: 0;
+                padding-left: 5px;
+            }
+
+            .kw-reviews.kw-type-2 .comments-list .comment-author .fn {
+                padding-right: 0;
+            }
+
+    /* ------------------------------------------------------
+    
+        8.12. Deals
+        
+    ------------------------------------------------------ */
+
+    	.kw-limited-offer .kw-countdown .countdown-section:not(:first-child){
+			border-width: 0 2px 0 0;
+		}
+
+		.kw-limited-offer .kw-countdown{
+			margin-right: 0px;
+			margin-left: 7px;
+		}
+
+		.kw-reviews .comments-list .kw-rating{
+			right: auto;
+			left: 0;
+		}
+
+		.kw-reviews .comments-list .comment-author{
+			padding-right: 0px;
+			padding-left: 90px;
+		}
+
+		.kw-sorting .kw-sort{
+			text-align: left;
+		}
+
+    /* ------------------------------------------------------
+    
+        8.13. Home v4
+        
+    ------------------------------------------------------ */
+
+        .kw-header .kw-bottom-bar .kw-bottom-bar-action{
+            float: left;
+        }
+
+        .kw-header .kw-bottom-bar .kw-bottom-bar-action > .fa,
+        .kw-header .kw-bottom-bar .kw-bottom-bar-action > [class*="icon-"]{
+            margin-right: 0;
+            margin-left: 10px;
+        }
+
+        .kw-property .owl-carousel .owl-prev{
+            padding-left: 0px;
+            right: 20px;
+            left: auto;
+        }
+
+        .kw-property .owl-carousel .owl-next{
+            padding-right: 0px;
+            left: 20px;
+            right: auto;
+        }
+
+        .kw-property-media [class*="kw-label-"].kw-left-aligned{
+            left: auto;
+            right: 20px;
+        }
+
+        .kw-property-media [class*="kw-label-"].kw-right-aligned{
+            right: auto;
+            left: 20px;
+        }
+
+        .kw-property .kw-property-meta .kw-property-pubdate:not(:only-child){
+            text-align: left;
+        }
+
+        .kw-property .kw-property-extra-container > *{
+            border-width: 0 1px 0 0;
+        }
+
+        .kw-property .kw-property-extra-container > *:first-child{
+            border-right: none;
+        }
+
+/* ------------------------------------------------------
+    
+    10. Media Queries
+    
+------------------------------------------------------ */
+
+    @media only screen and (min-width: 1200px){
+
+        .kw-lg-table-row > [class*="col-"]:first-child{
+            padding-left: 15px;
+            padding-right: 0px;
+        }
+
+        .kw-lg-table-row > [class*="col-"]:last-child{
+            padding-right: 15px;
+            padding-left: 0px;
+        }
+
+        .kw-entries.kw-cols-4 .kw-entry .kw-entry-shop-controls .kw-actions:not(:first-child){
+    		text-align: initial;
+    	}
+
+    }
+
+    @media only screen and (min-width: 991px){
+
+        .kw-md-table-row > [class*="col-"]:first-child{
+            padding-left: 15px;
+            padding-right: 0px;
+        }
+
+        .kw-md-table-row > [class*="col-"]:last-child{
+            padding-right: 15px;
+            padding-left: 0px;
+        }
+
+    }
+
+    @media only screen and (min-width: 768px){
+
+        .kw-sm-table-row > [class*="col-"]:first-child{
+            padding-left: 15px;
+            padding-right: 0px;
+        }
+
+        .kw-sm-table-row > [class*="col-"]:last-child{
+            padding-right: 15px;
+            padding-left: 0px;
+        }
+
+    }
+
+    @media only screen and (min-width: 0px) {
+
+        .kw-xs-table-row > [class*="col-"]:first-child{
+            padding-left: 15px;
+            padding-right: 0px;
+        }
+
+        .kw-xs-table-row > [class*="col-"]:last-child:not(:only-child){
+            padding-right: 15px;
+            padding-left: 0px;
+        }
+
+        .kw-xs-table-row .kw-right-edge {
+            text-align: left;
+        }
+
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 991px){
+
+        .kw-widget .kw-entry .kw-entry-thumb,
+        .kw-widget .kw-listings.kw-type-1 .kw-listing-item-media,
+        .kw-widget .kw-listings.kw-type-4 .kw-listing-item-media,
+        .kw-widget .kw-listings.kw-type-5 .kw-listing-item-media,
+        .kw-widget .kw-listings.kw-type-3.kw-list-view .kw-listing-item-media {
+            float: none;
+            margin: 0;
+        }
+
+        .widget_about_author .kw-author-box .kw-avatar {
+            margin-right: 0;
+            margin-left: 15px;
+        }
+
+        .kw-widget .kw-listings.kw-type-2 .kw-listing-item-header {
+            padding-left: 20px;
+            padding-right: 0;
+        }
+
+        .kw-widget .kw-listings.kw-type-2 .kw-listing-item-info {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+    }
+
+    @media only screen and (max-width: 1199px){
+
+    	.owl-carousel .owl-prev{
+            padding-left: 0px;
+            right: 20px;
+            left: auto;
+        }
+
+        .owl-carousel .owl-next{
+            padding-right: 0px;
+            right: auto;
+            left: 20px;
+        }
+
+        .owl-carousel.owl-right-aligned-dots {
+            padding-left: 40px;
+        }
+
+        .owl-carousel.owl-right-aligned-dots .owl-dots {
+            margin-left: 0;
+        }
+
+    }
+
+    @media only screen and (min-width: 991px) and (max-width: 1199px) {
+      .kw-explore-layout .kw-listings.kw-type-1.kw-list-view .job_listing {
+        padding: 0;
+      }
+
+      .kw-explore-layout .kw-listings.kw-type-1.kw-list-view .kw-listing-item-media {
+        width: auto;
+        float: none;
+        margin: 0;
+      }
+    }
+
+    @media only screen and (max-width: 991px){
+
+    	.kw-has-sidebar .kw-entries-nav .kw-entry-thumb{
+    		padding-left: 0;
+    	}
+
+    	.kw-has-sidebar .kw-entries-nav .kw-previous-entry{
+    		padding-left: 10px;
+    		padding-right: 0;
+    	}
+
+    	.kw-has-sidebar .kw-entries-nav .kw-next-entry{
+    		padding-left: 0;
+    		padding-right: 10px;
+    	}
+
+    	.kw-has-sidebar .kw-entries-nav .kw-next-entry .kw-entry-thumb{
+    		padding-right: 0px;
+    	}
+
+    	.kw-header .kw-bottom-bar .kw-navigation > li > a{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .kw-header .kw-bottom-bar .kw-navigation > .kw-has-children > a,
+        .kw-header .kw-bottom-bar .kw-navigation > .menu-item-has-children > a{
+            padding-left: 28px;
+            padding-right: 10px;
+        }
+
+        .kw-header .kw-bottom-bar .kw-navigation > .kw-has-children > a::after,
+        .kw-header .kw-bottom-bar .kw-navigation > .menu-item-has-children > a::after{
+            left: 12px;
+        }
+
+        .kw-explore-layout .kw-page-content,
+        .kw-explore-layout .kw-footer{
+            padding-left: 0px;
+        }
+
+        .kw-has-sidebar .kw-listings.kw-type-1.kw-list-view .job_listing {
+            padding: 0px;
+        }
+
+        .kw-has-sidebar .kw-listings.kw-type-1.kw-list-view .kw-listing-item-media {
+            float: none;
+            margin: 0;
+        }
+
+        .kw-testimonials.kw-type-4 .kw-testimonial {
+            padding-right: 150px;
+        }
+
+        .kw-testimonials.kw-type-4 .kw-avatar {
+            right: 0px;
+        }
+
+        .kw-listings.kw-type-4.kw-list-view .kw-listing-item-author-info,
+        .kw-listings.kw-type-4.kw-list-view .kw-listing-item-data {
+            float: none;
+        }
+
+        .kw-has-sidebar .kw-listings.kw-type-5.kw-list-view .kw-listing-item-media {
+            float: none;
+            margin: 0;
+        }
+
+        .kw-has-sidebar .kw-listings.kw-type-5.kw-list-view .kw-listing-item-header {
+            padding-left: 0;
+        }
+
+        .kw-has-sidebar .kw-listings.kw-type-5.kw-list-view .kw-listing-item-footer [class*="table-row"],
+        .kw-has-sidebar .kw-listings.kw-type-5.kw-list-view .kw-listing-item-footer [class*="table-row"] > [class*="col-"] {
+            text-align: initial;
+        }
+
+    }
+
+    @media only screen and (max-width: 767px){
+
+    	.kw-header,
+    	.kw-header .kw-hcontent{
+    		text-align: center;
+    	}
+
+    	.kw-header:not([class*="kw-type-"]) .kw-top-bar .kw-hr-list,
+    	.kw-header:not([class*="kw-type-"]) .kw-top-bar .kw-hr-list:last-child{
+    		float: none;
+    	}
+
+    	.kw-navigation .sub-menu .sub-menu,
+    	.kw-navigation .kw-sub-menu .kw-sub-menu{
+    		padding-left: 0px;
+    		padding-right: 20px;
+    	}
+
+    	.kw-newsletter > *:not(:last-child){
+            padding-left: 0px;
+        }
+
+        .kw-section-header .kw-right-col{
+            text-align: initial;
+            padding-right: 0;
+        }
+
+        .kw-right-edge{
+            text-align: inherit;
+        }
+
+        .kw-entries[class*="kw-cols-"] .kw-entry-wrap{
+    		text-align: right;
+    	}
+
+    	.kw-entries-nav .kw-entry-thumb{
+    		padding-left: 0px;
+    	}
+
+    	.kw-entries-nav .kw-previous-entry{
+    		padding-right: 0px;
+    		padding-left: 10px;
+    	}
+
+    	.kw-entries-nav .kw-next-entry{
+    		padding-left: 0px;
+    		padding-right: 10px;
+    	}
+
+    	.comments-list p,
+    	.comments-list .comment-meta,
+    	.comments-list .comment .reply,
+    	.comments-list .comment-author cite,
+    	.comments-list .comment-author .fn{
+    		padding-right: 90px;
+    	}
+
+    	.comments-list .comment-meta .reply,
+    	.kw-entries-nav .kw-next-entry .kw-entry-thumb{
+    		padding-right: 0px;
+    	}
+
+    	.comments-list .comment .comment{
+    		padding-right: 20px;
+    	}
+
+        .kw-icon-boxes.kw-list-type{
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .kw-icon-boxes.kw-type-2{
+            text-align: right;
+        }
+
+        .kw-message .kw-author-box {
+            padding-right: 0;
+        }
+
+        .kw-table-directories .kw-actions-col {
+            text-align: center;
+        }
+
+        .kw-message .kw-author-box .kw-avatar,
+        .kw-announcement .kw-author-box .kw-avatar,
+        .kw-directory .kw-author-box .kw-avatar {
+            float: none;
+            margin-left: auto;
+        }
+
+        input[type="checkbox"].kw-message-checkbox + label {
+            right: auto;
+        }
+
+        .kw-listings.kw-type-1.kw-list-view .job_listing {
+            padding: 0;
+        }
+
+        .kw-listings.kw-type-1.kw-list-view .kw-listing-item-media {
+            margin: 0;
+            float: none;
+        }
+
+        .kw-listings.kw-type-1.kw-list-view .kw-listing-item-info {
+            padding: 17px 20px;
+        }
+
+        .kw-oneline-row-action,
+        .owl-carousel.owl-right-aligned-dots,
+        .kw-oneline-row-action,
+        .kw-oneline-form.kw-type-2 .kw-oneline-row-action {
+            padding-left: 0;
+        }
+
+        [class*="kw-oneline-row"].kw-title,
+        .kw-oneline-form.kw-type-2 [class*="kw-oneline-row"].kw-title {
+            padding-right: 0;
+        }
+
+        .owl-carousel.owl-right-aligned-dots .owl-dots {
+            position: static;
+        }
+
+        .kw-testimonials.kw-type-4 .kw-testimonial {
+            padding-right: 110px;
+        }
+
+        .kw-listings.kw-type-5.kw-list-view .kw-listing-item-media {
+            float: none;
+            margin: 0;
+          }
+
+        .kw-listings.kw-type-5.kw-list-view .kw-listing-item-header {
+            padding-left: 0;
+          }
+
+        .kw-listings.kw-type-5.kw-list-view .kw-listing-item-footer [class*="table-row"],
+        .kw-listings.kw-type-5.kw-list-view .kw-listing-item-footer [class*="table-row"] > [class*="col-"] {
+            text-align: initial;
+          }
+
+        .kw-header .kw-bottom-bar .kw-bottom-bar-action {
+            float: none;
+        }
+
+        .kw-reviews.kw-type-2 .comments-list .comment-author {
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .kw-def-list dt,
+        .kw-box .kw-def-list dt{
+            float: none;
+        }
+
+        .kw-box .kw-def-list dd,
+        .kw-reviews.kw-type-2 .kw-review-images,
+        .kw-reviews.kw-type-2 .kw-review-title,
+        .kw-reviews.kw-type-2 .kw-evaluations,
+        .kw-reviews.kw-type-2 .kw-review-share,
+        .kw-reviews.kw-type-2 .comments-list p,
+        .kw-reviews.kw-type-2 .comments-list .comment-meta,
+        .kw-reviews.kw-type-2 .comments-list .comment .reply,
+        .kw-reviews.kw-type-2 .comments-list .comment-author cite,
+        .kw-reviews.kw-type-2 .comments-list .comment-author .fn {
+            padding-right: 0;
+        }
+
+    }
+
+    @media only screen and (max-width: 500px){
+
+    	.kw-sorting .kw-sort,
+    	.kw-entry .kw-entry-shop-controls .kw-actions:not(:first-child){
+    		text-align: initial;
+    	}
+
+        .kw-left-aligned-labels label{
+            padding-left: 10px;
+        }
+
+        .kw-counters-holder.kw-cols-4 .kw-counter,
+        .kw-counters-holder.kw-cols-3 .kw-counter,
+        .kw-counters-holder.kw-cols-2 .kw-counter{
+            width: 100%;
+        }
+
+        .kw-tour-sections-nav{
+            float: none;
+        }
+
+        .kw-tour-sections-nav > li > a{
+            border-radius: 4px;
+        }
+
+        .kw-my-account .kw-author-box .kw-avatar {
+            float: none;
+            margin-left: auto;
+        }
+
+        .kw-testimonials:not([class*="kw-type"]) .kw-author-box {
+            float: none;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .kw-testimonials.kw-type-4 .kw-testimonial {
+            padding-right: 0px;
+        }
+
+        .kw-testimonials.kw-type-4 .kw-author-box {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+         .kw-listings.kw-type-3.kw-list-view .kw-listing-item-media {
+          float: none;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .kw-listings.kw-type-3.kw-list-view .kw-listing-item-info {
+          padding-left: 0;
+        }
+
+        .kw-listings.kw-type-3.kw-list-view .kw-listing-item-header [class*="table-row"],
+        .kw-listings.kw-type-3.kw-list-view .kw-listing-item-header [class*="table-row"] > [class*="col-"] {
+          text-align: inherit;
+        }
+
+        .kw-listings.kw-type-4.kw-list-view .kw-listing-item-header {
+            padding-right: 10px;
+        }
+
+        .kw-listings.kw-type-4.kw-list-view .kw-listing-item-info {
+            padding-left: 0;
+        }
+
+    }
+
+/* ------------------------------------------------
+
+	Bootstrap RTL layout
+
+------------------------------------------------ */
+
+@media only screen and (min-width: 768px){
+
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+		float: right;
+	}
+
+	.col-sm-offset-12{
+		margin-left: 0px;
+		margin-right: 100%;
+	}
+
+	.col-sm-offset-11{
+		margin-left: 0px;
+		margin-right:91.66666667%;
+	}
+
+	.col-sm-offset-10{
+		margin-left: 0px;
+		margin-right:83.33333333%;
+	}
+
+	.col-sm-offset-9{
+		margin-left: 0px;
+		margin-right:75%;
+	}
+
+	.col-sm-offset-8{
+		margin-left: 0px;
+		margin-right:66.66666667%;
+	}
+
+	.col-sm-offset-7{
+		margin-left: 0px;
+		margin-right:58.33333333%;
+	}
+
+	.col-sm-offset-6{
+		margin-left: 0px;
+		margin-right:50%;
+	}
+
+	.col-sm-offset-5{
+		margin-left: 0px;
+		margin-right:41.66666667%;
+	}
+
+	.col-sm-offset-4{
+		margin-left: 0px;
+		margin-right:33.33333333%;
+	}
+
+	.col-sm-offset-3{
+		margin-left: 0px;
+		margin-right:25%;
+	}
+
+	.col-sm-offset-2{
+		margin-left: 0px;
+		margin-right:16.66666667%;
+	}
+
+	.col-sm-offset-1{
+		margin-left: 0px;
+		margin-right:8.33333333%;
+	}
+
+	.col-sm-offset-0{
+		margin-left: 0px;
+		margin-right:0;
+	}
+
+}
+
+@media only screen and (min-width: 992px){
+
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+		float: right;
+	}
+
+	.col-md-offset-12{
+		margin-left: 0px;
+		margin-right: 100%;
+	}
+
+	.col-md-offset-11{
+		margin-left: 0px;
+		margin-right:91.66666667%;
+	}
+
+	.col-md-offset-10{
+		margin-left: 0px;
+		margin-right:83.33333333%;
+	}
+
+	.col-md-offset-9{
+		margin-left: 0px;
+		margin-right:75%;
+	}
+
+	.col-md-offset-8{
+		margin-left: 0px;
+		margin-right:66.66666667%;
+	}
+
+	.col-md-offset-7{
+		margin-left: 0px;
+		margin-right:58.33333333%;
+	}
+
+	.col-md-offset-6{
+		margin-left: 0px;
+		margin-right:50%;
+	}
+
+	.col-md-offset-5{
+		margin-left: 0px;
+		margin-right:41.66666667%;
+	}
+
+	.col-md-offset-4{
+		margin-left: 0px;
+		margin-right:33.33333333%;
+	}
+
+	.col-md-offset-3{
+		margin-left: 0px;
+		margin-right:25%;
+	}
+
+	.col-md-offset-2{
+		margin-left: 0px;
+		margin-right:16.66666667%;
+	}
+
+	.col-md-offset-1{
+		margin-left: 0px;
+		margin-right:8.33333333%;
+	}
+
+	.col-md-offset-0{
+		margin-left: 0px;
+		margin-right:0;
+	}
+
+}
+
+@media only screen and (min-width: 1199px){
+
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
+		float: right;
+	}
+
+	.col-lg-offset-12{
+		margin-left: 0px;
+		margin-right: 100%;
+	}
+
+	.col-lg-offset-11{
+		margin-left: 0px;
+		margin-right:91.66666667%;
+	}
+
+	.col-lg-offset-10{
+		margin-left: 0px;
+		margin-right:83.33333333%;
+	}
+
+	.col-lg-offset-9{
+		margin-left: 0px;
+		margin-right:75%;
+	}
+
+	.col-lg-offset-8{
+		margin-left: 0px;
+		margin-right:66.66666667%;
+	}
+
+	.col-lg-offset-7{
+		margin-left: 0px;
+		margin-right:58.33333333%;
+	}
+
+	.col-lg-offset-6{
+		margin-left: 0px;
+		margin-right:50%;
+	}
+
+	.col-lg-offset-5{
+		margin-left: 0px;
+		margin-right:41.66666667%;
+	}
+
+	.col-lg-offset-4{
+		margin-left: 0px;
+		margin-right:33.33333333%;
+	}
+
+	.col-lg-offset-3{
+		margin-left: 0px;
+		margin-right:25%;
+	}
+
+	.col-lg-offset-2{
+		margin-left: 0px;
+		margin-right:16.66666667%;
+	}
+
+	.col-lg-offset-1{
+		margin-left: 0px;
+		margin-right:8.33333333%;
+	}
+
+	.col-lg-offset-0{
+		margin-left: 0px;
+		margin-right:0;
+	}
+
+}

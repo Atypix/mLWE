@@ -1,0 +1,574 @@
+# Translation of Plugins - GDPR Cookie Consent - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - GDPR Cookie Consent - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-13 21:25:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - GDPR Cookie Consent - Stable (latest release)\n"
+
+#: admin/cli-admin-page.php:287
+msgid "Reload on Accept button click"
+msgstr "Recharger la page au clic sur le bouton de consentement"
+
+#: admin/cli-admin-page.php:252
+msgid "Auto-hide cookie bar after delay?"
+msgstr "Masquer automatiquement le bandeau de cookies après un délai ?"
+
+#: php/shortcodes.php:95
+msgid "Description"
+msgstr "Description"
+
+#: php/shortcodes.php:92
+msgid "Duration"
+msgstr "Durée"
+
+#. Author URI of the plugin/theme
+msgid "https://www.webtoffee.com/product/gdpr-cookie-consent/"
+msgstr "https://www.webtoffee.com/product/gdpr-cookie-consent/"
+
+#. Author of the plugin/theme
+msgid "webtoffee"
+msgstr "webtoffee"
+
+#: php/shortcodes.php:89
+msgid "Type"
+msgstr "Type"
+
+#: php/shortcodes.php:86
+msgid "Cookie"
+msgstr "Cookie"
+
+#: php/custom-post-types.php:105
+msgid "Cookie Duration:"
+msgstr "Durée du Cookie :"
+
+#: php/custom-post-types.php:31
+msgid "New Cookie Type"
+msgstr "Nouveau type de Cookie"
+
+#: php/custom-post-types.php:30
+msgid "Edit Cookie Type"
+msgstr "Modifier le type de Cookie"
+
+#: php/custom-post-types.php:29
+msgid "Add New Cookie Type"
+msgstr "Ajouter un nouveau type de Cookie"
+
+#: php/custom-post-types.php:28
+msgctxt "cookie type"
+msgid "Add New"
+msgstr "Ajouter nouveau"
+
+#: php/custom-post-types.php:26
+msgid "Cookie List"
+msgstr "Liste des Cookies"
+
+#: php/custom-post-types.php:27
+msgctxt "post type singular name"
+msgid "Cookie"
+msgstr "Cookie"
+
+#: admin/cli-admin-page.php:755
+msgid "Help"
+msgstr "Aide"
+
+#: admin/cli-admin-page.php:724
+msgid "Upgrade to GDPR Pro"
+msgstr "Mettre à niveau vers GDPR Pro"
+
+#: admin/cli-admin-page.php:635
+msgid "Advanced"
+msgstr "Avancé"
+
+#: admin/cli-admin-page.php:696
+msgid "Where did my settings go?"
+msgstr "Où sont passés mes réglages ?"
+
+#: admin/cli-admin-page.php:623
+msgid "Other shortcodes"
+msgstr "Autres codes courts"
+
+#: admin/cli-admin-page.php:469 admin/cli-admin-page.php:540
+#: admin/cli-admin-page.php:598
+msgid "Button Size"
+msgstr "Taille du bouton"
+
+#: admin/cli-admin-page.php:461 admin/cli-admin-page.php:532
+#: admin/cli-admin-page.php:590
+msgid "Button colour"
+msgstr "Couleur du bouton"
+
+#: admin/cli-admin-page.php:480
+msgid "Reject Button"
+msgstr "Bouton Rejeter"
+
+#: admin/cli-admin-page.php:454 admin/cli-admin-page.php:525
+#: admin/cli-admin-page.php:583
+msgid "Show as button?"
+msgstr "Afficher en tant que bouton ?"
+
+#: admin/cli-admin-page.php:446 admin/cli-admin-page.php:517
+#: admin/cli-admin-page.php:566
+msgid "Link colour"
+msgstr "Couleur du lien"
+
+#: admin/cli-admin-page.php:439 admin/cli-admin-page.php:510
+#: admin/cli-admin-page.php:576
+msgid "Open link in new window?"
+msgstr "Ouvrir le lien dans une nouvelle fenêtre ?"
+
+#: admin/cli-admin-page.php:372
+msgid "Text Colour"
+msgstr "Couleur du texte"
+
+#: admin/cli-admin-page.php:397
+msgid "Font"
+msgstr "Police"
+
+#: admin/cli-admin-page.php:389
+msgid "Border Colour"
+msgstr "Couleur de la bordure"
+
+#: admin/cli-admin-page.php:381
+msgid "Show Border?"
+msgstr "Afficher la bordure ?"
+
+#: admin/cli-admin-page.php:352
+msgid "Message"
+msgstr "Message"
+
+#: admin/cli-admin-page.php:315 admin/cli-admin-page.php:322
+msgid "Left"
+msgstr "Gauche"
+
+#: admin/cli-admin-page.php:312 admin/cli-admin-page.php:319
+msgid "Right"
+msgstr "Droite"
+
+#: admin/cli-admin-page.php:710
+msgid "GDPR Cookie Consent Pro"
+msgstr "GDPR Cookie Consent Pro"
+
+#: admin/cli-admin-page.php:702
+msgid "Use previous settings"
+msgstr "Utiliser les réglages précédents"
+
+#: admin/cli-admin-page.php:431 admin/cli-admin-page.php:502
+#: admin/cli-admin-page.php:560
+msgid "Link URL"
+msgstr "URL du lien"
+
+#: admin/cli-admin-page.php:423 admin/cli-admin-page.php:490
+msgid "Action"
+msgstr "Action"
+
+#: admin/cli-admin-page.php:417 admin/cli-admin-page.php:484
+#: admin/cli-admin-page.php:554
+msgid "Link Text"
+msgstr "Texte du lien"
+
+#: admin/cli-admin-page.php:413
+msgid "Main Button"
+msgstr "Bouton principal"
+
+#: admin/cli-admin-page.php:411
+msgid "Accept Button"
+msgstr "Bouton Accepter"
+
+#: admin/cli-admin-page.php:210
+msgid "On load"
+msgstr "Au chargement"
+
+#: admin/cli-admin-page.php:234
+msgid "On hide"
+msgstr "Au masquage"
+
+#: admin/cli-admin-page.php:152
+msgid "Settings"
+msgstr "Réglages"
+
+#: admin/cli-admin-page.php:166
+msgid "Reject Button:"
+msgstr "Bouton Rejeter :"
+
+#: admin/cli-admin-page.php:44 admin/cli-admin-page.php:853
+msgid "Settings Updated."
+msgstr "Réglages mis à jour."
+
+#. Description of the plugin/theme
+msgid "A simple way of to show your website complies with the EU Cookie Law / GDPR."
+msgstr "Une manière simple de montrer que votre site se rend conforme à la loi européenne sur les cookie et au RGPD."
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/cookie-law-info/"
+msgstr "https://wordpress.org/plugins/cookie-law-info/"
+
+#. Plugin Name of the plugin/theme
+msgid "GDPR Cookie Consent"
+msgstr "GDPR Cookie Consent"
+
+#: php/custom-post-types.php:127
+msgid "Cookie ID:"
+msgstr "ID du cookie :"
+
+#: php/custom-post-types.php:93
+msgid "Cookie Type: (persistent, session, third party )"
+msgstr "Type de cookie : (persistant, session, tierce partie)"
+
+#: php/custom-post-types.php:35
+msgid "Nothing found in Trash"
+msgstr "Rien de trouvé dans la corbeille"
+
+#: php/custom-post-types.php:34
+msgid "Nothing found"
+msgstr "Rien de trouvé"
+
+#: php/custom-post-types.php:33
+msgid "Search Cookies"
+msgstr "Rechercher des cookies"
+
+#: php/custom-post-types.php:32
+msgid "View Cookie Type"
+msgstr "Voir le type de cookie"
+
+#: php/custom-post-types.php:25
+msgctxt "post type general name"
+msgid "Cookie Law Info"
+msgstr "Gestion des cookies"
+
+#: admin/cli-admin-page.php:913
+msgid "Shortcodes allowed: see settings section \"Using the Shortcodes\"."
+msgstr "Code courts autorisés : voir la section des réglages « utiliser les codes courts »."
+
+#: admin/cli-admin-page.php:891
+msgid "Print scripts in the head tag on the front end if above cookie settings is enabled and user has given consent."
+msgstr "Intégrer les scripts dans l’élément head en frontal, si le visiteur a donné son consentement à l’utilisation des cookies et si son navigateur permet leur usage."
+
+#: admin/cli-admin-page.php:895
+msgid "This script will be added right after the BODY section if the above settings is enabled and user has given consent."
+msgstr "Ce script sera ajouté juste après l’élément BODY si le réglage ci-dessus est activé et si le visiteur a donné son consentement."
+
+#: admin/cli-admin-page.php:902
+msgid "Print scripts before the closing body tag on the front end if above cookie settings is enabled and user has given consent."
+msgstr "Intégrer les scripts avant la fermeture de l’élément body en frontal, si le visiteur a donné son consentement à l’utilisation des cookies et si son navigateur permet leur usage."
+
+#: admin/cli-admin-page.php:884
+msgid "This script will be added to the page HEAD section if the above settings is enabled and user has give consent."
+msgstr "Ce script sera ajouté dans l’élément HEAD si le réglage ci-dessus est activé et si le visiteur a donné son consentement."
+
+#: admin/cli-admin-page.php:820
+msgid "Non-necessary Cookie Settings"
+msgstr "Réglages de cookies non indispensables"
+
+#: admin/cli-admin-page.php:876
+msgid "Enable Non-necessary Cookie"
+msgstr "Activer les cookies non indispensables"
+
+#: php/custom-post-types.php:116
+msgid "Cookie Sensitivity: ( necessary , non-necessary )"
+msgstr "Sensibilité du cookie : (nécessaire, non indipensables)"
+
+#: admin/cli-admin-page.php:760
+msgid "About the law"
+msgstr "À propos de la loi"
+
+#: admin/cli-admin-page.php:759
+msgid "Suggest a Feature"
+msgstr "Suggérer une fonctionnalité"
+
+#: admin/cli-admin-page.php:758
+msgid "Report a Bug"
+msgstr "Rapporter un bogue"
+
+#: admin/cli-admin-page.php:757
+msgid "Help and Support"
+msgstr "Aide et support"
+
+#: admin/cli-admin-page.php:752
+msgid "  much appreciated!"
+msgstr "Très apprécié !"
+
+#: admin/cli-admin-page.php:752
+msgid " on"
+msgstr "sur"
+
+#: admin/cli-admin-page.php:752
+msgid "If you find this plugin useful please show your support and rate it"
+msgstr "Si vous avez trouvé cette extension utile, merci de montrer votre soutien et la noter"
+
+#: admin/cli-admin-page.php:751
+msgid "Like this plugin?"
+msgstr "Vous aimez cette extension ?"
+
+#: admin/cli-admin-page.php:722
+msgid "*  qTranslate support"
+msgstr "* support de qTranslate"
+
+#: admin/cli-admin-page.php:721
+msgid "*  \"Cookie Audit\" shortcode to construct a nicely-styled \"Privacy & Cookie Policy\""
+msgstr "* Code court Cookie Audit pour construire une belle « politique de confidentialité sur les cookies »"
+
+#: admin/cli-admin-page.php:720
+msgid "*  (Optional) cookie bar can be permanently dismissed or accessible through a \"show again\" tab"
+msgstr "* La barre de cookie peut être ignorée de façon permanente ou accessible avec un bouton « montrer à nouveau » (facultatif)"
+
+#: admin/cli-admin-page.php:612
+msgid "You can enter the shortcodes in the"
+msgstr "Vous pouvez saisir les codes courts dans le"
+
+#: admin/cli-admin-page.php:611
+msgid "Cookie bar shortcodes"
+msgstr "Codes courts du bandeau cookies"
+
+#: admin/cli-admin-page.php:609
+msgid "Using the Shortcodes"
+msgstr "Utiliser les codes courts"
+
+#: admin/cli-admin-page.php:551
+msgid "This button/link can be used to provide a link out to your Privacy & Cookie Policy. You can customise it any way you like."
+msgstr "Ce bouton/lien peut être utilisé pour fournir un lien vers votre page de politique de confidentialité sur les cookies.  Vous pouvez personnaliser cela comme vous le souhaitez."
+
+#: admin/cli-admin-page.php:719
+msgid "*  (Optional) automatically close the cookie bar after a delay (delay is configurable)"
+msgstr "* Fermer automatiquement le bandeau cookie après un délai configurable (facultatif)"
+
+#: admin/cli-admin-page.php:718
+msgid "*  (Optional) accept cookie policy if the user scrolls"
+msgstr "* Accepter la politique de cookie si le visiteur fait défiler la page (facultatif)"
+
+#: admin/cli-admin-page.php:717
+msgid "*  Put the cookie bar in either the header or the footer"
+msgstr "* Mettre le bandeau de cookies soit dans l’en-tête, soit dans le pied de page"
+
+#: admin/cli-admin-page.php:716
+msgid "*  Fully customisable to look just like your own website's style: customise the colours, styles and fonts"
+msgstr "* Pleinement personnalisable afin de coller au design de votre site : personnalisez les couleurs, les styles et polices"
+
+#: admin/cli-admin-page.php:715
+msgid "*  Allow to display Cookie Settings popup where site visitors can opt-in or give consent to Cookie Categories"
+msgstr "* Permet d’afficher une fenêtre modale avec les réglages de cookies où les visiteurs peuvent accepter ou donner leur consentement à chaque catégorie de cookies."
+
+#: admin/cli-admin-page.php:714
+msgid "*  Manage Cookie Categories"
+msgstr "* Gérer les catégories de cookies"
+
+#: admin/cli-admin-page.php:713
+msgid "*  Manage list of cookies ( Name, CookieID, Description, Duration, Type, Category, Header Script, Footer Script)"
+msgstr "* Gérer la liste des cookies (nom, identifiant, description, durée, type, catégorie, script d’en-tête, script de pied de page)"
+
+#: admin/cli-admin-page.php:707
+msgid "If you want to go back to the previous version you can always download it again from"
+msgstr "Si vous voulez revenir à la version précédente vous pouvez toujours la télécharger à nouveau sur "
+
+#: admin/cli-admin-page.php:703
+msgid "Start afresh with the new version"
+msgstr "Recommencer à nouveau avec la nouvelle version"
+
+#: admin/cli-admin-page.php:700
+msgid "Would you like to:"
+msgstr "Souhaitez-vous :"
+
+#: admin/cli-admin-page.php:698
+msgid "You can either copy over your old settings to this version, or use the new default values."
+msgstr "Vous pouvez copier vos anciens réglages vers cette version, ou utiliser les nouvelles valeurs par défaut."
+
+#: admin/cli-admin-page.php:697
+msgid "Your previous settings are safe."
+msgstr "Vos réglages précédents sont sécurisés."
+
+#: admin/cli-admin-page.php:697
+msgid "Cookie Law Info version 0.9 has been updated and has new settings."
+msgstr "Cookie Law Info version 0.9 a été mis à jour et dispose de nouveaux réglages."
+
+#: admin/cli-admin-page.php:654
+msgid "Warning: this will actually delete your current settings."
+msgstr "Attention : cela va vraiment supprimer vos réglages actuels."
+
+#: admin/cli-admin-page.php:651
+msgid "Reset all values"
+msgstr "Remettre à zéro toutes les valeurs"
+
+#: admin/cli-admin-page.php:637
+msgid "Sometimes themes apply settings that clash with plugins. If that happens, try adjusting these settings."
+msgstr "Parfois les thèmes appliquent des réglages qui entrent en conflit avec certaines extensions. Essayez d’ajuster ces réglages."
+
+#: admin/cli-admin-page.php:629
+msgid "Add any text you like- useful if you want e.g. another language to English."
+msgstr "Ajouter le texte que vous souhaitez – utile par exemple pour le multilingue."
+
+#: admin/cli-admin-page.php:628
+msgid "This shortcode will display a normal HTML link which when clicked, will delete the cookie set by Cookie Law Info (this cookie is used to remember that the cookie bar is closed)."
+msgstr "Ce code court affichera un lien HTML classique. Lorsqu’il sera cliqué, il supprimera le cookie déposé par Cookie Law Info (ce cookie est utilisé pour se souvenir que le bandeau de cookies a été fermé)."
+
+#: admin/cli-admin-page.php:626
+msgid "You need to enter the cookies your website uses via the Cookie Law Info menu in your WordPress dashboard."
+msgstr "Vous devez saisir les cookies que votre site utilise avec le menu Cookies dans votre tableau de bord WordPress."
+
+#: admin/cli-admin-page.php:619 admin/cli-admin-page.php:621
+msgid "This is the"
+msgstr "Ceci est le"
+
+#: admin/cli-admin-page.php:621
+msgid "link you customise above."
+msgstr "lien que vous avez personnalisé précédemment."
+
+#: admin/cli-admin-page.php:619
+msgid "you customise above."
+msgstr "que vous avez personnalisé précédemment."
+
+#: admin/cli-admin-page.php:617
+msgid "for the attribute."
+msgstr "pour l’attribut."
+
+#: admin/cli-admin-page.php:617
+msgid "Careful to use the British spelling of "
+msgstr "Faites attention à la prononciation anglaise de "
+
+#: admin/cli-admin-page.php:626
+msgid "This prints out a nice table of cookies, in line with the guidance given by the ICO."
+msgstr "Cela affiche un joli tableau de cookies le plus conforme possible avec la règlementation."
+
+#: admin/cli-admin-page.php:624
+msgid "These shortcodes can be used in pages and posts on your website. It is not recommended to use these inside the cookie bar itself."
+msgstr "Ces codes courts peuvent être utilisés avec des pages ou des articles sur votre site. Il n’est pas recommandé de les utilisé à l’intérieur du bandeau de cookies lui-même."
+
+#: admin/cli-admin-page.php:348
+msgid "Cookie Law Message Bar"
+msgstr "Message du bandeau de Cookies"
+
+#: admin/cli-admin-page.php:337
+msgid "Show More Text"
+msgstr "Texte du message permettant d’en savoir plus"
+
+#: admin/cli-admin-page.php:330
+msgid "From Left Margin"
+msgstr "Depuis la marge externe de gauche"
+
+#: admin/cli-admin-page.php:306
+msgid "Tab Position"
+msgstr "Position de l’onglet"
+
+#: admin/cli-admin-page.php:550
+msgid "Read More Link"
+msgstr "Lien En savoir plus"
+
+#: admin/cli-admin-page.php:408
+msgid "Customise Buttons"
+msgstr "Personnaliser les boutons"
+
+#: admin/cli-admin-page.php:362
+msgid "Cookie Bar Colour"
+msgstr "Couleur du bandeau de cookies"
+
+#: admin/cli-admin-page.php:219 admin/cli-admin-page.php:226
+msgid "Sticky"
+msgstr "Èpinglé"
+
+#: admin/cli-admin-page.php:216 admin/cli-admin-page.php:223
+msgid "Animate"
+msgstr "Animer"
+
+#: admin/cli-admin-page.php:183 admin/cli-admin-page.php:190
+msgid "Footer"
+msgstr "Pied de page"
+
+#: admin/cli-admin-page.php:180 admin/cli-admin-page.php:187
+msgid "Header"
+msgstr "En-tête"
+
+#: admin/cli-admin-page.php:154
+msgid "The Cookie Bar"
+msgstr "Le bandeau de cookies"
+
+#: admin/cli-admin-page.php:505
+msgid "Button will only link to URL if "
+msgstr "Le bouton fera un lien vers l’URL seulement si "
+
+#: admin/cli-admin-page.php:434
+msgid "Button will only link to URL if"
+msgstr "Le bouton fera un lien vers l’URL seulement si "
+
+#: admin/cli-admin-page.php:615
+msgid "If you just want a standard green"
+msgstr "Si vous voulez simplement un vert standard"
+
+#: admin/cli-admin-page.php:299
+msgid "Use Show Again Tab?"
+msgstr "Utiliser l’onglet Afficher à nouveau ?"
+
+#: admin/cli-admin-page.php:296
+msgid "The Show Again Tab"
+msgstr "L’onglet Afficher à nouveau"
+
+#: admin/cli-admin-page.php:275
+msgid "Reload after \"scroll accept\" event?"
+msgstr "Recharger après l’événement d’acceptation lié au défilement ?"
+
+#: admin/cli-admin-page.php:259
+msgid "Milliseconds until hidden"
+msgstr "Millièmes de secondes avant le masquage"
+
+#: admin/cli-admin-page.php:54 admin/cli-admin-page.php:77
+msgid "ERROR MIGRATING SETTINGS (ERROR: 2)"
+msgstr "ERREUR DE MIGRATION DES RÉGLAGES (ERREUR : 2)"
+
+#: admin/cli-admin-page.php:65
+msgid "Cookie Law Settings"
+msgstr "Réglages Cookie Law"
+
+#: admin/cli-admin-page.php:88
+msgid "Error processing migration request (ERROR: 4)"
+msgstr "Une erreur est survenue pendant la migration (ERREUR : 4)"
+
+#: admin/cli-admin-page.php:617
+msgid "Alternatively you can add a colour value. Choose from: red, blue, orange, yellow, green or pink."
+msgstr ".Vous pouvez aussi ajouter un nom de couleur (en anglais) Choisissez parmi : red, blue, orange, yellow, green or pink."
+
+#: admin/cli-admin-page.php:262
+msgid "Specify milliseconds (not seconds) e.g."
+msgstr "Spécifiez en millisecondes (non pas des secondes) par ex."
+
+#: admin/cli-admin-page.php:26
+msgid "You do not have sufficient permission to perform this operation"
+msgstr "Vous n’avez pas les droits suffisants pour exécuter cette opération."
+
+#: admin/cli-admin-page.php:174
+msgid "Cookie Bar will be show in:"
+msgstr "La barre de Cookies sera affichée dans :"
+
+#: admin/cli-admin-page.php:200
+msgid "Fix Cookie Bar to Header?"
+msgstr "Lier la barre de Cookies à l’en-tête ?"
+
+#: admin/cli-admin-page.php:120
+msgid "Your Cookie Law Info bar is switched off"
+msgstr "Votre barre d’information sur la loi relative aux Cookies est désactivée"
+
+#: admin/cli-admin-page.php:116
+msgid "Your Cookie Law Info bar is switched on"
+msgstr "Votre barre d’information sur la loi relative aux Cookies est activée"
+
+#: admin/cli-admin-page.php:157
+msgid "Cookie Bar is currently:"
+msgstr "Le bandeau Cookies est actuellement :"
+
+#: admin/cli-admin-page.php:358
+msgid "to find out how to delete cookies"
+msgstr "pour trouver comment supprimer les cookies"
+
+#: admin/cli-admin-page.php:358
+msgid "Examples: \"We use cookies on this website"
+msgstr "Examples : « Nous utilisons des cookies sur ce site »"
+
+#: admin/cli-admin-page.php:268
+msgid "Auto-hide cookie bar if the user scrolls?"
+msgstr "Masquer automatiquement le bandeau de cookies si l’utilisateur fait défiler la page ?"
+
+#: admin/cli-admin-page.php:615
+msgid "button that closes the header and nothing more, use this shortcode. It is already styled, you don't need to customise it."
+msgstr "le bouton qui ferme l’en-tête et rien de plus utilise ce code court. Il est déjà mis en forme, vous n’avez pas besoin de le personnaliser."

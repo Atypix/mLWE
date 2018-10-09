@@ -1,0 +1,1 @@
+<a id="<?php echo $id; ?>" class="stec-export-button" href="<?php echo $export_url; ?>"><?php echo $text; ?></a>

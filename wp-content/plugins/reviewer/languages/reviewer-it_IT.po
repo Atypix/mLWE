@@ -1,0 +1,2780 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Reviewer\n"
+"POT-Creation-Date: 2017-12-05 17:12+0100\n"
+"PO-Revision-Date: 2017-12-05 17:15+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _;__;_e;_n\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: public/assets\n"
+
+#: admin/class-reviewer-admin.php:185
+#: admin/includes/class-template-manager-page.php:1271
+msgid "Use as rating image"
+msgstr "Utilizza come immagine per il voto"
+
+#: admin/class-reviewer-admin.php:190
+msgid "Use as review image"
+msgstr "Utilizza come immagine per la recensione"
+
+#: admin/class-reviewer-admin.php:204
+msgid ""
+"Thank you for purchasing the Reviewer Plugin. Activate your copy in order to "
+"get support."
+msgstr ""
+"Grazie per aver acquistato il plugin Reviewer. Attiva la tua copia per "
+"ottenere supporto tecnico."
+
+#: admin/class-reviewer-admin.php:204
+msgid "Activate Now"
+msgstr "Attiva ora"
+
+#: admin/class-reviewer-admin.php:217
+msgid "User ID"
+msgstr "ID Utente"
+
+#: admin/class-reviewer-admin.php:237
+msgid "File ID"
+msgstr "ID File"
+
+#: admin/class-reviewer-admin.php:267
+msgid "View Details"
+msgstr "Visualizza Dettagli"
+
+#: admin/class-reviewer-admin.php:268
+msgid "Get Help"
+msgstr "Ottieni Supporto"
+
+#: admin/includes/class-admin-page.php:57
+msgid ""
+"Please register your Reviewer license before using the plugin. Go to "
+"Reviewer > License."
+msgstr ""
+"E’ necessario registrare la tua licenza del Reviewer prima di utilizzare il "
+"plugin. Vai a Reviewer > Licenza"
+
+#: admin/includes/class-api-page.php:24 admin/includes/class-api-page.php:31
+msgid "Reviewer API"
+msgstr "Reviewer API"
+
+#: admin/includes/class-api-page.php:33
+msgid ""
+"The Reviewer plugin offers some API to integrate the reviewer "
+"functionalities easly inside your theme. The page below describe all "
+"available APIs you can use. Click on the each api for more informations."
+msgstr ""
+"Il Reviewer plugin dispone di API al fine di integrare facilmente le sue "
+"funzionalità all'interno del tuo tema. La pagina descrive le API disponibili "
+"che posso essere utilizzate. Fare click su ogni api per ottenere maggiori "
+"informazioni."
+
+#: admin/includes/class-io-page.php:37 admin/includes/class-io-page.php:38
+#: admin/includes/class-io-page.php:83
+msgid "Migration"
+msgstr "Migrazione"
+
+#: admin/includes/class-io-page.php:86
+msgid ""
+"The page allows you to manage backups of Reviewer plugin or to migrate user "
+"reviews from an other review service to Reviewer plugin. Before go ahead "
+"make a backup of your WordPress database."
+msgstr ""
+"La pagina permette di gestire i file di backup del Plugin Reviewer o di "
+"migrare le recensione utente da un’altro servizio per le recensioni. Prima "
+"di procedere crea un Backup del tuo database di WodPress."
+
+#: admin/includes/class-io-page.php:92
+msgid "Go"
+msgstr "Esegui"
+
+#: admin/includes/class-io-page.php:114
+msgid "Reviewer Backups"
+msgstr "File di backup del Reviewer"
+
+#: admin/includes/class-io-page.php:133
+msgid "No backup has been done yet"
+msgstr "Non hai ancora eseguito un backup."
+
+#: admin/includes/class-io-page.php:185
+msgid ""
+"Unable to create the backup file. Check you have the privileges to write on "
+"reviewer/backup folder"
+msgstr ""
+"Non &egrave; possibile creare il file di backup. Controlla di avare i "
+"privilegi di scrittura sulla cartella reviewer/backup"
+
+#: admin/includes/class-io-page.php:193
+msgid "Unable to verify the new backup file."
+msgstr "Non &egrave; stato possibile verificare i file di backup."
+
+#: admin/includes/class-io-page.php:197
+msgid ""
+"Success! Download Reviewer backup files from the list down below. Backup "
+"files are inside the reviewer/backup folder."
+msgstr ""
+"Successo! Scarica i file di Backup del Reviewer dalla lista sottostante. I "
+"file di backup sono all’interno della cartella reviewer/backup"
+
+#: admin/includes/class-io-page.php:205
+msgid "Unable upload backup file."
+msgstr "Non &egrave; stato possibile caricare il file di backup."
+
+#: admin/includes/class-io-page.php:221
+msgid ""
+"Please upload a Reviewer backup file made with plugin verison >= v.3.11.0"
+msgstr ""
+"Si prega di caricare un file di backup del Reviewer esportato con una "
+"versione >= v.3.11.0"
+
+#: admin/includes/class-io-page.php:240
+msgid "The backup was successfully imported."
+msgstr "Il backup &egrave; stato importato con successo."
+
+#: admin/includes/class-io-page.php:248
+msgid "Unable upload migration file of user reviews."
+msgstr "Non è stato possibile caricare il file di migrazione delle recensioni"
+
+#: admin/includes/class-io-page.php:264
+msgid "Please upload a json file that contains user reviews."
+msgstr "Si prega di caricare un file json con le recensioni utente."
+
+#: admin/includes/class-io-page.php:289
+#, php-format
+msgid "Your user reviews were imported successfully! (%d of %d)"
+msgstr "Le tue recensioni utente sono state importate con successo! (%d di %d)"
+
+#: admin/includes/class-io-page.php:405 public/includes/class-rating.php:39
+msgid "The form was not submitted correctly!"
+msgstr "Il modulo non &egrave; stato inviato correttamente! "
+
+#: admin/includes/class-io-page.php:431
+msgid "Type of Action"
+msgstr "Tipo d’azione"
+
+#: admin/includes/class-io-page.php:434
+msgid "Make a backup"
+msgstr "Esegui Backup"
+
+#: admin/includes/class-io-page.php:435
+msgid "It will create a JSON file with all data of Reviewer plugin."
+msgstr "Creerà un file json con tutti i dati relativi al Reviewer plugin"
+
+#: admin/includes/class-io-page.php:438
+msgid "Import a backup"
+msgstr "Importa Backup"
+
+#: admin/includes/class-io-page.php:439
+#, php-format
+msgid ""
+"It will import the selected JSON file that contains Reviewer plugin backup. "
+"%s The backup file have to be made with a Reviewer plugin version >= "
+"v.3.11.0 %s"
+msgstr ""
+"Importerà il file JSON selezionato contente il backup the Reviewer plugin. "
+"%s Il file di backup deve essere stato creato con una versione del plugin >= "
+"v.3.11.0 %s"
+
+#: admin/includes/class-io-page.php:442
+msgid "Migrate"
+msgstr "Migra"
+
+#: admin/includes/class-io-page.php:443
+msgid ""
+"It will import the selected JSON file that contains user reviews from an "
+"other review service. Specifications about migration file are described "
+"inside documentation."
+msgstr ""
+"Importerà il file JSON selezionato contente le recensioni utente provenienti "
+"da un’altro servizio. Le specifiche riguardo al file di migrazione sono "
+"descritte all’interno della documentazione."
+
+#: admin/includes/class-io-page.php:463
+msgid "Backup/Migration JSON File"
+msgstr "File di Backup/Migrazione"
+
+#: admin/includes/class-io-page.php:494 admin/includes/class-io-page.php:509
+msgid "Skip this field if you chose the \"Make a backup\" action"
+msgstr "Salta questo campo se hai scelto l’azione “Esegui Backup”"
+
+#: admin/includes/class-io-page.php:510
+msgid "Choose a Reviewer backup file or a migration json file"
+msgstr ""
+"Scegli un file di backup del Reviewer plugin oppure un file json per la "
+"migrazione"
+
+#: admin/includes/class-license-page.php:36
+#: admin/includes/class-license-page.php:44
+msgid "License"
+msgstr "Licenza"
+
+#: admin/includes/class-license-page.php:50
+#, php-format
+msgid ""
+"The Reviewer Plugin needs to be activated before using its functionality. "
+"This is been necessary for preventing illegal uses of the plugin. %sPlease "
+"check the documentation out for all details and possible problems about "
+"plugin license.%s"
+msgstr ""
+"Il Plugin Reviewer deve essere attivato prima di utilizzare le sue "
+"funzionalità. Ciò è necessario per evitare usi illegali del plugin. %sSi "
+"prega di controllare la documentazione per tutti i dettagli e i possibili "
+"problemi.%s"
+
+#: admin/includes/class-license-page.php:56
+msgid "First Name"
+msgstr "Nome"
+
+#: admin/includes/class-license-page.php:62
+msgid "Last Name"
+msgstr "Cognome"
+
+#: admin/includes/class-license-page.php:68
+#: admin/includes/class-preferences-page.php:732
+#: admin/includes/class-support-page.php:240
+msgid "Email"
+msgstr "Email"
+
+#: admin/includes/class-license-page.php:74
+#: admin/includes/class-support-page.php:246
+msgid "Envato Username"
+msgstr "Nome utente su Envato"
+
+#: admin/includes/class-license-page.php:77
+#: admin/includes/class-support-page.php:248
+msgid "Your username for accessing to Envato Marktplace"
+msgstr "Il tuo nome utente per l'accesso all'Envato Marketplace"
+
+#: admin/includes/class-license-page.php:81
+msgid "Item Purchase Code"
+msgstr "Codice Acquisto"
+
+#: admin/includes/class-license-page.php:84
+msgid "Insert the purchase code you download with the Reviewer plugin"
+msgstr "Inserisci il codice acquisto che hai scaricato con il Reviewer plugin."
+
+#: admin/includes/class-license-page.php:84
+msgid "Where can I find it?"
+msgstr "Dove posso trovarlo?"
+
+#: admin/includes/class-license-page.php:90
+msgid "Activate License"
+msgstr "Attiva Licenza"
+
+#: admin/includes/class-license-page.php:93
+msgid "The collected data will not be redistributed."
+msgstr "I dati raccolti non saranno redistribuiti a terzi."
+
+#: admin/includes/class-license-page.php:101
+msgid "The current copy of Reviewer plugin is active :-)"
+msgstr "La tua copia del Reviewer plugin è attiva :)"
+
+#: admin/includes/class-license-page.php:105
+msgid "Reviewer Plugin License"
+msgstr "Licenza del Plugin Reviewer"
+
+#: admin/includes/class-license-page.php:107
+msgid "License ID"
+msgstr "ID Licenza"
+
+#: admin/includes/class-license-page.php:108
+msgid "Customer ID"
+msgstr "ID Cliente"
+
+#: admin/includes/class-license-page.php:109
+msgid "Purchase Code"
+msgstr "Codice d'Acquisto"
+
+#: admin/includes/class-license-page.php:114
+msgid "Remove License"
+msgstr "Rimuovi Licenza"
+
+#: admin/includes/class-license-page.php:148
+#: public/includes/class-user-review.php:392
+msgid "Bad request"
+msgstr "Richiesta non valida"
+
+#: admin/includes/class-license-page.php:365
+msgid "License activated manually. Thank you ;)"
+msgstr "Licenza attivata manualmente. Grazie ;)"
+
+#: admin/includes/class-main-page.php:27 admin/includes/class-main-page.php:84
+msgid "Templates"
+msgstr "Modelli"
+
+#: admin/includes/class-main-page.php:52
+msgid "Template deleted"
+msgstr "Modello eliminato"
+
+#: admin/includes/class-main-page.php:67
+msgid "Copy"
+msgstr "Copia"
+
+#: admin/includes/class-main-page.php:75
+msgid "Template duplicated"
+msgstr "Modello duplicato"
+
+#: admin/includes/class-main-page.php:86 admin/includes/class-main-page.php:102
+msgid "Add new template"
+msgstr "Aggiungi nuovo modello"
+
+#: admin/includes/class-main-page.php:130
+#: admin/includes/class-users-ratings-page.php:936
+msgid "Edit"
+msgstr "Modifica"
+
+#: admin/includes/class-main-page.php:131
+msgid "Duplicate"
+msgstr "Duplica"
+
+#: admin/includes/class-main-page.php:132
+msgid "Do you confirm the template deletion?"
+msgstr "Confermi l'eliminazione del Modello?"
+
+#: admin/includes/class-main-page.php:132
+#: admin/includes/class-users-ratings-page.php:801
+#: admin/includes/class-users-ratings-page.php:940
+msgid "Delete"
+msgstr "Elimina"
+
+#: admin/includes/class-meta-box-reviews.php:60
+msgid "Reviews Boxes"
+msgstr "Box Recensioni"
+
+#: admin/includes/class-meta-box-reviews.php:372
+msgid "It is necessary to create a Template before adding a new review."
+msgstr ""
+"&Egrave; necessario creare un Modello prima di aggiungere una recensione."
+
+#: admin/includes/class-meta-box-reviews.php:377
+msgid ""
+"In this meta box you can manage the reviews boxes for the post. You can find "
+"more informations about Reviewer Box or Users Box types inside "
+"documentation. Save/update the post to save reviews boxes."
+msgstr ""
+"All’interno del pannello puoi gestire i box recensione per l’articolo. Trovi "
+"maggiori informazioni riguardo i termini Reviewer Box e Users Box "
+"all’interno della documentazione. Salva/aggiorna l’articolo per salvare i "
+"box recensione."
+
+#: admin/includes/class-meta-box-reviews.php:387
+msgid "Add new reviews box"
+msgstr "Aggiungi un nuovo box recensioni"
+
+#: admin/includes/class-meta-box-reviews.php:391
+msgid "Review"
+msgstr "Recensione"
+
+#: admin/includes/class-meta-box-reviews.php:439
+msgid "Post id"
+msgstr "ID Articolo"
+
+#: admin/includes/class-meta-box-reviews.php:440
+msgid "Box id"
+msgstr "ID Box"
+
+#: admin/includes/class-meta-box-reviews.php:503
+#, php-format
+msgid "No custom tabs were defined in \"%s\" template"
+msgstr "Nessun pannello personalizzato &egrave; inserito nel modello \"%s\""
+
+#: admin/includes/class-meta-box-reviews.php:566
+#: admin/includes/class-template-manager-page.php:1271
+msgid "Choose Image"
+msgstr "Scegli Immagine"
+
+#: admin/includes/class-meta-box-reviews.php:566
+msgid "Review Image"
+msgstr "Immagine della Recensione"
+
+#: admin/includes/class-meta-box-reviews.php:567
+#: public/includes/class-review-shortcode.php:210
+msgid "Remove Image"
+msgstr "Rimuovi Immagine"
+
+#: admin/includes/class-meta-box-reviews.php:593
+msgid "Published"
+msgstr "Pubblicata"
+
+#: admin/includes/class-meta-box-reviews.php:593
+msgid "Draft"
+msgstr "Bozza"
+
+#: admin/includes/class-meta-box-reviews.php:611
+msgid "Add Custom Link"
+msgstr "Aggiungi Link Personalizzati"
+
+#: admin/includes/class-meta-box-reviews.php:613
+#: admin/includes/class-meta-box-reviews.php:618
+msgid "Link Label"
+msgstr "Etichetta Link"
+
+#: admin/includes/class-meta-box-reviews.php:613
+#: admin/includes/class-meta-box-reviews.php:619
+msgid "Link URL"
+msgstr "URL Link"
+
+#: admin/includes/class-meta-box-reviews.php:613
+#: admin/includes/class-meta-box-reviews.php:620
+#: admin/includes/class-template-manager-page.php:927
+#: admin/includes/class-template-manager-page.php:937
+#: admin/includes/class-template-manager-page.php:1392
+#: admin/includes/class-template-manager-page.php:1418
+#: admin/includes/class-users-ratings-page.php:222
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: admin/includes/class-meta-box-reviews.php:627
+msgid "Open custom links in a new window or tab"
+msgstr "Apri i link personalizzati in un nuovo pannello"
+
+#: admin/includes/class-meta-box-reviews.php:701
+msgid "Delete review"
+msgstr "Elimina recensione"
+
+#: admin/includes/class-meta-box-reviews.php:721
+#: admin/includes/class-meta-box-reviews.php:766
+msgid "Reviewer Box"
+msgstr "Reviewer Box"
+
+#: admin/includes/class-meta-box-reviews.php:722
+#: admin/includes/class-meta-box-reviews.php:767
+msgid "Users Box"
+msgstr "Users Box"
+
+#: admin/includes/class-meta-box-reviews.php:763
+msgid "Review Box Type"
+msgstr "Tipo Box Recensione"
+
+#: admin/includes/class-meta-box-reviews.php:769
+msgid ""
+"If you change the box type you need to save the post before editing the "
+"review box settings."
+msgstr ""
+"Se cambi il tipo di box è necessario salvare l’articolo prima di modificare "
+"le impostazioni del box."
+
+#: admin/includes/class-meta-box-reviews.php:774
+msgid "Reviews Box Title"
+msgstr "Titolo Box Recensione"
+
+#: admin/includes/class-meta-box-reviews.php:775
+#: admin/includes/class-users-ratings-page.php:715
+msgid "Review Box"
+msgstr "Box Recensione"
+
+#: admin/includes/class-meta-box-reviews.php:781
+msgid "Reviews Box Title Options"
+msgstr "Opzioni Titolo Box Recensione"
+
+#: admin/includes/class-meta-box-reviews.php:785
+msgid "Show Custom Title"
+msgstr "Mostra Titolo Personalizzato"
+
+#: admin/includes/class-meta-box-reviews.php:786
+msgid "Show Post Title"
+msgstr "Mostra Titolo Articolo"
+
+#: admin/includes/class-meta-box-reviews.php:787
+msgid "Hide Title"
+msgstr "Nascondi Titolo"
+
+#: admin/includes/class-meta-box-reviews.php:793
+msgid "Reviews Box Template"
+msgstr "Modello Box Recensione"
+
+#: admin/includes/class-meta-box-reviews.php:800
+msgid "Reviewer Scores"
+msgstr "Punteggi Critico"
+
+#: admin/includes/class-meta-box-reviews.php:807
+msgid "Reviewer Custom Overall Score"
+msgstr "Punteggio Personalizzato del Critico "
+
+#: admin/includes/class-meta-box-reviews.php:809
+msgid "Leave blank for default overall score"
+msgstr "Lasciare vuoto per utilizzare calcolo del punteggio totale predefinito"
+
+#: admin/includes/class-meta-box-reviews.php:814
+msgid "Reviews Box Criteria"
+msgstr "Criteri Box Recensione"
+
+#: admin/includes/class-meta-box-reviews.php:816
+msgid ""
+"Decide if you want to show the single criteria of Reviewer or Users inside "
+"the reviews box"
+msgstr ""
+"Decidi se vuoi visualizzare i singoli criteri del Critico o degli Utenti "
+"all’interno del box recensione"
+
+#: admin/includes/class-meta-box-reviews.php:818
+msgid "Show Reviewer single criteria "
+msgstr "Visualizza singoli criteri del Critico"
+
+#: admin/includes/class-meta-box-reviews.php:819
+msgid "Show Users single criteria"
+msgstr "Visualizza singoli criteri degli Utenti"
+
+#: admin/includes/class-meta-box-reviews.php:825
+msgid "Reviews Box Custom Tabs"
+msgstr "Pannelli Personalizzati del Box Recensione"
+
+#: admin/includes/class-meta-box-reviews.php:827
+msgid "Custom tabs will be shown near overall scores"
+msgstr "I pannelli personalizzati appariranno vicino alla sezione dei totali"
+
+#: admin/includes/class-meta-box-reviews.php:831
+msgid "Tab Value"
+msgstr "Valore del Pannello"
+
+#: admin/includes/class-meta-box-reviews.php:836
+msgid "Tab Link"
+msgstr "Link del Pannelo"
+
+#: admin/includes/class-meta-box-reviews.php:844
+msgid "Reviews Box Pros"
+msgstr "Pro Box Recensione"
+
+#: admin/includes/class-meta-box-reviews.php:851
+msgid "Reviews Box Cons"
+msgstr "Contro Box Recensione"
+
+#: admin/includes/class-meta-box-reviews.php:858
+msgid "Reviews Box Summary"
+msgstr "Riassunto Box Recensione"
+
+#: admin/includes/class-meta-box-reviews.php:864
+msgid "Use \"Featured Image\" as Reviews Box Image"
+msgstr "Usa ”Immagine in evidenza” come Immagine Box Recensione"
+
+#: admin/includes/class-meta-box-reviews.php:866
+msgid ""
+"Check the checkbox for using the post \"Featured Image\" as review image"
+msgstr "Smarca il riquadro per usare l'immagine del post come immagine review"
+
+#: admin/includes/class-meta-box-reviews.php:871
+msgid "Reviews Box Custom Image"
+msgstr "Immagine Personalizzata Box Recensione"
+
+#: admin/includes/class-meta-box-reviews.php:873
+#, php-format
+msgid "Best size %s, or any size with the same aspect ratio"
+msgstr ""
+"Miglior dimensioni %s, o qualsiasi dimensione con le stesse proporzioni"
+
+#: admin/includes/class-meta-box-reviews.php:878
+msgid "Reviews Box Image URL"
+msgstr "URL Immagine Box Recensione"
+
+#: admin/includes/class-meta-box-reviews.php:880
+msgid "You can add a custom url for review image"
+msgstr "Puoi aggiungere un url personalizzato all'immagine della recensione"
+
+#: admin/includes/class-meta-box-reviews.php:885
+#: admin/includes/class-preferences-page.php:762
+msgid "Reviews Box Custom Links"
+msgstr "Link Personalizzati Box Recensione"
+
+#: admin/includes/class-meta-box-reviews.php:887
+msgid "You can add custom links that will appear under the overall score box"
+msgstr ""
+"Puoi aggiungere link personalizzati che saranno mostrati sotto il box dei "
+"totali"
+
+#: admin/includes/class-meta-box-reviews.php:892
+msgid "Define \"sameAs\" URL"
+msgstr "Definisci l’URL per “sameAs”"
+
+#: admin/includes/class-meta-box-reviews.php:894
+msgid "Define \"sameAs\" attribute url for Google Rich Snippets"
+msgstr "Definisci l’URL dell’attributo “sameAs” per i Google Rich Snippets"
+
+#: admin/includes/class-meta-box-reviews.php:898
+msgid "Disable User reviews"
+msgstr "Disabilita recensioni utenti"
+
+#: admin/includes/class-meta-box-reviews.php:900
+msgid "Check the checkbox for disabling the users rating for this review"
+msgstr ""
+"Smarca il checkbox per disabilitare il voto utenti in questa recensione"
+
+#: admin/includes/class-meta-box-reviews.php:904
+msgid "Reviews Box Shortcodes"
+msgstr "Shortcode del Box Recensioni"
+
+#: admin/includes/class-meta-box-reviews.php:906
+#, php-format
+msgid ""
+"You can insert the following shortcodes inside your post content. If you add "
+"the %s parameter to one of those shortcodes you can display the reviews box "
+"in a different post/page. More info inside documentation."
+msgstr ""
+"Puoi inserire i seguenti shortcode all’interno dell’articolo. Se aggiungi il "
+"parametro %s ad uno di questi shortcode puoi visualizzare il box recensioni "
+"in un differente articolo/pagina. Maggiori informazioni nella documentazione."
+
+#: admin/includes/class-meta-box-reviews.php:909
+msgid "Display the review box"
+msgstr "Visualizza il box recensione"
+
+#: admin/includes/class-meta-box-reviews.php:912
+msgid "Display rating stars about the reviewer score"
+msgstr "Mostra le stelle del punteggio riguardo il punteggio del critico"
+
+#: admin/includes/class-meta-box-reviews.php:915
+msgid "Display rating stars about the users score"
+msgstr ""
+"Mostra le stelle del punteggio riguardo il punteggio delle recensione utenti"
+
+#: admin/includes/class-meta-box-reviews.php:918
+msgid ""
+"Display some recap sections of review box. The user reviews and form "
+"sections are not shown"
+msgstr ""
+"Mostra alcune sezioni di riepilogo del box recensioni. Le recensioni e il "
+"form non sono incluse"
+
+#: admin/includes/class-meta-box-reviews.php:921
+msgid "Display the scores of single criteria"
+msgstr "Mostra i punteggi di singoli criteri"
+
+#: admin/includes/class-meta-box-reviews.php:924
+msgid "Display the user reviews only"
+msgstr "Mostra le sole recensioni utente"
+
+#: admin/includes/class-meta-box-reviews.php:927
+msgid "Display the form for user review"
+msgstr "Mostra il form per la recensione"
+
+#: admin/includes/class-meta-box-tables.php:53
+msgid "Post Comparison Tables"
+msgstr "Tabelle Comparative dell'Articolo"
+
+#: admin/includes/class-meta-box-tables.php:187
+msgid "Please insert a reviews template before adding a new comparison table."
+msgstr ""
+"&Egrave necessario inserire un modello prima di aggiungere una nuova tabella "
+"comparativa."
+
+#: admin/includes/class-meta-box-tables.php:192
+msgid ""
+"In this meta box you can manage the post comparison tebles; save/update the "
+"post to save comparison tables."
+msgstr ""
+"In questo pannello puoi gestire le tabelle comparative dell'articolo; per "
+"salvare le tabelle è necessario salvare/aggiornare l'articolo."
+
+#: admin/includes/class-meta-box-tables.php:195
+msgid "Add new comparison table"
+msgstr "Aggiungi nuova tabella comparativa"
+
+#: admin/includes/class-meta-box-tables.php:198
+msgid "Table"
+msgstr "Tabella"
+
+#: admin/includes/class-meta-box-tables.php:376
+msgid "Delete table"
+msgstr "Elimina tabella"
+
+#: admin/includes/class-meta-box-tables.php:432
+msgid "Table Title"
+msgstr "Titolo Tabella"
+
+#: admin/includes/class-meta-box-tables.php:438
+msgid "Table Template"
+msgstr "Modello Tabella"
+
+#: admin/includes/class-meta-box-tables.php:444
+msgid "Table Theme"
+msgstr "Tema della Tabella"
+
+#: admin/includes/class-meta-box-tables.php:447
+msgid "Default"
+msgstr "Predefinito"
+
+#: admin/includes/class-meta-box-tables.php:448
+msgid "Theme 1"
+msgstr "Tema 1"
+
+#: admin/includes/class-meta-box-tables.php:449
+msgid "Theme 2"
+msgstr "Tema 2"
+
+#: admin/includes/class-meta-box-tables.php:450
+msgid "Theme 3"
+msgstr "Tema 3"
+
+#: admin/includes/class-meta-box-tables.php:451
+msgid "Theme 4"
+msgstr "Tema 4"
+
+#: admin/includes/class-meta-box-tables.php:452
+msgid "Theme 5"
+msgstr "Tema 5"
+
+#: admin/includes/class-meta-box-tables.php:454
+msgid ""
+"The \"Default\" Theme picks one of the other themes based on the theme of "
+"reviews"
+msgstr ""
+"Il tema \"Predefinito\" utilizza uno degli altri temi basandosi sul tema "
+"della delle recensioni"
+
+#: admin/includes/class-meta-box-tables.php:458
+msgid "Table Reviews"
+msgstr "Recensioni della Tabella"
+
+#: admin/includes/class-meta-box-tables.php:464
+msgid "Table Sorting"
+msgstr "Ordinamento Tabella"
+
+#: admin/includes/class-meta-box-tables.php:467
+msgid "Sort by Latest Boxes"
+msgstr "Ordina per Ultimi Box"
+
+#: admin/includes/class-meta-box-tables.php:468
+msgid "Sort by Reviewer Score"
+msgstr "Ordina per Punteggio Critico"
+
+#: admin/includes/class-meta-box-tables.php:469
+msgid "Sort by Users Score"
+msgstr "Ordina per Punteggio Utenti"
+
+#: admin/includes/class-meta-box-tables.php:470
+msgid "Sort by Average of Reviewer and Users Scores"
+msgstr "Ordina per Punteggio Medio del Critico e Utenti"
+
+#: admin/includes/class-meta-box-tables.php:476
+msgid "Include Reviews Boxes Images"
+msgstr "Includi le Immagini dei Box Recensioni"
+
+#: admin/includes/class-meta-box-tables.php:478
+msgid "Show the related review box image - if it is set - inside tables"
+msgstr ""
+"Mostra la relativa immagine del box recensione - se presente - nelle tabelle"
+
+#: admin/includes/class-meta-box-tables.php:482
+msgid "Table Shortcode"
+msgstr "Shortcode Tabella"
+
+#: admin/includes/class-notification.php:110
+msgid ""
+"Thank you for purchasing the Reviewer Plugin. It is necessary to register "
+"your license for using the plugin."
+msgstr ""
+"Grazie per aver acquistato il Reviewer Plugin. E’ necessario registrare la "
+"licenza per usare il plugin."
+
+#: admin/includes/class-notification.php:110
+msgid "Register now"
+msgstr "Registra ora"
+
+#: admin/includes/class-preferences-page.php:31
+#: admin/includes/class-preferences-page.php:222
+msgid "Preferences"
+msgstr "Preferenze"
+
+#: admin/includes/class-preferences-page.php:48
+msgid "Unable to send email notification. Check your Mail settings"
+msgstr ""
+"Non é stato possibile inviare l'email di notifica. Controlla le tue "
+"impostazioni della Mail"
+
+#: admin/includes/class-preferences-page.php:53
+msgid "Type a valid email address"
+msgstr "Inserisci un email valida"
+
+#: admin/includes/class-preferences-page.php:87
+msgid "Email sent. Check your Mail Inbox or Spam folder"
+msgstr "Email inviata. Controlla la tua Casella di Posta o la Casella Spam"
+
+#: admin/includes/class-preferences-page.php:97
+msgid "Data already restored"
+msgstr "Dati gi&agrave; ripristinati"
+
+#: admin/includes/class-preferences-page.php:215
+msgid "Restore completed"
+msgstr "Ripristino completato"
+
+#: admin/includes/class-preferences-page.php:236
+msgid ""
+"Important: if you already used a previous version of Reviewer Plugin please "
+"click the button below to restore the compatibility with the new version. "
+"Plaese backup your blog database before restoring data."
+msgstr ""
+"Importante: se hai gi&agrave; usato una versione precedente del Reviewer "
+"Plugin per favore fai click sul pulsante sottostante per ripristinare la "
+"compatibilità con la nuova versione. Per favore esegui un backup del "
+"database prima di ripristinare."
+
+#: admin/includes/class-preferences-page.php:237
+msgid "Restore Data"
+msgstr "Ripristina i Dati"
+
+#: admin/includes/class-preferences-page.php:237
+msgid "Do you want to continue?"
+msgstr "Desideri continuare?"
+
+#: admin/includes/class-preferences-page.php:255
+#: admin/includes/class-template-manager-page.php:66
+msgid "Users Ratings"
+msgstr "Voti degli Utenti"
+
+#: admin/includes/class-preferences-page.php:255
+msgid "Global"
+msgstr "Globale"
+
+#: admin/includes/class-preferences-page.php:351
+msgid "Please, type a valid email address"
+msgstr "Inserire un'email valida"
+
+#: admin/includes/class-preferences-page.php:387
+msgid "Site key and secret key must be filled"
+msgstr "Chiave Sito e Segreta devono essere riempite"
+
+#: admin/includes/class-preferences-page.php:422
+msgid "Invalid URL for the custom login link"
+msgstr "Link personalizzato per il login non valido"
+
+#: admin/includes/class-preferences-page.php:640
+msgid "User Review Managers"
+msgstr "Gestori Recensioni Utenti"
+
+#: admin/includes/class-preferences-page.php:641
+msgid ""
+"Choose which WordPress Roles can manage user reviews. Administrators can "
+"always manage user reviews."
+msgstr ""
+"Scegli quali Ruoli Wordpress possono gestire le recensioni utente. Gli "
+"amministratori possono sempre gestire le recensioni."
+
+#: admin/includes/class-preferences-page.php:647
+msgid "Rating Authorization"
+msgstr "Permessi di Voto"
+
+#: admin/includes/class-preferences-page.php:649
+msgid "All Users"
+msgstr "Tutti gli Utenti"
+
+#: admin/includes/class-preferences-page.php:650
+msgid "Logged in Users only"
+msgstr "Solo Utenti loggati"
+
+#: admin/includes/class-preferences-page.php:651
+msgid "Specific Roles only"
+msgstr "Solo alcuni ruoli specifici"
+
+#: admin/includes/class-preferences-page.php:652
+msgid "Disabled"
+msgstr "Disabilitato"
+
+#: admin/includes/class-preferences-page.php:659
+msgid "Rating Authorization Roles"
+msgstr "Ruoli per l’autorizzazione del valutazione"
+
+#: admin/includes/class-preferences-page.php:666
+msgid "Rating Mode"
+msgstr "Modalit&agrave; di Valutazione"
+
+#: admin/includes/class-preferences-page.php:668
+msgid "Single Criterion Rating with stars"
+msgstr "Voto con stelle del singolo criterio"
+
+#: admin/includes/class-preferences-page.php:669
+msgid "5 Stars Rating"
+msgstr "Valutazione a 5 Stelle"
+
+#: admin/includes/class-preferences-page.php:670
+msgid "Single Criterion Rating with sliders"
+msgstr "Voto con sliders del singolo criterio"
+
+#: admin/includes/class-preferences-page.php:677
+msgid "Rating Limit"
+msgstr "Limite Valutazioni"
+
+#: admin/includes/class-preferences-page.php:679
+msgid "Users can leave one review only per Box"
+msgstr "Gli utenti possono lasciare una sola recensione per Box"
+
+#: admin/includes/class-preferences-page.php:680
+msgid "Users can leave an unlimited number of reviews per Box"
+msgstr "Gli utenti possono lasciare un numero illimitato di recensioni per Box"
+
+#: admin/includes/class-preferences-page.php:687
+msgid "Before a rating appears"
+msgstr "Prima che il voto appaia"
+
+#: admin/includes/class-preferences-page.php:689
+msgid "Rating does not need moderation"
+msgstr "Il voto non ha bisogno di moderazione"
+
+#: admin/includes/class-preferences-page.php:690
+msgid "Rating must be manually approved"
+msgstr "Il voto deve essere approvato manualmente"
+
+#: admin/includes/class-preferences-page.php:697
+msgid "User Review Title Limits"
+msgstr "Limiti del Titolo della Recensione Utente"
+
+#: admin/includes/class-preferences-page.php:699
+msgid ""
+"Defines the minimum and maximum number of characters for User Review Title"
+msgstr ""
+"Definisce il minimo e massimo numero di caratteri per il Titolo della "
+"Recensione Utente"
+
+#: admin/includes/class-preferences-page.php:704
+msgid "User Review Comment Limits"
+msgstr "Limiti del Commento della Recensione Utente"
+
+#: admin/includes/class-preferences-page.php:706
+msgid ""
+"Defines the minimum and maximum number of characters for User Review Comment"
+msgstr ""
+"Definisce il minimo e massimo numero di caratteri per il Commento della "
+"Recensione Utente"
+
+#: admin/includes/class-preferences-page.php:711
+msgid "Users Reviews to show"
+msgstr "Recensioni Utenti da visualizzare"
+
+#: admin/includes/class-preferences-page.php:713
+msgid ""
+"Define the number of users reviews to show per page inside the reviews box"
+msgstr ""
+"Definisce il numero di recensioni utenti da visualizzare per pagina "
+"all’interno del box recensioni"
+
+#: admin/includes/class-preferences-page.php:718
+msgid "Allow zero score in users rating"
+msgstr "Permetti un punteggio 0 all'interno del voto utente"
+
+#: admin/includes/class-preferences-page.php:720
+msgid ""
+"By checking the checkbox the score with zero value will be allowed inside "
+"user rating"
+msgstr ""
+"Smarcando la casella i punteggi con valore 0 saranno permessi all'interno "
+"del voto utente."
+
+#: admin/includes/class-preferences-page.php:725
+msgid "Users Reviews Sharing"
+msgstr "Condivisione Recensioni Utenti"
+
+#: admin/includes/class-preferences-page.php:726
+msgid "Share user review via the follwing networks"
+msgstr "Condividi la recensione utente sui seguenti network"
+
+#: admin/includes/class-preferences-page.php:729
+msgid "Facebook"
+msgstr "Facebook"
+
+#: admin/includes/class-preferences-page.php:730
+msgid "Twitter"
+msgstr "Twitter"
+
+#: admin/includes/class-preferences-page.php:731
+msgid "Google+"
+msgstr "Google+"
+
+#: admin/includes/class-preferences-page.php:733
+msgid "Standard Link"
+msgstr "Link Standard "
+
+#: admin/includes/class-preferences-page.php:739
+msgid "Users Reviews Captcha"
+msgstr "Captcha Recensioni Utenti"
+
+#: admin/includes/class-preferences-page.php:740
+msgid "Enable Google reCaptcha (Secure Code) for users reviews"
+msgstr "Abilita Google ReCaptcha (Codice Sicurezza) per la recensione utenti"
+
+#: admin/includes/class-preferences-page.php:752
+msgid "Scores Step"
+msgstr "Step Punteggi"
+
+#: admin/includes/class-preferences-page.php:759
+msgid "Nofollow Attribute"
+msgstr "Attributo Nofollow"
+
+#: admin/includes/class-preferences-page.php:761
+msgid "Reviews Box Image Link"
+msgstr "Link Immagine Box Recensione"
+
+#: admin/includes/class-preferences-page.php:765
+#, php-format
+msgid "Add the %s attribute to the following links of reviews box"
+msgstr "Aggiungi l’attributo %s ai seguenti link del box recensioni"
+
+#: admin/includes/class-preferences-page.php:770
+msgid "Enable \"sameAs\" property"
+msgstr "Abilita proprietà “sameAs”"
+
+#: admin/includes/class-preferences-page.php:772
+msgid ""
+"By checking the checkbox the plugin will add the \"sameAs\" property to "
+"Google Rich Snippets"
+msgstr ""
+"Smarcando la casella il plugin aggiungerà la proprietà “sameAs“ ai Google "
+"Rich Snippets"
+
+#: admin/includes/class-preferences-page.php:777
+msgid "Enable Reviewer Plugin inside following Post Types"
+msgstr "Abilita il Reviewer Plugin nei seguenti Tipi di Articoli"
+
+#: admin/includes/class-preferences-page.php:783
+msgid "Custom Login URL"
+msgstr "URL Login Personalizzato"
+
+#: admin/includes/class-preferences-page.php:785
+msgid "Define the custom login url for reviews boxes"
+msgstr "Definisce l’url personalizzato del login per i box recensione"
+
+#: admin/includes/class-preferences-page.php:790
+msgid "Custom CSS Rules"
+msgstr "Regole CSS personalizzate"
+
+#: admin/includes/class-preferences-page.php:793
+msgid "You can define CSS rules for customizing the Reviewer plugin layout"
+msgstr ""
+"Puoi definire regole CSS per personalizzare il layout del plugin Reviewer"
+
+#: admin/includes/class-preferences-page.php:797
+msgid "E-mail me whenever"
+msgstr "Invia un'email ogni volta che"
+
+#: admin/includes/class-preferences-page.php:799
+msgid "Anyone posts a rating"
+msgstr "Qualcuno pubblica un voto"
+
+#: admin/includes/class-preferences-page.php:800
+msgid "3 ratings have been posted"
+msgstr "3 voti sono stati pubblicati"
+
+#: admin/includes/class-preferences-page.php:801
+msgid "5 ratings have been posted"
+msgstr "5 voti sono stati pubblicati"
+
+#: admin/includes/class-preferences-page.php:802
+msgid "10 ratings have been posted"
+msgstr "10 voti sono stati pubblicati"
+
+#: admin/includes/class-preferences-page.php:803
+msgid "50 ratings have been posted"
+msgstr "50 voti sono stati pubblicati"
+
+#: admin/includes/class-preferences-page.php:804
+msgid "No, thanks. I don't want to receive notifications"
+msgstr "No, grazie. Non voglio ricevere notifiche"
+
+#: admin/includes/class-preferences-page.php:811
+msgid "Send notification to"
+msgstr "Invia la notifica a"
+
+#: admin/includes/class-preferences-page.php:814
+msgid ""
+"Insert a valid e-mail address to send the notification about new users "
+"ratings. Just for testing... Press the button below to receive a demo "
+"notification. If the email is not in inbox, check the Spam folder"
+msgstr ""
+"Inserisci un indirizzo email valido a cui inviare la notifica riguardo i "
+"nuovi voti utente. Solo per prova... Premi il pulsante per ricevere una "
+"notifica dimostrativa. Se l'email non è nella tua casella di posta controlla "
+"la cartella Spam"
+
+#: admin/includes/class-preferences-page.php:819
+msgid "Format user review date"
+msgstr "Converti data della recensione utente"
+
+#: admin/includes/class-preferences-page.php:821
+msgid ""
+"By checking the checkbox the user review date will be converted in a human "
+"readable format, such as \"1 hour ago\", \"5 mins ago\", \"2 days ago\""
+msgstr ""
+"Smarcando la casella la data della della recensione utente sarà convertita "
+"in un formato leggibile come “1 ora fa”, “5 minuti fa”, “2 giorni fa”"
+
+#: admin/includes/class-preferences-page.php:826
+msgid "Numeric rating in user reviews"
+msgstr "Voto Numerico nelle Recesioni"
+
+#: admin/includes/class-preferences-page.php:828
+msgid "By checking the checkbox a numeric rating will be shown in user review"
+msgstr ""
+"Smarcando la casella viene visualizzato un punteggio numerico nella "
+"recensioni utente"
+
+#: admin/includes/class-preferences-page.php:833
+msgid "Verified Badge"
+msgstr "Badge Verificato"
+
+#: admin/includes/class-preferences-page.php:835
+#: admin/includes/class-users-ratings-page.php:853
+msgid "Verified"
+msgstr "Verificato"
+
+#: admin/includes/class-preferences-page.php:838
+msgid "Define label and color for the verified badge of a user review"
+msgstr ""
+"Definisce l’etichetta e il colore per il badge verificato di una recensione "
+"utente"
+
+#: admin/includes/class-preferences-page.php:842
+msgid "User Review Images"
+msgstr "Imagini Recensione Utente"
+
+#: admin/includes/class-preferences-page.php:845
+msgid "Drag and drop your images for the review"
+msgstr "Trascina e rilascia le tue immagini per la recensione"
+
+#: admin/includes/class-preferences-page.php:851
+msgid "Define the sittings for user review image attachments"
+msgstr ""
+"Definisci le impostazioni per gli allegati immagine della recensione utente"
+
+#: admin/includes/class-preferences-page.php:855
+msgid "Reviews of Single User"
+msgstr "Recensioni di un Singolo Utente"
+
+#: admin/includes/class-preferences-page.php:1172
+msgid "Send Demo Notification"
+msgstr "Invia una Notifica di Prova"
+
+#: admin/includes/class-preferences-page.php:1216
+msgid "Enable captcha"
+msgstr "Abilita captcha "
+
+#: admin/includes/class-preferences-page.php:1220
+msgid "ReCaptcha Site Key"
+msgstr "Chiave Sito ReCaptcha"
+
+#: admin/includes/class-preferences-page.php:1225
+msgid "ReCaptcha Secret Key"
+msgstr "Chiave Segreta ReCaptcha"
+
+#: admin/includes/class-preferences-page.php:1230
+msgid "Exclude ReCaptcha JS Lib Import"
+msgstr "Escludi l’importazione della Lib JS per ReCaptcha"
+
+#: admin/includes/class-preferences-page.php:1232
+msgid ""
+"Type the post/page IDs separated by a comma for excluding the import for "
+"Google ReCaptcha JS lib"
+msgstr ""
+"Digita gli ID dei post/pagine separati da una virgola per escludere "
+"l’importazione della libreria JavaScript del Google ReCaptcha"
+
+#: admin/includes/class-preferences-page.php:1245
+msgid "Badge Label"
+msgstr "Etichetta Badge"
+
+#: admin/includes/class-preferences-page.php:1250
+msgid "Badge Color"
+msgstr "Colore Badge"
+
+#: admin/includes/class-preferences-page.php:1292
+msgid "Enable users to attach images to a review"
+msgstr "Permetti gli utenti  ad allegare immagini alla recensione"
+
+#: admin/includes/class-preferences-page.php:1298
+msgid "Field Placeholder"
+msgstr "Placeholder"
+
+#: admin/includes/class-preferences-page.php:1305
+msgid "Maximum number of image attachments inside a user review"
+msgstr ""
+"Massimo numero di allegati immagine all’intero di una recensione utente"
+
+#: admin/includes/class-preferences-page.php:1312
+msgid ""
+"Minimum number of images that a user have to upload for posting his review"
+msgstr ""
+"Minimo numero di immagini che l’utente deve caricare per pubblicare la sua "
+"recensione"
+
+#: admin/includes/class-preferences-page.php:1319
+msgid ""
+"Maximum size in MB of image attachment inside users review. To increase the "
+"maximum value you need to edit the php configuration file of your host"
+msgstr ""
+"Massima dimensione in MB di un’immagine all’interno di una recensione . Per "
+"aumentare il valore massimo è necessario modificare il file di "
+"configurazione php del tuo host"
+
+#: admin/includes/class-preferences-page.php:1321
+#, php-format
+msgid "Maximum Size is %d MB"
+msgstr "La dimensione massima è di %d MB"
+
+#: admin/includes/class-preferences-page.php:1326
+msgid "Thumbnail Size (px)"
+msgstr "Dimensione Miniatura (px)"
+
+#: admin/includes/class-preferences-page.php:1328
+msgid "Width"
+msgstr "Largezza"
+
+#: admin/includes/class-preferences-page.php:1332
+msgid "Height"
+msgstr "Altezza"
+
+#: admin/includes/class-preferences-page.php:1341
+#, php-format
+msgid ""
+"It could sometimes happen that reviews of a single user, fetched by %s, do "
+"not reflect the real one. The Reviewer caches the collection of reviews of a "
+"single user. So to fix that issue try to clear the cache by pressing the "
+"following button."
+msgstr ""
+"Può succedere qualche volta che le recisioni di un singolo utente, richieste "
+"da %s, non rispecchino quelle reali. Il Reviewer salva nella cache la lista "
+"delle recensioni di un singolo utente. Quindi per risolvere il problema "
+"prova a svuotare la cache cliccando il seguente pulsante."
+
+#: admin/includes/class-preferences-page.php:1344
+msgid "Clear Cache"
+msgstr "Svuota Cache"
+
+#: admin/includes/class-preferences-page.php:1347
+msgid "The cache was cleared"
+msgstr "La cache è stata svuotata"
+
+#: admin/includes/class-preferences-page.php:1348
+msgid "Unable to clear the cache or the cache was already cleared"
+msgstr ""
+"Non è stato possibile svuotare la cache oppure la cache è stata appena "
+"svuotata"
+
+#: admin/includes/class-reviews-page.php:27
+#: admin/includes/class-reviews-page.php:88
+msgid "Review Boxes"
+msgstr "Box Recensioni"
+
+#: admin/includes/class-reviews-page.php:50
+msgid "Score reset"
+msgstr "Punteggio azzerato"
+
+#: admin/includes/class-reviews-page.php:56
+msgid "Unable to delete review"
+msgstr "Non &egrave; stato possibile eliminare la recensione"
+
+#: admin/includes/class-reviews-page.php:78
+#: public/includes/class-rating.php:129
+msgid "Done"
+msgstr "Fatto"
+
+#: admin/includes/class-reviews-page.php:190
+msgid "Box Title"
+msgstr "Titolo Box"
+
+#: admin/includes/class-reviews-page.php:191
+msgid "Post"
+msgstr "Articolo"
+
+#: admin/includes/class-reviews-page.php:192
+#: public/includes/class-ratings-widget.php:371
+#: public/includes/class-reviews-list-shortcode.php:87
+#: public/includes/class-reviews-widget.php:503
+msgid "Template"
+msgstr "Modello"
+
+#: admin/includes/class-reviews-page.php:193
+msgid "Reviewer Score"
+msgstr "Punteggio Critico"
+
+#: admin/includes/class-reviews-page.php:194
+msgid "User Score"
+msgstr "Punteggio Utenti"
+
+#: admin/includes/class-reviews-page.php:195
+msgid "Post ID"
+msgstr "ID Articolo"
+
+#: admin/includes/class-reviews-page.php:196
+msgid "Box ID"
+msgstr "ID Box"
+
+#: admin/includes/class-reviews-page.php:197
+msgid "Actions"
+msgstr "Azioni"
+
+#: admin/includes/class-reviews-page.php:206
+#: admin/includes/class-users-ratings-page.php:940
+msgid "Confirm the action?"
+msgstr "Confermi l'azione?"
+
+#: admin/includes/class-reviews-page.php:206
+msgid "Ratings deleted"
+msgstr "Voti eliminati"
+
+#: admin/includes/class-reviews-page.php:206
+msgid "Reset Users Score"
+msgstr "Azzera Punteggio Utenti"
+
+#: admin/includes/class-reviews-page.php:207
+msgid "Confirm the action? Also related users ratings will be deleted."
+msgstr "Confermi l'azione? Anche i voti degli utenti saranno eliminati."
+
+#: admin/includes/class-reviews-page.php:207
+msgid "Review deleted"
+msgstr "Recensione eliminata"
+
+#: admin/includes/class-reviews-page.php:207
+msgid "Delete Review"
+msgstr "Elimina Recensione"
+
+#: admin/includes/class-support-page.php:38
+#: admin/includes/class-support-page.php:46
+msgid "Support"
+msgstr "Supporto"
+
+#: admin/includes/class-support-page.php:74
+msgid "Your Plugin Copy ID"
+msgstr "Il tuo identificativo per il plugin"
+
+#: admin/includes/class-support-page.php:82
+msgid "Activate"
+msgstr "Attiva"
+
+#: admin/includes/class-support-page.php:132
+msgid "Invalid form submission"
+msgstr "Invio del form non valido!"
+
+#: admin/includes/class-support-page.php:141
+#, php-format
+msgid "%s is required"
+msgstr "%s &egrave; richiesta"
+
+#: admin/includes/class-support-page.php:172
+msgid "Thank you for activating your plugin copy."
+msgstr "Grazie per aver attivato il plugin."
+
+#: admin/includes/class-support-page.php:176
+msgid ""
+"Unable to register the plugin copy. Please check your Envato Username and "
+"Purchase Code fields."
+msgstr ""
+"Non &egrave; stato possibile registrare il plugin. Controlla il tuo nome "
+"utente di Envato e il codice d'acquisto."
+
+#: admin/includes/class-support-page.php:213
+msgid ""
+"Unable to activate the plugin. Please contact the plugin support Team via "
+"email. Error: "
+msgstr ""
+"Non è stato possibile attivare il plugin. Si prega di contattare il Supporto "
+"Tecnico via email. Errore: "
+
+#: admin/includes/class-support-page.php:217
+msgid "Unable to activate the plugin. Unauthorized request"
+msgstr "Non è stato possibile attivare il plugin. Richiesta non autorizzata."
+
+#: admin/includes/class-support-page.php:234
+msgid "Full Name"
+msgstr "Nome Completo"
+
+#: admin/includes/class-support-page.php:252
+msgid "Envato Item Purchase Code"
+msgstr "Codice d'Acquisto dell'oggetto su Envato"
+
+#: admin/includes/class-support-page.php:254
+msgid ""
+"Insert the purchase code you download with the Reviewer plugin. Where can I "
+"find it?"
+msgstr ""
+"Inserire il codice di acquisto che si scarica con il plugin. Dove posso "
+"trovarlo?"
+
+#: admin/includes/class-support-page.php:296
+msgid "Here"
+msgstr "Qui"
+
+#: admin/includes/class-template-manager-page.php:41
+#: admin/includes/class-template-manager-page.php:48
+msgid "Template Manager"
+msgstr "Gestore Modello"
+
+#: admin/includes/class-template-manager-page.php:66
+msgid "General Preferences"
+msgstr "Preferenze Generali"
+
+#: admin/includes/class-template-manager-page.php:66
+msgid "Review Preferences"
+msgstr "Preferenze della Recensione"
+
+#: admin/includes/class-template-manager-page.php:66
+msgid "Theme Preferences"
+msgstr "Preferenze del Tema"
+
+#: admin/includes/class-template-manager-page.php:66
+msgid "Theme Colors"
+msgstr "Colori Tema"
+
+#: admin/includes/class-template-manager-page.php:66
+msgid "Customization Preferences"
+msgstr "Preserenze di Pesonalizzazione"
+
+#: admin/includes/class-template-manager-page.php:66
+msgid "Auto Box Type"
+msgstr "Tipo Auto Box"
+
+#: admin/includes/class-template-manager-page.php:142
+#, php-format
+msgid "%s are not a valid range"
+msgstr "%s non sono un intervallo corretto"
+
+#: admin/includes/class-template-manager-page.php:162
+#: admin/includes/class-template-manager-page.php:251
+#, php-format
+msgid "%s must be a integer number"
+msgstr "%s deve essere un numero intero"
+
+#: admin/includes/class-template-manager-page.php:178
+#, php-format
+msgid "%s must be a integer number and greater than Mimimun Score"
+msgstr "%s deve essere un numero intero e maggiore del Punteggio Minimo"
+
+#: admin/includes/class-template-manager-page.php:213
+#, php-format
+msgid "Invalid submission for %s"
+msgstr "Sottomissione non valida per %s"
+
+#: admin/includes/class-template-manager-page.php:231
+#, php-format
+msgid "Invalid HEX color for %s"
+msgstr "Colore Esadecimale non valido per %s"
+
+#: admin/includes/class-template-manager-page.php:356
+msgid ""
+"The theme was successfully saved, but fields listed below are invalid so "
+"their value is replaced with default one."
+msgstr ""
+"Il tema è stato salvato correttamente, ma i campi di seguito elencati non "
+"sono validi quindi il loro valore viene sostituito con quello di default."
+
+#: admin/includes/class-template-manager-page.php:361
+msgid "The theme was successfully saved."
+msgstr "Il tema è stato salvato correttamente."
+
+#: admin/includes/class-template-manager-page.php:374
+msgid "Forest"
+msgstr "Forest"
+
+#: admin/includes/class-template-manager-page.php:391
+msgid "Robin"
+msgstr "Robin"
+
+#: admin/includes/class-template-manager-page.php:408
+msgid "Sky"
+msgstr "Sky"
+
+#: admin/includes/class-template-manager-page.php:425
+msgid "Cloud"
+msgstr "Cloud"
+
+#: admin/includes/class-template-manager-page.php:442
+msgid "Sunset"
+msgstr "Sunset"
+
+#: admin/includes/class-template-manager-page.php:459
+msgid "Custom"
+msgstr "Personalizzato"
+
+#: admin/includes/class-template-manager-page.php:472
+msgid "Template ID"
+msgstr "ID Modello"
+
+#: admin/includes/class-template-manager-page.php:475
+msgid "An unique ID for the new template. You can leave blank (Racommended)"
+msgstr ""
+"Un identificativo univoco per il nuovo Modello. Puoi lasciarlo vuoto "
+"(Raccomandato)"
+
+#: admin/includes/class-template-manager-page.php:480
+msgid "Template Name"
+msgstr "Nome Modello"
+
+#: admin/includes/class-template-manager-page.php:488
+msgid "Minimum Score"
+msgstr "Punteggio Minimo"
+
+#: admin/includes/class-template-manager-page.php:491
+msgid "Criteria minimum score"
+msgstr "Punteggio Minimo dei Criteri"
+
+#: admin/includes/class-template-manager-page.php:496
+msgid "Maximum Score"
+msgstr "Punteggio Massimo"
+
+#: admin/includes/class-template-manager-page.php:499
+msgid "Criteria maximum score"
+msgstr "Punteggio Massimo dei Criteri"
+
+#: admin/includes/class-template-manager-page.php:504
+msgid "Score Percentages"
+msgstr "Percentuali Punteggio"
+
+#: admin/includes/class-template-manager-page.php:507
+msgid "Define the percentages for high, medium, low scores"
+msgstr "Definisce le percentuali per l'alto, medio, basso punteggio"
+
+#: admin/includes/class-template-manager-page.php:516
+msgid "Review Criteria"
+msgstr "Criteri Recensione"
+
+#: admin/includes/class-template-manager-page.php:524
+msgid "Schema.org Type"
+msgstr "Tipo Schema.org"
+
+#: admin/includes/class-template-manager-page.php:535
+#, php-format
+msgid ""
+"The plugin uses Review type (for Reviewer Box) and AggregateRating type (for "
+"Users and Auto Boxes) for implementing %s. To define the item reviewed type, "
+"choose one option of the most common %s types."
+msgstr ""
+"Il plugin usa il tipo Review (per i Reviewer Box) e il tipo AggregateRating "
+"(per Users e Auto Box) per impemtare i %s. Per definire il tipo di di "
+"oggetto recensito, scegli un’opzione tra i più comuni tipi di %s."
+
+#: admin/includes/class-template-manager-page.php:540
+msgid "Theme Layout"
+msgstr "Layout del Tema"
+
+#: admin/includes/class-template-manager-page.php:544
+msgid "Hover on theme name to view a preview"
+msgstr "Passa sopra con i mouse al nome del tema per visualizzare un'anteprima"
+
+#: admin/includes/class-template-manager-page.php:549
+msgid "Theme Colors Palette"
+msgstr "Paletta Colori del Tema"
+
+#: admin/includes/class-template-manager-page.php:552
+msgid "Choose a colors palette or define a custom one"
+msgstr "Scegli una palette colori o definiscine una personalizzata"
+
+#: admin/includes/class-template-manager-page.php:558
+msgid "Text Color"
+msgstr "Colore Testo"
+
+#: admin/includes/class-template-manager-page.php:566
+msgid "Total Score Box Color"
+msgstr "Color Area Punteggio Totale"
+
+#: admin/includes/class-template-manager-page.php:574
+msgid "Users Score Box Color"
+msgstr "Color Area Punteggio Utenti"
+
+#: admin/includes/class-template-manager-page.php:582
+msgid "High Score Color"
+msgstr "Colore Alto Punteggio"
+
+#: admin/includes/class-template-manager-page.php:590
+msgid "Medium Score Color"
+msgstr "Colore Medio Punteggio"
+
+#: admin/includes/class-template-manager-page.php:598
+msgid "Low Score Color"
+msgstr "Colore Basso Punteggio"
+
+#: admin/includes/class-template-manager-page.php:606
+msgid "Review Box Font Size"
+msgstr "Dimensione carattere del box Recesione"
+
+#: admin/includes/class-template-manager-page.php:614
+msgid "Pros Label Color"
+msgstr "Colore Etichetta Pros"
+
+#: admin/includes/class-template-manager-page.php:622
+msgid "Pros Label Font Size"
+msgstr "Dimensione Font Etichetta Pros"
+
+#: admin/includes/class-template-manager-page.php:630
+msgid "Pros Text Font Size"
+msgstr "Dimensione Testo del Pros"
+
+#: admin/includes/class-template-manager-page.php:638
+msgid "Cons Label Color"
+msgstr "Colore Etichetta Cons"
+
+#: admin/includes/class-template-manager-page.php:646
+msgid "Cons Label Font Size"
+msgstr "Dimensione Font Etichetta Cons"
+
+#: admin/includes/class-template-manager-page.php:654
+msgid "Cons Text Font Size"
+msgstr "Dimensione Testo del Cons"
+
+#: admin/includes/class-template-manager-page.php:662
+msgid "Summary Label Color"
+msgstr "Colore Etichetta Riepilogo"
+
+#: admin/includes/class-template-manager-page.php:670
+msgid "Summary Label Font Size"
+msgstr "Dimensione Carattere dell'Etichetta Riepilogo"
+
+#: admin/includes/class-template-manager-page.php:678
+msgid "Users Reviews Label Color"
+msgstr "Colore Etichetta Recensioni Utenti"
+
+#: admin/includes/class-template-manager-page.php:686
+msgid "Users Reviews Label Font Size"
+msgstr "Dimensione Carattere Recensioni Utenti"
+
+#: admin/includes/class-template-manager-page.php:694
+msgid "Reviewer Score Label"
+msgstr "Etichetta Punteggio del Critico"
+
+#: admin/includes/class-template-manager-page.php:702
+msgid "Users Score Label"
+msgstr "Etichetta Punteggio Utenti"
+
+#: admin/includes/class-template-manager-page.php:710
+msgid "Users Ratings Count Label (Singular)"
+msgstr "Etichetta Conteggio dei Voti Utenti (Singolare)"
+
+#: admin/includes/class-template-manager-page.php:712
+msgid "vote"
+msgstr "voto"
+
+#: admin/includes/class-template-manager-page.php:717
+msgid "Users Ratings Count Label (Plural)"
+msgstr "Etichetta Conteggio dei Voti Utenti (Plurale)"
+
+#: admin/includes/class-template-manager-page.php:719
+msgid "votes"
+msgstr "voti"
+
+#: admin/includes/class-template-manager-page.php:725
+msgid "Pros Label"
+msgstr "Etichetta Pros"
+
+#: admin/includes/class-template-manager-page.php:733
+msgid "Cons Label"
+msgstr "Etichetta Cons"
+
+#: admin/includes/class-template-manager-page.php:741
+msgid "Summary Label"
+msgstr "Etichetta Riepilogo"
+
+#: admin/includes/class-template-manager-page.php:749
+msgid "Users Reviews Label"
+msgstr "Etichetta Recensioni Utenti"
+
+#: admin/includes/class-template-manager-page.php:757
+msgid "Message to rate"
+msgstr "Messaggio per votare"
+
+#: admin/includes/class-template-manager-page.php:765
+msgid "Message to rate (Login required)"
+msgstr "Messaggio per votare (Login richiesto)"
+
+#: admin/includes/class-template-manager-page.php:773
+msgid "Success Message after rating"
+msgstr "Messaggio di successo dopo il voto"
+
+#: admin/includes/class-template-manager-page.php:781
+msgid "Moderation Message after rating"
+msgstr "Messaggio di moderazione dopo il voto"
+
+#: admin/includes/class-template-manager-page.php:789
+msgid "Failure Message after rating"
+msgstr "Messaggio di fallimento dopo il voto"
+
+#: admin/includes/class-template-manager-page.php:797
+msgid "Replace Star Image"
+msgstr "Sostituisci imagine stella"
+
+#: admin/includes/class-template-manager-page.php:805
+msgid "Enable Auto Boxes type"
+msgstr "Abilita tipo Auto Box"
+
+#: admin/includes/class-template-manager-page.php:813
+msgid "Enable Featured Image"
+msgstr "Abilita Immagine in Evidenza"
+
+#: admin/includes/class-template-manager-page.php:816
+msgid "Add Post's Featured Image (if it is set) to Auto Boxes"
+msgstr "Aggiungi l’Immagine in Evidenza del Post (se presente) agli Auto Box"
+
+#: admin/includes/class-template-manager-page.php:821
+msgid "Exclude auto reviews from..."
+msgstr "Escludi la recensione automatica da..."
+
+#: admin/includes/class-template-manager-page.php:829
+msgid "User Rating Options"
+msgstr "Opzioni per il Voto Utenti"
+
+#: admin/includes/class-template-manager-page.php:833
+msgid "User Avatar"
+msgstr "Avatar Utente"
+
+#: admin/includes/class-template-manager-page.php:834
+#: admin/includes/class-users-ratings-page.php:152
+msgid "User Name"
+msgstr "Nome Utente"
+
+#: admin/includes/class-template-manager-page.php:835
+#: admin/includes/class-users-ratings-page.php:158
+msgid "User Email"
+msgstr "Email Utente"
+
+#: admin/includes/class-template-manager-page.php:836
+msgid "User Review Title"
+msgstr "Titolo Recensione Utente"
+
+#: admin/includes/class-template-manager-page.php:837
+msgid "User Review Comment"
+msgstr "Commento Recensione Utente"
+
+#: admin/includes/class-template-manager-page.php:838
+msgid "User Review Score ( Five Stars or Full Rating )"
+msgstr "Punteggio Recensione Utente (Cinque Stelle o Voto Completo)"
+
+#: admin/includes/class-template-manager-page.php:839
+msgid "User Review Like/Dislike Counter"
+msgstr "Contatore \"Mi Piace\" / \"Non Mi Piace\""
+
+#: admin/includes/class-template-manager-page.php:840
+msgid "User Review Sharing"
+msgstr "Condivisione Recensione Utente"
+
+#: admin/includes/class-template-manager-page.php:843
+msgid "Choose the options you want to include in Users Rating"
+msgstr "Scegli le opzioni da includere nel Voto Utente"
+
+#: admin/includes/class-template-manager-page.php:848
+msgid "Custom Tabs"
+msgstr "Pannelli Personalizzati"
+
+#: admin/includes/class-template-manager-page.php:854
+msgid "Tab Color"
+msgstr "Colore del Pannello"
+
+#: admin/includes/class-template-manager-page.php:859
+msgid "Tab Label"
+msgstr "Etichetta del Pannello"
+
+#: admin/includes/class-template-manager-page.php:860
+msgid "Custom Tab"
+msgstr "Pannello Personalizzato"
+
+#: admin/includes/class-template-manager-page.php:864
+msgid "Tab link"
+msgstr "Link del Pannello"
+
+#: admin/includes/class-template-manager-page.php:869
+msgid ""
+"Custom tabs will be displayed near to overall scores. For example you are "
+"reviewing some products and you need to add a price tab or any additional "
+"information. "
+msgstr ""
+"I Pannelli personalizzato saranno visualizzati vicino ai punteggi totali. "
+"Per esempio se stai recensendo alcuni prodotti e hai necessità di aggiungere "
+"un pannello personalizzato oppure qualsiasi altra informazione. "
+
+#: admin/includes/class-template-manager-page.php:926
+msgid "Add Criterion"
+msgstr "Aggiungi Criterio"
+
+#: admin/includes/class-template-manager-page.php:927
+#: admin/includes/class-template-manager-page.php:936
+msgid "Criterion Label"
+msgstr "Etichetta Criterio"
+
+#: admin/includes/class-template-manager-page.php:927
+#: admin/includes/class-template-manager-page.php:938
+msgid "ID"
+msgstr "ID"
+
+#: admin/includes/class-template-manager-page.php:985
+#: public/includes/class-reviews-widget.php:522
+msgid "Theme"
+msgstr "Tema"
+
+#: admin/includes/class-template-manager-page.php:1271
+msgid "Upload Custom Image"
+msgstr "Carica Immagine Personalizzata"
+
+#: admin/includes/class-template-manager-page.php:1272
+msgid "Use Default"
+msgstr "Usa Predefinita"
+
+#: admin/includes/class-template-manager-page.php:1325
+msgid "You can not exclude auto reviews from all terms"
+msgstr "Non puoi escludere le recensioni automatiche da tutti i termini"
+
+#: admin/includes/class-template-manager-page.php:1399
+msgid "Add Custom Tab"
+msgstr "Aggiungi un Pannello Personalizzato"
+
+#: admin/includes/class-tinymce.php:50
+msgid "Create a review box or comparison table"
+msgstr "Crea un box recensioni o una tabella comparativa"
+
+#: admin/includes/class-users-ratings-page.php:28
+#: admin/includes/class-users-ratings-page.php:599
+msgid "User Reviews"
+msgstr "Recensioni Utenti"
+
+#: admin/includes/class-users-ratings-page.php:42
+#: admin/includes/class-users-ratings-page.php:95
+msgid "Unable to perform action"
+msgstr "Non &egrave; stato possibile eseguire l'azione"
+
+#: admin/includes/class-users-ratings-page.php:164
+msgid "Review Title"
+msgstr "Titolo Recensione"
+
+#: admin/includes/class-users-ratings-page.php:169
+msgid "Review Comment"
+msgstr "Commento Recensione"
+
+#: admin/includes/class-users-ratings-page.php:184
+msgid "Review Scores"
+msgstr "Punteggi della Recensione"
+
+#: admin/includes/class-users-ratings-page.php:202
+msgid "Review Date"
+msgstr "Data Recensioni"
+
+#: admin/includes/class-users-ratings-page.php:209
+msgid "Review Images"
+msgstr "Immagini Recensione"
+
+#: admin/includes/class-users-ratings-page.php:227
+msgid "No images for the review"
+msgstr "Nessuna immagine per la recensione"
+
+#: admin/includes/class-users-ratings-page.php:233
+msgid ""
+"You can attach images to the review by adding the \"File ID\" separated by a "
+"comma"
+msgstr ""
+"Puoi aggiungere immagini alla recensione inserendo il “ID File” separato da "
+"una virgola"
+
+#: admin/includes/class-users-ratings-page.php:237
+msgid "Cancel"
+msgstr "Annulla"
+
+#: admin/includes/class-users-ratings-page.php:238
+msgid "Save Changes"
+msgstr "Salva Modifiche"
+
+#: admin/includes/class-users-ratings-page.php:712
+msgid "Author"
+msgstr "Autore"
+
+#: admin/includes/class-users-ratings-page.php:713
+msgid "Comment"
+msgstr "Commento"
+
+#: admin/includes/class-users-ratings-page.php:714
+#: public/includes/class-reviews-widget.php:400
+msgid "Score"
+msgstr "Punteggio"
+
+#: admin/includes/class-users-ratings-page.php:716
+msgid "Images"
+msgstr "Immagini"
+
+#: admin/includes/class-users-ratings-page.php:791
+msgid "No ratings yet :("
+msgstr "Non ci sono voti! :("
+
+#: admin/includes/class-users-ratings-page.php:797
+#: admin/includes/class-users-ratings-page.php:923
+#: admin/includes/class-users-ratings-page.php:925
+msgid "Approve"
+msgstr "Approva"
+
+#: admin/includes/class-users-ratings-page.php:798
+#: admin/includes/class-users-ratings-page.php:923
+#: admin/includes/class-users-ratings-page.php:925
+msgid "Unapprove"
+msgstr "Elimina Approvazione"
+
+#: admin/includes/class-users-ratings-page.php:799
+#: admin/includes/class-users-ratings-page.php:929
+#: admin/includes/class-users-ratings-page.php:931
+msgid "Apply Verified Badge"
+msgstr "Applica Badge Verificato"
+
+#: admin/includes/class-users-ratings-page.php:800
+#: admin/includes/class-users-ratings-page.php:929
+#: admin/includes/class-users-ratings-page.php:931
+msgid "Remove Verified Badge"
+msgstr "Rimuovi Badge Verificato"
+
+#: admin/includes/class-users-ratings-page.php:876
+msgid "Unable to display scores"
+msgstr "Non &egrave; stato possibile visualizzare i punteggi"
+
+#: admin/includes/class-users-ratings-page.php:935
+msgid "View"
+msgstr "Visualizza"
+
+#: admin/includes/class-users-ratings-page.php:943
+msgid "Submitted on"
+msgstr "Inviato il "
+
+#: public/class-reviewer.php:257
+msgid ""
+"The Reviewer Plugin needs WordPress >= 4.2 and PHP >= 5.3 to work. If data "
+"are correct you can ignore the notice"
+msgstr ""
+"Il Plugin Reviewer ha bisogno di WordPress >= 4.2 e PHP >= 5.3 per "
+"funzionare. Se i dati sono corretti puoi ignorare il messaggio. "
+
+#: public/class-reviewer.php:591
+msgid "Every Minute"
+msgstr "Ogni Minuto"
+
+#: public/includes/class-rating-stars-shortcode.php:49
+#: public/includes/class-rating-stars-shortcode.php:116
+#: public/includes/class-review-shortcode.php:123
+msgid "No review found! Insert a valid review ID."
+msgstr ""
+"Nessuna recensione trovata! Inserire un identificatore per la recensione "
+"valido."
+
+#: public/includes/class-rating-stars-shortcode.php:57
+msgid "It's not possible to get reviewer scores of a users reviews box"
+msgstr ""
+"No è possibile ottenere i punteggi del critico di un box recensioni per soli "
+"utenti."
+
+#: public/includes/class-rating.php:73
+msgid "Bad request! :("
+msgstr "Richiesta non valida :("
+
+#: public/includes/class-rating.php:87 public/includes/class-rating.php:94
+msgid "You already judged this review"
+msgstr "Hai già giudicato questa recensione."
+
+#: public/includes/class-rating.php:124
+msgid "Unable to judge this review"
+msgstr "Non è stato possibile giudicare questa recensione"
+
+#: public/includes/class-rating.php:160
+msgid "The user review feature is disabled for demo mode."
+msgstr "Recensioni disabilitata per la demo."
+
+#: public/includes/class-rating.php:185 public/includes/class-rating.php:230
+#: public/includes/class-rating.php:389 public/includes/class-rating.php:415
+msgid "The form was not submitted correctly"
+msgstr "Il modulo non &egrave; inviato correttamente"
+
+#: public/includes/class-rating.php:209 public/includes/class-rating.php:216
+msgid "You already reviewed this item"
+msgstr "I già recensito questo elemento"
+
+#: public/includes/class-rating.php:256 public/includes/class-rating.php:264
+msgid "Secure code is not correct"
+msgstr "Il Codice si Sicurezza non &egrave; corretto"
+
+#: public/includes/class-rating.php:277
+msgid "Your name is required"
+msgstr "Il tuo nome &egrave; richiesto"
+
+#: public/includes/class-rating.php:296
+msgid "Your email is required"
+msgstr "La tua email &egrave; richiesta"
+
+#: public/includes/class-rating.php:298
+msgid "Your email is not valid"
+msgstr "La tua email non &egrave; valida"
+
+#: public/includes/class-rating.php:327
+msgid "A review title is required"
+msgstr "Un titolo per la recensione &egrave; richiesto"
+
+#: public/includes/class-rating.php:327
+#, php-format
+msgid "The minimum number of characters is %d for review title"
+msgstr ""
+"Il minimo numero di caratteri per il titolo della recensione  &egrave; %d"
+
+#: public/includes/class-rating.php:331
+#, php-format
+msgid "The maximum number of characters is %d for review title"
+msgstr ""
+"Il massimo numero di caratteri per il titolo della recensione  &egrave; %d"
+
+#: public/includes/class-rating.php:360
+msgid "A review comment is required"
+msgstr "Un commento per la recensione &egrave; richiesto"
+
+#: public/includes/class-rating.php:360
+#, php-format
+msgid "The minimum number of characters is %d for review comment"
+msgstr ""
+"Il minimo numero di caratteri per il commento della recensione  &egrave; %d"
+
+#: public/includes/class-rating.php:364
+#, php-format
+msgid "The maximum number of characters is %d for review comment"
+msgstr ""
+"Il massimo numero di caratteri per il commento della recensione  &egrave; %d"
+
+#: public/includes/class-rating.php:458
+msgid "Scores with zero value are not allowed"
+msgstr "Punteggi con valore zero non sono permessi"
+
+#: public/includes/class-rating.php:470
+#, php-format
+msgid "You need to upload at least %d images"
+msgstr "E’ necessario caricare almeno %d immagini"
+
+#: public/includes/class-rating.php:472
+#, php-format
+msgid "You need to upload at least %d image"
+msgstr "E’ necessario caricare almeno %d immagine"
+
+#: public/includes/class-rating.php:653
+msgid "[Reviewer] New reviews"
+msgstr "[Reviewer] Nuove recensioni"
+
+#: public/includes/class-ratings-widget.php:27
+msgid "Post Title"
+msgstr "Titolo Articolo "
+
+#: public/includes/class-ratings-widget.php:28
+msgid "Show Link"
+msgstr "Link \"Mostra\""
+
+#: public/includes/class-ratings-widget.php:33
+msgid ""
+"Reviewer Plugin Widget allows you to display your latest, top score users "
+"reviews."
+msgstr ""
+"Il Widget the Reviewer plugin permette di visualizzare le recensioni utenti "
+"ordinate per data o punteggio."
+
+#: public/includes/class-ratings-widget.php:365
+#: public/includes/class-reviews-list-shortcode.php:80
+#: public/includes/class-reviews-widget.php:496
+msgid "Title"
+msgstr "Titolo"
+
+#: public/includes/class-ratings-widget.php:377
+msgid "Rating Options"
+msgstr "Opzioni del Voto"
+
+#: public/includes/class-ratings-widget.php:383
+#: public/includes/class-reviews-widget.php:509
+msgid "To display"
+msgstr "Da visualizzare"
+
+#: public/includes/class-ratings-widget.php:385
+msgid "Latest Ratings"
+msgstr "Ultimi voti"
+
+#: public/includes/class-ratings-widget.php:386
+msgid "Top Score Ratings"
+msgstr "Voti ordinati per punteggio"
+
+#: public/includes/class-ratings-widget.php:403
+msgid "Show Link Label"
+msgstr "Etichetta Link \"Mostra\""
+
+#: public/includes/class-ratings-widget.php:404
+msgid "Show"
+msgstr "Mostra"
+
+#: public/includes/class-ratings-widget.php:408
+msgid "Custom redirect URL"
+msgstr "URL per il reindirizzamento personalizzato"
+
+#: public/includes/class-ratings-widget.php:413
+msgid "Number of ratings to display"
+msgstr "Numero di voto da visualizzare"
+
+#: public/includes/class-review-shortcode.php:204
+msgid "Your browser does not support drag'n'drop file uploads."
+msgstr ""
+"Il tuo browser non supporta la funzionalità “trascina e rilascia” per il "
+"caricamento dei file."
+
+#: public/includes/class-review-shortcode.php:205
+msgid "You can upload images only."
+msgstr "Puoi caricare solo immagini"
+
+#: public/includes/class-review-shortcode.php:206
+#, php-format
+msgid "The image (%sMB) is too big. Maximum image size is %sMB."
+msgstr "L’immagine (%sMB) è troppo grande. La massima dimensione è di %sMB."
+
+#: public/includes/class-review-shortcode.php:207
+#, php-format
+msgid "Unable to upload the review images, error %s."
+msgstr ""
+"Non è stato possibile caricare le immagine della recensione., errore %s."
+
+#: public/includes/class-review-shortcode.php:208
+msgid "Cancel upload"
+msgstr "Annulla caricamento"
+
+#: public/includes/class-review-shortcode.php:209
+msgid "Do you want to cancel the upload."
+msgstr "Vuoi annullare il caricamento."
+
+#: public/includes/class-review-shortcode.php:211
+#, php-format
+msgid "You can upload %s images per review."
+msgstr "Puoi caricare %s immagine per recensione."
+
+#: public/includes/class-reviews-list-shortcode.php:45
+msgid "No reviews found for the selected templates."
+msgstr "Nessuna recensione per i modelli selezionati."
+
+#: public/includes/class-reviews-list-shortcode.php:98
+msgid "Scores Options"
+msgstr "Opzioni dei Punteggi"
+
+#: public/includes/class-reviews-list-shortcode.php:100
+msgid "Show scores as stars"
+msgstr "Mostra i punteggi come stelle"
+
+#: public/includes/class-reviews-list-shortcode.php:105
+#: public/includes/class-reviews-widget.php:511
+msgid "Latest boxes"
+msgstr "Ultimi box"
+
+#: public/includes/class-reviews-list-shortcode.php:106
+#: public/includes/class-reviews-widget.php:512
+msgid "Top scores boxes by reviewer"
+msgstr "Box del Critico ordinati per punteggio più alto"
+
+#: public/includes/class-reviews-list-shortcode.php:107
+#: public/includes/class-reviews-widget.php:513
+msgid "Top rated boxes by users"
+msgstr "Box del Critico ordinati per i più votati"
+
+#: public/includes/class-reviews-list-shortcode.php:108
+#: public/includes/class-reviews-widget.php:514
+msgid "Top score boxes by users"
+msgstr "Box del Utenti ordinati per punteggio più alto"
+
+#: public/includes/class-reviews-list-shortcode.php:109
+#: public/includes/class-reviews-widget.php:515
+msgid "Combo 1 | Average of reviewer and users scores"
+msgstr "Combo 1 | Media tra i punteggi del critico e degli utenti"
+
+#: public/includes/class-reviews-list-shortcode.php:113
+msgid "Order"
+msgstr "Ordine"
+
+#: public/includes/class-reviews-list-shortcode.php:126
+#: public/includes/class-reviews-widget.php:533
+msgid "Number of reviews to display"
+msgstr "Numero di recensioni da visualizzare"
+
+#: public/includes/class-reviews-list-shortcode.php:131
+msgid "Layout"
+msgstr "Layout"
+
+#: public/includes/class-reviews-list-shortcode.php:143
+msgid "Generate Shortcode"
+msgstr "Genera Shortcode"
+
+#: public/includes/class-reviews-widget.php:22
+msgid ""
+"Reviewer Plugin Widget allows you to display your latest, top score, top "
+"rated reviews boxes."
+msgstr ""
+"Il Widget the Reviewer plugin permette di visualizzare i box recensioni "
+"ordinate per data o punteggio."
+
+#: public/includes/class-reviews-widget.php:524
+msgid "Theme 1 - Big Format"
+msgstr "Tema 1 - Grande formato"
+
+#: public/includes/class-reviews-widget.php:525
+msgid "Theme 2 - Small Format"
+msgstr "Tema 2 - Formato ridotto"
+
+#: public/includes/class-reviews-widget.php:526
+msgid "Theme 3 - Small Format with stars"
+msgstr "Tema 2 - Formato ridotto con stelle"
+
+#: public/includes/class-table-shortcode.php:42
+msgid "No table found! Insert a valid table ID."
+msgstr ""
+"Nessuna tabella trovata! Inserire un identificatore per la tabella valido."
+
+#: public/includes/class-table-shortcode.php:58
+msgid "Add reviews to table."
+msgstr "Aggiungi recensioni alla tabella"
+
+#: public/includes/class-user-review.php:34
+#: public/includes/class-user-review.php:53
+msgid "Unable to get users reviews: bad request"
+msgstr ""
+"Non è stato possibile ottenere le recensioni utenti: richiesta non valida"
+
+#: public/includes/class-user-review.php:42
+#: public/includes/class-user-review.php:66
+msgid "Unable to get users reviews: query failed"
+msgstr "Non è stato possibile ottenere le recensioni utenti: richiesta fallita"
+
+#: public/includes/class-user-review.php:128
+#: public/includes/class-user-review.php:260 share/class-user.php:158
+#, php-format
+msgid "%s ago"
+msgstr "%s fa"
+
+#: public/includes/class-user-review.php:412
+msgid "Unable to upload review image"
+msgstr "Non è stato possibile caricare le immagini della recensione"
+
+#: public/includes/themes/layout-user-reviews-shortcode.php:17
+msgid "reviews"
+msgstr "recensioni"
+
+#: public/includes/themes/layout-user-reviews-shortcode.php:21
+msgid "photos"
+msgstr "foto"
+
+#: public/includes/themes/layout-user-reviews-shortcode.php:25
+msgid "received judgements"
+msgstr "giudizi ricevuti"
+
+#: public/includes/themes/layout-user-reviews-shortcode.php:29
+msgid "verified badges"
+msgstr "badge"
+
+#: public/includes/themes/layout-user-reviews-shortcode.php:38
+msgid "Reviews"
+msgstr "Recensioni"
+
+#: public/includes/themes/layout.php:11
+msgid "Copy and paste the URL to share the review"
+msgstr "Copia e incolla l’URL per condividere la recensione"
+
+#: public/includes/themes/theme-section-users-ratings-form.php:47
+msgid "Write your name"
+msgstr "Scrivi il tuo nome"
+
+#: public/includes/themes/theme-section-users-ratings-form.php:53
+msgid "Write your email"
+msgstr "Scrivi la tua email"
+
+#: public/includes/themes/theme-section-users-ratings-form.php:59
+msgid "Write your review title"
+msgstr "Scrivi il tuo titolo per la recensione"
+
+#: public/includes/themes/theme-section-users-ratings-form.php:65
+msgid "Write your review"
+msgstr "Scrivi la tua recensione"
+
+#: public/includes/themes/theme-section-users-ratings-form.php:75
+msgid "Your browser does not support images upload. Please choose a modern one"
+msgstr ""
+"Il tuo browser non supporta il caricamento delle immagini. Scegline uno più "
+"moderno."
+
+#: public/includes/themes/theme-section-users-ratings-form.php:153
+msgid "Submit"
+msgstr "Invia"
+
+#: public/includes/themes/theme-section-users-ratings.php:11
+msgid "Most recent"
+msgstr "Le più recenti"
+
+#: public/includes/themes/theme-section-users-ratings.php:12
+msgid "Top score"
+msgstr "Voto più alto"
+
+#: public/includes/themes/theme-section-users-ratings.php:13
+msgid "Most helpful"
+msgstr "Le più utili"
+
+#: public/includes/themes/theme-section-users-ratings.php:14
+msgid "Worst score"
+msgstr "Peggior punteggio"
+
+#: public/includes/themes/theme-section-users-ratings.php:37
+msgid "You already reviewed the item"
+msgstr "Hai già recensito l’oggetto"
+
+#: public/includes/themes/theme-section-users-ratings.php:45
+#, php-format
+msgid "One of the following user roles is required for leaving a review: %s"
+msgstr ""
+"Uno dei seguenti ruoli utente è richiesto per lasciare una recensione: %s"
+
+#: public/includes/themes/theme-section-users-ratings.php:55
+msgid "Order by:"
+msgstr "Ordina per"
+
+#: public/includes/themes/theme-section-users-ratings.php:64
+msgid "Be the first to leave a review."
+msgstr "Sii il primo a lasciare una recensione."
+
+#: public/includes/themes/theme-section-users-ratings.php:216
+msgid "Show more"
+msgstr "Di Pi&ugrave;"
+
+#: share/class-user.php:348
+msgid "Unable to get user reviews: bad request"
+msgstr "Non è stato possibile ottenere le recensioni: richiesta non valida"
+
+#: share/class-user.php:353
+msgid "Unable to get user reviews: Choose an user ID greater than 0"
+msgstr ""
+"Non è stato possibile ottenere le recensioni: Scegliere un ID Utente "
+"maggiore di 0"
+
+#: share/class-user.php:359
+msgid "Unable to get user reviews: User not found"
+msgstr "Non è stato possibile ottenere le recensioni: Utente non trovato"
+
+#~ msgid "Please upload a json file that contains a backup of Reviewer plugin."
+#~ msgstr ""
+#~ "Per favore carica un file JSON contente un backup del plugin Reviewer."
+
+#~ msgid "Display the reviews box"
+#~ msgstr "Visualizza il box recensioni"
+
+#~ msgid ""
+#~ "Display some recap sections of reviews box. The users reviews and form "
+#~ "sections are not shown"
+#~ msgstr ""
+#~ "Mostra alcune sezione del box recensioni. Le recensioni utenti e il "
+#~ "modulo non sono visualizzate."
+
+#~ msgid "Display the users reviews only"
+#~ msgstr "Mostra le sole sole recensioni utenti"
+
+#~ msgid "Display the form for user rating"
+#~ msgstr "Mostra il modello per il voto utente"
+
+#~ msgid "Insert a review or a table"
+#~ msgstr "Inserisci una recensione o una tabella"
+
+#~ msgid "[RWP] New users reviews have been posted"
+#~ msgstr "[RWP] Nuove recensioni utente sono state inviate"
+
+#~ msgid "Reviewer Wordpress Plugin"
+#~ msgstr "Plugin Reviewer"
+
+#~ msgid "%d new users reviews have been submitted."
+#~ msgstr "%d nuove recensioni sono stata scritte."
+
+#~ msgid "%d new user review has been submitted."
+#~ msgstr "%d nuova recensione è stata scritta."
+
+#~ msgid "You can manage it inside the Users Reviews page of Reviewer Plugin."
+#~ msgstr ""
+#~ "Puoi gestirla all’interno della pagina Recensioni Utenti del Plugin "
+#~ "Reviewer."
+
+#~ msgid "Reviewer Team"
+#~ msgstr "Reviewer Team"
+
+#~ msgid "Reviews List Title"
+#~ msgstr "Titolo della Lista Recensioni"
+
+#~ msgid "Reviews List Template"
+#~ msgstr "Modello della Lista Recensioni"
+
+#~ msgid "Reviews List Sorting"
+#~ msgstr "Ordinamento della Lista Recensioni"
+
+#~ msgid "Reviews List Layout"
+#~ msgstr "Layout Lista Recensioni"
+
+#~ msgid "Sort by:"
+#~ msgstr "Ordina per:"
+
+#~ msgid "Best size"
+#~ msgstr "Migliore dimensione "
+
+#~ msgid "Overall Score"
+#~ msgstr "Punteggio Globale"
+
+#~ msgid "Users Score"
+#~ msgstr "Punteggio Utenti"
+
+#~ msgid "Review ID"
+#~ msgstr "ID Recensione"
+
+#~ msgid "Users Reviews"
+#~ msgstr "Recensioni Utenti"
+
+#~ msgid "Import / Export"
+#~ msgstr "Importa / Esporta"
+
+#~ msgid ""
+#~ "In this section you can easly import or export all Reviewer Plugin data. "
+#~ "The importing process replaces the existing content of Reviewer Plugin, "
+#~ "before go ahead make a backup of your WordPress database. The exporting "
+#~ "process saves: templates, preferences, reviews, users ratings, comparison "
+#~ "tables , support data"
+#~ msgstr ""
+#~ "Puoi facilmente importare o esportare tutti i dati relativi al plugin "
+#~ "Reviewer. Il processo di importazione sostituisce tutti i dati esistenti "
+#~ "del plugin Reviewer, prima di continuare esegui un backup del tuo "
+#~ "database WordPress. Il processo di esportazione salva: i modelli, le "
+#~ "preferenze, i voti degli utenti, le tabelle comparative e l'attivazione."
+
+#~ msgid "Export"
+#~ msgstr "Esporta"
+
+#~ msgid "Import"
+#~ msgstr "Importa"
+
+#~ msgid ""
+#~ "Success! You can dowload your Reviewer backup file from the list down "
+#~ "below. You can find all backup file inside the reviewer/backup folder."
+#~ msgstr ""
+#~ "Operazione avvenuta con successo. Puoi scaricare il tuo file di backup "
+#~ "dalla lista sottostante. Puoi trovare una copia dei file di backup "
+#~ "all'interno della cartella reviewer/backup"
+
+#~ msgid "Action"
+#~ msgstr "Azione"
+
+#~ msgid "Reviews Box Status"
+#~ msgstr "Stato Box Recensione"
+
+#~ msgid ""
+#~ "If the status is set to \"Draft\", the review will not appear inside "
+#~ "Reviews Lists, Reviewer Widget and Comparison Tables"
+#~ msgstr ""
+#~ "Se lo stato della &egrave; impostato su \"Bozza\" la recessione non "
+#~ "apparir&agrave; all'interno delle Liste di Recensioni, nel Widget e nelle "
+#~ "Tabelle Comparative "
+
+#~ msgid "Ratings"
+#~ msgstr "Voti"
+
+#~ msgid "Post id:"
+#~ msgstr "ID Articolo:"
+
+#~ msgid "Box id:"
+#~ msgstr "ID Box:"
+
+#~ msgid "Post id: "
+#~ msgstr "Articolo id:"
+
+#~ msgid "Box id: "
+#~ msgstr "ID Box:"
+
+#~ msgid ""
+#~ "By checking the checkbox the user review date will be converted in a "
+#~ "human readable format, such as \"1 hour ago\", \"5 mins aog\", \"2 days "
+#~ "ago\""
+#~ msgstr ""
+#~ "Smarcando la casella la data della della recensione utente sarà "
+#~ "convertita in un formato leggibile come “1 ora fa”, “5 minuti fa”"
+
+#~ msgid ""
+#~ "In this meta box you can manage the reviews boxes; save/update the post "
+#~ "to save them."
+#~ msgstr ""
+#~ "In questo meta box puoi gestire i box recensioni; salva/aggiorna il post "
+#~ "per salvarli."
+
+#~ msgid "Post Author Review + Users Reviews"
+#~ msgstr "Recensione del Autore + Recensioni Utenti"
+
+#~ msgid "Users Reviews Only"
+#~ msgstr "Solo Recensioni Utenti"
+
+#~ msgid "Review Status"
+#~ msgstr "Stato Recensione"
+
+#~ msgid "Review Title Options"
+#~ msgstr "Opzioni del Titolo Recensione"
+
+#~ msgid "Review Template"
+#~ msgstr "Modello della Recensione"
+
+#~ msgid "Review Custom Overall Score"
+#~ msgstr "Punteggio Totale Personalizzato della Recensione "
+
+#~ msgid "Review Custom Tabs"
+#~ msgstr "Pannelli Personalizzati della Recensione"
+
+#~ msgid "Review Pros"
+#~ msgstr "Pro della Recensione"
+
+#~ msgid "Review Cons"
+#~ msgstr "Contro della Recensione"
+
+#~ msgid "Review Summary"
+#~ msgstr "Riepilogo Recensione"
+
+#~ msgid "Use \"Featured Image\" as Review Image"
+#~ msgstr "Usa l'Immagine del Post come immagine recensione"
+
+#~ msgid "Review Custom Image"
+#~ msgstr "Immagine Personalizzata della Recensione"
+
+#~ msgid "Review Image URL"
+#~ msgstr "URL Immagine"
+
+#~ msgid "Review Custom Links"
+#~ msgstr "Link Personalizzati della Recensione"
+
+#~ msgid "Disable User rating"
+#~ msgstr "Disabilita Voto Utente"
+
+#~ msgid ""
+#~ "Define the type of Reviews Boxes for Google Rich Snippets. For more "
+#~ "informations visit %s site"
+#~ msgstr ""
+#~ "Definisce il tuo dei Box Recensione per i Google Rich Snippets. Per "
+#~ "maggiori informazioni, visita il sito %s"
+
+#~ msgid "You have already rated!"
+#~ msgstr "Hai gi&agrave; votato!"
+
+#~ msgid "You have already rated."
+#~ msgstr "Hai gi&egrave; votato."
+
+#~ msgid "Unable to make like/dislike"
+#~ msgstr "Non &egrave; stato possibile assegnare il \"Mi Piace\""
+
+#~ msgid "You already rated"
+#~ msgstr "Hai gi&agrave; votato"
+
+#~ msgid "Be the first to leave a rating."
+#~ msgstr "Sii il primo a lasciare un voto."
+
+#~ msgid "Auto Reviews"
+#~ msgstr "Recensioni Automatiche"
+
+#~ msgid "Add an Users Review Box automatically"
+#~ msgstr "Aggiungi automaticamente un Box per le Recensioni Utente "
+
+#~ msgid "User Review Secure Code"
+#~ msgstr "Codice Sicurezza Recensione Utente"
+
+#~ msgid "Captcha is not set, contact the Support Team"
+#~ msgstr "Il Captcha non &egrave; settato, contatta il Supporto Tecnico"
+
+#~ msgid "Post Reviews"
+#~ msgstr "Recensioni dell'Articolo"
+
+#~ msgid ""
+#~ "In this meta box you can manage the post reviews; save/update the post to "
+#~ "save reviews."
+#~ msgstr ""
+#~ "In questo pannello puoi gestire le recensioni dell'articolo; per salvare "
+#~ "le recensioni è necessario salvare/aggiornare l'articolo."
+
+#~ msgid "Add new review"
+#~ msgstr "Aggiungi nuova recensione"
+
+#~ msgid "Display the full review"
+#~ msgstr "Mostra la recensione completa"
+
+#~ msgid "Display the review recap only"
+#~ msgstr "Mostra solo il riepilogo della recensione"
+
+#~ msgid "Display the review scores only"
+#~ msgstr "Mostra solo i punteggi della recensione"
+
+#~ msgid "Display the review ratings only"
+#~ msgstr "Mostra solo i voti utente della recensione"
+
+#~ msgid "Display the review form only"
+#~ msgstr "Mostra solo il modulo per il voto della recensione"
+
+#~ msgid "Review Shortcodes"
+#~ msgstr "Shortcode della Recensione"
+
+#~ msgid ""
+#~ "Wellcome to the Support page of Reviewer Plugin. In this section you can "
+#~ "activate your plugin copy."
+#~ msgstr ""
+#~ "Benvenuto nella pagina di Supporto del Plugin Reviewer. In questa sezione "
+#~ "puoi attivare la tua copia del plugin."
+
+#~ msgid "Why do I need to activate the plugin?"
+#~ msgstr "Perché è necessario attivare la mia copia del plugin?"
+
+#~ msgid ""
+#~ "The activation is required to get support from the Developers Team. After "
+#~ "the activation you will receive a Plugin ID that you need to include "
+#~ "inside the support email to identify your plugin copy. You can send an "
+#~ "email to michele.ivani@gmail.com to get support. If you have any issues "
+#~ "please do not post comments on plugin page at Codecanyon but follow the "
+#~ "previous instructions. Last but not least do not forget to rate the "
+#~ "plugin on your download page at Codecanyon."
+#~ msgstr ""
+#~ "L'attivazione &egrave; richiesta per ottenere supporto dal Team di "
+#~ "Sviluppatori. Dopo l'attivazione riceverai un identificativo per la tua "
+#~ "copia che dovr&agrave; essere incluso nell'email di supporto. Poi inviare "
+#~ "un'email a michele.ivani@gmail.com con la richiesta di supporto. Per "
+#~ "qualsiasi questione non scrivere commenti sulla pagina Codecanyon del "
+#~ "plugin ma seguire le istruzione precedentemente descritte. Ultimo ma non "
+#~ "meno importante: non dimenticare di lasciare una tuavalutazione del "
+#~ "plugin nella tua sezione download su Codecanyon."
+
+#~ msgid "Thank you for registering your plugin copy."
+#~ msgstr "Grazie per a avere registrato la tua copia del plugin."
+
+#~ msgid ""
+#~ "Unable to register the plugin. Please contact the plugin support Team via "
+#~ "email. Error: "
+#~ msgstr ""
+#~ "Non &egrave; stato possibile registrare il plugin. Contatta il Team di "
+#~ "support via mail. Errore: "
+
+#~ msgid "Total Score Label"
+#~ msgstr "Etichetta Punteggio Totale"
+
+#~ msgid "The Reviewer Plugin needs WordPress 3.9+ and PHP 5.3+ to work."
+#~ msgstr ""
+#~ "Il plugin Reviewer richiede una versione 3.9 o successiva di WordPress e "
+#~ "una versione 5.3 o successiva di PHP affinch&egarve; funzioni "
+#~ "correttamente."
+
+#~ msgid "Plugin Activation Error"
+#~ msgstr "Errore nell'attivazione del Plugin"
+
+#~ msgid ""
+#~ "Reviewer Plugin Widget allows you to display your latest, top score users "
+#~ "ratings."
+#~ msgstr ""
+#~ "Il Widget del Plugin Reviewer permette di visualizzare i tuoi voti utente "
+#~ "ordinati per data o per punteggio decrescente."
+
+#~ msgid "Top Score Reviews By Post Author"
+#~ msgstr "Ordinamento per punteggio autore del post"
+
+#~ msgid "Latest Reviews"
+#~ msgstr "Ultime recensioni"
+
+#~ msgid "Top Score Reviews By Users"
+#~ msgstr "Ordinamento per punteggio utenti"
+
+#~ msgid "Top Rated Reviews By Users"
+#~ msgstr "Ordinamento per le recensioni pi&ugrave; votate"
+
+#~ msgid "Combo 1 | Average of Author Score and Users Score"
+#~ msgstr "Combo 1 | Media tra Punteggio Autore e Punteggio Utente"
+
+#~ msgid ""
+#~ "Reviewer Plugin Widget allows you to display your latest, top score, top "
+#~ "rated reviews."
+#~ msgstr ""
+#~ "Il widget del Plugin Reviewer permette di visualizzare le tue ultime "
+#~ "recensioni, con pi&ugrave; alto punteggio, le pi&ugrave; votate."
+
+#~ msgid "Top Score Reviews by Post Authors"
+#~ msgstr "Ordinamento per punteggio autore del post"
+
+#~ msgid "Top Rated Reviews by Users"
+#~ msgstr "Ordinamento per le recensioni pi&ugrave; votate"
+
+#~ msgid "Top Score Reviews by Users"
+#~ msgstr "Ordinamento per punteggio utenti"
+
+#~ msgid "Combo 1 | Average of Author and Users Scores"
+#~ msgstr "Combo 1 | Media tra Punteggio Autore e Punteggio Utente"
+
+#~ msgid "Auto Reviews &amp; Ratings"
+#~ msgstr "Auto Recensioni &amp; Voti"
+
+#~ msgid "Auto Review"
+#~ msgstr "Box Recensione Automatico"
+
+#~ msgid "Review Shortcode"
+#~ msgstr "Shortcode Recensione"
+
+#~ msgid "Full Rating"
+#~ msgstr "Valutazione Completa"
+
+#~ msgid "Auto Reviews Box"
+#~ msgstr "Box Recensione Automatico"
+
+#~ msgid "Please insert a reviews template before adding a new review."
+#~ msgstr ""
+#~ "&Egrave necessario inserire un modello prima di aggiungere una nuova "
+#~ "recensione."
+
+#~ msgid "Add Reviews in following post types"
+#~ msgstr "Aggiungi Recensioni nei seguenti tipi di post"
+
+#~ msgid "Total Score"
+#~ msgstr "Punteggio Totale"
+
+#~ msgid "No ratings yet"
+#~ msgstr "Non sono presenti valutazioni"
+
+#~ msgid ""
+#~ "Wellcome to the Support page of Reviewer Plugin. In this section you can "
+#~ "register your plugin copy."
+#~ msgstr ""
+#~ "Benvenuto nella pagina di Support del Plugin Reviewer. In questa sezione "
+#~ "puoi registrare la tua copia del plugin."
+
+#~ msgid "Why do I need to register the plugin?"
+#~ msgstr "Perché ho bisogno di registrare il plugin? "
+
+#~ msgid ""
+#~ "The registration is required to get support from the developers team. "
+#~ "After the registration you will receive a Plugin ID that you need to "
+#~ "include inside the support email to identify your plugin copy. You can "
+#~ "send an email to michele.ivani@gmail.com to get support. Please if you "
+#~ "have any issues do not post comments on plugin page at Codecanyon but "
+#~ "follow the previous instructions. Last but not least do not forget to "
+#~ "rate the plugin on your download page at Codecanyon."
+#~ msgstr ""
+#~ "La registrazione è richiesta per ricevere supporto dal team di "
+#~ "sviluppatori. Dopo la registrazione otterrai un identificativo che dovrai "
+#~ "includere nella mail di supporto al fine di identificare la tua copia del "
+#~ "plugin. Puoi inviare una mail a michele.ivani@gmail.com con la richiesta "
+#~ "di supporto. Per favore per qualsiasi problema non scrivere un commento "
+#~ "sulla pagina del plugin su Codecayon ma segui le precedenti istruzioni. "
+#~ "Infine non dimenticare di esprimere una valutazione del plugin "
+#~ "all'interno della pagina di download su Codecanyon. "
+
+#~ msgid "Register Plugin Copy"
+#~ msgstr "Registra la copia del plugin"
+
+#~ msgid "Invalid form submit"
+#~ msgstr "Invio del form non valido!"
+
+#~ msgid "Top Score Reviews"
+#~ msgstr "Recensioni con punteggio pi&ugrave; alto"
+
+#~ msgid "Top Rated Reviews"
+#~ msgstr "Recensioni pi&ugrave; votate"
+
+#~ msgid "Top Users Score Reviews"
+#~ msgstr "Recensioni con punteggio utente pi&ugrave; alto"
+
+#~ msgid "Combo 1 | Author Score + Users Score"
+#~ msgstr "Combo 1 | Punteggio Autore + Punteggio Utenti"
+
+#~ msgid "Background Color of total score value"
+#~ msgstr "Colore sfondo del valore del punteggio totale"
+
+#~ msgid "HEX Color"
+#~ msgstr "Colore HEX"
+
+#~ msgid "Internal Error! Retry or contact the support team."
+#~ msgstr "Errore Interno! Riprovare o contattare il supporto tecnico."
+
+#~ msgid "You have rated this"
+#~ msgstr "Hai gi&agrave; votato!"
+
+#~ msgid "All Templates"
+#~ msgstr "Tutti i Modelli"
+
+#~ msgid "A Post Review"
+#~ msgstr "Una Recensione dell'Articolo"

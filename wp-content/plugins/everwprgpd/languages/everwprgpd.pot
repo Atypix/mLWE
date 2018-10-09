@@ -1,0 +1,214 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: everwprgpd\n"
+"POT-Creation-Date: 2018-03-31 11:49+0200\n"
+"PO-Revision-Date: 2018-03-31 11:49+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: everwprgpd.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: everwprgpd.php:86 everwprgpd.php:87
+msgid "RGPD"
+msgstr ""
+
+#: everwprgpd.php:263 everwprgpd.php:284
+msgid "Get my account datas"
+msgstr ""
+
+#: views/back/settings.php:13 views/settings.php:13
+msgid "European data protection law (GDPR)"
+msgstr ""
+
+#: views/back/settings.php:15 views/settings.php:15
+msgid "Please read"
+msgstr ""
+
+#: views/back/settings.php:15 views/settings.php:15
+msgid "before using current plugin."
+msgstr ""
+
+#: views/back/settings.php:16 views/settings.php:16
+msgid ""
+"Note that this current plugin is only here to help you, you will be able to "
+"export customers data, specify Data Protection Officer, check for pages "
+"without SSL, add specific message showed in front-office, allow customers "
+"extract in JSON/XML format their own personnal data and send you a specific "
+"message"
+msgstr ""
+
+#: views/back/settings.php:17
+msgid ""
+"Use [everrgpdaccount] shortcode to add customer data extract form on front-"
+"office"
+msgstr ""
+
+#: views/back/settings.php:18 views/settings.php:18
+msgid ""
+"Thanks for using <a href=\"https://www.team-ever.com\" target=\"_blank"
+"\">Team Ever's plugins"
+msgstr ""
+
+#: views/back/settings.php:19 views/settings.php:19
+msgid "Export all users data in JSON"
+msgstr ""
+
+#: views/back/settings.php:20 views/settings.php:20
+msgid "Export all users data in XML"
+msgstr ""
+
+#: views/back/settings.php:21 views/settings.php:21
+msgid "Export all users data in CSV"
+msgstr ""
+
+#: views/back/settings.php:27 views/settings.php:27
+msgid "Data protector officer"
+msgstr ""
+
+#: views/back/settings.php:30 views/settings.php:30
+msgid "Please insert data protection officer name"
+msgstr ""
+
+#: views/back/settings.php:31 views/settings.php:31
+msgid "Data protection officer name"
+msgstr ""
+
+#: views/back/settings.php:34 views/settings.php:34
+msgid "Please insert data protection officer email"
+msgstr ""
+
+#: views/back/settings.php:35 views/settings.php:35
+msgid "Data protection officer email"
+msgstr ""
+
+#: views/back/settings.php:38 views/settings.php:38
+msgid "Front office message"
+msgstr ""
+
+#: views/back/settings.php:51 views/settings.php:51
+msgid "Save"
+msgstr ""
+
+#: views/back/settings.php:54 views/settings.php:54
+msgid "Settings saved successfully"
+msgstr ""
+
+#: views/back/settings.php:55 views/settings.php:55
+msgid "An error has occured, please check console"
+msgstr ""
+
+#: views/back/settings.php:58 views/settings.php:58
+msgid "URL in database without SSL protection"
+msgstr ""
+
+#: views/back/settings.php:59 views/settings.php:59
+msgid ""
+"If you don't know how to change this errors, feel free to contact us at "
+msgstr ""
+
+#: views/back/settings.php:69 views/settings.php:69
+msgid "Congratulations ! There is no SSL error in your posts"
+msgstr ""
+
+#: views/back/settings.php:75 views/settings.php:75
+msgid "Database prefix"
+msgstr ""
+
+#: views/back/settings.php:76 views/settings.php:76
+msgid "Do not use default WordPress database prefix"
+msgstr ""
+
+#: views/back/settings.php:79 views/settings.php:79
+msgid ""
+"Your database prefix is default. Please change this after saving all datas"
+msgstr ""
+
+#: views/back/settings.php:81 views/settings.php:81
+msgid "Database prefix has been changed, congratulations !"
+msgstr ""
+
+#: views/back/settings.php:87 views/settings.php:87
+msgid "Admin user"
+msgstr ""
+
+#: views/back/settings.php:88 views/settings.php:88
+msgid ""
+"You should ban all users named \"admin\". Here's a list of all users using "
+"admin nicename"
+msgstr ""
+
+#: views/back/settings.php:98 views/settings.php:98
+msgid "No admin nicename set in database."
+msgstr ""
+
+#: views/back/settings.php:105 views/settings.php:105
+msgid "Want to secure more your own WordPress or WooCommerce ?"
+msgstr ""
+
+#: views/back/settings.php:105 views/settings.php:105
+msgid "See our latests posts on our website !"
+msgstr ""
+
+#: views/front/rgpdfront.php:8
+msgid "Our Data Protection Officer infos :"
+msgstr ""
+
+#: views/front/rgpdfront.php:9
+msgid "feel free to contact him at "
+msgstr ""
+
+#: views/front/rgpdfront.php:10
+msgid ""
+"Before clicking, please make sure that popups are enabled on our website"
+msgstr ""
+
+#: views/front/rgpdfront.php:11
+msgid "Export your personnal data in JSON format"
+msgstr ""
+
+#: views/front/rgpdfront.php:12
+msgid "Export your personnal data in XML format"
+msgstr ""
+
+#: views/front/rgpdfront.php:13
+msgid "Export your personnal data in CSV format"
+msgstr ""
+
+#: views/settings.php:17
+msgid ""
+"Use [everrgpdaccount] shortcode to add customer data extract form on front-"
+"offic"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "everwprgpd"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.team-ever.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Utilisez ce plugin pour être au plus proche de la loi RGPD"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ever Team"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.team-ever.com/"
+msgstr ""

@@ -1,0 +1,7 @@
+/* Hide Add New */
+.page-title-action{ display: none; }
+
+/* Simplify Publish Meta Box */
+.post-type-claim #minor-publishing { display: none; }
+.post-type-claim #major-publishing-actions { border-top: none; }
+.post-type-claim #post-body-content{ display: none; } /* empty div */

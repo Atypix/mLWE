@@ -1,0 +1,1218 @@
+<% extends 'layout.html' %>
+
+<% block templates %>
+  <%= partial(
+    'newsletter_editor_template_tools_generic',
+    'newsletter/templates/blocks/base/toolsGeneric.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_automated_latest_content_block',
+    'newsletter/templates/blocks/automatedLatestContent/block.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_automated_latest_content_widget',
+    'newsletter/templates/blocks/automatedLatestContent/widget.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_automated_latest_content_settings',
+    'newsletter/templates/blocks/automatedLatestContent/settings.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_button_block',
+    'newsletter/templates/blocks/button/block.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_button_widget',
+    'newsletter/templates/blocks/button/widget.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_button_settings',
+    'newsletter/templates/blocks/button/settings.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_container_block',
+    'newsletter/templates/blocks/container/block.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_container_block_empty',
+    'newsletter/templates/blocks/container/emptyBlock.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_container_one_column_widget',
+    'newsletter/templates/blocks/container/oneColumnLayoutWidget.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_container_two_column_widget',
+    'newsletter/templates/blocks/container/twoColumnLayoutWidget.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_container_three_column_widget',
+    'newsletter/templates/blocks/container/threeColumnLayoutWidget.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_container_settings',
+    'newsletter/templates/blocks/container/settings.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_container_column_settings',
+    'newsletter/templates/blocks/container/columnSettings.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_divider_block',
+    'newsletter/templates/blocks/divider/block.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_divider_widget',
+    'newsletter/templates/blocks/divider/widget.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_divider_settings',
+    'newsletter/templates/blocks/divider/settings.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_footer_block',
+    'newsletter/templates/blocks/footer/block.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_footer_widget',
+    'newsletter/templates/blocks/footer/widget.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_footer_settings',
+    'newsletter/templates/blocks/footer/settings.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_header_block',
+    'newsletter/templates/blocks/header/block.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_header_widget',
+    'newsletter/templates/blocks/header/widget.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_header_settings',
+    'newsletter/templates/blocks/header/settings.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_image_block',
+    'newsletter/templates/blocks/image/block.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_image_widget',
+    'newsletter/templates/blocks/image/widget.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_image_settings',
+    'newsletter/templates/blocks/image/settings.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_posts_block',
+    'newsletter/templates/blocks/posts/block.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_posts_widget',
+    'newsletter/templates/blocks/posts/widget.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_posts_settings',
+    'newsletter/templates/blocks/posts/settings.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_posts_settings_display_options',
+    'newsletter/templates/blocks/posts/settingsDisplayOptions.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_posts_settings_selection',
+    'newsletter/templates/blocks/posts/settingsSelection.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_posts_settings_selection_empty',
+    'newsletter/templates/blocks/posts/settingsSelectionEmpty.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_posts_settings_single_post',
+    'newsletter/templates/blocks/posts/settingsSinglePost.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_social_block',
+    'newsletter/templates/blocks/social/block.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_social_block_icon',
+    'newsletter/templates/blocks/social/blockIcon.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_social_widget',
+    'newsletter/templates/blocks/social/widget.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_social_settings',
+    'newsletter/templates/blocks/social/settings.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_social_settings_icon',
+    'newsletter/templates/blocks/social/settingsIcon.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_social_settings_icon_selector',
+    'newsletter/templates/blocks/social/settingsIconSelector.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_social_settings_styles',
+    'newsletter/templates/blocks/social/settingsStyles.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_spacer_block',
+    'newsletter/templates/blocks/spacer/block.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_spacer_widget',
+    'newsletter/templates/blocks/spacer/widget.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_spacer_settings',
+    'newsletter/templates/blocks/spacer/settings.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_text_block',
+    'newsletter/templates/blocks/text/block.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_text_widget',
+    'newsletter/templates/blocks/text/widget.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_text_settings',
+    'newsletter/templates/blocks/text/settings.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_heading',
+    'newsletter/templates/components/heading.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_save',
+    'newsletter/templates/components/save.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_styles',
+    'newsletter/templates/components/styles.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_newsletter_preview',
+    'newsletter/templates/components/newsletterPreview.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_sidebar',
+    'newsletter/templates/components/sidebar/sidebar.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_sidebar_content',
+    'newsletter/templates/components/sidebar/content.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_sidebar_layout',
+    'newsletter/templates/components/sidebar/layout.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_sidebar_preview',
+    'newsletter/templates/components/sidebar/preview.hbs'
+  ) %>
+  <%= partial(
+    'newsletter_editor_template_sidebar_styles',
+    'newsletter/templates/components/sidebar/styles.hbs'
+  ) %>
+<% endblock %>
+
+<% block content %>
+<!-- Hidden heading for notices to appear under -->
+<h1 style="display:none"><%= __('Newsletter Editor') %></h1>
+<div id="mailpoet_editor">
+  <div id="mailpoet_editor_heading"></div>
+  <div id="mailpoet_editor_breadcrumb" class="mailpoet_breadcrumbs"></div>
+  <div class="clearfix"></div>
+  <div id="mailpoet_editor_main_wrapper">
+    <div id="mailpoet_editor_styles"></div>
+    <div id="mailpoet_editor_content_container">
+      <div class="mailpoet_newsletter_wrapper">
+        <div id="mailpoet_editor_content"></div>
+      </div>
+    </div>
+    <div id="mailpoet_editor_sidebar"></div>
+    <div class="clear"></div>
+  </div>
+  <div id="mailpoet_editor_bottom"></div>
+
+  <div class="mailpoet_layer_overlay" style="display:none;"></div>
+
+  <div id="wp-link-backdrop" style="display: none"></div>
+  <div
+    id="wp-link-wrap"
+    class="wp-core-ui search-panel-visible"
+    style="display: none"
+  >
+  <form id="wp-link" tabindex="-1">
+    <%= wp_nonce_field('internal-linking', '_ajax_linking_nonce', false) %>
+    <div id="link-modal-title">
+      <%= __('Insert/edit link') %>
+      <div id="wp-link-close" tabindex="0"></div>
+    </div>
+    <div id="link-selector">
+      <div id="link-options">
+        <div>
+          <label>
+            <span><%= __('Type') %></span>
+            <select id="url-type-field" name="urltype">
+              <option value="http://"><%= __('Link to a web page') %></option>
+              <option value="[viewInBrowserUrl]"><%= __('Browser version') %></option>
+              <option value="[unsubscribeUrl]"><%= __('Unsubcribe page') %></option>
+              <option value="[manageSubscriptionUrl]"><%= __('Manage your subscription page') %></option>
+            </select>
+          </label>
+        </div>
+        <div id="link-href-field">
+          <label><span><%= __('Link') %></span><input id="url-field" type="text" name="href" /></label>
+        </div>
+        <div class="mailpoet_hidden">
+          <label><span><%= __('Title') %></span><input id="link-title-field" type="text" name="linktitle" /></label>
+        </div>
+        <div class="link-target mailpoet_hidden">
+          <label><span>&nbsp;</span><input type="checkbox" id="link-target-checkbox" /> <%= __('Open link in a new window/tab') %></label>
+        </div>
+      </div>
+      <div id="search-panel">
+        <div class="link-search-wrapper">
+          <label>
+            <span class="search-label"><%= __('Search your content') %></span>
+            <input type="search" id="search-field" class="link-search-field" autocomplete="off" />
+            <span class="spinner"></span>
+          </label>
+        </div>
+        <div id="search-results" class="query-results">
+          <ul></ul>
+          <div class="river-waiting">
+            <span class="spinner"></span>
+          </div>
+        </div>
+        <div id="most-recent-results" class="query-results">
+          <div class="query-notice"><em><%= __('No search term specified. Showing recent items.') %></em></div>
+          <ul></ul>
+          <div class="river-waiting">
+            <span class="spinner"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="submitbox">
+      <div id="wp-link-update">
+        <input type="submit" value="<%= __('Add Link') %>" class="button button-primary" id="wp-link-submit" name="wp-link-submit">
+      </div>
+      <div id="wp-link-cancel">
+        <a class="submitdelete deletion" href="#"><%= __('Cancel') %></a>
+      </div>
+    </div>
+  </form>
+</div>
+<% endblock %>
+
+<% block translations %>
+  <% set helpTooltipSendPreview = __("Didn't receive the test email? Read our [link]quick guide[/link] to sending issues. <br><br>A MailPoet logo will appear in the footer of all emails sent with the free version of MailPoet.")
+  |replaceLinkTags('http://beta.docs.mailpoet.com/article/146-my-newsletters-are-not-being-received', {'target' : '_blank'})
+  |escape('js') %>
+  <%= localize({
+    'failedToFetchAvailablePosts': __('Failed to fetch available posts'),
+    'failedToFetchRenderedPosts': __('Failed to fetch rendered posts'),
+    'shortcodesWindowTitle': __('Select a shortcode'),
+    'unsubscribeLinkMissing': __('All emails must include an "Unsubscribe" link. Add a footer widget to your email to continue.'),
+    'automatedLatestContentMissing': __('Please add an "Automated Latest Content" widget to the email from the right sidebar.'),
+    'newsletterPreviewEmailMissing': __('Enter an email address to send the preview newsletter to.'),
+    'newsletterPreviewSent': __('Your test email has been sent!'),
+    'templateNameMissing': __('Please add a template name'),
+    'helpTooltipSendPreview': helpTooltipSendPreview,
+    'helpTooltipDesignerStyles': __('We only include fonts that will display in all email clients. We understand it can feel limiting!'),
+    'helpTooltipDesignerSubjectLine': __("You can add MailPoet shortcodes here. For example, you can add your subscribers' first names by using this shortcode: [subscriber:firstname | default:reader] Simply copy and paste the shortcode into the field."),
+    'helpTooltipDesignerPreheader': __("This optional text will appear in your subscribers' inboxes, beside the subject line. Write something enticing!"),
+    'helpTooltipDesignerFullWidth': __("This option eliminates padding around the image. It only works if the image is larger than the column size."),
+    'helpTooltipDesignerIdealWidth': __("Use images with widths of at least 1,000 pixels to ensure sharp display on high density screens, like mobile devices."),
+    'templateDescriptionMissing': __('Please add a template description'),
+    'templateSaved': __('Template has been saved.'),
+    'templateSaveFailed': __('Template has not been saved, please try again'),
+    'categoriesAndTags': __('Categories & tags'),
+    'noPostsToDisplay': __('There is no content to display.'),
+    'previewShouldOpenInNewTab': __('Your preview should open in a new tab. Please ensure your browser is not blocking popups from this page.'),
+    'newsletterPreview': __('Newsletter Preview'),
+    'newsletterBodyIsCorrupted': __('Contents of this newsletter are corrupted and may be lost, you may need to add new content to this newsletter, or create a new one. If possible, please contact us and report this issue.'),
+    'saving': __('Saving...'),
+    'unsavedChangesWillBeLost': __('There are unsaved changes which will be lost if you leave this page.'),
+    'selectColor': _x('Select', 'select color'),
+    'cancelColorSelection': _x('Cancel', 'cancel color selection'),
+    'newsletterIsPaused': __('Email sending has been paused.'),
+
+    'selectType': __('Select type'),
+    'events': __('Events'),
+    'conditions': _x('Conditions', 'Configuration options for automatic email events'),
+    'template': __('Template'),
+    'designer': __('Designer'),
+    'send': __('Send'),
+  }) %>
+<% endblock %>
+
+<% block after_css %>
+  <%= stylesheet(
+    'newsletter_editor.css'
+  ) %>
+<% endblock %>
+
+<% block after_javascript %>
+  <%= javascript(
+    'lib/tinymce/tinymce.jquery.min.js',
+    'lib/tinymce/jquery.tinymce.min.js',
+    'lib/mailpoet_shortcodes/plugin.js',
+    'lib/wplink/plugin.js',
+    'newsletter_editor.js'
+  ) %>
+
+  <%= do_action('mailpoet_newsletter_editor_after_javascript') %>
+
+  <script type="text/javascript">
+    var templates = {
+      styles: Handlebars.compile(
+        jQuery('#newsletter_editor_template_styles').html()
+      ),
+      save: Handlebars.compile(
+        jQuery('#newsletter_editor_template_save').html()
+      ),
+      heading: Handlebars.compile(
+        jQuery('#newsletter_editor_template_heading').html()
+      ),
+
+      sidebar: Handlebars.compile(
+        jQuery('#newsletter_editor_template_sidebar').html()
+      ),
+      sidebarContent: Handlebars.compile(
+        jQuery('#newsletter_editor_template_sidebar_content').html()
+      ),
+      sidebarLayout: Handlebars.compile(
+        jQuery('#newsletter_editor_template_sidebar_layout').html()
+      ),
+      sidebarStyles: Handlebars.compile(
+        jQuery('#newsletter_editor_template_sidebar_styles').html()
+      ),
+      sidebarPreview: Handlebars.compile(
+        jQuery('#newsletter_editor_template_sidebar_preview').html()
+      ),
+      newsletterPreview: Handlebars.compile(
+        jQuery('#newsletter_editor_template_newsletter_preview').html()
+      ),
+
+      genericBlockTools: Handlebars.compile(
+        jQuery('#newsletter_editor_template_tools_generic').html()
+      ),
+
+      containerBlock: Handlebars.compile(
+        jQuery('#newsletter_editor_template_container_block').html()
+      ),
+      containerEmpty: Handlebars.compile(
+        jQuery('#newsletter_editor_template_container_block_empty').html()
+      ),
+      oneColumnLayoutInsertion: Handlebars.compile(
+        jQuery('#newsletter_editor_template_container_one_column_widget').html()
+      ),
+      twoColumnLayoutInsertion: Handlebars.compile(
+        jQuery('#newsletter_editor_template_container_two_column_widget').html()
+      ),
+      threeColumnLayoutInsertion: Handlebars.compile(
+        jQuery('#newsletter_editor_template_container_three_column_widget').html()
+      ),
+      containerBlockSettings: Handlebars.compile(
+        jQuery('#newsletter_editor_template_container_settings').html()
+      ),
+      containerBlockColumnSettings: Handlebars.compile(
+        jQuery('#newsletter_editor_template_container_column_settings').html()
+      ),
+
+      buttonBlock: Handlebars.compile(
+        jQuery('#newsletter_editor_template_button_block').html()
+      ),
+      buttonInsertion: Handlebars.compile(
+        jQuery('#newsletter_editor_template_button_widget').html()
+      ),
+      buttonBlockSettings: Handlebars.compile(
+        jQuery('#newsletter_editor_template_button_settings').html()
+      ),
+
+      dividerBlock: Handlebars.compile(
+        jQuery('#newsletter_editor_template_divider_block').html()
+      ),
+      dividerInsertion: Handlebars.compile(
+        jQuery('#newsletter_editor_template_divider_widget').html()
+      ),
+      dividerBlockSettings: Handlebars.compile(
+        jQuery('#newsletter_editor_template_divider_settings').html()
+      ),
+
+      footerBlock: Handlebars.compile(
+        jQuery('#newsletter_editor_template_footer_block').html()
+      ),
+      footerInsertion: Handlebars.compile(
+        jQuery('#newsletter_editor_template_footer_widget').html()
+      ),
+      footerBlockSettings: Handlebars.compile(
+        jQuery('#newsletter_editor_template_footer_settings').html()
+      ),
+
+      headerBlock: Handlebars.compile(
+        jQuery('#newsletter_editor_template_header_block').html()
+      ),
+      headerInsertion: Handlebars.compile(
+        jQuery('#newsletter_editor_template_header_widget').html()
+      ),
+      headerBlockSettings: Handlebars.compile(
+        jQuery('#newsletter_editor_template_header_settings').html()
+      ),
+
+      imageBlock: Handlebars.compile(
+        jQuery('#newsletter_editor_template_image_block').html()
+      ),
+      imageInsertion: Handlebars.compile(
+        jQuery('#newsletter_editor_template_image_widget').html()
+      ),
+      imageBlockSettings: Handlebars.compile(
+        jQuery('#newsletter_editor_template_image_settings').html()
+      ),
+
+      socialBlock: Handlebars.compile(
+        jQuery('#newsletter_editor_template_social_block').html()
+      ),
+      socialIconBlock: Handlebars.compile(
+        jQuery('#newsletter_editor_template_social_block_icon').html()
+      ),
+      socialInsertion: Handlebars.compile(
+        jQuery('#newsletter_editor_template_social_widget').html()
+      ),
+      socialBlockSettings: Handlebars.compile(
+        jQuery('#newsletter_editor_template_social_settings').html()
+      ),
+      socialSettingsIconSelector: Handlebars.compile(
+        jQuery('#newsletter_editor_template_social_settings_icon_selector').html()
+      ),
+      socialSettingsIcon: Handlebars.compile(
+        jQuery('#newsletter_editor_template_social_settings_icon').html()
+      ),
+      socialSettingsStyles: Handlebars.compile(
+        jQuery('#newsletter_editor_template_social_settings_styles').html()
+      ),
+
+      spacerBlock: Handlebars.compile(
+        jQuery('#newsletter_editor_template_spacer_block').html()
+      ),
+      spacerInsertion: Handlebars.compile(
+        jQuery('#newsletter_editor_template_spacer_widget').html()
+      ),
+      spacerBlockSettings: Handlebars.compile(
+        jQuery('#newsletter_editor_template_spacer_settings').html()
+      ),
+
+      automatedLatestContentBlock: Handlebars.compile(
+        jQuery('#newsletter_editor_template_automated_latest_content_block').html()
+      ),
+      automatedLatestContentInsertion: Handlebars.compile(
+        jQuery('#newsletter_editor_template_automated_latest_content_widget').html()
+      ),
+      automatedLatestContentBlockSettings: Handlebars.compile(
+        jQuery('#newsletter_editor_template_automated_latest_content_settings').html()
+      ),
+
+      postsBlock: Handlebars.compile(
+        jQuery('#newsletter_editor_template_posts_block').html()
+      ),
+      postsInsertion: Handlebars.compile(
+        jQuery('#newsletter_editor_template_posts_widget').html()
+      ),
+      postsBlockSettings: Handlebars.compile(
+        jQuery('#newsletter_editor_template_posts_settings').html()
+      ),
+      postSelectionPostsBlockSettings: Handlebars.compile(
+        jQuery('#newsletter_editor_template_posts_settings_selection').html()
+      ),
+      emptyPostPostsBlockSettings: Handlebars.compile(
+        jQuery('#newsletter_editor_template_posts_settings_selection_empty').html()
+      ),
+      singlePostPostsBlockSettings: Handlebars.compile(
+        jQuery('#newsletter_editor_template_posts_settings_single_post').html()
+      ),
+      displayOptionsPostsBlockSettings: Handlebars.compile(
+        jQuery('#newsletter_editor_template_posts_settings_display_options').html()
+      ),
+
+      textBlock: Handlebars.compile(
+        jQuery('#newsletter_editor_template_text_block').html()
+      ),
+      textInsertion: Handlebars.compile(
+        jQuery('#newsletter_editor_template_text_widget').html()
+      ),
+      textBlockSettings: Handlebars.compile(
+        jQuery('#newsletter_editor_template_text_settings').html()
+      )
+    };
+
+    var config = {
+      availableStyles: {
+        textSizes: [
+          '9px', '10px', '11px', '12px', '13px', '14px', '15px', '16px',
+          '17px', '18px', '19px', '20px', '21px', '22px', '23px', '24px'
+        ],
+        headingSizes: [
+          '10px', '12px', '14px', '16px', '18px', '20px', '22px', '24px',
+          '26px', '30px', '36px', '40px'
+        ],
+        fonts: [
+          'Arial',
+          'Comic Sans MS',
+          'Courier New',
+          'Georgia',
+          'Lucida',
+          'Tahoma',
+          'Times New Roman',
+          'Trebuchet MS',
+          'Verdana'
+        ],
+        socialIconSets: {
+          'default': {
+            'custom': '<%= image_url(
+              'newsletter_editor/social-icons/custom.png'
+            ) %>',
+            'facebook': '<%= image_url(
+              'newsletter_editor/social-icons/01-social/Facebook.png'
+            ) %>',
+            'twitter': '<%= image_url(
+              'newsletter_editor/social-icons/01-social/Twitter.png'
+            ) %>',
+            'google-plus': '<%= image_url(
+              'newsletter_editor/social-icons/01-social/Google-Plus.png'
+            ) %>',
+            'youtube': '<%= image_url(
+              'newsletter_editor/social-icons/01-social/Youtube.png'
+            ) %>',
+            'website': '<%= image_url(
+              'newsletter_editor/social-icons/01-social/Website.png'
+            ) %>',
+            'email': '<%= image_url(
+              'newsletter_editor/social-icons/01-social/Email.png'
+            ) %>',
+            'instagram': '<%= image_url(
+              'newsletter_editor/social-icons/01-social/Instagram.png'
+            ) %>',
+            'pinterest': '<%= image_url(
+              'newsletter_editor/social-icons/01-social/Pinterest.png'
+            ) %>',
+            'linkedin': '<%= image_url(
+              'newsletter_editor/social-icons/01-social/LinkedIn.png'
+            ) %>'
+          },
+          'grey': {
+            'custom': '<%= image_url(
+              'newsletter_editor/social-icons/custom.png'
+            ) %>',
+            'facebook': '<%= image_url(
+              'newsletter_editor/social-icons/02-grey/Facebook.png'
+            ) %>',
+            'twitter': '<%= image_url(
+              'newsletter_editor/social-icons/02-grey/Twitter.png'
+            ) %>',
+            'google-plus': '<%= image_url(
+              'newsletter_editor/social-icons/02-grey/Google-Plus.png'
+            ) %>',
+            'youtube': '<%= image_url(
+              'newsletter_editor/social-icons/02-grey/Youtube.png'
+            ) %>',
+            'website': '<%= image_url(
+              'newsletter_editor/social-icons/02-grey/Website.png'
+            ) %>',
+            'email': '<%= image_url(
+              'newsletter_editor/social-icons/02-grey/Email.png'
+            ) %>',
+            'instagram': '<%= image_url(
+              'newsletter_editor/social-icons/02-grey/Instagram.png'
+            ) %>',
+            'pinterest': '<%= image_url(
+              'newsletter_editor/social-icons/02-grey/Pinterest.png'
+            ) %>',
+            'linkedin': '<%= image_url(
+              'newsletter_editor/social-icons/02-grey/LinkedIn.png'
+            ) %>',
+          },
+          'circles': {
+            'custom': '<%= image_url(
+              'newsletter_editor/social-icons/custom.png'
+            ) %>',
+            'facebook': '<%= image_url(
+              'newsletter_editor/social-icons/03-circles/Facebook.png'
+            ) %>',
+            'twitter': '<%= image_url(
+              'newsletter_editor/social-icons/03-circles/Twitter.png'
+            ) %>',
+            'google-plus': '<%= image_url(
+              'newsletter_editor/social-icons/03-circles/Google-Plus.png'
+            ) %>',
+            'youtube': '<%= image_url(
+              'newsletter_editor/social-icons/03-circles/Youtube.png'
+            ) %>',
+            'website': '<%= image_url(
+              'newsletter_editor/social-icons/03-circles/Website.png'
+            ) %>',
+            'email': '<%= image_url(
+              'newsletter_editor/social-icons/03-circles/Email.png'
+            ) %>',
+            'instagram': '<%= image_url(
+              'newsletter_editor/social-icons/03-circles/Instagram.png'
+            ) %>',
+            'pinterest': '<%= image_url(
+              'newsletter_editor/social-icons/03-circles/Pinterest.png'
+            ) %>',
+            'linkedin': '<%= image_url(
+              'newsletter_editor/social-icons/03-circles/LinkedIn.png'
+            ) %>',
+          },
+          'full-flat-roundrect': {
+            'custom': '<%= image_url(
+              'newsletter_editor/social-icons/custom.png'
+            ) %>',
+            'facebook': '<%= image_url(
+              'newsletter_editor/social-icons/04-full-flat-roundrect/Facebook.png'
+            ) %>',
+            'twitter': '<%= image_url(
+              'newsletter_editor/social-icons/04-full-flat-roundrect/Twitter.png'
+            ) %>',
+            'google-plus': '<%= image_url(
+              'newsletter_editor/social-icons/04-full-flat-roundrect/Google-Plus.png'
+            ) %>',
+            'youtube': '<%= image_url(
+              'newsletter_editor/social-icons/04-full-flat-roundrect/Youtube.png'
+            ) %>',
+            'website': '<%= image_url(
+              'newsletter_editor/social-icons/04-full-flat-roundrect/Website.png'
+            ) %>',
+            'email': '<%= image_url(
+              'newsletter_editor/social-icons/04-full-flat-roundrect/Email.png'
+            ) %>',
+            'instagram': '<%= image_url(
+              'newsletter_editor/social-icons/04-full-flat-roundrect/Instagram.png'
+            ) %>',
+            'pinterest': '<%= image_url(
+              'newsletter_editor/social-icons/04-full-flat-roundrect/Pinterest.png'
+            ) %>',
+            'linkedin': '<%= image_url(
+              'newsletter_editor/social-icons/04-full-flat-roundrect/LinkedIn.png'
+            ) %>',
+          },
+          'full-gradient-square': {
+            'custom': '<%= image_url(
+              'newsletter_editor/social-icons/custom.png'
+            ) %>',
+            'facebook': '<%= image_url(
+              'newsletter_editor/social-icons/05-full-gradient-square/Facebook.png'
+            ) %>',
+            'twitter': '<%= image_url(
+              'newsletter_editor/social-icons/05-full-gradient-square/Twitter.png'
+            ) %>',
+            'google-plus': '<%= image_url(
+              'newsletter_editor/social-icons/05-full-gradient-square/Google-Plus.png'
+            ) %>',
+            'youtube': '<%= image_url(
+              'newsletter_editor/social-icons/05-full-gradient-square/Youtube.png'
+            ) %>',
+            'website': '<%= image_url(
+              'newsletter_editor/social-icons/05-full-gradient-square/Website.png'
+            ) %>',
+            'email': '<%= image_url(
+              'newsletter_editor/social-icons/05-full-gradient-square/Email.png'
+            ) %>',
+            'instagram': '<%= image_url(
+              'newsletter_editor/social-icons/05-full-gradient-square/Instagram.png'
+            ) %>',
+            'pinterest': '<%= image_url(
+              'newsletter_editor/social-icons/05-full-gradient-square/Pinterest.png'
+            ) %>',
+            'linkedin': '<%= image_url(
+              'newsletter_editor/social-icons/05-full-gradient-square/LinkedIn.png'
+            ) %>',
+          },
+          'full-symbol-color': {
+            'custom': '<%= image_url(
+              'newsletter_editor/social-icons/custom.png'
+            ) %>',
+            'facebook': '<%= image_url(
+              'newsletter_editor/social-icons/06-full-symbol-color/Facebook.png'
+            ) %>',
+            'twitter': '<%= image_url(
+              'newsletter_editor/social-icons/06-full-symbol-color/Twitter.png'
+            ) %>',
+            'google-plus': '<%= image_url(
+              'newsletter_editor/social-icons/06-full-symbol-color/Google-Plus.png'
+            ) %>',
+            'youtube': '<%= image_url(
+              'newsletter_editor/social-icons/06-full-symbol-color/Youtube.png'
+            ) %>',
+            'website': '<%= image_url(
+              'newsletter_editor/social-icons/06-full-symbol-color/Website.png'
+            ) %>',
+            'email': '<%= image_url(
+              'newsletter_editor/social-icons/06-full-symbol-color/Email.png'
+            ) %>',
+            'instagram': '<%= image_url(
+              'newsletter_editor/social-icons/06-full-symbol-color/Instagram.png'
+            ) %>',
+            'pinterest': '<%= image_url(
+              'newsletter_editor/social-icons/06-full-symbol-color/Pinterest.png'
+            ) %>',
+            'linkedin': '<%= image_url(
+              'newsletter_editor/social-icons/06-full-symbol-color/LinkedIn.png'
+            ) %>',
+          },
+          'full-symbol-black': {
+            'custom': '<%= image_url(
+              'newsletter_editor/social-icons/custom.png'
+            ) %>',
+            'facebook': '<%= image_url(
+              'newsletter_editor/social-icons/07-full-symbol-black/Facebook.png'
+            ) %>',
+            'twitter': '<%= image_url(
+              'newsletter_editor/social-icons/07-full-symbol-black/Twitter.png'
+            ) %>',
+            'google-plus': '<%= image_url(
+              'newsletter_editor/social-icons/07-full-symbol-black/Google-Plus.png'
+            ) %>',
+            'youtube': '<%= image_url(
+              'newsletter_editor/social-icons/07-full-symbol-black/Youtube.png'
+            ) %>',
+            'website': '<%= image_url(
+              'newsletter_editor/social-icons/07-full-symbol-black/Website.png'
+            ) %>',
+            'email': '<%= image_url(
+              'newsletter_editor/social-icons/07-full-symbol-black/Email.png'
+            ) %>',
+            'instagram': '<%= image_url(
+              'newsletter_editor/social-icons/07-full-symbol-black/Instagram.png'
+            ) %>',
+            'pinterest': '<%= image_url(
+              'newsletter_editor/social-icons/07-full-symbol-black/Pinterest.png'
+            ) %>',
+            'linkedin': '<%= image_url(
+              'newsletter_editor/social-icons/07-full-symbol-black/LinkedIn.png'
+            ) %>',
+          },
+          'full-symbol-grey': {
+            'custom': '<%= image_url(
+              'newsletter_editor/social-icons/custom.png'
+            ) %>',
+            'facebook': '<%= image_url(
+              'newsletter_editor/social-icons/08-full-symbol-grey/Facebook.png'
+            ) %>',
+            'twitter': '<%= image_url(
+              'newsletter_editor/social-icons/08-full-symbol-grey/Twitter.png'
+            ) %>',
+            'google-plus': '<%= image_url(
+              'newsletter_editor/social-icons/08-full-symbol-grey/Google-Plus.png'
+            ) %>',
+            'youtube': '<%= image_url(
+              'newsletter_editor/social-icons/08-full-symbol-grey/Youtube.png'
+            ) %>',
+            'website': '<%= image_url(
+              'newsletter_editor/social-icons/08-full-symbol-grey/Website.png'
+            ) %>',
+            'email': '<%= image_url(
+              'newsletter_editor/social-icons/08-full-symbol-grey/Email.png'
+            ) %>',
+            'instagram': '<%= image_url(
+              'newsletter_editor/social-icons/08-full-symbol-grey/Instagram.png'
+            ) %>',
+            'pinterest': '<%= image_url(
+              'newsletter_editor/social-icons/08-full-symbol-grey/Pinterest.png'
+            ) %>',
+            'linkedin': '<%= image_url(
+              'newsletter_editor/social-icons/08-full-symbol-grey/LinkedIn.png'
+            ) %>',
+          },
+          'line-roundrect': {
+            'custom': '<%= image_url(
+              'newsletter_editor/social-icons/custom.png'
+            ) %>',
+            'facebook': '<%= image_url(
+              'newsletter_editor/social-icons/09-line-roundrect/Facebook.png'
+            ) %>',
+            'twitter': '<%= image_url(
+              'newsletter_editor/social-icons/09-line-roundrect/Twitter.png'
+            ) %>',
+            'google-plus': '<%= image_url(
+              'newsletter_editor/social-icons/09-line-roundrect/Google-Plus.png'
+            ) %>',
+            'youtube': '<%= image_url(
+              'newsletter_editor/social-icons/09-line-roundrect/Youtube.png'
+            ) %>',
+            'website': '<%= image_url(
+              'newsletter_editor/social-icons/09-line-roundrect/Website.png'
+            ) %>',
+            'email': '<%= image_url(
+              'newsletter_editor/social-icons/09-line-roundrect/Email.png'
+            ) %>',
+            'instagram': '<%= image_url(
+              'newsletter_editor/social-icons/09-line-roundrect/Instagram.png'
+            ) %>',
+            'pinterest': '<%= image_url(
+              'newsletter_editor/social-icons/09-line-roundrect/Pinterest.png'
+            ) %>',
+            'linkedin': '<%= image_url(
+              'newsletter_editor/social-icons/09-line-roundrect/LinkedIn.png'
+            ) %>',
+          },
+          'line-square': {
+            'custom': '<%= image_url(
+              'newsletter_editor/social-icons/custom.png'
+            ) %>',
+            'facebook': '<%= image_url(
+              'newsletter_editor/social-icons/10-line-square/Facebook.png'
+            ) %>',
+            'twitter': '<%= image_url(
+              'newsletter_editor/social-icons/10-line-square/Twitter.png'
+            ) %>',
+            'google-plus': '<%= image_url(
+              'newsletter_editor/social-icons/10-line-square/Google-Plus.png'
+            ) %>',
+            'youtube': '<%= image_url(
+              'newsletter_editor/social-icons/10-line-square/Youtube.png'
+            ) %>',
+            'website': '<%= image_url(
+              'newsletter_editor/social-icons/10-line-square/Website.png'
+            ) %>',
+            'email': '<%= image_url(
+              'newsletter_editor/social-icons/10-line-square/Email.png'
+            ) %>',
+            'instagram': '<%= image_url(
+              'newsletter_editor/social-icons/10-line-square/Instagram.png'
+            ) %>',
+            'pinterest': '<%= image_url(
+              'newsletter_editor/social-icons/10-line-square/Pinterest.png'
+            ) %>',
+            'linkedin': '<%= image_url(
+              'newsletter_editor/social-icons/10-line-square/LinkedIn.png'
+            ) %>',
+          },
+        },
+        dividers: [
+          'hidden',
+          'dotted',
+          'dashed',
+          'solid',
+          'double',
+          'groove',
+          'ridge'
+        ]
+      },
+      socialIcons: {
+        'facebook': {
+          title: 'Facebook',
+          linkFieldName: '<%= __('Link') | escape('js') %>',
+          defaultLink: 'http://www.facebook.com',
+        },
+        'twitter': {
+          title: 'Twitter',
+          linkFieldName: '<%= __('Link') | escape('js') %>',
+          defaultLink: 'http://www.twitter.com',
+        },
+        'google-plus': {
+          title: 'Google Plus',
+          linkFieldName: '<%= __('Link') | escape('js') %>',
+          defaultLink: 'http://plus.google.com',
+        },
+        'youtube': {
+          title: 'Youtube',
+          linkFieldName: '<%= __('Link') | escape('js') %>',
+          defaultLink: 'http://www.youtube.com',
+        },
+        'website': {
+          title: '<%= __('Website') | escape('js') %>',
+          linkFieldName: '<%= __('Link') | escape('js') %>',
+          defaultLink: '',
+        },
+        'email': {
+          title: '<%= __('Email') | escape('js') %>',
+          linkFieldName: '<%= __('Email') | escape('js') %>',
+          defaultLink: '',
+        },
+        'instagram': {
+          title: 'Instagram',
+          linkFieldName: '<%= __('Link') | escape('js') %>',
+          defaultLink: 'http://instagram.com',
+        },
+        'pinterest': {
+          title: 'Pinterest',
+          linkFieldName: '<%= __('Link') | escape('js') %>',
+          defaultLink: 'http://www.pinterest.com',
+        },
+        'linkedin': {
+          title: 'LinkedIn',
+          linkFieldName: '<%= __('Link') | escape('js') %>',
+          defaultLink: 'http://www.linkedin.com',
+        },
+        'custom': {
+          title: '<%= __('Custom') | escape('js') %>',
+          linkFieldName: '<%= __('Link') | escape('js') %>',
+          defaultLink: '',
+        },
+      },
+      blockDefaults: {
+        automatedLatestContent: {
+          amount: '5',
+          contentType: 'post', // 'post'|'page'|'mailpoet_page'
+          inclusionType: 'include', // 'include'|'exclude'
+          displayType: 'excerpt', // 'excerpt'|'full'|'titleOnly'
+          titleFormat: 'h1', // 'h1'|'h2'|'h3'|'ul'
+          titleAlignment: 'left', // 'left'|'center'|'right'
+          titleIsLink: false, // false|true
+          imageFullWidth: false, // true|false
+          featuredImagePosition: 'belowTitle', // 'belowTitle'|'aboveTitle'|'none',
+          showAuthor: 'no', // 'no'|'aboveText'|'belowText'
+          authorPrecededBy: '<%= __('Author:') | escape('js') %>',
+          showCategories: 'no', // 'no'|'aboveText'|'belowText'
+          categoriesPrecededBy: '<%= __('Categories:') | escape('js') %>',
+          readMoreType: 'button', // 'link'|'button'
+          readMoreText: '<%= __('Read more') | escape('js') %>',
+          readMoreButton: {
+            text: '<%= __('Read more') | escape('js') %>',
+            url: '[postLink]',
+            context: 'automatedLatestContent.readMoreButton',
+            styles: {
+              block: {
+                backgroundColor: '#2ea1cd',
+                borderColor: '#0074a2',
+                borderWidth: '1px',
+                borderRadius: '5px',
+                borderStyle: 'solid',
+                width: '180px',
+                lineHeight: '40px',
+                fontColor: '#ffffff',
+                fontFamily: 'Verdana',
+                fontSize: '18px',
+                fontWeight: 'normal',
+                textAlign: 'center',
+              }
+            }
+          },
+          sortBy: 'newest', // 'newest'|'oldest',
+          showDivider: true, // true|false
+          divider: {
+            context: 'automatedLatestContent.divider',
+            styles: {
+              block: {
+                backgroundColor: 'transparent',
+                padding: '13px',
+                borderStyle: 'solid',
+                borderWidth: '3px',
+                borderColor: '#aaaaaa',
+              },
+            },
+          },
+          backgroundColor: '#ffffff',
+          backgroundColorAlternate: '#eeeeee',
+        },
+        button: {
+          text: '<%= __('Button') | escape('js') %>',
+          url: '',
+          styles: {
+            block: {
+              backgroundColor: '#2ea1cd',
+              borderColor: '#0074a2',
+              borderWidth: '1px',
+              borderRadius: '5px',
+              borderStyle: 'solid',
+              width: '180px',
+              lineHeight: '40px',
+              fontColor: '#ffffff',
+              fontFamily: 'Verdana',
+              fontSize: '18px',
+              fontWeight: 'normal',
+              textAlign: 'center',
+            },
+          },
+        },
+        container: {
+          styles: {
+            block: {
+              backgroundColor: 'transparent',
+            },
+          },
+        },
+        divider: {
+          styles: {
+            block: {
+              backgroundColor: 'transparent',
+              padding: '13px',
+              borderStyle: 'solid',
+              borderWidth: '3px',
+              borderColor: '#aaaaaa',
+            },
+          },
+        },
+        footer: {
+          text: '<p><a href="[link:subscription_unsubscribe_url]"><%= __('Unsubscribe') %></a> | <a href="[link:subscription_manage_url]"><%= __('Manage subscription') %></a><br /><%= __('Add your postal address here!') %></p>',
+          styles: {
+            block: {
+              backgroundColor: 'transparent',
+            },
+            text: {
+              fontColor: '#222222',
+              fontFamily: 'Arial',
+              fontSize: '12px',
+              textAlign: 'center',
+            },
+            link: {
+              fontColor: '#6cb7d4',
+              textDecoration: 'none',
+            },
+          },
+        },
+        image: {
+          link: '',
+          src: '',
+          alt: '<%= __('An image of...') | escape('js') %>',
+          fullWidth: false,
+          width: '281px',
+          height: '190px',
+          styles: {
+            block: {
+              textAlign: 'center',
+            },
+          },
+        },
+        posts: {
+          amount: '10',
+          contentType: 'post', // 'post'|'page'|'mailpoet_page'
+          postStatus: 'publish', // 'draft'|'pending'|'private'|'publish'|'future'
+          inclusionType: 'include', // 'include'|'exclude'
+          displayType: 'excerpt', // 'excerpt'|'full'|'titleOnly'
+          titleFormat: 'h1', // 'h1'|'h2'|'h3'|'ul'
+          titleAlignment: 'left', // 'left'|'center'|'right'
+          titleIsLink: false, // false|true
+          imageFullWidth: false, // true|false
+          featuredImagePosition: 'belowTitle', // 'belowTitle'|'aboveTitle'|'none',
+          showAuthor: 'no', // 'no'|'aboveText'|'belowText'
+          authorPrecededBy: '<%= __('Author:') | escape('js') %>',
+          showCategories: 'no', // 'no'|'aboveText'|'belowText'
+          categoriesPrecededBy: '<%= __('Categories:') | escape('js') %>',
+          readMoreType: 'link', // 'link'|'button'
+          readMoreText: '<%= __('Read more') | escape('js') %>',
+          readMoreButton: {
+            text: '<%= __('Read more') | escape('js') %>',
+            url: '[postLink]',
+            context: 'posts.readMoreButton',
+            styles: {
+              block: {
+                backgroundColor: '#2ea1cd',
+                borderColor: '#0074a2',
+                borderWidth: '1px',
+                borderRadius: '5px',
+                borderStyle: 'solid',
+                width: '180px',
+                lineHeight: '40px',
+                fontColor: '#ffffff',
+                fontFamily: 'Verdana',
+                fontSize: '18px',
+                fontWeight: 'normal',
+                textAlign: 'center',
+              },
+            },
+          },
+          sortBy: 'newest', // 'newest'|'oldest',
+          showDivider: true, // true|false
+          divider: {
+            context: 'posts.divider',
+            styles: {
+              block: {
+                backgroundColor: 'transparent',
+                padding: '13px',
+                borderStyle: 'solid',
+                borderWidth: '3px',
+                borderColor: '#aaaaaa',
+              },
+            },
+          },
+          backgroundColor: '#ffffff',
+          backgroundColorAlternate: '#eeeeee',
+        },
+        social: {
+          iconSet: 'default',
+          icons: [
+          {
+            type: 'socialIcon',
+            iconType: 'facebook',
+            link: 'http://www.facebook.com',
+            image: '<%= image_url(
+              'newsletter_editor/social-icons/01-social/Facebook.png'
+            ) %>',
+            height: '32px',
+            width: '32px',
+            text: '<%= __('Facebook') | escape('js') %>',
+          },
+          {
+            type: 'socialIcon',
+            iconType: 'twitter',
+            link: 'http://www.twitter.com',
+            image: '<%= image_url(
+              'newsletter_editor/social-icons/01-social/Twitter.png'
+            ) %>',
+            height: '32px',
+            width: '32px',
+            text: '<%= __('Twitter') | escape('js') %>',
+          },
+          ],
+        },
+        spacer: {
+          styles: {
+            block: {
+              backgroundColor: 'transparent',
+              height: '40px',
+            },
+          },
+        },
+        text: {
+          text: '<%= __('Edit this to insert text.') | escape('js') %>',
+        },
+        header: {
+          text: '<%= __('Display problems?') | escape('js') %>&nbsp;' +
+            '<a href="[link:newsletter_view_in_browser_url]"><%= __('Open this email in your web browser.') %></a>',
+          styles: {
+            block: {
+              backgroundColor: 'transparent',
+            },
+            text: {
+              fontColor: '#222222',
+              fontFamily: 'Arial',
+              fontSize: '12px',
+              textAlign: 'center',
+            },
+            link: {
+              fontColor: '#6cb7d4',
+              textDecoration: 'underline',
+            },
+          },
+        },
+      },
+      shortcodes: <%= json_encode(shortcodes) %>,
+      sidepanelWidth: '331px',
+      newsletterPreview: {
+        width: '1024px',
+        height: '768px'
+      },
+      validation: {
+        validateUnsubscribeLinkPresent: <%= mss_active ? 'true' : 'false' %>,
+      },
+      urls: {
+        send: '<%= admin_url('admin.php?page=mailpoet-newsletters#/send/' ~ (params('id') | intval)) %>',
+        imageMissing: '<%= image_url(
+          "newsletter_editor/image-missing.svg"
+        ) %>',
+      },
+    };
+    wp.hooks.doAction('mailpoet_newsletters_editor_initialize', config);
+  </script>
+<% endblock %>

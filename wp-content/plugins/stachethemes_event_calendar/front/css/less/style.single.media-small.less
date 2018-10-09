@@ -1,0 +1,506 @@
+.stec-layout-single-media-small {
+    padding: 20px;
+    .stec-layout-single-button-style {
+        padding: 15px;
+        p {
+            font-size: 12px;
+        }
+    }
+    .stec-layout-single-preview {
+        .stec-layout-single-preview-left-text-featured {
+            span {
+                display: none;
+            }
+            i {
+                display: inline;
+            }
+        }
+        .stec-layout-single-preview-left {
+            -webkit-align-items: stretch;
+            align-items: stretch;
+            .stec-layout-single-preview-left-text {
+                margin-left: 10px;
+            }
+            .stec-layout-single-preview-left-icon {
+                border-radius: 3px;
+                height: 38px;
+                min-width: 38px;
+                width: 38px;
+                >i {
+                    line-height: 38px;
+                    font-size: 20px;
+                }
+            }
+            .stec-layout-single-preview-left-icon.stec-layout-single-no-icon {
+                min-width: 10px;
+                width: 10px;
+            }
+            .stec-layout-single-preview-left-text-title {
+                font-size: 14px;
+            }
+            .stec-layout-single-preview-left-text-date {
+                font-size: 11px;
+                margin-top: 5px;
+                .stec-layout-single-month-full {
+                    display: none;
+                }
+                .stec-layout-single-month-short {
+                    display: inline;
+                }
+            }
+        }
+        .stec-layout-single-preview-right {
+            display: none;
+        }
+        .stec-layout-single-preview-left-reminder-toggle {
+            display: block;
+        }
+    }
+    .stec-layout-single-reminder-form {
+        margin-top: 20px;
+        padding-top: 20px;
+        >ul {
+            >li {
+                margin-right: 0;
+                width: 100%;
+                float: left;
+                &:not(:first-child) {
+                    margin-top: 10px;
+                }
+                &:nth-child(2) {
+                    width: ~'calc(50% - 5px)';
+                }
+                &:nth-child(3) {
+                    width: ~'calc(50% - 5px)';
+                    float: right;
+                }
+            }
+        }
+    }
+    .stec-layout-single-reminder-form.active {
+        display: block;
+        >ul {
+            display: block;
+        }
+    }
+    .stec-layout-single-media-content {
+        margin-top: 20px;
+        >div {
+            >div {
+                display: none;
+            }
+        }
+    }
+    .stec-layout-single-media-controls {
+        height: 50px;
+        .stec-layout-single-media-controls-prev {
+            height: 50px;
+            i {
+                line-height: 50px;
+            }
+        }
+        .stec-layout-single-media-controls-next {
+            height: 50px;
+            i {
+                line-height: 50px;
+            }
+        }
+    }
+    .stec-layout-single-media-controls-list-wrap {
+        height: 50px;
+    }
+    .stec-layout-single-media-controls-list {
+        height: 50px;
+        li {
+            height: 50px;
+        }
+    }
+    .stec-layout-single-media-content-subs {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        p {
+            font-size: 14px;
+        }
+        span {
+            font-size: 12px;
+        }
+    }
+    .stec-layout-single-counter {
+        margin-top: 25px;
+        margin-bottom: 15px !important;
+        li {
+            width: 70px;
+        }
+        .stec-layout-single-counter-num {
+            font-size: 20px;
+            line-height: 1.6;
+        }
+        .stec-layout-single-counter-label {
+            font-size: 10px;
+        }
+    }
+    .stec-layout-single-event-status-text {
+        margin-top: 25px;
+        margin-bottom: 0;
+    }
+    .stec-layout-single-share-and-export {
+        display: block;
+        .stec-layout-single-share {
+            width: 100%;
+            text-align: center;
+            float: left;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -webkit-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+        .stec-layout-single-export {
+            float: left;
+            width: 100%;
+            form {
+                width: 100%;
+            }
+            button {
+                width: 100%;
+                margin: 0;
+                margin-top: 10px;
+                float: left;
+                text-align: center;
+            }
+            a {
+                width: 100%;
+                margin: 0;
+                margin-top: 10px;
+                float: left;
+                text-align: center;
+            }
+        }
+    }
+    .stec-layout-single-location {
+        .stec-layout-single-location-flex {
+            display: block;
+            float: left;
+            &:nth-child(2) {
+                margin-top: 10px;
+            }
+            .stec-layout-single-location-left {
+                width: 100%;
+                float: left;
+                margin-left: 0;
+                .stec-layout-single-location-address {
+                    margin-top: 5px;
+                }
+            }
+            .stec-layout-single-location-right {
+                width: 100%;
+                float: left;
+                margin-left: 0;
+                .stec-layout-single-location-address {
+                    margin-top: 5px;
+                }
+                input {
+                    &:first-child {
+                        margin-top: 10px;
+                    }
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        .stec-layout-single-location-directions-title {
+            margin-top: 45px;
+            margin-top: 20px;
+        }
+        .stec-layout-single-location-details {
+            float: left;
+            width: 100%;
+            margin-top: 5px;
+        }
+        .stec-layout-single-location-details-title {
+            float: left;
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+    .stec-layout-single-tabs-list {
+        padding: 15px 0 !important;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -webkit-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        li {
+            width: 100%;
+            text-align: center;
+            p {
+                display: none;
+            }
+            i {
+                width: 100%;
+                display: block;
+            }
+            &:not(:first-child) {
+                margin-left: 0;
+            }
+        }
+    }
+    .stec-layout-single-schedule {
+        .stec-layout-single-schedule-tab-preview {
+            display: block;
+            .stec-layout-single-schedule-tab-left {
+                width: 100%;
+                float: left;
+                span {
+                    font-size: 12px;
+                }
+            }
+            .stec-layout-single-schedule-tab-right {
+                width: 100%;
+                float: left;
+            }
+            .stec-layout-single-schedule-tab-right-title {
+                span {
+                    font-size: 16px;
+                }
+                i {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .stec-layout-single-guests {
+        .stec-layout-single-guests-guest-left {
+            width: 100%;
+            float: left;
+        }
+        .stec-layout-single-guests-guest-left-avatar {
+            float: none;
+            margin: 0 auto;
+        }
+        .stec-layout-single-guests-guest-right {
+            width: 100%;
+            margin-top: 20px;
+        }
+        .stec-layout-single-guests-guest-right-title {
+            text-align: center;
+            width: 100%;
+            font-size: 18px;
+        }
+        .stec-layout-single-guests-guest-right-desc {
+            p {
+                font-size: 13px;
+            }
+        }
+        .stec-layout-single-guests-guest {
+            padding: 20px 0;
+        }
+    }
+    .stec-layout-single-woocommerce {
+        padding: 20px 0;
+        .stec-layout-single-woocommerce-top {
+            display: none;
+        }
+        .stec-layout-single-woocommerce-product-status {
+            span {
+                margin-top: 20px;
+            }
+        }
+        .stec-layout-single-woocommerce-product {
+            position: relative;
+            float: left;
+            display: block;
+            .stec-layout-single-woocommerce-product-buy-addtocart {
+                padding: 15px 16px;
+                p {
+                    display: none;
+                }
+                i {
+                    display: block;
+                }
+            }
+            >* {
+                margin-left: 0;
+                width: 100%;
+                float: left;
+            }
+            .stec-layout-single-woocommerce-product-quantity {
+                >span {
+                    &:first-child {
+                        display: inline-block;
+                        margin-right: 10px;
+                    }
+                }
+                width: 100%;
+                float: left;
+                text-align: left;
+                margin-top: 20px;
+            }
+            .stec-layout-single-woocommerce-product-price {
+                >span {
+                    &:first-child {
+                        display: inline-block;
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .stec-layout-single-woocommerce-product-buy-ajax-status {
+                i {
+                    width: 52px;
+                    height: 52px;
+                    line-height: 52px;
+                    text-align: center;
+                }
+                .stec-preloader {
+                    width: 52px;
+                    height: 52px;
+                    line-height: 52px;
+                    text-align: center;
+                    margin-left: 7px;
+                }
+            }
+            >div {
+                &:last-child {
+                    float: right;
+                    width: 52px;
+                    position: absolute;
+                    bottom: 30px;
+                    right: 0;
+                }
+            }
+        }
+    }
+    .stec-layout-single-forecast {
+        padding: 20px 0;
+        .stec-layout-single-forecast-today {
+            display: block;
+            width: 100%;
+            float: left;
+            .stec-layout-single-forecast-today-left {
+                width: 100%;
+                float: left;
+                .stec-layout-single-forecast-today-left-current-text {
+                    font-size: 16px;
+                }
+                .stec-layout-single-forecast-today-left-current-temp {
+                    font-size: 32px;
+                }
+            }
+            .stec-layout-single-forecast-today-right {
+                width: 100%;
+                float: left;
+                margin-top: 20px;
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+        .stec-layout-single-forecast-details {
+            display: block;
+            width: 100%;
+            float: left;
+            .stec-layout-single-forecast-details-left {
+                display: block;
+                width: 100%;
+                float: left;
+                min-width: 0;
+                .stec-layout-single-forecast-details-left-forecast-top {
+                    p {
+                        font-size: 12px;
+                    }
+                }
+                .stec-layout-single-forecast-details-left-forecast-day {
+                    p {
+                        font-size: 16px;
+                    }
+                }
+            }
+            .stec-layout-single-forecast-details-right {
+                display: block;
+                width: 100%;
+                float: left;
+                margin-top: 20px;
+                max-width: 100%;
+            }
+            >div {
+                >p {
+                    font-size: 16px;
+                }
+            }
+        }
+        .stec-layout-single-forecast-top-title {
+            font-size: 16px;
+        }
+        .stec-layout-single-forecast-top-date {
+            font-size: 12px;
+            margin-top: 3px;
+        }
+    }
+    .stec-layout-single-attendance {
+        .stec-layout-single-attendance-attendees {
+            padding: 20px 0;
+        }
+        .stec-layout-single-attendance-attendee {
+            width: calc(100% / 2);
+            height: 200px;
+            p {
+                font-size: 14px;
+                max-width: 150px;
+                float: none;
+                margin: 20px auto 0;
+            }
+        }
+        .stec-layout-single-attendance-invited {
+            display: block;
+            .stec-layout-single-preloader {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -webkit-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+                float: none;
+                width: 100%;
+                height: 45px;
+                margin-top: 20px;
+            }
+            p {
+                text-align: center;
+            }
+        }
+        .stec-layout-single-attendance-invited-buttons {
+            width: 100%;
+            float: left;
+            margin-top: 20px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -webkit-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+    }
+    .stec-layout-single-comments {
+        padding: 20px 0;
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "johngrogg/ics-parser": "^2"
+    }
+}
+

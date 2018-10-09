@@ -1,0 +1,7079 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KnowherePro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-24 13:40+0000\n"
+"PO-Revision-Date: 2018-08-27 07:32+0000\n"
+"Last-Translator: cecile.gilles <cecile.gilles@hotmail.fr>\n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: search.php:109 template-parts/loop-index.php:60
+#: config-composer/shortcodes/vc_mad_blog_posts.php:220
+msgid "Read More"
+msgstr "A lire aussi"
+
+#: single-job_listing.php:144 job_manager/content-single-job_listing.php:149
+#: config-job-manager/widgets/widget-job-listing-map.php:50
+msgid "Get Directions"
+msgstr "Comment y aller !"
+
+#: single-job_listing.php:158
+#: config-job-manager/widgets/widget-job-listing-info-employer.php:87
+#: config-job-manager/widgets/widget-job-listing-map.php:64
+msgid "Social Profiles"
+msgstr "Réseaux sociaux"
+
+#: comments.php:5
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:17
+#, php-format
+msgctxt "comments title"
+msgid "Comment (1)"
+msgid_plural "Comments (%1$s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:33 comments.php:48
+msgid "Comments are closed."
+msgstr ""
+
+#: single.php:48 page.php:28 template-parts/loop-index.php:57
+msgid "Pages:"
+msgstr ""
+
+#: single.php:56 config-job-manager/config.php:966
+#: config-job-manager/config.php:1028 job_manager/job-filters.php:339
+#: config-job-manager/widgets/widget-job-listing-search.php:88
+#: admin/framework/theme-options/settings.php:1435
+#: admin/framework/theme-options/settings.php:2808
+msgid "Tags"
+msgstr "Période"
+
+#: 404.php:20
+msgid "Looking for..."
+msgstr ""
+
+#: 404.php:23 searchform.php:3 searchform.php:4
+#: config-job-manager/php/wp-job-manager.php:126
+#: config-job-manager/php/wp-job-manager.php:127
+#: admin/framework/theme-options/settings.php:1073
+msgid "Search"
+msgstr "Chercher"
+
+#: bookmark-form.php:11
+msgid "Favorited"
+msgstr "Favori"
+
+#: bookmark-form.php:19
+msgid "Add to Favorites"
+msgstr "Ajouter aux favoris"
+
+#: bookmark-form.php:26
+msgid "Notes:"
+msgstr ""
+
+#: bookmark-form.php:30
+msgid "Update Bookmark"
+msgstr ""
+
+#: bookmark-form.php:30
+msgid "Add Bookmark"
+msgstr ""
+
+#: single-knowhere_agency.php:23 single-knowhere_agent.php:28
+#: wp-job-manager-resumes/content-single-resume.php:12
+msgid "About"
+msgstr ""
+
+#: single-knowhere_agency.php:26
+msgid "Our Agents"
+msgstr ""
+
+#: single-knowhere_agency.php:76
+msgid "Our Properties"
+msgstr ""
+
+#: my-bookmarks.php:10 my-bookmarks.php:39 config-job-manager/config.php:1880
+#: config-composer/config/map.php:146 config-composer/config/map.php:339
+#: config-composer/modules/vc_mad_info_block.php:122
+msgid "Image"
+msgstr ""
+
+#: my-bookmarks.php:14 my-bookmarks.php:56 job_manager/template-fields.php:4
+#: includes/widgets.php:125 includes/widgets.php:436 includes/widgets.php:628
+#: includes/widgets.php:710 includes/widgets.php:766
+#: config-job-manager/php/wp-job-details.php:54
+#: config-job-manager/php/wp-job-manager-resumes.php:32
+#: job_manager/form-fields/details-fields-field.php:33
+#: config-composer/config/map.php:561 config-composer/config/map.php:627
+#: config-composer/config/map.php:698 config-composer/config/map.php:772
+#: config-composer/config/map.php:840 config-composer/config/map.php:942
+#: config-composer/config/map.php:1020 config-composer/config/map.php:1186
+#: config-composer/config/map.php:1297 config-composer/config/map.php:1371
+#: config-composer/config/map.php:1515 config-composer/config/map.php:1575
+#: config-composer/config/map.php:1667 config-composer/config/map.php:1773
+#: config-composer/config/map.php:1865
+#: config-composer/modules/vc_mad_advanced_tabs.php:42
+#: config-composer/modules/vc_mad_advanced_tabs.php:69
+#: config-composer/modules/vc_mad_info_block.php:28
+#: config-composer/modules/vc_mad_info_block.php:115
+#: config-composer/modules/vc_mad_accordion.php:39
+#: config-composer/modules/vc_mad_accordion.php:87
+#: config-composer/modules/vc_mad_advanced_tour.php:28
+#: config-composer/modules/vc_mad_advanced_tour.php:70
+#: config-composer/modules/vc_mad_pricing_box.php:28
+#: admin/framework/theme-options/settings.php:2592
+#: includes/widgets/popular-widget/inc/form.php:4
+msgid "Title"
+msgstr "Titre de l'argument"
+
+#: my-bookmarks.php:18 my-bookmarks.php:62
+msgid "Note"
+msgstr ""
+
+#: my-bookmarks.php:22 my-bookmarks.php:68
+msgid "Actions"
+msgstr ""
+
+#: my-bookmarks.php:75 wp-job-manager-resumes/candidate-dashboard.php:55
+#: job_manager/job-dashboard.php:60
+msgid "Delete"
+msgstr " "
+
+#: my-bookmarks.php:95
+msgid "You currently have no bookmarks"
+msgstr ""
+
+#: single-company.php:119 job_manager/job-single-header-kw-style-1.php:120
+#: job_manager/job-agent.php:92
+#: job_manager/job-single-header-kw-style-2.php:102
+#: job_manager/job-single-header-kw-style-5.php:55
+#: job_manager/job-agency.php:74
+#: job_manager/job-single-header-kw-style-4.php:49
+#: job_manager/job-single-header-kw-style-3.php:57
+msgid "Share"
+msgstr "Partager"
+
+#: single-company.php:120 wp-job-manager-resumes/content-header.php:63
+#: config-job-manager/config.php:949
+#: job_manager/job-single-header-kw-style-1.php:121
+#: job_manager/job-agent.php:93
+#: job_manager/job-single-header-kw-style-2.php:104
+#: job_manager/job-single-header-kw-style-5.php:56
+#: job_manager/job-agency.php:75
+#: job_manager/job-single-header-kw-style-4.php:50
+#: job_manager/job-single-header-kw-style-3.php:58
+msgid "Print"
+msgstr "Imprimer"
+
+#: logged-out-bookmark-form.php:8
+msgid "Add to favorites"
+msgstr "Ajouter aux favoris"
+
+#: single-knowhere_agent.php:31
+msgid "Skills & Experience"
+msgstr ""
+
+#: single-knowhere_agent.php:45
+msgid "Specialities"
+msgstr ""
+
+#: single-knowhere_agent.php:76
+msgid "Properties"
+msgstr ""
+
+#: wp-job-manager-resumes/content-header.php:42
+#, php-format
+msgid "Updated %s ago"
+msgstr ""
+
+#: wp-job-manager-resumes/content-header.php:50
+msgid "Download"
+msgstr ""
+
+#: wp-job-manager-resumes/content-header.php:72
+#, php-format
+msgid "Contact via the resume for \"%s\" on %s"
+msgstr ""
+
+#: wp-job-manager-resumes/content-header.php:76
+msgid "Contact This Candidate"
+msgstr ""
+
+#: wp-job-manager-resumes/content-single-resume.php:16
+#: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:35
+msgid "Education"
+msgstr ""
+
+#: wp-job-manager-resumes/content-single-resume.php:20
+msgid "Experience"
+msgstr ""
+
+#: wp-job-manager-resumes/content-single-resume.php:24
+#: config-job-manager/php/wp-job-manager-resumes.php:14
+#: config-job-manager/php/wp-job-manager-resumes.php:49
+msgid "Awards"
+msgstr ""
+
+#: wp-job-manager-resumes/content-single-resume.php:28
+msgid "Skills"
+msgstr ""
+
+#: wp-job-manager-resumes/content-single-resume.php:32
+#: config-job-manager/config.php:1436 config-job-manager/config.php:1753
+#: job_manager/content-single-job_listing.php:41
+msgid "Video"
+msgstr ""
+
+#: wp-job-manager-resumes/content-single-resume.php:36
+#: config-composer/config/map.php:607
+msgid "Links"
+msgstr ""
+
+#: wp-job-manager-resumes/content-single-resume.php:71
+#: wp-job-manager-resumes/content-single-resume.php:96
+#, php-format
+msgid "%s at %s"
+msgstr ""
+
+#: wp-job-manager-resumes/account-signin.php:10
+#: job_manager/account-signin.php:9
+#, php-format
+msgid "You are currently signed in as <strong>%s</strong>."
+msgstr "Vous êtes connecté en tant que <strong>%s</strong>."
+
+#: wp-job-manager-resumes/account-signin.php:16
+msgid "Sign out"
+msgstr "Se déconnecter"
+
+#: wp-job-manager-resumes/account-signin.php:29
+#: job_manager/account-signin.php:27
+msgid "Have an account?"
+msgstr "Avez vous un compte ?"
+
+#: wp-job-manager-resumes/account-signin.php:31
+#: job_manager/account-signin.php:29
+msgid "Sign in"
+msgstr "Se connecter"
+
+#: wp-job-manager-resumes/account-signin.php:35
+msgid ""
+"If you don&rsquo;t have an account you can create one below by entering your "
+"email address. Your account details will be confirmed via email."
+msgstr ""
+"Si vous n'avez pas de compte, c'est facile ! En entrant votre adresse email "
+"ci dessous, vous créez un compte qui vous sera demandé de confirmer par "
+"email."
+
+#: wp-job-manager-resumes/account-signin.php:39
+msgid "You must sign in to submit a resume."
+msgstr ""
+
+#: wp-job-manager-resumes/account-signin.php:47
+#: job_manager/account-signin.php:45 includes/widgets.php:771
+#: woocommerce/myaccount/form-login.php:84
+#: plugins/login-with-ajax/modal/widget_out.php:20
+#: plugins/login-with-ajax/modal/widget_out.php:117
+msgid "Username"
+msgstr "Pseudo"
+
+#: wp-job-manager-resumes/account-signin.php:47
+#: wp-job-manager-resumes/resume-submit.php:36
+#: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:42
+#: job_manager/account-signin.php:45 job_manager/account-signin.php:52
+#: job_manager/job-submit.php:50 job_manager/job-submit.php:81
+msgid "(optional)"
+msgstr "(facultatif)"
+
+#: wp-job-manager-resumes/resume-submit.php:32 job_manager/job-submit.php:30
+msgid "General Information"
+msgstr "Informations générales"
+
+#: wp-job-manager-resumes/candidate-dashboard.php:7
+msgid "Your resume can be viewed, edited or removed below."
+msgid_plural "Your resume(s) can be viewed, edited or removed below."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:22
+msgid "You do not have any active resume listings."
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:41
+#: wp-job-manager-resumes/candidate-dashboard.php:45
+#: config-job-manager/config.php:996 job_manager/job-dashboard.php:37
+#: job_manager/job-dashboard.php:55 includes/menu.php:178
+#: includes/classes/register-admin-user-profile.class.php:343
+msgid "Edit"
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:42
+#: config-widget-meta-box/php/meta_box.php:32
+#: config-widget-meta-box/php/meta_box.php:183
+msgid "Hide"
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:46
+msgid "Publish"
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:50
+#: job_manager/job-dashboard.php:49
+msgid "Relist"
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:78
+#, php-format
+msgid "Expires %s"
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:96
+msgid "Add Resume"
+msgstr ""
+
+#: config-job-manager/config.php:479
+#: config-job-manager/widgets/widget-job-listing-agent.php:12
+msgid "Agent"
+msgstr ""
+
+#: config-job-manager/config.php:481
+msgid ""
+"Widgets in this area will be shown in agents template and agent single page."
+msgstr ""
+
+#: config-job-manager/config.php:489 config-composer/config/map.php:1659
+#: admin/framework/theme-options/settings.php:2416
+msgid "Agency"
+msgstr ""
+
+#: config-job-manager/config.php:491
+msgid ""
+"Widgets in this area will be shown in agency template and agency single page."
+msgstr ""
+
+#: config-job-manager/config.php:522 includes/facetwp.php:188
+msgid "Listing Archive"
+msgstr ""
+
+#: config-job-manager/config.php:523
+msgid "For listing archive pages, taxonomies."
+msgstr ""
+
+#: config-job-manager/config.php:532
+msgid "Listing Detail Page"
+msgstr ""
+
+#: config-job-manager/config.php:533
+msgid "For listing Detail Page."
+msgstr ""
+
+#: config-job-manager/config.php:546 config-job-manager/config.php:561
+msgid "Label Background Color"
+msgstr ""
+
+#: config-job-manager/config.php:548 config-job-manager/config.php:565
+msgid "Choose a color for label"
+msgstr ""
+
+#: config-job-manager/config.php:754 includes/functions-base.php:226
+msgid "results found"
+msgstr "résultats"
+
+#: config-job-manager/config.php:755
+msgid "Add Image"
+msgstr "Ajouter une image"
+
+#: config-job-manager/config.php:766
+msgid "No Results. Try revising your search keyword!"
+msgstr ""
+
+#: config-job-manager/config.php:767
+#, php-format
+msgid "%d results found"
+msgstr "résultats"
+
+#: config-job-manager/config.php:768
+#: config-composer/shortcodes/vc_mad_listing_categories.php:300
+msgid "Show More"
+msgstr ""
+
+#: config-job-manager/config.php:769
+msgid "Show Less"
+msgstr ""
+
+#: config-job-manager/config.php:811
+msgid "Most Used"
+msgstr ""
+
+#: config-job-manager/config.php:969 job_manager/job-filters.php:228
+#: config-composer/modules/vc_mad_pricing_box.php:127
+msgid "Features"
+msgstr ""
+
+#: config-job-manager/config.php:993 config-job-manager/config.php:1035
+#: config-job-manager/config.php:1059 config-job-manager/config.php:1089
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: config-job-manager/config.php:994
+msgid "Add New"
+msgstr ""
+
+#: config-job-manager/config.php:995
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: config-job-manager/config.php:997 config-job-manager/config.php:1038
+#: config-job-manager/config.php:1062 config-job-manager/config.php:1092
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: config-job-manager/config.php:998
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: config-job-manager/config.php:999 config-job-manager/config.php:1000
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: config-job-manager/config.php:1001 config-job-manager/config.php:1034
+#: config-job-manager/config.php:1058 config-job-manager/config.php:1088
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: config-job-manager/config.php:1002
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: config-job-manager/config.php:1003
+#, php-format
+msgid "No %s found in trash"
+msgstr ""
+
+#: config-job-manager/config.php:1004 config-job-manager/config.php:1036
+#: config-job-manager/config.php:1060 config-job-manager/config.php:1090
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: config-job-manager/config.php:1010
+#, php-format
+msgid "This is where you can create and manage %s."
+msgstr ""
+
+#: config-job-manager/config.php:1027 config-composer/config/map.php:1032
+msgid "Tag"
+msgstr "Meilleur moment de la journée"
+
+#: config-job-manager/config.php:1037 config-job-manager/config.php:1061
+#: config-job-manager/config.php:1091
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: config-job-manager/config.php:1039 config-job-manager/config.php:1063
+#: config-job-manager/config.php:1093 admin/framework/admin.php:201
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: config-job-manager/config.php:1040 config-job-manager/config.php:1064
+#: config-job-manager/config.php:1094
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: config-job-manager/config.php:1041 config-job-manager/config.php:1065
+#: config-job-manager/config.php:1095
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: config-job-manager/config.php:1050 config-job-manager/config.php:1888
+#: config-composer/config/map.php:1086 config-composer/config/map.php:1410
+#: config-composer/config/map.php:1904
+msgid "Type"
+msgstr ""
+
+#: config-job-manager/config.php:1051 config-job-manager/config.php:1057
+#: job_manager/job-filter-job-types.php:35
+#: job_manager/job-filters-property.php:79
+msgid "Types"
+msgstr ""
+
+#: config-job-manager/config.php:1069
+msgctxt "Listing type slug - resave permalinks after changing this"
+msgid "listing-type"
+msgstr ""
+
+#: config-job-manager/config.php:1079 job_manager/job-filters-shortcode.php:86
+#: job_manager/job-filters-classified.php:45
+#: job_manager/job-filters-property.php:51 job_manager/job-filters-flat.php:53
+#: config-job-manager/widgets/widget-job-listing-search.php:76
+msgid "Category"
+msgstr ""
+
+#: config-job-manager/config.php:1080 config-job-manager/config.php:1087
+#: job_manager/job-filters.php:123 job_manager/job-filters.php:305
+#: includes/widgets.php:973 admin/framework/theme-options/settings.php:1434
+#: admin/framework/theme-options/settings.php:1483
+#: admin/framework/theme-options/settings.php:2805
+msgid "Categories"
+msgstr ""
+
+#: config-job-manager/config.php:1099
+msgctxt "Listing category slug - resave permalinks after changing this"
+msgid "listing-category"
+msgstr ""
+
+#: config-job-manager/config.php:1128
+msgid "Post a"
+msgstr ""
+
+#: config-job-manager/config.php:1132
+msgid "Dashboard"
+msgstr ""
+
+#: config-job-manager/config.php:1150
+msgid "Listing URL Base"
+msgstr ""
+
+#: config-job-manager/config.php:1157
+msgid "Listing Category Base"
+msgstr ""
+
+#: config-job-manager/config.php:1164
+msgid "Listing Tag Base"
+msgstr ""
+
+#: config-job-manager/config.php:1199
+msgctxt "slug"
+msgid "listings"
+msgstr "idées d'activités"
+
+#: config-job-manager/config.php:1207
+msgctxt "slug"
+msgid "listing-category"
+msgstr ""
+
+#: config-job-manager/config.php:1215
+msgctxt "slug"
+msgid "listing-tag"
+msgstr ""
+
+#: config-job-manager/config.php:1238 config-job-manager/config.php:1495
+#: includes/widgets.php:561 includes/widgets.php:646
+#: admin/framework/theme-options/settings.php:1137
+#: admin/framework/theme-options/settings.php:1197
+msgid "Phone"
+msgstr "Tel"
+
+#: config-job-manager/config.php:1239 config-job-manager/config.php:1497
+msgid "+1 800 559 6580"
+msgstr "06 00 12 34 56"
+
+#: config-job-manager/config.php:1244 config-job-manager/config.php:1764
+msgid "Facebook URL"
+msgstr "URL de votre Facebook"
+
+#: config-job-manager/config.php:1250 config-job-manager/config.php:1773
+msgid "Google+ URL"
+msgstr "URL de votre Google+"
+
+#: config-job-manager/config.php:1256 config-job-manager/config.php:1782
+msgid "LinkedIn URL"
+msgstr "URL de votre LinkedIn"
+
+#: config-job-manager/config.php:1262 config-job-manager/config.php:1791
+msgid "Pinterest URL"
+msgstr "URL de votre Pinterest"
+
+#: config-job-manager/config.php:1268 config-job-manager/config.php:1800
+msgid "Instagram URL"
+msgstr "URL de votre Instagram"
+
+#: config-job-manager/config.php:1279 config-job-manager/config.php:1307
+#: config-job-manager/config.php:1538 config-job-manager/config.php:1575
+msgid "Price Range Min"
+msgstr "Prix de l'activité par personne"
+
+#: config-job-manager/config.php:1281 config-job-manager/config.php:1309
+#: config-job-manager/config.php:1542 config-job-manager/config.php:1579
+msgid "Example: 20"
+msgstr "Exemple : 20"
+
+#: config-job-manager/config.php:1286 config-job-manager/config.php:1314
+#: config-job-manager/config.php:1548 config-job-manager/config.php:1585
+msgid "Price Range Max"
+msgstr ""
+
+#: config-job-manager/config.php:1288 config-job-manager/config.php:1316
+#: config-job-manager/config.php:1552 config-job-manager/config.php:1589
+msgid "Example: 50"
+msgstr ""
+
+#: config-job-manager/config.php:1294
+#: config-job-manager/php/wp-job-manager-resumes.php:38
+#: admin/framework/theme-options/settings.php:2612
+msgid "Description"
+msgstr ""
+
+#: config-job-manager/config.php:1322
+msgid "Company Description"
+msgstr ""
+
+#: config-job-manager/config.php:1333 config-job-manager/config.php:1609
+#: includes/metadata/functions-types.php:85
+#: includes/metadata/functions-types.php:197 config-composer/config/map.php:121
+#: config-composer/config/map.php:135
+#: config-composer/modules/vc_mad_google_maps.php:198
+#: config-composer/modules/vc_mad_google_maps.php:246
+#: admin/framework/theme-options/settings.php:625
+#: admin/framework/theme-options/settings.php:753
+#: admin/framework/theme-options/settings.php:1436
+#: admin/framework/theme-options/settings.php:1486
+#: admin/framework/theme-options/settings.php:2809
+#: includes/page-title/php/functions-types.php:65
+#: includes/page-title/views/form-meta-box.php:6
+msgid "None"
+msgstr ""
+
+#: config-job-manager/config.php:1342 config-job-manager/config.php:1618
+#: config-job-manager/php/wp-job-manager.php:1393
+msgid "Property Size"
+msgstr ""
+
+#: config-job-manager/config.php:1343 config-job-manager/config.php:1620
+msgid "Eg: 1300"
+msgstr ""
+
+#: config-job-manager/config.php:1348 config-job-manager/config.php:1627
+#: config-job-manager/php/wp-job-manager.php:1401
+msgid "Area Size"
+msgstr ""
+
+#: config-job-manager/config.php:1349 config-job-manager/config.php:1629
+#: config-job-manager/config.php:1638
+msgid "Eg: 1500"
+msgstr ""
+
+#: config-job-manager/config.php:1354 config-job-manager/config.php:1636
+#: job_manager/job-filters-property.php:99
+#: job_manager/job-filters-property.php:102 job_manager/job-filters.php:175
+#: job_manager/job-filters.php:179
+#: config-job-manager/php/wp-job-manager.php:1385
+msgid "Bedrooms"
+msgstr ""
+
+#: config-job-manager/config.php:1360 config-job-manager/config.php:1645
+#: job_manager/job-filters-property.php:114
+#: job_manager/job-filters-property.php:117 job_manager/job-filters.php:191
+#: job_manager/job-filters.php:195
+#: config-job-manager/php/wp-job-manager.php:1409
+msgid "Bathrooms"
+msgstr ""
+
+#: config-job-manager/config.php:1361 config-job-manager/config.php:1647
+msgid "Eg: 2"
+msgstr ""
+
+#: config-job-manager/config.php:1366 config-job-manager/config.php:1654
+#: config-job-manager/php/wp-job-manager.php:1417
+msgid "Garages"
+msgstr ""
+
+#: config-job-manager/config.php:1367 config-job-manager/config.php:1656
+#: config-job-manager/config.php:1665
+msgid "Eg: 1"
+msgstr ""
+
+#: config-job-manager/config.php:1372 config-job-manager/config.php:1663
+#: config-job-manager/php/wp-job-manager.php:1425
+msgid "Garages Size"
+msgstr ""
+
+#: config-job-manager/config.php:1378 config-job-manager/config.php:1672
+#: config-job-manager/php/wp-job-manager.php:1433
+msgid "Rooms"
+msgstr ""
+
+#: config-job-manager/config.php:1379 config-job-manager/config.php:1674
+msgid "Eg: 3"
+msgstr ""
+
+#: config-job-manager/config.php:1384 config-job-manager/config.php:1727
+#: config-job-manager/php/wp-job-manager.php:1457
+msgid "Year of Construction"
+msgstr ""
+
+#: config-job-manager/config.php:1385 config-job-manager/config.php:1424
+#: config-job-manager/config.php:1431 config-job-manager/config.php:1729
+#: config-job-manager/config.php:1738 config-job-manager/config.php:1747
+msgctxt "Date format placeholder."
+msgid "yyyy-mm-dd"
+msgstr ""
+
+#: config-job-manager/config.php:1391 config-job-manager/config.php:1681
+msgid "Sale or Rent Price"
+msgstr ""
+
+#: config-job-manager/config.php:1392 config-job-manager/config.php:1684
+msgid "Enter Sale or Rent Price"
+msgstr ""
+
+#: config-job-manager/config.php:1397 config-job-manager/config.php:1690
+msgid "After Price Label"
+msgstr ""
+
+#: config-job-manager/config.php:1398 config-job-manager/config.php:1692
+msgid "Eg: Per Month"
+msgstr ""
+
+#: config-job-manager/config.php:1403 config-job-manager/config.php:1699
+#: config-job-manager/php/wp-job-manager.php:1441
+msgid "Property ID"
+msgstr ""
+
+#: config-job-manager/config.php:1409 config-job-manager/config.php:1708
+msgid "Agent ID"
+msgstr ""
+
+#: config-job-manager/config.php:1417 config-job-manager/config.php:1718
+msgid "Postal Code / Zip"
+msgstr ""
+
+#: config-job-manager/config.php:1418 config-job-manager/config.php:1720
+msgid "Enter your property zip code"
+msgstr ""
+
+#: config-job-manager/config.php:1423 config-job-manager/config.php:1735
+#: config-job-manager/php/wp-job-manager.php:1465
+msgid "Open House date"
+msgstr ""
+
+#: config-job-manager/config.php:1430 config-job-manager/config.php:1744
+#: config-job-manager/php/wp-job-manager.php:1473
+msgid "Last Renovation"
+msgstr ""
+
+#: config-job-manager/config.php:1455 config-job-manager/config.php:1464
+#: includes/extras.php:921
+#: config-job-manager/widgets/widget-job-listing-info-employer.php:12
+#: config-job-manager/widgets/widget-job-listing-open-hours.php:12
+#: config-job-manager/widgets/widget-job-listing-agent.php:12
+#: config-job-manager/widgets/widget-job-listing-search.php:12
+#: config-job-manager/widgets/widget-job-listing-related-listings.php:12
+#: config-job-manager/widgets/widget-job-contact-form.php:13
+#: config-job-manager/widgets/widget-job-listing-map.php:12
+#: config-job-manager/widgets/widget-job-button-claim-listing.php:13
+#: admin/framework/functions.php:119
+#: admin/framework/theme-options/settings.php:1710
+#: admin/framework/theme-options/settings.php:1720
+#: admin/framework/theme-options/settings.php:1807
+msgid "Listing"
+msgstr ""
+
+#: config-job-manager/config.php:1459
+msgid "Submission"
+msgstr ""
+
+#: config-job-manager/config.php:1478
+#, php-format
+msgid "%s Name"
+msgstr "Nom de l'%s"
+
+#: config-job-manager/config.php:1479
+#, php-format
+msgid "Your %s name"
+msgstr "Titre de votre %s"
+
+#: config-job-manager/config.php:1482
+#, php-format
+msgid "An overview of your %s and the things you love about it."
+msgstr ""
+
+#: config-job-manager/config.php:1485
+#, php-format
+msgid "%s Category"
+msgstr "Catégorie de votre %s"
+
+#: config-job-manager/config.php:1486
+msgid ""
+"Visitors can filter their search by the categories and amenities they want - "
+"so make sure you choose them wisely and include all the relevant ones"
+msgstr ""
+"Les visiteurs peuvent filtrer par catégorie. Donc soyez sûr d'avoir choisi "
+"la bonne catégorie"
+
+#: config-job-manager/config.php:1489
+msgid "e.g.9870 St Vincent Place, Glasgow"
+msgstr "16 bis rue du moulin, Lille"
+
+#: config-job-manager/config.php:1490
+msgid "Leave this blank if the location is not important."
+msgstr "Ne remplissez pas si la localisation n'est pas importante"
+
+#: config-job-manager/config.php:1502
+msgid "Featured Image"
+msgstr "Image à la une de votre activité"
+
+#: config-job-manager/config.php:1506
+msgid ""
+"Keep it short and descriptive as it will appear on search results instead of "
+"the link description"
+msgstr ""
+
+#: config-job-manager/config.php:1509
+msgid "e.g yourwebsite.com, London"
+msgstr "www.votresiteweb.com"
+
+#: config-job-manager/config.php:1510
+msgid "You can add more similar panels to better help the user fill the form"
+msgstr ""
+"Les données relatives aux réseaux sociaux sont facultatives. Plus vous "
+"proposerez de détails sur votre personnalité, plus les visiteurs seront "
+"enclins à participer à votre activité."
+
+#: config-job-manager/config.php:1515 config-job-manager/config.php:1599
+#: includes/plugins/featured-galleries/init.php:36
+msgid "Gallery Images"
+msgstr "Galerie d'images"
+
+#: config-job-manager/config.php:1523 config-job-manager/config.php:1607
+msgid "The first image will be shown on listing cards."
+msgstr "La première image qui sera dans l'entête de votre annonce"
+
+#: config-job-manager/config.php:1528
+msgctxt "description on submission form"
+msgid "Description"
+msgstr ""
+
+#: config-job-manager/config.php:1565
+msgctxt "company description on submission form"
+msgid "Description"
+msgstr ""
+
+#: config-job-manager/config.php:1756
+msgid "A link to a video"
+msgstr ""
+
+#: config-job-manager/config.php:1822
+#, php-format
+msgid "Search completed. Found %d matching record."
+msgid_plural "Search completed. Found %d matching records."
+msgstr[0] "Recherche terminée. %d résultat."
+msgstr[1] "Recherche terminée. %d résultats."
+
+#: config-job-manager/config.php:1844
+#: config-job-manager/php/wp-job-manager.php:78
+#: config-job-manager/php/wp-job-manager.php:85
+#: admin/framework/theme-options/settings.php:1933
+msgid "Radius"
+msgstr "Distance"
+
+#: config-job-manager/config.php:1845
+msgid "Enable listing radius"
+msgstr ""
+
+#: config-job-manager/config.php:1854 includes/class-knowherepro.php:89
+msgid "FacetWP"
+msgstr ""
+
+#: config-job-manager/config.php:1884
+msgid "Position"
+msgstr ""
+
+#: config-job-manager/config.php:1914
+#, php-format
+msgid "ID: %d"
+msgstr ""
+
+#: woocommerce/product-searchform.php:26
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/product-searchform.php:27
+msgctxt "placeholder"
+msgid "Search Products&hellip;"
+msgstr ""
+
+#: woocommerce/product-searchform.php:27
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:33
+#, php-format
+msgid "%s review for %s%s%s"
+msgid_plural "%s reviews for %s%s%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:35
+#: job_manager/job-single-header-kw-style-1.php:168
+#: config-composer/config/map.php:832
+msgid "Reviews"
+msgstr "Notes"
+
+#: woocommerce/single-product-reviews.php:56
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:69
+msgid "Add a review"
+msgstr "Ajouter une note"
+
+#: woocommerce/single-product-reviews.php:69
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr "Soyez le premier à voter !"
+
+#: woocommerce/single-product-reviews.php:70
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:73 includes/functions-core.php:281
+#: admin/framework/functions.php:109
+#: config-woocommerce/php/ordering.class.php:28
+msgid "Name"
+msgstr "Votre nom"
+
+#: woocommerce/single-product-reviews.php:75
+#: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:38
+#: includes/functions-core.php:283 includes/widgets.php:571
+#: includes/classes/register-admin-user-profile.class.php:56
+#: admin/framework/theme-options/settings.php:1144
+#: admin/framework/theme-options/settings.php:1203
+#: admin/framework/theme-options/settings.php:2514
+msgid "Email"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:78
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:88
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:91
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:92
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:93
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:98
+msgid "Your Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:107
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: config-widget-meta-box/config.php:68
+msgid "Widgets Row Footer"
+msgstr ""
+
+#: template-parts/single-link-pages.php:38
+msgid "Previous Post"
+msgstr ""
+
+#: template-parts/single-link-pages.php:65
+msgid "Next Post"
+msgstr ""
+
+#. Name of the template
+msgid "Job Front Page"
+msgstr ""
+
+#: template-parts/header-kw-type-4.php:135
+msgid "Add a"
+msgstr ""
+
+#: template-parts/header-kw-type-3.php:46 template-parts/footer-widgets.php:131
+#: template-parts/header-kw-type-1.php:50 includes/widgets.php:682
+#: includes/classes/register-admin-user-profile.class.php:52
+#: admin/framework/theme-options/settings.php:961
+#: admin/framework/theme-options/settings.php:2507
+msgid "LinkedIn"
+msgstr ""
+
+#: template-parts/header-kw-type-3.php:50 template-parts/footer-widgets.php:139
+#: template-parts/header-kw-type-1.php:54
+#: admin/framework/theme-options/settings.php:968
+#: admin/framework/theme-options/settings.php:2521
+msgid "Tumblr"
+msgstr ""
+
+#: template-parts/header-kw-type-3.php:54 template-parts/footer-widgets.php:143
+#: template-parts/header-kw-type-1.php:58
+#: admin/framework/theme-options/settings.php:975
+#: admin/framework/theme-options/settings.php:2528
+msgid "Vimeo"
+msgstr ""
+
+#: template-parts/header-kw-type-3.php:58 template-parts/footer-widgets.php:147
+#: template-parts/header-kw-type-1.php:62
+#: admin/framework/theme-options/settings.php:982
+#: admin/framework/theme-options/settings.php:2535
+msgid "Youtube"
+msgstr ""
+
+#: template-parts/header-kw-type-3.php:62 template-parts/footer-widgets.php:119
+#: template-parts/header-kw-type-1.php:66 includes/widgets.php:664
+#: includes/classes/register-admin-user-profile.class.php:36
+#: admin/framework/theme-options/settings.php:989
+#: admin/framework/theme-options/settings.php:2486
+msgid "Facebook"
+msgstr ""
+
+#: template-parts/header-kw-type-3.php:66 template-parts/footer-widgets.php:127
+#: template-parts/header-kw-type-1.php:70 includes/widgets.php:676
+#: includes/classes/register-admin-user-profile.class.php:40
+#: admin/framework/theme-options/settings.php:996
+#: admin/framework/theme-options/settings.php:2500
+msgid "Twitter"
+msgstr ""
+
+#: template-parts/header-kw-type-3.php:70 template-parts/footer-widgets.php:151
+#: template-parts/header-kw-type-1.php:74 includes/widgets.php:765
+#: includes/classes/register-admin-user-profile.class.php:48
+#: admin/framework/theme-options/settings.php:1003
+#: admin/framework/theme-options/settings.php:2542
+msgid "Instagram"
+msgstr ""
+
+#: template-parts/header-kw-type-3.php:74 template-parts/footer-widgets.php:155
+#: template-parts/header-kw-type-1.php:78
+#: admin/framework/theme-options/settings.php:1010
+#: admin/framework/theme-options/settings.php:2549
+msgid "Flickr"
+msgstr ""
+
+#. Name of the template
+msgid "Listing Front Page"
+msgstr ""
+
+#: template-parts/front-page.php:27
+msgid "How It Works"
+msgstr ""
+
+#. Name of the template
+msgid "Front Page With Categories"
+msgstr ""
+
+#: template-parts/footer-newsletter.php:70
+msgid "Please install required plugin - MailPoet Newsletters"
+msgstr ""
+
+#. Name of the template
+msgid "Property Front Page"
+msgstr ""
+
+#: template-parts/footer-widgets.php:123
+#: admin/framework/theme-options/settings.php:2493
+msgid "GooglePlus"
+msgstr ""
+
+#: template-parts/footer-widgets.php:135
+msgid "Mail"
+msgstr ""
+
+#: template-parts/content-none.php:4
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:7
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/single-related-posts.php:27
+msgid "Related Posts"
+msgstr ""
+
+#: template-parts/header-kw-type-1.php:34
+msgid "Your location"
+msgstr ""
+
+#: template-parts/single-author-box.php:6
+msgid "Posted by"
+msgstr ""
+
+#: template-parts/single-author-box.php:12
+msgid "[ Edit the profile ]"
+msgstr ""
+
+#: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:29
+msgid "Current"
+msgstr ""
+
+#: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:32
+msgid "Past"
+msgstr ""
+
+#: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:42
+msgid "Cover letter"
+msgstr ""
+
+#: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:44
+msgctxt "default cover letter"
+msgid "To whom it may concern,"
+msgstr ""
+
+#: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:47
+#, php-format
+msgctxt "default cover letter"
+msgid ""
+"I am very interested in the %s position at %s. I believe my skills and work "
+"experience make me an ideal candidate for this role. I look forward to "
+"speaking with you soon about this position. Thank you for your consideration."
+msgstr ""
+
+#: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:50
+msgctxt "default cover letter"
+msgid "Best regards,"
+msgstr ""
+
+#: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:56
+msgid "Submit Application"
+msgstr ""
+
+#: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:56
+#, php-format
+msgid "Clicking submit will submit your full profile to %s."
+msgstr ""
+
+#: wp-job-manager-apply-with-facebook/apply-with-facebook.php:22
+msgid "Apply with Facebook"
+msgstr ""
+
+#: admin/plugin-bundle.php:85
+msgid "Redux Framework"
+msgstr ""
+
+#: admin/plugin-bundle.php:91
+msgid "WP Job Manager - Predefined Regions"
+msgstr ""
+
+#: admin/plugin-bundle.php:97 admin/framework/theme-options/settings.php:357
+msgid "WooCommerce"
+msgstr ""
+
+#: admin/plugin-bundle.php:103 admin/plugin-bundle.php:115
+msgid "Login With Ajax"
+msgstr ""
+
+#: admin/plugin-bundle.php:109
+msgid "WP Job Manager"
+msgstr ""
+
+#: admin/plugin-bundle.php:121
+msgid "Contact Form 7"
+msgstr ""
+
+#: admin/plugin-bundle.php:127
+msgid "MailPoet Newsletters"
+msgstr ""
+
+#: admin/plugin-bundle.php:133
+msgid "Latest Tweets Widget"
+msgstr ""
+
+#: admin/plugin-bundle.php:139
+msgid "Google Captcha (reCAPTCHA) by BestWebSoft"
+msgstr ""
+
+#: config-woocommerce/config.php:168
+#: includes/classes/register-admin-user-profile.class.php:330
+msgid "Profile Photo"
+msgstr ""
+
+#: config-woocommerce/config.php:182 config-woocommerce/config.php:188
+#: job_manager/form-fields/profile-uploaded-file-html.php:13
+#: job_manager/form-fields/profile-uploaded-file-html.php:15
+#: job_manager/form-fields/uploaded-file-html.php:13
+#: job_manager/form-fields/uploaded-file-html.php:15
+msgid "remove"
+msgstr "supprimer"
+
+#: config-woocommerce/config.php:206
+msgid "Biography"
+msgstr "Biographie"
+
+#: config-woocommerce/config.php:249
+msgid "View on Map"
+msgstr ""
+
+#: config-woocommerce/config.php:265
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] "Période"
+msgstr[1] "Période"
+
+#: config-woocommerce/config.php:282
+msgid "Shop Widget Area"
+msgstr ""
+
+#: config-woocommerce/config.php:284
+msgid "For WooCommerce pages."
+msgstr ""
+
+#: job_manager/job-filters-shortcode.php:23 job_manager/job-filters.php:27
+#: job_manager/job-filters.php:388 config-composer/config/map.php:1099
+msgid "Filter"
+msgstr ""
+
+#: job_manager/job-filters-shortcode.php:24 job_manager/job-filters.php:28
+#: job_manager/job-filters.php:389 includes/extras.php:590
+#: includes/extras.php:622 includes/facetwp.php:85
+#: admin/framework/theme-options/settings.php:1726
+msgid "Listings"
+msgstr "Idées d'activités"
+
+#: job_manager/job-filters-shortcode.php:28 job_manager/job-filters.php:32
+#: job_manager/job-filters.php:393
+msgid "Map View"
+msgstr ""
+
+#: job_manager/job-filters-shortcode.php:32 job_manager/job-filters.php:36
+#: job_manager/job-filters.php:397
+msgid "Cards View"
+msgstr ""
+
+#: job_manager/job-filters-shortcode.php:74
+#: job_manager/job-filters-classified.php:31
+#: job_manager/job-filters-property.php:44 job_manager/job-filters-flat.php:41
+#: job_manager/job-filters.php:84 job_manager/job-filters.php:261
+#: job_manager/job-filters.php:262
+#: config-job-manager/widgets/widget-job-listing-search.php:64
+msgid "Keywords"
+msgstr "Mots-clés"
+
+#: job_manager/job-filters-shortcode.php:75
+#: job_manager/job-filters-classified.php:32
+#: job_manager/job-filters-flat.php:42
+#: config-job-manager/widgets/widget-job-listing-search.php:65
+msgid "What are you looking for?"
+msgstr "Quelle activité souhaitez-vous faire ?"
+
+#: job_manager/job-filters-shortcode.php:79
+#: job_manager/job-filters-shortcode.php:80
+#: job_manager/job-filters-classified.php:36
+#: job_manager/job-filters-classified.php:37
+#: job_manager/job-filters-flat.php:46 job_manager/job-filters-flat.php:47
+#: job_manager/content-single-job_listing.php:103
+#: job_manager/job-filters.php:266 job_manager/job-filters.php:267
+#: config-job-manager/widgets/widget-job-listing-search.php:69
+#: config-job-manager/widgets/widget-job-listing-search.php:70
+msgid "Location"
+msgstr "Lieu"
+
+#: job_manager/job-filters-shortcode.php:87
+#: job_manager/job-filters-classified.php:46
+#: job_manager/job-filters-property.php:52 job_manager/job-filters-flat.php:54
+#: config-job-manager/widgets/widget-job-listing-search.php:77
+msgid "All categories"
+msgstr "Catégories "
+
+#: job_manager/job-filters-shortcode.php:96
+#: job_manager/job-filters-classified.php:53
+#: job_manager/job-filters-property.php:59 job_manager/job-filters-flat.php:63
+msgctxt "search filters submit"
+msgid "Search"
+msgstr "Chercher"
+
+#: job_manager/job-filters-shortcode.php:107
+#: job_manager/job-filters-flat.php:79 job_manager/job-filters.php:408
+msgid ""
+"Your browser does not support JavaScript, or it is disabled. JavaScript must "
+"be enabled in order to view listings."
+msgstr ""
+
+#: job_manager/account-signin.php:14
+msgid "Sign Out"
+msgstr "Se déconnecter"
+
+#: job_manager/account-signin.php:33
+#, php-format
+msgid ""
+"If you don&rsquo;t have an account you can %screate one below by entering "
+"your email address/username. Your account details will be confirmed via "
+"email."
+msgstr ""
+"Si vous n'avez pas de compte, c'est facile ! En entrant votre adresse email "
+"et votre pseudo, vous créez un compte qui vous sera demandé de confirmer par "
+"email."
+
+#: job_manager/account-signin.php:33
+msgid "optionally"
+msgstr ""
+
+#: job_manager/account-signin.php:37
+msgid "You must sign in to create a new listing."
+msgstr "Vous devez être connecté pour créer une nouvelle activité."
+
+#: job_manager/account-signin.php:52
+msgid "Your email"
+msgstr "Votre email"
+
+#: job_manager/job-application.php:7
+msgid "Apply Now"
+msgstr ""
+
+#: job_manager/job-application.php:18
+msgid "Apply for"
+msgstr ""
+
+#: job_manager/content-job_listing.php:179
+msgid "Pintpoint"
+msgstr ""
+
+#: job_manager/content-job_listing.php:204
+#: config-composer/shortcodes/vc_mad_listing_cards.php:477
+msgid "Open At"
+msgstr ""
+
+#: job_manager/content-job_listing.php:323 job_manager/job-submit.php:71
+#: job_manager/job-single-header-kw-style-1.php:163
+#: job_manager/content-property-listing.php:81
+#: config-job-manager/php/wp-job-manager.php:1112
+#: config-composer/config/map.php:1414
+#: config-composer/shortcodes/vc_mad_listing_cards.php:511
+msgid "Details"
+msgstr "Les petits plus"
+
+#: job_manager/job-submitted.php:7
+#, php-format
+msgid ""
+"%s listed successfully. To view your listing <a href=\"%s\">click here</a>."
+msgstr ""
+
+#: job_manager/job-submitted.php:12
+#, php-format
+msgid "%s submitted successfully. Your listing will be visible once approved."
+msgstr ""
+"Bravo ! Vous êtes arrivé au bout, nous avons bien reçu votre activité ! <br/>"
+"<br/> Nos équipes vont la relire et si elle correspond à notre charte, nous "
+"la publierons rapidement ! Surveillez vos mails, de précieux conseils vous "
+"seront présentés pour que votre activité décolle !<br/><br/>L'équipe de "
+"myLittleWe vous remercie pour votre contribution !"
+
+#: job_manager/content-no-jobs-found.php:2
+msgid "No Results"
+msgstr "Pas de résultat"
+
+#: job_manager/content-no-jobs-found.php:3
+msgid "There are no listings matching your search."
+msgstr "Il n'y a pas de résultat pour votre recherche."
+
+#: job_manager/job-single-header-kw-style-1.php:68
+#, php-format
+msgid "<a id=\"kw-write-review-link\" href=\"#kw-reviews\">%s review</a>"
+msgid_plural ""
+"<a id=\"kw-write-review-link\" href=\"#kw-reviews\">%s reviews</a>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: job_manager/job-single-header-kw-style-1.php:75
+#: job_manager/job-single-header-kw-style-2.php:58
+#, php-format
+msgid "%s favorite"
+msgid_plural "%s favorites"
+msgstr[0] "%s favori"
+msgstr[1] "%s favoris"
+
+#: job_manager/job-single-header-kw-style-1.php:107
+#: job_manager/job-single-header-kw-style-2.php:88
+msgid "Write a Review"
+msgstr "PARTICIPER À L'ACTIVITÉ"
+
+#: job_manager/job-single-header-kw-style-1.php:158
+msgid "Overview"
+msgstr "Aperçu de l'activité"
+
+#: job_manager/job-filters-property.php:45 job_manager/job-filters.php:85
+msgid "Type a city, ZIP, address or MLS #"
+msgstr ""
+
+#: job_manager/job-filters-property.php:84
+msgid "All types"
+msgstr ""
+
+#: job_manager/job-filters-property.php:128
+msgid "Min Price"
+msgstr ""
+
+#: job_manager/job-filters-property.php:132
+msgid "Max Price"
+msgstr ""
+
+#: job_manager/job-filters-property.php:146
+msgid "Show less"
+msgstr ""
+
+#: job_manager/job-filters-property.php:146
+msgid "Show more"
+msgstr ""
+
+#: job_manager/template-fields.php:6
+#: config-job-manager/php/wp-job-details.php:56
+#: job_manager/form-fields/details-fields-field.php:35
+msgid "Enter a title (required field)"
+msgstr "Tapez un titre (obligatoire)"
+
+#: job_manager/template-fields.php:9
+#: config-job-manager/php/wp-job-details.php:59
+#: job_manager/form-fields/details-fields-field.php:39
+#: config-composer/config/map.php:20 config-composer/config/map.php:226
+#: config-composer/modules/vc_mad_advanced_tour.php:64
+msgid "Content"
+msgstr "Contenu de l'argument"
+
+#: job_manager/template-fields.php:18 includes/menu.php:350
+#: config-job-manager/php/wp-job-details.php:68 woocommerce/cart/cart.php:44
+#: job_manager/form-fields/details-fields-field.php:51
+#: includes/classes/register-admin-user-profile.class.php:339
+#: includes/classes/register-admin-user-profile.class.php:350
+#: includes/plugins/category-icon/init.php:243
+msgid "Remove"
+msgstr "Supprimer"
+
+#: job_manager/job-preview.php:4
+msgid "Submit Listing"
+msgstr "Soumettre mon activité"
+
+#: job_manager/job-preview.php:5
+msgid "Edit listing"
+msgstr "Faire des changements"
+
+#: job_manager/job-preview.php:10
+msgid "Preview"
+msgstr "Prévisualisation"
+
+#: job_manager/job-dashboard.php:3
+msgid "Your listings are shown in the table below."
+msgstr ""
+
+#: job_manager/job-dashboard.php:18
+msgid "You do not have any active listings."
+msgstr ""
+
+#: job_manager/job-dashboard.php:40
+msgid "Mark not filled"
+msgstr ""
+
+#: job_manager/job-dashboard.php:42
+msgid "Mark filled"
+msgstr ""
+
+#: job_manager/job-dashboard.php:45
+msgid "Duplicate"
+msgstr ""
+
+#: job_manager/job-agent.php:49
+msgid "at"
+msgstr ""
+
+#: job_manager/job-agent.php:101
+msgid "Contact This Agent"
+msgstr ""
+
+#: job_manager/job-single-header-kw-style-2.php:51
+#, php-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: job_manager/job-single-header-kw-style-5.php:44
+#: job_manager/job-single-header-kw-style-4.php:39
+#: job_manager/job-filters.php:209 job_manager/job-filters.php:355
+#: woocommerce/cart/cart.php:47 woocommerce/cart/cart.php:106
+#: config-woocommerce/php/ordering.class.php:29
+msgid "Price"
+msgstr "Prix"
+
+#: job_manager/job-single-header-kw-style-5.php:88
+msgid "Back to Category"
+msgstr ""
+
+#: job_manager/content-single-job_listing.php:37
+msgid "Photos"
+msgstr ""
+
+#: job_manager/content-single-job_listing.php:44
+#: admin/framework/theme-options/settings.php:1766
+msgid "Map"
+msgstr ""
+
+#: job_manager/content-single-job_listing.php:99
+#: config-composer/config/map.php:600
+msgid "Images"
+msgstr ""
+
+#: job_manager/content-single-job_listing.php:251
+#: job_manager/content-single-job_listing-preview.php:36
+msgid "This listing has expired."
+msgstr ""
+
+#: job_manager/job-listings-end.php:9
+msgid "Load more listings"
+msgstr "Voir la suite"
+
+#: job_manager/job-agency.php:84
+msgid "Contact This Agency"
+msgstr ""
+
+#: job_manager/job-filters.php:65
+msgid "Filters"
+msgstr ""
+
+#: job_manager/job-filters.php:138 job_manager/job-filters.php:320
+msgid "Any category"
+msgstr ""
+
+#: job_manager/job-filters.php:154
+msgid "Regions"
+msgstr ""
+
+#: job_manager/job-filters.php:158
+#: config-job-manager/widgets/widget-job-listing-search.php:111
+msgid "All Regions"
+msgstr "Toutes les régions"
+
+#: job_manager/job-filters.php:340
+#: config-job-manager/widgets/widget-job-listing-search.php:89
+msgid "Filter by tags"
+msgstr "Période de l'activité"
+
+#: job_manager/content-property-listing.php:43
+msgid "Hot"
+msgstr ""
+
+#: wc-paid-listings/package-selection.php:28
+#, php-format
+msgid "%s job posted out of %d"
+msgid_plural "%s jobs posted out of %d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wc-paid-listings/package-selection.php:30
+#, php-format
+msgid "%s job posted"
+msgid_plural "%s jobs posted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wc-paid-listings/package-selection.php:34
+#: wc-paid-listings/package-selection.php:78
+#, php-format
+msgid "listed for %s day"
+msgid_plural "listed for %s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wc-paid-listings/package-selection.php:45
+#: wc-paid-listings/package-selection.php:89
+msgid "Get Started"
+msgstr ""
+
+#: wc-paid-listings/package-selection.php:78
+msgid "unlimited"
+msgstr ""
+
+#: wc-paid-listings/package-selection.php:105
+msgid "No packages found"
+msgstr ""
+
+#: includes/extras.php:385 includes/extras.php:942 includes/extras.php:1077
+#: woocommerce/myaccount/form-login.php:36
+#: woocommerce/myaccount/form-login.php:55
+#: admin/framework/theme-options/settings.php:1074
+msgid "Login"
+msgstr "Se connecter"
+
+#: includes/extras.php:387
+msgid "Logout"
+msgstr ""
+
+#: includes/extras.php:769 woocommerce/loop/pagination.php:39
+msgid "Previous"
+msgstr ""
+
+#: includes/extras.php:780 woocommerce/loop/pagination.php:40
+msgid "Next"
+msgstr ""
+
+#: includes/extras.php:1030
+msgid "My Account"
+msgstr "Tableau de bord"
+
+#: includes/extras.php:1054
+msgid "Bookmarks"
+msgstr "Favoris"
+
+#: includes/extras.php:1058
+msgid "Statistics"
+msgstr "Statistiques"
+
+#: includes/extras.php:1062
+msgid "Edit Profile"
+msgstr "Editer mon profil"
+
+#: includes/extras.php:1244
+#, php-format
+msgid "%s live job"
+msgid_plural "%s live jobs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/extras.php:1464
+msgid "Or browse the highlights picked by us"
+msgstr "Flânez en choisissant une catégorie d'activité"
+
+#: includes/facetwp.php:171
+msgid "Facets Filtering"
+msgstr ""
+
+#: includes/facetwp.php:172
+msgid "Add filtering fields to your site"
+msgstr ""
+
+#: includes/facetwp.php:175
+msgid "Available Facets"
+msgstr ""
+
+#: includes/facetwp.php:176
+msgid "Drag and drop the facets you'd like to add into the boxes"
+msgstr ""
+
+#: includes/facetwp.php:200
+msgid "Shortcode Listing Map"
+msgstr ""
+
+#: includes/templates-hooks.php:204 includes/template-tags.php:134
+#: includes/template-tags.php:157
+msgid "by"
+msgstr ""
+
+#: includes/templates-hooks.php:225
+msgid "0 Comments"
+msgstr ""
+
+#: includes/templates-hooks.php:225
+msgid "1 Comment"
+msgstr ""
+
+#: includes/templates-hooks.php:225
+#: admin/framework/theme-options/settings.php:1485
+msgid "Comments"
+msgstr ""
+
+#: includes/templates-hooks.php:254 includes/templates-hooks.php:276
+#: includes/functions-core.php:489 includes/functions-core.php:501
+msgid "Search results for:"
+msgstr ""
+
+#: includes/templates-hooks.php:263 includes/functions-core.php:493
+msgid "Search result for:"
+msgstr ""
+
+#: includes/templates-hooks.php:285 includes/functions-core.php:505
+msgid "To search the site please enter a valid term"
+msgstr ""
+
+#: includes/functions-core.php:250
+msgid "Reply"
+msgstr ""
+
+#: includes/functions-core.php:279
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: includes/functions-core.php:279
+msgid "(required)"
+msgstr ""
+
+#: includes/functions-core.php:285
+msgid "Website"
+msgstr ""
+
+#: includes/functions-core.php:287
+msgid "Your email address will not be published."
+msgstr ""
+
+#: includes/functions-core.php:289
+msgid "Comment"
+msgstr ""
+
+#: includes/functions-core.php:469
+msgid "Archive for Category:"
+msgstr ""
+
+#: includes/functions-core.php:473
+msgid "Daily Archives:"
+msgstr ""
+
+#: includes/functions-core.php:473
+msgid "F jS, Y"
+msgstr ""
+
+#: includes/functions-core.php:477
+msgid "Monthly Archives:"
+msgstr ""
+
+#: includes/functions-core.php:477
+msgid "F, Y"
+msgstr ""
+
+#: includes/functions-core.php:481
+msgid "Yearly Archives:"
+msgstr ""
+
+#: includes/functions-core.php:481 includes/functions-core.php:726
+#: includes/functions-core.php:726 includes/functions-core.php:730
+#: includes/functions-core.php:730 includes/functions-core.php:733
+#: includes/functions-core.php:733 includes/functions-core.php:736
+msgid "Y"
+msgstr ""
+
+#: includes/functions-core.php:519
+msgid "Author Archive"
+msgstr ""
+
+#: includes/functions-core.php:520
+msgid "for:"
+msgstr ""
+
+#: includes/functions-core.php:526
+msgid "Posts tagged &ldquo;"
+msgstr ""
+
+#: includes/functions-core.php:540
+msgid "Products by:"
+msgstr ""
+
+#: includes/functions-core.php:542
+msgid "Archive for category:"
+msgstr ""
+
+#: includes/functions-core.php:544
+msgid "Archive for:"
+msgstr ""
+
+#: includes/functions-core.php:550
+#, php-format
+msgid "Archive %s"
+msgstr ""
+
+#: includes/functions-core.php:552 includes/widgets.php:963
+msgid "Archive"
+msgstr ""
+
+#: includes/functions-core.php:574
+#: config-job-manager/php/wp-job-post-views/settings.php:93
+msgid "Home"
+msgstr ""
+
+#: includes/functions-core.php:713
+msgid "g:i a"
+msgstr ""
+
+#: includes/functions-core.php:715
+#, php-format
+msgid "Minute %1$s"
+msgstr ""
+
+#: includes/functions-core.php:715
+msgid "i"
+msgstr ""
+
+#: includes/functions-core.php:717
+msgid "g a"
+msgstr ""
+
+#: includes/functions-core.php:727 includes/functions-core.php:734
+msgid "F"
+msgstr ""
+
+#: includes/functions-core.php:728
+msgid "j"
+msgstr ""
+
+#: includes/functions-core.php:731
+#, php-format
+msgid "Week %1$s"
+msgstr ""
+
+#: includes/functions-core.php:731
+msgid "W"
+msgstr ""
+
+#: includes/functions-core.php:740
+#, php-format
+msgid "Search results for &quot;%1$s&quot;"
+msgstr ""
+
+#: includes/functions-core.php:742
+msgid "404 Not Found"
+msgstr ""
+
+#: includes/class-envato-api.php:80 includes/class-envato-api.php:90
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/class-envato-api.php:137
+msgid "An API token is required."
+msgstr ""
+
+#: includes/class-envato-api.php:150 includes/class-envato-api.php:154
+msgid "An unknown API error occurred."
+msgstr ""
+
+#: includes/emails-functions.php:11
+msgid "Unverified nonce!"
+msgstr ""
+
+#: includes/emails-functions.php:23
+#, php-format
+msgid "%s Target Email address is not properly configured!"
+msgstr ""
+
+#: includes/emails-functions.php:33
+msgid "Name field is empty!"
+msgstr "Veuillez remplir votre nom !"
+
+#: includes/emails-functions.php:44
+msgid "Email address is invalid!"
+msgstr "Votre email n'est pas valide !"
+
+#: includes/emails-functions.php:54
+msgid "Your message empty!"
+msgstr "Votre message est vide !"
+
+#: includes/emails-functions.php:59
+#, php-format
+msgid "New message sent by %s using contact form at %s"
+msgstr ""
+
+#: includes/emails-functions.php:61
+msgid "You have received a message from: "
+msgstr ""
+
+#: includes/emails-functions.php:63
+msgid "Phone Number : "
+msgstr ""
+
+#: includes/emails-functions.php:65
+msgid "Additional message is as follows."
+msgstr ""
+
+#: includes/emails-functions.php:67
+#, php-format
+msgid "You can contact %s via email %s"
+msgstr ""
+
+#: includes/emails-functions.php:75
+msgid "Message Sent Successfully!"
+msgstr "Message envoyé !"
+
+#: includes/emails-functions.php:81
+msgid "Server Error: Make sure Email function working on your server!"
+msgstr ""
+
+#: includes/template-tags.php:83
+msgid "Prev Property"
+msgstr ""
+
+#: includes/template-tags.php:87
+msgid "Next Property"
+msgstr ""
+
+#: includes/template-tags.php:94
+msgid "Previous Ad"
+msgstr ""
+
+#: includes/template-tags.php:100
+msgid "Next Ad"
+msgstr ""
+
+#: includes/template-tags.php:145 includes/template-tags.php:154
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: includes/template-tags.php:202
+msgid "Categories:"
+msgstr ""
+
+#: includes/template-tags.php:214
+msgid "Tags:"
+msgstr "Période de l'activité :"
+
+#: includes/template-tags.php:246 config-job-manager/php/wp-job-manager.php:43
+#: config-job-manager/php/wp-job-manager.php:1591
+#: config-composer/modules/vc_mad_pricing_box.php:140
+#: admin/framework/theme-options/settings.php:1866
+msgid "Featured"
+msgstr "Mises en avant"
+
+#: includes/template-tags.php:274
+msgid "Enter your password to view comments."
+msgstr ""
+
+#. %s: number of comments
+#: includes/template-tags.php:294 includes/template-tags.php:310
+#, php-format
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#. If comment number in your language requires declension,
+#. translate this to 'on'. Do not translate into your own language.
+#: includes/template-tags.php:302
+msgctxt "Comment number declension: on or off"
+msgid "off"
+msgstr ""
+
+#: includes/widgets.php:21
+msgid "General Widget Area"
+msgstr ""
+
+#: includes/widgets.php:23
+msgid "For all pages and posts."
+msgstr ""
+
+#: includes/widgets.php:113
+msgid "Like Us on Facebook"
+msgstr ""
+
+#: includes/widgets.php:130
+msgid "Page ID"
+msgstr ""
+
+#: includes/widgets.php:135
+msgid "Facebook Like box Theme"
+msgstr ""
+
+#: includes/widgets.php:137 config-composer/config/map.php:920
+#: admin/framework/theme-options/settings.php:1999
+#: includes/plugins/category-icon/init.php:146
+#: includes/plugins/category-icon/init.php:258
+msgid "Light"
+msgstr ""
+
+#: includes/widgets.php:138 admin/framework/theme-options/settings.php:1998
+#: includes/plugins/category-icon/init.php:145
+#: includes/plugins/category-icon/init.php:257
+msgid "Dark"
+msgstr ""
+
+#: includes/widgets.php:143
+msgid "Like box Width"
+msgstr ""
+
+#: includes/widgets.php:146 includes/widgets.php:153
+msgid "px"
+msgstr ""
+
+#: includes/widgets.php:150
+msgid "Like box Height"
+msgstr ""
+
+#: includes/widgets.php:157
+msgid "Number of connections"
+msgstr ""
+
+#: includes/widgets.php:160
+msgid "Max. 100"
+msgstr ""
+
+#: includes/widgets.php:164
+msgid "Show Header"
+msgstr ""
+
+#: includes/widgets.php:165 config-widget-meta-box/php/meta_box.php:55
+#: config-widget-meta-box/php/meta_box.php:206
+#: config-composer/config/map.php:61 config-composer/config/map.php:84
+#: config-composer/config/map.php:103 config-composer/config/map.php:200
+#: config-composer/config/map.php:281 config-composer/config/map.php:1103
+#: config-composer/config/map.php:1255 config-composer/config/map.php:1490
+#: config-composer/modules/vc_mad_accordion.php:49
+#: admin/framework/theme-options/settings.php:417
+#: admin/framework/theme-options/settings.php:941
+#: admin/framework/theme-options/settings.php:955
+#: admin/framework/theme-options/settings.php:1025
+#: admin/framework/theme-options/settings.php:1040
+#: admin/framework/theme-options/settings.php:1048
+#: admin/framework/theme-options/settings.php:1056
+#: admin/framework/theme-options/settings.php:1064
+#: admin/framework/theme-options/settings.php:1083
+#: admin/framework/theme-options/settings.php:1109
+#: admin/framework/theme-options/settings.php:1117
+#: admin/framework/theme-options/settings.php:1131
+#: admin/framework/theme-options/settings.php:1153
+#: admin/framework/theme-options/settings.php:1161
+#: admin/framework/theme-options/settings.php:1169
+#: admin/framework/theme-options/settings.php:1177
+#: admin/framework/theme-options/settings.php:1191
+#: admin/framework/theme-options/settings.php:1211
+#: admin/framework/theme-options/settings.php:1219
+#: admin/framework/theme-options/settings.php:1233
+#: admin/framework/theme-options/settings.php:1241
+#: admin/framework/theme-options/settings.php:1273
+#: admin/framework/theme-options/settings.php:1281
+#: admin/framework/theme-options/settings.php:1289
+#: admin/framework/theme-options/settings.php:1380
+#: admin/framework/theme-options/settings.php:1388
+#: admin/framework/theme-options/settings.php:1497
+#: admin/framework/theme-options/settings.php:1505
+#: admin/framework/theme-options/settings.php:1513
+#: admin/framework/theme-options/settings.php:1521
+#: admin/framework/theme-options/settings.php:1529
+#: admin/framework/theme-options/settings.php:1537
+#: admin/framework/theme-options/settings.php:1551
+#: admin/framework/theme-options/settings.php:1560
+#: admin/framework/theme-options/settings.php:1569
+#: admin/framework/theme-options/settings.php:1578
+#: admin/framework/theme-options/settings.php:1587
+#: admin/framework/theme-options/settings.php:1596
+#: admin/framework/theme-options/settings.php:1677
+#: admin/framework/theme-options/settings.php:1756
+#: admin/framework/theme-options/settings.php:1801
+#: admin/framework/theme-options/settings.php:1850
+#: admin/framework/theme-options/settings.php:1858
+#: admin/framework/theme-options/settings.php:2114
+#: admin/framework/theme-options/settings.php:2122
+#: admin/framework/theme-options/settings.php:2130
+#: admin/framework/theme-options/settings.php:2138
+#: admin/framework/theme-options/settings.php:2146
+#: admin/framework/theme-options/settings.php:2154
+#: admin/framework/theme-options/settings.php:2168
+#: admin/framework/theme-options/settings.php:2214
+#: admin/framework/theme-options/settings.php:2228
+#: admin/framework/theme-options/settings.php:2237
+#: admin/framework/theme-options/settings.php:2246
+#: admin/framework/theme-options/settings.php:2255
+#: admin/framework/theme-options/settings.php:2264
+#: admin/framework/theme-options/settings.php:2273
+#: admin/framework/theme-options/settings.php:2307
+#: admin/framework/theme-options/settings.php:2315
+#: admin/framework/theme-options/settings.php:2323
+#: admin/framework/theme-options/settings.php:2331
+#: admin/framework/theme-options/settings.php:2339
+#: admin/framework/theme-options/settings.php:2353
+#: admin/framework/theme-options/settings.php:2361
+#: admin/framework/theme-options/settings.php:2369
+#: admin/framework/theme-options/settings.php:2480
+#: admin/framework/theme-options/settings.php:2586
+#: admin/framework/theme-options/settings.php:2673
+#: admin/framework/theme-options/settings.php:2681
+#: admin/framework/theme-options/settings.php:2689
+#: admin/framework/theme-options/settings.php:2697
+#: admin/framework/theme-options/settings.php:2706
+#: admin/framework/theme-options/settings.php:2796
+#: admin/framework/theme-options/settings.php:2818
+#: admin/framework/theme-options/settings.php:2841
+#: admin/framework/theme-options/settings.php:2870
+#: admin/framework/theme-options/settings.php:2879
+#: admin/framework/theme-options/settings.php:2888
+#: admin/framework/theme-options/settings.php:2897
+#: admin/framework/theme-options/settings.php:2906
+#: admin/framework/theme-options/settings.php:2915
+#: admin/framework/theme-options/settings.php:2931
+#: includes/plugins/category-icon/init.php:162
+#: includes/plugins/category-icon/init.php:285
+msgid "Yes"
+msgstr ""
+
+#: includes/widgets.php:166 config-widget-meta-box/php/meta_box.php:61
+#: config-widget-meta-box/php/meta_box.php:212
+#: config-composer/config/map.php:528 config-composer/config/map.php:1102
+#: admin/framework/theme-options/settings.php:418
+#: admin/framework/theme-options/settings.php:942
+#: admin/framework/theme-options/settings.php:956
+#: admin/framework/theme-options/settings.php:1026
+#: admin/framework/theme-options/settings.php:1041
+#: admin/framework/theme-options/settings.php:1049
+#: admin/framework/theme-options/settings.php:1057
+#: admin/framework/theme-options/settings.php:1065
+#: admin/framework/theme-options/settings.php:1084
+#: admin/framework/theme-options/settings.php:1110
+#: admin/framework/theme-options/settings.php:1118
+#: admin/framework/theme-options/settings.php:1132
+#: admin/framework/theme-options/settings.php:1154
+#: admin/framework/theme-options/settings.php:1162
+#: admin/framework/theme-options/settings.php:1170
+#: admin/framework/theme-options/settings.php:1178
+#: admin/framework/theme-options/settings.php:1192
+#: admin/framework/theme-options/settings.php:1212
+#: admin/framework/theme-options/settings.php:1220
+#: admin/framework/theme-options/settings.php:1234
+#: admin/framework/theme-options/settings.php:1242
+#: admin/framework/theme-options/settings.php:1274
+#: admin/framework/theme-options/settings.php:1282
+#: admin/framework/theme-options/settings.php:1290
+#: admin/framework/theme-options/settings.php:1381
+#: admin/framework/theme-options/settings.php:1389
+#: admin/framework/theme-options/settings.php:1498
+#: admin/framework/theme-options/settings.php:1506
+#: admin/framework/theme-options/settings.php:1514
+#: admin/framework/theme-options/settings.php:1522
+#: admin/framework/theme-options/settings.php:1530
+#: admin/framework/theme-options/settings.php:1538
+#: admin/framework/theme-options/settings.php:1552
+#: admin/framework/theme-options/settings.php:1561
+#: admin/framework/theme-options/settings.php:1570
+#: admin/framework/theme-options/settings.php:1579
+#: admin/framework/theme-options/settings.php:1588
+#: admin/framework/theme-options/settings.php:1597
+#: admin/framework/theme-options/settings.php:1678
+#: admin/framework/theme-options/settings.php:1757
+#: admin/framework/theme-options/settings.php:1802
+#: admin/framework/theme-options/settings.php:1851
+#: admin/framework/theme-options/settings.php:1859
+#: admin/framework/theme-options/settings.php:2115
+#: admin/framework/theme-options/settings.php:2123
+#: admin/framework/theme-options/settings.php:2131
+#: admin/framework/theme-options/settings.php:2139
+#: admin/framework/theme-options/settings.php:2147
+#: admin/framework/theme-options/settings.php:2155
+#: admin/framework/theme-options/settings.php:2169
+#: admin/framework/theme-options/settings.php:2215
+#: admin/framework/theme-options/settings.php:2229
+#: admin/framework/theme-options/settings.php:2238
+#: admin/framework/theme-options/settings.php:2247
+#: admin/framework/theme-options/settings.php:2256
+#: admin/framework/theme-options/settings.php:2265
+#: admin/framework/theme-options/settings.php:2274
+#: admin/framework/theme-options/settings.php:2308
+#: admin/framework/theme-options/settings.php:2316
+#: admin/framework/theme-options/settings.php:2324
+#: admin/framework/theme-options/settings.php:2332
+#: admin/framework/theme-options/settings.php:2340
+#: admin/framework/theme-options/settings.php:2354
+#: admin/framework/theme-options/settings.php:2362
+#: admin/framework/theme-options/settings.php:2370
+#: admin/framework/theme-options/settings.php:2481
+#: admin/framework/theme-options/settings.php:2587
+#: admin/framework/theme-options/settings.php:2674
+#: admin/framework/theme-options/settings.php:2682
+#: admin/framework/theme-options/settings.php:2690
+#: admin/framework/theme-options/settings.php:2698
+#: admin/framework/theme-options/settings.php:2707
+#: admin/framework/theme-options/settings.php:2797
+#: admin/framework/theme-options/settings.php:2819
+#: admin/framework/theme-options/settings.php:2842
+#: admin/framework/theme-options/settings.php:2871
+#: admin/framework/theme-options/settings.php:2880
+#: admin/framework/theme-options/settings.php:2889
+#: admin/framework/theme-options/settings.php:2898
+#: admin/framework/theme-options/settings.php:2907
+#: admin/framework/theme-options/settings.php:2916
+#: admin/framework/theme-options/settings.php:2932
+#: includes/plugins/category-icon/init.php:163
+#: includes/plugins/category-icon/init.php:286
+msgid "No"
+msgstr ""
+
+#: includes/widgets.php:184
+msgid "KnowherePro Popular and Latest Posts"
+msgstr ""
+
+#: includes/widgets.php:187
+msgid "Display most popular and latest posts"
+msgstr ""
+
+#: includes/widgets.php:430
+msgid "Displays website social links"
+msgstr ""
+
+#: includes/widgets.php:432
+msgid "KnowherePro Social Links"
+msgstr ""
+
+#: includes/widgets.php:437
+msgid "Follow Us"
+msgstr ""
+
+#: includes/widgets.php:441
+msgid "LinkedIn Link"
+msgstr ""
+
+#: includes/widgets.php:446
+msgid "Tumblr Link"
+msgstr ""
+
+#: includes/widgets.php:451
+msgid "Vimeo Link"
+msgstr ""
+
+#: includes/widgets.php:456
+msgid "Facebook Link"
+msgstr ""
+
+#: includes/widgets.php:461
+msgid "Flickr Link"
+msgstr ""
+
+#: includes/widgets.php:466
+msgid "Twitter Link"
+msgstr ""
+
+#: includes/widgets.php:471
+msgid "Google Plus Link"
+msgstr ""
+
+#: includes/widgets.php:476
+msgid "Pinterest Link"
+msgstr ""
+
+#: includes/widgets.php:481
+msgid "Instagram Link"
+msgstr ""
+
+#: includes/widgets.php:486
+msgid "Youtube Link"
+msgstr ""
+
+#: includes/widgets.php:522
+msgid "Displays contact us"
+msgstr ""
+
+#: includes/widgets.php:524
+msgid "KnowherePro Contact Us"
+msgstr ""
+
+#: includes/widgets.php:556 includes/widgets.php:640
+msgid "Address"
+msgstr ""
+
+#: includes/widgets.php:566 includes/widgets.php:652
+msgid "Fax"
+msgstr ""
+
+#: includes/widgets.php:613
+msgid "Contact Info"
+msgstr ""
+
+#: includes/widgets.php:634 config-composer/config/map.php:242
+#: config-composer/config/map.php:347 config-composer/config/map.php:367
+#: config-composer/config/map.php:2005
+#: config-composer/modules/vc_mad_info_block.php:137
+msgid "Text"
+msgstr ""
+
+#: includes/widgets.php:658 plugins/login-with-ajax/modal/widget_out.php:122
+msgid "E-mail"
+msgstr ""
+
+#: includes/widgets.php:670
+#: includes/classes/register-admin-user-profile.class.php:44
+msgid "Google Plus"
+msgstr ""
+
+#: includes/widgets.php:703
+msgid "An advertising widget that displays image"
+msgstr ""
+
+#: includes/widgets.php:705
+msgid "KnowherePro Advertising Area"
+msgstr ""
+
+#: includes/widgets.php:715
+msgid "Image URL"
+msgstr ""
+
+#: includes/widgets.php:720
+msgid "Referal URL"
+msgstr ""
+
+#: includes/widgets.php:733
+msgid "Advertise here"
+msgstr ""
+
+#: includes/widgets.php:759
+msgid "Displays your latest Instagram photos"
+msgstr ""
+
+#: includes/widgets.php:761
+msgid "KnowherePro Instagram"
+msgstr ""
+
+#: includes/widgets.php:776
+msgid "Number of photos"
+msgstr ""
+
+#: includes/widgets.php:781
+msgid "Open links in"
+msgstr ""
+
+#: includes/widgets.php:783
+msgid "Current window (_self)"
+msgstr ""
+
+#: includes/widgets.php:784
+msgid "New window (_blank)"
+msgstr ""
+
+#: includes/widgets.php:789
+msgid "Follow Me!"
+msgstr ""
+
+#: includes/widgets.php:790
+msgid "Link text"
+msgstr ""
+
+#: includes/widgets.php:851
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: includes/widgets.php:854
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: includes/widgets.php:861 includes/widgets.php:866 includes/widgets.php:870
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: includes/widgets.php:900
+msgid "Instagram Image"
+msgstr ""
+
+#: includes/widgets.php:933
+msgid "Instagram did not return any images."
+msgstr ""
+
+#: includes/widgets.php:983
+msgid "Pages"
+msgstr ""
+
+#: includes/widgets.php:992
+msgid "Recent Posts"
+msgstr ""
+
+#: includes/class-knowherepro.php:85
+msgid "KnowherePro Theme - Functionality"
+msgstr ""
+
+#: includes/class-knowherepro.php:86
+msgid "WPBakery Page Builder"
+msgstr ""
+
+#: includes/class-knowherepro.php:87
+msgid "Reviewer"
+msgstr ""
+
+#: includes/class-knowherepro.php:88
+msgid "AccessPress Social Login"
+msgstr ""
+
+#: includes/class-knowherepro.php:90
+msgid "Private Messages"
+msgstr ""
+
+#: includes/class-knowherepro.php:91
+msgid "WooCommerce Flash Sale Pricing and Discounts"
+msgstr ""
+
+#: includes/class-knowherepro.php:92
+msgid "WP Job Manager - Job Tags"
+msgstr ""
+
+#: includes/class-knowherepro.php:93
+msgid "WP Job Manager Applications"
+msgstr ""
+
+#: includes/class-knowherepro.php:94
+msgid "WC Paid Listings"
+msgstr ""
+
+#: includes/class-knowherepro.php:95
+msgid "WP Job Manager - Company Profiles"
+msgstr ""
+
+#: includes/class-knowherepro.php:96
+msgid "Stats for WP Job Manager"
+msgstr ""
+
+#: includes/class-knowherepro.php:97
+msgid "WP Job Manager - Bookmarks"
+msgstr ""
+
+#: includes/class-knowherepro.php:98
+msgid "WP Job Manager - Resume Manager"
+msgstr ""
+
+#: includes/class-knowherepro.php:99
+msgid "Claim Listing for WP Job Manager"
+msgstr ""
+
+#: includes/class-knowherepro.php:100
+msgid "Extended Location for WP Job Manager"
+msgstr ""
+
+#: includes/class-knowherepro.php:101
+msgid "WPML Multilingual CMS"
+msgstr ""
+
+#. If there are characters in your language that are not supported
+#. by chosen font(s), translate this to 'off'. Do not translate into your own language.
+#: includes/functions-base.php:141
+msgctxt "%s font: on or off"
+msgid "on"
+msgstr ""
+
+#. %s: title of menu item which is invalid
+#: includes/menu.php:129
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. %s: title of menu item in draft status
+#: includes/menu.php:133
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: includes/menu.php:146
+msgid "sub item"
+msgstr ""
+
+#: includes/menu.php:161
+msgid "Move up"
+msgstr ""
+
+#: includes/menu.php:174
+msgid "Move down"
+msgstr ""
+
+#: includes/menu.php:178
+msgid "Edit menu item"
+msgstr ""
+
+#: includes/menu.php:187
+msgid "URL"
+msgstr ""
+
+#: includes/menu.php:194
+msgid "Navigation Label"
+msgstr ""
+
+#: includes/menu.php:200
+msgid "Icon Class"
+msgstr ""
+
+#: includes/menu.php:203
+#, php-format
+msgid ""
+"Input font linearicons icon or icon class. You can see %s. For example: icon-"
+"home"
+msgstr ""
+
+#: includes/menu.php:209
+msgid "Open link in a new tab"
+msgstr ""
+
+#: includes/menu.php:215
+msgid "Don't link"
+msgstr ""
+
+#: includes/menu.php:221
+msgid "Don't show a link"
+msgstr ""
+
+#: includes/menu.php:229
+msgid "Submenu Type"
+msgstr ""
+
+#: includes/menu.php:231
+msgid "Standard Submenu"
+msgstr ""
+
+#: includes/menu.php:232
+msgid "Multicolumn Submenu"
+msgstr ""
+
+#: includes/menu.php:239
+msgid "Submenu Position"
+msgstr ""
+
+#: includes/menu.php:241
+msgid "Auto"
+msgstr ""
+
+#: includes/menu.php:242 includes/page-title/config.php:256
+#: config-composer/config/map.php:414 config-composer/config/map.php:594
+#: config-composer/config/map.php:873 config-composer/config/map.php:1067
+#: config-composer/config/map.php:1219 config-composer/config/map.php:1330
+#: config-composer/config/map.php:1404 config-composer/config/map.php:1548
+#: config-composer/config/map.php:1608 config-composer/config/map.php:1700
+#: config-composer/config/map.php:1806 config-composer/config/map.php:1898
+#: config-composer/modules/vc_mad_info_block.php:61
+#: config-composer/modules/vc_mad_info_block.php:94
+#: config-composer/modules/vc_mad_pricing_box.php:61
+#: admin/framework/theme-options/settings.php:1396
+#: admin/framework/theme-options/settings.php:1642
+#: admin/framework/theme-options/settings.php:1741
+#: includes/plugins/category-icon/init.php:171
+#: includes/plugins/category-icon/init.php:299
+msgid "Left"
+msgstr ""
+
+#: includes/menu.php:243 config-composer/config/map.php:415
+#: config-composer/config/map.php:595 config-composer/config/map.php:874
+#: config-composer/config/map.php:1068 config-composer/config/map.php:1220
+#: config-composer/config/map.php:1331 config-composer/config/map.php:1405
+#: config-composer/config/map.php:1549 config-composer/config/map.php:1609
+#: config-composer/config/map.php:1701 config-composer/config/map.php:1807
+#: config-composer/config/map.php:1899
+#: config-composer/modules/vc_mad_info_block.php:62
+#: config-composer/modules/vc_mad_info_block.php:95
+#: config-composer/modules/vc_mad_pricing_box.php:62
+#: admin/framework/theme-options/settings.php:1643
+msgid "Right"
+msgstr ""
+
+#: includes/menu.php:244 includes/page-title/config.php:257
+#: config-composer/config/map.php:416 config-composer/config/map.php:593
+#: config-composer/config/map.php:872 config-composer/config/map.php:1066
+#: config-composer/config/map.php:1218 config-composer/config/map.php:1329
+#: config-composer/config/map.php:1403 config-composer/config/map.php:1547
+#: config-composer/config/map.php:1607 config-composer/config/map.php:1699
+#: config-composer/config/map.php:1805 config-composer/config/map.php:1897
+#: config-composer/modules/vc_mad_info_block.php:60
+#: config-composer/modules/vc_mad_info_block.php:93
+#: config-composer/modules/vc_mad_pricing_box.php:60
+#: admin/framework/theme-options/settings.php:1397
+msgid "Center"
+msgstr ""
+
+#: includes/menu.php:255
+msgid "Background Image"
+msgstr ""
+
+#: includes/menu.php:259 includes/metadata/functions-types.php:120
+#: includes/metadata/functions-types.php:237
+#: includes/page-title/php/functions-types.php:115
+msgid "Upload Image"
+msgstr ""
+
+#: includes/menu.php:260 includes/metadata/functions-types.php:121
+#: includes/metadata/functions-types.php:238
+#: includes/page-title/php/functions-types.php:116
+msgid "Remove Image"
+msgstr "Supprimer l'image"
+
+#: includes/menu.php:266
+msgid "Background Position"
+msgstr ""
+
+#: includes/menu.php:268 includes/menu.php:286 includes/menu.php:300
+#: includes/plugins/category-icon/init.php:240
+msgid "Select"
+msgstr ""
+
+#: includes/menu.php:269
+msgid "Left Top"
+msgstr ""
+
+#: includes/menu.php:270
+msgid "Left Center"
+msgstr ""
+
+#: includes/menu.php:271
+msgid "Left Bottom"
+msgstr ""
+
+#: includes/menu.php:272
+msgid "Center Top"
+msgstr ""
+
+#: includes/menu.php:273
+msgid "Center Center"
+msgstr ""
+
+#: includes/menu.php:274
+msgid "Center Bottom"
+msgstr ""
+
+#: includes/menu.php:275
+msgid "Right Top"
+msgstr ""
+
+#: includes/menu.php:276
+msgid "Right Center"
+msgstr ""
+
+#: includes/menu.php:277
+msgid "Right Bottom"
+msgstr ""
+
+#: includes/menu.php:284
+msgid "Background Repeat"
+msgstr ""
+
+#: includes/menu.php:287
+msgid "No Repeat"
+msgstr ""
+
+#: includes/menu.php:288
+msgid "Repeat All"
+msgstr ""
+
+#: includes/menu.php:289
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: includes/menu.php:290
+msgid "Repeat Vertically"
+msgstr ""
+
+#: includes/menu.php:291 includes/menu.php:301
+msgid "Inherit"
+msgstr ""
+
+#: includes/menu.php:298
+msgid "Background Size"
+msgstr ""
+
+#: includes/menu.php:302
+msgid "Cover"
+msgstr ""
+
+#: includes/menu.php:303
+msgid "Contain"
+msgstr ""
+
+#: includes/menu.php:310
+msgid "Custom Styles"
+msgstr ""
+
+#: includes/menu.php:320
+msgid "Tip Label"
+msgstr ""
+
+#: includes/menu.php:328
+msgid "Tip Background Color"
+msgstr ""
+
+#: includes/menu.php:337
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: includes/menu.php:351 plugins/login-with-ajax/modal/widget_out.php:98
+msgid "Cancel"
+msgstr ""
+
+#: config-composer/config.php:198
+msgid "Search icon"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-info-employer.php:9
+msgid "A Info of the employer."
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-info-employer.php:12
+msgid "Info Employer"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-info-employer.php:119
+msgid "More Vacancies From This Employer"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-open-hours.php:9
+msgid "Display the open hours of the listing."
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-open-hours.php:12
+#: config-job-manager/widgets/widget-job-listing-open-hours.php:16
+msgid "Open Hours"
+msgstr "Horaires possibles"
+
+#: config-job-manager/widgets/widget-job-listing-open-hours.php:17
+#: config-job-manager/widgets/widget-job-listing-agent.php:17
+#: config-job-manager/widgets/widget-job-listing-search.php:17
+#: config-job-manager/widgets/widget-job-listing-related-listings.php:17
+#: config-job-manager/widgets/widget-job-contact-form.php:18
+#: config-job-manager/widgets/widget-job-button-claim-listing.php:18
+msgid "Title:"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-open-hours.php:62
+#: config-job-manager/php/wp-job-manager.php:1651
+msgid "Open Now"
+msgstr "Activité en cours"
+
+#: config-job-manager/widgets/widget-job-listing-open-hours.php:65
+#: config-job-manager/widgets/widget-job-listing-open-hours.php:102
+#: config-job-manager/php/wp-job-manager.php:1654
+msgid "Closed Now"
+msgstr " "
+
+#: config-job-manager/widgets/widget-job-listing-open-hours.php:101
+#: config-job-manager/widgets/widget-job-listing-open-hours.php:138
+#: config-job-manager/widgets/widget-job-listing-open-hours.php:138
+#: config-job-manager/widgets/widget-job-listing-open-hours.php:139
+#: job_manager/form-fields/open-hours-field.php:85
+#: job_manager/form-fields/open-hours-field.php:86
+msgid "Closed"
+msgstr "Fermé"
+
+#: config-job-manager/widgets/widget-job-listing-agent.php:9
+msgid "Display the agent of the listing."
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-agent.php:16
+msgid "About The Agent"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-agent.php:80
+msgid "Email Agent"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-agent.php:87
+msgid "Agent's Other Listings"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-search.php:9
+msgid "Advanced Search."
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-search.php:12
+msgid "Advanced Search"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-search.php:16
+msgid "Filter Listings"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-search.php:103
+msgid "Region"
+msgstr "Département"
+
+#: config-job-manager/widgets/widget-job-listing-search.php:134
+msgctxt "search filters submit"
+msgid "Filter"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-related-listings.php:9
+msgid "Display listings related to the listing currently being viewed."
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-related-listings.php:12
+#: config-job-manager/widgets/widget-job-listing-related-listings.php:16
+#: admin/framework/theme-options/settings.php:2160
+msgid "Related Listings"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-related-listings.php:21
+#: config-composer/config/map.php:379 config-composer/config/map.php:441
+#: admin/framework/theme-options/settings.php:1813
+#: admin/framework/theme-options/settings.php:2199
+msgid "Style"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-related-listings.php:23
+#: admin/framework/functions.php:91 config-composer/config/map.php:1415
+#: config-composer/modules/vc_mad_info_block.php:82
+#: admin/framework/theme-options/settings.php:1765
+#: admin/framework/theme-options/settings.php:1830
+#: includes/plugins/category-icon/init.php:190
+#: includes/plugins/category-icon/init.php:328
+msgid "List"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-related-listings.php:24
+#: admin/framework/functions.php:90 config-composer/config/map.php:1089
+#: config-composer/modules/vc_mad_info_block.php:81
+#: admin/framework/theme-options/settings.php:1764
+#: admin/framework/theme-options/settings.php:1829
+#: includes/plugins/category-icon/init.php:189
+#: includes/plugins/category-icon/init.php:327
+msgid "Grid"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-related-listings.php:31
+msgid "Limit based on location"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-related-listings.php:36
+msgid "Limit based on category"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-related-listings.php:41
+msgid "Show only featured listings"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-related-listings.php:46
+msgid "Show type"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-related-listings.php:51
+msgid "Show company name"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-related-listings.php:59
+msgid "Number to show:"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-contact-form.php:10
+msgid "Display contact form for detail listing, agent, agency, candidate."
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-contact-form.php:13
+msgid "Listing Contact Form"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-contact-form.php:17
+msgid "Contact Form"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-map.php:9
+msgid ""
+"A Map View of the listing location along with a Directions link to Google "
+"Map."
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-listing-map.php:12
+msgid "Location Map"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-button-claim-listing.php:10
+msgid "Display button claim listing."
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-button-claim-listing.php:13
+msgid "Claim button"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-button-claim-listing.php:17
+msgid "Is This Your Listing?"
+msgstr ""
+
+#: config-job-manager/widgets/widget-job-button-claim-listing.php:23
+msgid "Content:"
+msgstr ""
+
+#: config-job-manager/php/wp-job-manager.php:41
+msgid "Newest"
+msgstr "Récentes"
+
+#: config-job-manager/php/wp-job-manager.php:42
+msgid "Oldest"
+msgstr "Anciennes"
+
+#: config-job-manager/php/wp-job-manager.php:44
+#: config-composer/config/map.php:700 config-composer/config/map.php:944
+#: config-composer/config/map.php:1168 config-composer/config/map.php:1236
+#: config-composer/config/map.php:1346 config-composer/config/map.php:1471
+msgid "Random"
+msgstr "Aléatoire"
+
+#: config-job-manager/php/wp-job-manager.php:85
+#, php-format
+msgid ""
+"<span class=\"radi_text\">%1$s: </span><span class=\"radi\">%2$s</span> %3$s"
+msgstr ""
+
+#: config-job-manager/php/wp-job-manager.php:145
+msgid "Sort by"
+msgstr "Triez par"
+
+#: config-job-manager/php/wp-job-manager.php:567
+msgid "Price Range"
+msgstr "Prix "
+
+#: config-job-manager/php/wp-job-manager.php:1209
+msgid "$"
+msgstr ""
+
+#: config-job-manager/php/wp-job-manager.php:1331
+#: config-job-manager/php/wp-job-manager.php:1386
+msgid "bds"
+msgstr ""
+
+#: config-job-manager/php/wp-job-manager.php:1335
+#: config-job-manager/php/wp-job-manager.php:1410
+msgid "ba"
+msgstr ""
+
+#: config-job-manager/php/wp-job-manager.php:1352
+msgid "Posted on "
+msgstr ""
+
+#: config-job-manager/php/wp-job-manager.php:1354
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: config-job-manager/php/wp-job-manager.php:1449
+msgid "Postal code"
+msgstr ""
+
+#: config-job-manager/php/wp-job-details.php:85
+#: config-job-manager/php/wp-job-manager-writepanels.php:14
+msgid "Details Fields"
+msgstr ""
+"Les petits plus de votre activité (arguments supplémentaires qui peuvent "
+"convaincre de participer à votre activité)"
+
+#: config-job-manager/php/wp-job-manager-open-hours.php:36
+#: config-job-manager/php/wp-job-manager-writepanels.php:13
+msgid "Opening Hours"
+msgstr "Horaires possibles"
+
+#: config-job-manager/php/wp-job-manager-bookmarks.php:14
+msgid "Bookmarks Page"
+msgstr ""
+
+#: config-job-manager/php/wp-job-manager-bookmarks.php:15
+msgid "Select the page where you have placed the [my_bookmarks] shortcode."
+msgstr ""
+
+#: config-job-manager/php/wp-job-manager-resumes.php:63
+msgid "Salary Wage"
+msgstr ""
+
+#: config-job-manager/php/wp-job-manager-resumes.php:66
+msgid "Salary wage."
+msgstr ""
+
+#: config-job-manager/php/wp-job-manager-resumes.php:71
+msgid "Salary Time Period"
+msgstr ""
+
+#: config-job-manager/php/wp-job-manager-resumes.php:74
+msgid "Hour"
+msgstr ""
+
+#: config-job-manager/php/wp-job-manager-resumes.php:75
+msgid "Year"
+msgstr ""
+
+#: config-job-manager/php/wp-job-manager-resumes.php:77
+msgid "Salary time period."
+msgstr ""
+
+#: config-job-manager/php/wp-job-manager-resumes.php:109
+#: admin/framework/theme-options/settings.php:2285
+msgid "Resume"
+msgstr ""
+
+#: config-job-manager/php/wp-job-manager-resumes.php:110
+msgid ""
+"Placed below the Sidebar Right, this area brings together all the widgets "
+"under the same container."
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:31
+msgid "You May Also Like&hellip;"
+msgstr ""
+
+#: woocommerce/single-product/price.php:35
+#, php-format
+msgid "Hurry! Only %s coupons left! %s coupons already purchased"
+msgstr ""
+
+#: woocommerce/single-product/price.php:115 config-composer/config/map.php:813
+#: config-composer/config/map.php:1963
+msgid "Value"
+msgstr ""
+
+#: woocommerce/single-product/price.php:124
+msgid "Discount"
+msgstr ""
+
+#: woocommerce/single-product/price.php:133
+msgid "You Save"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:28
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:36
+msgid "verified owner"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:27
+msgid "Cart Totals"
+msgstr "Montant total"
+
+#: woocommerce/cart/cart-totals.php:36 woocommerce/cart/cart-totals.php:37
+#: woocommerce/cart/mini-cart.php:87 woocommerce/checkout/review-order.php:62
+msgid "Subtotal"
+msgstr "Sous total"
+
+#: woocommerce/cart/cart-totals.php:58 woocommerce/cart/cart-totals.php:59
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:74
+#, php-format
+msgid "estimated for %s"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:95 woocommerce/cart/cart-totals.php:96
+#: woocommerce/cart/cart.php:49 woocommerce/cart/cart.php:128
+#: woocommerce/checkout/review-order.php:30
+#: woocommerce/checkout/review-order.php:109
+#: woocommerce/order/order-details.php:50
+msgid "Total"
+msgstr "Total"
+
+#: woocommerce/cart/cart.php:46 woocommerce/cart/cart.php:79
+#: woocommerce/checkout/review-order.php:29
+#: woocommerce/order/order-details.php:49
+msgid "Product"
+msgstr "Produit"
+
+#: woocommerce/cart/cart.php:48 woocommerce/cart/cart.php:112
+msgid "Quantity"
+msgstr "Quantité"
+
+#: woocommerce/cart/cart.php:70 woocommerce/cart/mini-cart.php:51
+msgid "Remove this item"
+msgstr "Suprrimer"
+
+#: woocommerce/cart/cart.php:101
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:150
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:152
+msgid "Apply Coupon"
+msgstr "Appliquer"
+
+#: woocommerce/cart/cart.php:160
+msgid "Update Cart"
+msgstr "Rafraîchir"
+
+#: woocommerce/cart/mini-cart.php:95
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:33
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:32
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:32
+#, php-format
+msgid "%s quantity"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:38
+msgid "OFF"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:40
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:53
+msgid "Featured!"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:65
+msgid "Out of stock"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:29
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:63
+msgid "Additional Information"
+msgstr "Informations additionnelles"
+
+#: woocommerce/checkout/form-billing.php:29
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:33
+msgid "Billing details"
+msgstr "Détails de facturation"
+
+#: woocommerce/checkout/form-billing.php:62
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:35
+#: woocommerce/order/order-details.php:90
+msgid "Note:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:42
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:49
+msgid "Phone:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:70
+msgid "Billing address"
+msgstr "Adresse de facturation"
+
+#: woocommerce/order/order-details-customer.php:73
+#: woocommerce/order/order-details-customer.php:91
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:88
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:43
+msgid "Username or email address"
+msgstr "Pseudo ou adresse email"
+
+#: woocommerce/myaccount/form-login.php:47
+#: woocommerce/myaccount/form-login.php:100
+#: plugins/login-with-ajax/modal/widget_out.php:25
+msgid "Password"
+msgstr "Mot de passe"
+
+#: woocommerce/myaccount/form-login.php:58
+msgid "Remember me"
+msgstr "S'en souvenir"
+
+#: woocommerce/myaccount/form-login.php:62
+#: plugins/login-with-ajax/modal/widget_out.php:52
+msgid "Lost your password?"
+msgstr "Mot de passe oublié ?"
+
+#: woocommerce/myaccount/form-login.php:75
+#: woocommerce/myaccount/form-login.php:110
+#: plugins/login-with-ajax/modal/widget_out.php:74
+#: plugins/login-with-ajax/modal/widget_out.php:138
+msgid "Register"
+msgstr "Créer un compte"
+
+#: woocommerce/myaccount/form-login.php:91
+msgid "Email address"
+msgstr "Votre adresse email"
+
+#. 1: order number 2: order date 3: order status
+#: woocommerce/myaccount/view-order.php:29
+#, php-format
+msgid "Order #%1$s was placed on %2$s and is currently %3$s."
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:37
+msgid "Order updates"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:43
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: config-widget-meta-box/php/sidebar-generator.class.php:13
+msgid "KnowherePro Custom Widget Area"
+msgstr ""
+
+#: config-widget-meta-box/php/sidebar-generator.class.php:72
+msgid "Enter Name for new Widget Area"
+msgstr ""
+
+#: config-widget-meta-box/php/sidebar-generator.class.php:73
+msgid "Add Widget Area"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:15
+msgid "Show Row Top widgets ?"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:16
+msgid "Select yes if you want to show the top row of widgets"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:26
+#: config-widget-meta-box/php/meta_box.php:177
+#: config-composer/config/map.php:1152
+msgid "Show"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:44
+msgid "Full width Top row ?"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:45
+msgid "Select yes if you want to show the full width top row"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:77
+msgid "Footer Row Top Widget"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:78
+msgid "Here you can select how your footer row top widgets will be displayed."
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:89
+#: config-widget-meta-box/php/meta_box.php:240
+#: config-composer/config/map.php:667 config-composer/config/map.php:973
+#: config-composer/config/map.php:1073 config-composer/config/map.php:1423
+#: config-composer/config/map.php:1916
+#: config-composer/modules/vc_mad_pricing_box.php:77
+msgid "Columns"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:134
+#: config-widget-meta-box/php/meta_box.php:285
+msgid "Styles"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:166
+msgid "Show Row Middle widgets ?"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:167
+msgid "Select yes if you want to show the middle row of widgets"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:195
+msgid "Full width Middle row ?"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:196
+msgid "Select yes if you want to show the full width middle row"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:228
+msgid "Footer Row Middle Widget"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:229
+msgid ""
+"Here you can select how your footer row middle widgets will be displayed."
+msgstr ""
+
+#: admin/framework/admin.php:14
+msgid "Installing"
+msgstr ""
+
+#: admin/framework/admin.php:15
+msgid "Importing theme options"
+msgstr ""
+
+#: admin/framework/admin.php:16
+msgid "Finished! Please visit your site."
+msgstr ""
+
+#: admin/framework/admin.php:157
+#, php-format
+msgid "Install %s"
+msgstr ""
+
+#: admin/framework/admin.php:157
+msgid "Install"
+msgstr ""
+
+#: admin/framework/admin.php:177
+#, php-format
+msgid "Activate %s"
+msgstr ""
+
+#: admin/framework/admin.php:177
+msgid "Activate"
+msgstr ""
+
+#: admin/framework/admin.php:201
+msgid "Update"
+msgstr ""
+
+#: admin/framework/admin.php:214
+#, php-format
+msgid "Deactivate %s"
+msgstr ""
+
+#: admin/framework/admin.php:214
+msgid "Deactivate"
+msgstr ""
+
+#: admin/framework/functions.php:37
+msgid "Header Type 1"
+msgstr ""
+
+#: admin/framework/functions.php:38
+msgid "Header Type 2"
+msgstr ""
+
+#: admin/framework/functions.php:39
+msgid "Header Type 3"
+msgstr ""
+
+#: admin/framework/functions.php:40
+msgid "Header Type 4"
+msgstr ""
+
+#: admin/framework/functions.php:41
+msgid "Header Type 5"
+msgstr ""
+
+#: admin/framework/functions.php:42
+msgid "Header Type 6"
+msgstr ""
+
+#: admin/framework/functions.php:50 includes/plugins/category-icon/init.php:153
+#: includes/plugins/category-icon/init.php:271
+msgid "Without Sidebar"
+msgstr ""
+
+#: admin/framework/functions.php:51 includes/metadata/meta_values.php:44
+#: includes/plugins/category-icon/init.php:154
+#: includes/plugins/category-icon/init.php:272
+msgid "Left Sidebar"
+msgstr ""
+
+#: admin/framework/functions.php:52 includes/metadata/meta_values.php:45
+#: includes/plugins/category-icon/init.php:155
+#: includes/plugins/category-icon/init.php:273
+msgid "Right Sidebar"
+msgstr ""
+
+#: admin/framework/functions.php:60 includes/plugins/category-icon/init.php:175
+#: includes/plugins/category-icon/init.php:305
+#: includes/plugins/category-icon/init.php:307
+msgid "Listing Style"
+msgstr ""
+
+#: admin/framework/functions.php:61
+msgid "Listing Style 2"
+msgstr ""
+
+#: admin/framework/functions.php:62
+msgid "Job Style"
+msgstr ""
+
+#: admin/framework/functions.php:63
+msgid "Property Style"
+msgstr ""
+
+#: admin/framework/functions.php:64
+msgid "Classified Style"
+msgstr ""
+
+#: admin/framework/functions.php:81 config-composer/config/map.php:907
+#: config-composer/config/map.php:1907
+#: config-composer/modules/vc_mad_info_block.php:70
+msgid "Type 1"
+msgstr ""
+
+#: admin/framework/functions.php:82 config-composer/config/map.php:908
+#: config-composer/config/map.php:1908
+#: config-composer/modules/vc_mad_info_block.php:71
+msgid "Type 2"
+msgstr ""
+
+#: admin/framework/functions.php:108 config-composer/config/map.php:696
+#: config-composer/config/map.php:940
+msgid "ID"
+msgstr ""
+
+#: admin/framework/functions.php:110
+msgid "Slug"
+msgstr ""
+
+#: admin/framework/functions.php:111
+msgid "Count"
+msgstr ""
+
+#: admin/framework/functions.php:120
+#: admin/framework/theme-options/settings.php:1711
+msgid "Job"
+msgstr ""
+
+#: config-woocommerce/php/common-tab.class.php:84
+#: config-woocommerce/php/common-tab.class.php:128
+msgid "Title Custom Tab"
+msgstr ""
+
+#: config-woocommerce/php/common-tab.class.php:86
+#: config-woocommerce/php/common-tab.class.php:130
+msgid "Enter a title for the tab (required field)"
+msgstr ""
+
+#: config-woocommerce/php/common-tab.class.php:89
+#: config-woocommerce/php/common-tab.class.php:133
+msgid "Content Custom Tab"
+msgstr ""
+
+#: config-woocommerce/php/common-tab.class.php:93
+#: config-woocommerce/php/common-tab.class.php:137
+msgid "Remove Custom Tab"
+msgstr "Supprimer"
+
+#: config-woocommerce/php/common-tab.class.php:102
+msgid "Custom Tabs"
+msgstr ""
+
+#: config-woocommerce/php/common-tab.class.php:149
+msgid "Add Custom Tab"
+msgstr ""
+
+#: config-woocommerce/php/new-badge.class.php:16
+msgid "New Badge"
+msgstr ""
+
+#: config-woocommerce/php/new-badge.class.php:21
+msgid "Enable label new"
+msgstr ""
+
+#: config-woocommerce/php/new-badge.class.php:22
+msgid "Visible label new in products"
+msgstr ""
+
+#: config-woocommerce/php/new-badge.class.php:28
+msgid "Product Newness"
+msgstr ""
+
+#: config-woocommerce/php/new-badge.class.php:29
+msgid "Display the 'New' flash for how many days?"
+msgstr ""
+
+#: config-woocommerce/php/new-badge.class.php:100
+msgid "New"
+msgstr ""
+
+#: config-woocommerce/php/ordering.class.php:27
+#: includes/metadata/meta_values.php:10 includes/metadata/meta_values.php:63
+#: config-composer/config/map.php:28 config-composer/config/map.php:91
+#: config-composer/config/map.php:658 config-composer/config/map.php:1413
+#: config-composer/config/map.php:1469
+#: includes/page-title/views/form-meta-box.php:4
+#: includes/plugins/category-icon/init.php:143
+#: includes/plugins/category-icon/init.php:152
+#: includes/plugins/category-icon/init.php:161
+#: includes/plugins/category-icon/init.php:169
+#: includes/plugins/category-icon/init.php:177
+#: includes/plugins/category-icon/init.php:188
+#: includes/plugins/category-icon/init.php:196
+#: includes/plugins/category-icon/init.php:270
+#: includes/plugins/category-icon/init.php:284
+#: includes/plugins/category-icon/init.php:297
+#: includes/plugins/category-icon/init.php:310
+msgid "Default"
+msgstr ""
+
+#: config-woocommerce/php/ordering.class.php:30
+#: config-composer/config/map.php:695 config-composer/config/map.php:939
+#: config-composer/config/map.php:1167 config-composer/config/map.php:1235
+#: config-composer/config/map.php:1345
+#: admin/framework/theme-options/settings.php:1433
+#: admin/framework/theme-options/settings.php:1484
+msgid "Date"
+msgstr ""
+
+#: config-woocommerce/php/ordering.class.php:31
+msgid "Popularity"
+msgstr ""
+
+#: job_manager/form-fields/open-hours-field.php:17
+#: job_manager/form-fields/details-fields-field.php:11
+msgid "Please click here to fill in the fields"
+msgstr "Cliquez ici pour ajouter."
+
+#: job_manager/form-fields/open-hours-field.php:27
+#: job_manager/form-fields/open-hours-field.php:37
+msgid "Days Of The Week"
+msgstr "Jour de la semaine"
+
+#: job_manager/form-fields/open-hours-field.php:28
+#: job_manager/form-fields/open-hours-field.php:41
+msgid "Open Time"
+msgstr "Ouverture"
+
+#: job_manager/form-fields/open-hours-field.php:29
+#: job_manager/form-fields/open-hours-field.php:56
+msgid "Close Time"
+msgstr "Fermeture"
+
+#: job_manager/form-fields/file-field.php:32
+#, php-format
+msgid "Maximum file size: %s."
+msgstr "Taille Max : %s."
+
+#: job_manager/form-fields/term-select-field.php:37
+#, php-format
+msgid "Any %s"
+msgstr "Toutes les catégories"
+
+#: job_manager/form-fields/details-fields-field.php:18
+msgid "Add Field"
+msgstr "Ajouter un argument pour votre activité"
+
+#: includes/page-title/config.php:64
+#: admin/framework/theme-options/settings.php:2806
+msgid "Page Title"
+msgstr ""
+
+#: includes/page-title/config.php:245
+msgid "Breadcrumb Navigation"
+msgstr ""
+
+#: includes/page-title/config.php:246
+msgid "Display the Breadcrumb Navigation?"
+msgstr ""
+
+#: includes/page-title/config.php:252
+msgid "Align"
+msgstr ""
+
+#: includes/page-title/config.php:253
+msgid "Align title and Breadcrumb Navigation"
+msgstr ""
+
+#: includes/page-title/config.php:263
+msgid "Upload Background Image"
+msgstr ""
+
+#: includes/page-title/config.php:264
+msgid "Background Image for the header page title"
+msgstr ""
+
+#: includes/classes/register-admin-user-profile.class.php:77
+msgid "Social Options"
+msgstr ""
+
+#: includes/classes/register-admin-user-profile.class.php:297
+msgid "Biographical Info"
+msgstr "Biographie"
+
+#: includes/classes/register-admin-user-profile.class.php:303
+msgid ""
+"Share a little biographical information to fill out your profile. This may "
+"be shown publicly."
+msgstr ""
+
+#: includes/classes/register-admin-user-profile.class.php:318
+msgid "Change Current Image"
+msgstr ""
+
+#: includes/classes/register-admin-user-profile.class.php:318
+#: includes/classes/register-admin-user-profile.class.php:362
+msgid "Upload New Image"
+msgstr ""
+
+#: includes/classes/register-admin-user-profile.class.php:326
+msgid "Custom User Profile Photo"
+msgstr ""
+
+#: includes/classes/register-admin-user-profile.class.php:364
+msgid "Use External URL"
+msgstr ""
+
+#: includes/classes/register-admin-user-profile.class.php:376
+#: includes/helpers/post-format-helper.php:252
+#: config-composer/modules/vc_mad_advanced_tabs.php:110
+#: config-composer/modules/vc_mad_advanced_tabs.php:115
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: includes/classes/register-admin-user-profile.class.php:387
+msgid ""
+"Upload a custom photo for your user profile or use a URL to a pre-existing "
+"photo."
+msgstr ""
+
+#: includes/classes/register-admin-user-profile.class.php:390
+msgid "Update Profile to save your changes."
+msgstr ""
+
+#: includes/metadata/meta_values.php:37
+msgid "Sidebar Position"
+msgstr ""
+
+#: includes/metadata/meta_values.php:38
+msgid "Choose sidebar position"
+msgstr ""
+
+#: includes/metadata/meta_values.php:42
+msgid "Default Sidebar Position"
+msgstr ""
+
+#: includes/metadata/meta_values.php:43
+msgid "No Sidebar"
+msgstr ""
+
+#: includes/metadata/meta_values.php:50
+msgid "Sidebar Setting"
+msgstr ""
+
+#: includes/metadata/meta_values.php:51
+msgid "Select the sidebar you would like to display."
+msgstr ""
+
+#: includes/metadata/meta_values.php:58
+msgid "Column Count"
+msgstr ""
+
+#: includes/metadata/meta_values.php:59
+msgid "This controls how many columns should be appeared on overview pages."
+msgstr ""
+
+#: config-composer/config/map.php:4
+msgid "Same window"
+msgstr ""
+
+#: config-composer/config/map.php:5
+msgid "New window"
+msgstr ""
+
+#: config-composer/config/map.php:15
+msgid "Row"
+msgstr ""
+
+#: config-composer/config/map.php:21
+msgid "Place content elements inside the row"
+msgstr ""
+
+#: config-composer/config/map.php:25
+msgid "Row stretch"
+msgstr ""
+
+#: config-composer/config/map.php:29
+msgid "Stretch row"
+msgstr ""
+
+#: config-composer/config/map.php:30
+msgid "Stretch row and content"
+msgstr ""
+
+#: config-composer/config/map.php:31
+msgid "Stretch row and content (no paddings)"
+msgstr ""
+
+#: config-composer/config/map.php:33
+msgid ""
+"Select stretching options for row and content (Note: stretched may not work "
+"properly if parent container has \"overflow: hidden\" CSS property)."
+msgstr ""
+
+#: config-composer/config/map.php:37
+msgid "Columns gap"
+msgstr ""
+
+#: config-composer/config/map.php:54
+msgid "Select gap between columns in row."
+msgstr ""
+
+#: config-composer/config/map.php:58
+msgid "Full height row?"
+msgstr ""
+
+#: config-composer/config/map.php:60
+msgid "If checked row will be set to full height."
+msgstr ""
+
+#: config-composer/config/map.php:65
+msgid "Columns position"
+msgstr ""
+
+#: config-composer/config/map.php:68 config-composer/config/map.php:93
+msgid "Middle"
+msgstr ""
+
+#: config-composer/config/map.php:69 config-composer/config/map.php:92
+#: admin/framework/theme-options/settings.php:1740
+#: includes/plugins/category-icon/init.php:170
+#: includes/plugins/category-icon/init.php:298
+msgid "Top"
+msgstr ""
+
+#: config-composer/config/map.php:70 config-composer/config/map.php:94
+msgid "Bottom"
+msgstr ""
+
+#: config-composer/config/map.php:71
+msgid "Stretch"
+msgstr ""
+
+#: config-composer/config/map.php:73
+msgid "Select columns position within row."
+msgstr ""
+
+#: config-composer/config/map.php:81
+msgid "Equal height"
+msgstr ""
+
+#: config-composer/config/map.php:83
+msgid "If checked columns will be set to equal height."
+msgstr ""
+
+#: config-composer/config/map.php:88
+msgid "Content position"
+msgstr ""
+
+#: config-composer/config/map.php:96
+msgid "Select content position within columns."
+msgstr ""
+
+#: config-composer/config/map.php:100
+msgid "Use video background?"
+msgstr ""
+
+#: config-composer/config/map.php:102
+msgid "If checked, video will be used as row background."
+msgstr ""
+
+#: config-composer/config/map.php:107
+msgid "YouTube link"
+msgstr ""
+
+#: config-composer/config/map.php:110
+msgid "Add YouTube link."
+msgstr ""
+
+#: config-composer/config/map.php:118 config-composer/config/map.php:132
+#: config-composer/config/map.php:154 config-composer/config/map.php:165
+msgid "Parallax"
+msgstr ""
+
+#: config-composer/config/map.php:122 config-composer/config/map.php:136
+msgid "Simple"
+msgstr ""
+
+#: config-composer/config/map.php:124
+msgid "Add parallax type background for row."
+msgstr ""
+
+#: config-composer/config/map.php:138
+msgid ""
+"Add parallax type background for row (Note: If no image is specified, "
+"parallax will use background image from Design Options)."
+msgstr ""
+
+#: config-composer/config/map.php:149 config-composer/config/map.php:342
+#: config-composer/modules/vc_mad_info_block.php:125
+msgid "Select image from media library."
+msgstr ""
+
+#: config-composer/config/map.php:158
+msgid "Overlay background color"
+msgstr ""
+
+#: config-composer/config/map.php:160
+msgid "Select custom overlay color for background."
+msgstr ""
+
+#: config-composer/config/map.php:169 config-composer/config/map.php:180
+msgid "Parallax speed"
+msgstr ""
+
+#: config-composer/config/map.php:172 config-composer/config/map.php:183
+msgid "Enter parallax speed ratio (Note: Default value is 1.5, min value is 1)"
+msgstr ""
+
+#: config-composer/config/map.php:191
+msgid "Row ID"
+msgstr ""
+
+#: config-composer/config/map.php:193
+#, php-format
+msgid ""
+"Enter row ID (Note: make sure it is unique and valid according to <a "
+"href=\"%s\" target=\"_blank\">w3c specification</a>)."
+msgstr ""
+
+#: config-composer/config/map.php:197
+msgid "Disable row"
+msgstr ""
+
+#: config-composer/config/map.php:199
+msgid ""
+"If checked the row won't be visible on the public side of your website. You "
+"can switch it back any time."
+msgstr ""
+
+#: config-composer/config/map.php:204 config-composer/config/map.php:309
+#: config-composer/modules/vc_mad_google_maps.php:235
+msgid "Extra class name"
+msgstr ""
+
+#: config-composer/config/map.php:206 config-composer/config/map.php:311
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: config-composer/config/map.php:210 config-composer/config/map.php:315
+msgid "CSS box"
+msgstr ""
+
+#: config-composer/config/map.php:212 config-composer/config/map.php:317
+msgid "Design Options"
+msgstr ""
+
+#: config-composer/config/map.php:222
+msgid "Custom Heading"
+msgstr ""
+
+#: config-composer/config/map.php:227
+msgid "Text with Google fonts"
+msgstr ""
+
+#: config-composer/config/map.php:231
+msgid "Text source"
+msgstr ""
+
+#: config-composer/config/map.php:234
+msgid "Custom text"
+msgstr ""
+
+#: config-composer/config/map.php:235
+msgid "Post or Page Title"
+msgstr ""
+
+#: config-composer/config/map.php:238
+msgid "Select text source."
+msgstr ""
+
+#: config-composer/config/map.php:245
+msgid "This is custom heading element"
+msgstr ""
+
+#: config-composer/config/map.php:246
+msgid ""
+"Note: If you are using non-latin characters be sure to activate them under "
+"Settings/Visual Composer/General Settings."
+msgstr ""
+
+#: config-composer/config/map.php:254 config-composer/config/map.php:373
+#: config-composer/config/map.php:535
+#: config-composer/modules/vc_mad_info_block.php:143
+msgid "URL (Link)"
+msgstr ""
+
+#: config-composer/config/map.php:256
+msgid "Add link to custom heading."
+msgstr ""
+
+#: config-composer/config/map.php:269
+msgid "Select element tag."
+msgstr ""
+
+#: config-composer/config/map.php:270
+msgid "Select text alignment."
+msgstr ""
+
+#: config-composer/config/map.php:271
+msgid "Enter font size."
+msgstr ""
+
+#: config-composer/config/map.php:272
+msgid "Enter line height."
+msgstr ""
+
+#: config-composer/config/map.php:273
+msgid "Select heading color."
+msgstr ""
+
+#: config-composer/config/map.php:279
+msgid "Use theme default font family?"
+msgstr ""
+
+#: config-composer/config/map.php:282
+msgid "Use font family from the theme."
+msgstr ""
+
+#: config-composer/config/map.php:291
+msgid "Select font family."
+msgstr ""
+
+#: config-composer/config/map.php:292
+msgid "Select font styling."
+msgstr ""
+
+#: config-composer/config/map.php:331
+msgid "Blockquotes"
+msgstr ""
+
+#. Name of the theme
+#: config-composer/config/map.php:334 config-composer/config/map.php:362
+#: config-composer/config/map.php:436 config-composer/config/map.php:469
+#: config-composer/config/map.php:496 config-composer/config/map.php:556
+#: config-composer/config/map.php:622 config-composer/config/map.php:767
+#: config-composer/config/map.php:960 config-composer/config/map.php:1860
+#: config-composer/config/map.php:1986
+#: config-composer/modules/vc_mad_advanced_tabs.php:32
+#: config-composer/modules/vc_mad_info_block.php:20
+#: config-composer/modules/vc_mad_accordion.php:33
+#: config-composer/modules/vc_mad_accordion.php:81
+#: config-composer/modules/vc_mad_advanced_tour.php:17
+#: config-composer/modules/vc_mad_pricing_box.php:20
+#: config-composer/modules/vc_mad_google_maps.php:27
+msgid "KnowherePro"
+msgstr ""
+
+#: config-composer/config/map.php:335
+msgid "Blockquotes with image"
+msgstr ""
+
+#: config-composer/config/map.php:349
+msgid ""
+"<p>I am text block. Click edit button to change this text. Lorem ipsum dolor "
+"sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec "
+"ullamcorper mattis, pulvinar dapibus leo.</p>"
+msgstr ""
+
+#: config-composer/config/map.php:359 config-composer/config/map.php:529
+#: config-composer/config/map.php:538
+msgid "Button"
+msgstr ""
+
+#: config-composer/config/map.php:363
+msgid "Eye catching button"
+msgstr ""
+
+#: config-composer/config/map.php:369
+msgid "Text on the button"
+msgstr ""
+
+#: config-composer/config/map.php:375 config-composer/config/map.php:537
+msgid "Add link to button."
+msgstr ""
+
+#: config-composer/config/map.php:381
+msgid "Select style color."
+msgstr ""
+
+#: config-composer/config/map.php:383
+msgid "Gray"
+msgstr ""
+
+#: config-composer/config/map.php:384
+msgid "Yellow"
+msgstr ""
+
+#: config-composer/config/map.php:385
+#: admin/framework/theme-options/settings.php:1997
+#: includes/plugins/category-icon/init.php:144
+#: includes/plugins/category-icon/init.php:256
+msgid "Theme Color"
+msgstr ""
+
+#: config-composer/config/map.php:390
+msgid "Text color"
+msgstr ""
+
+#: config-composer/config/map.php:392 config-composer/config/map.php:520
+#: config-composer/config/map.php:575 config-composer/config/map.php:583
+#: config-composer/config/map.php:641 config-composer/config/map.php:649
+#: config-composer/config/map.php:854 config-composer/config/map.php:862
+#: config-composer/config/map.php:1048 config-composer/config/map.php:1056
+#: config-composer/config/map.php:1200 config-composer/config/map.php:1208
+#: config-composer/config/map.php:1311 config-composer/config/map.php:1319
+#: config-composer/config/map.php:1385 config-composer/config/map.php:1393
+#: config-composer/config/map.php:1529 config-composer/config/map.php:1537
+#: config-composer/config/map.php:1589 config-composer/config/map.php:1597
+#: config-composer/config/map.php:1681 config-composer/config/map.php:1689
+#: config-composer/config/map.php:1787 config-composer/config/map.php:1795
+#: config-composer/config/map.php:1879 config-composer/config/map.php:1887
+#: config-composer/modules/vc_mad_info_block.php:42
+#: config-composer/modules/vc_mad_info_block.php:50
+#: config-composer/modules/vc_mad_pricing_box.php:42
+#: config-composer/modules/vc_mad_pricing_box.php:50
+#: config-composer/modules/vc_mad_google_maps.php:231
+msgid "Styling"
+msgstr ""
+
+#: config-composer/config/map.php:393 config-composer/config/map.php:521
+msgid "Select custom text color."
+msgstr ""
+
+#: config-composer/config/map.php:397
+msgid "Size"
+msgstr ""
+
+#: config-composer/config/map.php:399
+msgid "Select button display size."
+msgstr ""
+
+#: config-composer/config/map.php:402
+#: config-composer/modules/vc_mad_google_maps.php:178
+msgid "Small"
+msgstr ""
+
+#: config-composer/config/map.php:403
+msgid "Medium"
+msgstr ""
+
+#: config-composer/config/map.php:404
+msgid "Big"
+msgstr ""
+
+#: config-composer/config/map.php:409
+msgid "Alignment"
+msgstr ""
+
+#: config-composer/config/map.php:411
+msgid "Select button alignment."
+msgstr ""
+
+#: config-composer/config/map.php:413
+msgid "Inline"
+msgstr ""
+
+#: config-composer/config/map.php:421 config-composer/config/map.php:474
+#: config-composer/config/map.php:1970
+#: config-composer/modules/vc_mad_info_block.php:129
+#: includes/plugins/category-icon/init.php:228
+#: includes/plugins/category-icon/init.php:493
+msgid "Icon"
+msgstr ""
+
+#: config-composer/config/map.php:424 config-composer/config/map.php:1973
+#: config-composer/modules/vc_mad_info_block.php:132
+msgid "Select icon from library."
+msgstr ""
+
+#: config-composer/config/map.php:433
+msgid "Message Box"
+msgstr ""
+
+#: config-composer/config/map.php:437
+msgid "Notification boxes"
+msgstr ""
+
+#: config-composer/config/map.php:444
+msgid "Success"
+msgstr ""
+
+#: config-composer/config/map.php:445
+msgid "Warning"
+msgstr ""
+
+#: config-composer/config/map.php:446
+msgid "Info"
+msgstr ""
+
+#: config-composer/config/map.php:447
+msgid "Error"
+msgstr ""
+
+#: config-composer/config/map.php:449
+msgid "Select message box style."
+msgstr ""
+
+#: config-composer/config/map.php:455
+msgid "Message text"
+msgstr ""
+
+#: config-composer/config/map.php:457
+msgid "<p>I am message box. Click edit button to change this text.</p>"
+msgstr ""
+
+#: config-composer/config/map.php:466
+msgid "List Styles"
+msgstr ""
+
+#: config-composer/config/map.php:470
+msgid "List styles"
+msgstr ""
+
+#: config-composer/config/map.php:477
+msgid ""
+"Select icon from library for you list styles. If you do not select an icon "
+"get a numbered list"
+msgstr ""
+
+#: config-composer/config/map.php:481
+msgid "List Items"
+msgstr ""
+
+#: config-composer/config/map.php:483
+msgid ""
+"Input list items values. Divide values with (|). Example: Development|Design"
+msgstr ""
+
+#: config-composer/config/map.php:493
+msgid "Call to Action"
+msgstr ""
+
+#: config-composer/config/map.php:497
+msgid "Catch visitors attention with CTA block"
+msgstr ""
+
+#: config-composer/config/map.php:501
+msgid "Heading"
+msgstr ""
+
+#: config-composer/config/map.php:505
+msgid ""
+"Enter text for heading line. \\n = LF (Line Feed) - Used as a new line "
+"character"
+msgstr ""
+
+#: config-composer/config/map.php:510
+msgid "Subheading"
+msgstr ""
+
+#: config-composer/config/map.php:513
+msgid "Enter text for subheading line."
+msgstr ""
+
+#: config-composer/config/map.php:518
+#: admin/framework/theme-options/settings.php:842
+#: admin/framework/theme-options/settings.php:879
+msgid "Text Color"
+msgstr ""
+
+#: config-composer/config/map.php:525
+msgid "Add button or form?"
+msgstr ""
+
+#: config-composer/config/map.php:531
+msgid "Add button or form for call to action."
+msgstr ""
+
+#: config-composer/config/map.php:553
+msgid "Partners"
+msgstr ""
+
+#: config-composer/config/map.php:557
+msgid "Our partners logo"
+msgstr ""
+
+#: config-composer/config/map.php:563 config-composer/config/map.php:629
+#: config-composer/config/map.php:774 config-composer/config/map.php:842
+#: config-composer/config/map.php:1022 config-composer/config/map.php:1188
+#: config-composer/config/map.php:1299 config-composer/config/map.php:1373
+#: config-composer/config/map.php:1517 config-composer/config/map.php:1577
+#: config-composer/config/map.php:1669 config-composer/config/map.php:1775
+#: config-composer/config/map.php:1867
+#: config-composer/modules/vc_mad_advanced_tabs.php:44
+#: config-composer/modules/vc_mad_info_block.php:30
+#: config-composer/modules/vc_mad_accordion.php:41
+#: config-composer/modules/vc_mad_advanced_tour.php:30
+#: config-composer/modules/vc_mad_pricing_box.php:30
+msgid ""
+"Enter text which will be used as title. Leave blank if no title is needed."
+msgstr ""
+
+#: config-composer/config/map.php:567 config-composer/config/map.php:633
+#: config-composer/config/map.php:846 config-composer/config/map.php:1026
+#: config-composer/config/map.php:1192 config-composer/config/map.php:1303
+#: config-composer/config/map.php:1377 config-composer/config/map.php:1521
+#: config-composer/config/map.php:1581 config-composer/config/map.php:1673
+#: config-composer/config/map.php:1779 config-composer/config/map.php:1871
+#: config-composer/modules/vc_mad_info_block.php:34
+#: config-composer/modules/vc_mad_pricing_box.php:34
+msgid "Subtitle"
+msgstr ""
+
+#: config-composer/config/map.php:569 config-composer/config/map.php:635
+#: config-composer/config/map.php:848 config-composer/config/map.php:1028
+#: config-composer/config/map.php:1194 config-composer/config/map.php:1305
+#: config-composer/config/map.php:1379 config-composer/config/map.php:1523
+#: config-composer/config/map.php:1583 config-composer/config/map.php:1675
+#: config-composer/config/map.php:1781 config-composer/config/map.php:1873
+#: config-composer/modules/vc_mad_info_block.php:36
+#: config-composer/modules/vc_mad_pricing_box.php:36
+msgid ""
+"Enter text which will be used as subtitle. Leave blank if no subtitle is "
+"needed."
+msgstr ""
+
+#: config-composer/config/map.php:573 config-composer/config/map.php:639
+#: config-composer/config/map.php:852 config-composer/config/map.php:1046
+#: config-composer/config/map.php:1198 config-composer/config/map.php:1309
+#: config-composer/config/map.php:1383 config-composer/config/map.php:1527
+#: config-composer/config/map.php:1587 config-composer/config/map.php:1679
+#: config-composer/config/map.php:1785 config-composer/config/map.php:1877
+#: config-composer/modules/vc_mad_info_block.php:40
+#: config-composer/modules/vc_mad_pricing_box.php:40
+msgid "Color for title"
+msgstr ""
+
+#: config-composer/config/map.php:577 config-composer/config/map.php:643
+#: config-composer/config/map.php:856 config-composer/config/map.php:1050
+#: config-composer/config/map.php:1202 config-composer/config/map.php:1313
+#: config-composer/config/map.php:1387 config-composer/config/map.php:1531
+#: config-composer/config/map.php:1591 config-composer/config/map.php:1683
+#: config-composer/config/map.php:1789 config-composer/config/map.php:1881
+#: config-composer/modules/vc_mad_info_block.php:44
+#: config-composer/modules/vc_mad_pricing_box.php:44
+msgid "Select custom color for title."
+msgstr ""
+
+#: config-composer/config/map.php:581 config-composer/config/map.php:647
+#: config-composer/config/map.php:860 config-composer/config/map.php:1054
+#: config-composer/config/map.php:1206 config-composer/config/map.php:1317
+#: config-composer/config/map.php:1391 config-composer/config/map.php:1535
+#: config-composer/config/map.php:1595 config-composer/config/map.php:1687
+#: config-composer/config/map.php:1793 config-composer/config/map.php:1885
+#: config-composer/modules/vc_mad_info_block.php:48
+#: config-composer/modules/vc_mad_pricing_box.php:48
+msgid "Color for subtitle"
+msgstr ""
+
+#: config-composer/config/map.php:585 config-composer/config/map.php:651
+#: config-composer/config/map.php:864 config-composer/config/map.php:1058
+#: config-composer/config/map.php:1210 config-composer/config/map.php:1321
+#: config-composer/config/map.php:1395 config-composer/config/map.php:1539
+#: config-composer/config/map.php:1599 config-composer/config/map.php:1691
+#: config-composer/config/map.php:1797 config-composer/config/map.php:1889
+#: config-composer/modules/vc_mad_info_block.php:52
+#: config-composer/modules/vc_mad_pricing_box.php:52
+msgid "Select custom color for subtitle."
+msgstr ""
+
+#: config-composer/config/map.php:589 config-composer/config/map.php:868
+#: config-composer/config/map.php:1062 config-composer/config/map.php:1214
+#: config-composer/config/map.php:1325 config-composer/config/map.php:1399
+#: config-composer/config/map.php:1543 config-composer/config/map.php:1603
+#: config-composer/config/map.php:1695 config-composer/config/map.php:1801
+#: config-composer/config/map.php:1893
+#: config-composer/modules/vc_mad_info_block.php:56
+#: config-composer/modules/vc_mad_pricing_box.php:56
+msgid "Title Alignment"
+msgstr ""
+
+#: config-composer/config/map.php:591 config-composer/config/map.php:870
+#: config-composer/config/map.php:1064 config-composer/config/map.php:1216
+#: config-composer/config/map.php:1327 config-composer/config/map.php:1401
+#: config-composer/config/map.php:1545 config-composer/config/map.php:1605
+#: config-composer/config/map.php:1697 config-composer/config/map.php:1803
+#: config-composer/config/map.php:1895
+#: config-composer/modules/vc_mad_info_block.php:58
+#: config-composer/modules/vc_mad_pricing_box.php:58
+msgid "Select title alignment."
+msgstr ""
+
+#: config-composer/config/map.php:603
+msgid "Select images from media library."
+msgstr ""
+
+#: config-composer/config/map.php:610
+msgid ""
+"Input links values. Divide values with linebreaks (|). Example: http:"
+"//partner.com | http://partner2.com"
+msgstr ""
+
+#: config-composer/config/map.php:619
+msgid "Blog Posts"
+msgstr ""
+
+#: config-composer/config/map.php:623
+msgid "Blog posts"
+msgstr ""
+
+#: config-composer/config/map.php:655
+msgid "Blog Layout"
+msgstr ""
+
+#: config-composer/config/map.php:659 config-composer/config/map.php:1090
+msgid "Masonry"
+msgstr ""
+
+#: config-composer/config/map.php:660
+msgid "Carousel"
+msgstr ""
+
+#: config-composer/config/map.php:663
+msgid "Choose the default blog layout here."
+msgstr ""
+
+#: config-composer/config/map.php:670
+msgid "2 Columns"
+msgstr ""
+
+#: config-composer/config/map.php:671 config-composer/config/map.php:1076
+#: config-composer/config/map.php:1426
+#: config-composer/modules/vc_mad_pricing_box.php:80
+msgid "3 Columns"
+msgstr ""
+
+#: config-composer/config/map.php:672 config-composer/config/map.php:1077
+#: config-composer/config/map.php:1427
+#: config-composer/modules/vc_mad_pricing_box.php:81
+msgid "4 Columns"
+msgstr ""
+
+#: config-composer/config/map.php:674 config-composer/config/map.php:1081
+#: config-composer/config/map.php:1431
+#: config-composer/modules/vc_mad_pricing_box.php:84
+msgid "How many columns should be displayed?"
+msgstr ""
+
+#: config-composer/config/map.php:684
+msgid "Which categories should be used for the blog?"
+msgstr ""
+
+#: config-composer/config/map.php:687
+msgid "The Page will then show entries from only those categories."
+msgstr ""
+
+#: config-composer/config/map.php:688 config-composer/config/map.php:706
+#: config-composer/config/map.php:717 config-composer/config/map.php:1001
+#: config-composer/config/map.php:1148 config-composer/config/map.php:1158
+#: config-composer/config/map.php:1170 config-composer/config/map.php:1348
+#: config-composer/config/map.php:1356 config-composer/config/map.php:1627
+#: config-composer/config/map.php:1636 config-composer/config/map.php:1648
+#: config-composer/config/map.php:1728 config-composer/config/map.php:1740
+#: config-composer/config/map.php:1825 config-composer/config/map.php:1834
+#: config-composer/config/map.php:1846
+msgid "Data Settings"
+msgstr ""
+
+#: config-composer/config/map.php:692 config-composer/config/map.php:1631
+#: config-composer/config/map.php:1723 config-composer/config/map.php:1829
+msgid "Order By"
+msgstr ""
+
+#: config-composer/config/map.php:697 config-composer/config/map.php:941
+msgid "Author"
+msgstr ""
+
+#: config-composer/config/map.php:699 config-composer/config/map.php:943
+msgid "Modified"
+msgstr ""
+
+#: config-composer/config/map.php:701 config-composer/config/map.php:945
+msgid "Comment count"
+msgstr ""
+
+#: config-composer/config/map.php:702 config-composer/config/map.php:946
+msgid "Menu order"
+msgstr ""
+
+#: config-composer/config/map.php:705
+msgid "Sort retrieved posts by parameter"
+msgstr ""
+
+#: config-composer/config/map.php:710 config-composer/config/map.php:1270
+#: config-composer/config/map.php:1640 config-composer/config/map.php:1732
+#: config-composer/config/map.php:1838
+msgid "Order"
+msgstr ""
+
+#: config-composer/config/map.php:713 config-composer/config/map.php:1273
+#: config-composer/config/map.php:1643 config-composer/config/map.php:1735
+#: config-composer/config/map.php:1841
+msgid "DESC"
+msgstr ""
+
+#: config-composer/config/map.php:714 config-composer/config/map.php:1274
+#: config-composer/config/map.php:1644 config-composer/config/map.php:1736
+#: config-composer/config/map.php:1842
+msgid "ASC"
+msgstr ""
+
+#: config-composer/config/map.php:716
+msgid "In what direction order?"
+msgstr ""
+
+#: config-composer/config/map.php:721
+msgid "Posts Count"
+msgstr ""
+
+#: config-composer/config/map.php:725 config-composer/config/map.php:1618
+#: config-composer/config/map.php:1710 config-composer/config/map.php:1816
+msgid "How many items should be displayed per page?"
+msgstr ""
+
+#: config-composer/config/map.php:730
+msgid "Pagination"
+msgstr ""
+
+#: config-composer/config/map.php:733
+msgid "Display Pagination"
+msgstr ""
+
+#: config-composer/config/map.php:734
+msgid "No option to view additional entries"
+msgstr ""
+
+#: config-composer/config/map.php:741
+msgid "Should a pagination be displayed?"
+msgstr ""
+
+#: config-composer/config/map.php:745
+msgid "Hide cover image"
+msgstr ""
+
+#: config-composer/config/map.php:747
+msgid "Hide cover image."
+msgstr ""
+
+#: config-composer/config/map.php:748 config-composer/config/map.php:755
+#: config-composer/config/map.php:900 config-composer/config/map.php:1116
+#: config-composer/config/map.php:1127 config-composer/config/map.php:1134
+#: config-composer/modules/vc_mad_pricing_box.php:143
+msgid "Yes, please"
+msgstr ""
+
+#: config-composer/config/map.php:752 config-composer/config/map.php:1131
+msgid "Show button \"View All\"?"
+msgstr ""
+
+#: config-composer/config/map.php:754 config-composer/config/map.php:1133
+msgid "Show button."
+msgstr ""
+
+#: config-composer/config/map.php:764
+msgid "Progress Bar"
+msgstr ""
+
+#: config-composer/config/map.php:768
+msgid "Animated progress bar"
+msgstr ""
+
+#: config-composer/config/map.php:778 config-composer/config/map.php:1928
+msgid "Values"
+msgstr ""
+
+#: config-composer/config/map.php:780
+msgid "Enter values for graph - value, title and color."
+msgstr ""
+
+#: config-composer/config/map.php:783
+msgid "HTML"
+msgstr ""
+
+#: config-composer/config/map.php:787
+msgid "CSS"
+msgstr ""
+
+#: config-composer/config/map.php:791
+msgid "Java Script"
+msgstr ""
+
+#: config-composer/config/map.php:795
+#: config-job-manager/php/wp-job-post-views/settings.php:40
+msgid "PHP"
+msgstr ""
+
+#: config-composer/config/map.php:799
+msgid "Photoshop"
+msgstr ""
+
+#: config-composer/config/map.php:806 config-composer/config/map.php:1956
+msgid "Label"
+msgstr ""
+
+#: config-composer/config/map.php:808
+msgid "Enter text used as title of bar."
+msgstr ""
+
+#: config-composer/config/map.php:815
+msgid "Enter value of bar."
+msgstr ""
+
+#: config-composer/config/map.php:822
+msgid "Units"
+msgstr ""
+
+#: config-composer/config/map.php:824
+msgid ""
+"Enter measurement units (Example: %, px, points, etc. Note: graph value and "
+"units will be appended to graph title)."
+msgstr ""
+
+#: config-composer/config/map.php:835 config-composer/config/map.php:1015
+#: config-composer/config/map.php:1181 config-composer/config/map.php:1292
+#: config-composer/config/map.php:1366 config-composer/config/map.php:1510
+#: config-composer/config/map.php:1663 config-composer/config/map.php:1769
+msgid "Listing Manager"
+msgstr ""
+
+#: config-composer/config/map.php:836
+msgid "Display rating stars about the users score"
+msgstr ""
+
+#: config-composer/config/map.php:879
+msgid "Sort"
+msgstr ""
+
+#: config-composer/config/map.php:881
+msgid "Select sort."
+msgstr ""
+
+#: config-composer/config/map.php:883
+#: includes/widgets/popular-widget/inc/form.php:21
+msgid "Latest"
+msgstr ""
+
+#: config-composer/config/map.php:884
+msgid "Top Score"
+msgstr ""
+
+#: config-composer/config/map.php:889
+msgid "Reviews Count"
+msgstr ""
+
+#: config-composer/config/map.php:893
+msgid "How many items should be displayed?"
+msgstr ""
+
+#: config-composer/config/map.php:897 config-composer/config/map.php:1109
+msgid "Enable carousel"
+msgstr ""
+
+#: config-composer/config/map.php:899 config-composer/config/map.php:1111
+msgid "Enable carousel."
+msgstr ""
+
+#: config-composer/config/map.php:904
+msgid "Type Carousel"
+msgstr ""
+
+#: config-composer/config/map.php:909 config-composer/config/map.php:1909
+msgid "Type 3"
+msgstr ""
+
+#: config-composer/config/map.php:912 config-composer/config/map.php:1095
+msgid "Choose layout style."
+msgstr ""
+
+#: config-composer/config/map.php:916
+msgid "Style navigation"
+msgstr ""
+
+#: config-composer/config/map.php:918
+msgid "Select style dots for carousel."
+msgstr ""
+
+#: config-composer/config/map.php:921
+msgid "Darek"
+msgstr ""
+
+#: config-composer/config/map.php:926
+#: admin/framework/theme-options/settings.php:1443
+msgid "Excerpt Length"
+msgstr ""
+
+#: config-composer/config/map.php:951
+msgid "Descending"
+msgstr ""
+
+#: config-composer/config/map.php:952
+msgid "Ascending"
+msgstr ""
+
+#: config-composer/config/map.php:957
+msgid "Products"
+msgstr ""
+
+#: config-composer/config/map.php:961
+msgid "Show products"
+msgstr ""
+
+#: config-composer/config/map.php:965
+msgid "Per page"
+msgstr ""
+
+#: config-composer/config/map.php:969
+msgid ""
+"The \"per_page\" shortcode determines how many products to show on the page"
+msgstr ""
+
+#: config-composer/config/map.php:980 config-composer/config/map.php:1164
+#: config-composer/config/map.php:1232 config-composer/config/map.php:1342
+#: config-composer/config/map.php:1466
+msgid "Order by"
+msgstr ""
+
+#: config-composer/config/map.php:985
+#, php-format
+msgid "Select how to sort retrieved products. More at %s. Default by Title"
+msgstr ""
+
+#: config-composer/config/map.php:989
+msgid "Sort order"
+msgstr ""
+
+#: config-composer/config/map.php:993
+#, php-format
+msgid ""
+"Designates the ascending or descending order. More at %s. Default by ASC"
+msgstr ""
+
+#: config-composer/config/map.php:998
+msgid "Which categories should be used for the products?"
+msgstr ""
+
+#: config-composer/config/map.php:1000
+msgid "The Page will then show products from only those categories."
+msgstr ""
+
+#: config-composer/config/map.php:1012
+msgid "Listing Cards"
+msgstr ""
+
+#: config-composer/config/map.php:1016
+msgid "Displays a list of your listings based on different criteria."
+msgstr ""
+
+#: config-composer/config/map.php:1041
+msgid "Choose tag for heading"
+msgstr ""
+
+#: config-composer/config/map.php:1078 config-composer/config/map.php:1428
+msgid "5 Columns"
+msgstr ""
+
+#: config-composer/config/map.php:1091
+msgid "Real State"
+msgstr ""
+
+#: config-composer/config/map.php:1092 config-composer/config/map.php:1416
+msgid "Classified"
+msgstr ""
+
+#: config-composer/config/map.php:1105
+msgid "Should the sorting options based on categories be displayed?"
+msgstr ""
+
+#: config-composer/config/map.php:1120
+#: admin/framework/theme-options/settings.php:2211
+msgid "List View"
+msgstr ""
+
+#: config-composer/config/map.php:1122
+msgid "Show list view."
+msgstr ""
+
+#: config-composer/config/map.php:1138 config-composer/config/map.php:1225
+#: config-composer/config/map.php:1259 config-composer/config/map.php:1336
+#: config-composer/config/map.php:1436 config-composer/config/map.php:1494
+#: config-composer/config/map.php:1554
+msgid "Number of items to show"
+msgstr ""
+
+#: config-composer/config/map.php:1145 config-composer/config/map.php:1245
+msgid "Which categories should be used for the job listings?"
+msgstr ""
+
+#: config-composer/config/map.php:1147 config-composer/config/map.php:1247
+msgid "The Page will then show job listings from only those categories."
+msgstr ""
+
+#: config-composer/config/map.php:1155
+msgid "All Listings"
+msgstr ""
+
+#: config-composer/config/map.php:1156
+msgid "Featured Listings"
+msgstr ""
+
+#: config-composer/config/map.php:1178
+msgid "Listing and Resumes"
+msgstr ""
+
+#: config-composer/config/map.php:1182
+msgid "Display a list of listing and resumes."
+msgstr ""
+
+#: config-composer/config/map.php:1227 config-composer/config/map.php:1238
+#: config-composer/config/map.php:1248
+msgid "Listing Data Settings"
+msgstr ""
+
+#: config-composer/config/map.php:1252
+msgid "Show resumes"
+msgstr ""
+
+#: config-composer/config/map.php:1254
+msgid "If checked, will be show resumes."
+msgstr ""
+
+#: config-composer/config/map.php:1261 config-composer/config/map.php:1276
+msgid "Resumes Data Settings"
+msgstr ""
+
+#: config-composer/config/map.php:1289
+msgid "Featured Listing"
+msgstr ""
+
+#: config-composer/config/map.php:1293
+msgid "Display a list of listing featured."
+msgstr ""
+
+#: config-composer/config/map.php:1354
+msgid "Items IDs(optional)"
+msgstr ""
+
+#: config-composer/config/map.php:1363
+msgid "Listing Categories"
+msgstr ""
+
+#: config-composer/config/map.php:1367
+msgid "Display a list of listing categories based on different criteria."
+msgstr ""
+
+#: config-composer/config/map.php:1417
+msgid "With Image"
+msgstr ""
+
+#: config-composer/config/map.php:1419
+msgid "Type?"
+msgstr ""
+
+#: config-composer/config/map.php:1440 config-composer/config/map.php:1452
+#: config-composer/config/map.php:1473 config-composer/config/map.php:1483
+msgid "Category Data Settings"
+msgstr ""
+
+#: config-composer/config/map.php:1444
+msgid "Childs Number of items"
+msgstr ""
+
+#: config-composer/config/map.php:1456
+msgid "Columns per page"
+msgstr ""
+
+#: config-composer/config/map.php:1470
+msgid "Number of Listings"
+msgstr ""
+
+#: config-composer/config/map.php:1480
+msgid "Which categories should be used?"
+msgstr ""
+
+#: config-composer/config/map.php:1482
+msgid "The Page will then show categories from only those categories."
+msgstr ""
+
+#: config-composer/config/map.php:1487
+msgid "Show Region Location"
+msgstr ""
+
+#: config-composer/config/map.php:1489
+msgid "If checked, will be show region location tab."
+msgstr ""
+
+#: config-composer/config/map.php:1496
+msgid "Region Data Settings"
+msgstr ""
+
+#: config-composer/config/map.php:1507
+msgid "Listing Map"
+msgstr ""
+
+#: config-composer/config/map.php:1511
+msgid "Display a map of listing based on different criteria."
+msgstr ""
+
+#: config-composer/config/map.php:1568
+msgid "Testimonials"
+msgstr ""
+
+#: config-composer/config/map.php:1571
+msgid "Testimonials post type"
+msgstr ""
+
+#: config-composer/config/map.php:1614 config-composer/config/map.php:1706
+#: config-composer/config/map.php:1812
+msgid "Count Items"
+msgstr ""
+
+#: config-composer/config/map.php:1623
+msgid "Which categories should be used for the testimonials?"
+msgstr ""
+
+#: config-composer/config/map.php:1626
+msgid "The Page will then show testimonials from only those categories."
+msgstr ""
+
+#: config-composer/config/map.php:1634 config-composer/config/map.php:1726
+#: config-composer/config/map.php:1832
+msgid "Sort retrieved items by parameter"
+msgstr ""
+
+#: config-composer/config/map.php:1646 config-composer/config/map.php:1738
+#: config-composer/config/map.php:1844
+msgid "Direction Order"
+msgstr ""
+
+#: config-composer/config/map.php:1662
+msgid "Agency post type"
+msgstr ""
+
+#: config-composer/config/map.php:1765
+#: admin/framework/theme-options/settings.php:2380
+msgid "Agents"
+msgstr ""
+
+#: config-composer/config/map.php:1768
+msgid "Agents post type"
+msgstr ""
+
+#: config-composer/config/map.php:1821
+msgid "Which categories should be used for the agents?"
+msgstr ""
+
+#: config-composer/config/map.php:1824
+msgid "The Page will then show agents from only those categories."
+msgstr ""
+
+#: config-composer/config/map.php:1857 config-composer/config/map.php:1861
+msgid "Counter"
+msgstr ""
+
+#: config-composer/config/map.php:1912
+msgid "Choose layout type."
+msgstr ""
+
+#: config-composer/config/map.php:1924
+msgid "Choose count columns."
+msgstr ""
+
+#: config-composer/config/map.php:1930
+msgid "Enter values - value and title."
+msgstr ""
+
+#: config-composer/config/map.php:1933
+msgid "Satisfied Clients"
+msgstr ""
+
+#: config-composer/config/map.php:1938
+msgid "Customer Reviews"
+msgstr ""
+
+#: config-composer/config/map.php:1943
+msgid "Added Listings"
+msgstr ""
+
+#: config-composer/config/map.php:1948
+msgid "Successful Reservations"
+msgstr ""
+
+#: config-composer/config/map.php:1958
+msgid "Enter text used as title."
+msgstr ""
+
+#: config-composer/config/map.php:1965
+msgid "Enter value."
+msgstr ""
+
+#: config-composer/config/map.php:1983 config-composer/config/map.php:1987
+msgid "Dropcap"
+msgstr ""
+
+#: config-composer/config/map.php:1991
+msgid "Letter"
+msgstr ""
+
+#: config-composer/config/map.php:1998
+msgid "Color for dropcap"
+msgstr ""
+
+#: config-composer/config/map.php:2000
+msgid "Select custom color for dropcap."
+msgstr ""
+
+#: config-composer/config/map.php:2288
+msgid "Blue"
+msgstr ""
+
+#: config-composer/config/map.php:2289
+msgid "Turquoise"
+msgstr ""
+
+#: config-composer/config/map.php:2290
+msgid "Pink"
+msgstr ""
+
+#: config-composer/config/map.php:2291
+msgid "Violet"
+msgstr ""
+
+#: config-composer/config/map.php:2292
+msgid "Peacoc"
+msgstr ""
+
+#: config-composer/config/map.php:2293
+msgid "Chino"
+msgstr ""
+
+#: config-composer/config/map.php:2294
+msgid "Mulled Wine"
+msgstr ""
+
+#: config-composer/config/map.php:2295
+msgid "Vista Blue"
+msgstr ""
+
+#: config-composer/config/map.php:2296
+msgid "Black"
+msgstr ""
+
+#: config-composer/config/map.php:2297
+msgid "Grey"
+msgstr ""
+
+#: config-composer/config/map.php:2298
+msgid "Orange"
+msgstr ""
+
+#: config-composer/config/map.php:2299
+msgid "Sky"
+msgstr ""
+
+#: config-composer/config/map.php:2300
+msgid "Green"
+msgstr ""
+
+#: config-composer/config/map.php:2301
+msgid "Juicy pink"
+msgstr ""
+
+#: config-composer/config/map.php:2302
+msgid "Sandy brown"
+msgstr ""
+
+#: config-composer/config/map.php:2303
+msgid "Purple"
+msgstr ""
+
+#: config-composer/config/map.php:2304
+msgid "White"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_listing_and_resumes.php:147
+#: config-composer/shortcodes/vc_mad_listing_cards.php:126
+msgid "All"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_listing_and_resumes.php:212
+msgid "Recent Jobs"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_listing_and_resumes.php:217
+msgid "Recent Resumes"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_reviewer.php:115
+msgid "Unable to display scores"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_listing_categories.php:190
+msgid "By Category"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_listing_categories.php:191
+msgid "By Location"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_listing_categories.php:364
+#, php-format
+msgid "%s listing"
+msgid_plural "%s listings"
+msgstr[0] "%s idée d'activité"
+msgstr[1] "%s idées d'activités"
+
+#: config-composer/shortcodes/vc_mad_blog_posts.php:120
+#: config-composer/shortcodes/vc_mad_listing_cards.php:144
+#: config-composer/shortcodes/vc_mad_listing_cards.php:250
+#: config-composer/shortcodes/vc_mad_listing_cards.php:644
+msgid "View All"
+msgstr "Voir toutes les activités"
+
+#: config-composer/modules/vc_mad_advanced_tabs.php:30
+msgid "Advanced Tabs"
+msgstr ""
+
+#: config-composer/modules/vc_mad_advanced_tabs.php:33
+msgid "Create nice looking tabs."
+msgstr ""
+
+#: config-composer/modules/vc_mad_advanced_tabs.php:54
+msgid "Tab 1"
+msgstr ""
+
+#: config-composer/modules/vc_mad_advanced_tabs.php:55
+msgid "Tab 2"
+msgstr ""
+
+#: config-composer/modules/vc_mad_advanced_tabs.php:59
+msgid "SubTab"
+msgstr ""
+
+#: config-composer/modules/vc_mad_advanced_tabs.php:75
+msgid "Tab ID"
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:16
+#: config-composer/modules/vc_mad_info_block.php:108
+msgid "Infoblock"
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:21
+msgid "Styled info blocks"
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:67
+msgid "Select type"
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:74
+msgid "Choose type for this info block."
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:78
+msgid "Layout"
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:85
+msgid "Choose type layout grid or list for this info block."
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:89
+msgid "Box Alignment"
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:91
+msgid "Select box alignment."
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:104
+msgid "Info Block Item"
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:139
+msgid "<p>Click edit button to change this text.</p>"
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:145
+msgid "Add link to info block."
+msgstr ""
+
+#: config-composer/modules/vc_mad_accordion.php:27
+msgid "Accordion"
+msgstr ""
+
+#: config-composer/modules/vc_mad_accordion.php:34
+msgid "Collapsible content panels"
+msgstr ""
+
+#: config-composer/modules/vc_mad_accordion.php:46
+msgid "Use toggle element?"
+msgstr ""
+
+#: config-composer/modules/vc_mad_accordion.php:48
+msgid "If checked, will be used toggle element."
+msgstr ""
+
+#: config-composer/modules/vc_mad_accordion.php:61
+msgid "Add Section"
+msgstr ""
+
+#: config-composer/modules/vc_mad_accordion.php:70
+#: config-composer/modules/vc_mad_accordion.php:74
+#: config-composer/modules/vc_mad_advanced_tour.php:48
+#: config-composer/modules/vc_mad_advanced_tour.php:48
+#: config-composer/modules/vc_mad_advanced_tour.php:55
+msgid "Section"
+msgstr ""
+
+#: config-composer/modules/vc_mad_accordion.php:88
+#: config-composer/modules/vc_mad_advanced_tour.php:71
+msgid "Enter section title (Note: you can leave it empty)."
+msgstr ""
+
+#: config-composer/modules/vc_mad_accordion.php:96
+#: config-composer/modules/vc_mad_advanced_tour.php:79
+msgid "Section ID"
+msgstr ""
+
+#: config-composer/modules/vc_mad_accordion.php:97
+#: config-composer/modules/vc_mad_advanced_tour.php:80
+#, php-format
+msgid ""
+"Enter section ID (Note: make sure it is unique and valid according to <a "
+"href=\"%s\" target=\"_blank\">w3c specification</a>)."
+msgstr ""
+
+#: config-composer/modules/vc_mad_advanced_tour.php:15
+msgid "Advanced Tour"
+msgstr ""
+
+#: config-composer/modules/vc_mad_advanced_tour.php:18
+msgid "Create nice looking tour."
+msgstr ""
+
+#: config-composer/modules/vc_mad_advanced_tour.php:65
+msgid "Section for Tour."
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:16
+#: config-composer/modules/vc_mad_pricing_box.php:96
+msgid "Pricing Box"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:21
+msgid "Styled pricing tables"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:67
+msgid "Spacing between items"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:70
+msgid "With Spacing"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:71
+msgid "Without Spacing"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:73
+msgid "Select spacing mode"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:92
+msgid "Pricing Box Item"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:103
+msgid "Package Name / Title"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:106
+msgid "Enter the package name or table heading."
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:111
+msgid "Package Price"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:114
+msgid "Enter the price for this package"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:119
+msgid "Price Unit"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:122
+msgid "Enter the price unit for this package. e.g. per month"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:123
+#: config-composer/modules/vc_mad_pricing_box.php:217
+msgid "per month"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:130
+msgid ""
+"Create the features list using un-ordered list elements. Divide values with "
+"linebreaks (Enter). Example: Up to 50 users|Limited team members"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:131
+msgid "1 user | No VPN access | 2 Gb allowed"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:135
+msgid "Add URL to the whole box (optional)"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:142
+msgid "Adds a nice label to your pricing box."
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:215
+msgid "Free"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:20
+msgid "Google Map"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:26
+msgid "Display Google Maps to indicate your location."
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:32
+msgid "Width (in %)"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:36
+#: config-composer/modules/vc_mad_google_maps.php:45
+#: config-composer/modules/vc_mad_google_maps.php:58
+#: config-composer/modules/vc_mad_google_maps.php:68
+#: config-composer/modules/vc_mad_google_maps.php:78
+#: config-composer/modules/vc_mad_google_maps.php:87
+#: config-composer/modules/vc_mad_google_maps.php:96
+#: config-composer/modules/vc_mad_google_maps.php:200
+#: config-composer/modules/vc_mad_google_maps.php:222
+#: config-composer/modules/vc_mad_google_maps.php:238
+msgid "General Settings"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:41
+msgid "Height (in px)"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:50
+msgid "Map type"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:54
+msgid "Roadmap"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:55
+msgid "Satellite"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:56
+msgid "Hybrid"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:57
+msgid "Terrain"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:63
+msgid "Latitude"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:67
+#: config-composer/modules/vc_mad_google_maps.php:77
+msgid "Here is a tool"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:67
+#: config-composer/modules/vc_mad_google_maps.php:77
+msgid "where you can find Latitude & Longitude of your location"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:73
+msgid "Longitude"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:82
+msgid "Map Zoom"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:85
+msgid "15 - Default"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:94
+msgid "Disable map zoom on mouse wheel scroll"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:101
+msgid "Info Window Text"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:104
+msgid "Info Window"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:109
+msgid "Marker/Point icon"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:112
+msgid "Use Google Default"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:113
+msgid "Use Theme Default"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:114
+msgid "Upload Custom"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:116
+#: config-composer/modules/vc_mad_google_maps.php:130
+msgid "Marker"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:121
+msgid "Upload Image Icon:"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:125
+msgid "Upload the custom image icon."
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:135
+msgid "Street view control"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:138
+#: config-composer/modules/vc_mad_google_maps.php:149
+#: config-composer/modules/vc_mad_google_maps.php:160
+#: config-composer/modules/vc_mad_google_maps.php:170
+#: config-composer/modules/vc_mad_google_maps.php:187
+msgid "Disable"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:139
+#: config-composer/modules/vc_mad_google_maps.php:150
+#: config-composer/modules/vc_mad_google_maps.php:161
+#: config-composer/modules/vc_mad_google_maps.php:170
+#: config-composer/modules/vc_mad_google_maps.php:187
+msgid "Enable"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:141
+#: config-composer/modules/vc_mad_google_maps.php:152
+#: config-composer/modules/vc_mad_google_maps.php:171
+#: config-composer/modules/vc_mad_google_maps.php:180
+#: config-composer/modules/vc_mad_google_maps.php:188
+msgid "Advanced"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:146
+msgid "Map type control"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:157
+msgid "Map pan control"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:168
+msgid "Zoom control"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:176
+msgid "Zoom control size"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:178
+msgid "Large"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:185
+msgid "Disable dragging on Mobile"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:193
+msgid "Top margin"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:196
+msgid "Page (small)"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:197
+msgid "Section (large)"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:205
+msgid "Map Width Override"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:208
+msgid "Default Width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:209
+msgid "Apply 1st parent element's width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:210
+msgid "Apply 2nd parent element's width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:211
+msgid "Apply 3rd parent element's width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:212
+msgid "Apply 4th parent element's width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:213
+msgid "Apply 5th parent element's width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:214
+msgid "Apply 6th parent element's width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:215
+msgid "Apply 7th parent element's width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:216
+msgid "Apply 8th parent element's width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:217
+msgid "Apply 9th parent element's width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:218
+msgid "Full Width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:219
+msgid "Maximum Full Width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:221
+msgid ""
+"By default, the map will be given to the Visual Composer row. However, in "
+"some cases depending on your theme's CSS - it may not fit well to the "
+"container you are wishing it would. In that case you will have to select the "
+"appropriate value here that gets you desired output.."
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:227
+msgid "Google Styled Map JSON"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:230
+msgid "Click here"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:230
+msgid "to get the style JSON code for styling your map."
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:237
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:243
+msgid "MapBorder Style"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:247
+msgid "Solid"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:248
+msgid "Dashed"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:249
+msgid "Dotted"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:250
+msgid "Double"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:251
+msgid "Inset"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:252
+msgid "Outset"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:255
+#: config-composer/modules/vc_mad_google_maps.php:268
+#: config-composer/modules/vc_mad_google_maps.php:284
+#: config-composer/modules/vc_mad_google_maps.php:300
+msgid "Border"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:260
+msgid "Border Color"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:273
+msgid "Border Width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:289
+msgid "Border Radius"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:432
+msgid "Styled Map"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:41
+msgid "JavaScript"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:45
+msgid "REST API"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:49
+msgid "minutes"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:50
+msgid "hours"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:51
+msgid "days"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:52
+msgid "weeks"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:53
+msgid "months"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:54
+msgid "years"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:58
+msgid "robots"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:59
+msgid "logged in users"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:60
+msgid "guests"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:61
+msgid "selected user roles"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:65
+msgid "before the content"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:66
+msgid "after the content"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:67
+msgid "manual"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:71
+msgid "icon"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:72
+msgid "label"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:77
+#: admin/framework/theme-options/settings.php:58
+msgid "General"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:94
+msgid "Archives"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:95
+msgid "Single pages"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:96
+msgid "Search results"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:124
+#: config-job-manager/php/wp-job-post-views/settings.php:137
+msgid "Listing Views Counter"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:167
+msgid "General settings"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:170
+msgid "Deactivation"
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:189
+msgid "Enter the time between single user visit count."
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:209
+msgid ""
+"Delete single day post views data older than specified above. Enter 0 "
+"(number zero) if you want to preserve your data regardless of its age."
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:220
+msgid "Enable to delete all plugin data on deactivation."
+msgstr ""
+
+#: config-job-manager/php/wp-job-post-views/settings.php:315
+msgid "General settings restored to defaults."
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:63
+#: admin/framework/theme-options/settings.php:1458
+#: admin/framework/theme-options/settings.php:1473
+#: admin/framework/theme-options/settings.php:2022
+#: admin/framework/theme-options/settings.php:2077
+#: admin/framework/theme-options/settings.php:2290
+#: admin/framework/theme-options/settings.php:2385
+#: admin/framework/theme-options/settings.php:2421
+#: admin/framework/theme-options/settings.php:2735
+#: includes/plugins/category-icon/init.php:150
+#: includes/plugins/category-icon/init.php:265
+#: includes/plugins/category-icon/init.php:267
+msgid "Page Layout"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:70
+#: admin/framework/theme-options/settings.php:2029
+#: admin/framework/theme-options/settings.php:2084
+#: admin/framework/theme-options/settings.php:2297
+#: admin/framework/theme-options/settings.php:2392
+#: admin/framework/theme-options/settings.php:2428
+#: admin/framework/theme-options/settings.php:2742
+#: admin/framework/theme-options/settings.php:2786
+msgid "Select Sidebar"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:82
+#: admin/framework/theme-options/settings.php:95
+#: admin/framework/theme-options/settings.php:111
+#: admin/framework/theme-options/settings.php:127
+msgid "Logo"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:87
+msgid "If header type is like 1, 2, 6"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:103
+msgid "If header type is like 3, 5"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:119
+#: admin/framework/theme-options/settings.php:1183
+msgid "If header type is like 4"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:135
+#: admin/framework/theme-options/settings.php:143
+msgid "Favicon"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:155
+msgid "Front Pages"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:160
+msgid "If listing front page"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:166
+msgid "Select Page for \"How it works\" page in front page"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:173
+msgid "If job front page"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:179
+#: admin/framework/theme-options/settings.php:180
+msgid "Title for carousel on job front page template"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:181
+msgid "Explore Our Top Employers"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:186
+msgid "Count company"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:187
+msgid "Number of company to get for carousel"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:193
+#: admin/framework/theme-options/settings.php:1779
+#: admin/framework/theme-options/settings.php:2037
+#: includes/plugins/category-icon/init.php:194
+#: includes/plugins/category-icon/init.php:334
+#: includes/plugins/category-icon/init.php:336
+msgid "Count Columns"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:200
+msgid "The number of columns for carousel"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:205
+msgid "If property front page"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:211
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:212
+msgid ""
+"Create a new Gallery by selecting existing or uploading new images using the "
+"WordPress native uploader"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:213
+msgid "Select images for gallery on front page."
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:222
+msgid "Skin"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:227
+msgid "Primary Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:228
+msgid "Color for link and other"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:235
+msgid "Primary Inverse Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:236
+msgid "Color for link hover and other"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:243
+msgid "Secondary Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:244
+msgid "This is theme Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:251
+msgid "Secondary inverse color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:258
+msgid "Page Header Background color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:265
+msgid "Page Header Overlay Background color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:272
+msgid ""
+"The ::selection selector matches the portion of an element that is selected "
+"by a user."
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:273
+msgid "Selection background color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:279
+msgid "Other Text Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:280
+msgid "Text color for other elements"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:287
+msgid "Other Background Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:288
+msgid "Background color for other elements"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:295
+msgid "Translucent Background Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:296
+msgid "Background color for front page 2 template"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:303
+#: admin/framework/theme-options/settings.php:1703
+msgid "Job Manager"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:309
+msgid "Featured Label Text Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:317
+msgid "Featured Label Background Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:325
+msgid "Job Filter Submit Button Text Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:333
+msgid "Job Filter Submit Button Background Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:341
+msgid "Job Filter Submit Hover Button Background Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:349
+msgid "Listing Item Price Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:363
+msgid "Button Text Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:364
+msgid "Color for buttons"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:371
+msgid "Button Background Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:372
+msgid "Background color for buttons"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:379
+msgid "New Label Text Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:386
+msgid "New Label Background Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:393
+msgid "Sale Label Text Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:400
+msgid "Sale Label Background Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:410
+msgid "Typography"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:415
+msgid "Select Google Font Character Sets"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:423
+msgid "Google Font Character Sets"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:441
+msgid "Body Font"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:458
+msgid "H1 Font"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:475
+msgid "H2 Font"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:492
+msgid "H3 Font"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:509
+msgid "H4 Font"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:526
+msgid "H5 Font"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:543
+msgid "H6 Font"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:563
+msgid "Backgrounds"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:568
+msgid "Body Background"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:574
+#: admin/framework/theme-options/settings.php:817
+#: admin/framework/theme-options/settings.php:1095
+msgid "Background"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:582
+msgid "Main Menu"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:587
+msgid "Header Light Background Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:593
+#: admin/framework/theme-options/settings.php:865
+#: admin/framework/theme-options/settings.php:1329
+msgid "Background Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:600
+#: admin/framework/theme-options/settings.php:728
+msgid "Top Level Menu Item"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:606
+#: admin/framework/theme-options/settings.php:671
+#: admin/framework/theme-options/settings.php:734
+msgid "Menu Font"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:623
+#: admin/framework/theme-options/settings.php:751
+msgid "Text Transform"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:626
+#: admin/framework/theme-options/settings.php:754
+msgid "Capitalize"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:627
+#: admin/framework/theme-options/settings.php:755
+msgid "Uppercase"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:628
+#: admin/framework/theme-options/settings.php:756
+msgid "Lowercase"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:629
+#: admin/framework/theme-options/settings.php:757
+msgid "Initial"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:638
+#: admin/framework/theme-options/settings.php:655
+#: admin/framework/theme-options/settings.php:711
+#: admin/framework/theme-options/settings.php:766
+#: admin/framework/theme-options/settings.php:799
+#: admin/framework/theme-options/settings.php:850
+#: admin/framework/theme-options/settings.php:887
+msgid "Link Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:647
+msgid "Top Level Menu Item If header type is like 4"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:665
+msgid "Top Level Menu Item If header type is like 5"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:688
+#: admin/framework/theme-options/settings.php:776
+msgid "Sub Menu"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:694
+#: admin/framework/theme-options/settings.php:782
+msgid "Sub Menu Font"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:721
+msgid "Vertical Menu"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:812
+#: admin/framework/theme-options/settings.php:2467
+msgid "Footer"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:829
+msgid "Footer Row Top"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:835
+#: admin/framework/theme-options/settings.php:872
+msgid "Heading Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:859
+msgid "Footer Middle Top"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:896
+#: admin/framework/theme-options/settings.php:2556
+msgid "Copyright"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:902
+msgid "Copyright Background Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:909
+msgid "Social Link Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:916
+msgid "Other"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:922
+msgid "Footer Submit Button Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:933
+msgid "Header"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:938
+msgid "Sticky Navigation"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:940
+msgid ""
+"The sticky navigation menu is a vital part of a website, helping users move "
+"between pages and find desired information."
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:947
+#: admin/framework/theme-options/settings.php:1543
+#: admin/framework/theme-options/settings.php:2220
+#: admin/framework/theme-options/settings.php:2472
+#: admin/framework/theme-options/settings.php:2862
+msgid "Social Links"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:953
+#: admin/framework/theme-options/settings.php:1549
+#: admin/framework/theme-options/settings.php:2226
+#: admin/framework/theme-options/settings.php:2337
+#: admin/framework/theme-options/settings.php:2478
+#: admin/framework/theme-options/settings.php:2868
+msgid "Show Social Links"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1017
+msgid "If header type is like 1"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1023
+msgid "Show Topbar"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1031
+msgid "Button Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1038
+msgid "Show Location in topbar"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1046
+msgid "Show Login in topbar"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1054
+#: admin/framework/theme-options/settings.php:1231
+msgid "Show Language in topbar"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1062
+#: admin/framework/theme-options/settings.php:1159
+#: admin/framework/theme-options/settings.php:1279
+msgid "Show Link to Cart"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1071
+msgid "Show Search, Login"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1081
+#: admin/framework/theme-options/settings.php:1115
+#: admin/framework/theme-options/settings.php:1175
+#: admin/framework/theme-options/settings.php:1217
+#: admin/framework/theme-options/settings.php:1239
+#: admin/framework/theme-options/settings.php:1287
+msgid "Show button \"Add Listing\""
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1089
+msgid "If header type is like 2"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1107
+#: admin/framework/theme-options/settings.php:1151
+#: admin/framework/theme-options/settings.php:1189
+#: admin/framework/theme-options/settings.php:1271
+msgid "Show Login"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1123
+msgid "If header type is like 3"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1129
+msgid "Show Top Bar"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1167
+msgid "Show Search"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1209
+msgid "Show Language"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1225
+msgid "If header type is like 5"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1247
+msgid "Search Form Background Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1265
+msgid "If header type is like 6"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1297
+msgid "Header Background Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1306
+msgid "Logo Background Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1316
+msgid "Page Header Type"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1322
+#: includes/plugins/category-icon/init.php:141
+#: includes/plugins/category-icon/init.php:250
+#: includes/plugins/category-icon/init.php:252
+msgid "Header Type"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1330
+msgid "Background color for header type 4"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1341
+#: admin/framework/theme-options/settings.php:1347
+msgid "Listing Header Type"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1357
+#: admin/framework/theme-options/settings.php:1363
+msgid "Product Header Type"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1373
+msgid "Pages & Posts"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1378
+msgid "Show Page Title"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1386
+#: admin/framework/theme-options/settings.php:1495
+msgid "Show Breadcrumbs"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1394
+msgid "Align Title and Breadcrumbs"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1406
+msgid "Page Header Background Image"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1416
+msgid "Blog"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1425
+msgid "Blog Post"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1430
+#: admin/framework/theme-options/settings.php:1480
+msgid "Post Meta"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1444
+msgid "The number of words for blog "
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1453
+msgid "Post Archive"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1468
+msgid "Single Post"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1489
+msgid "Located at the top of the post"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1503
+msgid "Show Tags"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1511
+msgid "Prev/Next Navigation"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1519
+msgid "Show Author Info Box"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1527
+msgid "Show Related Posts"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1535
+msgid "Show Comments"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1557
+#: admin/framework/theme-options/settings.php:2234
+#: admin/framework/theme-options/settings.php:2876
+msgid "Enable Facebook Share"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1566
+#: admin/framework/theme-options/settings.php:2243
+#: admin/framework/theme-options/settings.php:2885
+msgid "Enable Twitter Share"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1575
+#: admin/framework/theme-options/settings.php:2252
+#: admin/framework/theme-options/settings.php:2894
+msgid "Enable Google Plus Share"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1584
+#: admin/framework/theme-options/settings.php:2261
+#: admin/framework/theme-options/settings.php:2903
+msgid "Enable Pinterest Share"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1593
+#: admin/framework/theme-options/settings.php:2270
+#: admin/framework/theme-options/settings.php:2912
+msgid "Enable Email Share"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1603
+msgid "Price & Currency"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1611
+msgid "Currency Symbol"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1614
+msgid "Provide currency sign. For Example: $."
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1619
+msgid "Number of decimal points?"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1640
+msgid "This controls the position of the currency symbol."
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1650
+msgid "Decimal Point Separator"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1653
+msgid "Provide the decimal point separator. For Example: ."
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1658
+msgid "Thousands Separator"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1661
+msgid "Provide the thousands separator. For Example: ,"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1668
+msgid "Search Price Range for price slider"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1674
+msgid "Show Price Slider"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1675
+msgid " "
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1683
+msgid "Minimum Price"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1691
+msgid "Maximum Price"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1708
+msgid "Select type fields"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1712
+msgid "Property"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1719
+msgid "Singular name of listing"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1725
+msgid "Plural name of listing"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1731
+msgid "Text before \"Listing\" on the button in the header"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1732
+msgid "e.g.: type \"Post a\" for the \"Post a Listing\" button"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1733
+msgid "Add"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1738
+msgid "Filter Style Position"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1744
+msgid "Select filter style position for listings"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1749
+msgid "Extend to Classified"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1762
+msgid "Default Content for explore"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1774
+msgid "Select default content for explore"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1787
+msgid "The number of columns for listings"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1792
+msgid "Content Length"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1793
+msgid "The number of words for content "
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1799
+msgid "Show phone in popup"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1815
+#: admin/framework/theme-options/settings.php:2201
+#: includes/plugins/category-icon/init.php:178
+#: includes/plugins/category-icon/init.php:311
+msgid "Style 1"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1816
+#: includes/plugins/category-icon/init.php:179
+#: includes/plugins/category-icon/init.php:312
+msgid "Style 2"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1817
+#: includes/plugins/category-icon/init.php:180
+#: includes/plugins/category-icon/init.php:313
+msgid "Style 3 ( property )"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1818
+#: includes/plugins/category-icon/init.php:181
+#: includes/plugins/category-icon/init.php:314
+msgid "Style 4 ( job )"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1819
+#: admin/framework/theme-options/settings.php:2202
+#: includes/plugins/category-icon/init.php:182
+#: includes/plugins/category-icon/init.php:315
+msgid "Style 5 ( classified )"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1822
+#: admin/framework/theme-options/settings.php:2206
+msgid "Select style for listings"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1827
+msgid "Select view"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1838
+msgid "Pintpoint Event"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1840
+msgid "Click"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1841
+msgid "Hover"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1848
+msgid "Show Label Open Hours"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1856
+msgid "Show Label Featured"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1864
+msgid "Featured Label Text"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1871
+#: admin/framework/theme-options/settings.php:2399
+#: admin/framework/theme-options/settings.php:2712
+msgid "Footer Settings"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1877
+#: admin/framework/theme-options/settings.php:2405
+#: admin/framework/theme-options/settings.php:2435
+#: admin/framework/theme-options/settings.php:2718
+msgid "Get widgets for footer from page"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1878
+msgid ""
+"Get widgets for footer from page on listing pages. You can model the footer "
+"of any page and then use it to the listing pages"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1888
+msgid "Property Settings"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1893
+msgid "Default area prefix"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1894
+msgid "Default option for area prefix."
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1904
+msgid "Square Feet Text"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1905
+msgid "Enter text for square feet"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1911
+msgid "Square Meters Text"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1912
+msgid "Enter text for square meters"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1918
+msgid "Bedrooms, Bathrooms"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1919
+msgid "Search criteria for bedrooms and bathrooms"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1922
+msgid "Equal"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1923
+msgid "Greater"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1938
+msgid "Min Radius"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1939
+msgid "Choose min radius"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1950
+msgid "Default Radius"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1951
+msgid "Choose default radius"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1962
+msgid "Max Radius"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1963
+msgid "Choose max radius"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1974
+msgid "Radius Unit"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1990
+msgid "Job Archive"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1995
+msgid "Select header type"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2006
+msgid "Dark Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2014
+msgid "Light Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2043
+msgid "The number of columns for categories, tags, regions"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2048
+#: includes/plugins/category-icon/init.php:159
+#: includes/plugins/category-icon/init.php:279
+#: includes/plugins/category-icon/init.php:281
+msgid "Show Map"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2072
+msgid "Single Job"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2092
+msgid "Select Template for review"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2105
+msgid "Select style for single job page"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2112
+msgid "Show Review"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2120
+msgid "Show Bookmarks"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2128
+msgid "Show Views"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2136
+msgid "Show Address"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2144
+msgid "Show Phone"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2152
+msgid "Show Website"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2166
+msgid "Show Related Listings"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2174
+msgid "Related Title"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2182
+#: admin/framework/theme-options/settings.php:2825
+msgid "Related Count items"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2188
+msgid "Select count columns"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2305
+msgid "Show Candidate Title"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2313
+msgid "Show Candidate Location"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2321
+msgid "Show Category"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2329
+msgid "Show Date"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2345
+msgid "Header Admin Panel"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2351
+msgid "Show Candidate Dashboard URL"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2359
+msgid "Show Resumes URL"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2367
+msgid "Show Post a Resume URL"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2406
+msgid ""
+"Get widgets for footer from page on agent pages. You can model the footer of "
+"any page and then use it to the agent pages"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2436
+msgid ""
+"Get widgets for footer from page on agency pages. You can model the footer "
+"of any page and then use it to the agency pages"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2446
+msgid "Javascript Code"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2451
+msgid "Javascript Code Before &lt;/head&gt;"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2452
+msgid "Paste your JS code here."
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2557
+#, php-format
+msgid "Copyright <a href=\"%s\">%s</a> &copy; %s. All Rights Reserved"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2579
+msgid "Newsletter"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2584
+msgid "Show Newsletter"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2594
+msgid "Sign Up to Newsletter"
+msgstr "S'abonner à la newsletter"
+
+#: admin/framework/theme-options/settings.php:2618
+msgid "Select Form"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2630
+msgid "404 Page"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2635
+msgid "Error text"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2660
+msgid "Shop"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2665
+msgid "Label Status"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2671
+msgid "Show \"Out of stock\" Status"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2679
+msgid "Show \"Featured\" Status"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2687
+msgid "Show \"Sale\" Status"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2695
+msgid "Show saved sale price percentage"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2704
+msgid "Show \"New\" Status"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2719
+msgid ""
+"Get widgets for footer from page on shop pages. You can model the footer of "
+"any page and then use it to the product pages"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2730
+msgid "Product Archives"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2750
+msgid "Products per Page"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2751
+msgid "Product counts."
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2757
+msgid "Shop Page Product Columns"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2764
+msgid "Category Product Columns"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2774
+msgid "Single Product"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2779
+msgid "Single Layout"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2794
+msgid "Show Short Description"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2802
+msgid "Product Meta"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2807
+msgid "Breadcrumbs"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2816
+msgid "Show Related Products"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2832
+msgid "Related Product Columns"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2839
+msgid "Show Up-Sells"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2848
+msgid "Up-Sells Count items"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2855
+msgid "Up-Sells Product Columns"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2924
+msgid "Cart"
+msgstr "Vos achats"
+
+#: admin/framework/theme-options/settings.php:2929
+msgid "Show Cross-Sells"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2938
+msgid "Cross Sells Count"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2945
+msgid "Cross Sells Product Columns"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2961
+msgid "Google"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2967
+msgid ""
+"Google recently changed the way their map service works. New pages which "
+"want to use Google Maps need to register an API key for their website. Older "
+"pages should  work fine without this API key. If the google map elements of "
+"this theme do not work properly you need to register a new API key."
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2973
+msgid "Google Maps API Key"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2974
+msgid ""
+"Enter a valid Google Maps API Key to use all map related theme functions."
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2988
+#: admin/framework/theme-options/settings.php:2992
+#: admin/framework/theme-options/settings.php:2993
+#: admin/framework/theme-options/settings.php:2994
+msgid "Theme Options"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:2989
+msgid "Theme Version: "
+msgstr ""
+
+#: plugins/login-with-ajax/modal/widget_out.php:15
+#: plugins/login-with-ajax/modal/widget_out.php:63
+msgid "Log In"
+msgstr "Se connecter"
+
+#: plugins/login-with-ajax/modal/widget_out.php:40
+msgid "Remember Me"
+msgstr "S'en souvenir"
+
+#: plugins/login-with-ajax/modal/widget_out.php:52
+msgid "Password Lost and Found"
+msgstr ""
+
+#: plugins/login-with-ajax/modal/widget_out.php:74
+msgid "Don't have an account?"
+msgstr "Avez vous un compte ?"
+
+#: plugins/login-with-ajax/modal/widget_out.php:90
+msgid "Forgotten Password"
+msgstr ""
+
+#: plugins/login-with-ajax/modal/widget_out.php:91
+msgid "Enter username or email"
+msgstr ""
+
+#: plugins/login-with-ajax/modal/widget_out.php:97
+msgid "Get New Password"
+msgstr ""
+
+#: plugins/login-with-ajax/modal/widget_out.php:112
+msgid "Sign Up"
+msgstr "S'abonner"
+
+#: plugins/login-with-ajax/modal/widget_out.php:134
+msgid "A password will be e-mailed to you."
+msgstr ""
+
+#: plugins/login-with-ajax/modal/widget_out.php:143
+msgid "Already have an account?"
+msgstr "Avez vous déjà un compte ?"
+
+#: plugins/login-with-ajax/modal/widget_out.php:143
+msgid "Log in!"
+msgstr "Se connecter !"
+
+#: includes/page-title/views/form-meta-box.php:5
+msgid "Custom"
+msgstr ""
+
+#: includes/plugins/featured-galleries/init.php:58
+msgid "Select Images"
+msgstr ""
+
+#: includes/plugins/featured-galleries/init.php:66
+msgid "Edit Selection"
+msgstr ""
+
+#: includes/plugins/featured-galleries/init.php:75
+msgid "Remove All"
+msgstr "Tout supprimer"
+
+#: includes/plugins/category-icon/init.php:137
+#: includes/plugins/category-icon/init.php:234
+msgid "Select Icon"
+msgstr ""
+
+#: includes/plugins/category-icon/init.php:167
+#: includes/plugins/category-icon/init.php:292
+#: includes/plugins/category-icon/init.php:294
+msgid "Filter Position"
+msgstr ""
+
+#: includes/plugins/category-icon/init.php:186
+#: includes/plugins/category-icon/init.php:321
+#: includes/plugins/category-icon/init.php:323
+msgid "View"
+msgstr "Vue"
+
+#: includes/plugins/category-icon/init.php:204
+#: includes/plugins/category-icon/init.php:350
+#: includes/plugins/category-icon/init.php:352
+msgid "Color Icon"
+msgstr ""
+
+#: includes/plugins/category-icon/init.php:255
+msgid "Default Header Type"
+msgstr ""
+
+#: includes/plugins/category-icon/init.php:326
+msgid "Default View"
+msgstr ""
+
+#: includes/plugins/category-icon/init.php:339
+msgid "Default Count Columns"
+msgstr ""
+
+#: includes/plugins/category-icon/init.php:518
+#: includes/plugins/category-icon/init.php:519
+msgid "Category Icon"
+msgstr ""
+
+#: includes/plugins/category-icon/init.php:531
+msgid "Select Taxonomies"
+msgstr ""
+
+#: includes/plugins/category-icon/init.php:580
+msgid "Category Icon Options"
+msgstr ""
+
+#: includes/plugins/category-icon/init.php:593
+msgid "Save Changes"
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:11
+msgid "Type:"
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:16
+msgid "Popular"
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:17
+msgid "Display the most viewed posts"
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:22
+msgid "Display the latest posts"
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:29
+msgid "Calculate:"
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:34
+msgid "Views"
+msgstr "Vues"
+
+#: includes/widgets/popular-widget/inc/form.php:35
+msgid "Every time user views the post."
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:39
+msgid "Visits"
+msgstr "Visites"
+
+#: includes/widgets/popular-widget/inc/form.php:40
+msgid "Calculate only once per visit."
+msgstr ""
+
+#. Description of the theme
+msgid "We would like to thank you for purchasing KnowherePro WordPress."
+msgstr ""
+
+#. URI of the theme
+msgid "https://velikorodnov.com/wordpress/knowhere/demo1/"
+msgstr ""
+
+#. Author of the theme
+msgid "Designed by monkeysan"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themeforest.net/user/monkeysan/portfolio"
+msgstr ""

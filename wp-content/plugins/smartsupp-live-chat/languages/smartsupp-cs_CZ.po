@@ -1,0 +1,156 @@
+# Copyright (C) 2015 Smartsupp Live Chat
+# This file is distributed under the same license as the Smartsupp Live Chat package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smartsupp Live Chat 0.2.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/smartsupp-live-"
+"chat\n"
+"POT-Creation-Date: 2015-10-06 17:34:30+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-10-06 19:50+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: admin/class-smartsupp-admin.php:107 admin/class-smartsupp-admin.php:115
+msgid "Smartsupp Live Chat - Settings"
+msgstr "Smartsupp Live Chat - Nastavení"
+
+#. #-#-#-#-#  plugin.pot (Smartsupp Live Chat 0.2.2)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/class-smartsupp-admin.php:108
+msgid "Smartsupp Live Chat"
+msgstr "Smartsupp Live Chat"
+
+#: admin/class-smartsupp-admin.php:116
+msgid "Smartsupp Chat"
+msgstr "Smartsupp Chat"
+
+#: admin/class-smartsupp-admin.php:148
+msgid "Show on website"
+msgstr "Zobrazit na stránkách"
+
+#: admin/class-smartsupp-admin.php:161
+msgid "Smartsupp key"
+msgstr "Smartsupp klíč"
+
+#: admin/class-smartsupp-admin.php:173
+msgid "Enter optional API code"
+msgstr "Vložte volitelný API kód"
+
+#: admin/class-smartsupp-admin.php:181 admin/class-smartsupp-admin.php:255
+msgid "Visitor identification"
+msgstr "Identifikace návštěvníka"
+
+#: admin/class-smartsupp-admin.php:188
+msgid ""
+"Display detailed visitor info in Smartsupp dashboard, so you always see it "
+"while chatting. To show the info, visitor has to be signed in on your "
+"website."
+msgstr ""
+"Zobrazit detailní informace o návštěvníkovi na Smartsupp nástěnce, takže je "
+"vždy vidíte. Aby se informace ukazovaly, uživatel musí být přihlášen na "
+"vašich stránkách."
+
+#: admin/class-smartsupp-admin.php:194
+msgid "Wordpress variables"
+msgstr "Wordpress proměnné"
+
+#: admin/class-smartsupp-admin.php:201
+msgid "Visitor's name"
+msgstr "Jméno návštěvníka"
+
+#: admin/class-smartsupp-admin.php:206
+msgid "Visitor's username"
+msgstr "Username návštěvníka"
+
+#: admin/class-smartsupp-admin.php:211
+msgid "Visitor's role"
+msgstr "Role návštěvníka"
+
+#: admin/class-smartsupp-admin.php:216
+msgid "Visitor's e-mail"
+msgstr "E-mail návštěvníka"
+
+#: admin/class-smartsupp-admin.php:226
+msgid "Woocommerce variables"
+msgstr "Woocommerce proměnné"
+
+#: admin/class-smartsupp-admin.php:233
+msgid "Visitor's spent"
+msgstr "Obrat návštěvníka"
+
+#: admin/class-smartsupp-admin.php:238
+msgid "Visitor's orders amount"
+msgstr "Počet objednávek návštěvníka"
+
+#: admin/class-smartsupp-admin.php:243
+msgid "Visitor's location"
+msgstr "Umístění návštěvníka"
+
+#: admin/class-smartsupp-admin.php:267
+msgid ""
+"Don't have a Smartsupp account? <a href=\"http://www."
+"smartsupp.com\" target=\"_blank\">Sign up for free</a>"
+msgstr ""
+"Nemáte Smartsupp účet? Registrace zdarma <a href=\"http://www.smartsupp.com"
+"\" target=\"_blank\">zde</a>"
+
+#: admin/class-smartsupp-admin.php:285
+msgid ""
+"<a id=\"optional-code\">Optional API code</a> (API documentation at <a href="
+"\"http://developers.smartsupp.com\" target=\"_blank\">developers.smartsupp."
+"com</a>)"
+msgstr ""
+"<a id=\"optional-code\">API kód (nepovinné)</a> (API dokumentace na <a href="
+"\"http://developers.smartsupp.com\" target=\"_blank\">developers.smartsupp."
+"com</a>)"
+
+#: admin/class-smartsupp-admin.php:286
+msgid "Go to Smartsupp dashboard"
+msgstr "Otevřít Smartsupp dashboard"
+
+#: public/class-smartsupp.php:143
+msgid "Username"
+msgstr "Username"
+
+#: public/class-smartsupp.php:146
+msgid "Email"
+msgstr "E-mail"
+
+#: public/class-smartsupp.php:150
+msgid "Role"
+msgstr "Role"
+
+#: public/class-smartsupp.php:153
+msgid "Name"
+msgstr "Jméno"
+
+#: public/class-smartsupp.php:175
+msgid "Billing Location"
+msgstr "Fakturační umístění"
+
+#: public/class-smartsupp.php:201
+msgid "Spent"
+msgstr "Obrat"
+
+#: public/class-smartsupp.php:221
+msgid "Order"
+msgstr "Objenávky"
+
+#. #-#-#-#-#  plugin.pot (Smartsupp Live Chat 0.2.2)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  plugin.pot (Smartsupp Live Chat 0.2.2)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.smartsupp.com"
+msgstr "http://www.smartsupp.com"
+
+#. Description of the plugin/theme
+msgid "Adds Smartsupp Live Chat code to your Wordpress."
+msgstr "Přidá Smartsupp Live Chat kód na vaše Wordpress stránky"
+
+#. Author of the plugin/theme
+msgid "Tom Wawrosz"
+msgstr "Tom Wawrosz"

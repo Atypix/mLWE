@@ -1,0 +1,162 @@
+/* =Styles for 'normal' meta boxes
+-------------------------------------------------------------- */
+
+.mad-metabox-field::after {
+	content:""; display: block; clear:both;
+}
+
+.mad-metabox-field {
+	border-bottom: 1px solid #fafafa;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+.mad-thickbox_image-wrapper .mad-uploaded li {
+	position: relative;
+	max-width: 150px;
+}
+
+	.mad-thickbox_image-wrapper .mad-uploaded li img { max-width: 100%; }
+
+.mad-meta-box .mad-metabox-field:first-child {
+	padding-top: 0;
+}
+
+	.mad-metabox-desc {
+		width: 44.5%;
+		float: left;
+	}
+
+	.mad-metabox-field.mad-select-wrapper .mad-metabox-desc,
+	#side-sortables .mad-metabox-desc {
+		float: none;
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+		.mad-metabox-label label {
+			font-size: 15px;
+			color: #222222;
+		}
+
+		.mad-metabox-desc p {
+			margin: 5px 0 0 0;
+			color: #939393;
+			font-size: 13px;
+		}
+
+	.mad-metabox-input {
+		position: relative;
+		width: 51.8%;
+		float: right;
+	}
+
+	.mad-metabox-input input[type="input"] { width: 100%; }
+
+	#side-sortables .mad-metabox-field.mad-select-wrapper .mad-metabox-input,
+	#side-sortables .mad-metabox-input {
+		float: none;
+		width: 100%;
+	}
+
+	#side-sortables .mad-metabox-input input[type='text'] { width: 100%; }
+
+.select2-container .select2-results { padding: 0; }
+
+	.mad-metabox-input input[type=text],
+	.mad-metabox-input select
+	{
+		width: 100%;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		margin: 0;
+		border: 1px solid rgba(0,0,0,0.05);
+		color: #333333;
+		font-size: 13px;
+		padding-left: 0.75em;
+		height: 34px;
+		line-height: 32px;
+		box-shadow: none;
+		background-color: rgb(244, 242, 242);
+	}
+
+.mad-metabox-input .select2-container .select2-selection--single {
+	line-height: 32px;
+	box-sizing: border-box;
+	background-image: none;
+	height: 34px;
+	border-radius: 0;
+	background-color: rgb(244, 242, 242);
+	border-color: rgba(0, 0, 0, 0.05);
+	box-shadow: none !important;
+	-webkit-box-shadow: none;
+}
+
+.mad-metabox-input .select2-container--default .select2-selection--single .select2-selection__arrow {
+	width: 31px;
+	height: 32px;
+	background-image: none;
+	background: #f4f2f2;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	transition: all 200ms ease-in-out;
+	border-left: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.mad-metabox-input .mad-builder-dimension {
+	margin-right: 15px;
+	font-size: 0;
+	white-space: nowrap;
+	display: inline-block;
+	margin-bottom: 6px;
+	overflow: hidden;
+}
+
+	.mad-metabox-input .mad-builder-dimension .add-on {
+		height: 34px;
+		width: 34px;
+		font-size: 12px;
+		background-color: #fff;
+		box-sizing: border-box;
+		color: rgba(0, 0, 0, 0.5);
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		border-right: none;
+		padding: 0;
+		font-weight: 400;
+		line-height: 32px;
+		text-align: center;
+		text-shadow: 0 1px 0 #ffffff;
+		display: block;
+		float: left;
+		min-width: 16px;
+	}
+
+	.mad-metabox-input .mad-builder-dimension .add-on i {
+		font-size: 13px;
+		text-rendering: auto;
+		-webkit-font-smoothing: antialiased;
+		height: 32px;
+		line-height: 32px;
+	}
+
+	.mad-metabox-input .mad-builder-dimension input[type="text"] {
+		width: 68px;
+		padding: 0 0.75em;
+		float: left;
+		margin: 0;
+		text-align: center;
+	}
+
+/* jQuery validation */
+label.error {
+	padding-left: 3px;
+	color: red;
+}
+input.error,
+textarea.error,
+select.error {
+	border-color: #c00 !important;
+	background: #ffebe8 !important;
+}
+

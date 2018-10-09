@@ -1,0 +1,1115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KnowherePro Theme Functionality\n"
+"POT-Creation-Date: 2017-10-10 14:18+0200\n"
+"PO-Revision-Date: 2017-10-10 14:18+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;__;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: G:\\Dropbox\\www\\devknowhere\\wp-content\\plugins"
+"\\knowherepro-theme-functionality\n"
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/functions.php:41
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/functions.php:85
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/functions.php:130
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:419
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:496
+msgid "Facebook"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/functions.php:45
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/functions.php:89
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/functions.php:134
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:433
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:510
+msgid "Twitter"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/functions.php:49
+msgid "Google +"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/functions.php:49
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/functions.php:93
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/functions.php:138
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:426
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:503
+msgid "Google Plus"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/functions.php:53
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/functions.php:97
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/functions.php:142
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:447
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:524
+msgid "Pinterest"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/functions.php:57
+msgid "Email to a Friend"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/functions.php:101
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/functions.php:146
+msgid "Email"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/knowhere-theme-functionality.php:145
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agent-post-type.php:37
+msgid "Add New"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/knowhere-theme-functionality.php:146
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/knowhere-theme-functionality.php:168
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/knowhere-theme-functionality.php:147
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/knowhere-theme-functionality.php:148
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/knowhere-theme-functionality.php:149
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/knowhere-theme-functionality.php:150
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/knowhere-theme-functionality.php:162
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/knowhere-theme-functionality.php:151
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/knowhere-theme-functionality.php:170
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/knowhere-theme-functionality.php:152
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/knowhere-theme-functionality.php:171
+#, php-format
+msgid "No %s found in Trash"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/knowhere-theme-functionality.php:163
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/knowhere-theme-functionality.php:164
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/knowhere-theme-functionality.php:165
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/knowhere-theme-functionality.php:166
+msgid "Edit %"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/knowhere-theme-functionality.php:167
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/knowhere-theme-functionality.php:169
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agency-post-type.php:34
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agency-post-type.php:40
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agency-post-type.php:46
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:549
+msgid "Agencies"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agency-post-type.php:35
+msgid "Agency"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agency-post-type.php:36
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agency-post-type.php:37
+msgid "Add New Agency"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agency-post-type.php:38
+msgid "Edit Agency"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agency-post-type.php:39
+msgid "New Agency"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agency-post-type.php:41
+msgid "View Agency"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agency-post-type.php:42
+msgid "Search Agency"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agency-post-type.php:43
+msgid "No agencies found"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agency-post-type.php:44
+msgid "No agencies found in Trash"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agency-post-type.php:57
+msgid "agencies"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agency-post-type.php:74
+msgid "Agency ID"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agency-post-type.php:75
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-testimonials-post-type.php:55
+msgid "Title"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agency-post-type.php:76
+msgid "Thumbnail"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agent-post-type.php:35
+msgid "Agents"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agent-post-type.php:36
+msgid "Agent"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agent-post-type.php:38
+msgid "Add New Agent"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agent-post-type.php:39
+msgid "Edit Agent"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agent-post-type.php:40
+msgid "New Agent"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agent-post-type.php:41
+msgid "View Agent"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agent-post-type.php:42
+msgid "Search Agent"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agent-post-type.php:43
+msgid "No Agent found"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agent-post-type.php:44
+msgid "No Agent found in Trash"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agent-post-type.php:62
+msgid "agent"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agent-post-type.php:69
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agent-post-type.php:107
+msgid "Category"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agent-post-type.php:70
+msgid "Categories"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agent-post-type.php:81
+msgid "Skill"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agent-post-type.php:82
+msgid "Skills"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agent-post-type.php:84
+msgid "skill"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agent-post-type.php:104
+msgid "Agent ID"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agent-post-type.php:105
+msgid "Agent Name"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agent-post-type.php:106
+msgid "Picture"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-agent-post-type.php:108
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:474
+msgid "Address"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-testimonials-post-type.php:18
+msgid "Testimonial"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-testimonials-post-type.php:19
+msgid "Testimonials"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-testimonials-post-type.php:54
+msgid "Thumb"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/classes/register-testimonials-post-type.php:56
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:337
+msgid "City"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:46
+msgid "Page Subtitle"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:59
+msgid ""
+"This is the subtitle that will be shown in the page's Title Area, below the "
+"page title."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:84
+msgid "Knowhere Page Options"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:90
+msgid "Header Type"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:97
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:101
+msgid "Default Header Type"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:99
+msgid "Choose your header type"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:102
+msgid "Type 1"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:103
+msgid "Type 2"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:104
+msgid "Type 3"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:105
+msgid "Type 4"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:109
+msgid "Sidebar Position"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:116
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:120
+msgid "Default Sidebar Position"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:118
+msgid "Choose page sidebar position"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:121
+msgid "Without Sidebar"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:122
+msgid "Left Sidebar"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:123
+msgid "Right Sidebar"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:127
+msgid "Sidebar Setting"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:134
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:136
+msgid "Choose a custom sidebar"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:140
+msgid "Page Content Padding"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:144
+msgid "In pixels ex: 50px. Leave empty for default value of 85, 85px."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:150
+msgid "Hidden Newsletter"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:155
+msgid "Hidden newsletter from the footer"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:166
+msgid "Listing Page Options"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:172
+msgid "Style"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:179
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:183
+msgid "Default Style"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:181
+msgid "Choose your style for job single page"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:184
+msgid "Listing Style"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:185
+msgid "Listing Style 2"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:186
+msgid "Job Style"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:187
+msgid "Property Style"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:191
+msgid "Image Size"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:195
+msgid "Choose image size"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:197
+msgid "Medium"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:198
+msgid "Large"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:199
+msgid "Extra Large"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:203
+msgid "Hidden Gallery"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:208
+msgid "Hidden gallery"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:211
+msgid "Hidden Reviews"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:216
+msgid "Hidden reviews"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:226
+msgid "Backgrounds"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:232
+msgid "Body Background color"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:236
+msgid "Select the background color of the body"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:239
+msgid "Background image"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:243
+msgid "Select the background image"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:246
+msgid "Background repeat"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:250
+msgid "Select the repeat mode for the background image"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:252
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:266
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:282
+msgid "Default"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:253
+msgid "Repeat"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:254
+msgid "No Repeat"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:255
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:256
+msgid "Repeat Vertically"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:260
+msgid "Background position"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:264
+msgid "Select the position for the background image"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:267
+msgid "Top left"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:268
+msgid "Top center"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:269
+msgid "Top right"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:270
+msgid "Bottom left"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:271
+msgid "Bottom center"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:272
+msgid "Bottom right"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:276
+msgid "Background attachment"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:280
+msgid "Select the attachment for the background image "
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:283
+msgid "Scroll"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:284
+msgid "Fixed"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:288
+msgid "Footer Background color"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:292
+msgid "Select the background color of the footer"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:295
+msgid "Footer Hidden Background image"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:300
+msgid "Hidden background image"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:310
+msgid "Testimonial Details"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:316
+msgid "Testimonial Text"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:320
+msgid "Write a testimonial into the textarea."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:323
+msgid "By who?"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:327
+msgid "Name of the client who gave feedback"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:330
+msgid "Photo"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:334
+msgid "Select the photo"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:350
+msgid "Product Details"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:356
+msgid "Location"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:364
+msgid "Location at Google Map*"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:366
+msgid ""
+"Drag the google map marker to point your agency location. You can also use "
+"the address field above to search for your product."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:381
+msgid "Agency Details"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:387
+msgid "Agency Location"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:389
+msgid "Leave it empty if you want to hide map on agency detail page."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:395
+msgid "Agency Location at Google Map*"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:397
+msgid ""
+"Drag the google map marker to point your agency location. You can also use "
+"the address field above to search for your agency."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:405
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:482
+msgid "Phone"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:412
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:489
+msgid "E-mail"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:416
+msgid ""
+"Provide agency email address, Agency related messages from contact form on "
+"property details page, will be sent on this email address."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:440
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:517
+msgid "LinkedIn"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:461
+msgid "Agent Details"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:467
+msgid "Position"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:471
+msgid "Ex: Founder & CEO."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:476
+msgid "Enter your address, it will use for invoices "
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:493
+msgid ""
+"Provide agent email address, Agent related messages from contact form on "
+"property details page, will be sent on this email address."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/metaboxes.php:533
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/select.php:84
+msgid "None"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/clone.php:91
+msgid "+ Add more"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/validation.php:47
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/autocomplete.php:15
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/autocomplete.php:74
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/autocomplete.php:89
+msgid "Delete"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/button.php:27
+msgid "Click me"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/checkbox.php:53
+msgid "Yes"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/checkbox.php:53
+msgid "No"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/file-input.php:17
+msgid "Select File"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/file-input.php:39
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/select.php:84
+msgid "Select"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/file-input.php:41
+msgid "Remove"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/file.php:16
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/file.php:17
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/file.php:73
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/map.php:57
+msgid "Find Address"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/oembed.php:60
+msgid "Embed HTML not available."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/oembed.php:75
+msgid "Preview"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/post.php:33
+msgid "Select a post"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/post.php:36
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/taxonomy.php:51
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/select-advanced.php:42
+msgid "Select an item"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/select.php:84
+msgid "All"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/taxonomy.php:48
+msgid "Select a term"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/extensions/metaboxes/inc/fields/user.php:33
+msgid "Select an user"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/importer/import-class.php:53
+msgid "Images are for demo purpose only."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/tlm/extension_tlm.php:102
+msgid "License"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/tlm/extension_tlm.php:118
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/tlm/extension_tlm.php:146
+msgid "The license is not verified."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/tlm/extension_tlm.php:144
+msgid "The license is verified."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/tlm/extension_tlm.php:156
+msgid "last"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/tlm/extension_tlm.php:160
+msgid "Dear customer, thank you for using "
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/tlm/extension_tlm.php:162
+msgid ""
+"Dear customer, the trial period has expired. Please register to proceed "
+"using "
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/tlm/extension_tlm.php:178
+msgid "Theme registration"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/tlm/extension_tlm.php:184
+msgid "Register now"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/tlm/extension_tlm.php:185
+msgid "Remind me later"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/tlm/extension_tlm.php:200
+msgid "Could you save the changes at first."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/tlm/extension_tlm.php:214
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/tlm/extension_tlm.php:228
+msgid "Something wrong. Could you try register the purchase code later."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/tlm/extension_tlm.php:216
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/tlm/extension_tlm.php:231
+msgid "Dear "
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/tlm/extension_tlm.php:222
+msgid "The purcahase code is wrong."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/tlm/extension_tlm.php:225
+msgid ""
+"The purchase code already has been registered. Could you deregister purchase "
+"code on the another domain and try again."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/tlm/extension_tlm.php:235
+msgid ""
+"Please enable Curl on your hosting server. It is necessary for license "
+"verification."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/tlm/tlm/field_tlm.php:85
+msgid "Theme verification"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/tlm/tlm/field_tlm.php:88
+msgid "Enter item purchase code:"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/extension_wbc_importer.php:236
+msgid "Demo Already Imported"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/extension_wbc_importer.php:262
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/extension_wbc_importer.php:264
+msgid "Demo Importer"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/extension_wbc_importer.php:269
+msgid "Works best to import on a new install of WordPress"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/parsers.php:42
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/parsers.php:72
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/parsers.php:84
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/parsers.php:89
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/parsers.php:306
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/parsers.php:495
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/radium-importer.php:256
+msgid "Theme options Import file could not be found. Please try again."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/radium-importer.php:331
+msgid "Widget Import file could not be found. Please try again."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/radium-importer.php:405
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/radium-importer.php:427
+msgid "Site does not support widget"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/radium-importer.php:450
+msgid "Widget already exists"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/radium-importer.php:499
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:116
+msgid "Imported"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/radium-importer.php:502
+msgid "Imported to Inactive"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/radium-importer.php:509
+msgid "No Title"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:132
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:141
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:192
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:196
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:205
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:133
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:176
+msgid "All done."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:176
+msgid "Have fun!"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:177
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:197
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:213
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:238
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:264
+msgid "Assign Authors"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:265
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:267
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:277
+msgid "Import Attachments"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:280
+msgid "Download and import file attachments"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:284
+msgid "Submit"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:297
+msgid "Import author:"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:308
+msgid "or create new user with login name:"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:311
+msgid "as a new user:"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:319
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:321
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:322
+msgid "- Select -"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:372
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:426
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:470
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:536
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:780
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:647
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:684
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:746
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:911
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:918
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:981
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:994
+msgid "Invalid file type"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1121
+msgid "Import WordPress"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1128
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1143
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1144
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:93
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:114
+msgid "Import Demo"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:97
+msgid "Demo Imported"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:114
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:117
+msgid "Please Wait..."
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:118
+msgid "Re-Import"
+msgstr ""
+
+#: G:\Dropbox\www\devknowhere\wp-content\plugins\knowhere-theme-functionality/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:127
+msgid "No Demo Data Provided"
+msgstr ""

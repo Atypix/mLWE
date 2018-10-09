@@ -1,0 +1,103 @@
+
+#settings-job_fwp th { display: none; }
+#settings-job_fwp td { margin: 0; padding: 0; }
+
+#settings-job_fwp .available_block .sortable_block {
+	background-color: transparent;
+	border: none;
+}
+
+#settings-job_fwp .available_block {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 5%;
+	width: 30%;
+}
+
+	#settings-job_fwp .available_block .facet-remove,
+	#settings-job_fwp .available_block:hover .facet-remove { display: none; }
+
+#settings-job_fwp .knowhere-facets-config {
+	display: inline-block;
+	width: 60%;
+}
+
+.drag-handle {
+	margin-right: 10px;
+	font: bold 20px Sans-Serif;
+	color: #5f9edf;
+	display: inline-block;
+	cursor: move;
+	cursor: -webkit-grabbing;
+}
+
+.sortable_block {
+	border: 1px dashed #bbb;
+	background-color: #ebebeb;
+	width: 100%;
+	margin: 40px 10px;
+	padding: 10px 0 30px;
+}
+
+	.sortable_block h3,
+	.sortable_block p { margin: 9px 16px; }
+
+	.sortable_block h3 { font-size: 15px; }
+	.sortable_block em { font-size: 13px; }
+
+.sortable_block .secondary_blocks {
+	border-top: 1px dashed #bbb;
+	background-color: #d9d9d9;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	margin-bottom: -30px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+	.sortable_block ul.facets {
+		min-height: 50px;
+		margin: 10px 10px 0 10px;
+	}
+
+		.sortable_block ul.facets li {
+			position: relative;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-left: 6px solid #906dbe;
+			width: 132px;
+			padding: 8px;
+			margin: 6px;
+			background-color: #fff;
+			cursor: pointer;
+			min-height: 50px;
+		}
+
+		.sortable_block ul.facets li .facet-remove {
+			position: absolute;
+			top: 0;
+			right: 0;
+			display: none;
+		}
+
+		.sortable_block ul.facets li:hover .facet-remove { display: inline-block; }
+
+			.sortable_block ul.facets li > * {
+				display: block;
+				padding: 3px;
+				text-align: center;
+			}
+
+				.sortable_block ul.facets li .title {
+					font-size: 13px;
+					color: #444;
+					text-transform: capitalize;
+				}
+
+				.sortable_block ul.facets li .type {
+					font-size: 10px;
+					color: #999;
+				}
+
+.sortable-ghost { opacity: .2; }

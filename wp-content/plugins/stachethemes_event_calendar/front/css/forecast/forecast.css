@@ -1,0 +1,95 @@
+.stec-forecast-icon-clear-day {
+    background-image: url(2.svg);
+}
+
+.stec-forecast-icon-clear-night {
+    background-image: url(3.svg);
+}
+
+.stec-forecast-icon-cloudy-day {
+    background-image: url(8.svg);
+}
+
+.stec-forecast-icon-cloudy-night {
+    background-image: url(9.svg);
+}
+
+.stec-forecast-icon-cloudy {
+    background-image: url(14.svg);
+}
+
+.stec-forecast-icon-overcast {
+    background-image: url(25.svg);
+}
+
+.stec-forecast-icon-mist { 
+    background-image: url(13.svg);
+}
+
+.stec-forecast-icon-rain-patch {
+    background-image: url(17.svg);
+}
+
+.stec-forecast-icon-snow-patch {
+    background-image: url(21.svg);
+}
+
+.stec-forecast-icon-sleet {
+    background-image: url(24.svg);
+}
+
+.stec-forecast-icon-drizzle {
+    background-image: url(17.svg);
+}
+
+.stec-forecast-drizzle-light {
+    background-image: url(17.svg);
+}
+
+.stec-forecast-icon-thunder {
+    background-image: url(26.svg);
+}
+
+.stec-forecast-icon-snow-wind {
+    background-image: url(23.svg);
+}
+
+.stec-forecast-icon-drizzle-light {
+    background-image: url(17.svg);
+}
+
+.stec-forecast-icon-freezing-drizzle {
+    background-image: url(22.svg);
+}
+
+.stec-forecast-icon-rain-light {
+    background-image: url(17.svg);
+}
+
+.stec-forecast-icon-rain {
+    background-image: url(18.svg);
+}
+
+.stec-forecast-icon-sleet {
+    background-image: url(22.svg);
+}
+
+.stec-forecast-icon-snow-light {
+    background-image: url(21.svg);
+}
+
+.stec-forecast-icon-snow {
+    background-image: url(23.svg);
+}
+
+.stec-forecast-icon-ice-pellets {
+    background-image: url(24.svg);
+}
+
+.stec-forecast-icon-rain-wind {
+    background-image: url(20.svg);
+}
+
+.stec-forecast-icon-na {
+    background-image: url(45.svg);
+} 

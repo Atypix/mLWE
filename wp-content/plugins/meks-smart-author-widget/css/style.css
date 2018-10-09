@@ -1,0 +1,30 @@
+.mks_author_widget img{
+
+    overflow:hidden;
+    -webkit-border-radius:75px;
+    -moz-border-radius:75px;
+    border-radius:75px;
+    width:150px;
+    height:150px;
+	
+	margin: 0 0px 20px 0;
+}
+
+.mks_author_widget .mks_autor_link_wrap {
+	margin: 0; 
+	padding: 0;
+	text-align:center!important;
+}
+.mks-co-authors-wrapper {
+	margin-bottom: 30px;
+	
+}
+.mks-co-authors-wrapper:last-child {
+	margin-bottom: 0;
+	
+}
+
+.mks_author_widget {
+	text-align:center!important;
+	
+}

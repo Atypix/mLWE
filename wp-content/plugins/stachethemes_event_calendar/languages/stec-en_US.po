@@ -1,0 +1,3727 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: STEC\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-17 16:41+0200\n"
+"PO-Revision-Date: 2018-03-17 16:41+0200\n"
+"Last-Translator: sapyn <zbozhilov@gmail.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: front/js\n"
+"X-Poedit-SearchPathExcluded-1: admin/js\n"
+
+#: admin/class/abstract.post.php:71 admin/class/class.calendars.php:137
+#: admin/class/class.events.php:164
+msgid "Error processing post"
+msgstr "Error processing post"
+
+#: admin/class/class.events.php:178
+msgid "DUPLICATE"
+msgstr "DUPLICATE"
+
+#: admin/class/class.events.php:181
+#, php-format
+msgid "Event with id %s not found"
+msgstr "Event with id %s not found"
+
+#: admin/class/class.events.php:201
+msgid "Your event has been approved"
+msgstr "Your event has been approved"
+
+#: admin/class/class.events.php:202
+msgid "Congratulations! Your event has been approved!"
+msgstr "Congratulations! Your event has been approved!"
+
+#: admin/class/class.events.php:210
+#, php-format
+msgid "You can view your event at %s"
+msgstr "You can view your event at %s"
+
+#: admin/class/class.export-ical.php:31
+msgid "Invalid calendar object instance"
+msgstr "Invalid calendar object instance"
+
+#: admin/class/class.export-ical.php:65
+msgid "Invalid event object instance"
+msgstr "Invalid event object instance"
+
+#: admin/class/class.export.php:23
+msgid "No calendar id provided"
+msgstr "No calendar id provided"
+
+#: admin/class/class.export.php:46
+msgid "Calendar does not exists"
+msgstr "Calendar does not exists"
+
+#: admin/class/class.export.php:59
+msgid "Event does not exists"
+msgstr "Event does not exists"
+
+#: admin/class/class.export.php:64
+msgid "You have no permission to view this event"
+msgstr "You have no permission to view this event"
+
+#: admin/class/class.export.php:86
+msgid "No events to export"
+msgstr "No events to export"
+
+#: admin/class/class.helper.php:232
+msgid "No Icon"
+msgstr "No Icon"
+
+#: admin/class/class.helper.php:233
+msgid "Animals"
+msgstr "Animals"
+
+#: admin/class/class.helper.php:234
+msgid "Airport"
+msgstr "Airport"
+
+#: admin/class/class.helper.php:235
+msgid "Bar"
+msgstr "Bar"
+
+#: admin/class/class.helper.php:236
+msgid "Birthday Party"
+msgstr "Birthday Party"
+
+#: admin/class/class.helper.php:237
+msgid "Business"
+msgstr "Business"
+
+#: admin/class/class.helper.php:238
+msgid "Bus tour"
+msgstr "Bus tour"
+
+#: admin/class/class.helper.php:239
+msgid "Bike"
+msgstr "Bike"
+
+#: admin/class/class.helper.php:240
+msgid "Bomb"
+msgstr "Bomb"
+
+#: admin/class/class.helper.php:241
+msgid "Camping "
+msgstr "Camping "
+
+#: admin/class/class.helper.php:242
+msgid "Cruise"
+msgstr "Cruise"
+
+#: admin/class/class.helper.php:243
+msgid "Coffee"
+msgstr "Coffee"
+
+#: admin/class/class.helper.php:244
+msgid "Cycling"
+msgstr "Cycling"
+
+#: admin/class/class.helper.php:245
+msgid "Court Hall"
+msgstr "Court Hall"
+
+#: admin/class/class.helper.php:246
+msgid "Football"
+msgstr "Football"
+
+#: admin/class/class.helper.php:247
+msgid "Gaming"
+msgstr "Gaming"
+
+#: admin/class/class.helper.php:248
+msgid "Graduation"
+msgstr "Graduation"
+
+#: admin/class/class.helper.php:249
+msgid "Hotel"
+msgstr "Hotel"
+
+#: admin/class/class.helper.php:250
+msgid "Karaoke"
+msgstr "Karaoke"
+
+#: admin/class/class.helper.php:251
+msgid "Library "
+msgstr "Library "
+
+#: admin/class/class.helper.php:252
+msgid "Movie"
+msgstr "Movie"
+
+#: admin/class/class.helper.php:253
+msgid "Museum"
+msgstr "Museum"
+
+#: admin/class/class.helper.php:254
+msgid "Music"
+msgstr "Music"
+
+#: admin/class/class.helper.php:255 admin/view/events/tabs/guests.php:30
+#: admin/view/events/tabs/guests.php:98
+msgid "Photo"
+msgstr "Photo"
+
+#: admin/class/class.helper.php:256
+msgid "Picture/Painting"
+msgstr "Picture/Painting"
+
+#: admin/class/class.helper.php:257
+msgid "Restaurant"
+msgstr "Restaurant"
+
+#: admin/class/class.helper.php:258
+msgid "Race"
+msgstr "Race"
+
+#: admin/class/class.helper.php:259
+msgid "Shopping"
+msgstr "Shopping"
+
+#: admin/class/class.helper.php:260 install/settings/register-settings.php:76
+#: install/settings/register-settings.php:241
+#: install/settings/register-settings.php:258
+#: install/settings/register-settings.php:275
+#: install/settings/register-settings.php:292
+#: install/settings/register-settings.php:369
+#: install/settings/register-settings.php:386
+#: install/settings/register-settings.php:488 vc-settings.php:47
+#: vc-settings.php:59 vc-settings.php:71 vc-settings.php:83 vc-settings.php:95
+#: vc-settings.php:107 vc-settings.php:119
+msgid "Show"
+msgstr "Show"
+
+#: admin/class/class.helper.php:261
+msgid "Tavern"
+msgstr "Tavern"
+
+#: admin/class/class.helper.php:262
+msgid "Talks"
+msgstr "Talks"
+
+#: admin/class/class.helper.php:263
+msgid "Ticket"
+msgstr "Ticket"
+
+#: admin/class/class.helper.php:264
+msgid "Train"
+msgstr "Train"
+
+#: admin/class/class.helper.php:265
+msgid "Wedding"
+msgstr "Wedding"
+
+#: admin/class/class.helper.php:266
+msgid "Wheelchair"
+msgstr "Wheelchair"
+
+#: admin/class/class.helper.php:267
+msgid "Binocular"
+msgstr "Binocular"
+
+#: admin/class/class.helper.php:268
+msgid "Bed"
+msgstr "Bed"
+
+#: admin/class/class.helper.php:269
+msgid "Bolt"
+msgstr "Bolt"
+
+#: admin/class/class.helper.php:270
+msgid "Check Sign"
+msgstr "Check Sign"
+
+#: admin/class/class.helper.php:271
+msgid "Conversation"
+msgstr "Conversation"
+
+#: admin/class/class.helper.php:272
+msgid "Credit Card"
+msgstr "Credit Card"
+
+#: admin/class/class.helper.php:273
+msgid "Diamond"
+msgstr "Diamond"
+
+#: admin/class/class.helper.php:274
+msgid "Envelope"
+msgstr "Envelope"
+
+#: admin/class/class.helper.php:275
+msgid "Female Silhouette"
+msgstr "Female Silhouette"
+
+#: admin/class/class.helper.php:276
+msgid "Male Silhouette"
+msgstr "Male Silhouette"
+
+#: admin/class/class.helper.php:277
+msgid "Child Silhouette"
+msgstr "Child Silhouette"
+
+#: admin/class/class.helper.php:278
+msgid "Fire Extinguisher"
+msgstr "Fire Extinguisher"
+
+#: admin/class/class.helper.php:279
+msgid "Hand Peace Sign"
+msgstr "Hand Peace Sign"
+
+#: admin/class/class.helper.php:280
+msgid "Hand Point Up"
+msgstr "Hand Point Up"
+
+#: admin/class/class.helper.php:281
+msgid "Heart"
+msgstr "Heart"
+
+#: admin/class/class.helper.php:282
+msgid "Key"
+msgstr "Key"
+
+#: admin/class/class.helper.php:283
+msgid "Gravel"
+msgstr "Gravel"
+
+#: admin/class/class.helper.php:284
+msgid "Life Ring"
+msgstr "Life Ring"
+
+#: admin/class/class.helper.php:285
+msgid "Lightbulb"
+msgstr "Lightbulb"
+
+#: admin/class/class.helper.php:286
+msgid "Money"
+msgstr "Money"
+
+#: admin/class/class.helper.php:287
+msgid "Moon"
+msgstr "Moon"
+
+#: admin/class/class.helper.php:288
+msgid "Shopping Bag"
+msgstr "Shopping Bag"
+
+#: admin/class/class.helper.php:289
+msgid "Video Camera"
+msgstr "Video Camera"
+
+#: admin/class/class.helper.php:290
+msgid "Ambulance"
+msgstr "Ambulance"
+
+#: admin/class/class.helper.php:291
+msgid "PayPal"
+msgstr "PayPal"
+
+#: admin/class/class.helper.php:292
+msgid "Google Wallet"
+msgstr "Google Wallet"
+
+#: admin/class/class.helper.php:293
+msgid "USD Sign"
+msgstr "USD Sign"
+
+#: admin/class/class.helper.php:294
+msgid "Bitcoin Sign"
+msgstr "Bitcoin Sign"
+
+#: admin/class/class.helper.php:295
+msgid "British Pound Sign"
+msgstr "British Pound Sign"
+
+#: admin/class/class.helper.php:296
+msgid "Euro Sign"
+msgstr "Euro Sign"
+
+#: admin/class/class.helper.php:297
+msgid "Apple Logo"
+msgstr "Apple Logo"
+
+#: admin/class/class.helper.php:298
+msgid "Amazon Logo"
+msgstr "Amazon Logo"
+
+#: admin/class/class.helper.php:299
+msgid "Android Logo"
+msgstr "Android Logo"
+
+#: admin/class/class.helper.php:300
+msgid "Instagram Logo"
+msgstr "Instagram Logo"
+
+#: admin/class/class.helper.php:301
+msgid "Facebook Logo"
+msgstr "Facebook Logo"
+
+#: admin/class/class.helper.php:302
+msgid "Google Plus Logo"
+msgstr "Google Plus Logo"
+
+#: admin/class/class.helper.php:303
+msgid "Steam Logo"
+msgstr "Steam Logo"
+
+#: admin/class/class.helper.php:304
+msgid "Twitch Logo"
+msgstr "Twitch Logo"
+
+#: admin/class/class.helper.php:305
+msgid "Yelp Logo"
+msgstr "Yelp Logo"
+
+#: admin/class/class.helper.php:306
+msgid "Twitter Logo"
+msgstr "Twitter Logo"
+
+#: admin/class/class.helper.php:307
+msgid "YouTube Logo"
+msgstr "YouTube Logo"
+
+#: admin/class/class.helper.php:308
+msgid "Stethoscope"
+msgstr "Stethoscope"
+
+#: admin/class/class.helper.php:309
+msgid "Heartbeat"
+msgstr "Heartbeat"
+
+#: admin/class/class.helper.php:310
+msgid "Doctor"
+msgstr "Doctor"
+
+#: admin/class/class.helper.php:311
+msgid "Hospital"
+msgstr "Hospital"
+
+#: admin/class/class.helper.php:312
+msgid "Medkit"
+msgstr "Medkit"
+
+#: admin/class/class.helper.php:313
+msgid "Scissors"
+msgstr "Scissors"
+
+#: admin/class/class.helper.php:314
+msgid "Pie Chart"
+msgstr "Pie Chart"
+
+#: admin/class/class.helper.php:315
+msgid "Transgender Symbol"
+msgstr "Transgender Symbol"
+
+#: admin/class/class.helper.php:316
+msgid "Male Sex Symbol"
+msgstr "Male Sex Symbol"
+
+#: admin/class/class.helper.php:317
+msgid "Female Sex Symbol"
+msgstr "Female Sex Symbol"
+
+#: admin/class/class.helper.php:318
+msgid "Blind Men Symbol"
+msgstr "Blind Men Symbol"
+
+#: admin/class/class.helper.php:319
+msgid "Sign Language Symbol"
+msgstr "Sign Language Symbol"
+
+#: admin/class/class.helper.php:320
+msgid "Newspaper"
+msgstr "Newspaper"
+
+#: admin/class/class.helper.php:321
+msgid "Flag"
+msgstr "Flag"
+
+#: admin/class/class.helper.php:322
+msgid "Hashtag"
+msgstr "Hashtag"
+
+#: admin/class/class.helper.php:323
+msgid "Snapchat Logo"
+msgstr "Snapchat Logo"
+
+#: admin/class/class.helper.php:324
+msgid "Subway"
+msgstr "Subway"
+
+#: admin/class/class.helper.php:325
+msgid "Share Icon"
+msgstr "Share Icon"
+
+#: admin/class/class.helper.php:326
+msgid "Sign Language Icon"
+msgstr "Sign Language Icon"
+
+#: admin/class/class.helper.php:327
+msgid "Odnoklassniki Logo"
+msgstr "Odnoklassniki Logo"
+
+#: admin/class/class.helper.php:328
+msgid "Multi-language Icon"
+msgstr "Multi-language Icon"
+
+#: admin/class/class.helper.php:329
+msgid "Book Icon"
+msgstr "Book Icon"
+
+#: admin/class/class.helper.php:330
+msgid "Puzzle Piece"
+msgstr "Puzzle Piece"
+
+#: admin/class/class.helper.php:331
+msgid "Television"
+msgstr "Television"
+
+#: admin/class/class.helper.php:332
+msgid "Desktop"
+msgstr "Desktop"
+
+#: admin/class/class.helper.php:333
+msgid "Calculator"
+msgstr "Calculator"
+
+#: admin/class/class.helper.php:334
+msgid "Cubes"
+msgstr "Cubes"
+
+#: admin/class/class.helper.php:778 languages/inc.js-locale.php:89
+msgid "(Select Options)"
+msgstr "(Select Options)"
+
+#: admin/class/class.helper.php:789
+msgid "You are invited to stec_replace_event_summary"
+msgstr "You are invited to stec_replace_event_summary"
+
+#: admin/class/class.helper.php:790
+msgid ""
+"You are invited to stec_replace_event_summary \n"
+"\n"
+"        To accept invitation go to stec_replace_accept_url \n"
+"\n"
+"        To decline invitation go to stec_replace_decline_url"
+msgstr ""
+"You are invited to stec_replace_event_summary \n"
+"\n"
+"        To accept invitation go to stec_replace_accept_url \n"
+"\n"
+"        To decline invitation go to stec_replace_decline_url"
+
+#: admin/class/class.helper.php:1020
+msgid "You have requested remind form stec_replace_event_summary"
+msgstr "You have requested remind form stec_replace_event_summary"
+
+#: admin/class/class.helper.php:1021
+msgid ""
+"You have requested remind for stec_replace_event_summary.\\n\\nEvent date: "
+"stec_replace_event_timespan.\\nFor more info visit stec_replace_siteurl."
+msgstr ""
+"You have requested remind for stec_replace_event_summary.\\n\\nEvent date: "
+"stec_replace_event_timespan.\\nFor more info visit stec_replace_siteurl."
+
+#: admin/class/class.wc.php:26
+msgid "Event start date"
+msgstr "Event start date"
+
+#: admin/class/o.calendar.php:229
+msgid "You don't have permission to edit this calendar"
+msgstr "You don't have permission to edit this calendar"
+
+#: admin/class/o.event.php:885
+msgid "You don't have permission to edit this event"
+msgstr "You don't have permission to edit this event"
+
+#: admin/view/cache/cache.php:11 admin/view/cache/cache.php:17
+msgid "Cache Settings"
+msgstr "Cache Settings"
+
+#: admin/view/cache/cache.php:24
+msgid "Update Settings"
+msgstr "Update Settings"
+
+#: admin/view/cache/cache.php:25
+msgid "Delete Cache"
+msgstr "Delete Cache"
+
+#: admin/view/cache/index.php:22
+msgid "Cache files deleted"
+msgstr "Cache files deleted"
+
+#: admin/view/cache/index.php:24
+msgid "Unable to delete cache fiels!"
+msgstr "Unable to delete cache fiels!"
+
+#: admin/view/cache/index.php:40 admin/view/fontsandcolors/index.php:54
+#: admin/view/general/index.php:40 admin/view/iesettings/index.php:40
+msgid "Settings updated"
+msgstr "Settings updated"
+
+#: admin/view/calendars/edit.php:8
+msgid "Calendars Management / Edit"
+msgstr "Calendars Management / Edit"
+
+#: admin/view/calendars/edit.php:14
+msgid "Edit calendar"
+msgstr "Edit calendar"
+
+#: admin/view/calendars/edit.php:19 admin/view/calendars/list.php:21
+msgid "Desired name of the calendar:"
+msgstr "Desired name of the calendar:"
+
+#: admin/view/calendars/edit.php:20 admin/view/calendars/list.php:22
+msgid "Calendar Name"
+msgstr "Calendar Name"
+
+#: admin/view/calendars/edit.php:22 admin/view/calendars/list.php:24
+msgid ""
+"Desired color. This will be the default color of the events. Can be changed "
+"later."
+msgstr ""
+"Desired color. This will be the default color of the events. Can be changed "
+"later."
+
+#: admin/view/calendars/edit.php:25 admin/view/calendars/list.php:27
+msgid "Default Icon"
+msgstr "Default Icon"
+
+#: admin/view/calendars/edit.php:28 admin/view/calendars/list.php:30
+msgid "Timezone"
+msgstr "Timezone"
+
+#: admin/view/calendars/edit.php:29 admin/view/calendars/list.php:31
+msgid "Calendar Timezone"
+msgstr "Calendar Timezone"
+
+#: admin/view/calendars/edit.php:31 admin/view/calendars/list.php:33
+#: admin/view/events/tabs/general.php:30
+msgid "Front-End Visibility"
+msgstr "Front-End Visibility"
+
+#: admin/view/calendars/edit.php:32 admin/view/calendars/list.php:34
+msgid "Calendar Front-End Visibility"
+msgstr "Calendar Front-End Visibility"
+
+#: admin/view/calendars/edit.php:34 admin/view/calendars/list.php:36
+#: admin/view/events/tabs/general.php:33
+msgid "Back-End Visibility"
+msgstr "Back-End Visibility"
+
+#: admin/view/calendars/edit.php:35 admin/view/calendars/list.php:37
+msgid "Calendar Back-End Visibility"
+msgstr "Calendar Back-End Visibility"
+
+#: admin/view/calendars/edit.php:37 admin/view/calendars/list.php:39
+msgid "Who can add events from the front-end"
+msgstr "Who can add events from the front-end"
+
+#: admin/view/calendars/edit.php:40 admin/view/calendars/list.php:42
+msgid "Require approval by admin for events added from font-end"
+msgstr "Require approval by admin for events added from font-end"
+
+#: admin/view/calendars/edit.php:44
+msgid "Update Calendar"
+msgstr "Update Calendar"
+
+#: admin/view/calendars/edit.php:45
+msgid "Go Back"
+msgstr "Go Back"
+
+#: admin/view/calendars/index.php:30 inc/inc.task-handler.php:87
+#: inc/inc.task-handler.php:176
+msgid "Calendar has no id"
+msgstr "Calendar has no id"
+
+#: admin/view/calendars/list.php:12
+msgid "Calendars Management"
+msgstr "Calendars Management"
+
+#: admin/view/calendars/list.php:16
+msgid "Create new calendar"
+msgstr "Create new calendar"
+
+#: admin/view/calendars/list.php:45
+msgid "Create Calendar"
+msgstr "Create Calendar"
+
+#: admin/view/calendars/list.php:52
+msgid "Manage Calendars"
+msgstr "Manage Calendars"
+
+#: admin/view/calendars/list.php:56
+msgid "List with your created calendars"
+msgstr "List with your created calendars"
+
+#: admin/view/calendars/list.php:61
+msgid "(No calendars to display)"
+msgstr "(No calendars to display)"
+
+#: admin/view/calendars/list.php:67
+msgid "Select all calendars"
+msgstr "Select all calendars"
+
+#: admin/view/calendars/list.php:68
+msgid "Selected all calendars"
+msgstr "Selected all calendars"
+
+#: admin/view/calendars/list.php:72 admin/view/events/list.php:115
+msgid "Delete all items?"
+msgstr "Delete all items?"
+
+#: admin/view/calendars/list.php:72
+msgid "Delete selected calendars"
+msgstr "Delete selected calendars"
+
+#: admin/view/calendars/list.php:93 admin/view/events/list.php:52
+msgid "event awaiting approval"
+msgstr "event awaiting approval"
+
+#: admin/view/calendars/list.php:93 admin/view/events/list.php:52
+msgid "events awaiting approval"
+msgstr "events awaiting approval"
+
+#: admin/view/calendars/list.php:105 admin/view/events/list.php:67
+#: admin/view/export/export.php:55
+msgid "View Events"
+msgstr "View Events"
+
+#: admin/view/calendars/list.php:106 admin/view/events/list.php:171
+msgid "Edit"
+msgstr "Edit"
+
+#: admin/view/calendars/list.php:107 admin/view/events/list.php:175
+#: admin/view/import/import.php:249
+msgid "Delete item?"
+msgstr "Delete item?"
+
+#: admin/view/calendars/list.php:107 admin/view/events/list.php:175
+#: admin/view/events/tabs/attachments.php:20
+#: admin/view/events/tabs/attachments.php:39
+#: admin/view/events/tabs/guests.php:22 admin/view/events/tabs/guests.php:90
+#: admin/view/events/tabs/schedule.php:24
+#: admin/view/events/tabs/schedule.php:76 admin/view/import/import.php:249
+msgid "Delete"
+msgstr "Delete"
+
+#: admin/view/events/addedit.php:12 admin/view/events/list.php:13
+msgid "Events Management"
+msgstr "Events Management"
+
+#: admin/view/events/addedit.php:15
+msgid "Edit Event"
+msgstr "Edit Event"
+
+#: admin/view/events/addedit.php:17 admin/view/events/addedit.php:84
+#: admin/view/events/list.php:90
+msgid "Add Event"
+msgstr "Add Event"
+
+#: admin/view/events/addedit.php:27
+msgid "Author Info"
+msgstr "Author Info"
+
+#: admin/view/events/addedit.php:30 admin/view/general/settings.php:12
+#: inc/inc.admin-menu.php:20
+msgid "General"
+msgstr "General"
+
+#: admin/view/events/addedit.php:31 admin/view/events/tabs/introduction.php:11
+msgid "Introduction"
+msgstr "Introduction"
+
+#: admin/view/events/addedit.php:32 front/view/single.php:344
+#: front/view/tabs/location.php:2 inc/inc.tabs.php:44
+msgid "Location"
+msgstr "Location"
+
+#: admin/view/events/addedit.php:33 front/view/single.php:398
+#: inc/inc.tabs.php:45
+msgid "Schedule"
+msgstr "Schedule"
+
+#: admin/view/events/addedit.php:34 front/view/single.php:405
+#: inc/inc.tabs.php:46
+msgid "Guests"
+msgstr "Guests"
+
+#: admin/view/events/addedit.php:35 front/view/single.php:430
+#: inc/inc.tabs.php:47
+msgid "Attendance"
+msgstr "Attendance"
+
+#: admin/view/events/addedit.php:38
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: admin/view/events/addedit.php:41 front/view/single.php:270
+#: front/view/tabs/intro.php:65
+msgid "Attachments"
+msgstr "Attachments"
+
+#: admin/view/events/addedit.php:79
+msgid "Approve Event"
+msgstr "Approve Event"
+
+#: admin/view/events/addedit.php:81
+msgid "Update Event"
+msgstr "Update Event"
+
+#: admin/view/events/addedit.php:88
+msgid "Back"
+msgstr "Back"
+
+#: admin/view/events/index.php:26
+msgid "Event duplicated"
+msgstr "Event duplicated"
+
+#: admin/view/events/index.php:28
+msgid "Unable to duplicate event"
+msgstr "Unable to duplicate event"
+
+#: admin/view/events/index.php:42
+msgid "Event approved"
+msgstr "Event approved"
+
+#: admin/view/events/index.php:44
+msgid "Unable to approve event"
+msgstr "Unable to approve event"
+
+#: admin/view/events/index.php:58 inc/inc.admin-ajax-public-task-handler.php:40
+msgid "Event deleted"
+msgstr "Event deleted"
+
+#: admin/view/events/index.php:60
+msgid "Unable to delete event"
+msgstr "Unable to delete event"
+
+#: admin/view/events/index.php:224
+#, php-format
+msgid "Event %s"
+msgstr "Event %s"
+
+#: admin/view/events/index.php:224
+msgid "updated"
+msgstr "updated"
+
+#: admin/view/events/index.php:224
+msgid "created"
+msgstr "created"
+
+#: admin/view/events/index.php:227
+#, php-format
+msgid "Error %s event"
+msgstr "Error %s event"
+
+#: admin/view/events/index.php:227
+msgid "updating"
+msgstr "updating"
+
+#: admin/view/events/index.php:227
+msgid "creating"
+msgstr "creating"
+
+#: admin/view/events/index.php:248
+msgid "Events deleted"
+msgstr "Events deleted"
+
+#: admin/view/events/index.php:250
+msgid "Unable to delete events"
+msgstr "Unable to delete events"
+
+#: admin/view/events/list.php:15 admin/view/export/export.php:15
+#: admin/view/export/list.php:15 admin/view/import/import.php:15
+msgid "Switch Calendar"
+msgstr "Switch Calendar"
+
+#: admin/view/events/list.php:23
+msgid "Events Management / Select Calendar"
+msgstr "Events Management / Select Calendar"
+
+#: admin/view/events/list.php:33
+msgid "Select Calendar"
+msgstr "Select Calendar"
+
+#: admin/view/events/list.php:39 admin/view/export/export.php:39
+#: admin/view/import/import.php:38
+msgid "You have no calendars"
+msgstr "You have no calendars"
+
+#: admin/view/events/list.php:41 admin/view/export/export.php:41
+#: admin/view/import/import.php:40
+msgid "Create calendar"
+msgstr "Create calendar"
+
+#: admin/view/events/list.php:86
+msgid "Add Events"
+msgstr "Add Events"
+
+#: admin/view/events/list.php:89
+msgid "Add new event to this calendar"
+msgstr "Add new event to this calendar"
+
+#: admin/view/events/list.php:97
+msgid "Manage Events"
+msgstr "Manage Events"
+
+#: admin/view/events/list.php:100 admin/view/export/list.php:24
+msgid "List of your created events"
+msgstr "List of your created events"
+
+#: admin/view/events/list.php:104 admin/view/export/list.php:28
+msgid "(No events to display)"
+msgstr "(No events to display)"
+
+#: admin/view/events/list.php:110 admin/view/export/list.php:34
+msgid "Select all events"
+msgstr "Select all events"
+
+#: admin/view/events/list.php:111 admin/view/export/list.php:35
+msgid "Selected all events"
+msgstr "Selected all events"
+
+#: admin/view/events/list.php:115
+msgid "Delete selected events"
+msgstr "Delete selected events"
+
+#: admin/view/events/list.php:143 front/view/layout.event.aaproval.inc.php:15
+msgid "Awaiting approval"
+msgstr "Awaiting approval"
+
+#: admin/view/events/list.php:151
+msgid "Recurring"
+msgstr "Recurring"
+
+#: admin/view/events/list.php:155
+msgid "Recurrence Override: "
+msgstr "Recurrence Override: "
+
+#: admin/view/events/list.php:165
+msgid "Approve"
+msgstr "Approve"
+
+#: admin/view/events/list.php:166
+msgid "Review"
+msgstr "Review"
+
+#: admin/view/events/list.php:170
+msgid "Duplicate"
+msgstr "Duplicate"
+
+#: admin/view/events/tabs/attachments.php:7
+msgid "Attachments List"
+msgstr "Attachments List"
+
+#: admin/view/events/tabs/attachments.php:50
+msgid "Add Attachment"
+msgstr "Add Attachment"
+
+#: admin/view/events/tabs/attendance.php:8
+msgid "Invite by e-mail"
+msgstr "Invite by e-mail"
+
+#: admin/view/events/tabs/attendance.php:10 front/view/default.php:24
+#: front/view/single.php:130
+msgid "E-Mail Address"
+msgstr "E-Mail Address"
+
+#: admin/view/events/tabs/attendance.php:12
+msgid "Add e-mail"
+msgstr "Add e-mail"
+
+#: admin/view/events/tabs/attendance.php:17
+#: admin/view/events/tabs/attendance.php:30
+#: admin/view/events/tabs/general.php:224
+#: admin/view/events/tabs/woocommerce.php:25
+#: admin/view/events/tabs/woocommerce.php:56
+msgid "Remove"
+msgstr "Remove"
+
+#: admin/view/events/tabs/attendance.php:47
+msgid "All users"
+msgstr "All users"
+
+#: admin/view/events/tabs/attendance.php:49
+msgid "Invite All"
+msgstr "Invite All"
+
+#: admin/view/events/tabs/attendance.php:50
+msgid "Uninvite All"
+msgstr "Uninvite All"
+
+#: admin/view/events/tabs/attendance.php:62
+msgid "Invite"
+msgstr "Invite"
+
+#: admin/view/events/tabs/attendance.php:63
+msgid "Uninvite"
+msgstr "Uninvite"
+
+#: admin/view/events/tabs/author.php:11
+msgid "Created by"
+msgstr "Created by"
+
+#: admin/view/events/tabs/author.php:14
+msgid "User E-Mail"
+msgstr "User E-Mail"
+
+#: admin/view/events/tabs/author.php:17
+msgid "User Roles"
+msgstr "User Roles"
+
+#: admin/view/events/tabs/author.php:18
+msgid "No Roles"
+msgstr "No Roles"
+
+#: admin/view/events/tabs/author.php:20
+msgid "Submitted on"
+msgstr "Submitted on"
+
+#: admin/view/events/tabs/author.php:23
+msgid "Note to reviewer"
+msgstr "Note to reviewer"
+
+#: admin/view/events/tabs/general.php:8
+msgid "Desired name of the event (Summary)"
+msgstr "Desired name of the event (Summary)"
+
+#: admin/view/events/tabs/general.php:9
+msgid "Event Name"
+msgstr "Event Name"
+
+#: admin/view/events/tabs/general.php:11
+msgid "Title slug. Must be unique. Leave empty to auto-generate."
+msgstr "Title slug. Must be unique. Leave empty to auto-generate."
+
+#: admin/view/events/tabs/general.php:12
+msgid "Slug"
+msgstr "Slug"
+
+#: admin/view/events/tabs/general.php:14
+msgid "Desired color. By default will use the calendar color."
+msgstr "Desired color. By default will use the calendar color."
+
+#: admin/view/events/tabs/general.php:17 admin/view/import/import.php:86
+#: admin/view/import/import.php:137
+msgid "Event Icon"
+msgstr "Event Icon"
+
+#: admin/view/events/tabs/general.php:21
+#: front/view/forms/create.form.inc.php:76 inc/inc.custom-posts.php:16
+#: install/settings/register-settings.php:521
+msgid "Calendar"
+msgstr "Calendar"
+
+#: admin/view/events/tabs/general.php:36 front/view/layout.event.inc.php:19
+#: front/view/single.php:84
+msgid "Featured"
+msgstr "Featured"
+
+#: admin/view/events/tabs/general.php:38
+#: install/settings/register-settings.php:92
+#: install/settings/register-settings.php:308
+#: install/settings/register-settings.php:325
+#: install/settings/register-settings.php:436
+#: install/settings/register-settings.php:453
+#: install/settings/register-settings.php:470
+#: install/settings/register-settings.php:504
+#: install/settings/register-settings.php:538
+#: install/settings/register-settings.php:578
+#: install/settings/register-settings.php:594
+#: install/settings/register-settings.php:610
+#: install/settings/register-settings.php:626
+#: install/settings/register-settings.php:642
+#: install/settings/register-settings.php:658
+#: install/settings/register-settings.php:3254
+msgid "No"
+msgstr "No"
+
+#: admin/view/events/tabs/general.php:39
+#: install/settings/register-settings.php:93
+#: install/settings/register-settings.php:309
+#: install/settings/register-settings.php:326
+#: install/settings/register-settings.php:437
+#: install/settings/register-settings.php:454
+#: install/settings/register-settings.php:471
+#: install/settings/register-settings.php:505
+#: install/settings/register-settings.php:539
+#: install/settings/register-settings.php:579
+#: install/settings/register-settings.php:595
+#: install/settings/register-settings.php:611
+#: install/settings/register-settings.php:627
+#: install/settings/register-settings.php:643
+#: install/settings/register-settings.php:659
+#: install/settings/register-settings.php:3255
+msgid "Yes"
+msgstr "Yes"
+
+#: admin/view/events/tabs/general.php:40
+msgid "Yes with Background"
+msgstr "Yes with Background"
+
+#: admin/view/events/tabs/general.php:43
+#: front/view/forms/create.form.inc.php:132
+msgid "Starts On"
+msgstr "Starts On"
+
+#: admin/view/events/tabs/general.php:55
+msgid "Start Date"
+msgstr "Start Date"
+
+#: admin/view/events/tabs/general.php:63
+#: front/view/forms/create.form.inc.php:172
+msgid "Ends On"
+msgstr "Ends On"
+
+#: admin/view/events/tabs/general.php:67
+msgid "End Date"
+msgstr "End Date"
+
+#: admin/view/events/tabs/general.php:74
+#: front/view/forms/create.form.inc.php:212
+msgid "All Day"
+msgstr "All Day"
+
+#: admin/view/events/tabs/general.php:79
+msgid "Repeater Scheme "
+msgstr "Repeater Scheme "
+
+#: admin/view/events/tabs/general.php:80
+msgid "Set repeater"
+msgstr "Set repeater"
+
+#: admin/view/events/tabs/general.php:82
+msgid "Summary: "
+msgstr "Summary: "
+
+#: admin/view/events/tabs/general.php:88
+msgid "Search keywords (optional)"
+msgstr "Search keywords (optional)"
+
+#: admin/view/events/tabs/general.php:89
+msgid "Search keywords"
+msgstr "Search keywords"
+
+#: admin/view/events/tabs/general.php:93
+#: front/view/forms/create.form.inc.php:332
+msgid "Counter"
+msgstr "Counter"
+
+#: admin/view/events/tabs/general.php:95 admin/view/events/tabs/general.php:104
+#: front/view/forms/create.form.inc.php:335
+#: install/settings/register-settings.php:201
+#: install/settings/register-settings.php:419
+msgid "Disable"
+msgstr "Disable"
+
+#: admin/view/events/tabs/general.php:96 admin/view/events/tabs/general.php:105
+#: front/view/forms/create.form.inc.php:336
+#: install/settings/register-settings.php:202
+#: install/settings/register-settings.php:420
+msgid "Enable"
+msgstr "Enable"
+
+#: admin/view/events/tabs/general.php:102 front/view/single.php:439
+#: inc/inc.tabs.php:57
+msgid "Comments"
+msgstr "Comments"
+
+#: admin/view/events/tabs/general.php:118
+msgid "Repeats:"
+msgstr "Repeats:"
+
+#: admin/view/events/tabs/general.php:121
+#: front/view/forms/create.form.inc.php:225
+msgid "No Repeat"
+msgstr "No Repeat"
+
+#: admin/view/events/tabs/general.php:122 admin/view/import/import.php:133
+#: front/view/forms/create.form.inc.php:226
+msgid "Daily"
+msgstr "Daily"
+
+#: admin/view/events/tabs/general.php:123 admin/view/import/import.php:134
+#: front/view/forms/create.form.inc.php:227
+msgid "Weekly"
+msgstr "Weekly"
+
+#: admin/view/events/tabs/general.php:124
+#: front/view/forms/create.form.inc.php:228
+msgid "Monthly"
+msgstr "Monthly"
+
+#: admin/view/events/tabs/general.php:125
+#: front/view/forms/create.form.inc.php:229
+msgid "Yearly"
+msgstr "Yearly"
+
+#: admin/view/events/tabs/general.php:131
+msgid "By Day:"
+msgstr "By Day:"
+
+#: admin/view/events/tabs/general.php:135
+#: admin/view/events/tabs/general.php:136
+#: front/view/forms/create.form.inc.php:253
+#: front/view/forms/create.form.inc.php:254
+#: install/settings/register-settings.php:40
+msgid "Sunday"
+msgstr "Sunday"
+
+#: admin/view/events/tabs/general.php:136
+#: front/view/forms/create.form.inc.php:254
+msgid "SU"
+msgstr "SU"
+
+#: admin/view/events/tabs/general.php:139
+#: admin/view/events/tabs/general.php:140
+#: front/view/forms/create.form.inc.php:257
+#: front/view/forms/create.form.inc.php:258
+#: install/settings/register-settings.php:38
+msgid "Monday"
+msgstr "Monday"
+
+#: admin/view/events/tabs/general.php:140
+#: front/view/forms/create.form.inc.php:258
+msgid "MO"
+msgstr "MO"
+
+#: admin/view/events/tabs/general.php:143
+#: admin/view/events/tabs/general.php:144
+#: front/view/forms/create.form.inc.php:261
+#: front/view/forms/create.form.inc.php:262
+msgid "Tuesday"
+msgstr "Tuesday"
+
+#: admin/view/events/tabs/general.php:144
+#: front/view/forms/create.form.inc.php:262
+msgid "TU"
+msgstr "TU"
+
+#: admin/view/events/tabs/general.php:147
+#: admin/view/events/tabs/general.php:148
+#: front/view/forms/create.form.inc.php:265
+#: front/view/forms/create.form.inc.php:266
+msgid "Wednesday"
+msgstr "Wednesday"
+
+#: admin/view/events/tabs/general.php:148
+#: front/view/forms/create.form.inc.php:266
+msgid "WE"
+msgstr "WE"
+
+#: admin/view/events/tabs/general.php:151
+#: admin/view/events/tabs/general.php:152
+#: front/view/forms/create.form.inc.php:269
+#: front/view/forms/create.form.inc.php:270
+msgid "Thursday"
+msgstr "Thursday"
+
+#: admin/view/events/tabs/general.php:152
+#: front/view/forms/create.form.inc.php:270
+msgid "TH"
+msgstr "TH"
+
+#: admin/view/events/tabs/general.php:155
+#: admin/view/events/tabs/general.php:156
+#: front/view/forms/create.form.inc.php:273
+#: front/view/forms/create.form.inc.php:274
+msgid "Friday"
+msgstr "Friday"
+
+#: admin/view/events/tabs/general.php:156
+#: front/view/forms/create.form.inc.php:274
+msgid "FR"
+msgstr "FR"
+
+#: admin/view/events/tabs/general.php:159
+#: admin/view/events/tabs/general.php:160
+#: front/view/forms/create.form.inc.php:277
+#: front/view/forms/create.form.inc.php:278
+#: install/settings/register-settings.php:39
+msgid "Saturday"
+msgstr "Saturday"
+
+#: admin/view/events/tabs/general.php:160
+#: front/view/forms/create.form.inc.php:278
+msgid "SA"
+msgstr "SA"
+
+#: admin/view/events/tabs/general.php:170
+msgid "Repeat gap:"
+msgstr "Repeat gap:"
+
+#: admin/view/events/tabs/general.php:173
+msgid "No gap"
+msgstr "No gap"
+
+#: admin/view/events/tabs/general.php:187
+msgid "Repeat ends on:"
+msgstr "Repeat ends on:"
+
+#: admin/view/events/tabs/general.php:192
+#: front/view/forms/create.form.inc.php:296
+msgid "Never"
+msgstr "Never"
+
+#: admin/view/events/tabs/general.php:197
+#: front/view/forms/create.form.inc.php:302
+msgid "After"
+msgstr "After"
+
+#: admin/view/events/tabs/general.php:199
+#: front/view/forms/create.form.inc.php:304
+msgid "occurences"
+msgstr "occurences"
+
+#: admin/view/events/tabs/general.php:205
+#: front/view/forms/create.form.inc.php:310
+msgid "On Date"
+msgstr "On Date"
+
+#: admin/view/events/tabs/general.php:213
+msgid "Date Exception:"
+msgstr "Date Exception:"
+
+#: admin/view/events/tabs/general.php:218
+msgid "Add exdate"
+msgstr "Add exdate"
+
+#: admin/view/events/tabs/general.php:231
+msgid "Summary:"
+msgstr "Summary:"
+
+#: admin/view/events/tabs/general.php:237
+msgid "RRULE String:"
+msgstr "RRULE String:"
+
+#: admin/view/events/tabs/general.php:248
+msgid "Update"
+msgstr "Update"
+
+#: admin/view/events/tabs/general.php:249
+#: front/view/layout.event.aaproval.inc.php:18
+#: front/view/layout.event.aaproval.inc.php:28
+msgid "Cancel"
+msgstr "Cancel"
+
+#: admin/view/events/tabs/guests.php:8
+msgid "Guests List"
+msgstr "Guests List"
+
+#: admin/view/events/tabs/guests.php:16 admin/view/events/tabs/guests.php:84
+msgid "Add Guest (optional)"
+msgstr "Add Guest (optional)"
+
+#: admin/view/events/tabs/guests.php:20 admin/view/events/tabs/guests.php:88
+#: admin/view/events/tabs/schedule.php:22
+#: admin/view/events/tabs/schedule.php:74
+msgid "Expand"
+msgstr "Expand"
+
+#: admin/view/events/tabs/guests.php:21 admin/view/events/tabs/guests.php:89
+#: admin/view/events/tabs/schedule.php:23
+#: admin/view/events/tabs/schedule.php:75
+msgid "Collapse"
+msgstr "Collapse"
+
+#: admin/view/events/tabs/guests.php:31 admin/view/events/tabs/guests.php:99
+msgid "Add Photo"
+msgstr "Add Photo"
+
+#: admin/view/events/tabs/guests.php:33 admin/view/events/tabs/guests.php:34
+#: admin/view/events/tabs/guests.php:101 admin/view/events/tabs/guests.php:102
+#: front/view/single.php:543 front/view/tabs/woocommerce.php:36
+msgid "Name"
+msgstr "Name"
+
+#: admin/view/events/tabs/guests.php:36 admin/view/events/tabs/guests.php:104
+msgid "About"
+msgstr "About"
+
+#: admin/view/events/tabs/guests.php:37 admin/view/events/tabs/guests.php:105
+msgid "About your guest"
+msgstr "About your guest"
+
+#: admin/view/events/tabs/guests.php:39 admin/view/events/tabs/guests.php:107
+msgid "Social Links"
+msgstr "Social Links"
+
+#: admin/view/events/tabs/guests.php:51 admin/view/events/tabs/guests.php:62
+#: admin/view/events/tabs/guests.php:112
+msgid "Link"
+msgstr "Link"
+
+#: admin/view/events/tabs/guests.php:68 admin/view/events/tabs/guests.php:117
+msgid "Add social link"
+msgstr "Add social link"
+
+#: admin/view/events/tabs/guests.php:125
+msgid "Add Guest"
+msgstr "Add Guest"
+
+#: admin/view/events/tabs/introduction.php:8
+msgid "Images (optional)"
+msgstr "Images (optional)"
+
+#: admin/view/events/tabs/introduction.php:9
+msgid "Add Images"
+msgstr "Add Images"
+
+#: admin/view/events/tabs/introduction.php:16
+msgid "Short Description "
+msgstr "Short Description "
+
+#: admin/view/events/tabs/introduction.php:17
+msgid "Short info about the event"
+msgstr "Short info about the event"
+
+#: admin/view/events/tabs/introduction.php:19
+#: admin/view/events/tabs/introduction.php:20
+msgid "External Link"
+msgstr "External Link"
+
+#: admin/view/events/tabs/location.php:8
+msgid "Where (optional)"
+msgstr "Where (optional)"
+
+#: admin/view/events/tabs/location.php:9
+msgid "Event Location"
+msgstr "Event Location"
+
+#: admin/view/events/tabs/location.php:11
+msgid "Location additional details (optional)"
+msgstr "Location additional details (optional)"
+
+#: admin/view/events/tabs/location.php:12 front/view/single.php:377
+msgid "Location Details"
+msgstr "Location Details"
+
+#: admin/view/events/tabs/location.php:14
+msgid ""
+"Longitude and latitude coordinates in decimal format. Used by Weather "
+"service and optionally by Google Maps. (optional)"
+msgstr ""
+"Longitude and latitude coordinates in decimal format. Used by Weather "
+"service and optionally by Google Maps. (optional)"
+
+#: admin/view/events/tabs/location.php:15
+msgid "Forecast Location"
+msgstr "Forecast Location"
+
+#: admin/view/events/tabs/location.php:17
+msgid ""
+"Search location by coordinates instead by address name. Check this box if "
+"google maps has problems finding your event location."
+msgstr ""
+"Search location by coordinates instead by address name. Check this box if "
+"google maps has problems finding your event location."
+
+#: admin/view/events/tabs/schedule.php:8
+msgid "Schedule Timespan"
+msgstr "Schedule Timespan"
+
+#: admin/view/events/tabs/schedule.php:18
+#: admin/view/events/tabs/schedule.php:70
+msgid "Schedule Timespan (optional)"
+msgstr "Schedule Timespan (optional)"
+
+#: admin/view/events/tabs/schedule.php:31
+#: admin/view/events/tabs/schedule.php:83
+msgid "Date and time"
+msgstr "Date and time"
+
+#: admin/view/events/tabs/schedule.php:38
+#: admin/view/events/tabs/schedule.php:87 front/view/single.php:668
+#: front/view/tabs/forecast.php:42
+msgid "Date"
+msgstr "Date"
+
+#: admin/view/events/tabs/schedule.php:44
+#: admin/view/events/tabs/schedule.php:93
+#: front/view/forms/create.form.inc.php:41
+msgid "Title"
+msgstr "Title"
+
+#: admin/view/events/tabs/schedule.php:45
+#: admin/view/events/tabs/schedule.php:94
+msgid "Timespan Title"
+msgstr "Timespan Title"
+
+#: admin/view/events/tabs/schedule.php:47
+#: admin/view/events/tabs/schedule.php:96
+#: front/view/forms/create.form.inc.php:100
+msgid "Icon"
+msgstr "Icon"
+
+#: admin/view/events/tabs/schedule.php:50
+#: admin/view/events/tabs/schedule.php:99
+msgid "Icon Color"
+msgstr "Icon Color"
+
+#: admin/view/events/tabs/schedule.php:53
+#: admin/view/events/tabs/schedule.php:102 front/view/tabs/location.php:19
+msgid "Details"
+msgstr "Details"
+
+#: admin/view/events/tabs/schedule.php:54
+#: admin/view/events/tabs/schedule.php:103
+msgid "Timespan Details"
+msgstr "Timespan Details"
+
+#: admin/view/events/tabs/schedule.php:110
+msgid "Add Timespan"
+msgstr "Add Timespan"
+
+#: admin/view/events/tabs/woocommerce.php:8
+msgid "Add Woocommerce Product"
+msgstr "Add Woocommerce Product"
+
+#: admin/view/events/tabs/woocommerce.php:14
+msgid "Add to Event"
+msgstr "Add to Event"
+
+#: admin/view/export/export.php:13
+msgid "Export Events Management"
+msgstr "Export Events Management"
+
+#: admin/view/export/export.php:23
+msgid "Export Events Management / Select Calendar"
+msgstr "Export Events Management / Select Calendar"
+
+#: admin/view/export/export.php:34
+msgid "Select the calendar from which events will be exported"
+msgstr "Select the calendar from which events will be exported"
+
+#: admin/view/export/export.php:56 admin/view/export/list.php:62
+msgid "Export"
+msgstr "Export"
+
+#: admin/view/export/list.php:13
+msgid "Export Events Management "
+msgstr "Export Events Management "
+
+#: admin/view/export/list.php:21
+msgid "Export Single Events"
+msgstr "Export Single Events"
+
+#: admin/view/export/list.php:39
+msgid "Export selected events"
+msgstr "Export selected events"
+
+#: admin/view/fontsandcolors/index.php:30 admin/view/general/index.php:22
+#: admin/view/iesettings/index.php:22
+msgid "Settings Reset"
+msgstr "Settings Reset"
+
+#: admin/view/fontsandcolors/settings.php:21
+msgid "Fonts and Colors"
+msgstr "Fonts and Color"
+
+#: admin/view/fontsandcolors/settings.php:24
+msgid "Top Navigation"
+msgstr "Top Navigation"
+
+#: admin/view/fontsandcolors/settings.php:25
+msgid "Agenda Layout"
+msgstr "Agenda Layout"
+
+#: admin/view/fontsandcolors/settings.php:26
+msgid "Month & Week Layout"
+msgstr "Month & Week Layout"
+
+#: admin/view/fontsandcolors/settings.php:27
+msgid "Day Layout"
+msgstr "Day Layout"
+
+#: admin/view/fontsandcolors/settings.php:28
+msgid "Grid Layout"
+msgstr "Grid Layout"
+
+#: admin/view/fontsandcolors/settings.php:29
+msgid "Event Preview"
+msgstr "Event Preview"
+
+#: admin/view/fontsandcolors/settings.php:30
+msgid "Event Content"
+msgstr "Event Content"
+
+#: admin/view/fontsandcolors/settings.php:31
+msgid "Tooltip"
+msgstr "Tooltip"
+
+#: admin/view/fontsandcolors/settings.php:32
+#: install/settings/register-settings.php:3235
+msgid "Custom Style"
+msgstr "Custom Style"
+
+#: admin/view/fontsandcolors/settings.php:110
+msgid "Save Settings"
+msgstr "Save Settings"
+
+#: admin/view/fontsandcolors/settings.php:112
+#: admin/view/general/settings.php:50
+msgid "Reset all"
+msgstr "Reset all"
+
+#: admin/view/general/settings.php:9
+msgid "Stachethemes Event Calendar - General Settings"
+msgstr "Stachethemes Event Calendar - General Settings"
+
+#: admin/view/general/settings.php:13
+msgid "Captcha"
+msgstr "Captcha"
+
+#: admin/view/general/settings.php:14
+msgid "Misc"
+msgstr "Misc"
+
+#: admin/view/general/settings.php:24
+msgid "General Settings"
+msgstr "General Settings"
+
+#: admin/view/general/settings.php:30
+msgid "Reminder E-Mail"
+msgstr "Reminder E-Mail"
+
+#: admin/view/general/settings.php:35
+msgid "Captcha Settings"
+msgstr "Captcha Settings"
+
+#: admin/view/general/settings.php:36
+msgid "NOTE: To manage your API keys go to"
+msgstr "NOTE: To manage your API keys go to"
+
+#: admin/view/general/settings.php:41
+msgid "Miscellaneous Settings"
+msgstr "Miscellaneous Settings"
+
+#: admin/view/general/settings.php:47
+msgid "Save settings"
+msgstr "Save settings"
+
+#: admin/view/iesettings/settings.php:9
+msgid "Stachethemes Event Calendar - Backup Settings"
+msgstr "Stachethemes Event Calendar - Backup Settings"
+
+#: admin/view/iesettings/settings.php:13
+msgid "Import .STEC File Settings"
+msgstr "Import .STEC File Settings"
+
+#: admin/view/iesettings/settings.php:18
+msgid "Import settings from file"
+msgstr "Import settings from file"
+
+#: admin/view/iesettings/settings.php:19
+msgid "Settings FIle"
+msgstr "Settings FIle"
+
+#: admin/view/iesettings/settings.php:21
+msgid "Import settings"
+msgstr "Import settings"
+
+#: admin/view/iesettings/settings.php:31
+msgid "Export to .STEC File"
+msgstr "Export to .STEC File"
+
+#: admin/view/iesettings/settings.php:36
+msgid "Export settings to file"
+msgstr "Export settings to file"
+
+#: admin/view/iesettings/settings.php:37
+msgid "Export settings"
+msgstr "Export settings"
+
+#: admin/view/import/import.php:13
+msgid "Import Events Management"
+msgstr "Import Events Management"
+
+#: admin/view/import/import.php:23
+msgid "Import Events Management / Select Calendar"
+msgstr "Import Events Management / Select Calendar"
+
+#: admin/view/import/import.php:33
+msgid "Select the calendar on which the events should be imported"
+msgstr "Select the calendar on which the events should be imported"
+
+#: admin/view/import/import.php:56
+msgid "Select"
+msgstr "Select"
+
+#: admin/view/import/import.php:75
+msgid "Import .ics Events"
+msgstr "Import .ics Events"
+
+#: admin/view/import/import.php:80
+msgid "Import from URL"
+msgstr "Import from URL"
+
+#: admin/view/import/import.php:81 admin/view/import/import.php:127
+msgid "URL"
+msgstr "URL"
+
+#: admin/view/import/import.php:83
+msgid "Import from .ics file"
+msgstr "Import from .ics file"
+
+#: admin/view/import/import.php:84
+msgid "ICS File"
+msgstr "ICS File"
+
+#: admin/view/import/import.php:89 admin/view/import/import.php:140
+msgid "Don't import expired events"
+msgstr "Don't import expired events"
+
+#: admin/view/import/import.php:92 admin/view/import/import.php:144
+msgid "If checked non-recurring expired events will be ignored."
+msgstr "If checked non-recurring expired events will be ignored."
+
+#: admin/view/import/import.php:95 admin/view/import/import.php:148
+msgid "Overwrite events"
+msgstr "Overwrite events"
+
+#: admin/view/import/import.php:98 admin/view/import/import.php:151
+msgid "Existing events will be overwritten."
+msgstr "Existing events will be overwritten."
+
+#: admin/view/import/import.php:101 admin/view/import/import.php:155
+msgid "Delete events"
+msgstr "Delete events"
+
+#: admin/view/import/import.php:104 admin/view/import/import.php:158
+msgid "Delete calendar event if it does not exist in the ics file."
+msgstr "Delete calendar event if it does not exist in the ics file."
+
+#: admin/view/import/import.php:109 inc/inc.admin-menu.php:25
+msgid "Import Events"
+msgstr "Import Events"
+
+#: admin/view/import/import.php:117
+msgid "Auto-import events from URL"
+msgstr "Auto-import events from URL"
+
+#: admin/view/import/import.php:121
+msgid "Schedule Cronjob"
+msgstr "Schedule Cronjob"
+
+#: admin/view/import/import.php:126
+msgid "Import URL"
+msgstr "Import URL"
+
+#: admin/view/import/import.php:129
+msgid "Cronjob Frequency"
+msgstr "Cronjob Frequency"
+
+#: admin/view/import/import.php:131
+msgid "Hourly"
+msgstr "Hourly"
+
+#: admin/view/import/import.php:132
+msgid "Twice Daily"
+msgstr "Twice Daily"
+
+#: admin/view/import/import.php:164
+msgid "Create Cronjob"
+msgstr "Create Cronjob"
+
+#: admin/view/import/import.php:171
+msgid "Manage Cronjob list"
+msgstr "Manage Cronjob list"
+
+#: admin/view/import/import.php:175
+msgid "List of your created cronjobs"
+msgstr "List of your created cronjobs"
+
+#: admin/view/import/import.php:180
+msgid "(No cronjobs to display)"
+msgstr "(No cronjobs to display)"
+
+#: admin/view/import/import.php:186
+msgid "Select all jobs"
+msgstr "Select all jobs"
+
+#: admin/view/import/import.php:187
+msgid "Selected all jobs"
+msgstr "Selected all jobs"
+
+#: admin/view/import/import.php:191
+msgid "Delete all jobs?"
+msgstr "Delete all jobs?"
+
+#: admin/view/import/import.php:191
+msgid "Delete selected jobs"
+msgstr "Delete selected jobs"
+
+#: admin/view/import/import.php:224
+msgid "hourly"
+msgstr "hourly"
+
+#: admin/view/import/import.php:226
+msgid "twice daily"
+msgstr "twice daily"
+
+#: admin/view/import/import.php:228
+msgid "daily"
+msgstr "daily"
+
+#: admin/view/import/import.php:230
+msgid "once weekly"
+msgstr "once weekly"
+
+#: admin/view/import/import.php:235
+msgid "overwrites"
+msgstr "overwrites"
+
+#: admin/view/import/import.php:239
+msgid "ignores expired"
+msgstr "ignores expired"
+
+#: admin/view/import/import.php:243
+msgid "deletes obsolete"
+msgstr "deletes obsolete"
+
+#: admin/view/import/index.php:29
+msgid "Cronjob deleted"
+msgstr "Cronjob deleted"
+
+#: admin/view/import/index.php:31
+msgid "Unable to delete cronjob"
+msgstr "Unable to delete cronjob"
+
+#: admin/view/import/index.php:71 admin/view/import/index.php:90
+#, php-format
+msgid "%d event(s) imported. %d event(s) overwritten. %d event(s) removed."
+msgstr "%d event(s) imported. %d event(s) overwritten. %d event(s) removed."
+
+#: admin/view/import/index.php:73 admin/view/import/index.php:92
+msgid "Unable to import events"
+msgstr "Unable to import events"
+
+#: admin/view/import/index.php:114
+msgid "Invalid URL"
+msgstr "Invalid URL"
+
+#: admin/view/import/index.php:131
+msgid "Cronjob created"
+msgstr "Cronjob created"
+
+#: admin/view/import/index.php:133
+msgid "Unable to create cronjob"
+msgstr "Unable to create cronjob"
+
+#: admin/view/import/index.php:151
+msgid "Cronjobs deleted"
+msgstr "Cronjobs deleted"
+
+#: admin/view/import/index.php:153
+msgid "Unable to delete cronjobs"
+msgstr "Unable to delete cronjobs"
+
+#: admin/view/license/license.php:9
+msgid "Stachethemes Event Calendar - Product License"
+msgstr "Stachethemes Event Calendar - Product License"
+
+#: admin/view/license/license.php:24
+msgid "Deactivate License"
+msgstr "Deactivate License"
+
+#: admin/view/license/license.php:26
+msgid "Activate License"
+msgstr "Activate License"
+
+#: admin/view/license/license.php:32
+msgid "Connecting to server..."
+msgstr "Connecting to server..."
+
+#: admin/view/license/license.php:35
+msgid "Validating..."
+msgstr "Validating..."
+
+#: admin/view/license/license.php:39
+msgid "Deactivate"
+msgstr "Deactivate"
+
+#: admin/view/license/license.php:42
+msgid "Activate"
+msgstr "Activate"
+
+#: api/class.controller.php:215
+msgid "Embedding is disabled"
+msgstr "Embedding is disabled"
+
+#: front/class/class.submit-event.php:250
+msgid "A new event is awaiting your approval"
+msgstr "A new event is awaiting your approval"
+
+#: front/class/class.submit-event.php:252
+#, php-format
+msgid ""
+"A new event has been submitted by %s. \n"
+"\n"
+"To review the event visit %s"
+msgstr ""
+"A new event has been submitted by %s. \n"
+"\n"
+"To review the event visit %s"
+
+#: front/class/class.submit-event.php:273
+msgid "Your event has been submitted"
+msgstr "Your event has been submitted"
+
+#: front/class/class.submit-event.php:275
+msgid ""
+"Your event has been submitted and is awaiting review. You will be notified "
+"by email once your event is approved."
+msgstr ""
+"Your event has been submitted and is awaiting review. You will be notified "
+"by email once your event is approved."
+
+#: front/view/default.php:30 front/view/default.php:32
+#: front/view/single.php:136 front/view/single.php:138
+msgid "hours"
+msgstr "hours"
+
+#: front/view/default.php:33 front/view/single.php:139
+msgid "days"
+msgstr "days"
+
+#: front/view/default.php:34 front/view/single.php:140
+msgid "weeks"
+msgstr "weeks"
+
+#: front/view/default.php:38 front/view/single.php:144
+msgid "Remind me"
+msgstr "Remind me"
+
+#: front/view/embed/event.php:185
+msgid "Learn more"
+msgstr "Learn more"
+
+#: front/view/forms/create.form.inc.php:11
+msgid "Create an event"
+msgstr "Create an event"
+
+#: front/view/forms/create.form.inc.php:12
+msgid "Click to submit your own event"
+msgstr "Click to submit your own event"
+
+#: front/view/forms/create.form.inc.php:43
+msgid "Event Title"
+msgstr "Event Title"
+
+#: front/view/forms/create.form.inc.php:46
+msgid "Description (optional)"
+msgstr "Description (optional)"
+
+#: front/view/forms/create.form.inc.php:48
+msgid "Event Description"
+msgstr "Event Description"
+
+#: front/view/forms/create.form.inc.php:51
+msgid "Short Description (optional)"
+msgstr "Short Description (optional)"
+
+#: front/view/forms/create.form.inc.php:53
+msgid "Few words about your event shown on the tooltip"
+msgstr "Few words about your event shown on the tooltip"
+
+#: front/view/forms/create.form.inc.php:57
+msgid "Image (optional)"
+msgstr "Image (optional)"
+
+#: front/view/forms/create.form.inc.php:59
+msgid "Accepts jpeg and png files up to "
+msgstr "Accepts jpeg and png files up to "
+
+#: front/view/forms/create.form.inc.php:63
+msgid "Location (optional)"
+msgstr "Location (optional)"
+
+#: front/view/forms/create.form.inc.php:65
+msgid "Google maps location"
+msgstr "Google maps location"
+
+#: front/view/forms/create.form.inc.php:68
+msgid "Website URL (optional)"
+msgstr "Website URL (optional)"
+
+#: front/view/forms/create.form.inc.php:70
+msgid "URL Address"
+msgstr "URL Address"
+
+#: front/view/forms/create.form.inc.php:79
+msgid "-- Select Calendar --"
+msgstr "-- Select Calendar --"
+
+#: front/view/forms/create.form.inc.php:120
+msgid "Color. By default will use the calendar color"
+msgstr "Color. By default will use the calendar color"
+
+#: front/view/forms/create.form.inc.php:139
+msgid "From"
+msgstr "From"
+
+#: front/view/forms/create.form.inc.php:179
+msgid "To"
+msgstr "To"
+
+#: front/view/forms/create.form.inc.php:221
+msgid "Repeat Event"
+msgstr "Repeat Event"
+
+#: front/view/forms/create.form.inc.php:235
+msgid "Repeat gap"
+msgstr "Repeat gap"
+
+#: front/view/forms/create.form.inc.php:248
+msgid "Repeat by day"
+msgstr "Repeat by day"
+
+#: front/view/forms/create.form.inc.php:289
+msgid "Repeat Ends On"
+msgstr "Repeat Ends On"
+
+#: front/view/forms/create.form.inc.php:325
+msgid "Search Keywords"
+msgstr "Search Keywords"
+
+#: front/view/forms/create.form.inc.php:327
+msgid "Keywords separated by space"
+msgstr "Keywords separated by space"
+
+#: front/view/forms/create.form.inc.php:342
+msgid "Your E-mail"
+msgstr "Your E-mail"
+
+#: front/view/forms/create.form.inc.php:345
+msgid "Contact E-Mail"
+msgstr "Contact E-Mail"
+
+#: front/view/forms/create.form.inc.php:348
+msgid "Notes to the reviewer (optional)"
+msgstr "Notes to the reviewer (optional)"
+
+#: front/view/forms/create.form.inc.php:350
+msgid "Additional info visible to the reviewer only"
+msgstr "Additional info visible to the reviewer only"
+
+#: front/view/forms/create.form.inc.php:355
+msgid "Submit Event"
+msgstr "Submit Event"
+
+#: front/view/inc.top.php:13 front/view/single.php:634
+#: front/view/tabs/forecast.php:8
+msgid "Today"
+msgstr "Today"
+
+#: front/view/inc.top.php:23
+msgid "Search"
+msgstr "Search"
+
+#: front/view/inc.top.php:29
+msgid "Nothing found"
+msgstr "Nothing found"
+
+#: front/view/inc.top.php:94 front/view/inc.top.php:105
+#: install/settings/register-settings.php:219 vc-settings.php:32
+msgid "Agenda"
+msgstr "Agenda"
+
+#: front/view/inc.top.php:95 front/view/inc.top.php:106
+#: install/settings/register-settings.php:220 vc-settings.php:33
+msgid "Month"
+msgstr "Month"
+
+#: front/view/inc.top.php:96 front/view/inc.top.php:107
+#: install/settings/register-settings.php:221 vc-settings.php:34
+msgid "Week"
+msgstr "Week"
+
+#: front/view/inc.top.php:97 front/view/inc.top.php:108
+#: front/view/single.php:221 front/view/tabs/intro.php:37
+#: install/settings/register-settings.php:222 vc-settings.php:35
+msgid "Day"
+msgstr "Day"
+
+#: front/view/inc.top.php:98 front/view/inc.top.php:109
+#: install/settings/register-settings.php:223
+msgid "Grid"
+msgstr "Grid"
+
+#: front/view/layout.agenda.inc.php:42 front/view/layout.grid.inc.php:14
+msgid "Look for more"
+msgstr "Look for more"
+
+#: front/view/layout.day.inc.php:18
+msgid "You have no events for this day"
+msgstr "You have no events for this day"
+
+#: front/view/layout.event.inc.php:21 front/view/layout.grid.event.inc.php:19
+#: front/view/single.php:89
+msgid "(Edit event)"
+msgstr "(Edit event)"
+
+#: front/view/layout.event.inc.php:26 front/view/single.php:98
+#: front/view/single.php:112 languages/inc.js-locale.php:46
+msgid "Reminder"
+msgstr "Reminder"
+
+#: front/view/layout.grid.event.inc.php:13
+msgid "Invited"
+msgstr "Invited"
+
+#: front/view/layout.grid.event.inc.php:23 front/view/layout.tooltip.inc.php:21
+msgid "Expired"
+msgstr "Expired"
+
+#: front/view/layout.grid.event.inc.php:24 front/view/layout.tooltip.inc.php:22
+msgid "In Progress"
+msgstr "In Progress"
+
+#: front/view/layout.grid.inc.php:17
+msgid "You have no events"
+msgstr "You have no events"
+
+#: front/view/msg/error.php:10 front/view/msg/msg.php:10
+#: front/view/msg/success.php:10
+msgid "Calendar Notification"
+msgstr "Calendar Notification"
+
+#: front/view/popup/share.php:8
+msgid "Share event"
+msgstr "Share event"
+
+#: front/view/popup/share.php:12
+msgid "Permalink"
+msgstr "Permalink"
+
+#: front/view/popup/share.php:15 front/view/popup/share.php:23
+msgid "Copy to clipboard"
+msgstr "Copy to clipboard"
+
+#: front/view/popup/share.php:20
+msgid "Embed code"
+msgstr "Embed code"
+
+#: front/view/popup/share.php:26
+msgid "Width in pixels (Height will be calculated automatically)"
+msgstr "Width in pixels (Height will be calculated automatically)"
+
+#: front/view/single.php:117
+msgid "Close"
+msgstr "Close"
+
+#: front/view/single.php:133
+msgid "Time before"
+msgstr "Time before"
+
+#: front/view/single.php:213 front/view/tabs/intro.php:32
+msgid "Visit Website"
+msgstr "Visit Website"
+
+#: front/view/single.php:221 front/view/tabs/intro.php:37
+msgid "Days"
+msgstr "Days"
+
+#: front/view/single.php:225 front/view/tabs/intro.php:41
+msgid "Hours"
+msgstr "Hours"
+
+#: front/view/single.php:225 front/view/tabs/intro.php:41
+msgid "Hour"
+msgstr "Hour"
+
+#: front/view/single.php:229 front/view/tabs/intro.php:45
+msgid "Minutes"
+msgstr "Minutes"
+
+#: front/view/single.php:229 front/view/tabs/intro.php:45
+msgid "Minute"
+msgstr "Minute"
+
+#: front/view/single.php:233 front/view/tabs/intro.php:49
+msgid "Seconds"
+msgstr "Seconds"
+
+#: front/view/single.php:233 front/view/tabs/intro.php:49
+msgid "Second"
+msgstr "Second"
+
+#: front/view/single.php:239 front/view/tabs/intro.php:53
+msgid "Event expired"
+msgstr "Event expired"
+
+#: front/view/single.php:240 front/view/tabs/intro.php:54
+msgid "Event is in progress"
+msgstr "Event is in progress"
+
+#: front/view/single.php:252 front/view/single.php:718
+#: front/view/tabs/attendance.php:7 front/view/tabs/intro.php:57
+msgid "Attend"
+msgstr "Attend"
+
+#: front/view/single.php:258 front/view/single.php:726
+#: front/view/tabs/attendance.php:11 front/view/tabs/intro.php:58
+msgid "Decline"
+msgstr "Decline"
+
+#: front/view/single.php:290 front/view/tabs/intro.php:82
+msgid "Download"
+msgstr "Download"
+
+#: front/view/single.php:325 front/view/tabs/intro.php:112
+msgid "Export to .ICS file"
+msgstr "Export to .ICS file"
+
+#: front/view/single.php:331 front/view/tabs/intro.php:118
+msgid "Import to Google Calendar"
+msgstr "Import to Google Calendar"
+
+#: front/view/single.php:355
+msgid "Directions"
+msgstr "Directions"
+
+#: front/view/single.php:367 front/view/tabs/location.php:6
+msgid "Start Location"
+msgstr "Start Location"
+
+#: front/view/single.php:368 front/view/tabs/location.php:7
+msgid "Destination"
+msgstr "Destination"
+
+#: front/view/single.php:369 front/view/tabs/location.php:5
+#: front/view/tabs/location.php:8
+msgid "Get Directions"
+msgstr "Get Directions"
+
+#: front/view/single.php:370 front/view/tabs/location.php:9
+msgid "Could not find route!"
+msgstr "Could not find route!"
+
+#: front/view/single.php:412 inc/inc.tabs.php:52
+msgid "Shop"
+msgstr "Shop"
+
+#: front/view/single.php:422 front/view/single.php:664
+#: front/view/tabs/forecast.php:38 inc/inc.tabs.php:56
+msgid "Forecast"
+msgstr "Forecast"
+
+#: front/view/single.php:542 front/view/tabs/woocommerce.php:35
+msgid "Product"
+msgstr "Product"
+
+#: front/view/single.php:544 front/view/tabs/woocommerce.php:37
+msgid "Quantity"
+msgstr "Quantity"
+
+#: front/view/single.php:545 front/view/tabs/woocommerce.php:38
+msgid "Price"
+msgstr "Price"
+
+#: front/view/single.php:546 front/view/tabs/woocommerce.php:39
+msgid "Action"
+msgstr "Action"
+
+#: front/view/single.php:567 front/view/tabs/woocommerce.php:11
+msgid "featured"
+msgstr "featured"
+
+#: front/view/single.php:571 front/view/tabs/woocommerce.php:12
+msgid "sale"
+msgstr "sale"
+
+#: front/view/single.php:575 front/view/tabs/woocommerce.php:13
+msgid "out of stock"
+msgstr "out of stock"
+
+#: front/view/single.php:586 front/view/tabs/woocommerce.php:20
+msgid "QTY:"
+msgstr "QTY:"
+
+#: front/view/single.php:588 front/view/tabs/woocommerce.php:22
+msgid "PRICE:"
+msgstr "PRICE:"
+
+#: front/view/single.php:600 front/view/tabs/woocommerce.php:26
+msgid "Add to Cart"
+msgstr "Add to Cart"
+
+#: front/view/single.php:614 front/view/tabs/woocommerce.php:49
+msgid "Checkout"
+msgstr "Checkout"
+
+#: front/view/single.php:615 front/view/tabs/woocommerce.php:50
+msgid "View Cart"
+msgstr "View Cart"
+
+#: front/view/single.php:627 front/view/tabs/forecast.php:1
+msgid "Weather data is currently not available for this location"
+msgstr "Weather data is currently not available for this location"
+
+#: front/view/single.php:633 front/view/tabs/forecast.php:7
+msgid "Weather Report"
+msgstr "Weather Report"
+
+#: front/view/single.php:654 front/view/tabs/forecast.php:28
+#: languages/inc.js-locale.php:62
+msgid "Wind"
+msgstr "Wind"
+
+#: front/view/single.php:655 front/view/tabs/forecast.php:29
+msgid "Humidity"
+msgstr "Humidity"
+
+#: front/view/single.php:656 front/view/tabs/forecast.php:30
+msgid "Feels like"
+msgstr "Feels like"
+
+#: front/view/single.php:669 front/view/tabs/forecast.php:43
+msgid "Weather"
+msgstr "Weather"
+
+#: front/view/single.php:670 front/view/tabs/forecast.php:44
+msgid "Temp"
+msgstr "Temp"
+
+#: front/view/single.php:685 front/view/tabs/forecast.php:59
+msgid "Next 24 Hours"
+msgstr "Next 24 Hours"
+
+#: front/view/single.php:693 front/view/tabs/forecast.php:67
+msgid "Powered by"
+msgstr "Powered by"
+
+#: front/view/single.php:710 front/view/tabs/attendance.php:3
+msgid "You are invited to this event!"
+msgstr "You are invited to this event!"
+
+#: front/view/tabs/schedule.php:1
+msgid "No schedule"
+msgstr "No schedule"
+
+#: inc/inc.admin-ajax-public-task-handler.php:34
+#: inc/inc.admin-ajax-public-task-handler.php:60
+#: inc/inc.admin-ajax-public-task-handler.php:88
+msgid "Error occured"
+msgstr "Error occured"
+
+#: inc/inc.admin-ajax-public-task-handler.php:81
+msgid "Event created"
+msgstr "Event created"
+
+#: inc/inc.admin-ajax-task-handler.php:22
+msgid ""
+"License activator encountered an error. Make sure your purchase key is not "
+"activated somewhere else."
+msgstr ""
+"License activator encountered an error. Make sure your purchase key is not "
+"activated somewhere else."
+
+#: inc/inc.admin-ajax-task-handler.php:43
+msgid "Error activating license"
+msgstr "Error activating license"
+
+#: inc/inc.admin-ajax-task-handler.php:55
+msgid "License Activated"
+msgstr "License Activated"
+
+#: inc/inc.admin-ajax-task-handler.php:77
+msgid "Error deactivating license"
+msgstr "Error deactivating license"
+
+#: inc/inc.admin-ajax-task-handler.php:86
+msgid "License Deactivated"
+msgstr "License Deactivated"
+
+#: inc/inc.admin-menu.php:21
+msgid "Fonts & Colors"
+msgstr "Fonts & Colors"
+
+#: inc/inc.admin-menu.php:22 inc/inc.custom-posts.php:16
+msgid "Calendars"
+msgstr "Calendars"
+
+#: inc/inc.admin-menu.php:24 inc/inc.custom-posts.php:17
+msgid "Events"
+msgstr "Events"
+
+#: inc/inc.admin-menu.php:26
+msgid "Export Events"
+msgstr "Export Events"
+
+#: inc/inc.admin-menu.php:28 install/settings/register-settings.php:3247
+msgid "Cache"
+msgstr "Cache"
+
+#: inc/inc.admin-menu.php:29
+msgid "Backup Settings"
+msgstr "Backup Settings"
+
+#: inc/inc.admin-menu.php:30 stachethemes_event_calendar.php:98
+msgid "Activator"
+msgstr "Activator"
+
+#: inc/inc.admin-notices.php:29
+#, php-format
+msgid "You have %d new event awaiting approval!"
+msgstr "You have %d new event awaiting approval!"
+
+#: inc/inc.admin-notices.php:31
+#, php-format
+msgid "You have %d new events awaiting approval!"
+msgstr "You have %d new events awaiting approval!"
+
+#: inc/inc.cron.php:14
+msgid "Once Weekly"
+msgstr "Once Weekly"
+
+#: inc/inc.custom-posts.php:17
+msgid "Event"
+msgstr "Event"
+
+#: inc/inc.custom-posts.php:18
+msgid "Cron"
+msgstr "Cron"
+
+#: inc/inc.custom-posts.php:18
+msgid "Crons"
+msgstr "Crons"
+
+#: inc/inc.tabs.php:43
+msgid "Event Info"
+msgstr "Event Info"
+
+#: inc/inc.task-handler.php:28
+msgid "You have accepted event invitation"
+msgstr "You have accepted event invitation"
+
+#: inc/inc.task-handler.php:32
+msgid "You have declined event invitation"
+msgstr "You have declined event invitation"
+
+#: inc/inc.task-handler.php:93 inc/inc.task-handler.php:186
+msgid "Calendar does not exist"
+msgstr "Calendar does not exist"
+
+#: inc/inc.task-handler.php:97
+msgid "Unable to delete calendar. Check permissions."
+msgstr "Unable to delete calendar. Check permissions."
+
+#: inc/inc.task-handler.php:103
+msgid "Calendar deleted"
+msgstr "Calendar deleted"
+
+#: inc/inc.task-handler.php:105
+msgid "Unable to delete calendar"
+msgstr "Unable to delete calendar"
+
+#: inc/inc.task-handler.php:142
+msgid "File extension is not .stec"
+msgstr "File extension is not .stec"
+
+#: inc/inc.task-handler.php:150
+msgid "Settings Imported"
+msgstr "Settings Imported"
+
+#: inc/inc.task-handler.php:152
+msgid "Error importing settings"
+msgstr "Error importing settings"
+
+#: inc/inc.task-handler.php:180 inc/inc.task-handler.php:232
+msgid "Calendar has no title"
+msgstr "Calendar has no title"
+
+#: inc/inc.task-handler.php:190
+msgid "Unable to update calendar. Check permissions."
+msgstr "Unable to update calendar. Check permissions."
+
+#: inc/inc.task-handler.php:205
+msgid "Calendar updated"
+msgstr "Calendar updated"
+
+#: inc/inc.task-handler.php:207
+msgid "Unable to update calendar"
+msgstr "Unable to update calendar"
+
+#: inc/inc.task-handler.php:248
+msgid "Calendar created"
+msgstr "Calendar created"
+
+#: inc/inc.task-handler.php:250
+msgid "Unable to create new calendar"
+msgstr "Unable to create new calendar"
+
+#: inc/inc.task-handler.php:270
+msgid "Calendars deleted"
+msgstr "Calendars deleted"
+
+#: inc/inc.task-handler.php:272
+msgid "Unable to delete calendars"
+msgstr "Unable to delete calendars"
+
+#: install/settings/register-settings.php:14
+msgid "Enter your purchase key below"
+msgstr "Enter your purchase key below"
+
+#: install/settings/register-settings.php:31
+msgid "First day of the week"
+msgstr "First day of the week"
+
+#: install/settings/register-settings.php:49
+msgid "Date Format"
+msgstr "Date Format"
+
+#: install/settings/register-settings.php:56
+msgid "YYYY-MM-DD"
+msgstr "YYYY-MM-DD"
+
+#: install/settings/register-settings.php:57
+msgid "DD-MM-YYYY"
+msgstr "DD-MM-YYYY"
+
+#: install/settings/register-settings.php:58
+msgid "MM-DD-YYYY"
+msgstr "MM-DD-YYYY"
+
+#: install/settings/register-settings.php:59
+msgid "DD.MM.YYYY"
+msgstr "DD.MM.YYYY"
+
+#: install/settings/register-settings.php:68
+msgid "Display Date 'GMT/UTC'"
+msgstr "Display Date 'GMT/UTC'"
+
+#: install/settings/register-settings.php:75
+#: install/settings/register-settings.php:240
+#: install/settings/register-settings.php:257
+#: install/settings/register-settings.php:274
+#: install/settings/register-settings.php:291
+#: install/settings/register-settings.php:368
+#: install/settings/register-settings.php:385
+#: install/settings/register-settings.php:487 vc-settings.php:46
+#: vc-settings.php:58 vc-settings.php:70 vc-settings.php:82 vc-settings.php:94
+#: vc-settings.php:106 vc-settings.php:118
+msgid "Hide"
+msgstr "Hide"
+
+#: install/settings/register-settings.php:85
+msgid "Display date in user local time"
+msgstr "Display date in user local time"
+
+#: install/settings/register-settings.php:102
+msgid "Time Format"
+msgstr "Time Format"
+
+#: install/settings/register-settings.php:109
+msgid "12 Hours"
+msgstr "12 Hours"
+
+#: install/settings/register-settings.php:110
+msgid "24 Hours"
+msgstr "24 Hours"
+
+#: install/settings/register-settings.php:119
+msgid "Weather API Key"
+msgstr "Weather API Key"
+
+#: install/settings/register-settings.php:132
+msgid "Weather temperature units"
+msgstr "Weather temperature units"
+
+#: install/settings/register-settings.php:139
+msgid "Celsius"
+msgstr "Celsius"
+
+#: install/settings/register-settings.php:140
+msgid "Fahrenheit"
+msgstr "Fahrenheit"
+
+#: install/settings/register-settings.php:149
+msgid "Weather wind units"
+msgstr "Weather wind units"
+
+#: install/settings/register-settings.php:156
+msgid "MPH"
+msgstr "MPH"
+
+#: install/settings/register-settings.php:157
+msgid "KPH"
+msgstr "KPH"
+
+#: install/settings/register-settings.php:167
+msgid "Google Maps API Key"
+msgstr "Google Maps API Key"
+
+#: install/settings/register-settings.php:180
+msgid "Disqus Shortname"
+msgstr "Disqus Shortname"
+
+#: install/settings/register-settings.php:194
+msgid "Reminder feature"
+msgstr "Reminder feature"
+
+#: install/settings/register-settings.php:212 vc-settings.php:28
+msgid "Default View"
+msgstr "Default View"
+
+#: install/settings/register-settings.php:233 vc-settings.php:41
+msgid "Top Menu"
+msgstr "Top Menu"
+
+#: install/settings/register-settings.php:250 vc-settings.php:53
+msgid "Different Views Buttons"
+msgstr "Different Views Buttons"
+
+#: install/settings/register-settings.php:267 vc-settings.php:65
+msgid "Search Button"
+msgstr "Search Button"
+
+#: install/settings/register-settings.php:284 vc-settings.php:77
+msgid "Calendar Filter Button"
+msgstr "Calendar Filter Button"
+
+#: install/settings/register-settings.php:301
+msgid "Show event title on all cells"
+msgstr "Show event title on all cells"
+
+#: install/settings/register-settings.php:318
+msgid "Auto-focus event"
+msgstr "Auto-focus event"
+
+#: install/settings/register-settings.php:335
+msgid "Auto-focus event offset (- / +) px"
+msgstr "Auto-focus event offset (- / +) px"
+
+#: install/settings/register-settings.php:348
+msgid "Agenda events limit per click"
+msgstr "Agenda events limit per click"
+
+#: install/settings/register-settings.php:361 vc-settings.php:89
+msgid "Agenda Calendar Display"
+msgstr "Agenda Calendar Display"
+
+#: install/settings/register-settings.php:378
+msgid "Agenda List Display"
+msgstr "Agenda List Display"
+
+#: install/settings/register-settings.php:395
+msgid "Agenda List Order"
+msgstr "Agenda List Order"
+
+#: install/settings/register-settings.php:402
+msgid "Ascending"
+msgstr "Ascending"
+
+#: install/settings/register-settings.php:403
+msgid "Descending"
+msgstr "Descending"
+
+#: install/settings/register-settings.php:412 vc-settings.php:101
+msgid "Event Tooltip"
+msgstr "Event Tooltip"
+
+#: install/settings/register-settings.php:429 vc-settings.php:113
+msgid "Display \"Create an event\" form"
+msgstr "Display \"Create an event\" form"
+
+#: install/settings/register-settings.php:446
+msgid "Allow creating expired events (front-end) "
+msgstr "Allow creating expired events (front-end) "
+
+#: install/settings/register-settings.php:463
+msgid "Allow export event from front-end"
+msgstr "Allow export event from front-end"
+
+#: install/settings/register-settings.php:480
+msgid "Social Share Links"
+msgstr "Social Share Links"
+
+#: install/settings/register-settings.php:497
+msgid "Allow embedding"
+msgstr "Allow embedding"
+
+#: install/settings/register-settings.php:514
+msgid "Open events in"
+msgstr "Open events in"
+
+#: install/settings/register-settings.php:522
+msgid "Single Page"
+msgstr "Single Page"
+
+#: install/settings/register-settings.php:532
+msgid "Use Captcha"
+msgstr "Use Captcha"
+
+#: install/settings/register-settings.php:548
+msgid "Site Key"
+msgstr "Site Key"
+
+#: install/settings/register-settings.php:560
+msgid "Secret Key"
+msgstr "Secret Key"
+
+#: install/settings/register-settings.php:572
+msgid "Load google maps script."
+msgstr "Load google maps script."
+
+#: install/settings/register-settings.php:588
+msgid "Load jQuery UI style"
+msgstr "Load jQuery UI style"
+
+#: install/settings/register-settings.php:604
+msgid "Load Chart.js"
+msgstr "Load Chart.js"
+
+#: install/settings/register-settings.php:620
+msgid "Load Moment.js"
+msgstr "Load Moment.js"
+
+#: install/settings/register-settings.php:636
+msgid "Load jQuery Mobile"
+msgstr "Load jQuery Mobile"
+
+#: install/settings/register-settings.php:652
+msgid "Force load calendar scripts"
+msgstr "Force load calendar scripts"
+
+#: install/settings/register-settings.php:673
+msgid "Button text color & text hover color"
+msgstr "Button text color & text hover color"
+
+#: install/settings/register-settings.php:707
+#: install/settings/register-settings.php:742
+msgid "Button text background color & background hover color"
+msgstr "Button text background color & background hover color"
+
+#: install/settings/register-settings.php:784
+msgid "Dropdown menu background color & background hover color"
+msgstr "Dropdown menu background color & background hover color"
+
+#: install/settings/register-settings.php:825
+msgid "Search form background and text color"
+msgstr "Search form background and text color"
+
+#: install/settings/register-settings.php:855
+msgid "Top navigation Font, Weight and Size"
+msgstr "Top navigation Font, Weight and Size"
+
+#: install/settings/register-settings.php:881
+#: install/settings/register-settings.php:1203
+#: install/settings/register-settings.php:1502
+#: install/settings/register-settings.php:1760
+#: install/settings/register-settings.php:1814
+#: install/settings/register-settings.php:2257
+#: install/settings/register-settings.php:3024
+#: install/settings/register-settings.php:3220
+msgid "Add !important rule"
+msgstr "Add !important rule"
+
+#: install/settings/register-settings.php:896
+msgid "Agenda month start cell background, month text color, year text color"
+msgstr "Agenda month start cell background, month text color, year text color"
+
+#: install/settings/register-settings.php:930
+msgid "Agenda cell background, hover color and active color"
+msgstr "Agenda cell background, hover color and active color"
+
+#: install/settings/register-settings.php:963
+msgid ""
+"Agenda day label text color, date color, text active color, text today color"
+msgstr ""
+"Agenda day label text color, date color, text active color, text today color"
+
+#: install/settings/register-settings.php:1008
+msgid "Agenda list date title color"
+msgstr "Agenda list date title color"
+
+#: install/settings/register-settings.php:1021
+#: install/settings/register-settings.php:1562
+msgid ""
+"\"Look for more\" button background color, text color, hover background "
+"color, text hover color"
+msgstr ""
+"\"Look for more\" button background color, text color, hover background "
+"color, text hover color"
+
+#: install/settings/register-settings.php:1065
+#: install/settings/register-settings.php:1684
+msgid "\"Look for more\" button Font, Weight and Size"
+msgstr "\"Look for more\" button Font, Weight and Size"
+
+#: install/settings/register-settings.php:1088
+msgid "Agenda month start cell \"Year\" Font, Weight and Size"
+msgstr "Agenda month start cell \"Year\" Font, Weight and Size"
+
+#: install/settings/register-settings.php:1111
+msgid "Agenda month start cell \"Month\" Font, Weight and Size"
+msgstr "Agenda month start cell \"Month\" Font, Weight and Size"
+
+#: install/settings/register-settings.php:1134
+msgid "Daylabel Font, Weight and Size"
+msgstr "Daylabel Font, Weight and Size"
+
+#: install/settings/register-settings.php:1157
+#: install/settings/register-settings.php:2157
+msgid "Date Font, Weight and Size"
+msgstr "Date Font, Weight and Size"
+
+#: install/settings/register-settings.php:1180
+msgid "Agenda list date title Font, Weight and Size"
+msgstr "Agenda list date title Font, Weight and Size"
+
+#: install/settings/register-settings.php:1219
+msgid "Day labels background, text color, today text color"
+msgstr "Day labels background, text color, today text color"
+
+#: install/settings/register-settings.php:1261
+msgid "Grid cells background color, hover color and active color"
+msgstr "Grid cells background color, hover color and active color"
+
+#: install/settings/register-settings.php:1305
+msgid "Grid date text color and active color"
+msgstr "Grid date text color and active color"
+
+#: install/settings/register-settings.php:1336
+msgid "Today date background and text color"
+msgstr "Today date background and text color"
+
+#: install/settings/register-settings.php:1365
+msgid "Inactive cell background and date text color"
+msgstr "Inactive cell background and date text color"
+
+#: install/settings/register-settings.php:1395
+msgid "Event name text color dark, text color bright"
+msgstr "Event name text color dark, text color bright"
+
+#: install/settings/register-settings.php:1428
+msgid "Day label Font, Weight and Size"
+msgstr "Day label Font, Weight and Size"
+
+#: install/settings/register-settings.php:1452
+msgid "Grid cell date Font, Weight and Size"
+msgstr "Grid cell date Font, Weight and Size"
+
+#: install/settings/register-settings.php:1476
+msgid "Event name text Font, Weight and Size"
+msgstr "Event name text Font, Weight and Size"
+
+#: install/settings/register-settings.php:1519
+msgid "Grid background color, Title Color, Text Color"
+msgstr "Grid background color, Title Color, Text Color"
+
+#: install/settings/register-settings.php:1520
+msgid "Grid background color"
+msgstr "Grid background color"
+
+#: install/settings/register-settings.php:1535
+msgid "Title color"
+msgstr "Title color"
+
+#: install/settings/register-settings.php:1550
+msgid "Text color"
+msgstr "Text color"
+
+#: install/settings/register-settings.php:1565
+msgid "Button background color"
+msgstr "Button background color"
+
+#: install/settings/register-settings.php:1577
+msgid "Button text color"
+msgstr "Button text color"
+
+#: install/settings/register-settings.php:1588
+msgid "Button background hover color"
+msgstr "Button background hover color"
+
+#: install/settings/register-settings.php:1599
+msgid "Button text hover color"
+msgstr "Button text hover color"
+
+#: install/settings/register-settings.php:1610
+#: install/settings/register-settings.php:2660
+msgid "Title Font, Weight and Size"
+msgstr "Title Font, Weight and Size"
+
+#: install/settings/register-settings.php:1633
+msgid "Short Description Font, Weight and Size"
+msgstr "Short Description Font, Weight and Size"
+
+#: install/settings/register-settings.php:1658
+msgid "Text Font, Weight and Size"
+msgstr "Text Font, Weight and Size"
+
+#: install/settings/register-settings.php:1707
+msgid "Grid columns"
+msgstr "Grid columns"
+
+#: install/settings/register-settings.php:1720
+msgid "Grid gutter (px)"
+msgstr "Grid gutter (px)"
+
+#: install/settings/register-settings.php:1733
+msgid "Events per click"
+msgstr "Events per click"
+
+#: install/settings/register-settings.php:1748
+msgid "Grid border"
+msgstr "Grid border"
+
+#: install/settings/register-settings.php:1776
+msgid "Misc text color"
+msgstr "Misc text color"
+
+#: install/settings/register-settings.php:1791
+msgid "Misc text Font, Weight and Size"
+msgstr "Misc text Font, Weight and Size"
+
+#: install/settings/register-settings.php:1829
+msgid "Background color, Background hover color"
+msgstr "Background color, Background hover color"
+
+#: install/settings/register-settings.php:1865
+msgid "Title color, Date color"
+msgstr "Title color, Date color"
+
+#: install/settings/register-settings.php:1895
+msgid "Reminder button icon/text color and icon/text hover color"
+msgstr "Reminder button icon/text color and icon/text hover color"
+
+#: install/settings/register-settings.php:1930
+msgid "Expand button icon color and icon hover color"
+msgstr "Expand button icon color and icon hover color"
+
+#: install/settings/register-settings.php:1969
+msgid "Reminder menu background, input background, input text color"
+msgstr "Reminder menu background, input background, input text color"
+
+#: install/settings/register-settings.php:2005
+msgid ""
+"Remind me button background, text color, background hover color and text "
+"hover color"
+msgstr ""
+"Remind me button background, text color, background hover color and text "
+"hover color"
+
+#: install/settings/register-settings.php:2048
+msgid ""
+"Reminder dropdown background color, text color, background hover color, text "
+"hover color"
+msgstr ""
+"Reminder dropdown background color, text color, background hover color, text "
+"hover color"
+
+#: install/settings/register-settings.php:2100
+msgid "Featured tag background color, text color"
+msgstr "Featured tag background color, text color"
+
+#: install/settings/register-settings.php:2131
+msgid "Title Font, Weight, Size and Line-Height"
+msgstr "Title Font, Weight, Size and Line-Height"
+
+#: install/settings/register-settings.php:2182
+msgid "Reminder Font, Weight and Size"
+msgstr "Reminder Font, Weight and Size"
+
+#: install/settings/register-settings.php:2208
+msgid "Reminder mobile button Font, Weight and Size"
+msgstr "Reminder mobile button Font, Weight and Size"
+
+#: install/settings/register-settings.php:2233
+msgid "Featured tag Font, Weight and Size"
+msgstr "Featured tag Font, Weight and Size"
+
+#: install/settings/register-settings.php:2271
+msgid ""
+"Tab background color and text color, background active color, text active "
+"color"
+msgstr ""
+"Tab background color and text color, background active color, text active "
+"color"
+
+#: install/settings/register-settings.php:2316
+msgid "Wrapper Background Color"
+msgstr "Wrapper Background Color"
+
+#: install/settings/register-settings.php:2329
+msgid ""
+"Buttons background color, buttons text color, background hover color, text "
+"hover color"
+msgstr ""
+"Buttons background color, buttons text color, background hover color, text "
+"hover color"
+
+#: install/settings/register-settings.php:2380
+msgid ""
+"Secondary buttons background color, border color, text color, background "
+"hover color, border hover color, text hover color"
+msgstr ""
+"Secondary buttons background color, border color, text color, background "
+"hover color, border hover color, text hover color"
+
+#: install/settings/register-settings.php:2455
+msgid ""
+"Titles text color, secondary titles text color, normal text color, links "
+"text color, links text hover color"
+msgstr ""
+"Titles text color, secondary titles text color, normal text color, links "
+"text color, links text hover color"
+
+#: install/settings/register-settings.php:2510
+msgid "Input background color, text color"
+msgstr "Input background color, text color"
+
+#: install/settings/register-settings.php:2533
+msgid "Counter numbers color, text color"
+msgstr "Counter numbers color, text color"
+
+#: install/settings/register-settings.php:2558
+msgid "Schedule Title text color, Date text color"
+msgstr "Schedule Title text color, Date text color"
+
+#: install/settings/register-settings.php:2559
+msgid "Schedule title text color"
+msgstr "Schedule title text color"
+
+#: install/settings/register-settings.php:2571
+msgid "Schedule date text color"
+msgstr "Schedule date text color"
+
+#: install/settings/register-settings.php:2585
+msgid ""
+"Forecast section titles color, Summary text color, Today temperature text "
+"color, Table header background, General text color"
+msgstr ""
+"Forecast section titles color, Summary text color, Today temperature text "
+"color, Table header background, General text color"
+
+#: install/settings/register-settings.php:2586
+msgid "Forecast section titles color"
+msgstr "Forecast section titles color"
+
+#: install/settings/register-settings.php:2601
+msgid "Summary text color"
+msgstr "Summary text color"
+
+#: install/settings/register-settings.php:2614
+msgid "Today temperature text color"
+msgstr "Today temperature text color"
+
+#: install/settings/register-settings.php:2627
+msgid "Table header background"
+msgstr "Table header background"
+
+#: install/settings/register-settings.php:2640
+msgid "General text color"
+msgstr "General text color"
+
+#: install/settings/register-settings.php:2681
+msgid "Secondary Title Font, Weight and Size"
+msgstr "Secondary Title Font, Weight and Size"
+
+#: install/settings/register-settings.php:2705
+msgid "Buttons Font, Weight and Size"
+msgstr "Buttons Font, Weight and Size"
+
+#: install/settings/register-settings.php:2727
+msgid "Secondary buttons Font, Weight and Size"
+msgstr "Secondary buttons Font, Weight and Size"
+
+#: install/settings/register-settings.php:2749
+msgid "Normal text Font, Weight, Size and Line-Height"
+msgstr "Normal text Font, Weight, Size and Line-Height"
+
+#: install/settings/register-settings.php:2775
+msgid "Event counter numbers Font, Weight and Size"
+msgstr "Event counter numbers Font, Weight and Size"
+
+#: install/settings/register-settings.php:2797
+msgid "Event counter text Font, Weight and Size"
+msgstr "Event counter text Font, Weight and Size"
+
+#: install/settings/register-settings.php:2820
+#: install/settings/register-settings.php:2821
+msgid "Schedule Title Font, Weight and Size"
+msgstr "Schedule Title Font, Weight and Size"
+
+#: install/settings/register-settings.php:2842
+#: install/settings/register-settings.php:2843
+msgid "Schedule date Font, Weight and Size"
+msgstr "Schedule date Font, Weight and Size"
+
+#: install/settings/register-settings.php:2865
+msgid "Forecast section titles Font, Weight and Size"
+msgstr "Forecast section titles Font, Weight and Size"
+
+#: install/settings/register-settings.php:2891
+msgid "Forecast Summary Font, Weight and Size "
+msgstr "Forecast Summary Font, Weight and Size "
+
+#: install/settings/register-settings.php:2892
+msgid "Forecast Summary Font, Weight and Size"
+msgstr "Forecast Summary Font, Weight and Size"
+
+#: install/settings/register-settings.php:2913
+#: install/settings/register-settings.php:2914
+msgid "Forecast Today temperature Font, Weight and Size"
+msgstr "Forecast Today temperature Font, Weight and Size"
+
+#: install/settings/register-settings.php:2935
+#: install/settings/register-settings.php:2936
+msgid "Forecast Table header Font, Weight and Size"
+msgstr "Forecast Table header Font, Weight and Size"
+
+#: install/settings/register-settings.php:2957
+#: install/settings/register-settings.php:2958
+msgid "Forecast General text Font, Weight and Size"
+msgstr "Forecast General text Font, Weight and Size"
+
+#: install/settings/register-settings.php:2987
+msgid "Event info title and text align"
+msgstr "Event info title and text align"
+
+#: install/settings/register-settings.php:2994
+#: install/settings/register-settings.php:3011
+msgid "Left"
+msgstr "Left"
+
+#: install/settings/register-settings.php:2995
+#: install/settings/register-settings.php:3012
+msgid "Center"
+msgstr "Center"
+
+#: install/settings/register-settings.php:2996
+#: install/settings/register-settings.php:3013
+msgid "Right"
+msgstr "Right"
+
+#: install/settings/register-settings.php:3039
+msgid "Title Color, Text Color, Background Color"
+msgstr "Title Color, Text Color, Background Color"
+
+#: install/settings/register-settings.php:3078
+msgid "Counter Text Color & Background Color"
+msgstr "Counter Text Color & Background Color"
+
+#: install/settings/register-settings.php:3102
+msgid "Expired Text Color & Background Color"
+msgstr "Expired Text Color & Background Color"
+
+#: install/settings/register-settings.php:3126
+msgid "In Progress Text Color & Background Color"
+msgstr "In Progress Text Color & Background Color"
+
+#: install/settings/register-settings.php:3151
+msgid "Title Font"
+msgstr "Title Font"
+
+#: install/settings/register-settings.php:3172
+msgid "Text Font"
+msgstr "Text Font"
+
+#: install/settings/register-settings.php:3197
+msgid "Status and Counter Font"
+msgstr "Status and Counter Font"
+
+#: languages/inc.js-locale.php:4
+msgid "january"
+msgstr "january"
+
+#: languages/inc.js-locale.php:5
+msgid "february"
+msgstr "february"
+
+#: languages/inc.js-locale.php:6
+msgid "march"
+msgstr "march"
+
+#: languages/inc.js-locale.php:7
+msgid "april"
+msgstr "april"
+
+#: languages/inc.js-locale.php:8 languages/inc.js-locale.php:20
+msgid "may"
+msgstr "may"
+
+#: languages/inc.js-locale.php:9
+msgid "june"
+msgstr "june"
+
+#: languages/inc.js-locale.php:10
+msgid "july"
+msgstr "july"
+
+#: languages/inc.js-locale.php:11
+msgid "august"
+msgstr "august"
+
+#: languages/inc.js-locale.php:12
+msgid "september"
+msgstr "september"
+
+#: languages/inc.js-locale.php:13
+msgid "october"
+msgstr "october"
+
+#: languages/inc.js-locale.php:14
+msgid "november"
+msgstr "november"
+
+#: languages/inc.js-locale.php:15
+msgid "december"
+msgstr "december"
+
+#: languages/inc.js-locale.php:16
+msgid "jan"
+msgstr "jan"
+
+#: languages/inc.js-locale.php:17
+msgid "feb"
+msgstr "feb"
+
+#: languages/inc.js-locale.php:18
+msgid "mar"
+msgstr "mar"
+
+#: languages/inc.js-locale.php:19
+msgid "apr"
+msgstr "apr"
+
+#: languages/inc.js-locale.php:21
+msgid "jun"
+msgstr "jun"
+
+#: languages/inc.js-locale.php:22
+msgid "jul"
+msgstr "jul"
+
+#: languages/inc.js-locale.php:23
+msgid "aug"
+msgstr "aug"
+
+#: languages/inc.js-locale.php:24
+msgid "sep"
+msgstr "sep"
+
+#: languages/inc.js-locale.php:25
+msgid "oct"
+msgstr "oct"
+
+#: languages/inc.js-locale.php:26
+msgid "nov"
+msgstr "nov"
+
+#: languages/inc.js-locale.php:27
+msgid "dec"
+msgstr "dec"
+
+#: languages/inc.js-locale.php:28
+msgid "sunday"
+msgstr "sunday"
+
+#: languages/inc.js-locale.php:29
+msgid "monday"
+msgstr "monday"
+
+#: languages/inc.js-locale.php:30
+msgid "tuesday"
+msgstr "tuesday"
+
+#: languages/inc.js-locale.php:31
+msgid "wednesday"
+msgstr "wednesday"
+
+#: languages/inc.js-locale.php:32
+msgid "thursday"
+msgstr "thursday"
+
+#: languages/inc.js-locale.php:33
+msgid "friday"
+msgstr "friday"
+
+#: languages/inc.js-locale.php:34
+msgid "saturday"
+msgstr "saturday"
+
+#: languages/inc.js-locale.php:35
+msgid "sun"
+msgstr "sun"
+
+#: languages/inc.js-locale.php:36
+msgid "mon"
+msgstr "mon"
+
+#: languages/inc.js-locale.php:37
+msgid "tue"
+msgstr "tue"
+
+#: languages/inc.js-locale.php:38
+msgid "wed"
+msgstr "wed"
+
+#: languages/inc.js-locale.php:39
+msgid "thu"
+msgstr "thu"
+
+#: languages/inc.js-locale.php:40
+msgid "fri"
+msgstr "fri"
+
+#: languages/inc.js-locale.php:41
+msgid "sat"
+msgstr "sat"
+
+#: languages/inc.js-locale.php:43
+msgid "Featured Events"
+msgstr "Featured Events"
+
+#: languages/inc.js-locale.php:44
+msgid "Select All"
+msgstr "Select All"
+
+#: languages/inc.js-locale.php:47 languages/inc.js-locale.php:52
+msgid "Error"
+msgstr "Error"
+
+#: languages/inc.js-locale.php:48
+msgid "Setting"
+msgstr "Setting"
+
+#: languages/inc.js-locale.php:49
+msgid "Reminder Set"
+msgstr "Reminder Set"
+
+#: languages/inc.js-locale.php:51
+msgid "Deleting"
+msgstr "Deleting"
+
+#: languages/inc.js-locale.php:53
+msgid "Deleted"
+msgstr "Deleted"
+
+#: languages/inc.js-locale.php:55
+msgid "Humidity %"
+msgstr "Humidity %"
+
+#: languages/inc.js-locale.php:56
+msgid "Rain Chance %"
+msgstr "Rain Chance %"
+
+#: languages/inc.js-locale.php:57
+msgid "Temperature"
+msgstr "Temperature"
+
+#: languages/inc.js-locale.php:58
+msgid "Clear Sky"
+msgstr "Clear Sky"
+
+#: languages/inc.js-locale.php:59
+msgid "Rain"
+msgstr "Rain"
+
+#: languages/inc.js-locale.php:60
+msgid "Snow"
+msgstr "Snow"
+
+#: languages/inc.js-locale.php:61
+msgid "Sleet"
+msgstr "Sleet"
+
+#: languages/inc.js-locale.php:63
+msgid "Fog"
+msgstr "Fog"
+
+#: languages/inc.js-locale.php:64
+msgid "Cloudy"
+msgstr "Cloudy"
+
+#: languages/inc.js-locale.php:65
+msgid "Partly Cloudy"
+msgstr "Partly Cloudy"
+
+#: languages/inc.js-locale.php:67
+msgid "N"
+msgstr "N"
+
+#: languages/inc.js-locale.php:68
+msgid "NNE"
+msgstr "NNE"
+
+#: languages/inc.js-locale.php:69
+msgid "NE"
+msgstr "NE"
+
+#: languages/inc.js-locale.php:70
+msgid "ENE"
+msgstr "ENE"
+
+#: languages/inc.js-locale.php:71
+msgid "E"
+msgstr "E"
+
+#: languages/inc.js-locale.php:72
+msgid "ESE"
+msgstr "ESE"
+
+#: languages/inc.js-locale.php:73
+msgid "SE"
+msgstr "SE"
+
+#: languages/inc.js-locale.php:74
+msgid "SSE"
+msgstr "SSE"
+
+#: languages/inc.js-locale.php:75
+msgid "S (South)"
+msgstr "S (South)"
+
+#: languages/inc.js-locale.php:76
+msgid "SSW"
+msgstr "SSW"
+
+#: languages/inc.js-locale.php:77
+msgid "SW"
+msgstr "SW"
+
+#: languages/inc.js-locale.php:78
+msgid "WSW"
+msgstr "WSW"
+
+#: languages/inc.js-locale.php:79
+msgid "W"
+msgstr "W"
+
+#: languages/inc.js-locale.php:80
+msgid "WNW"
+msgstr "WNW"
+
+#: languages/inc.js-locale.php:81
+msgid "NW"
+msgstr "NW"
+
+#: languages/inc.js-locale.php:82
+msgid "NNW"
+msgstr "NNW"
+
+#: languages/inc.js-locale.php:83
+msgid "D (Days)"
+msgstr "D"
+
+#: languages/inc.js-locale.php:84
+msgid "H (Hours)"
+msgstr "H"
+
+#: languages/inc.js-locale.php:85
+msgid "M (Minutes)"
+msgstr "M"
+
+# S - Seconds
+#: languages/inc.js-locale.php:86
+msgid "S (Seconds)"
+msgstr "S"
+
+# +1 More
+#: languages/inc.js-locale.php:87
+msgid "More (singular)"
+msgstr "More"
+
+# +2,3,4, etc More
+#: languages/inc.js-locale.php:88
+msgid "More (plural)"
+msgstr "More"
+
+#: languages/inc.js-locale.php:90
+msgid "Link copied to clipboard"
+msgstr "Link copied to clipboard"
+
+#: migrate/ajax_handler.php:27 migrate/handler.php:32
+msgid "Database migrated successfully!"
+msgstr "Database migrated successfully!"
+
+#: migrate/display.php:17
+msgid "Stachethemes Event Calendar - Migrate"
+msgstr "Stachethemes Event Calendar - Migrate"
+
+#: migrate/display.php:19
+msgid "Click \"migrate\" to start transfering your events to the new database."
+msgstr ""
+"Click \"migrate\" to start transfering your events to the new database."
+
+#: migrate/display.php:24 migrate/index.php:38
+msgid "Migrate"
+msgstr "Migrate"
+
+#: migrate/display.php:25
+msgid "Forget"
+msgstr "Forget"
+
+#: migrate/handler.php:40
+msgid "Error migrating database!"
+msgstr "Error migrating database!"
+
+#: migrate/handler.php:59
+msgid "Old database has been forgotten!"
+msgstr "Old database has been forgotten!"
+
+#: migrate/index.php:46
+msgid "Stachethemes Event Calendar database migrated successfully!"
+msgstr "Stachethemes Event Calendar database migrated successfully!"
+
+#: shortcodes/stachethemes_ec_export.php:15
+msgid "Export calendar"
+msgstr "Export calendar"
+
+#: stachethemes_event_calendar.php:96
+msgid "Codecanyon"
+msgstr "Codecanyon"
+
+#: stachethemes_event_calendar.php:97
+msgid "Support"
+msgstr "Support"
+
+#: updater/display.php:15
+msgid "Stachethemes Event Calendar - Updater"
+msgstr "Stachethemes Event Calendar - Updater"
+
+#: updater/display.php:17
+#, php-format
+msgid "Currently installed version is %s"
+msgstr "Currently installed version is %s"
+
+#: updater/display.php:21
+msgid "Check for updates"
+msgstr "Check for updates"
+
+#: updater/display.php:22
+msgid "Download & Install"
+msgstr "Download & Install"
+
+#: updater/handler.php:21
+msgid "Invalid nonce"
+msgstr "Invalid nonce"
+
+#: updater/handler.php:62
+msgid "Invalid purchase code!"
+msgstr "Invalid purchase code!"
+
+#: updater/handler.php:72
+msgid "Unauthorized!"
+msgstr "Unauthorized!"
+
+#: updater/handler.php:76
+msgid "File not found!"
+msgstr "File not found!"
+
+#: updater/handler.php:84 updater/handler.php:131
+msgid "Unable to connect to the file system. Check your credentials."
+msgstr "Unable to connect to the file system. Check your credentials."
+
+#: updater/handler.php:99
+msgid "Unable to save update"
+msgstr "Unable to save update"
+
+#: updater/handler.php:140
+msgid "File not found."
+msgstr "File not found."
+
+#: updater/handler.php:159
+msgid "Unable to extract archive."
+msgstr "Unable to extract archive."
+
+#: updater/index.php:37
+msgid "Stachethemes Event Calendar updated successfully!"
+msgstr "Stachethemes Event Calendar updated successfully!"
+
+#: vc-settings.php:12
+msgid "Event Calendar by Stachethemes"
+msgstr "Event Calendar by Stachethemes"
+
+#: vc-settings.php:21
+msgid "Calendar ID#"
+msgstr "Calendar ID#"
+
+#: vc-settings.php:24
+msgid "Display only selected calendars (optional). Example: 1,2,3,4"
+msgstr "Display only selected calendars (optional). Example: 1,2,3,4"
+
+#: vc-settings.php:37
+msgid "Default calendar view"
+msgstr "Default calendar view"
+
+#: vc-settings.php:45 vc-settings.php:57 vc-settings.php:69 vc-settings.php:81
+#: vc-settings.php:93 vc-settings.php:105 vc-settings.php:117
+msgid "Default"
+msgstr "Default"
+
+#: vc-settings.php:49
+msgid "Show/Hide top menu"
+msgstr "Show/Hide top menu"
+
+#: vc-settings.php:61
+msgid "If set to hide users won't be able to switch calendar layouts"
+msgstr "If set to hide users won't be able to switch calendar layouts"
+
+#: vc-settings.php:73
+msgid "Show/Hide Search button"
+msgstr "Show/Hide Search button"
+
+#: vc-settings.php:85
+msgid "Show/Hide calendar filter button"
+msgstr "Show/Hide calendar filter button"
+
+#: vc-settings.php:97
+msgid "Show/Hide calendar slider from Agenda view"
+msgstr "Show/Hide calendar slider from Agenda view"
+
+#: vc-settings.php:109
+msgid "Show/Hide Tooltip on event hover"
+msgstr "Show/Hide Tooltip on event hover"
+
+#: vc-settings.php:121
+msgid "Show/Hide \"Create an event\" form"
+msgstr "Show/Hide \"Create an event\" form"
+
+#: vc-settings.php:128
+msgid "Create Event Form for Stachethemes Event Calendar"
+msgstr "Create Event Form for Stachethemes Event Calendar"
+
+#: vc-settings.php:137
+msgid "Button selector (.example-button or #example-button)"
+msgstr "Button selector (.example-button or #example-button)"
+
+#: vc-settings.php:140
+msgid "Button class or id name. Transforms the form into popup"
+msgstr "Button class or id name. Transforms the form into popup"
+
+#: vc-settings.php:145
+msgid "Filter Calendars"
+msgstr "Filter Calendars"
+
+#: vc-settings.php:148
+msgid "Include only following calendars by calendar id. Example 1,2,3,4"
+msgstr "Include only following calendars by calendar id. Example 1,2,3,4"
+
+#~ msgid "User not logged-in"
+#~ msgstr "User not logged-in"
+
+#~ msgid "Success"
+#~ msgstr "Success"
+
+#~ msgid ""
+#~ "You have not set up Single Page for Stachethemes Event Calendar yet! "
+#~ "Click <a href=\"%s\">here</a> to set up single page."
+#~ msgstr ""
+#~ "You have not set up Single Page for Stachethemes Event Calendar yet! "
+#~ "Click <a href=\"%s\">here</a> to set up single page."
+
+#~ msgid "All events must be approved by our moderators before they go live"
+#~ msgstr "All events must be approved by our moderators before they go live"
+
+#~ msgid "Cache Events"
+#~ msgstr "Cache Events"
+
+#~ msgid "Cache Weather Data (Recommended)"
+#~ msgstr "Cache Weather Data (Recommended)"
+
+#~ msgid "Unable to create event"
+#~ msgstr "Unable to create event"
+
+#~ msgid "Event updated"
+#~ msgstr "Event updated"
+
+#~ msgid "Unable to update event"
+#~ msgstr "Unable to update event"
+
+#~ msgid "Send Invitation"
+#~ msgstr "Send Invitation"
+
+#~ msgid "Invitation E-Mail"
+#~ msgstr "Invitation E-Mail"
+
+#~ msgid "Other Settings"
+#~ msgstr "Other Settings"
+
+#~ msgid "Stachethemes Event Calendar - Import/Export Settings"
+#~ msgstr "Stachethemes Event Calendar - Import/Export Settings"
+
+#~ msgid "License activated"
+#~ msgstr "License activated"
+
+#~ msgid "License deactivated"
+#~ msgstr "License deactivated"
+
+#~ msgid "Single Page Settings"
+#~ msgstr "Single Page Settings"
+
+#~ msgid "Create Single Page"
+#~ msgstr "Create Single Page"
+
+#~ msgid "Set Single Page ID"
+#~ msgstr "Set Single Page ID"
+
+#~ msgid "Set page id"
+#~ msgstr "Set page id"
+
+#~ msgid "Page Name"
+#~ msgstr "Page Name"
+
+#~ msgid "Slug (Must be unique). Leave empty to auto-generate slug."
+#~ msgstr "Slug (Must be unique). Leave empty to auto-generate slug."
+
+#~ msgid ""
+#~ "This will create a Wordpress Page with the shortcode "
+#~ "[stachethemes_ec_single] inside."
+#~ msgstr ""
+#~ "This will create a Wordpress Page with the shortcode "
+#~ "[stachethemes_ec_single] inside."
+
+#~ msgid "It is required in order for the events' single pages to work."
+#~ msgstr "It is required in order for the events' single pages to work."
+
+#~ msgid "Ideally this page should not be visible in your Site Menu."
+#~ msgstr "Ideally this page should not be visible in your Site Menu."
+
+#~ msgid "NOTE: This page should not display your full calendar."
+#~ msgstr "NOTE: This page should not display your full calendar."
+
+#~ msgid "Save & Refresh rewrite rules"
+#~ msgstr "Save & Refresh rewrite rules"
+
+#~ msgid "Edit Page"
+#~ msgstr "Edit Page"
+
+#~ msgid "Subject"
+#~ msgstr "Subject"
+
+#~ msgid "Content"
+#~ msgstr "Content"
+
+#~ msgid "Admin access level (admin user capability)"
+#~ msgstr "Admin access level (admin user capability)"
+
+#~ msgid "Single Page ID set to %s"
+#~ msgstr "Single Page ID set to %s"
+
+#~ msgid "Single Page Created"
+#~ msgstr "Single Page Created"
+
+#~ msgid "Single Page Updated"
+#~ msgstr "Single Page Updated"
+
+#~ msgid "Unable to create Single Page"
+#~ msgstr "Unable to create Single Page"
+
+#~ msgid "Unable to update Single Page"
+#~ msgstr "Unable to update Single Page"
+
+#~| msgid "mon"
+#~ msgid "Don"
+#~ msgstr "Don"

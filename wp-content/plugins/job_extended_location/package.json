@@ -1,0 +1,25 @@
+{
+  "name": "wp-job-manager-extended-location",
+  "version": "3.1.0",
+  "description": "Use Google Places to auto suggest locations when submitting a listing or searching.",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-glotpress": "^0.2.2",
+    "grunt-wp-i18n": "^1.0.0",
+    "grunt-checktextdomain": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astoundify/wp-job-manager-extended-location.git"
+  },
+  "author": "Astoundify",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/astoundify/wp-job-manager-extended-location/issues"
+  },
+  "homepage": "https://github.com/astoundify/wp-job-manager-extended-location#readme"
+}

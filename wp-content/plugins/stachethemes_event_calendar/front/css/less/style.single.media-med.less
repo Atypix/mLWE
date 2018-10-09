@@ -1,0 +1,99 @@
+.flexbox(@justify: space-between, @align: center) {
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-justify-content: @justify;
+    justify-content: @justify;
+
+    -webkit-box-align: @align;
+    -webkit-flex-align: @align;
+    -webkit-align-items: @align;
+
+    align-items: @align;
+}
+
+.box(@val) {
+    width: @val;
+    height: @val;
+}
+
+@event-inner-padding : 20px;
+@borders-radius      : 3px;
+@border-color        : rgba(0,0,0,0.1);
+
+.stec-layout-single-media-med {
+
+    padding: @event-inner-padding;
+
+    .stec-layout-single-preview {
+        
+        .stec-layout-single-preview-left-text-featured {
+            span {display: none;}
+            i {display: inline;}
+        }
+       
+    }
+    
+
+    .stec-layout-single-woocommerce {
+        
+        padding: @event-inner-padding 0;
+        
+        .stec-layout-single-woocommerce-top {
+            > p {
+                &:not(:first-child) {
+                    margin-left: 20px;
+                }
+            }
+        }
+
+        .stec-layout-single-woocommerce-product {
+
+            .stec-layout-single-woocommerce-product-buy-addtocart {
+                p { display: none; }
+                i { display: block; }
+                padding: 15px 16px;
+            }
+
+            > * {
+                &:not(:first-child) {
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+
+    .stec-layout-single-forecast {
+
+        .stec-layout-single-forecast-details {
+            display: block;
+
+            .stec-layout-single-forecast-details-left {
+                width: 100%;
+                float: left;
+            }
+
+            .stec-layout-single-forecast-details-right {
+                margin-top: 25px;
+                width: 100%;
+                max-width: 100%;
+                float: left;
+            }
+        }
+    }
+
+    
+    
+    /* ATTENDANCE TAB */
+    .stec-layout-single-attendance {
+
+        .stec-layout-single-attendance-attendee {
+            width: ~"calc(100% / 3)";
+        }
+
+    }
+
+
+}

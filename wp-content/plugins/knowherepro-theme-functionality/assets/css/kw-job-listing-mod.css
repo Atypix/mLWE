@@ -1,0 +1,108 @@
+
+@media only screen and ( min-width: 768px ) {
+
+	.search_jobs div.kw-job-filters-search:before {
+		content: "";
+		display: table;
+	}
+
+	.search_jobs > div.kw-job-filters-search
+	{
+		margin: 0 -5px;
+		float: none;
+		width: 100%;
+		width: calc(100% + 10px);
+		padding: 0 5px;
+	}
+
+		.search_jobs > .kw-job-filters-search > div
+		{
+			float: left;
+			padding: 0 5px;
+			width: 25%;
+		}
+
+		.kw-left-position .search_jobs > .kw-job-filters-search > div
+		{
+			float: none;
+			padding: 0;
+			width: 100%;
+		}
+
+		.search_jobs > div.kw-job-filters-search > div.search_checkbox {
+			margin-top: 10px;
+			width: 100%;
+		}
+
+	.job-manager-form .fieldset-job_custom-taxonomy {
+		/*margin: 0 -5px;*/
+	}
+
+	.job-manager-form .fieldset-job_custom-taxonomy:before,
+	.job-manager-form .fieldset-job_custom-taxonomy:after
+	{
+		content: "";
+		display: table;
+	}
+
+		.job-manager-form .fieldset-job_custom-taxonomy > div
+		{
+			float: left;
+			padding: 0 5px 1em;
+			width: 25%;
+		}
+
+}
+
+.kw-job-filters-search .search_checkbox:after,
+.kw-job-filters-search .search_checkbox:before,
+.kw-job-filters-search .search_checkbox > .job-manager-nav-checkbox:after,
+.kw-job-filters-search .search_checkbox > .job-manager-nav-checkbox:before
+{
+	content: "";
+	display: table;
+}
+
+.kw-job-filters-search .search_checkbox > .job-manager-nav-checkbox { margin-bottom: 0; }
+
+	.kw-job-filters-search .search_checkbox li {
+		margin: 0;
+		float: left;
+		padding: .3em 0;
+		list-style: none;
+	}
+
+	.kw-left-position .kw-job-filters-search .search_checkbox li {
+		display: block;
+		float: none;
+	}
+
+	.kw-job-filters-search .search_checkbox li:not(:first-child) { margin-left: 1em; }
+
+	.kw-left-position .kw-job-filters-search .search_checkbox li { margin-left: 0; }
+
+		.job_filters .kw-job-filters-search .search_checkbox li label {
+			display: block;
+			vertical-align: middle;
+			font-size: 14px;
+		}
+
+			.kw-job-filters-search .search_checkbox li input[type="checkbox"] {
+				vertical-align: middle;
+				margin-bottom: 0;
+			}
+
+			.kw-job-filters-search .search_checkbox input[type="checkbox"] { width: 24px; }
+
+
+.job-manager-form fieldset[class^="fieldset-kw"]
+{
+	display: none;
+	max-width: 25%;
+	-webkit-flex-basis: 25%;
+			flex-basis: 25%;
+}
+
+.job-manager-form fieldset[class^="fieldset-kw"].active {
+	display: block;
+}

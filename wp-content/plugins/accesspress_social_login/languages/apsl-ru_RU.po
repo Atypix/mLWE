@@ -1,0 +1,645 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessPress Social Login v1.2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-10 00:38+0200\n"
+"PO-Revision-Date: 2015-11-15 08:05:24+0000\n"
+"Last-Translator: \n"
+"Language-Team: AccessKeys <support@accesspressthemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: Poedit 1.8\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: accesspress-social-login.php:79
+#, php-format
+#@ default
+msgid "New user registration on your site %s:"
+msgstr "Регистрация нового пользователя на Вашем сайте %s:"
+
+#: accesspress-social-login.php:80
+#: accesspress-social-login.php:94
+#, php-format
+#@ default
+msgid "Username: %s"
+msgstr "Имя пользователя: %s"
+
+#: accesspress-social-login.php:81
+#, php-format
+#@ default
+msgid "E-mail: %s"
+msgstr "E-mail: %s"
+
+#: accesspress-social-login.php:86
+#, php-format
+#@ default
+msgid "[%s] New User Registration"
+msgstr "[%s]  регистрация нового пользователя"
+
+#: accesspress-social-login.php:90
+#@ default
+msgid "Hi there,"
+msgstr "Здравствуйте,"
+
+#: accesspress-social-login.php:92
+#, php-format
+#@ default
+msgid "Welcome to %s! Here's your log details:"
+msgstr "Добро пожаловать на %s! Вот Ваши данные:"
+
+#: accesspress-social-login.php:95
+#, php-format
+#@ default
+msgid "Password: %s"
+msgstr "Пароль: %s"
+
+#: accesspress-social-login.php:97
+#@ default
+msgid "Thanks!"
+msgstr "Спасибо!"
+
+#: accesspress-social-login.php:102
+#, php-format
+#@ default
+msgid "[%s] Your username and password"
+msgstr "[%s] ваше имя пользователя и пароль"
+
+#: accesspress-social-login.php:217
+#: accesspress-social-login.php:251
+#@ apsl
+msgid "Invalid Username or Password"
+msgstr "Неверное имя пользователя и/или пароль."
+
+#: accesspress-social-login.php:392
+#@ apsl
+msgid "Click here to login"
+msgstr "Нажмите для авторизации"
+
+#: accesspress-social-login.php:456
+#@ apsl
+msgid "Settings restored Successfully."
+msgstr "Параметры восстановлены успешно."
+
+#: accesspress-social-login.php:565
+#: accesspress-social-login.php:594
+#: inc/frontend/login_integration.php:18
+#: inc/frontend/shortcode.php:62
+#@ apsl
+msgid "Login"
+msgstr "Войти"
+
+#: inc/backend/main-page.php:62
+#@ apsl
+msgid "Network settings"
+msgstr "Настройки сети"
+
+#: inc/backend/main-page.php:63
+#@ apsl
+msgid "Other settings"
+msgstr "Другие настройки"
+
+#: inc/backend/main-page.php:64
+#@ apsl
+msgid "How to use"
+msgstr "Инструкция"
+
+#: inc/backend/main-page.php:65
+#@ apsl
+msgid "About"
+msgstr "Описание"
+
+#: inc/backend/main-page.php:78
+#@ apsl
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/backend/main-page.php:81
+#: inc/backend/main-page.php:114
+#: inc/backend/main-page.php:150
+#: inc/backend/main-page.php:192
+#: inc/backend/main-page.php:228
+#: inc/backend/main-page.php:266
+#: inc/backend/main-page.php:299
+#: inc/backend/main-page.php:335
+#: inc/backend/main-page.php:369
+#@ apsl
+msgid "Enable?"
+msgstr "Включить?"
+
+#: inc/backend/main-page.php:86
+#: inc/backend/main-page.php:339
+#@ apsl
+msgid "App ID:"
+msgstr "App ID"
+
+#: inc/backend/main-page.php:89
+#@ apsl
+msgid "App Secret:"
+msgstr "App Secret:"
+
+#: inc/backend/main-page.php:92
+#: inc/backend/main-page.php:128
+#: inc/backend/main-page.php:161
+#: inc/backend/main-page.php:203
+#: inc/backend/main-page.php:239
+#: inc/backend/main-page.php:277
+#: inc/backend/main-page.php:310
+#: inc/backend/main-page.php:346
+#: inc/backend/main-page.php:380
+#: inc/backend/main-page.php:523
+#: inc/backend/main-page.php:539
+#: inc/backend/main-page.php:550
+#: inc/backend/main-page.php:565
+#: inc/backend/main-page.php:584
+#: inc/backend/main-page.php:591
+#: inc/backend/main-page.php:605
+#@ apsl
+msgid "Note:"
+msgstr "Примечание:"
+
+#: inc/backend/main-page.php:111
+#@ apsl
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/backend/main-page.php:119
+#@ apsl
+msgid "Consumer Key (API Key):"
+msgstr "Consumer Key (API Key):"
+
+#: inc/backend/main-page.php:123
+#@ apsl
+msgid "Consumer Secret (API Secret):"
+msgstr "Consumer Secret (API Secret):"
+
+#: inc/backend/main-page.php:147
+#@ apsl
+msgid "Google"
+msgstr "Google"
+
+#: inc/backend/main-page.php:154
+#: inc/backend/main-page.php:196
+#: inc/backend/main-page.php:232
+#: inc/backend/main-page.php:270
+#: inc/backend/main-page.php:303
+#: inc/backend/main-page.php:373
+#@ apsl
+msgid "Client ID:"
+msgstr "Client ID"
+
+#: inc/backend/main-page.php:157
+#: inc/backend/main-page.php:199
+#: inc/backend/main-page.php:235
+#: inc/backend/main-page.php:273
+#: inc/backend/main-page.php:306
+#: inc/backend/main-page.php:376
+#@ apsl
+msgid "Client Secret:"
+msgstr "Client Secret:"
+
+#: inc/backend/main-page.php:189
+#@ apsl
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/backend/main-page.php:225
+#@ apsl
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/backend/main-page.php:263
+#@ apsl
+msgid "Foursquare"
+msgstr "Foursquare"
+
+#: inc/backend/main-page.php:296
+#@ apsl
+msgid "wordpress"
+msgstr "Wordpress"
+
+#: inc/backend/main-page.php:332
+#@ apsl
+msgid "Vkonate"
+msgstr "Vkonate"
+
+#: inc/backend/main-page.php:342
+#@ apsl
+msgid "Secure Key:"
+msgstr "Secure Key:"
+
+#: inc/backend/main-page.php:366
+#@ apsl
+msgid "Buffer"
+msgstr "Буфер"
+
+#: inc/backend/main-page.php:409
+#@ apsl
+msgid "Social Login"
+msgstr "Авторизация с помощью социальных сетей"
+
+#: inc/backend/main-page.php:412
+#@ apsl
+msgid "Enable social login?"
+msgstr "Включить авторизацию с помощью соцсетей?"
+
+#: inc/backend/main-page.php:417
+#@ apsl
+msgid "Enable social login in Buddypress?"
+msgstr "Включить на Buddypress?"
+
+#: inc/backend/main-page.php:422
+#@ apsl
+msgid "Enable social login in Woocommerce?"
+msgstr "Включить на Woocommerce?"
+
+#: inc/backend/main-page.php:432
+#@ apsl
+msgid "Display options"
+msgstr "Настройки отображения"
+
+#: inc/backend/main-page.php:434
+#@ apsl
+msgid "Please choose the options where you want to display the social login form."
+msgstr "Пожалуйста, выберите параметры, которые вы хотите отображать в форме социального входа."
+
+#: inc/backend/main-page.php:435
+#@ apsl
+msgid "Login Form"
+msgstr "Форма входа"
+
+#: inc/backend/main-page.php:436
+#@ apsl
+msgid "Register Form"
+msgstr "Форма регистрации"
+
+#: inc/backend/main-page.php:437
+#@ apsl
+msgid "Comments"
+msgstr "Комментарии"
+
+#: inc/backend/main-page.php:444
+#@ apsl
+msgid "Set user role"
+msgstr "Задать Роль пользователя"
+
+#: inc/backend/main-page.php:446
+#@ apsl
+msgid "User role"
+msgstr "Роль пользователя"
+
+#: inc/backend/main-page.php:464
+#@ apsl
+msgid "Available icon themes"
+msgstr ""
+
+#: inc/backend/main-page.php:469
+#@ apsl
+msgid "Theme "
+msgstr ""
+
+#: inc/backend/main-page.php:481
+#@ apsl
+msgid "Text Settings"
+msgstr ""
+
+#: inc/backend/main-page.php:484
+#@ apsl
+msgid "Login text:"
+msgstr ""
+
+#: inc/backend/main-page.php:488
+#@ apsl
+msgid "Login short text:"
+msgstr ""
+
+#: inc/backend/main-page.php:493
+#@ apsl
+msgid "Login with long text:"
+msgstr ""
+
+#: inc/backend/main-page.php:498
+#@ apsl
+msgid "Link title attribute:"
+msgstr ""
+
+#: inc/backend/main-page.php:503
+#@ apsl
+msgid "Login error message:"
+msgstr ""
+
+#: inc/backend/main-page.php:512
+#@ apsl
+msgid "Logout redirect link"
+msgstr ""
+
+#: inc/backend/main-page.php:514
+#: inc/backend/main-page.php:535
+#@ apsl
+msgid "Home page"
+msgstr ""
+
+#: inc/backend/main-page.php:515
+#: inc/backend/main-page.php:536
+#@ apsl
+msgid "Current page"
+msgstr ""
+
+#: inc/backend/main-page.php:516
+#: inc/backend/main-page.php:543
+#@ apsl
+msgid "Custom page"
+msgstr ""
+
+#: inc/backend/main-page.php:520
+#@ apsl
+msgid "Logout redirect page:"
+msgstr ""
+
+#: inc/backend/main-page.php:533
+#@ apsl
+msgid "Login redirect link"
+msgstr ""
+
+#: inc/backend/main-page.php:547
+#@ apsl
+msgid "Login redirect page:"
+msgstr ""
+
+#: inc/backend/main-page.php:560
+#@ apsl
+msgid "User avatar"
+msgstr ""
+
+#: inc/backend/main-page.php:562
+#@ apsl
+msgid "Use wordpress provided default avatar."
+msgstr ""
+
+#: inc/backend/main-page.php:563
+#@ apsl
+msgid "Use the profile picture from social media where available."
+msgstr ""
+
+#: inc/backend/main-page.php:574
+#@ apsl
+msgid "Email notification settings"
+msgstr ""
+
+#: inc/backend/main-page.php:576
+#@ apsl
+msgid "Send email notification to both user and site admin."
+msgstr ""
+
+#: inc/backend/main-page.php:581
+#@ apsl
+msgid "Sender Email Address:"
+msgstr ""
+
+#: inc/backend/main-page.php:582
+#@ apsl
+msgid "Email Body:"
+msgstr ""
+
+#: inc/backend/main-page.php:589
+#@ apsl
+msgid "Do not send email notification to both user and site admin."
+msgstr ""
+
+#: inc/backend/main-page.php:600
+#@ apsl
+msgid "Username and email settings"
+msgstr ""
+
+#: inc/backend/main-page.php:602
+#@ apsl
+msgid "Allow user to change their username."
+msgstr ""
+
+#: inc/backend/main-page.php:603
+#@ apsl
+msgid "Allow user to change email address."
+msgstr ""
+
+#: inc/backend/main-page.php:628
+#@ apsl
+msgid "Save settings"
+msgstr ""
+
+#: inc/backend/main-page.php:633
+#@ apsl
+msgid "Are you sure you want to restore default settings?"
+msgstr ""
+
+#: inc/backend/save-settings.php:170
+#@ apsl
+msgid "Settings Saved Successfully."
+msgstr ""
+
+#. translators: plugin header field 'Name'
+#: accesspress-social-login.php:0
+#: inc/backend/main-page.php:6
+#: inc/backend/main-page.php:7
+#: inc/backend/widget.php:15
+#@ apsl
+msgid "AccessPress Social Login"
+msgstr ""
+
+#: inc/backend/widget.php:16
+#@ apsl
+msgid "AccessPress Social Login Widget"
+msgstr ""
+
+#: inc/backend/widget.php:51
+#: inc/backend/widget.php:173
+#@ apsl
+msgid "Title: "
+msgstr "Название:"
+
+#: inc/backend/widget.php:56
+#: inc/backend/widget.php:178
+#@ apsl
+msgid "Login Text: "
+msgstr ""
+
+#: inc/backend/widget.php:63
+#: inc/backend/widget.php:192
+#@ apsl
+msgid "Theme: "
+msgstr ""
+
+#: inc/backend/widget.php:133
+#@ apsl
+msgid "AccessPress Social Login with login form"
+msgstr ""
+
+#: inc/backend/widget.php:134
+#@ apsl
+msgid "AccessPress Social Login with login form Widget"
+msgstr ""
+
+#: inc/backend/widget.php:183
+#@ apsl
+msgid "Template: "
+msgstr "Шаблон:"
+
+#: inc/frontend/apsl-login_check_class.php:1056
+#: inc/functions.php:127
+#@ default
+msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href='http://www.google.com/cookies.html'>enable cookies</a> to use WordPress."
+msgstr "<strong>ОШИБКА:</strong> Куки заблокированы или не поддерживаются вашим браузером. Вы должны <a href='http://www.google.com/cookies.html'>enable cookies</a> чтобы пользоваться сайтом Strobius на WordPress."
+
+#: inc/frontend/login_check.php:21
+#@ apsl
+msgid "The Facebook SDK requires PHP version 5.4 or higher. Please notify about this error to site admin."
+msgstr ""
+
+#: inc/frontend/login_integration.php:6
+#: inc/frontend/shortcode.php:51
+#@ apsl
+msgid "You have Access Denied. Please authorize the app to login."
+msgstr ""
+
+#: inc/frontend/login_integration.php:15
+#: inc/frontend/login_integration.php:19
+#: inc/frontend/shortcode.php:59
+#: inc/frontend/shortcode.php:63
+#@ apsl
+msgid "Login with"
+msgstr "Войти через"
+
+#: inc/frontend/register_page.php:10
+#@ apsl
+msgid "Hey! Your email already exist in our system. Please change email address to continue or you can link your account by going back."
+msgstr "Эй! Ваш электронный адрес уже существует в нашей системе. Пожалуйста, измените адрес электронной почты, чтобы продолжить, или вы можете войти со своими прежними данными."
+
+#: inc/frontend/register_page.php:17
+#@ apsl
+msgid "Username already exist."
+msgstr "Имя пользователя уже существует."
+
+#: inc/frontend/register_page.php:69
+#@ apsl
+msgid "Invalid Username or Password."
+msgstr "Неверное имя пользователя и/или пароль."
+
+#: inc/frontend/register_page.php:84
+#@ apsl
+msgid "You've now successfully authorized your social profile account but you are still one step away for logging into website."
+msgstr "Вы теперь зарегистрированы с Вашей аккакунтом и остался всего шаг до входа на сайт."
+
+#: inc/frontend/register_page.php:89
+#@ apsl
+msgid "Have an account?"
+msgstr "Уже зарегистрированы?"
+
+#: inc/frontend/register_page.php:90
+#@ apsl
+msgid "Simply click the below button to link you social profile with existing account."
+msgstr "Просто нажмите кнопку ниже, чтобы связать вас социальный профиль с существующей учетной записью."
+
+#: inc/frontend/register_page.php:91
+#@ apsl
+msgid "Link my account"
+msgstr "Связать с моим аккаунтом"
+
+#: inc/frontend/register_page.php:94
+#@ apsl
+msgid "New to website?"
+msgstr "Вы новичок на веб-сайт?"
+
+#: inc/frontend/register_page.php:95
+#@ apsl
+msgid "Simply click the below button to do simple registration to our site."
+msgstr "Просто нажмите кнопку ниже, чтобы сделать простую регистрацию на нашем сайте."
+
+#: inc/frontend/register_page.php:96
+#@ apsl
+msgid "Create my account"
+msgstr "Создать аккаунт"
+
+#: inc/frontend/register_page.php:104
+#: inc/frontend/register_page.php:122
+#@ apsl
+msgid "Username:"
+msgstr "Имя пользователя:"
+
+#: inc/frontend/register_page.php:108
+#@ apsl
+msgid "Email:"
+msgstr "Email:"
+
+#: inc/frontend/register_page.php:112
+#: inc/frontend/register_page.php:135
+#@ apsl
+msgid "Continue"
+msgstr "Продолжить"
+
+#: inc/frontend/register_page.php:114
+#@ apsl
+msgid "Back"
+msgstr "Назад"
+
+#: inc/frontend/register_page.php:128
+#@ apsl
+msgid "Password:"
+msgstr "Пароль:"
+
+#. translators: plugin header field 'PluginURI'
+#: accesspress-social-login.php:0
+#@ apsl
+msgid "https://accesspressthemes.com/wordpress-plugins/accesspress-social-login/"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: accesspress-social-login.php:0
+#@ apsl
+msgid "A plugin to add various social logins to a site."
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: accesspress-social-login.php:0
+#@ apsl
+msgid "AccessPress Themes"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: accesspress-social-login.php:0
+#@ apsl
+msgid "https://accesspressthemes.com/"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: accesspress-social-login.php:0
+#@ apsl
+msgid "1.2.3"
+msgstr ""
+
+#: accesspress-social-login.php:573
+#@ apsl
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: accesspress-social-login.php:579
+#@ apsl
+msgid "Password"
+msgstr "Пароль"
+
+#: accesspress-social-login.php:589
+#@ apsl
+msgid "Remember Me"
+msgstr "Запомни меня"
+
+#: inc/frontend/shortcode_with_login_form.php:52
+#@ apsl
+msgid "OR"
+msgstr "ИЛИ"
+

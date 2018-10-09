@@ -1,0 +1,446 @@
+.style2 .ywgc-logo-shop {
+    display: none;
+}
+
+.style2 .ywgc-generated-code {
+    display: block;
+    margin: 0 auto;
+}
+
+.style2 .ywgc-card-amount {
+    width: 100%;
+    text-align: center;
+}
+
+.style1 .ywgc-logo-shop {
+    width: 40%;
+    display: inline-block;
+}
+
+.style1 .ywgc-card-amount {
+    display: inline-block;
+    width: 50%;
+    float: right;
+}
+
+.style1 .ywgc-top-header {
+    display: none;
+}
+
+.style2 .ywgc-top-header {
+    max-width: 50%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.ywgc-preview {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: 5px solid #F7F4F4;
+    padding: 5px;
+}
+
+.ywgc-manual-amount {
+    display: inline-block;
+}
+
+.ywgc-manual-amount.ywgc-hidden {
+    display: none;
+}
+
+.ywgc-generator {
+    padding-top: 10px;
+}
+
+.ywgc-generator input.ywgc-choose-image {
+    background-color: #a7a7a7;
+    color: white;
+    text-transform: uppercase;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 3px;
+    display: block;
+    border: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-left: 40px;
+}
+
+.ywgc-generator input.ywgc-default-picture {
+    background-image: url("../images/default-picture.png");
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+.ywgc-generator input.ywgc-custom-picture {
+    #background-color: #5f5f5f;
+    background-image: url("../images/customize-picture.png");
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+.ywgc-generator input.ywgc-product-picture {
+    background-image: url("../images/product-picture.png");
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+.ywgc-generator input.ywgc-choose-template {
+    background-image: url("../images/choose-template-design.png");
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+.ywgc-generator #ywgc-upload-picture {
+    visibility: hidden;
+    display: none;
+}
+
+.gift-card-content-editor {
+
+}
+
+.gift-card-content-editor textarea {
+    display: block;
+    width: 100%;
+}
+
+.gift-card-too-small {
+    background-color: #ffe326;
+    padding: 10px;
+    color: #3d3939;
+    margin-bottom: 5px;
+}
+
+.ywgc-logo-shop img.ywgc-logo-shop-image {
+    max-width: 100%;
+    max-height: 100px;
+}
+
+a.add-recipient, a.ywgc-remove-recipient {
+    display: block;
+    text-decoration: none;
+    border: none;
+    color: green;
+}
+
+a.add-physical-recipient {
+    display: block;
+    text-decoration: none;
+    border: none;
+    color: green;
+}
+
+a.ywgc-remove-recipient {
+    color: red;
+}
+
+.ywgc-hidden {
+    display: none;
+}
+
+/** Gift card editor */
+.gift-card-content-editor {
+    overflow: hidden;
+}
+
+.ywgc-generator h3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.ywgc-logo-shop {
+    width: 40%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.ywgc-card-values {
+    overflow: hidden;
+    padding: 5px 0;
+    display: table;
+    width: 100%;
+}
+
+.ywgc-card-code {
+    padding: 10px;
+    color: #9b9b9b;
+    text-align: center;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.ywgc-card-amount {
+    text-align: right;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    display: table-cell;
+}
+
+.ywgc-card-message {
+    /*white-space: pre-wrap;*/
+}
+
+/** Editing gift card content on order page */
+.ywgc-gift-card-content .ywgc-show {
+    display: inline-block !important;
+}
+
+.ywgc-gift-card-content .ywgc-hide {
+    display: none !important;
+}
+
+.ywgc-gift-card-content .ywgc-edit-value.apply {
+    background-color: #7caf00;
+    background: #7caf00;
+    color: white;
+}
+
+.ywgc-gift-card-content .ywgc-edit-value.apply:hover {
+    background-color: #5b8000;
+    background: #5b8000;
+}
+
+.ywgc-gift-card-content.ywgc-edit-value .ywgc-show-value {
+    display: none;
+}
+
+.ywgc-gift-card-content.ywgc-edit-value .ywgc-edit-value {
+    display: inline-block;
+}
+
+.ywgc-gift-card-content fieldset {
+    border: none;
+}
+
+.ywgc-main-image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.ywgc-single-recipient {
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.ywgc-recipient {
+    max-width: 85%;
+    display: inline-block;
+}
+
+.ywgc-single-recipient a.ywgc-remove-recipient {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: inline-block;
+}
+
+.ywgc-single-recipient a.hide-if-alone {
+    visibility: hidden;
+}
+
+.ywgc-sender-name,
+.ywgc-recipient-name,
+.ywgc-message {
+    margin-top: 15px;
+}
+
+#ywgc-sender-name {
+    display: block;
+}
+
+#ywgc-cancel-gift-card {
+    display: none;
+    margin-bottom: 10px;
+}
+
+button#give-as-present {
+    margin: 10px 0;
+}
+
+.ywgc-postdated {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.ywgc-picture-error,
+.ywgc-filling-error {
+    color: red;
+    font-size: 12px;
+}
+
+.ywgc-gift-card-content a.edit-details {
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.ywgc-gift-card-edit-details fieldset,
+.ywgc-gift-card-details fieldset {
+    padding: 5px 0;
+    margin: 0;
+}
+
+.ywgc-generator .ywgc-hidden {
+    display: none;
+}
+
+.ywgc-gift-card-content label {
+    display: inline-block;
+}
+
+a.ywgc-view-order.button {
+    margin-bottom: 5px;
+}
+
+.ywgc-top-header {
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+/* Modal gift card design selection */
+ul.ywgc-template-categories {
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+}
+
+li.ywgc-template-item.ywgc-category-all {
+    border-bottom: 1px solid #D0C9C9;
+    margin-bottom: 15px;
+}
+
+li.ywgc-template-item {
+    padding: 0 30px 0 10px;
+}
+
+a.ywgc-category-selected {
+    font-weight: bold;
+}
+
+.ywgc-design-list {
+    float: left;
+    padding: 0 20px;
+    width: 75%;
+}
+
+.ywgc-design-item {
+    display: inline-block;
+    margin: 0 40px 40px 0;
+    width: 200px;
+}
+
+.ywgc-design-item button {
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+}
+
+#ywgc-choose-design-modal .pp_close {
+    z-index: 999;
+}
+
+#ywgc-choose-design-modal:before {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+#ywgc-choose-design-modal {
+    clear: both;
+}
+
+/* End of Modal gift card design selection */
+
+#giftcard_code {
+    max-width: 50%;
+}
+
+.gift-card-content-editor.step-appearance,
+.gift-card-content-editor.step-content {
+    margin-bottom: 30px;
+}
+
+.ywgc-editor-section-title {
+    display: block;
+    padding: 10px 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+.ywgc-design-list {
+    overflow: hidden;
+    height: 100%;
+}
+
+.pp_content {
+    height: 60% !important;
+    overflow: hidden;
+}
+
+.ywgc-manual-amount-error {
+    font-size: smaller;
+}
+
+.ywgc-empty-recipient-note {
+    display: inline-block;
+    font-size: smaller;
+    color: grey;
+}
+
+.ywgc-bad-email-format {
+    font-size: 10px;
+    display: block;
+    color: red;
+}
+
+.ywgc-discount-html {
+    font-size: smaller;
+}
+
+.ywgc-multi-recipients {
+    margin: 10px 0;
+}
+
+.ywgc-preset-title {
+    display: block;
+    text-align: center;
+}
+
+.ywgc-have-code {
+    padding: 30px 0;
+}
+
+/** Hide on Flatsome Quick View */
+.product-quick-view-container .ywgc-generator,
+.product-quick-view-container .ywgc-template-design,
+.product-quick-view-container #give-as-present {
+    display:none;
+}
+
+.ywgc-single-recipient .yith_wc_gift_card_input_recipient_details{
+    margin-top: 2px;
+}
+
+.yith_wc_gift_card_blank_brightness {
+    background: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding: 10px 0 10px 0;
+    top: -1px;
+    left: -1px;
+}

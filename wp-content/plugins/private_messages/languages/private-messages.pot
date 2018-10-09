@@ -1,0 +1,646 @@
+# Copyright (C) 2017 Astoundify
+# This file is distributed under the same license as the Private Messages package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Private Messages 1.9.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/private-messages\n"
+"POT-Creation-Date: 2017-10-30 19:48:45+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: includes/admin/class-private-messages-admin-edit.php:53
+#: templates/frontend/dashboard-compose-message.php:37
+msgid "Subject"
+msgstr ""
+
+#: includes/admin/class-private-messages-admin-edit.php:87
+msgid "Recipient"
+msgstr ""
+
+#: includes/admin/class-private-messages-admin-edit.php:97
+#: templates/frontend/dashboard-compose-message.php:16
+msgid "Compose Message"
+msgstr ""
+
+#: includes/admin/class-private-messages-admin-edit.php:97
+msgid "Reply"
+msgstr ""
+
+#: includes/admin/class-private-messages-admin-edit.php:109
+msgid "Messages"
+msgstr ""
+
+#: includes/admin/class-private-messages-admin-edit.php:274
+#: private-messages.php:161
+msgid "You can't send and empty message."
+msgstr ""
+
+#: includes/admin/class-private-messages-settings.php:64
+msgid "General"
+msgstr ""
+
+#: includes/admin/class-private-messages-settings.php:67
+msgid "Message Dashboard Page"
+msgstr ""
+
+#: includes/admin/class-private-messages-settings.php:68
+msgid ""
+"This page allows users to compose, view and reply to messages from the "
+"front-end. The [private_messages] short code must be on this page."
+msgstr ""
+
+#: includes/admin/class-private-messages-settings.php:76
+msgid "Compose from Dashboard"
+msgstr ""
+
+#: includes/admin/class-private-messages-settings.php:77
+msgid "Allow all users to compose a new message from the Message Dashboard page"
+msgstr ""
+
+#: includes/admin/class-private-messages-settings.php:84
+msgid "Enable Message Attachments"
+msgstr ""
+
+#: includes/admin/class-private-messages-settings.php:85
+msgid "Allow user to upload file attachments in Private Messages."
+msgstr ""
+
+#: includes/admin/class-private-messages-settings.php:92
+msgid "Attachment max file size"
+msgstr ""
+
+#: includes/admin/class-private-messages-settings.php:93
+msgid "Maximum file size for each attachments (in bytes). %1$s equals to %2$s"
+msgstr ""
+
+#: includes/admin/class-private-messages-settings.php:100
+msgid "License Key"
+msgstr ""
+
+#: includes/admin/class-private-messages-settings.php:110
+msgid "Notifications"
+msgstr ""
+
+#: includes/admin/class-private-messages-settings.php:113
+msgid "Send Message Notifications"
+msgstr ""
+
+#: includes/admin/class-private-messages-settings.php:114
+msgid "Notify the recipient when a new message is added."
+msgstr ""
+
+#: includes/admin/class-private-messages-settings.php:121
+msgid "Notification Subject"
+msgstr ""
+
+#: includes/admin/class-private-messages-settings.php:123
+msgid ""
+"Edit the subject for the email sent to a recipient after a message is "
+"received."
+msgstr ""
+
+#: includes/admin/class-private-messages-settings.php:129
+msgid "Notification Message"
+msgstr ""
+
+#: includes/admin/class-private-messages-settings.php:130
+msgid ""
+"Edit the email text sent to a recipient after a message is received. "
+"Available tags: <code>{site_name}</code>, <code>{sender_name}</code>, "
+"<code>{recipient_name}</code>, <code>{message}</code>, "
+"<code>{link_to_message}</code>"
+msgstr ""
+
+#: includes/admin/class-private-messages-settings.php:178
+#: includes/admin/class-private-messages-settings.php:179
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-private-messages-setup.php:41
+msgid "Private Messages Setup"
+msgstr ""
+
+#: includes/admin/class-private-messages-setup.php:42
+msgid "Setup Private Messages"
+msgstr ""
+
+#: includes/admin/class-private-messages-setup.php:54
+#: vendor/astoundify/plugin-setup/resources/examples/example-1.php:41
+msgid "Next Step"
+msgstr ""
+
+#: includes/admin/class-private-messages-setup.php:55
+#: vendor/astoundify/plugin-setup/resources/examples/example-1.php:42
+msgid "Skip"
+msgstr ""
+
+#: includes/admin/class-private-messages-setup.php:71
+msgid "Thanks for installing <em>Private Messages</em>!"
+msgstr ""
+
+#: includes/admin/class-private-messages-setup.php:71
+msgid ""
+"This setup wizard will help you get started by creating the messages "
+"dashboard page."
+msgstr ""
+
+#: includes/admin/class-private-messages-setup.php:73
+msgid ""
+"If you want to skip the wizard and setup the page and shortcode yourself "
+"manually, the process is still reletively simple. Refer to the "
+"%1$sdocumentation%2$s for help."
+msgstr ""
+
+#: includes/admin/class-private-messages-setup.php:75
+msgid "Message Dashboard Setup"
+msgstr ""
+
+#: includes/admin/class-private-messages-setup.php:77
+msgid ""
+"<em>Private Messages</em> includes a %1$sshortcode%2$s which can be used "
+"within your %3$spage%2$s to output the message dashboard. This can be "
+"created for you below. For more information on the shortcode view the "
+"%4$sshortcode documentation%2$s."
+msgstr ""
+
+#: includes/admin/class-private-messages-setup.php:83
+msgid "Page Title"
+msgstr ""
+
+#: includes/admin/class-private-messages-setup.php:84
+msgid "Page Description"
+msgstr ""
+
+#: includes/admin/class-private-messages-setup.php:85
+msgid "Content Shortcode"
+msgstr ""
+
+#: includes/admin/class-private-messages-setup.php:93
+msgid ""
+"This page allows users to compose, view and reply to messages from the "
+"front-end."
+msgstr ""
+
+#: includes/admin/class-private-messages-setup.php:117
+msgid "Message Dashboard"
+msgstr ""
+
+#: includes/admin/class-private-messages-setup.php:144
+msgid "All Done!"
+msgstr ""
+
+#: includes/admin/class-private-messages-setup.php:146
+msgid ""
+"Looks like you're all set to start using the plugin. In case you're "
+"wondering where to go next:"
+msgstr ""
+
+#: includes/admin/class-private-messages-setup.php:149
+msgid "Adjust the plugin settings"
+msgstr ""
+
+#: includes/admin/class-private-messages-setup.php:150
+msgid "Create a message via the back-end"
+msgstr ""
+
+#: includes/admin/class-private-messages-setup.php:153
+msgid "Create a message via the front-end"
+msgstr ""
+
+#: includes/class-private-messages-dashboard.php:108
+msgid "Message stared."
+msgstr ""
+
+#: includes/class-private-messages-dashboard.php:110
+msgid "Message unstared."
+msgstr ""
+
+#: includes/class-private-messages-dashboard.php:140
+#: includes/class-private-messages-dashboard.php:175
+msgid "Message is sucessfully deleted"
+msgstr ""
+
+#: includes/class-private-messages-dashboard.php:154
+msgid "All conversations have been marked as read."
+msgstr ""
+
+#: includes/class-private-messages-dashboard.php:344
+#: includes/class-private-messages-shortcodes.php:160
+msgid "You do not have permission to create a new message."
+msgstr ""
+
+#: includes/class-private-messages-dashboard.php:410
+msgid "Thread not found."
+msgstr ""
+
+#: includes/class-private-messages-dashboard.php:451
+msgid "Private Message Spam Report"
+msgstr ""
+
+#: includes/class-private-messages-dashboard.php:456
+msgid "Spam Report sent. Thank you for your report."
+msgstr ""
+
+#: includes/class-private-messages-dashboard.php:461
+msgid "Fail to send spam report."
+msgstr ""
+
+#: includes/class-private-messages-dashboard.php:467
+msgid "Invalid thread."
+msgstr ""
+
+#: includes/class-private-messages-dashboard.php:473
+msgid "Fail to verify nonce."
+msgstr ""
+
+#: includes/class-private-messages-dashboard.php:613
+#: includes/class-private-messages-dashboard.php:628
+#: includes/class-private-messages-shortcodes.php:171
+msgid "All fields are required."
+msgstr ""
+
+#: includes/class-private-messages-dashboard.php:619
+msgid "Message could not be created."
+msgstr ""
+
+#: includes/class-private-messages-dashboard.php:647
+#: includes/class-private-messages-shortcodes.php:199
+msgid "Message thread could not be created."
+msgstr ""
+
+#: includes/class-private-messages-dashboard.php:804
+msgid "All Messages"
+msgstr ""
+
+#: includes/class-private-messages-dashboard.php:808
+msgid "Starred Messages"
+msgstr ""
+
+#: includes/class-private-messages-dashboard.php:810
+msgid "Unread Messages"
+msgstr ""
+
+#: includes/class-private-messages-dashboard.php:828
+msgid "Mark all as read"
+msgstr ""
+
+#: includes/class-private-messages-files.php:78
+msgid ""
+"Invalid file upload parameters. Please contact the website administrator if "
+"this issue continues."
+msgstr ""
+
+#: includes/class-private-messages-files.php:90
+msgid "Upload Error. Fail to upload %s."
+msgstr ""
+
+#: includes/class-private-messages-files.php:115
+msgid "Upload Error. \"%s\" file extension is not allowed."
+msgstr ""
+
+#: includes/class-private-messages-files.php:117
+msgid "Upload Error. \"%1$s\" file too large. Maximum file size is %2$s"
+msgstr ""
+
+#: includes/class-private-messages-files.php:131
+msgid "Upload Error. No file uploaded."
+msgstr ""
+
+#: includes/class-private-messages-integration-wpjm.php:54
+msgid "WP Job Manager"
+msgstr ""
+
+#: includes/class-private-messages-integration-wpjm.php:58
+msgid "Listing Contact Method"
+msgstr ""
+
+#: includes/class-private-messages-integration-wpjm.php:59
+msgid ""
+"Use private messages for communication between logged in users and listing "
+"owners."
+msgstr ""
+
+#: includes/class-private-messages-integration-wpjm.php:66
+msgid "Logged Out User"
+msgstr ""
+
+#: includes/class-private-messages-integration-wpjm.php:67
+msgid "Display login link for logged out user."
+msgstr ""
+
+#: includes/class-private-messages-integration-wpjm.php:115
+msgid "Listing URL: %s"
+msgstr ""
+
+#: includes/class-private-messages-post-types.php:42
+msgid "Private Message"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Private Messages"
+msgstr ""
+
+#: includes/class-private-messages-post-types.php:50
+msgid "All %s"
+msgstr ""
+
+#: includes/class-private-messages-post-types.php:51
+msgid "Add New"
+msgstr ""
+
+#: includes/class-private-messages-post-types.php:52
+#: includes/class-private-messages-post-types.php:55
+msgid "New %s"
+msgstr ""
+
+#: includes/class-private-messages-post-types.php:53
+msgid "Edit"
+msgstr ""
+
+#: includes/class-private-messages-post-types.php:54
+msgid "%s"
+msgstr ""
+
+#: includes/class-private-messages-post-types.php:56
+#: includes/class-private-messages-post-types.php:57
+msgid "View %s"
+msgstr ""
+
+#: includes/class-private-messages-post-types.php:58
+msgid "Search %s"
+msgstr ""
+
+#: includes/class-private-messages-post-types.php:59
+msgid "No %s found"
+msgstr ""
+
+#: includes/class-private-messages-post-types.php:60
+msgid "No %s found in trash"
+msgstr ""
+
+#: includes/class-private-messages-post-types.php:61
+msgid "Parent %s"
+msgstr ""
+
+#: includes/class-private-messages-post-types.php:63
+msgid "This is where you can create and manage private messages."
+msgstr ""
+
+#: includes/class-private-messages-shortcodes.php:56
+msgid "Send a Message"
+msgstr ""
+
+#: includes/class-private-messages-shortcodes.php:101
+msgid "Invalid recipient. Please check your shortcode."
+msgstr ""
+
+#: includes/class-private-messages-shortcodes.php:107
+msgid "You cannot send message to yourself."
+msgstr ""
+
+#: includes/class-private-messages-shortcodes.php:145
+msgid "Invalid Request."
+msgstr ""
+
+#: includes/class-private-messages-shortcodes.php:178
+msgid "Invalid recipient."
+msgstr ""
+
+#: private-messages.php:160
+msgid "Are you sure you want to delete this message?"
+msgstr ""
+
+#: private-messages.php:163
+msgid "The results could not be loaded."
+msgstr ""
+
+#: private-messages.php:164
+msgid "Please delete %s character"
+msgstr ""
+
+#: private-messages.php:165
+msgid "Please delete %s characters"
+msgstr ""
+
+#: private-messages.php:166
+msgid "Please enter %s or more characters"
+msgstr ""
+
+#: private-messages.php:167
+msgid "Loading more results&hellip;"
+msgstr ""
+
+#: private-messages.php:168
+msgid "You can only select %s item"
+msgstr ""
+
+#: private-messages.php:169
+msgid "You can only select %s items"
+msgstr ""
+
+#: private-messages.php:170
+msgid "No results found"
+msgstr ""
+
+#: private-messages.php:171
+msgid "Searching&hellip;"
+msgstr ""
+
+#: templates/admin/messages.php:3
+msgid "There are currently no messages in this conversation."
+msgstr ""
+
+#: templates/admin/recipient.php:12
+#: templates/frontend/dashboard-compose-message.php:30
+msgid "Select a Recipient"
+msgstr ""
+
+#: templates/admin/reply.php:14
+#: templates/frontend/dashboard-compose-message.php:44
+#: templates/frontend/dashboard-compose-reply.php:21
+msgid "Attachments:"
+msgstr ""
+
+#: templates/admin/reply.php:18
+#: templates/frontend/dashboard-compose-message.php:51
+msgid "Send Message"
+msgstr ""
+
+#: templates/admin/reply.php:18
+#: templates/frontend/dashboard-compose-reply.php:28
+msgid "Send Reply"
+msgstr ""
+
+#: templates/frontend/dashboard-compose-message.php:22
+msgid "To:"
+msgstr ""
+
+#: templates/frontend/dashboard-compose-message.php:36
+msgid "Subject:"
+msgstr ""
+
+#: templates/frontend/dashboard-compose-reply.php:12
+msgid "Respond"
+msgstr ""
+
+#: templates/frontend/dashboard-filters.php:12
+msgid "Show:"
+msgstr ""
+
+#: templates/frontend/dashboard-filters.php:14
+msgid "All"
+msgstr ""
+
+#: templates/frontend/dashboard-filters.php:15
+#: templates/frontend/dashboard-messages-actions-star.php:19
+msgid "Starred"
+msgstr ""
+
+#: templates/frontend/dashboard-filters.php:16
+#: templates/frontend/dashboard-messages-actions-status.php:13
+msgid "Unread"
+msgstr ""
+
+#: templates/frontend/dashboard-filters.php:21
+msgid "Order:"
+msgstr ""
+
+#: templates/frontend/dashboard-filters.php:23
+msgid "Newest to Oldest"
+msgstr ""
+
+#: templates/frontend/dashboard-filters.php:24
+msgid "Oldest to Newest"
+msgstr ""
+
+#: templates/frontend/dashboard-filters.php:29
+msgid "Filter"
+msgstr ""
+
+#: templates/frontend/dashboard-filters.php:34
+msgid "New Message"
+msgstr ""
+
+#: templates/frontend/dashboard-logged-out.php:12
+#: templates/frontend/job-application-pm.php:16
+msgid "Only registered users can send messages. Please %1$slog in%2$s to continue."
+msgstr ""
+
+#: templates/frontend/dashboard-message-actions-delete.php:13
+msgid "Delete Reply"
+msgstr ""
+
+#: templates/frontend/dashboard-message-not-found.php:2
+msgid "This message does not exist."
+msgstr ""
+
+#: templates/frontend/dashboard-messages-actions-delete.php:14
+msgid "Delete Message"
+msgstr ""
+
+#: templates/frontend/dashboard-messages-actions-star.php:19
+msgid "Unstarred"
+msgstr ""
+
+#: templates/frontend/dashboard-messages-actions-status.php:13
+msgid "Read"
+msgstr ""
+
+#: templates/frontend/dashboard-messages.php:20
+msgid "No Messages"
+msgstr ""
+
+#: templates/frontend/dashboard-report.php:12
+msgid "Report as spam"
+msgstr ""
+
+#: templates/frontend/dashboard-return.php:10
+msgid "Return to Dashboard"
+msgstr ""
+
+#: templates/frontend/job-application-pm.php:12
+msgid "You cannot send a message to yourself.."
+msgstr ""
+
+#: vendor/astoundify/plugin-setup/resources/examples/example-1.php:22
+#: vendor/astoundify/plugin-setup/resources/examples/example-1.php:23
+msgid "Setup Plugin"
+msgstr ""
+
+#: vendor/astoundify/plugin-setup/resources/examples/example-1.php:27
+#: vendor/astoundify/plugin-setup/resources/examples/example-1.php:62
+msgid "Site Title"
+msgstr ""
+
+#: vendor/astoundify/plugin-setup/resources/examples/example-1.php:32
+#: vendor/astoundify/plugin-setup/resources/examples/example-1.php:106
+msgid "Tagline"
+msgstr ""
+
+#: vendor/astoundify/plugin-setup/resources/examples/example-1.php:87
+msgid "Blog Name Updated"
+msgstr ""
+
+#: vendor/astoundify/plugin-setup/resources/examples/example-1.php:131
+msgid "Tagline Updated"
+msgstr ""
+
+#: vendor/astoundify/plugin-setup/resources/examples/example-1.php:146
+msgid "All done. Thank you! You can change your settings in "
+msgstr ""
+
+#: vendor/astoundify/plugin-setup/resources/examples/example-1.php:147
+msgid "You can change your settings anytime in Settings"
+msgstr ""
+
+#: vendor/astoundify/plugin-setup/resources/examples/example-1.php:148
+msgid "View Settings"
+msgstr ""
+
+#: vendor/astoundify/plugin-updater/app/Integrations/WPJobManager.php:76
+msgid "Deactivate"
+msgstr ""
+
+#: vendor/astoundify/plugin-updater/app/lib/EDD_SL_Plugin_Updater.php:201
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: vendor/astoundify/plugin-updater/app/lib/EDD_SL_Plugin_Updater.php:209
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: vendor/astoundify/plugin-updater/app/lib/EDD_SL_Plugin_Updater.php:396
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: vendor/astoundify/plugin-updater/app/lib/EDD_SL_Plugin_Updater.php:396
+msgid "Error"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://astoundify.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Easily allow users to send and receive direct private messages."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Astoundify"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://astoundify.com/"
+msgstr ""
+
+#: includes/admin/class-private-messages-setup.php:91
+msgctxt "Default page title (wizard)"
+msgid "Message Dashboard"
+msgstr ""

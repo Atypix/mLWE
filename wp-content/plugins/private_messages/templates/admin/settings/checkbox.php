@@ -1,0 +1,1 @@
+<label><input type="checkbox" id="<?php echo esc_attr( $id ); ?>" name="<?php echo esc_attr( $name_input ); ?>" value="1" <?php checked( '1', pm_get_option( $option_name, $default ) ); ?>/> <?php echo wp_kses_post( $description ); ?></label>

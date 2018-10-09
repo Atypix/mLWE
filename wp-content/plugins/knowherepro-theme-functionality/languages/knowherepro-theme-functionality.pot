@@ -1,0 +1,31 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: KnowherePro Theme - Functionality\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-14 10:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. Description of the plugin
+msgid "Adds functionality to KnowherePro Theme."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themeforest.net/user/monkeysan/portfolio"
+msgstr ""
+
+#. Name of the plugin
+msgid "KnowherePro Theme - Functionality"
+msgstr ""
+
+#. Author of the plugin
+msgid "monkeysan"
+msgstr ""

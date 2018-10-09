@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager - WooCommerce Paid Listings\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-19 09:51+0000\n"
+"PO-Revision-Date: 2018-03-19 15:14+0000\n"
+"Last-Translator: Goach <sebodion@gmail.com>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. Description of the plugin
+msgid ""
+"Add paid listing functionality via WooCommerce. Create 'job packages' as "
+"products with their own price, listing duration, listing limit, and job "
+"featured status and either sell them via your store or during the job "
+"submission process. A user's packages are shown on their account page and "
+"can be used to post future jobs if they allow more than 1 job listing. Also "
+"allows 'resume packages' if using the resumes add-on."
+msgstr ""
+
+#. Author of the plugin
+msgid "Automattic"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://wpjobmanager.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wpjobmanager.com/add-ons/wc-paid-listings/"
+msgstr ""
+
+#. Name of the plugin
+msgid "WP Job Manager - WooCommerce Paid Listings"
+msgstr ""

@@ -1,0 +1,71 @@
+/* WP Job Man Fix (temp) */
+.single_job_listing .company {
+	min-height: 5em;
+}
+
+/* Claim Listing Link */
+.claim-listing span {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.claim-listing:before {
+	content: "\e829";
+	font-family: "job-manager";
+	vertical-align: top;
+	color: #ccc;
+	margin-right: 5px;
+	-webkit-font-smoothing: antialiased;
+}
+.claim-listing:hover,
+.claim-listing:focus {
+	text-decoration: none;
+}
+
+/* Claim User Notice */
+.claim-user-notice {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.claim-user-notice:before {
+	content: "\e828";
+	font-family: "job-manager";
+	vertical-align: top;
+	color: #ccc;
+	margin-right: 5px;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Claim Verified */
+.claim-verified {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.claim-verified:before {
+	content: "\e82f";
+	font-family: "job-manager";
+	vertical-align: top;
+	color: green;
+	margin-right: 5px;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Password Strength */
+#password-strength {
+	margin: 5px 0 0 0;
+	padding: 5px;
+	text-align: center;
+	background: #eee;
+	border: 1px solid #ccc;
+}
+#password-strength.bad {
+	background: #ffebe8;
+	border: 1px solid #C00;
+}
+#password-strength.good {
+	background: #fffbbc;
+	border: 1px solid #E6DB55;
+}
+#password-strength.strong {
+	background: #e7f7d3;
+	border: 1px solid #6c3;
+}

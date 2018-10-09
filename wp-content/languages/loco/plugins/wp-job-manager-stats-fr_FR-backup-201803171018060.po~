@@ -1,0 +1,439 @@
+# Copyright (C) 2017 Astoundify
+# This file is distributed under the same license as the Stats for WP Job Manager package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Stats for WP Job Manager 2.5.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-job-manager-"
+"stats\n"
+"POT-Creation-Date: 2017-08-01 17:36:11+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-03-17 10:16+0000\n"
+"Last-Translator: Goach <sebodion@gmail.com>\n"
+"Language-Team: French (France)\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;"
+
+#: includes/class-wpjms-chart.php:24
+msgid "Chart: %s total views"
+msgstr ""
+
+#: includes/class-wpjms-dashboard.php:59
+msgid "You need to login to view this page"
+msgstr ""
+
+#: includes/class-wpjms-dashboard.php:98
+msgid "View All Listing Stats"
+msgstr ""
+
+#: includes/class-wpjms-dashboard.php:116
+#: includes/class-wpjms-dashboard.php:163
+#: includes/class-wpjms-dashboard.php:227
+msgid "No Listing Found"
+msgstr ""
+
+#: includes/class-wpjms-dashboard.php:134
+msgid "%s Stats"
+msgstr ""
+
+#: includes/class-wpjms-dashboard.php:261
+#: includes/class-wpjms-stats-admin.php:152
+msgid "%s total views"
+msgstr "%s vues totales"
+
+#: includes/class-wpjms-dashboard.php:317
+msgid "No listing found"
+msgstr ""
+
+#: includes/class-wpjms-dashboard.php:357
+#: includes/class-wpjms-stats-admin.php:101
+msgid "Date range: Last %s days"
+msgstr "Durée : %s derniers jours"
+
+#: includes/class-wpjms-dashboard.php:374
+#: includes/class-wpjms-stats-admin.php:65
+#: includes/class-wpjms-stats-admin.php:181 includes/functions.php:39
+msgid "Stats"
+msgstr "Statistiques"
+
+#: includes/class-wpjms-dashboard.php:415
+msgid "Add Listing to Chart"
+msgstr "Ajouter une activité au graphique"
+
+#: includes/class-wpjms-dashboard.php:418
+msgid "Search listings..."
+msgstr "Rechercher une activité"
+
+#: includes/class-wpjms-dashboard.php:456
+msgid "(Expires: %s)"
+msgstr ""
+
+#: includes/class-wpjms-dashboard.php:468
+#: includes/class-wpjms-stats-admin.php:182
+msgid "View Stats"
+msgstr "Voir les stats"
+
+#: includes/class-wpjms-dashboard.php:469
+msgid "View Listing"
+msgstr "Voir l'activité"
+
+#: includes/class-wpjms-dashboard.php:470
+msgid "Remove from list"
+msgstr "Retirer de la liste"
+
+#: includes/class-wpjms-dashboard.php:508
+#: includes/class-wpjms-stats-admin.php:183
+msgid "This week"
+msgstr ""
+
+#: includes/class-wpjms-dashboard.php:509
+#: includes/class-wpjms-stats-admin.php:184
+msgid "This month"
+msgstr ""
+
+#: includes/class-wpjms-dashboard.php:510
+msgid "Please enter 3 or more characters"
+msgstr ""
+
+#: includes/class-wpjms-settings.php:50
+msgid "Statistics"
+msgstr ""
+
+#: includes/class-wpjms-settings.php:56 includes/class-wpjms-settings.php:57
+msgid "Purge Data on Deletion"
+msgstr ""
+
+#: includes/class-wpjms-settings.php:58
+msgid ""
+"Purge all statistics data when the plugin is deleted. <strong>This is "
+"irreversible</strong>."
+msgstr ""
+
+#: includes/class-wpjms-settings.php:66
+msgid "Default Stat Days"
+msgstr ""
+
+#: includes/class-wpjms-settings.php:67
+msgid "Default number of statistic days showing in the chart"
+msgstr ""
+
+#: includes/class-wpjms-settings.php:78
+msgid "Stats Dashboard Page"
+msgstr ""
+
+#: includes/class-wpjms-settings.php:79
+msgid ""
+"Select the page where you have placed the [stats_dashboard] shortcode. This "
+"lets the plugin know where the chart is located."
+msgstr ""
+
+#: includes/class-wpjms-settings.php:102
+msgid "License Key"
+msgstr ""
+
+#: includes/class-wpjms-settings.php:103
+msgid ""
+"Enter the license key you received with your purchase receipt to continue "
+"receiving plugin updates."
+msgstr ""
+
+#: includes/class-wpjms-settings.php:135
+msgid "Listings Stats Dashboard"
+msgstr ""
+
+#: includes/class-wpjms-settings.php:164
+msgid "Thanks for using WP Job Manager Stats!"
+msgstr ""
+
+#: includes/class-wpjms-settings.php:166
+msgid "Your users are almost ready to start tracking their listing statistics."
+msgstr ""
+
+#: includes/class-wpjms-settings.php:173
+msgid "Install Content"
+msgstr ""
+
+#: includes/class-wpjms-settings.php:178
+msgid "Skip Installation"
+msgstr ""
+
+#: includes/class-wpjms-settings.php:198
+msgid "Content and settings successfully setup."
+msgstr ""
+
+#: includes/class-wpjms-settings.php:204
+msgid "Edit Page"
+msgstr ""
+
+#: includes/class-wpjms-settings.php:208
+msgid "View Page"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:60 includes/class-wpjms-stats-admin.php:50
+msgid "View stats"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:78 includes/class-wpjms-stat-visits.php:27
+msgid "Visits"
+msgstr "Visites"
+
+#: includes/class-wpjms-setup.php:123
+msgid "Selected:"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:124
+msgid "Day"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:125
+msgid "Days"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:126
+msgid "Close"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:127
+msgid "mo"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:128
+msgid "tu"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:129
+msgid "we"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:130
+msgid "th"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:131
+msgid "fr"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:132
+msgid "sa"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:133
+msgid "su"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:134
+msgid "W"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:136
+msgid "january"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:137
+msgid "february"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:138
+msgid "march"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:139
+msgid "april"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:140
+msgid "may"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:141
+msgid "june"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:142
+msgid "july"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:143
+msgid "august"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:144
+msgid "september"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:145
+msgid "october"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:146
+msgid "november"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:147
+msgid "december"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:149
+msgid "Shortcuts"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:150
+msgid "Custom Values"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:151
+msgid "Past"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:152
+msgid "Following"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:153
+msgid "Previous"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:154 includes/class-wpjms-setup.php:158
+msgid "Week"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:155 includes/class-wpjms-setup.php:159
+msgid "Month"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:156 includes/class-wpjms-setup.php:160
+msgid "Year"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:157
+msgid "Next"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:161
+msgid "Date range should not be more than %d days"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:162
+msgid "Date range should not be less than %d days"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:163
+msgid "Please select a date range longer than %d days"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:164
+msgid "Please select a date"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:165
+msgid "Please select a date range less than %d days"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:166
+msgid "Please select a date range between %1$d and %2$d days"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:167
+msgid "Please select a date range"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:168
+msgid "Time"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:169
+msgid "Hour"
+msgstr ""
+
+#: includes/class-wpjms-setup.php:170
+msgid "Minute"
+msgstr ""
+
+#: includes/class-wpjms-stat-apply-button-click.php:29
+msgid "Contact Clicks"
+msgstr "Clics sur contact"
+
+#: includes/class-wpjms-stat-apply-form-submit.php:29
+msgid "Contact Submissions"
+msgstr "Envoi contact"
+
+#: includes/class-wpjms-stat-unique-visits.php:27
+msgid "Unique Visits"
+msgstr "Visites uniques"
+
+#: includes/listing-payments/settings.php:46
+#: includes/wc-paid-listings/settings.php:46
+msgid "Require Purchase"
+msgstr ""
+
+#: includes/listing-payments/settings.php:47
+#: includes/wc-paid-listings/settings.php:47
+msgid "Requires a Listing Package"
+msgstr ""
+
+#: includes/listing-payments/settings.php:48
+#: includes/wc-paid-listings/settings.php:48
+msgid ""
+"Listing owners must have purchased a listing package to track statistics. "
+"Toggle statistics visibility in individual package settings."
+msgstr ""
+
+#: includes/listing-payments/setup.php:74
+#: includes/wc-paid-listings/setup.php:74
+msgid "Stats are disable for this listing"
+msgstr ""
+
+#: includes/listing-payments/woocommerce-setup.php:54
+#: includes/wc-paid-listings/woocommerce-setup.php:54
+msgid "Display statistics?"
+msgstr ""
+
+#: includes/listing-payments/woocommerce-setup.php:55
+#: includes/wc-paid-listings/woocommerce-setup.php:55
+msgid "Show statistics for listings that have this package."
+msgstr ""
+
+#: vendor/astoundify/plugin-updater/app/Integrations/WPJobManager.php:76
+msgid "Deactivate"
+msgstr ""
+
+#: vendor/astoundify/plugin-updater/app/lib/EDD_SL_Plugin_Updater.php:208
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: vendor/astoundify/plugin-updater/app/lib/EDD_SL_Plugin_Updater.php:216
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: vendor/astoundify/plugin-updater/app/lib/EDD_SL_Plugin_Updater.php:406
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: vendor/astoundify/plugin-updater/app/lib/EDD_SL_Plugin_Updater.php:406
+msgid "Error"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Stats for WP Job Manager"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://astoundify.com/downloads/wp-job-manager-stats/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Capture and display stats of the listings."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Astoundify"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://astoundify.com"
+msgstr ""

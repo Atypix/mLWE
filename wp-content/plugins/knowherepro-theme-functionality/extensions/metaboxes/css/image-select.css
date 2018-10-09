@@ -1,0 +1,21 @@
+.mad-image-select {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin: 0 10px 10px 0;
+	border: 3px solid #d8d8d8;
+	border-radius: 3px;
+	padding: 1px;
+}
+.mad-image-select img {
+	width: 100%;
+	height: 100%;
+}
+.mad-image-select:hover,
+.mad-image-select.mad-active {
+	border-color: #0074a2;
+}
+.mad-image-select input {
+	display: none;
+}

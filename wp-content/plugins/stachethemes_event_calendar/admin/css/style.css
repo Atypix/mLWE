@@ -1,0 +1,1240 @@
+#wpwrap {
+}
+.stachethemes-admin-wrapper {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.stachethemes-admin-wrapper * {
+    box-sizing: border-box;
+    text-transform: none;
+    text-decoration: none;
+}
+.stachethemes-admin-wrapper div,
+.stachethemes-admin-wrapper span,
+.stachethemes-admin-wrapper p {
+    color: #202020;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-section-box {
+    width: 50%;
+    float: left;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-button-no-clear {
+    clear: none !important;
+    margin-left: 10px;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-button {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #fff;
+    background: #7ac143;
+    padding: 18px 20px;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    -webkit-transition: .2 ease all;
+    transition: .2s ease all;
+    cursor: pointer;
+    clear: both;
+    float: left;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-button:hover {
+    background: #8bd254;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-button-a {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #fff;
+    background: #7ac143;
+    padding: 18px 20px;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    -webkit-transition: .2 ease all;
+    transition: .2s ease all;
+    cursor: pointer;
+    clear: both;
+    float: left;
+    text-decoration: none;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-button-a:hover {
+    background: #8bd254;
+}
+.stachethemes-admin-wrapper .blue-button {
+    background: #0096dd;
+}
+.stachethemes-admin-wrapper .blue-button:hover {
+    background: #11a7ee;
+}
+.stachethemes-admin-wrapper h1,
+.stachethemes-admin-wrapper h2,
+.stachethemes-admin-wrapper h3,
+.stachethemes-admin-wrapper h4,
+.stachethemes-admin-wrapper h5,
+.stachethemes-admin-wrapper h6 {
+    clear: both;
+    float: left;
+    font-weight: 400;
+    line-height: 1.2;
+    width: 100%;
+    margin: 0;
+}
+.stachethemes-admin-wrapper h1 {
+    background: #202020;
+    color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    margin: 20px 0;
+    clear: both;
+    float: left;
+    margin-bottom: 0;
+    width: calc(100% - 20px);
+}
+.stachethemes-admin-wrapper h1 {
+    font-size: 19px;
+}
+.stachethemes-admin-wrapper h2 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 19px;
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 20px;
+}
+.stachethemes-admin-wrapper h3 {
+    font-size: 18px;
+}
+.stachethemes-admin-wrapper h4 {
+    font-size: 16px;
+}
+.stachethemes-admin-wrapper h5 {
+    font-size: 16px;
+}
+.stachethemes-admin-wrapper h6 {
+    font-size: 16px;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-textarea {
+    height: 200px;
+    line-height: 1.6;
+    padding: 10px;
+    border-radius: 4px;
+    width: 600px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #e3e3e3 !important;
+    background: #f8f8f8;
+    resize: both;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 16px;
+    clear: both;
+    float: left;
+    box-shadow: none;
+}
+.stachethemes-admin-wrapper input[type="file"] {
+    clear: both;
+    float: left;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-input {
+    margin-left: 0;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-input:not([type="file"]):not([type="checkbox"]) {
+    height: 50px !important;
+    line-height: 50px;
+    padding: 0 10px;
+    border-radius: 4px;
+    width: 400px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    background: #f8f8f8 !important;
+    border: 1px solid #e3e3e3 !important;
+    box-shadow: none;
+    background: #ececec;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 15px;
+    clear: both;
+    float: left;
+    margin-right: 0;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-checkbox {
+    clear: both;
+    float: left;
+    margin: 16px 0;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-checkbox-label {
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 15px;
+    float: left;
+    line-height: 50px;
+    margin-left: 10px;
+    color: #666;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-select {
+    margin-left: 0;
+    padding: 0 5px;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-select:not([type="file"]):not([type="checkbox"]) {
+    height: 50px !important;
+    line-height: 50px;
+    padding: 0 10px;
+    border-radius: 4px;
+    width: 400px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    background: #f8f8f8 !important;
+    border: 1px solid #e3e3e3 !important;
+    box-shadow: none;
+    background: #ececec;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 15px;
+    clear: both;
+    float: left;
+    margin-right: 0;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-select option {
+    padding: 10px;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-colorpicker {
+    width: 50px;
+    min-width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 0;
+    cursor: pointer;
+    border: 1px solid #e3e3e3 !important;
+    /*.clear;*/
+    margin-right: 10px;
+    float: left;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-info {
+    width: 100%;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    color: #666;
+    clear: both;
+    float: left;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-section {
+    margin-top: 20px;
+    background: #fff;
+    float: left;
+    width: calc(100% - 20px);
+    padding: 50px;
+    border-radius: 4px;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-msg-notice {
+    background: #7ac143;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    width: calc(100% - 20px);
+    color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 0;
+    clear: both;
+    float: left;
+    cursor: pointer;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-msg-error {
+    background: #7ac143;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    width: calc(100% - 20px);
+    color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 0;
+    clear: both;
+    float: left;
+    cursor: pointer;
+    background: #d64e07;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-section-flex {
+    display: flex;
+    max-width: 100%;
+    width: 400px;
+    clear: both;
+    float: left;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-section-flex select {
+    margin-left: 10px;
+    min-width: 75px;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-clear {
+    clear: both;
+    float: left;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-section-step {
+    float: left;
+    width: 100%;
+    display: none;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-add-image {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #fff;
+    background: #7ac143;
+    padding: 18px 20px;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    -webkit-transition: .2 ease all;
+    transition: .2s ease all;
+    cursor: pointer;
+    clear: both;
+    float: left;
+    width: 100px;
+    height: 100px;
+    clear: none;
+    background: none;
+    border: 1px solid #ececec;
+    color: #202020;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-add-image:hover {
+    background: #8bd254;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-add-image:hover {
+    color: #7ac143;
+    border-color: #7ac143;
+    background: none;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-image-container {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.stachethemes-admin-wrapper ul[data-single="1"] li {
+    margin: 0;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-image-container img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    cursor: move;
+    /* fallback if grab cursor is unsupported */
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-image-container i {
+    display: none;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    right: 0;
+    font-size: 35px;
+    color: #d64e07;
+    cursor: pointer;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-image-container:hover i {
+    display: block;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-step-separate {
+    width: 100%;
+    float: left;
+    border-top: 1px solid #e3e3e3;
+    margin-bottom: 20px;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-section-step-checkpoints {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    clear: both;
+    float: left;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-section-step-checkpoints li {
+    float: left;
+    width: 100%;
+    height: 30px;
+    position: relative;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-section-step-checkpoints li::after {
+    background: #ececec;
+    content: "";
+    height: 4px;
+    left: 15px;
+    position: absolute;
+    top: calc(50% - 2px);
+    width: 100%;
+    z-index: 0;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-section-step-checkpoints li:last-child::after {
+    display: none;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-section-step-checkpoints li p {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #ececec;
+    color: #999;
+    text-align: center;
+    line-height: 30px;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: .2 ease all;
+    transition: .2s ease all;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-section-step-checkpoints li:last-child {
+    width: 30px;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-section-step-checkpoints li:first-child p,
+.stachethemes-admin-wrapper .stachethemes-admin-section-step-checkpoints li.complete p,
+.stachethemes-admin-wrapper .stachethemes-admin-section-step-checkpoints li.complete::after,
+.stachethemes-admin-wrapper .stachethemes-admin-section-step-checkpoints li.complete + li p {
+    background: #0096dd;
+    color: #fff;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-section-step-checkpoints li.complete {
+    cursor: pointer;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-section-step-checkpoints li.complete p:hover {
+    background: #7ac143;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-section-nobg {
+    background: none;
+    padding: 0;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-tabs-list {
+    width: 100%;
+    clear: both;
+    float: left;
+    margin-bottom: 0;
+    position: relative;
+    top: 15px;
+    margin-top: 10px;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-tabs-list li {
+    margin-top: 5px;
+    float: left;
+    background: #f6f6f6;
+    margin-right: 5px;
+    padding: 15px 20px;
+    border-radius: 4px;
+    margin-bottom: 0;
+    position: relative;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-tabs-list li::after {
+    content: "";
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    top: 100%    ;
+    left: 0;
+    display: none;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-tabs-list li.active {
+    border-radius: 6px 6px 0 0;
+    background: #fff;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-tabs-list li.active::after {
+    display: block;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-section-tab {
+    display: none;
+}
+.stachethemes-admin-wrapper {
+    /* Schedule */
+    /* Guests */
+    /* attachments */
+    /* woocommerce item */
+}
+.stachethemes-admin-wrapper .stec-list-bulk {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6px;
+    margin: 0;
+    margin-top: 20px;
+    height: 60px;
+}
+.stachethemes-admin-wrapper .stec-list-bulk + .stec-list {
+    margin: 0;
+}
+.stachethemes-admin-wrapper .stec-list-bulk div {
+    margin: 0;
+    margin-left: 20px;
+}
+.stachethemes-admin-wrapper .stec-list-bulk div form {
+    float: left;
+}
+.stachethemes-admin-wrapper .stec-list-bulk div form .export-all-items:hover i,
+.stachethemes-admin-wrapper .stec-list-bulk div form .export-all-items:hover p {
+    color: #0096dd;
+}
+.stachethemes-admin-wrapper .stec-list-bulk div form button {
+    float: left;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.stachethemes-admin-wrapper .stec-list-bulk div form button p,
+.stachethemes-admin-wrapper .stec-list-bulk div form button i {
+    -webkit-transition: .2 ease all;
+    transition: .2s ease all;
+}
+.stachethemes-admin-wrapper .stec-list-bulk div form button:hover i,
+.stachethemes-admin-wrapper .stec-list-bulk div form button:hover p {
+    color: #d64e07;
+}
+.stachethemes-admin-wrapper .stec-list-bulk div input {
+    float: left;
+    margin: 0;
+    line-height: 1;
+}
+.stachethemes-admin-wrapper .stec-list-bulk div p {
+    color: #666;
+    float: left;
+    margin: 0;
+    line-height: 1.2;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.stachethemes-admin-wrapper .stec-list-bulk div p i {
+    color: #666;
+    margin-right: 10px;
+    font-size: 16px;
+    float: left;
+    margin-left: 20px;
+}
+.stachethemes-admin-wrapper .stec-list {
+    margin: 0;
+    margin-top: 20px;
+    width: 100%;
+    clear: both;
+    float: left;
+}
+.stachethemes-admin-wrapper .stec-list li {
+    list-style: none !important;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 6px;
+    border-radius: 4px;
+    justify-content: space-between;
+    clear: both;
+    float: left;
+}
+.stachethemes-admin-wrapper .stec-list li .calinfo input[type="checkbox"] {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.stachethemes-admin-wrapper .stec-list li .calinfo {
+    display: flex;
+    align-items: center;
+}
+.stachethemes-admin-wrapper .stec-list li .title {
+    text-indent: 10px;
+    float: left;
+    font-family: "Roboto";
+    font-weight: inherit;
+    font-size: 14px;
+    color: #202020;
+}
+.stachethemes-admin-wrapper .stec-list li .title a {
+    float: left;
+    color: inherit;
+    transition: none;
+}
+.stachethemes-admin-wrapper .stec-list li .title a:hover {
+    color: #0096dd;
+}
+.stachethemes-admin-wrapper .stec-list li .color {
+    border-radius: 4px;
+    float: left;
+    height: 46px;
+    width: 46px;
+}
+.stachethemes-admin-wrapper .stec-list li .color i {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
+}
+.stachethemes-admin-wrapper .stec-list li .ctrl {
+    display: none;
+}
+.stachethemes-admin-wrapper .stec-list li .ctrl a {
+    float: left;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-left: 6px;
+    background: #fff;
+    border-radius: 4px;
+    padding: 0 20px;
+    height: 46px;
+    line-height: 46px;
+}
+.stachethemes-admin-wrapper .stec-list li:hover {
+    background: #6d6e70;
+}
+.stachethemes-admin-wrapper .stec-list li:hover .title {
+    color: #fff;
+}
+.stachethemes-admin-wrapper .stec-list li:hover .ctrl {
+    display: block;
+}
+.stachethemes-admin-wrapper .stec-list li:hover .ctrl a {
+    color: #202020;
+    -webkit-transition: .2 ease all;
+    transition: .2s ease all;
+}
+.stachethemes-admin-wrapper .stec-list li:hover .ctrl a:hover {
+    background: #7ac143;
+    color: #fff;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-flex-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 6px 6px 20px;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-section-custom-head h2 {
+    color: #fff;
+    width: auto;
+}
+.stachethemes-admin-wrapper .add-schedule-timespan {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #0096dd;
+    padding-left: 45px;
+    position: relative;
+}
+.stachethemes-admin-wrapper .add-schedule-timespan:hover {
+    background: #11a7ee;
+}
+.stachethemes-admin-wrapper .add-schedule-timespan::before {
+    color: #fff;
+    content: "\f067";
+    float: left;
+    font-family: FontAwesome;
+    font-size: 25px;
+    left: 15px;
+    position: absolute;
+    top: calc(50% - 14px);
+}
+.stachethemes-admin-wrapper .stachethemes-admin-schedule-timespan {
+    width: 100%;
+    margin-top: 20px;
+    clear: both;
+    float: left;
+    border-radius: 4px;
+    border: 1px solid #ececec;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-schedule-timespan:hover {
+    border: 1px solid #0096dd;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-schedule-toggle-wrap {
+    padding: 20px;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-schedule-timespan-head {
+    padding: 6px;
+    padding-left: 20px;
+    border-bottom: 1px solid #ececec;
+    clear: both;
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-schedule-timespan-title span {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.stachethemes-admin-wrapper .add-guests-guest {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #0096dd;
+    padding-left: 45px;
+    position: relative;
+}
+.stachethemes-admin-wrapper .add-guests-guest:hover {
+    background: #11a7ee;
+}
+.stachethemes-admin-wrapper .add-guests-guest::before {
+    color: #fff;
+    content: "\f067";
+    float: left;
+    font-family: FontAwesome;
+    font-size: 25px;
+    left: 15px;
+    position: absolute;
+    top: calc(50% - 14px);
+}
+.stachethemes-admin-wrapper .stachethemes-admin-guests-guest {
+    width: 100%;
+    margin-top: 20px;
+    clear: both;
+    float: left;
+    border-radius: 4px;
+    border: 1px solid #ececec;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-guests-guest:hover {
+    border: 1px solid #0096dd;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-guests-toggle-wrap {
+    padding: 20px;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-guests-guest-head {
+    padding: 6px;
+    padding-left: 20px;
+    border-bottom: 1px solid #ececec;
+    clear: both;
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-guests-guest-title span {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-section-flex-guest-social {
+    display: flex;
+    max-width: 400px;
+    width: 100%;
+    clear: both;
+    float: left;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-section-flex-guest-social select {
+    width: 150px;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-section-flex-guest-social input {
+    width: 100%;
+    margin-left: 10px;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-guests-social-remove {
+    color: #c5c5c5;
+    font-size: 30px;
+    float: right;
+    width: 30px;
+    height: 30px;
+    line-height: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+    -webkit-transition: .2 ease all;
+    transition: .2s ease all;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-guests-social-remove:hover {
+    color: #d64e07;
+}
+.stachethemes-admin-wrapper .add-guests-soclink {
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 55px;
+}
+.stachethemes-admin-wrapper .add-guests-soclink:before {
+    color: #202020;
+    content: "\f234";
+    float: left;
+    font-family: FontAwesome;
+    font-size: 25px;
+    left: 15px;
+    position: absolute;
+    top: calc(50% - 14px);
+    -webkit-transition: .2 ease all;
+    transition: .2s ease all;
+}
+.stachethemes-admin-wrapper .add-guests-soclink:hover:before {
+    color: #7ac143;
+}
+.stachethemes-admin-wrapper .light-btn {
+    background: none;
+    border: 1px solid #ececec;
+    color: #202020;
+    min-width: 120px;
+}
+.stachethemes-admin-wrapper .light-btn:hover {
+    background: none;
+    border-color: #7ac143;
+    color: #7ac143;
+}
+.stachethemes-admin-wrapper .uninvite-user:hover {
+    color: #d64e07;
+    border-color: #d64e07;
+}
+.stachethemes-admin-wrapper .light-btn.expand {
+    display: none;
+}
+.stachethemes-admin-wrapper .light-btn.expand:hover,
+.stachethemes-admin-wrapper .light-btn.collapse:hover {
+    border-color: #7ac143;
+    color: #7ac143;
+    background: none;
+}
+.stachethemes-admin-wrapper .light-btn.delete:hover {
+    border-color: #d64e07;
+    color: #d64e07;
+    background: none;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-schedule-collapse .light-btn {
+    display: block;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-schedule-collapse .light-btn.collapse {
+    display: none;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-schedule-collapse .stachethemes-admin-schedule-toggle-wrap {
+    display: none;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-schedule-collapse .stachethemes-admin-schedule-timespan-head {
+    border: none;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-guests-collapse .light-btn {
+    display: block;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-guests-collapse .light-btn.collapse {
+    display: none;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-guests-collapse .stachethemes-admin-guests-toggle-wrap {
+    display: none;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-guests-collapse .stachethemes-admin-guests-guest-head {
+    border: none;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-separator {
+    clear: both;
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+}
+.stachethemes-admin-wrapper .attendance-all {
+    clear: both;
+    float: left;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ececec;
+    padding: 6px 6px 6px 20px;
+}
+.stachethemes-admin-wrapper .attendance-all p {
+    float: left;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.stachethemes-admin-wrapper .attendance-all .invite-all {
+    min-width: 150px;
+    position: relative;
+    padding-left: 45px;
+}
+.stachethemes-admin-wrapper .attendance-all .invite-all:before {
+    color: #202020;
+    content: "\f067";
+    float: left;
+    font-family: FontAwesome;
+    font-size: 25px;
+    left: 15px;
+    position: absolute;
+    top: calc(50% - 14px);
+    -webkit-transition: .2 ease all;
+    transition: .2s ease all;
+}
+.stachethemes-admin-wrapper .attendance-all .invite-all:hover:before {
+    color: #8bd254;
+}
+.stachethemes-admin-wrapper .attendance-all .uninvite-all {
+    min-width: 150px;
+    position: relative;
+    padding-left: 45px;
+    display: none;
+}
+.stachethemes-admin-wrapper .attendance-all .uninvite-all:before {
+    color: #202020;
+    content: "\f067";
+    float: left;
+    font-family: FontAwesome;
+    font-size: 25px;
+    left: 15px;
+    position: absolute;
+    top: calc(50% - 14px);
+    -webkit-transition: .2 ease all;
+    transition: .2s ease all;
+}
+.stachethemes-admin-wrapper .attendance-all .uninvite-all:hover:before {
+    color: #8bd254;
+}
+.stachethemes-admin-wrapper .attendance-all .uninvite-all:before {
+    content: '\f068';
+}
+.stachethemes-admin-wrapper .attendance-all .uninvite-all:hover {
+    color: #d64e07;
+    border-color: #d64e07;
+}
+.stachethemes-admin-wrapper .attendance-all .uninvite-all:hover:before {
+    color: #d64e07;
+}
+.stachethemes-admin-wrapper .attendance-all.active .invite-all {
+    display: none;
+}
+.stachethemes-admin-wrapper .attendance-all.active .uninvite-all {
+    display: block;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-section-tab-attendance-wrap {
+    border-radius: 4px;
+    border: 1px solid #ececec;
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+.stachethemes-admin-wrapper .attendee-list {
+    clear: both;
+    float: left;
+    width: 100%;
+    padding: 6px;
+    margin: 0;
+}
+.stachethemes-admin-wrapper .attendee-list li {
+    align-items: center;
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    margin: 0;
+    padding: 6px 6px 6px 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ececec;
+}
+.stachethemes-admin-wrapper .attendee-list li:last-child {
+    margin: 0;
+}
+.stachethemes-admin-wrapper .attendee-list li p {
+    float: left;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.stachethemes-admin-wrapper .attendee-list li:hover {
+    border-color: #0096dd;
+}
+.stachethemes-admin-wrapper .attendee-list li .uninvite-user {
+    display: none;
+}
+.stachethemes-admin-wrapper .attendee-list .active .invite-user {
+    display: none;
+}
+.stachethemes-admin-wrapper .attendee-list .active .uninvite-user {
+    display: block;
+}
+.stachethemes-admin-wrapper .attendee-email-list {
+    clear: both;
+    float: left;
+    width: 100%;
+    list-style: decimal;
+    list-style-position: inside;
+    margin: 0;
+    margin-top: 20px;
+}
+.stachethemes-admin-wrapper .attendee-email-list li {
+    border-bottom: 1px solid #ececec;
+    color: #999;
+    height: 50px;
+    width: 100%;
+    clear: both;
+    float: left;
+    line-height: 50px;
+}
+.stachethemes-admin-wrapper .attendee-email-list li:last-child {
+    margin-bottom: 0;
+}
+.stachethemes-admin-wrapper .attendee-email-list li .attendee-email-remove {
+    float: right;
+    color: #999;
+    cursor: pointer;
+}
+.stachethemes-admin-wrapper .attendee-email-list li .attendee-email-remove:hover {
+    color: #d64e07;
+}
+.stachethemes-admin-wrapper .attendee-email-list li:first-child {
+    display: none;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-section-tab {
+    width: 100%;
+    clear: both;
+    float: left;
+}
+.stachethemes-admin-wrapper .add-attachments-attachment {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #0096dd;
+    padding-left: 45px;
+    position: relative;
+}
+.stachethemes-admin-wrapper .add-attachments-attachment:hover {
+    background: #11a7ee;
+}
+.stachethemes-admin-wrapper .add-attachments-attachment::before {
+    color: #fff;
+    content: "\f067";
+    float: left;
+    font-family: FontAwesome;
+    font-size: 25px;
+    left: 15px;
+    position: absolute;
+    top: calc(50% - 14px);
+}
+.stachethemes-admin-wrapper .stachethemes-admin-attachments-attachment {
+    width: 100%;
+    margin-top: 20px;
+    clear: both;
+    float: left;
+    border-radius: 4px;
+    border: 1px solid #ececec;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-attachments-attachment:hover {
+    border: 1px solid #0096dd;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-attachments-toggle-wrap {
+    padding: 20px;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-attachments-attachment-head {
+    padding: 6px;
+    padding-left: 20px;
+    clear: both;
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-attachments-attachment-title span {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-woocommerce-product {
+    width: 100%;
+    margin-top: 20px;
+    clear: both;
+    float: left;
+    border-radius: 4px;
+    border: 1px solid #ececec;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-woocommerce-product:hover {
+    border-color: #0096dd;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-woocommerce-product-head {
+    padding: 6px;
+    padding-left: 20px;
+    clear: both;
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-woocommerce-product-title span {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.stachethemes-admin-wrapper .desc {
+    clear: both;
+    font-family: "Roboto";
+    font-weight: inherit;
+    font-size: 14px;
+}
+.stachethemes-admin-wrapper .stec-text-red {
+    color: #f15e6e;
+}
+.stachethemes-admin-wrapper .stec-activator-success,
+.stachethemes-admin-wrapper .stec-activator-beforesend {
+    display: none;
+}
+.stachethemes-admin-wrapper .stec-event-timespan {
+    clear: both;
+    float: left;
+    font-size: 12px;
+    color: #999;
+}
+.stachethemes-admin-wrapper .stec-list li:hover .stec-event-timespan {
+    color: #fff;
+}
+.stachethemes-admin-wrapper .stachethemes-admin-link-text {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    clear: both;
+    float: left;
+    margin: 10px 0;
+}
+.notice-info {
+    margin: 20px 0 0;
+    width: calc(80%);
+    box-sizing: border-box;
+}
+.stec-repeater-popup-bg {
+    background: #000;
+    position: fixed;
+    z-index: 9990;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.stec-repeater-popup {
+    position: fixed;
+    left: calc(50% - 275px);
+    top: calc(50% - 250px);
+    display: none;
+    background: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 9999;
+    border-radius: 3px;
+}
+.stec-repeater-popup th {
+    vertical-align: text-top;
+}
+.stec-repeater-popup .stec-repeater-popup-repeat-advanced {
+    display: none;
+}
+.stec-repeater-popup .stec-repeater-popup-exdate-datelist-template {
+    display: none !important;
+}
+.stec-repeater-popup .stec-repeater-popup-exdate-datelist-submit-value {
+    display: none;
+}
+.stec-repeater-popup .stec-repeater-popup-exdate-options a {
+    font-size: 14px;
+}
+.stec-repeater-popup .stec-repeater-popup-exdate-options a.stec-remove-exdate {
+    color: #f15e6e;
+    opacity: 0;
+}
+.stec-repeater-popup .stec-repeater-popup-exdate-options .stec-repeater-popup-exdate-datelist {
+    margin: 0;
+}
+.stec-repeater-popup .stec-repeater-popup-exdate-options .stec-repeater-popup-exdate-datelist li {
+    margin-left: 3px;
+    margin-bottom: 0;
+}
+.stec-repeater-popup .stec-repeater-popup-exdate-options .stec-repeater-popup-exdate-datelist li span {
+    font-size: 14px;
+}
+.stec-repeater-popup .stec-repeater-popup-exdate-options .stec-repeater-popup-exdate-datelist li:nth-child(2) {
+    margin-top: 5px;
+}
+.stec-repeater-popup .stec-repeater-popup-exdate-options .stec-repeater-popup-exdate-datelist li:hover a {
+    opacity: 1;
+}
+p.stec-repeater-summary {
+    width: 100%;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    color: #666;
+    clear: both;
+    float: left;
+}
+p.stec-repeater-summary span {
+    color: #0096dd;
+}
+.stec-repeater-popup {
+    width: 550px;
+}
+.stec-repeater-popup select {
+    min-width: 100px;
+}
+.stec-repeater-popup tr {
+    margin-bottom: 10px;
+    float: left;
+    clear: both;
+}
+.stec-repeater-popup select,
+.stec-repeater-popup input {
+    border: 1px solid #ccc;
+    box-shadow: none;
+    background: #fff;
+}
+.stec-repeater-popup .stec-repeater-popup-endson-options span {
+    align-items: center;
+    clear: both;
+    display: flex;
+    float: left;
+    line-height: 1.5;
+}
+.stec-repeater-popup .stec-repeater-popup-repeat-on span {
+    line-height: 1;
+}
+.stec-repeater-popup .stec-repeater-popup-repeat-on span input {
+    margin: 0;
+}
+.stec-repeater-popup th {
+    width: 150px;
+    text-align: left;
+}
+.stec-repeater-popup .stec-repeater-popup-weekdays {
+    display: none;
+}
+.stec-repeater-popup .stec-repeater-popup-buttons {
+    margin-top: 20px;
+}
+.stec-repeater-popup input:disabled {
+    background: #ececec;
+}
+.stec-repeater-popup .wp-editor-wrap {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.stec-repeater-popup .stachethemes-admin-add-image-list {
+    float: left;
+}
+.stec-repeater-popup .stachethemes-admin-add-image {
+    margin-bottom: 20px;
+}
+
+.stachethemes-admin-wrapper #wp-description-wrap {
+    float: left;
+    width: 100%;
+}

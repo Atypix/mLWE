@@ -1,0 +1,23 @@
+User-agent: * 
+# URLs que je ne veux pas indexer : Login Trackbacks Commentaires
+Disallow: /wp-login.php
+Disallow: */trackback
+Disallow: /*/comments
+Disallow: /cgi-bin
+Disallow: /*.php$
+Disallow: /*.inc$
+Disallow: /*.gz
+Disallow: /*.cgi
+# URLs autorisées CSS JS Analytics pour les Bots
+Allow: /*css?*
+Allow: /*js?*
+Allow: /*?utm*
+Allow: /css/?
+# Autoriser Google Image
+User-agent: Googlebot-Image
+Allow: /*
+# Autoriser Google AdSense
+User-agent: Mediapartners-Google*
+Allow: /*
+
+Sitemap: https://www.mylittlewe.com/job_listing-sitemap.xml

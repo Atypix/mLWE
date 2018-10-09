@@ -1,0 +1,12 @@
+.mad-select {
+	min-width: 160px;
+}
+.mad-select option {
+    padding: .5rem 1rem;
+}
+.mad-select-all-none {
+	display: block;
+	margin-top: 5px;
+}
+
+

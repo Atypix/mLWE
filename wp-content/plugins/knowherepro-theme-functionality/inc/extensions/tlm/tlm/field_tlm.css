@@ -1,0 +1,12 @@
+.validation_activate_buttons{box-shadow: none !important;cursor: pointer;border: none !important;text-decoration: none !important;border-radius: 4px;color: #fff;line-height: 40px;padding: 0px 20px;display: inline-block;font-weight: 600;font-size: 14px;outline: none !important;}
+.validation_activate_buttons:focus{color: #fff;}
+#validation_activate{ background: #3498db;margin-right: 5px;}
+#validation_deactivate{ background: #e83737;}
+#validation_activate:hover{background: #2c8ac8;color: #fff;}
+#validation_deactivate:hover{background: #d23333;color: #fff;}
+#purchase_code_verification{background: #e5e5e5;color: #777;font-size: 13px;padding: 0 7px;border-radius: 5px;line-height: 30px;font-weight: 600;margin-bottom: 10px;}
+#purchase_code_verification:focus{background: #ccc;}
+#popup_license_button {display: none;}
+#floris_opt-top_footer_columns .redux-image-select img { max-width: 100%; }
+.register-theme-form { width: 33%; margin: 0 auto; }
+.redux-tlm-class .form-table>tbody>tr>th { width: auto !important; }

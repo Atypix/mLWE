@@ -1,0 +1,1546 @@
+/*
+Theme Name: KnowherePro Child Theme
+Template: knowherepro
+Author: monkeysan
+Author URI: https://themeforest.net/user/monkeysan/portfolio
+Version: 1.0
+*/
+
+/*------------------------------------------------------------------
+[Add Your Custom CSS Here] */
+.kw-dropdown-list {
+	width:200px!important;
+}
+
+.single-product > .product > .kw-box {
+    display: none!important;
+}
+
+.kw-group-item {
+	display:none!important;
+}
+.fieldset-job_price_range_max {
+	display:none!important;
+}
+
+.woocommerce-MyAccount-navigation-link--edit-address {
+  display:none!important;
+}
+
+
+
+.kw-start {
+	font-size:12px!important;
+}
+.kw-end {
+	font-size:12px!important;
+}
+/* Removes the clear button from date inputs */
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+
+/* Removes the spin button */
+input[type="date"]::-webkit-inner-spin-button { 
+    display: none;
+}
+
+/* Always display the drop down caret */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #2c3e50;
+}
+
+/* A few custom styles for date inputs */
+input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    color: #95a5a6;
+    font-family: "Helvetica", arial, sans-serif;
+    font-size: 18px;
+    border:1px solid #ecf0f1;
+    background:white;
+    padding:5px;
+    display: inline-block !important;
+    visibility: visible !important;
+}
+
+input[type="date"], focus {
+    color: #95a5a6;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+.menu-item > a {
+	font-size:12px!important;
+}
+
+.kw-search-box-opener {
+	display:none!important;
+}
+.kw-cart-btn {
+	/*display:none!important;*/
+}
+
+.woocommerce-MyAccount-navigation-link {
+	/*width:150px!important;	*/
+	
+}
+.woocommerce-MyAccount-navigation-link > a {
+	font-size:12px !important;	
+	/*margin : 10px 10px 10px 10px !important;*/
+}
+
+.woocommerce-MyAccount-navigation-link--everwprgpd> a:before {
+  content:"\e778" !important;
+}
+
+.woocommerce-MyAccount-navigation-link--bookings > a:before { 
+	content: "\e68d" !important; 
+}
+
+.woocommerce-MyAccount-navigation-link--payment-methods  > a:before {
+	content: "\e75e" !important;
+}
+
+.woocommerce-MyAccount-navigation-link--gestion-activites > a:before { 
+    content: "\e836" !important; 
+}
+.woocommerce-MyAccount-navigation-link--messages > a:before { 
+    content:"\e696" !important; 
+}
+
+.icon-message:before {
+  content:"\e696" !important;
+}
+
+.icon-gestion-activites:before {
+  content: "\e836" !important; 
+}
+
+.icon-bookings:before {
+  content: "\e68d" !important;  
+}
+.icon-logout:before {
+  content: "\e6d3" !important;  
+}
+
+.stec-layout-event-preview-left-text-title > a {
+    display:none !important;
+}
+
+.woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link--bookings:hover > a{
+    background-color:#32CD32 !important;
+}
+
+.fieldset-job_location_visible  > label {
+  display:block!important;
+  margin-left:40px!important;
+  margin-bottom:-20px !important;
+}
+
+#job_location_visible{
+  margin-top:-30px !important;
+}
+.fieldset-accept_conditions > label {
+  display:block!important;
+  margin-left:40px!important;
+  margin-bottom:-20px !important;
+}
+
+#accept_conditions{
+  margin-top:-30px !important;
+}
+
+
+.fieldset-job_title  {
+    max-width:600px !important;
+    margin-left:120px !important;
+}
+
+.fieldset-is_private_activite {
+    max-width:600px !important;
+    margin-left:120px !important;
+}
+
+.fieldset-job_description {
+    max-width:600px !important;
+    margin-left:120px !important;
+}
+
+.fieldset-job_type {
+    min-width:600px !important;
+    margin-left:120px !important;
+}
+.fieldset-job_tags {
+    min-width:600px !important;
+    margin-left:120px !important;
+}
+.fieldset-job_category {
+    max-width:600px !important;
+    margin-left:120px !important;
+}
+.fieldset-job_location {
+   min-width:600px !important;
+   margin-left:120px !important; 
+}
+.fieldset-type_reservation {
+    max-width:600px !important;
+    margin-left:120px !important;
+}
+.fieldset-job_hours  {
+    max-width:600px !important;
+    margin-left:120px !important;
+}
+.fieldset-application {
+     min-width:600px !important;
+     margin-left:120px !important;
+}
+.fieldset-job_price_range_min {
+    min-width:600px !important;
+    margin-left:120px !important;
+}
+.fieldset-paypal_email {
+    max-width:600px !important;
+    margin-left:120px !important;
+}
+.fieldset-date_fixe {
+   max-width:600px !important; 
+   margin-left:120px !important;
+}
+
+.fieldset-date_fixe_2 {
+   max-width:600px !important; 
+   margin-left:120px !important;
+}
+.fieldset-date_fixe_3 {
+   max-width:600px !important; 
+   margin-left:120px !important;
+}
+.fieldset-nb_personnes_max {
+   max-width:600px !important; 
+   margin-left:120px !important; 
+}
+
+.fieldset-accept_conditions {
+  max-width:600px !important; 
+   margin-left:120px !important; 
+}
+
+.fieldset-job_location_visible  {
+  max-width:600px !important; 
+   margin-left:120px !important; 
+}
+.job-manager-form {
+    width:900px!important;
+    
+}
+
+.job-manager-form > p > .button {
+    margin-left:120px !important;
+}
+
+.default {
+    max-width:600px !important;
+}
+
+.fieldset-recaptcha{
+    margin-left:120px !important;
+}
+
+.fieldset-buffering {
+    max-width:600px !important; 
+   margin-left:120px !important;
+}
+
+.fieldset-tax_enabled {
+      max-width:600px !important; 
+   margin-left:120px !important;
+}
+
+.fieldset-duree_actvite {
+      max-width:600px !important; 
+   margin-left:120px !important;
+}
+
+.job-fields-title {
+    text-align:center!important;
+}
+
+.price {
+    display:none !important;
+}
+
+.single-product > .product > .summary > .kw-entry-share {
+    display:none !important;
+}
+
+em.wcpv-sold-by-single {
+    display:none;
+}
+
+
+.logo_mobile_2 {
+  display:none!important;
+}
+#reservez {
+  margin-bottom:-40px!important;
+}
+.entry-summary {
+  background-color:transparent!important;
+}
+#reservez_btn {
+      display: none !important;
+}
+.panier-mobile {
+       display: none !important;
+}
+
+.kw-listing-single-header > .kw-md-table-row > .col-md-8 >.kw-listing-item-title{
+  
+  font-size:40px !important;
+  line-height:normal!important;
+}
+@media only screen and (max-width: 767px) {
+.at-resp-share-element:before {
+    background-size: 100% !important;
+}
+.kw-listing-single-header > .kw-md-table-row > .col-md-8 >.kw-listing-item-title{
+  
+  font-size:30px !important;
+  line-height:normal!important;
+}
+  .panier-mobile {
+       display: block !important;
+    }
+    .widget_booking_widget {
+      display: none !important;
+    }
+
+    #reservez_btn {
+      display: block !important;
+    }
+.kw-mobile-nav-btn {
+  position:absolute!important;
+  left :20px !important;
+  top:15px !important;
+}
+.home_mobile {
+  background-image: url('https://www.mylittlewe.com/wp-content/uploads/2018/07/bg-mobile2.jpg') !important;
+  background-repeat: no-repeat!important;
+  background-position: top center!important;
+}
+
+
+.logo_mobile_2 {
+  
+  width:100%!important;
+  min-height:80px!important;
+  display: inline-block!important;
+  
+}
+.woocommerce .col2-set .col-1,
+.woocommerce-page .col2-set .col-1,
+.woocommerce .col2-set .col-2,
+.woocommerce-page .col2-set .col-2 {
+  width:100% !important;
+}
+
+.kw-standard-logo {
+  display:none!important;
+}
+.wc-bookings-booking-form-button {
+
+  margin-left:0px!important;
+}
+
+.fieldset-buffering {
+     max-width:100% !important;
+    margin-left:0px !important;
+}
+.fieldset-job_title  {
+    max-width:100% !important;
+    margin-left:0px !important;
+}
+
+.fieldset-nb_personnes_max {
+   max-width:100% !important;
+    margin-left:0px !important;
+}
+
+.fieldset-accept_conditions {
+  max-width:100% !important;
+    margin-left:0px !important;
+}
+
+.fieldset-job_location_visible  {
+  max-width:100% !important;
+    margin-left:0px !important;
+}
+
+.fieldset-is_private_activite {
+    max-width:100% !important;
+    margin-left:0px !important;
+}
+
+.fieldset-job_description {
+    max-width:100% !important;
+    margin-left:0px !important;
+}
+
+.fieldset-job_type {
+    min-width:100% !important;
+    margin-left:0px !important;
+}
+.fieldset-job_tags {
+    min-width:100% !important;
+    margin-left:0px !important;
+}
+.fieldset-job_category {
+    max-width:100% !important;
+    margin-left:0px !important;
+}
+.fieldset-job_location {
+   min-width:100% !important;
+   margin-left:0px !important; 
+}
+.fieldset-type_reservation {
+    max-width:100% !important;
+    margin-left:0px !important;
+}
+.fieldset-job_hours  {
+    max-width:100% !important;
+    margin-left:0px !important;
+}
+.fieldset-application {
+     min-width:100% !important;
+     margin-left:0px !important;
+}
+.fieldset-job_price_range_min {
+    min-width:100% !important;
+    margin-left:0px !important;
+}
+.fieldset-paypal_email {
+    max-width:100% !important;
+    margin-left:0px !important;
+}
+.fieldset-date_fixe {
+   max-width:100% !important; 
+   margin-left:0px !important;
+}
+.fieldset-date_fixe_2 {
+   max-width:100% !important; 
+   margin-left:0px !important;
+}
+.fieldset-date_fixe_3 {
+   max-width:100% !important; 
+   margin-left:0px !important;
+}
+
+.fieldset-duree_actvite  {
+   max-width:100% !important; 
+   margin-left:0px !important;
+}
+.job-manager-form {
+    width:100%!important;
+    
+}
+
+.fieldset-tax_enabled {
+   max-width:100% !important; 
+   margin-left:0px !important;
+}
+
+.default {
+    max-width:100% !important;
+}
+
+.kw-listing-item-actions > li:nth-child(1) {
+    margin-left:0px!important;
+}
+
+}
+
+.payment_method_stripe > label {
+  padding-top:5px!important;
+  margin-left:10px!important;
+
+}
+
+.payment_method_stripe_sepa > label {
+  padding-top:5px!important;
+  margin-left:10px!important;
+}
+
+.woocommerce-order > .woocommerce-order-overview > li {
+  font-size:12px!important;
+}
+
+#ywbc_barcode_value {
+  display:none!important;
+}
+
+#stripe-payment-data {
+  margin-top:20px!important;
+  margin-left:30px!important;
+  margin-bottom:30px!important;
+}
+
+.avatar-300 {
+  width:150px !important;
+  height:150px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+}
+
+.avatar-30 {
+  width:30px !important;
+  height:30px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+}
+
+.avatar-60 {
+  width:60px !important;
+  height:60px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+}
+.avatar-64 {
+  width:64px !important;
+  height:64px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+}
+
+.wc-bookings-booking-form-button {
+  width:100%!important;
+  text-transform:uppercase!important;
+  height:50px;
+  
+}
+
+.wc-bookings-booking-form {
+  /*margin-top:-30px!important;*/
+  padding:0px !important;
+  border:none !important;
+  width:100% !important;
+}
+
+.ui-datepicker-unselectable  {
+  text-decoration:line-through;
+}
+
+/*.wc_bookings_field_persons > label {
+  font-weight:bold!important;
+  font-size:14px!important;
+  padding-top:8px!important;
+}*/
+#wc_bookings_field_persons {
+  width:150px !important;
+}
+
+.wc_bookings_field_start_date > legend {
+    font-weight:bold!important;
+  font-size:16px!important;
+ 
+}
+
+.kw-listing-contact-form > h2 {
+  display:none!important;
+}
+
+.fep-button {
+  border: 0px !important;
+}
+
+.fieldset-company_logo {
+  border-right:2px solid #d0d0d0 !important;
+}
+
+.kw-popup-gallery > img {
+  width:750px!important;
+}
+
+.kw-entry-share {
+  display:none!important;
+}
+
+.kw-share-popup-link {
+  display:none!important;
+}
+
+.icon-share2 {
+  display:none!important;
+}
+
+.kw-listing-item-actions > li:nth-child(2) {
+    display: none !important;
+}
+
+.kw-listing-item-actions > li:nth-child(3) {
+    display: none !important;
+}
+.kw-listing-item-actions > li:nth-child(1) {
+    margin-left:150px!important;
+}
+
+
+.fep-form-field {
+  margin:10px 0 10px 0!important;
+}
+
+#fep-menu-newmessage {
+  color:white!important;
+}
+
+#fep-menu-message_box {
+color:white!important;
+}
+
+#fep-menu-settings {
+  color:white!important;
+}
+
+
+
+.kw-icons-list > li.address__street{
+  font-size:20px!important;
+}
+
+
+
+
+/*checkout responsive */
+
+
+
+.kw-page-header {
+  background-color: black !important;
+}
+
+.vendor-dashboard-link {
+  display:none!important;
+}
+
+.stec-layout-event-inner-intro-share {
+  display:none!important;
+}
+
+.woocommerce-notice--success {
+  color:green !important;
+}
+
+.kw-invisible-hours {
+  display:block !important;
+}
+
+
+
+.rwp-people-label > a {
+  display:none!important;
+}
+
+
+.at-resp-share-element:before {
+    width: 100% !important;
+    height:55px !important;
+    margin-top:30px !important;
+    content: " " !important;
+    background-image: url(https://www.mylittlewe.com/wp-content/uploads/2018/07/tag.jpg)!important;
+    background-repeat:no-repeat!important;
+    background-position: center top!important;
+}
+
+
+.variation-Activitproposepar {
+  display:none!important;
+}
+
+    
+
+
+@media(max-width: 991px) {
+    .mobile-checkout-btn {
+        display: block !important;
+    }
+
+}
+
+.widget_booking_widget {
+  padding : 0px !important
+}
+
+.single-product > .product >.entry-summary {
+  padding :0px !important;
+}
+
+/* ------------------------------------------------------
+  Bookings
+------------------------------------------------------ 
+
+.wc-bookings-booking-form {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.listing-products__items .product:not(:last-child) { margin-bottom: 40px; }
+
+.listing-products__items .kw-entry-shop-controls > * {
+  width: 100%;
+  float: none;
+  text-align: left;
+}
+
+.listing-products__items .product.product-type_simple .kw-entry-shop-controls > * {
+  margin: 10px 0;
+}
+
+.listing-products__items .product_title.entry-title {
+  font-size: 14px;
+  margin: 1em 0;
+}
+
+.listing-products__items .price {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0;
+  padding-right: 0;
+}
+
+.listing-products__items .price .amount { color: #333; }
+
+.wc-bookings-booking-form .form-field {
+  margin-bottom: 10px;
+}
+
+.wc-bookings-booking-form .form-field label {
+  display: block;
+}
+
+.wc-bookings-booking-form .wc_bookings_field_persons{
+  width: 100px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.wc-bookings-booking-form .wc_bookings_field_persons #wc_bookings_field_persons {
+  min-width: 80px;
+  width: 100%;
+  text-align: center;
+}
+.wc-bookings-booking-form .wc_bookings_field_resource {
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(100% - 114px);
+}
+.wc-bookings-date-picker legend {
+  display: none;
+}
+.wc-bookings-date-picker .ui-datepicker-title,
+.wc-bookings-date-picker .ui-datepicker .ui-datepicker-title {
+  font-size: 14px;
+  font-weight: 800;
+  padding: .85em 0;
+}
+
+.wc-bookings-date-picker .ui-widget-content {
+  background: transparent;
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: none;
+}
+
+.wc-bookings-date-picker .ui-datepicker-header {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+  color: inherit;
+  text-transform: uppercase;
+}
+
+.wc-bookings-date-picker .ui-datepicker-header .ui-state-hover {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.wc-bookings-date-picker .ui-datepicker table {
+  font-size: 14px;
+  margin: 0;
+  border-collapse: separate;
+}
+
+.wc-bookings-date-picker .ui-datepicker th {
+  color: #222;
+  background-color: transparent;
+  border-top: 1px solid #efefef;
+  border-right: 1px solid #efefef;
+}
+
+.wc-bookings-date-picker .ui-datepicker th:last-child { border-right: none; }
+
+.wc-bookings-date-picker .ui-datepick.wc-bookings-date-picker .ui-datepicker {
+  padding: 0;
+  width: auto;
+}
+
+.wc-bookings-date-picker .ui-datepicker td,
+.wc-bookings-date-picker .ui-datepicker td.ui-datepicker-other-month {
+  border-color: #efefef;
+  opacity: 1;
+  padding: 0;
+}
+
+.wc-bookings-date-picker .ui-datepicker td a {
+  opacity: 1;
+  position: relative;
+  z-index: 1;
+}
+.wc-bookings-date-picker .ui-datepicker td > a:hover {
+  color: white;
+  position: relative;
+}
+
+.wc-bookings-date-picker .ui-datepicker td.partial_booked a:before,
+.wc-bookings-date-picker .ui-datepicker td > a:before,
+.wc-bookings-date-picker .ui-datepicker td > span:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  margin-top: -1.25em;
+  margin-left: -1.25em;
+  border-radius: 50%;
+  background-color: #000000;
+  border: none;
+  opacity: 0;
+  z-index: -1;
+  transition: all 400ms;
+}
+
+.wc-bookings-date-picker .ui-datepicker .ui-state-disabled span,
+.wc-bookings-date-picker .ui-datepicker .ui-datepicker-unselectable span {
+  opacity: 0.3;
+}
+
+.wc-bookings-date-picker .ui-datepicker td.partial_booked a:before {
+  opacity: .75;
+}
+
+.wc-bookings-date-picker .ui-datepicker td:not(.fully_booked) > a.ui-state-hover:before,
+.wc-bookings-date-picker .ui-datepicker table .bookable-range a:before,
+.wc-bookings-date-picker .ui-datepicker table .ui-datepicker-current-day a:before {
+  opacity: 1;
+}
+
+.wc-bookings-date-picker .ui-datepicker td.bookable > a.ui-state-hover {
+  color: #ffffff !important;
+}
+
+.wc-bookings-date-picker .ui-datepicker td.ui-datepicker-other-month a{
+  opacity: 0.45;
+}
+.wc-bookings-date-picker .ui-datepicker td.ui-datepicker-other-month a.ui-state-hover{
+  opacity: 1;
+}
+
+.wc-bookings-date-picker .ui-datepicker td.bookable a,
+.wc-bookings-date-picker .ui-datepicker .ui-state-default,
+.wc-bookings-date-picker .ui-datepicker td .ui-state-default {
+  background-color: transparent !important;
+  border: 0!important;
+  color: inherit !important;
+  padding: 9px 0;
+  text-align: center;
+  font-weight: 400;
+  text-shadow: none;
+}
+
+.wc-bookings-date-picker .ui-datepicker .ui-datepicker-prev,
+.wc-bookings-date-picker .ui-datepicker .ui-datepicker-next {
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3em;
+  height: 100%;
+  line-height: 1.3;
+  text-align: center;
+  background: transparent;
+  border: none !important;
+}
+
+.wc-bookings-date-picker .ui-datepicker .ui-datepicker-prev:before,
+.wc-bookings-date-picker .ui-datepicker .ui-datepicker-next:before {
+  display: inline-block;
+  font-family: 'Linearicons';
+  font-size: 16px;
+  color: #a5a5a5;
+  line-height: 2.8em;
+  vertical-align: middle;
+  content: '\e93b';
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wc-bookings-date-picker .ui-datepicker .ui-datepicker-next {
+  left: auto;
+  right: 0;
+}
+.wc-bookings-date-picker .ui-datepicker .ui-datepicker-next:before {
+  content: "\e93c";
+}
+
+.wc-bookings-date-picker .ui-datepicker .ui-datepicker-prev.ui-state-disabled,
+.wc-bookings-date-picker .ui-datepicker .ui-datepicker-next.ui-state-disabled {
+  opacity: 0.4 !important;
+}
+
+.wc-bookings-date-picker .ui-datepicker .ui-datepicker-prev.ui-state-hover,
+.wc-bookings-date-picker .ui-datepicker .ui-datepicker-next.ui-state-hover
+{
+  opacity: 1;
+  background: none;
+}
+
+.wc-bookings-date-picker .ui-datepicker .ui-datepicker-prev span,
+.wc-bookings-date-picker .ui-datepicker .ui-datepicker-next span {
+  display: none;
+}
+
+.wc-bookings-date-picker .ui-datepicker td.bookable-range .ui-state-default,
+.wc-bookings-date-picker .ui-datepicker td.ui-datepicker-current-day a,
+.wc-bookings-date-picker .ui-datepicker table .bookable-range a,
+.wc-bookings-date-picker .ui-datepicker table .ui-datepicker-current-day a {
+  background: transparent !important;
+  color: #fff !important;
+  position: relative;
+}
+
+.wc-bookings-date-picker .ui-datepicker td { position: relative; }
+
+.wc-bookings-date-picker .ui-datepicker td.fully_booked a,
+.wc-bookings-date-picker .ui-datepicker td.fully_booked span {
+  background-color: transparent !important;
+  text-shadow: none;
+  position: relative;
+  z-index: 1;
+  color: #fff !important;
+}
+
+.wc-bookings-date-picker .ui-datepicker table .bookable-range a:before,
+.wc-bookings-date-picker .ui-datepicker table .ui-datepicker-current-day a:before,
+.wc-bookings-date-picker .ui-datepicker td.ui-datepicker-today > a.ui-state-hover:before,
+.wc-bookings-date-picker .ui-datepicker td > a:before,
+.wc-bookings-date-picker .ui-datepicker td.partial_booked a:before {
+  background-color: #70af1a;
+}
+
+.wc-bookings-date-picker .ui-datepicker td.fully_booked a:before,
+.wc-bookings-date-picker .ui-datepicker td.fully_booked span:before
+{
+  content: '';
+  opacity: 1;
+  cursor: default;
+  background-color: #c0392b;
+}
+
+.wc-bookings-date-picker.wc-bookings-date-picker {
+  margin-bottom: 14px;
+  line-height: inherit;
+}
+.wc-bookings-booking-form fieldset .picker.hasDatepicker {
+  line-height: inherit;
+  margin-bottom: 0;
+}
+
+.wc-bookings-booking-form .wc-bookings-booking-cost {
+  background: transparent !important;
+  padding: 0;
+  border: 0;
+  margin: 0 0 1.5em 0;
+}
+
+.wc-bookings-booking-cost .amount {
+  font-size: 18px;
+  color: #70af1a;
+  font-weight: 700;
+}
+
+*/
+
+.arrow {
+  font-size:25px!important;
+}
+
+#wc-bookings-booking-form .block-picker li a:hover {
+  background-color: #70af1a !important;
+}
+
+#wc-bookings-booking-form .wc-bookings-date-picker .ui-datepicker td.bookable a {
+  background-color: #70af1a !important;
+}
+#wc-bookings-booking-form .wc-bookings-date-picker .ui-datepicker td.ui-datepicker-current-day a {
+  background-color: #558613 !important; 
+} 
+
+/* Available calendar day hover background color */
+#wc-bookings-booking-form .wc-bookings-date-picker .ui-datepicker td.bookable a:hover {
+  background-color: #558613 !important;
+}
+.wc-bookings-booking-form .wc-bookings-booking-cost {
+  
+  margin: 0 0 1.5em 0;
+}
+.wc-bookings-booking-cost .amount {
+  font-size: 18px;
+  color: #70af1a;
+  font-weight: 700;
+}
+
+
+/* CART */
+
+.woocommerce-message { display: none;  }
+.woocommerce-cart.full-width-content .content,
+.woocommerce-checkout.full-width-content .content { max-width: 100%; }
+
+.woocommerce-cart .woocommerce table.shop_table td.actions {
+  border-top: 1px solid #e6e6e6;
+  background: #f7f7f7;
+  border-bottom: 0px solid #e6e6e6;
+}
+.woocommerce-cart .entry-content form { width: 60%; float: left;  }
+.woocommerce-cart .woocommerce .cart-collaterals {
+    width: 33%;
+  float: right;
+}
+.woocommerce-cart .woocommerce .cart-collaterals h2 { display: none;  }
+.woocommerce-cart .woocommerce .cart-collaterals .cart_totals { width: 100%; }
+.woocommerce-checkout-payment {
+  clear:both!important;
+}
+
+#add_payment_method .cart-collaterals .cart_totals tr th,
+.woocommerce-cart .cart-collaterals .cart_totals tr th, 
+.woocommerce-checkout .cart-collaterals .cart_totals tr th,
+#add_payment_method table.cart th, 
+.woocommerce-cart table.cart th, 
+.woocommerce-checkout table.cart th,
+.woocommerce-checkout table.shop_table th { color: #000; font-size: 14px; font-size: 1.4rem; }
+
+#add_payment_method .cart-collaterals .cart_totals tr td, 
+.woocommerce-cart .cart-collaterals .cart_totals tr td, 
+.woocommerce-checkout .cart-collaterals .cart_totals tr td, 
+#add_payment_method table.cart td,
+.woocommerce-cart table.cart td,
+.woocommerce-checkout table.cart td,
+.woocommerce-checkout table.shop_table td { color: #555; font-size: 16px; font-size: 1.6rem; }
+
+.woocommerce-cart .woocommerce table.shop_table th {   border-bottom: 1px solid #e6e6e6; }
+
+.woocommerce-cart .woocommerce table.shop_table,
+.woocommerce-checkout .woocommerce table.shop_table {
+  border: 1px solid #e6e6e6;
+  margin: 0;
+  text-align: left;
+  width: 100%;
+  border-collapse: separate;
+  border-radius: 0;
+  
+    border-right: none;
+     margin-bottom: 35px;
+      border-bottom: 1px solid #e6e6e6;
+}
+
+body #add_payment_method #payment ul.payment_methods li input, 
+body.woocommerce-cart #payment ul.payment_methods li input, 
+body.woocommerce-checkout #payment ul.payment_methods li input { width: auto;   margin: -2px .5em 0 0; }
+
+/*body .woocommerce form .form-row .input-checkbox { width: auto;  margin: -2px 5px 0 0; }*/
+
+#add_payment_method .cart-collaterals .cart_totals tr td, 
+#add_payment_method .cart-collaterals .cart_totals tr th, 
+body.woocommerce-cart .cart-collaterals .cart_totals tr td, 
+body.woocommerce-cart .cart-collaterals .cart_totals tr th, 
+body.woocommerce-checkout .cart-collaterals .cart_totals tr td, 
+body.woocommerce-checkout .cart-collaterals .cart_totals tr th,
+body .woocommerce table.shop_table th { 
+  border-top: none; 
+  border-bottom: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  text-align: right;
+  padding: 10px 20px;
+}
+
+body #add_payment_method table.cart td, 
+body #add_payment_method table.cart th, 
+body.woocommerce-cart table.cart td, 
+body.woocommerce-cart table.cart th, 
+body.woocommerce-checkout table.cart td, 
+body.woocommerce-checkout table.cart th { border-right: 1px solid #e6e6e6; }
+
+#add_payment_method .cart-collaterals .cart_totals tr th, 
+body.woocommerce-cart .cart-collaterals .cart_totals tr th, 
+body.woocommerce-checkout .cart-collaterals .cart_totals tr th { }
+
+.woocommerce-cart .cart-collaterals .cart_totals table th { border-bottom: 1px solid #e6e6e6;  }
+
+body .woocommerce #respond input#submit.alt, 
+body .woocommerce a.button.alt, 
+body .woocommerce button.button.alt, 
+body .woocommerce input.button.alt {
+  background: #d13060!important; 
+  font-weight: 500;
+}
+
+body .woocommerce #respond input#submit.alt:hover, 
+body .woocommerce a.button.alt:hover, 
+body .woocommerce button.button.alt:hover, 
+body .woocommerce input.button.alt:hover {
+  background: #70af1a !important; 
+}
+
+body .woocommerce .cart .button, 
+body .woocommerce .cart input.button,
+body .woocommerce #respond input#submit, 
+body .woocommerce a.button, 
+body .woocommerce button.button, 
+body .woocommerce input.button { background: #d13060 !important; color: #fff; font-weight: 500;   border-radius: 40px; }
+
+body .woocommerce #payment #place_order, .woocommerce-page #payment #place_order {
+  float: right;
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 1.25em;
+  padding: 1em;
+  border-radius: 40px;
+  margin-top: .5em;
+}
+
+body .woocommerce form .form-row-first, 
+body .woocommerce form .form-row-last, 
+body .woocommerce-page form .form-row-first, 
+body .woocommerce-page form .form-row-last { width: 49%; }
+
+body .woocommerce #respond input#submit.disabled, 
+body .woocommerce #respond input#submit:disabled, 
+body .woocommerce #respond input#submit:disabled[disabled], 
+body .woocommerce a.button.disabled, 
+body .woocommerce a.button:disabled, 
+body .woocommerce a.button:disabled[disabled], 
+body .woocommerce button.button.disabled, 
+body .woocommerce button.button:disabled, 
+body .woocommerce button.button:disabled[disabled], 
+body .woocommerce input.button.disabled, 
+body .woocommerce input.button:disabled, 
+body .woocommerce input.button:disabled[disabled] { background: #ccc; }
+
+
+body .woocommerce a.checkout-button.button.alt { border-radius: 40px; width:100%;margin-bottom:10px!important;max-width:500px !important; }
+
+body .woocommerce #content table.cart td.actions .coupon, 
+body .woocommerce table.cart td.actions .coupon { width: 68%; }
+
+body #add_payment_method table.cart td.actions .coupon .input-text, 
+body.woocommerce-cart table.cart td.actions .coupon .input-text, 
+body.woocommerce-checkout table.cart td.actions .coupon .input-text {
+  padding: 8px 6px 7px;
+  width: 65%;
+}
+
+body .woocommerce table.shop_table td { padding: 15px; }
+
+body .woocommerce-checkout table.shop_table td { text-align: right;
+  border-right: 1px solid #e6e6e6;   border-top: 0; }
+
+.woocommerce a.remove { margin: 0 auto;  }
+.woocommerce-cart .woocommerce table.shop_table th.product-remove,
+.woocommerce-cart .woocommerce table.shop_table th.product-name { text-align: center; }
+.woocommerce-cart .woocommerce table.shop_table th.product-price,
+.woocommerce-cart .woocommerce table.shop_table th.product-quantity,
+.woocommerce-cart .woocommerce table.shop_table th.product-subtotal { text-align: right; }
+
+.woocommerce-cart .woocommerce table.shop_table .cart_item td.product-price,
+.woocommerce-cart .woocommerce table.shop_table .cart_item td.product-quantity,
+.woocommerce-cart .woocommerce table.shop_table .cart_item td.product-subtotal { text-align: right; }
+
+.woocommerce-checkout #add_payment_method #payment ul.payment_methods li, 
+.woocommerce-checkout #payment ul.payment_methods li { list-style: none; }
+
+.woocommerce-checkout .woocommerce .col2-set { width: 47.8260869565%; float: left; margin-right: 4.347826087%; }
+.woocommerce-checkout .woocommerce .col2-set .col-1,
+.woocommerce-checkout .woocommerce .col2-set .col-2 { margin-bottom: 2em; width: 100%; float: none; }
+.woocommerce-checkout #order_review_heading,
+.woocommerce-checkout #order_review { background: #fff; width: 47.8260869565%; float: right; margin-right: 0; }
+.woocommerce-checkout #ship-to-different-address-checkbox { width: auto; float: right; margin-left: 15px; margin-top: 10px; opacity: 1; position: static; }
+.woocommerce-checkout #ship-to-different-address label { font-size: 24px;   font-weight: 700; line-height: 1; margin: 0; margin-bottom: 1em; padding: 0; text-transform: uppercase; color: #000; }
+.woocommerce-checkout .woocommerce form .form-row.create-account label { padding-top: 2px; font-weight: bold; }
+
+.woocommerce-checkout .payment-fixed { position: fixed; z-index: 9; box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 2em; left: 52%; margin-left: 0; padding: 20px; top: 0; width: 45.5% !important; -webkit-transition: padding .1s ease-in; -moz-transition: padding .1s ease-in; -o-transition: padding .1s ease-in; -ms-transition: padding .1s ease-in; transition: padding .1s ease-in; }
+
+.product-shipping-message { font-size: 16px; text-align: center; text-transform: uppercase; padding: 10px 0px; border-top: 1px solid #139248; border-bottom: 1px solid #139248; }
+
+
+
+body .woocommerce form .form-row input.input-text, 
+body .woocommerce form .form-row textarea { max-width: 100%; }
+
+body .woocommerce .product-name a { color: #000; pointer-events: none; cursor: default; }
+
+#product-4786 {
+
+ background-color: white !important;
+  
+}
+.gift-cards_form:before {
+
+ content :"Créez votre carte cadeau :";
+  font-size:20px !important;
+  display:block;
+  height:1em;
+  margin-bottom:10px!important;
+  margin-top:30px!important;
+  
+}
+.gift-cards_form {
+
+ width: 500px !important;
+ margin-left:auto;
+ margin-right:auto;
+  
+}
+
+.ywgc-template {
+
+ padding : 0px !important;
+  
+}
+
+.ywgc-product-picture {
+
+ display:none!important;
+  
+}
+
+.ywgc-design-type, .ywgc-default-picture {
+
+ float:left !important;
+  
+}
+
+.gift_card_template_button {
+
+ text-align:right !important;
+  
+}
+
+.ywgc-preview {
+
+ text-align:left !important;
+  
+}
+
+@media only screen and (max-width: 1139px) {
+  .woocommerce-cart .entry-content form { width: 64%; }
+}
+
+@media only screen and (max-width: 980px) {
+
+  .woocommerce-cart .entry-content form {
+    width: 80%;
+    float: none;
+    margin: 0 auto;
+  }
+  .woocommerce-cart .woocommerce .cart-collaterals {
+    width: 80%;
+    float: None;
+    margin: auto;
+  }
+  body .woocommerce #content table.cart td.actions .coupon, body .woocommerce table.cart td.actions .coupon { width: 100%; }
+  body #add_payment_method table.cart td.actions .coupon .input-text, body.woocommerce-cart table.cart td.actions .coupon .input-text, body.woocommerce-checkout table.cart td.actions .coupon .input-text { width: 48%; }
+}
+
+@media only screen and (max-width: 650px) {
+  .cart-assurance {
+    display:none !important;
+  }
+  .gift-cards_form {
+
+   width: 100% !important;
+   margin-left:auto;
+   margin-right:auto;
+    
+  }
+  .woocommerce-cart .entry-content form {
+    width: 100%;
+
+  }
+  .woocommerce-cart .woocommerce .cart-collaterals {
+    width: 100%;
+
+  }
+
+  .woocommerce-checkout .woocommerce .col2-set { width: 100%; float: none; margin-right: 0;  }
+  .woocommerce-checkout #order_review_heading, 
+  .woocommerce-checkout #order_review { width: 100%; float: none; }
+  
+}
+
+.woocommerce-checkout-payment {
+  clear:both !important;
+  margin-top:30px !important;
+}
+
+.woocommerce-checkout-review-order {
+  padding-bottom:30px !important;
+}
+
+#order_review_heading {
+  height:80px!important;
+  padding-top:30px !important;
+  padding-left:5px !important;
+  margin-bottom:0px!important;
+}
+
+.woocommerce-form__label-for-checkbox {
+  margin-left:30px !important;
+}
+
+.woocommerce-shipping-fields {
+  display:none!important;
+}
+
+body .woocommerce table.shop_table tbody tr, 
+table.shop_table tbody tr,
+.product-name, .product-total,
+body .woocommerce table.shop_table tfoot td, 
+body .woocommerce table.shop_table tfoot th { border-bottom: 1px solid #e6e6e6 !important; }
+
+.product-name {
+  text-align:left!important;
+}
+.wc-bookings-booking-form {
+position : relative;
+
+}
+.wc_bookings_field_persons_4170 > label, .wc_bookings_field_persons_4171 >  label, .wc_bookings_field_persons_4172 >  label, .wc_bookings_field_persons_4173 > label, .wc_bookings_field_persons_4202 > label, .wc_bookings_field_persons_4204 > label, .wc_bookings_field_persons_4391 > label, .wc_bookings_field_persons_4390 > label,  .wc_bookings_field_persons_4392 > label {
+
+  font-weight:bold !important;
+  margin-top :8px !important;
+  margin-right:10px !important;
+
+}
+
+
+
+
+.wc_bookings_field_persons_4170 > input, .wc_bookings_field_persons_4171 > input, .wc_bookings_field_persons_4172 >  input, .wc_bookings_field_persons_4173 >  input, .wc_bookings_field_persons_4202 > input, .wc_bookings_field_persons_4204 > input, .wc_bookings_field_persons_4391 > input, .wc_bookings_field_persons_4390 > input,  .wc_bookings_field_persons_4392 > input{
+  position:absolute!important;
+  right :0px !important;
+  width:100px !important;
+
+}
+
+.wc_bookings_field_persons_4170:after {
+  content :"2 Adultes + 2 enfants de 4 à 12 ans";
+  font-size:12px !important;
+  display:block;
+  height:1em;
+  margin-top:5px!important;
+  
+
+}
+
+.wc_bookings_field_persons_4171:after {
+  content :"Tarif individuel";
+  font-size:12px !important;
+  display:block;
+  height:1em;
+  margin-top:5px!important;
+  
+}
+
+.wc_bookings_field_persons_4172:after {
+  content :"Accessible sur justificatif, les Meldois, étudiants, demandeurs d'emploi, personnes handicapées, anciens combattants";
+  font-size:12px !important;
+  display:block;
+  height:1em;
+  margin-top:20px!important;
+  line-height: 1;
+
+}
+
+.wc_bookings_field_persons_4173 {
+
+  height:50px !important;
+  border-bottom : 1px solid #dedede;
+}
+.wc_bookings_field_persons_4191, .wc_bookings_field_persons_4192, .wc_bookings_field_persons_4190 {
+
+  height:50px !important;
+  border-bottom : 1px solid #dedede;
+}
+
+.wc_bookings_field_persons_4172{
+
+
+  border-bottom : 1px solid #dedede;
+  height:100px !important;
+}
+
+
+.wc_bookings_field_persons_4171 {
+
+ height:70px !important;
+  border-bottom : 1px solid #dedede;
+}
+
+.wc_bookings_field_persons_4170 {
+
+  height:70px !important;
+  border-bottom : 1px solid #dedede;
+}
+
+.wc_bookings_field_persons_4204 {
+
+ height:50px !important;
+  border-bottom : 1px solid #dedede;
+}
+
+.wc_bookings_field_persons_4202 {
+
+  height:60px !important;
+  border-bottom : 1px solid #dedede;
+}
+
+.wc_bookings_field_persons_4202:after {
+  content :"Enfants de 6 à 12 ans";
+  font-size:12px !important;
+  display:block;
+  height:1em;
+  margin-top:10px!important;
+  line-height: 1;
+
+}
+
+.container_video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+p.form-field-wide > label {
+  font-weight:bold !important;
+  margin-top :8px !important;
+  margin-right:10px !important;
+
+}
+
+p.form-field-wide > input {
+   position:absolute!important;
+  right :0px !important;
+  width:100px !important;
+
+}
+
+p.form-field-wide {
+
+ height:40px !important;
+  
+}
+
+p.form-field-wide:after {
+
+ clear:both !important;
+  
+}
+
+.link_category {
+
+ color:black!important;
+  
+}
+
+.link_category:hover{
+
+ text-decoration: underline!important;
+  
+}
+
+.woocommerce-MyAccount-navigation-link--gift-cards {
+
+ display:none!important;
+  
+}
+
+.wp-job-manager-showing-all {
+
+ display:none!important;
+  
+}
+
+.job_filters .search_jobs div.search_categories,
+  .job_filters .search_jobs div.search_keywords,
+  .job_filters .search_jobs div.search_location {
+    width: 33.3333333% !important;
+  }
+.job_types {
+
+ display:none!important;
+  
+}
+
+h2.job_summary_title {
+ margin-top:20px!important;
+ font-size:18px!important;
+  
+}
+
+.delete {
+  cursor:pointer;
+
+}
+
+.delete:hover {
+  color:#FF0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
